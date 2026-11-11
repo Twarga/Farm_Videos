@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Explainer shorts — drawn entirely with code</title>
+<style>
+  :root { color-scheme: dark; --bg:#14110f; --card:#1f1a17; --line:#3a312b; --fg:#f3ead9; --mut:#b3a58f; --acc:#e4573d; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.5 system-ui, sans-serif; }
+  main { max-width:520px; margin:0 auto; padding:24px 16px 64px; }
+  h1 { font-size:1.6rem; margin:0 0 4px; }
+  p.sub { color:var(--mut); margin:0 0 8px; }
+  p.back { margin:18px 0 0; }
+  a { color:var(--acc); }
+  .vid { margin:36px 0 0; }
+  .vid h2 { font-size:1.15rem; margin:0 0 2px; }
+  .vid p { color:var(--mut); font-size:.9rem; margin:0 0 10px; }
+  .vid .dur { color:var(--acc); font-weight:600; }
+  .frame { background:#000; border:1px solid var(--line); border-radius:14px; overflow:hidden; }
+  video { display:block; width:100%; height:auto; background:#000; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Explainer shorts</h1>
+  <p class="sub">Every frame drawn in code (canvas JS, no images). Voice: local Kokoro. Music &amp; sfx: synthesized in code. Made on this machine with Claude Code.</p>
+
+  <section class="vid">
+    <h2>1 · Where does your money go?</h2>
+    <p><span class="dur">42s</span> — You deposit $100. It's not in a vault. Banks keep a slice and lend the rest — and when the Fed cut the slice to 0%, the lending didn't stop.</p>
+    <div class="frame"><video controls playsinline preload="metadata" src="bank.mp4"></video></div>
+  </section>
+
+  <section class="vid">
+    <h2>2 · What is money, anyway?</h2>
+    <p><span class="dur">44s</span> — Paper money is just paper. Most "money" is numbers in a bank's ledger, created when banks make loans. Money is a shared promise.</p>
+    <div class="frame"><video controls playsinline preload="metadata" src="money.mp4"></video></div>
+  </section>
+
+  <section class="vid">
+    <h2>3 · Why can't we just print more money?</h2>
+    <p><span class="dur">43s</span> — Prices aren't fixed. Zimbabwe printed a $100-trillion note in 2009, then quietly abandoned its own currency.</p>
+    <div class="frame"><video controls playsinline preload="metadata" src="print.mp4"></video></div>
+  </section>
+
+  <section class="vid">
+    <h2>4 · What actually happened in 2008?</h2>
+    <p><span class="dur">44s</span> — Banks ground bad mortgages into "safe" packages. When homeowners stopped paying, Lehman fell and taxpayers paid $700B.</p>
+    <div class="frame"><video controls playsinline preload="metadata" src="crash.mp4"></video></div>
+  </section>
+
+  <section class="vid">
+    <h2>5 · The most powerful force in finance is boring</h2>
+    <p><span class="dur">47s</span> — $100 a month at 7% for 40 years is $262,000. Your money makes babies, and the babies make babies. Time is the ingredient.</p>
+    <div class="frame"><video controls playsinline preload="metadata" src="compound.mp4"></video></div>
+  </section>
+
+  <section class="vid">
+    <h2>6 · One number runs your life</h2>
+    <p><span class="dur">44s</span> — A credit score is just a prediction: will you pay back? Payment history is 35% of it — and the score exists for the lender, not you.</p>
+    <div class="frame"><video controls playsinline preload="metadata" src="credit.mp4"></video></div>
+  </section>
+
+  <section class="vid">
+    <h2>7 · How insurers get rich</h2>
+    <p><span class="dur">44s</span> — Premiums pool risk, but the real profit machine is investing the pool while it sits there — what Buffett calls "float".</p>
+    <div class="frame"><video controls playsinline preload="metadata" src="insurance.mp4"></video></div>
+  </section>
+
+  <section class="vid">
+    <h2>8 · Where do your taxes actually go?</h2>
+    <p><span class="dur">47s</span> — Slice a federal tax dollar: Social Security, health, defense — and a 13¢ strip called interest that just overtook the Pentagon.</p>
+    <div class="frame"><video controls playsinline preload="metadata" src="taxes.mp4"></video></div>
+  </section>
+
+  <section class="vid">
+    <h2>9 · A stock is just a tiny slice</h2>
+    <p><span class="dur">48s</span> — Not a lottery ticket: a share is 1% of a real shop's ovens, debt, and profits. Price swings daily; the business earns slowly.</p>
+    <div class="frame"><video controls playsinline preload="metadata" src="stocks.mp4"></video></div>
+  </section>
+
+  <section class="vid">
+    <h2>10 · One committee, all your prices</h2>
+    <p><span class="dur">49s</span> — 12 unelected people set one number — the overnight bank rate. In 2022–23 they cranked it 0% → 5.5%, fastest in 40 years.</p>
+    <div class="frame"><video controls playsinline preload="metadata" src="fed.mp4"></video></div>
+  </section>
+
+  <p class="back"><a href="https://github.com/Twarga/Farm_Videos">Source on GitHub</a></p>
+</main>
+</body>
+</html>
