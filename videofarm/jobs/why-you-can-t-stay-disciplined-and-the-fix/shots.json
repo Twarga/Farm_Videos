@@ -424,7 +424,265 @@
     null,
     null,
     null,
-    null,
+    {
+      "name": "7. Find The Repeating Obstacle",
+      "intro": false,
+      "outfit": "No clothes, plain stick figure holding a calendar and a pen.",
+      "color": "#1BA6B0",
+      "icon": "7. Find The Repeating Obstacle",
+      "shots": [
+        {
+          "kind": "image",
+          "scene": "Black-and-white wide shot of a kitchen: an unclothed stick figure sits at the table, holding a calendar and pen, with a quiet, slightly worried expression.",
+          "text": "SUNDAY",
+          "camera": "pull",
+          "line": "You're at your kitchen table on Sunday.",
+          "prompt": "Classic stickman-animation YouTube style in exactly the same art style as the reference image: black ink line art on cream off-white paper, uniform thick black strokes, monochrome black-and-white, clean simple line-art background, soft dark vignette at the edges, no color. When the main character appears he is EXACTLY the stick figure from the reference image: a perfect circle head, two small black dot eyes, a simple one-line mouth and small eyebrow lines for emotion, thin stick limbs. No clothes, plain stick figure holding a calendar and a pen.. Other people are stick figures in the same style. 16:9 landscape composition. One clear moment, big readable subject, simple line-art set (room, street, office) only when the scene needs it. The only text allowed in the image is: SUNDAY — spelled exactly like that in simple black hand lettering. No other text. SCENE: Black-and-white wide shot of a kitchen: an unclothed stick figure sits at the table, holding a calendar and pen, with a quiet, slightly worried expression.",
+          "image": "b2de057e5c94e154"
+        },
+        {
+          "kind": "image",
+          "scene": "Overhead close shot at the kitchen table: the stick figure studies last week's calendar, where small book icons sit beside empty completion boxes; his lowered eyebrows show disappointment.",
+          "text": "",
+          "camera": "push",
+          "line": "Your calendar shows another week of missed reading sessions.",
+          "prompt": "Classic stickman-animation YouTube style in exactly the same art style as the reference image: black ink line art on cream off-white paper, uniform thick black strokes, monochrome black-and-white, clean simple line-art background, soft dark vignette at the edges, no color. When the main character appears he is EXACTLY the stick figure from the reference image: a perfect circle head, two small black dot eyes, a simple one-line mouth and small eyebrow lines for emotion, thin stick limbs. No clothes, plain stick figure holding a calendar and a pen.. Other people are stick figures in the same style. 16:9 landscape composition. One clear moment, big readable subject, simple line-art set (room, street, office) only when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Overhead close shot at the kitchen table: the stick figure studies last week's calendar, where small book icons sit beside empty completion boxes; his lowered eyebrows show disappointment.",
+          "image": "5665ebebe5657034"
+        },
+        {
+          "kind": "image",
+          "scene": "Tight overhead shot of the kitchen table: the stick figure uses his pen to circle several empty calendar boxes; his face, visible at the frame's edge, looks intent and troubled.",
+          "text": "",
+          "camera": "still",
+          "line": "You circle the empty boxes.",
+          "prompt": "Classic stickman-animation YouTube style in exactly the same art style as the reference image: black ink line art on cream off-white paper, uniform thick black strokes, monochrome black-and-white, clean simple line-art background, soft dark vignette at the edges, no color. When the main character appears he is EXACTLY the stick figure from the reference image: a perfect circle head, two small black dot eyes, a simple one-line mouth and small eyebrow lines for emotion, thin stick limbs. No clothes, plain stick figure holding a calendar and a pen.. Other people are stick figures in the same style. 16:9 landscape composition. One clear moment, big readable subject, simple line-art set (room, street, office) only when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Tight overhead shot of the kitchen table: the stick figure uses his pen to circle several empty calendar boxes; his face, visible at the frame's edge, looks intent and troubled.",
+          "image": "fd5006fb017e97da"
+        },
+        {
+          "kind": "image",
+          "scene": "Medium shot at the kitchen table: the stick figure sets down his pen, then links missed calendar boxes to repeated late-night work symbols with his fingertip, brow furrowed.",
+          "text": "LATE WORK",
+          "camera": "right",
+          "line": "Every miss follows a late work night.",
+          "prompt": "Classic stickman-animation YouTube style in exactly the same art style as the reference image: black ink line art on cream off-white paper, uniform thick black strokes, monochrome black-and-white, clean simple line-art background, soft dark vignette at the edges, no color. When the main character appears he is EXACTLY the stick figure from the reference image: a perfect circle head, two small black dot eyes, a simple one-line mouth and small eyebrow lines for emotion, thin stick limbs. No clothes, plain stick figure holding a calendar and a pen.. Other people are stick figures in the same style. 16:9 landscape composition. One clear moment, big readable subject, simple line-art set (room, street, office) only when the scene needs it. The only text allowed in the image is: LATE WORK — spelled exactly like that in simple black hand lettering. No other text. SCENE: Medium shot at the kitchen table: the stick figure sets down his pen, then links missed calendar boxes to repeated late-night work symbols with his fingertip, brow furrowed.",
+          "image": "9380d9479c90107e"
+        },
+        {
+          "kind": "image",
+          "scene": "Side close shot at the kitchen table: the stick figure reaches across the calendar toward the resting pen, leaning forward with pursed lips and a determined frown.",
+          "text": "",
+          "camera": "push",
+          "line": "You reach for a pen.",
+          "prompt": "Classic stickman-animation YouTube style in exactly the same art style as the reference image: black ink line art on cream off-white paper, uniform thick black strokes, monochrome black-and-white, clean simple line-art background, soft dark vignette at the edges, no color. When the main character appears he is EXACTLY the stick figure from the reference image: a perfect circle head, two small black dot eyes, a simple one-line mouth and small eyebrow lines for emotion, thin stick limbs. No clothes, plain stick figure holding a calendar and a pen.. Other people are stick figures in the same style. 16:9 landscape composition. One clear moment, big readable subject, simple line-art set (room, street, office) only when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Side close shot at the kitchen table: the stick figure reaches across the calendar toward the resting pen, leaning forward with pursed lips and a determined frown.",
+          "image": "e7a30ca6634f217b"
+        },
+        {
+          "kind": "image",
+          "scene": "Medium over-the-shoulder shot at the kitchen table: the stick figure writes another reminder as illegible strokes on his calendar, gripping the pen tightly, with a stern profile.",
+          "text": "",
+          "camera": "left",
+          "line": "You start writing another reminder to try harder.",
+          "prompt": "Classic stickman-animation YouTube style in exactly the same art style as the reference image: black ink line art on cream off-white paper, uniform thick black strokes, monochrome black-and-white, clean simple line-art background, soft dark vignette at the edges, no color. When the main character appears he is EXACTLY the stick figure from the reference image: a perfect circle head, two small black dot eyes, a simple one-line mouth and small eyebrow lines for emotion, thin stick limbs. No clothes, plain stick figure holding a calendar and a pen.. Other people are stick figures in the same style. 16:9 landscape composition. One clear moment, big readable subject, simple line-art set (room, street, office) only when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Medium over-the-shoulder shot at the kitchen table: the stick figure writes another reminder as illegible strokes on his calendar, gripping the pen tightly, with a stern profile.",
+          "image": "6e635522ec750d95"
+        },
+        {
+          "kind": "image",
+          "scene": "Extreme close-up of his face, at the kitchen table: he looks toward the calendar with an uneasy half-smile of relief, while his pen hovers above its edge.",
+          "text": "",
+          "camera": "push",
+          "line": "That feels simpler than asking what keeps getting in your way.",
+          "prompt": "Classic stickman-animation YouTube style in exactly the same art style as the reference image: black ink line art on cream off-white paper, uniform thick black strokes, monochrome black-and-white, clean simple line-art background, soft dark vignette at the edges, no color. When the main character appears he is EXACTLY the stick figure from the reference image: a perfect circle head, two small black dot eyes, a simple one-line mouth and small eyebrow lines for emotion, thin stick limbs. No clothes, plain stick figure holding a calendar and a pen.. Other people are stick figures in the same style. 16:9 landscape composition. One clear moment, big readable subject, simple line-art set (room, street, office) only when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Extreme close-up of his face, at the kitchen table: he looks toward the calendar with an uneasy half-smile of relief, while his pen hovers above its edge.",
+          "image": "37f2cc181f06f9a2"
+        },
+        {
+          "kind": "image",
+          "scene": "Medium shot at the kitchen table: the stick figure points his pen accusingly at his own chest while shielding an unchanged calendar with his other hand, wearing a guilty frown.",
+          "text": "",
+          "camera": "still",
+          "line": "Blaming yourself lets you leave the plan untouched.",
+          "prompt": "Classic stickman-animation YouTube style in exactly the same art style as the reference image: black ink line art on cream off-white paper, uniform thick black strokes, monochrome black-and-white, clean simple line-art background, soft dark vignette at the edges, no color. When the main character appears he is EXACTLY the stick figure from the reference image: a perfect circle head, two small black dot eyes, a simple one-line mouth and small eyebrow lines for emotion, thin stick limbs. No clothes, plain stick figure holding a calendar and a pen.. Other people are stick figures in the same style. 16:9 landscape composition. One clear moment, big readable subject, simple line-art set (room, street, office) only when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Medium shot at the kitchen table: the stick figure points his pen accusingly at his own chest while shielding an unchanged calendar with his other hand, wearing a guilty frown.",
+          "image": "b5e4bff574b6e033"
+        },
+        {
+          "kind": "image",
+          "scene": "Overhead shot at the kitchen table: the stick figure draws book icons directly after repeated briefcase-marked work blocks on his calendar, using the pen with a stubborn, tight-lipped expression.",
+          "text": "",
+          "camera": "right",
+          "line": "You keep scheduling reading after work.",
+          "prompt": "Classic stickman-animation YouTube style in exactly the same art style as the reference image: black ink line art on cream off-white paper, uniform thick black strokes, monochrome black-and-white, clean simple line-art background, soft dark vignette at the edges, no color. When the main character appears he is EXACTLY the stick figure from the reference image: a perfect circle head, two small black dot eyes, a simple one-line mouth and small eyebrow lines for emotion, thin stick limbs. No clothes, plain stick figure holding a calendar and a pen.. Other people are stick figures in the same style. 16:9 landscape composition. One clear moment, big readable subject, simple line-art set (room, street, office) only when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Overhead shot at the kitchen table: the stick figure draws book icons directly after repeated briefcase-marked work blocks on his calendar, using the pen with a stubborn, tight-lipped expression.",
+          "image": "d6ae7f853c5c41c3"
+        },
+        {
+          "kind": "image",
+          "scene": "Wide evening shot at the kitchen table: the stick figure slumps over a calendar beside an unopened book, staring at its marked reading slot with hollow eyes and limp arms.",
+          "text": "",
+          "camera": "pull",
+          "line": "You keep reaching that slot with nothing left.",
+          "prompt": "Classic stickman-animation YouTube style in exactly the same art style as the reference image: black ink line art on cream off-white paper, uniform thick black strokes, monochrome black-and-white, clean simple line-art background, soft dark vignette at the edges, no color. When the main character appears he is EXACTLY the stick figure from the reference image: a perfect circle head, two small black dot eyes, a simple one-line mouth and small eyebrow lines for emotion, thin stick limbs. No clothes, plain stick figure holding a calendar and a pen.. Other people are stick figures in the same style. 16:9 landscape composition. One clear moment, big readable subject, simple line-art set (room, street, office) only when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Wide evening shot at the kitchen table: the stick figure slumps over a calendar beside an unopened book, staring at its marked reading slot with hollow eyes and limp arms.",
+          "image": "1d9ba7d510448155"
+        },
+        {
+          "kind": "image",
+          "scene": "Medium kitchen shot: his unclothed stick-figure partner studies a stack of unopened books with concern; he sits nearby clutching the calendar and pen, eyes lowered in embarrassment.",
+          "text": "",
+          "camera": "left",
+          "line": "Your partner sees books piling up.",
+          "prompt": "Classic stickman-animation YouTube style in exactly the same art style as the reference image: black ink line art on cream off-white paper, uniform thick black strokes, monochrome black-and-white, clean simple line-art background, soft dark vignette at the edges, no color. When the main character appears he is EXACTLY the stick figure from the reference image: a perfect circle head, two small black dot eyes, a simple one-line mouth and small eyebrow lines for emotion, thin stick limbs. No clothes, plain stick figure holding a calendar and a pen.. Other people are stick figures in the same style. 16:9 landscape composition. One clear moment, big readable subject, simple line-art set (room, street, office) only when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Medium kitchen shot: his unclothed stick-figure partner studies a stack of unopened books with concern; he sits nearby clutching the calendar and pen, eyes lowered in embarrassment.",
+          "image": "2aaeb53563409503"
+        },
+        {
+          "kind": "image",
+          "scene": "Medium two-shot at the kitchen table: the stick figure raises one hand in another earnest promise; his partner listens with weary eyebrows while a calendar and book stack sit between them.",
+          "text": "",
+          "camera": "still",
+          "line": "They hear the same promise every Sunday.",
+          "prompt": "Classic stickman-animation YouTube style in exactly the same art style as the reference image: black ink line art on cream off-white paper, uniform thick black strokes, monochrome black-and-white, clean simple line-art background, soft dark vignette at the edges, no color. When the main character appears he is EXACTLY the stick figure from the reference image: a perfect circle head, two small black dot eyes, a simple one-line mouth and small eyebrow lines for emotion, thin stick limbs. No clothes, plain stick figure holding a calendar and a pen.. Other people are stick figures in the same style. 16:9 landscape composition. One clear moment, big readable subject, simple line-art set (room, street, office) only when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Medium two-shot at the kitchen table: the stick figure raises one hand in another earnest promise; his partner listens with weary eyebrows while a calendar and book stack sit between them.",
+          "image": "db0dbb688cce74cf"
+        },
+        {
+          "kind": "image",
+          "scene": "Extreme close-up of his face, at the kitchen table: he lowers his eyes toward a small cracked mirror beside the calendar, eyebrows pinched in distrust.",
+          "text": "",
+          "camera": "push",
+          "line": "You see another reason not to trust yourself.",
+          "prompt": "Classic stickman-animation YouTube style in exactly the same art style as the reference image: black ink line art on cream off-white paper, uniform thick black strokes, monochrome black-and-white, clean simple line-art background, soft dark vignette at the edges, no color. When the main character appears he is EXACTLY the stick figure from the reference image: a perfect circle head, two small black dot eyes, a simple one-line mouth and small eyebrow lines for emotion, thin stick limbs. No clothes, plain stick figure holding a calendar and a pen.. Other people are stick figures in the same style. 16:9 landscape composition. One clear moment, big readable subject, simple line-art set (room, street, office) only when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Extreme close-up of his face, at the kitchen table: he lowers his eyes toward a small cracked mirror beside the calendar, eyebrows pinched in distrust.",
+          "image": "5707b4af39b2066a"
+        },
+        {
+          "kind": "card",
+          "scene": "",
+          "text": "CLUES, NOT VERDICTS",
+          "camera": "still",
+          "line": "Your missed sessions are clues, not verdicts."
+        },
+        {
+          "kind": "image",
+          "scene": "Medium shot at the kitchen table: the stick figure moves one small book token to a different calendar box, leaving the surrounding plan intact; his expression brightens with practical curiosity.",
+          "text": "",
+          "camera": "push",
+          "line": "Use them to change the setup.",
+          "prompt": "Classic stickman-animation YouTube style in exactly the same art style as the reference image: black ink line art on cream off-white paper, uniform thick black strokes, monochrome black-and-white, clean simple line-art background, soft dark vignette at the edges, no color. When the main character appears he is EXACTLY the stick figure from the reference image: a perfect circle head, two small black dot eyes, a simple one-line mouth and small eyebrow lines for emotion, thin stick limbs. No clothes, plain stick figure holding a calendar and a pen.. Other people are stick figures in the same style. 16:9 landscape composition. One clear moment, big readable subject, simple line-art set (room, street, office) only when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Medium shot at the kitchen table: the stick figure moves one small book token to a different calendar box, leaving the surrounding plan intact; his expression brightens with practical curiosity.",
+          "image": "06653d84aa8025b8"
+        },
+        {
+          "kind": "image",
+          "scene": "Wide kitchen shot: the stick figure pushes an enormous life-plan blueprint away and keeps his small calendar and pen close, relaxing into a relieved smile.",
+          "text": "",
+          "camera": "pull",
+          "line": "You don't need a new life plan.",
+          "prompt": "Classic stickman-animation YouTube style in exactly the same art style as the reference image: black ink line art on cream off-white paper, uniform thick black strokes, monochrome black-and-white, clean simple line-art background, soft dark vignette at the edges, no color. When the main character appears he is EXACTLY the stick figure from the reference image: a perfect circle head, two small black dot eyes, a simple one-line mouth and small eyebrow lines for emotion, thin stick limbs. No clothes, plain stick figure holding a calendar and a pen.. Other people are stick figures in the same style. 16:9 landscape composition. One clear moment, big readable subject, simple line-art set (room, street, office) only when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Wide kitchen shot: the stick figure pushes an enormous life-plan blueprint away and keeps his small calendar and pen close, relaxing into a relieved smile.",
+          "image": "c6c51925b417ec7b"
+        },
+        {
+          "kind": "image",
+          "scene": "Close overhead shot in the kitchen: the stick figure holds his pen above last week's calendar beside a timer with a shaded ten-minute wedge, looking calmly focused.",
+          "text": "",
+          "camera": "still",
+          "line": "You need ten minutes with last week's calendar.",
+          "prompt": "Classic stickman-animation YouTube style in exactly the same art style as the reference image: black ink line art on cream off-white paper, uniform thick black strokes, monochrome black-and-white, clean simple line-art background, soft dark vignette at the edges, no color. When the main character appears he is EXACTLY the stick figure from the reference image: a perfect circle head, two small black dot eyes, a simple one-line mouth and small eyebrow lines for emotion, thin stick limbs. No clothes, plain stick figure holding a calendar and a pen.. Other people are stick figures in the same style. 16:9 landscape composition. One clear moment, big readable subject, simple line-art set (room, street, office) only when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Close overhead shot in the kitchen: the stick figure holds his pen above last week's calendar beside a timer with a shaded ten-minute wedge, looking calmly focused.",
+          "image": "d86398ce997d81fe"
+        },
+        {
+          "kind": "image",
+          "scene": "Medium shot at the kitchen table: the stick figure studies missed sessions beneath a recurring weekly review symbol on his calendar, following the boxes with his pen and looking attentive.",
+          "text": "",
+          "camera": "right",
+          "line": "You check your missed sessions once a week.",
+          "prompt": "Classic stickman-animation YouTube style in exactly the same art style as the reference image: black ink line art on cream off-white paper, uniform thick black strokes, monochrome black-and-white, clean simple line-art background, soft dark vignette at the edges, no color. When the main character appears he is EXACTLY the stick figure from the reference image: a perfect circle head, two small black dot eyes, a simple one-line mouth and small eyebrow lines for emotion, thin stick limbs. No clothes, plain stick figure holding a calendar and a pen.. Other people are stick figures in the same style. 16:9 landscape composition. One clear moment, big readable subject, simple line-art set (room, street, office) only when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Medium shot at the kitchen table: the stick figure studies missed sessions beneath a recurring weekly review symbol on his calendar, following the boxes with his pen and looking attentive.",
+          "image": "6debca3b9a31dea4"
+        },
+        {
+          "kind": "image",
+          "scene": "Extreme close-up of his face, in the kitchen: he calmly sets aside a magnifying glass, with his calendar blurred behind him and a relaxed, unburdened smile.",
+          "text": "",
+          "camera": "push",
+          "line": "You don't need to diagnose everything.",
+          "prompt": "Classic stickman-animation YouTube style in exactly the same art style as the reference image: black ink line art on cream off-white paper, uniform thick black strokes, monochrome black-and-white, clean simple line-art background, soft dark vignette at the edges, no color. When the main character appears he is EXACTLY the stick figure from the reference image: a perfect circle head, two small black dot eyes, a simple one-line mouth and small eyebrow lines for emotion, thin stick limbs. No clothes, plain stick figure holding a calendar and a pen.. Other people are stick figures in the same style. 16:9 landscape composition. One clear moment, big readable subject, simple line-art set (room, street, office) only when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Extreme close-up of his face, in the kitchen: he calmly sets aside a magnifying glass, with his calendar blurred behind him and a relaxed, unburdened smile.",
+          "image": "806196b91b3ce743"
+        },
+        {
+          "kind": "image",
+          "scene": "Medium overhead shot at the kitchen table: the stick figure brackets one recurring cluster of calendar marks with his pen, ignoring scattered unrelated marks, his face focused and certain.",
+          "text": "",
+          "camera": "still",
+          "line": "You need to name one repeating barrier.",
+          "prompt": "Classic stickman-animation YouTube style in exactly the same art style as the reference image: black ink line art on cream off-white paper, uniform thick black strokes, monochrome black-and-white, clean simple line-art background, soft dark vignette at the edges, no color. When the main character appears he is EXACTLY the stick figure from the reference image: a perfect circle head, two small black dot eyes, a simple one-line mouth and small eyebrow lines for emotion, thin stick limbs. No clothes, plain stick figure holding a calendar and a pen.. Other people are stick figures in the same style. 16:9 landscape composition. One clear moment, big readable subject, simple line-art set (room, street, office) only when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Medium overhead shot at the kitchen table: the stick figure brackets one recurring cluster of calendar marks with his pen, ignoring scattered unrelated marks, his face focused and certain.",
+          "image": "dcc865522bd910a7"
+        },
+        {
+          "kind": "image",
+          "scene": "Medium side shot in the kitchen: the stick figure taps a labeled late-work strip on his calendar with his pen, matching identical moon-and-briefcase icons, his eyebrows raised in recognition.",
+          "text": "LATE WORK",
+          "camera": "push",
+          "line": "For you, it's late work.",
+          "prompt": "Classic stickman-animation YouTube style in exactly the same art style as the reference image: black ink line art on cream off-white paper, uniform thick black strokes, monochrome black-and-white, clean simple line-art background, soft dark vignette at the edges, no color. When the main character appears he is EXACTLY the stick figure from the reference image: a perfect circle head, two small black dot eyes, a simple one-line mouth and small eyebrow lines for emotion, thin stick limbs. No clothes, plain stick figure holding a calendar and a pen.. Other people are stick figures in the same style. 16:9 landscape composition. One clear moment, big readable subject, simple line-art set (room, street, office) only when the scene needs it. The only text allowed in the image is: LATE WORK — spelled exactly like that in simple black hand lettering. No other text. SCENE: Medium side shot in the kitchen: the stick figure taps a labeled late-work strip on his calendar with his pen, matching identical moon-and-briefcase icons, his eyebrows raised in recognition.",
+          "image": "7bfd47c6dea85b5c"
+        },
+        {
+          "kind": "image",
+          "scene": "Wide kitchen shot: the stick figure turns away from a giant placard showing a triumphant fist, holding his calendar and pen instead, with a skeptical raised eyebrow.",
+          "text": "",
+          "camera": "pull",
+          "line": "You don't need another motivational slogan.",
+          "prompt": "Classic stickman-animation YouTube style in exactly the same art style as the reference image: black ink line art on cream off-white paper, uniform thick black strokes, monochrome black-and-white, clean simple line-art background, soft dark vignette at the edges, no color. When the main character appears he is EXACTLY the stick figure from the reference image: a perfect circle head, two small black dot eyes, a simple one-line mouth and small eyebrow lines for emotion, thin stick limbs. No clothes, plain stick figure holding a calendar and a pen.. Other people are stick figures in the same style. 16:9 landscape composition. One clear moment, big readable subject, simple line-art set (room, street, office) only when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Wide kitchen shot: the stick figure turns away from a giant placard showing a triumphant fist, holding his calendar and pen instead, with a skeptical raised eyebrow.",
+          "image": "63e2185a1dc8cbcd"
+        },
+        {
+          "kind": "image",
+          "scene": "Medium daylight kitchen shot: the stick figure places a book beside a lunch plate while holding his calendar, his upright posture and small smile showing an easier reading opportunity.",
+          "text": "",
+          "camera": "left",
+          "line": "You need a reading slot at lunch.",
+          "prompt": "Classic stickman-animation YouTube style in exactly the same art style as the reference image: black ink line art on cream off-white paper, uniform thick black strokes, monochrome black-and-white, clean simple line-art background, soft dark vignette at the edges, no color. When the main character appears he is EXACTLY the stick figure from the reference image: a perfect circle head, two small black dot eyes, a simple one-line mouth and small eyebrow lines for emotion, thin stick limbs. No clothes, plain stick figure holding a calendar and a pen.. Other people are stick figures in the same style. 16:9 landscape composition. One clear moment, big readable subject, simple line-art set (room, street, office) only when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Medium daylight kitchen shot: the stick figure places a book beside a lunch plate while holding his calendar, his upright posture and small smile showing an easier reading opportunity.",
+          "image": "0ea9e3dd099bcb17"
+        },
+        {
+          "kind": "image",
+          "scene": "Close overhead kitchen shot: the stick figure writes the new cue in a midday calendar box with his pen, beside a tiny lunch icon; his visible profile looks hopeful.",
+          "text": "AFTER LUNCH",
+          "camera": "push",
+          "line": "You write the new cue on your calendar.",
+          "prompt": "Classic stickman-animation YouTube style in exactly the same art style as the reference image: black ink line art on cream off-white paper, uniform thick black strokes, monochrome black-and-white, clean simple line-art background, soft dark vignette at the edges, no color. When the main character appears he is EXACTLY the stick figure from the reference image: a perfect circle head, two small black dot eyes, a simple one-line mouth and small eyebrow lines for emotion, thin stick limbs. No clothes, plain stick figure holding a calendar and a pen.. Other people are stick figures in the same style. 16:9 landscape composition. One clear moment, big readable subject, simple line-art set (room, street, office) only when the scene needs it. The only text allowed in the image is: AFTER LUNCH — spelled exactly like that in simple black hand lettering. No other text. SCENE: Close overhead kitchen shot: the stick figure writes the new cue in a midday calendar box with his pen, beside a tiny lunch icon; his visible profile looks hopeful.",
+          "image": "9ec0e6666add8f07"
+        },
+        {
+          "kind": "image",
+          "scene": "Medium side shot in the kitchen: the stick figure opens his book beside an empty lunch plate, with his calendar propped nearby; his eyes look alert and pleased.",
+          "text": "",
+          "camera": "still",
+          "line": "After lunch, you open your book.",
+          "prompt": "Classic stickman-animation YouTube style in exactly the same art style as the reference image: black ink line art on cream off-white paper, uniform thick black strokes, monochrome black-and-white, clean simple line-art background, soft dark vignette at the edges, no color. When the main character appears he is EXACTLY the stick figure from the reference image: a perfect circle head, two small black dot eyes, a simple one-line mouth and small eyebrow lines for emotion, thin stick limbs. No clothes, plain stick figure holding a calendar and a pen.. Other people are stick figures in the same style. 16:9 landscape composition. One clear moment, big readable subject, simple line-art set (room, street, office) only when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Medium side shot in the kitchen: the stick figure opens his book beside an empty lunch plate, with his calendar propped nearby; his eyes look alert and pleased.",
+          "image": "3bcbedb99b13059e"
+        },
+        {
+          "kind": "image",
+          "scene": "Close overhead shot at the kitchen table: the stick figure redraws just one reading block on his calendar with the pen, leaving all other boxes unchanged, his profile quietly satisfied.",
+          "text": "",
+          "camera": "right",
+          "line": "You change one part of the plan.",
+          "prompt": "Classic stickman-animation YouTube style in exactly the same art style as the reference image: black ink line art on cream off-white paper, uniform thick black strokes, monochrome black-and-white, clean simple line-art background, soft dark vignette at the edges, no color. When the main character appears he is EXACTLY the stick figure from the reference image: a perfect circle head, two small black dot eyes, a simple one-line mouth and small eyebrow lines for emotion, thin stick limbs. No clothes, plain stick figure holding a calendar and a pen.. Other people are stick figures in the same style. 16:9 landscape composition. One clear moment, big readable subject, simple line-art set (room, street, office) only when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Close overhead shot at the kitchen table: the stick figure redraws just one reading block on his calendar with the pen, leaving all other boxes unchanged, his profile quietly satisfied.",
+          "image": "e41ef37d6ee5b9fe"
+        },
+        {
+          "kind": "image",
+          "scene": "Extreme close-up of his face, in the kitchen: he exhales with a relieved smile, holding his calendar and pen below his chin while an oversized life blueprint stays untouched behind him.",
+          "text": "",
+          "camera": "push",
+          "line": "Not your whole life.",
+          "prompt": "Classic stickman-animation YouTube style in exactly the same art style as the reference image: black ink line art on cream off-white paper, uniform thick black strokes, monochrome black-and-white, clean simple line-art background, soft dark vignette at the edges, no color. When the main character appears he is EXACTLY the stick figure from the reference image: a perfect circle head, two small black dot eyes, a simple one-line mouth and small eyebrow lines for emotion, thin stick limbs. No clothes, plain stick figure holding a calendar and a pen.. Other people are stick figures in the same style. 16:9 landscape composition. One clear moment, big readable subject, simple line-art set (room, street, office) only when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Extreme close-up of his face, in the kitchen: he exhales with a relieved smile, holding his calendar and pen below his chin while an oversized life blueprint stays untouched behind him.",
+          "image": "1dd161385c7128a6"
+        },
+        {
+          "kind": "image",
+          "scene": "Wide black-and-white metaphor shot against a blank background: the stick figure carries his calendar and pen around the open end of a massive labeled wall, his face showing calm determination.",
+          "text": "LATE WORK",
+          "camera": "pull",
+          "line": "Stop pushing harder into the same wall.",
+          "prompt": "Classic stickman-animation YouTube style in exactly the same art style as the reference image: black ink line art on cream off-white paper, uniform thick black strokes, monochrome black-and-white, clean simple line-art background, soft dark vignette at the edges, no color. When the main character appears he is EXACTLY the stick figure from the reference image: a perfect circle head, two small black dot eyes, a simple one-line mouth and small eyebrow lines for emotion, thin stick limbs. No clothes, plain stick figure holding a calendar and a pen.. Other people are stick figures in the same style. 16:9 landscape composition. One clear moment, big readable subject, simple line-art set (room, street, office) only when the scene needs it. The only text allowed in the image is: LATE WORK — spelled exactly like that in simple black hand lettering. No other text. SCENE: Wide black-and-white metaphor shot against a blank background: the stick figure carries his calendar and pen around the open end of a massive labeled wall, his face showing calm determination.",
+          "image": "5b847af61d9a61e7"
+        }
+      ]
+    },
     null
   ]
 }
