@@ -626,3 +626,4 @@ NameError: name 'cf' is not defined
 15:06:10 llm request (attempt 1, 474 chars)
 15:06:28 llm ok (attempt 1)
 15:06:28 all done
+15:16:19 long video: /home/tlab/videofarm/jobs/every-money-habit-that-keeps-you-broke-explained/out/long.mp4 (11.7 min)
