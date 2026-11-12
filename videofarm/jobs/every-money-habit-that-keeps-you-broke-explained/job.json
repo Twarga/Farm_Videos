@@ -33,19 +33,14 @@
       "t": 1794488729.2145784
     },
     "render": {
-      "state": "done",
-      "detail": "",
-      "t": 1794493898.0927384
+      "state": "running",
+      "detail": "12/12 chapters",
+      "t": 1794496402.7364836
     },
     "shorts": {
-      "state": "done",
-      "detail": "",
-      "t": 1794495969.616438
-    },
-    "package": {
-      "state": "done",
-      "detail": "",
-      "t": 1794495988.2565665
+      "state": "running",
+      "detail": "2/3",
+      "t": 1794494593.94641
     }
   }
 }

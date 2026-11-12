@@ -803,7 +803,7 @@ def stage(k, T0, n, cam_holder):
         cam, _ = make_camera([(1, (-3.2, 30, 1.5), (-1.6, 34, 1.4)), (n, (2.4, 30.5, 1.6), (1.4, 34, 1.5))], 30, 4)
         sprite("peasant_spear", (-2.0, 34.5, 0.05), 1.7, cam)
         km = sprite("knight_sword", (2.2, 35.5, 0.05), 1.85, cam, flip=True)
-        f = F(word_time(3, "richest"))
+        f = F(word_time(4, "richest"))
         show_between(km, f, n + 99, n)
         crown = text("$$$", (2.2, 35.2, 3.5), 0.5, mat("cash", "#ffd76a", emit=2.0, noise=0), font=FONT_BOLD)
         crown.scale = (0.01, 0.01, 0.01)
