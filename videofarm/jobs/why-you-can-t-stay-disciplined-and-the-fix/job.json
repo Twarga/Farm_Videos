@@ -28,9 +28,9 @@
       "t": 1794501133.6462705
     },
     "images": {
-      "state": "running",
-      "detail": "4/257",
-      "t": 1794506606.666209
+      "state": "waiting",
+      "detail": "0/257",
+      "t": 1794508160.1512914
     },
     "voice": {
       "state": "done",

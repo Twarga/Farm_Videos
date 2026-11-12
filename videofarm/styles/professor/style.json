@@ -51,11 +51,12 @@
     "title": "Baloo2.ttf:ExtraBold"
   },
   "image": {
+    "flat_bg": true,
     "prefix": "Flat 2D cartoon illustration in exactly the same art style as the reference image: thick clean black outlines, flat vivid colors, very soft minimal shading, plain solid mustard-yellow (#F7C325) background with no gradient, no texture, no photorealism.",
     "character": "When the main character appears he is EXACTLY the character from the reference image: bald round head, big round white eyes with small black pupils, small ears, pale peach skin, simple body. In this chapter he wears: {outfit}. Other people are drawn in the same simple style with different hair and clothes.",
     "composition": "16:9 landscape composition. Keep the top 14% of the frame completely empty plain yellow background because a title will be placed there. Big, simple, readable subject; at most a few props; the background stays plain yellow except for a simple floor or furniture when the scene needs it.",
     "text_none": "Absolutely no text, letters, numbers, or words anywhere in the image.",
-    "text_some": "The only text allowed in the image is: {text} \u2014 spelled exactly like that, in bold black capital letters. No other text.",
+    "text_some": "The only text allowed in the image is: {text} — spelled exactly like that, in bold black capital letters. No other text.",
     "icon": "A single simple flat cartoon icon of {icon}, thick black outlines, vivid flat colors, centered, isolated on a plain pure white background, nothing else, no text, no circle, no border."
   },
   "frame": {

@@ -6,6 +6,7 @@
   run <job> [--no-wait] [--rerender]   run / resume the whole pipeline
   pending                          JSON list of plates still missing across all jobs (read by imgworker.py)
   reimage <job>                    drop the job's plates so imgworker.py makes them again
+  reprompt <job>                   rebuild the job's image prompts/keys from the current style pack, then requeue
   status                           one line per job
   styles                           list style packs
 """
@@ -37,6 +38,7 @@ def main(argv=None):
     p.add_argument("--rerender", action="store_true")
     sub.add_parser("pending")
     sub.add_parser("reimage").add_argument("job")
+    sub.add_parser("reprompt").add_argument("job")
     sub.add_parser("status")
     sub.add_parser("styles")
     a = ap.parse_args(argv)
@@ -59,6 +61,9 @@ def main(argv=None):
         print(json.dumps(images.pending_all()))
     elif a.cmd == "reimage":
         images.reset(Job(a.job))
+    elif a.cmd == "reprompt":
+        j = Job(a.job)
+        print(f"{len(write.reprompt(j, S.load(j.style)))} plates queued")
     elif a.cmd == "status":
         for j in all_jobs():
             st = " ".join(f"{k}:{v['state']}" + (f"({v['detail']})" if v.get("detail") else "")

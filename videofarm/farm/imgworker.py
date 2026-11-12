@@ -52,8 +52,10 @@ class Quota:
             time.sleep(min(left, 5))
 
     def hit(self, text):
-        m = re.search(r"(\d+)\s*minutes?", text)
-        secs = (int(m.group(1)) + 1) * 60 if m else 180
+        """Pause until the quota resets, read from the 429 text ("reset after 4h53m16s", "in approximately 21 minutes")."""
+        chunk = (re.search(r"reset(.{0,60})", text, re.S | re.I) or [None, ""])[1].lower()
+        secs = sum(int(n) * {"h": 3600, "m": 60, "s": 1}[u] for n, u in re.findall(r"(\d+)\s*([hms])", chunk))
+        secs = secs + 60 if secs else 180
         with self.lock:
             self.until = max(self.until, time.time() + secs)
         return secs
@@ -96,6 +98,15 @@ def check(path, item):
             raise Retry("icon background is not white")
     elif not 1.6 <= w / h <= 1.95:
         raise Retry(f"not 16:9 ({w}x{h})")
+    else:
+        st = S.load(item["style"])
+        if st["image"].get("flat_bg"):  # flat-background style: the border must be the style's color
+            rgb = np.asarray(im, dtype=np.float32)
+            edge = np.concatenate([rgb[:6].reshape(-1, 3), rgb[-6:].reshape(-1, 3),
+                                   rgb[:, :6].reshape(-1, 3), rgb[:, -6:].reshape(-1, 3)])
+            bg = np.array([int(st["palette"]["bg"][i:i + 2], 16) for i in (1, 3, 5)], dtype=np.float32)
+            if np.linalg.norm(np.median(edge, axis=0) - bg) > 80:
+                raise Retry("background is not the style color")
 
 
 def generate(item, ref, timeout):
@@ -103,8 +114,7 @@ def generate(item, ref, timeout):
     QUOTA.wait()
     tmp = Path(tempfile.mkdtemp(prefix="plate-"))
     shutil.copy(ref, tmp / "ref.png")
-    cmd = ["agy", "-p", WRAP.format(prompt=item["prompt"]), "--dangerously-skip-permissions",
-           "--model", MODEL, "--effort", "low", "--print-timeout", str(timeout)]
+    cmd = ["agy", "-p", WRAP.format(prompt=item["prompt"]), "--dangerously-skip-permissions", "--model", MODEL]
     p = subprocess.Popen(cmd, cwd=tmp, stdin=subprocess.DEVNULL, stdout=subprocess.PIPE, stderr=subprocess.STDOUT,
                          text=True, start_new_session=True)
     try:
@@ -169,7 +179,7 @@ def main(argv=None):
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--host", default=os.environ.get("FARM_HOST", "tlab@192.168.100.26"))
     ap.add_argument("--root", default="videofarm", help="farm directory on the host (relative to its home)")
-    ap.add_argument("--workers", type=int, default=8)
+    ap.add_argument("--workers", type=int, default=12)
     ap.add_argument("--timeout", type=int, default=420, help="seconds per agy call")
     ap.add_argument("--attempts", type=int, default=4)
     ap.add_argument("--job", action="append", help="only these jobs, in this priority order")

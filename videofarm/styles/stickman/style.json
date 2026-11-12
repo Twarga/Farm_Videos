@@ -56,16 +56,16 @@
     "title": "Anton-Regular.ttf"
   },
   "image": {
-    "prefix": "Classic stickman-animation YouTube style in exactly the same art style as the reference image: black ink line art on cream off-white paper, uniform thick black strokes, monochrome black-and-white, clean simple line-art background, soft dark vignette at the edges, no color.",
+    "prefix": "Classic stickman-animation YouTube style in exactly the same art style as the reference image: bold black ink line art on clean cream off-white paper, thick uniform strokes for the character and the background, simple clean sets with minimal detail (no cross-hatching, no fine texture, no gradients), flat evenly lit paper with no vignette, no dark corners and no shadows at the edges, monochrome black-and-white, no color.",
     "character": "When the main character appears he is EXACTLY the stick figure from the reference image: a perfect circle head, two small black dot eyes, a simple one-line mouth and small eyebrow lines for emotion, thin stick limbs. {outfit}. Other people are stick figures in the same style.",
     "composition": "16:9 landscape composition. One clear moment, big readable subject, simple line-art set (room, street, office) only when the scene needs it.",
     "text_none": "Absolutely no text, letters, numbers, or words anywhere in the image.",
-    "text_some": "The only text allowed in the image is: {text} \u2014 spelled exactly like that in simple black hand lettering. No other text.",
+    "text_some": "The only text allowed in the image is: {text} — spelled exactly like that in simple black hand lettering. No other text.",
     "icon": ""
   },
   "frame": {
     "label": false,
-    "vignette": 0.25,
+    "vignette": 0.35,
     "grain": 0.06
   },
   "transition": "titlecard",

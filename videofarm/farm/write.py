@@ -224,3 +224,18 @@ def queue_images(job, st):
     if q and not job.stage_done("images"):
         job.set_stage("images", "waiting", f"{len(q)} queued")
     return q
+
+
+def reprompt(job, st):
+    """Rebuild every shot's image prompt and plate key from its stored scene with the current style pack and
+    reference image (use after editing the pack), then requeue. Plates made from the old prompts are orphaned."""
+    data = job.read("shots.json")
+    for ch in data["chapters"]:
+        for s in ch["shots"] if ch else []:
+            if s["kind"] == "image":
+                s["prompt"] = S.image_prompt(st, s["scene"], ch.get("outfit", ""), s["text"])
+                s["image"] = S.image_key(st, s["prompt"])
+    job.write("shots.json", data)
+    q = queue_images(job, st)
+    job.set_stage("images", "waiting", f"{len(q)} queued")
+    return q
