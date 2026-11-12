@@ -1,0 +1,125 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Montserrat Black,100,&H00FFFFFF,&H00FFFFFF,&H00000000,&H90000000,0,0,0,0,100,100,0,0,1,6,4,5,40,40,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.38,Cap,,0,0,0,,{\an5\pos(540,1345)}This man
+Dialogue: 0,0:00:00.38,0:00:00.74,Cap,,0,0,0,,{\an5\pos(540,1345)}is about
+Dialogue: 0,0:00:00.74,0:00:01.60,Cap,,0,0,0,,{\an5\pos(540,1345)}to die,
+Dialogue: 0,0:00:01.60,0:00:02.04,Cap,,0,0,0,,{\an5\pos(540,1345)}so someone
+Dialogue: 0,0:00:02.04,0:00:02.50,Cap,,0,0,0,,{\an5\pos(540,1345)}sent for
+Dialogue: 0,0:00:02.50,0:00:03.20,Cap,,0,0,0,,{\an5\pos(540,1345)}the bird.
+Dialogue: 0,0:00:03.20,0:00:05.20,Cap,,0,0,0,,{\an5\pos(540,1345)}In the 1600s,
+Dialogue: 0,0:00:05.20,0:00:05.68,Cap,,0,0,0,,{\an5\pos(540,1345)}when plague
+Dialogue: 0,0:00:05.68,0:00:06.89,Cap,,0,0,0,,{\an5\pos(540,1345)}hit a town,
+Dialogue: 0,0:00:06.90,0:00:07.32,Cap,,0,0,0,,{\an5\pos(540,1345)}the doctor
+Dialogue: 0,0:00:07.32,0:00:07.80,Cap,,0,0,0,,{\an5\pos(540,1345)}showed up
+Dialogue: 0,0:00:07.80,0:00:08.34,Cap,,0,0,0,,{\an5\pos(540,1345)}dressed like
+Dialogue: 0,0:00:08.34,0:00:09.18,Cap,,0,0,0,,{\an5\pos(540,1345)}a nightmare.
+Dialogue: 0,0:00:09.18,0:00:09.82,Cap,,0,0,0,,{\an5\pos(540,1345)}Black robe,
+Dialogue: 0,0:00:09.82,0:00:10.76,Cap,,0,0,0,,{\an5\pos(540,1345)}black hat,
+Dialogue: 0,0:00:10.76,0:00:11.18,Cap,,0,0,0,,{\an5\pos(540,1345)}and a long
+Dialogue: 0,0:00:11.18,0:00:11.86,Cap,,0,0,0,,{\an5\pos(540,1345)}curved beak
+Dialogue: 0,0:00:11.86,0:00:12.44,Cap,,0,0,0,,{\an5\pos(540,1345)}over his whole
+Dialogue: 0,0:00:12.44,0:00:13.18,Cap,,0,0,0,,{\an5\pos(540,1345)}face.
+Dialogue: 0,0:00:13.18,0:00:13.52,Cap,,0,0,0,,{\an5\pos(540,1345)}It wasn't
+Dialogue: 0,0:00:13.52,0:00:14.47,Cap,,0,0,0,,{\an5\pos(540,1345)}a costume.
+Dialogue: 0,0:00:14.58,0:00:14.76,Cap,,0,0,0,,{\an5\pos(540,1345)}It was
+Dialogue: 0,0:00:14.76,0:00:15.12,Cap,,0,0,0,,{\an5\pos(540,1345)}a gas
+Dialogue: 0,0:00:15.12,0:00:15.82,Cap,,0,0,0,,{\an5\pos(540,1345)}mask,
+Dialogue: 0,0:00:15.82,0:00:16.20,Cap,,0,0,0,,{\an5\pos(540,1345)}four hundred
+Dialogue: 0,0:00:16.20,0:00:17.14,Cap,,0,0,0,,{\an5\pos(540,1345)}years early.
+Dialogue: 0,0:00:17.14,0:00:17.68,Cap,,0,0,0,,{\an5\pos(540,1345)}You see,
+Dialogue: 0,0:00:17.68,0:00:18.02,Cap,,0,0,0,,{\an5\pos(540,1345)}doctors
+Dialogue: 0,0:00:18.02,0:00:18.83,Cap,,0,0,0,,{\an5\pos(540,1345)}believed plague
+Dialogue: 0,0:00:18.83,0:00:19.22,Cap,,0,0,0,,{\an5\pos(540,1345)}travelled
+Dialogue: 0,0:00:19.22,0:00:20.34,Cap,,0,0,0,,{\an5\pos(540,1345)}through the air
+Dialogue: 0,0:00:20.34,0:00:20.90,Cap,,0,0,0,,{\an5\pos(540,1345)}as a poison
+Dialogue: 0,0:00:20.90,0:00:21.80,Cap,,0,0,0,,{\an5\pos(540,1345)}fog they called
+Dialogue: 0,0:00:21.80,0:00:22.84,Cap,,0,0,0,,{\an5\pos(540,1345)}miasma.
+Dialogue: 0,0:00:22.84,0:00:23.42,Cap,,0,0,0,,{\an5\pos(540,1345)}Bad air,
+Dialogue: 0,0:00:23.42,0:00:24.18,Cap,,0,0,0,,{\an5\pos(540,1345)}bad smells,
+Dialogue: 0,0:00:24.18,0:00:25.11,Cap,,0,0,0,,{\an5\pos(540,1345)}dead people.
+Dialogue: 0,0:00:25.14,0:00:25.64,Cap,,0,0,0,,{\an5\pos(540,1345)}To them,
+Dialogue: 0,0:00:25.64,0:00:25.84,Cap,,0,0,0,,{\an5\pos(540,1345)}it was
+Dialogue: 0,0:00:25.84,0:00:26.30,Cap,,0,0,0,,{\an5\pos(540,1345)}the same
+Dialogue: 0,0:00:26.30,0:00:26.80,Cap,,0,0,0,,{\an5\pos(540,1345)}thing.
+Dialogue: 0,0:00:26.80,0:00:27.10,Cap,,0,0,0,,{\an5\pos(540,1345)}So the beak
+Dialogue: 0,0:00:27.10,0:00:27.52,Cap,,0,0,0,,{\an5\pos(540,1345)}was stuffed
+Dialogue: 0,0:00:27.52,0:00:28.16,Cap,,0,0,0,,{\an5\pos(540,1345)}with roses,
+Dialogue: 0,0:00:28.16,0:00:29.00,Cap,,0,0,0,,{\an5\pos(540,1345)}mint,
+Dialogue: 0,0:00:29.00,0:00:29.76,Cap,,0,0,0,,{\an5\pos(540,1345)}and camphor.
+Dialogue: 0,0:00:29.76,0:00:30.22,Cap,,0,0,0,,{\an5\pos(540,1345)}Every breath
+Dialogue: 0,0:00:30.22,0:00:30.96,Cap,,0,0,0,,{\an5\pos(540,1345)}he took
+Dialogue: 0,0:00:30.96,0:00:31.40,Cap,,0,0,0,,{\an5\pos(540,1345)}got filtered
+Dialogue: 0,0:00:31.40,0:00:31.70,Cap,,0,0,0,,{\an5\pos(540,1345)}through
+Dialogue: 0,0:00:31.70,0:00:32.54,Cap,,0,0,0,,{\an5\pos(540,1345)}flowers.
+Dialogue: 0,0:00:32.54,0:00:32.88,Cap,,0,0,0,,{\an5\pos(540,1345)}The robe
+Dialogue: 0,0:00:32.88,0:00:33.84,Cap,,0,0,0,,{\an5\pos(540,1345)}was leather,
+Dialogue: 0,0:00:33.84,0:00:34.18,Cap,,0,0,0,,{\an5\pos(540,1345)}rubbed with
+Dialogue: 0,0:00:34.18,0:00:34.85,Cap,,0,0,0,,{\an5\pos(540,1345)}wax,
+Dialogue: 0,0:00:34.90,0:00:35.30,Cap,,0,0,0,,{\an5\pos(540,1345)}sealing him
+Dialogue: 0,0:00:35.30,0:00:35.70,Cap,,0,0,0,,{\an5\pos(540,1345)}from head
+Dialogue: 0,0:00:35.70,0:00:36.40,Cap,,0,0,0,,{\an5\pos(540,1345)}to toe.
+Dialogue: 0,0:00:36.40,0:00:36.80,Cap,,0,0,0,,{\an5\pos(540,1345)}He carried
+Dialogue: 0,0:00:36.80,0:00:37.20,Cap,,0,0,0,,{\an5\pos(540,1345)}a long
+Dialogue: 0,0:00:37.20,0:00:38.07,Cap,,0,0,0,,{\an5\pos(540,1345)}stick,
+Dialogue: 0,0:00:38.08,0:00:38.40,Cap,,0,0,0,,{\an5\pos(540,1345)}so he
+Dialogue: 0,0:00:38.40,0:00:39.14,Cap,,0,0,0,,{\an5\pos(540,1345)}could examine
+Dialogue: 0,0:00:39.14,0:00:39.80,Cap,,0,0,0,,{\an5\pos(540,1345)}patients and
+Dialogue: 0,0:00:39.80,0:00:40.00,Cap,,0,0,0,,{\an5\pos(540,1345)}lift
+Dialogue: 0,0:00:40.00,0:00:40.62,Cap,,0,0,0,,{\an5\pos(540,1345)}their clothes
+Dialogue: 0,0:00:40.62,0:00:41.36,Cap,,0,0,0,,{\an5\pos(540,1345)}without ever
+Dialogue: 0,0:00:41.36,0:00:42.20,Cap,,0,0,0,,{\an5\pos(540,1345)}touching them.
+Dialogue: 0,0:00:42.20,0:00:42.26,Cap,,0,0,0,,{\an5\pos(540,1345)}And
+Dialogue: 0,0:00:42.26,0:00:42.90,Cap,,0,0,0,,{\an5\pos(540,1345)}the strangest
+Dialogue: 0,0:00:42.90,0:00:43.60,Cap,,0,0,0,,{\an5\pos(540,1345)}part?
+Dialogue: 0,0:00:43.60,0:00:43.88,Cap,,0,0,0,,{\an5\pos(540,1345)}It kind
+Dialogue: 0,0:00:43.88,0:00:44.58,Cap,,0,0,0,,{\an5\pos(540,1345)}of worked.
+Dialogue: 0,0:00:44.58,0:00:44.96,Cap,,0,0,0,,{\an5\pos(540,1345)}Not because
+Dialogue: 0,0:00:44.96,0:00:46.04,Cap,,0,0,0,,{\an5\pos(540,1345)}of the herbs.
+Dialogue: 0,0:00:46.04,0:00:46.54,Cap,,0,0,0,,{\an5\pos(540,1345)}Herbs did
+Dialogue: 0,0:00:46.54,0:00:47.12,Cap,,0,0,0,,{\an5\pos(540,1345)}nothing.
+Dialogue: 0,0:00:47.12,0:00:47.76,Cap,,0,0,0,,{\an5\pos(540,1345)}But a waxed
+Dialogue: 0,0:00:47.76,0:00:48.34,Cap,,0,0,0,,{\an5\pos(540,1345)}coat and a beak
+Dialogue: 0,0:00:48.34,0:00:49.06,Cap,,0,0,0,,{\an5\pos(540,1345)}meant the real
+Dialogue: 0,0:00:49.06,0:00:49.93,Cap,,0,0,0,,{\an5\pos(540,1345)}killers,
+Dialogue: 0,0:00:49.94,0:00:50.96,Cap,,0,0,0,,{\an5\pos(540,1345)}flea bites,
+Dialogue: 0,0:00:50.96,0:00:51.28,Cap,,0,0,0,,{\an5\pos(540,1345)}couldn't reach
+Dialogue: 0,0:00:51.28,0:00:52.08,Cap,,0,0,0,,{\an5\pos(540,1345)}his skin.
+Dialogue: 0,0:00:52.08,0:00:52.72,Cap,,0,0,0,,{\an5\pos(540,1345)}Plague doctors
+Dialogue: 0,0:00:52.72,0:00:53.38,Cap,,0,0,0,,{\an5\pos(540,1345)}kept dying
+Dialogue: 0,0:00:53.38,0:00:54.41,Cap,,0,0,0,,{\an5\pos(540,1345)}anyway.
+Dialogue: 0,0:00:54.48,0:00:54.94,Cap,,0,0,0,,{\an5\pos(540,1345)}Most of them
+Dialogue: 0,0:00:54.94,0:00:55.42,Cap,,0,0,0,,{\an5\pos(540,1345)}never stood
+Dialogue: 0,0:00:55.42,0:00:56.29,Cap,,0,0,0,,{\an5\pos(540,1345)}a chance.
+Dialogue: 0,0:00:56.30,0:00:56.64,Cap,,0,0,0,,{\an5\pos(540,1345)}But the ones
+Dialogue: 0,0:00:56.64,0:00:57.12,Cap,,0,0,0,,{\an5\pos(540,1345)}who sealed
+Dialogue: 0,0:00:57.12,0:00:57.68,Cap,,0,0,0,,{\an5\pos(540,1345)}up tight
+Dialogue: 0,0:00:57.68,0:00:58.10,Cap,,0,0,0,,{\an5\pos(540,1345)}and kept
+Dialogue: 0,0:00:58.10,0:00:59.22,Cap,,0,0,0,,{\an5\pos(540,1345)}their distance
+Dialogue: 0,0:00:59.22,0:00:59.70,Cap,,0,0,0,,{\an5\pos(540,1345)}lived a little
+Dialogue: 0,0:00:59.70,0:01:00.34,Cap,,0,0,0,,{\an5\pos(540,1345)}longer.
+Dialogue: 0,0:01:00.34,0:01:00.50,Cap,,0,0,0,,{\an5\pos(540,1345)}They were
+Dialogue: 0,0:01:00.50,0:01:00.84,Cap,,0,0,0,,{\an5\pos(540,1345)}fighting
+Dialogue: 0,0:01:00.84,0:01:01.32,Cap,,0,0,0,,{\an5\pos(540,1345)}the wrong
+Dialogue: 0,0:01:01.32,0:01:01.96,Cap,,0,0,0,,{\an5\pos(540,1345)}enemy,
+Dialogue: 0,0:01:01.96,0:01:02.50,Cap,,0,0,0,,{\an5\pos(540,1345)}with almost
+Dialogue: 0,0:01:02.50,0:01:02.94,Cap,,0,0,0,,{\an5\pos(540,1345)}the right
+Dialogue: 0,0:01:02.94,0:01:03.52,Cap,,0,0,0,,{\an5\pos(540,1345)}suit.
+Dialogue: 0,0:01:03.52,0:01:03.82,Cap,,0,0,0,,{\an5\pos(540,1345)}Four hundred
+Dialogue: 0,0:01:03.82,0:01:05.04,Cap,,0,0,0,,{\an5\pos(540,1345)}years ago,
+Dialogue: 0,0:01:05.04,0:01:05.36,Cap,,0,0,0,,{\an5\pos(540,1345)}that was
+Dialogue: 0,0:01:05.36,0:01:05.74,Cap,,0,0,0,,{\an5\pos(540,1345)}as close
+Dialogue: 0,0:01:05.74,0:01:06.60,Cap,,0,0,0,,{\an5\pos(540,1345)}to a hazmat
+Dialogue: 0,0:01:06.60,0:01:07.14,Cap,,0,0,0,,{\an5\pos(540,1345)}suit as
+Dialogue: 0,0:01:07.14,0:01:07.54,Cap,,0,0,0,,{\an5\pos(540,1345)}you could
+Dialogue: 0,0:01:07.54,0:01:07.94,Cap,,0,0,0,,{\an5\pos(540,1345)}get.
