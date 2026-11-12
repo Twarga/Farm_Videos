@@ -1,0 +1,107 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Montserrat Black,100,&H00FFFFFF,&H00FFFFFF,&H00000000,&H90000000,0,0,0,0,100,100,0,0,1,6,4,5,40,40,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.52,Cap,,0,0,0,,{\an5\pos(540,1345)}This pirate
+Dialogue: 0,0:00:00.52,0:00:01.24,Cap,,0,0,0,,{\an5\pos(540,1345)}is not missing
+Dialogue: 0,0:00:01.24,0:00:02.12,Cap,,0,0,0,,{\an5\pos(540,1345)}an eye.
+Dialogue: 0,0:00:02.12,0:00:02.60,Cap,,0,0,0,,{\an5\pos(540,1345)}He's carrying
+Dialogue: 0,0:00:02.60,0:00:03.54,Cap,,0,0,0,,{\an5\pos(540,1345)}night vision.
+Dialogue: 0,0:00:03.54,0:00:04.33,Cap,,0,0,0,,{\an5\pos(540,1345)}You see,
+Dialogue: 0,0:00:04.34,0:00:04.74,Cap,,0,0,0,,{\an5\pos(540,1345)}pirates lived
+Dialogue: 0,0:00:04.74,0:00:05.20,Cap,,0,0,0,,{\an5\pos(540,1345)}on a ship
+Dialogue: 0,0:00:05.20,0:00:05.52,Cap,,0,0,0,,{\an5\pos(540,1345)}that was
+Dialogue: 0,0:00:05.52,0:00:06.50,Cap,,0,0,0,,{\an5\pos(540,1345)}two worlds.
+Dialogue: 0,0:00:06.50,0:00:07.06,Cap,,0,0,0,,{\an5\pos(540,1345)}Up top,
+Dialogue: 0,0:00:07.06,0:00:07.42,Cap,,0,0,0,,{\an5\pos(540,1345)}blinding
+Dialogue: 0,0:00:07.42,0:00:08.04,Cap,,0,0,0,,{\an5\pos(540,1345)}sunlight off
+Dialogue: 0,0:00:08.04,0:00:09.01,Cap,,0,0,0,,{\an5\pos(540,1345)}the water.
+Dialogue: 0,0:00:09.10,0:00:09.76,Cap,,0,0,0,,{\an5\pos(540,1345)}Below deck,
+Dialogue: 0,0:00:09.76,0:00:10.58,Cap,,0,0,0,,{\an5\pos(540,1345)}pitch black.
+Dialogue: 0,0:00:10.58,0:00:11.44,Cap,,0,0,0,,{\an5\pos(540,1345)}And in a fight,
+Dialogue: 0,0:00:11.44,0:00:11.86,Cap,,0,0,0,,{\an5\pos(540,1345)}the action
+Dialogue: 0,0:00:11.86,0:00:12.58,Cap,,0,0,0,,{\an5\pos(540,1345)}moved between
+Dialogue: 0,0:00:12.58,0:00:12.96,Cap,,0,0,0,,{\an5\pos(540,1345)}them,
+Dialogue: 0,0:00:12.96,0:00:13.74,Cap,,0,0,0,,{\an5\pos(540,1345)}constantly.
+Dialogue: 0,0:00:13.74,0:00:14.16,Cap,,0,0,0,,{\an5\pos(540,1345)}Boarding crew
+Dialogue: 0,0:00:14.16,0:00:15.23,Cap,,0,0,0,,{\an5\pos(540,1345)}up in the sun,
+Dialogue: 0,0:00:15.28,0:00:15.74,Cap,,0,0,0,,{\an5\pos(540,1345)}gunpowder
+Dialogue: 0,0:00:15.74,0:00:16.40,Cap,,0,0,0,,{\an5\pos(540,1345)}stored down
+Dialogue: 0,0:00:16.40,0:00:17.30,Cap,,0,0,0,,{\an5\pos(540,1345)}in the dark.
+Dialogue: 0,0:00:17.30,0:00:17.84,Cap,,0,0,0,,{\an5\pos(540,1345)}Now here's
+Dialogue: 0,0:00:17.84,0:00:18.77,Cap,,0,0,0,,{\an5\pos(540,1345)}the problem.
+Dialogue: 0,0:00:18.88,0:00:19.32,Cap,,0,0,0,,{\an5\pos(540,1345)}Your eyes
+Dialogue: 0,0:00:19.32,0:00:19.80,Cap,,0,0,0,,{\an5\pos(540,1345)}take about
+Dialogue: 0,0:00:19.80,0:00:20.44,Cap,,0,0,0,,{\an5\pos(540,1345)}twenty minutes
+Dialogue: 0,0:00:20.44,0:00:20.96,Cap,,0,0,0,,{\an5\pos(540,1345)}to adjust
+Dialogue: 0,0:00:20.96,0:00:21.99,Cap,,0,0,0,,{\an5\pos(540,1345)}to darkness.
+Dialogue: 0,0:00:22.04,0:00:22.96,Cap,,0,0,0,,{\an5\pos(540,1345)}Twenty minutes.
+Dialogue: 0,0:00:22.96,0:00:23.42,Cap,,0,0,0,,{\an5\pos(540,1345)}In a boarding
+Dialogue: 0,0:00:23.42,0:00:23.76,Cap,,0,0,0,,{\an5\pos(540,1345)}fight,
+Dialogue: 0,0:00:23.76,0:00:24.10,Cap,,0,0,0,,{\an5\pos(540,1345)}that's
+Dialogue: 0,0:00:24.10,0:00:24.93,Cap,,0,0,0,,{\an5\pos(540,1345)}a lifetime.
+Dialogue: 0,0:00:24.96,0:00:25.40,Cap,,0,0,0,,{\an5\pos(540,1345)}So pirates
+Dialogue: 0,0:00:25.40,0:00:26.24,Cap,,0,0,0,,{\an5\pos(540,1345)}cheated.
+Dialogue: 0,0:00:26.24,0:00:26.50,Cap,,0,0,0,,{\an5\pos(540,1345)}They kept
+Dialogue: 0,0:00:26.50,0:00:26.98,Cap,,0,0,0,,{\an5\pos(540,1345)}one eye
+Dialogue: 0,0:00:26.98,0:00:27.56,Cap,,0,0,0,,{\an5\pos(540,1345)}covered all
+Dialogue: 0,0:00:27.56,0:00:28.18,Cap,,0,0,0,,{\an5\pos(540,1345)}day,
+Dialogue: 0,0:00:28.18,0:00:28.70,Cap,,0,0,0,,{\an5\pos(540,1345)}so it stayed
+Dialogue: 0,0:00:28.70,0:00:29.34,Cap,,0,0,0,,{\an5\pos(540,1345)}tuned for
+Dialogue: 0,0:00:29.34,0:00:30.06,Cap,,0,0,0,,{\an5\pos(540,1345)}the dark.
+Dialogue: 0,0:00:30.06,0:00:30.72,Cap,,0,0,0,,{\an5\pos(540,1345)}Below deck?
+Dialogue: 0,0:00:30.72,0:00:31.30,Cap,,0,0,0,,{\an5\pos(540,1345)}Flip the patch
+Dialogue: 0,0:00:31.30,0:00:31.90,Cap,,0,0,0,,{\an5\pos(540,1345)}up.
+Dialogue: 0,0:00:31.90,0:00:32.46,Cap,,0,0,0,,{\an5\pos(540,1345)}Instant night
+Dialogue: 0,0:00:32.46,0:00:33.14,Cap,,0,0,0,,{\an5\pos(540,1345)}vision.
+Dialogue: 0,0:00:33.14,0:00:34.04,Cap,,0,0,0,,{\an5\pos(540,1345)}No waiting,
+Dialogue: 0,0:00:34.04,0:00:35.09,Cap,,0,0,0,,{\an5\pos(540,1345)}no stumbling,
+Dialogue: 0,0:00:35.10,0:00:35.48,Cap,,0,0,0,,{\an5\pos(540,1345)}no getting
+Dialogue: 0,0:00:35.48,0:00:36.22,Cap,,0,0,0,,{\an5\pos(540,1345)}stabbed because
+Dialogue: 0,0:00:36.22,0:00:36.70,Cap,,0,0,0,,{\an5\pos(540,1345)}you couldn't
+Dialogue: 0,0:00:36.70,0:00:37.10,Cap,,0,0,0,,{\an5\pos(540,1345)}see.
+Dialogue: 0,0:00:37.10,0:00:37.38,Cap,,0,0,0,,{\an5\pos(540,1345)}It worked
+Dialogue: 0,0:00:37.38,0:00:37.90,Cap,,0,0,0,,{\an5\pos(540,1345)}so well
+Dialogue: 0,0:00:37.90,0:00:38.54,Cap,,0,0,0,,{\an5\pos(540,1345)}that sailors
+Dialogue: 0,0:00:38.54,0:00:39.06,Cap,,0,0,0,,{\an5\pos(540,1345)}could fight
+Dialogue: 0,0:00:39.06,0:00:39.54,Cap,,0,0,0,,{\an5\pos(540,1345)}on two
+Dialogue: 0,0:00:39.54,0:00:40.61,Cap,,0,0,0,,{\an5\pos(540,1345)}decks at once,
+Dialogue: 0,0:00:40.78,0:00:41.32,Cap,,0,0,0,,{\an5\pos(540,1345)}blinking light
+Dialogue: 0,0:00:41.32,0:00:41.92,Cap,,0,0,0,,{\an5\pos(540,1345)}and total
+Dialogue: 0,0:00:41.92,0:00:42.48,Cap,,0,0,0,,{\an5\pos(540,1345)}dark.
+Dialogue: 0,0:00:42.48,0:00:42.74,Cap,,0,0,0,,{\an5\pos(540,1345)}And it's
+Dialogue: 0,0:00:42.74,0:00:43.85,Cap,,0,0,0,,{\an5\pos(540,1345)}not a legend.
+Dialogue: 0,0:00:44.04,0:00:44.86,Cap,,0,0,0,,{\an5\pos(540,1345)}The US Navy
+Dialogue: 0,0:00:44.86,0:00:45.74,Cap,,0,0,0,,{\an5\pos(540,1345)}tested the same
+Dialogue: 0,0:00:45.74,0:00:46.42,Cap,,0,0,0,,{\an5\pos(540,1345)}trick centuries
+Dialogue: 0,0:00:46.42,0:00:47.20,Cap,,0,0,0,,{\an5\pos(540,1345)}later.
+Dialogue: 0,0:00:47.20,0:00:47.74,Cap,,0,0,0,,{\an5\pos(540,1345)}Night pilots
+Dialogue: 0,0:00:47.74,0:00:48.26,Cap,,0,0,0,,{\an5\pos(540,1345)}were told
+Dialogue: 0,0:00:48.26,0:00:48.56,Cap,,0,0,0,,{\an5\pos(540,1345)}to keep
+Dialogue: 0,0:00:48.56,0:00:49.10,Cap,,0,0,0,,{\an5\pos(540,1345)}one eye
+Dialogue: 0,0:00:49.10,0:00:49.74,Cap,,0,0,0,,{\an5\pos(540,1345)}closed in
+Dialogue: 0,0:00:49.74,0:00:50.36,Cap,,0,0,0,,{\an5\pos(540,1345)}bright rooms
+Dialogue: 0,0:00:50.36,0:00:50.72,Cap,,0,0,0,,{\an5\pos(540,1345)}before
+Dialogue: 0,0:00:50.72,0:00:51.52,Cap,,0,0,0,,{\an5\pos(540,1345)}missions.
+Dialogue: 0,0:00:51.52,0:00:51.84,Cap,,0,0,0,,{\an5\pos(540,1345)}One eye
+Dialogue: 0,0:00:51.84,0:00:52.83,Cap,,0,0,0,,{\an5\pos(540,1345)}for daylight.
+Dialogue: 0,0:00:52.86,0:00:53.24,Cap,,0,0,0,,{\an5\pos(540,1345)}One eye
+Dialogue: 0,0:00:53.24,0:00:54.10,Cap,,0,0,0,,{\an5\pos(540,1345)}for the dark.
+Dialogue: 0,0:00:54.10,0:00:54.38,Cap,,0,0,0,,{\an5\pos(540,1345)}The eye
+Dialogue: 0,0:00:54.38,0:00:55.06,Cap,,0,0,0,,{\an5\pos(540,1345)}patch wasn't
+Dialogue: 0,0:00:55.06,0:00:55.38,Cap,,0,0,0,,{\an5\pos(540,1345)}about what
+Dialogue: 0,0:00:55.38,0:00:55.86,Cap,,0,0,0,,{\an5\pos(540,1345)}the pirate
+Dialogue: 0,0:00:55.86,0:00:56.18,Cap,,0,0,0,,{\an5\pos(540,1345)}lost.
+Dialogue: 0,0:00:56.18,0:00:56.74,Cap,,0,0,0,,{\an5\pos(540,1345)}It was
+Dialogue: 0,0:00:56.74,0:00:57.36,Cap,,0,0,0,,{\an5\pos(540,1345)}about what
+Dialogue: 0,0:00:57.36,0:00:57.62,Cap,,0,0,0,,{\an5\pos(540,1345)}he was
+Dialogue: 0,0:00:57.62,0:00:58.52,Cap,,0,0,0,,{\an5\pos(540,1345)}ready for.
