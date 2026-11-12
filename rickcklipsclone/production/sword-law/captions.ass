@@ -1,0 +1,118 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Montserrat Black,100,&H00FFFFFF,&H00FFFFFF,&H00000000,&H90000000,0,0,0,0,100,100,0,0,1,6,4,5,40,40,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.40,Cap,,0,0,0,,{\an5\pos(540,1345)}This man
+Dialogue: 0,0:00:00.40,0:00:00.84,Cap,,0,0,0,,{\an5\pos(540,1345)}is being
+Dialogue: 0,0:00:00.84,0:00:01.68,Cap,,0,0,0,,{\an5\pos(540,1345)}fined,
+Dialogue: 0,0:00:01.68,0:00:01.94,Cap,,0,0,0,,{\an5\pos(540,1345)}and he
+Dialogue: 0,0:00:01.94,0:00:02.52,Cap,,0,0,0,,{\an5\pos(540,1345)}hasn't broken
+Dialogue: 0,0:00:02.52,0:00:03.04,Cap,,0,0,0,,{\an5\pos(540,1345)}a single
+Dialogue: 0,0:00:03.04,0:00:03.64,Cap,,0,0,0,,{\an5\pos(540,1345)}law.
+Dialogue: 0,0:00:03.64,0:00:03.86,Cap,,0,0,0,,{\an5\pos(540,1345)}Well,
+Dialogue: 0,0:00:03.86,0:00:04.67,Cap,,0,0,0,,{\an5\pos(540,1345)}he has.
+Dialogue: 0,0:00:04.74,0:00:05.18,Cap,,0,0,0,,{\an5\pos(540,1345)}In medieval
+Dialogue: 0,0:00:05.18,0:00:05.94,Cap,,0,0,0,,{\an5\pos(540,1345)}England,
+Dialogue: 0,0:00:05.94,0:00:06.22,Cap,,0,0,0,,{\an5\pos(540,1345)}the law
+Dialogue: 0,0:00:06.22,0:00:07.04,Cap,,0,0,0,,{\an5\pos(540,1345)}said every free
+Dialogue: 0,0:00:07.04,0:00:07.66,Cap,,0,0,0,,{\an5\pos(540,1345)}man must
+Dialogue: 0,0:00:07.66,0:00:08.60,Cap,,0,0,0,,{\an5\pos(540,1345)}own a weapon.
+Dialogue: 0,0:00:08.60,0:00:09.08,Cap,,0,0,0,,{\an5\pos(540,1345)}And not just
+Dialogue: 0,0:00:09.08,0:00:10.07,Cap,,0,0,0,,{\an5\pos(540,1345)}own one.
+Dialogue: 0,0:00:10.10,0:00:10.46,Cap,,0,0,0,,{\an5\pos(540,1345)}Be trained
+Dialogue: 0,0:00:10.46,0:00:10.86,Cap,,0,0,0,,{\an5\pos(540,1345)}on it,
+Dialogue: 0,0:00:10.86,0:00:11.20,Cap,,0,0,0,,{\an5\pos(540,1345)}and keep
+Dialogue: 0,0:00:11.20,0:00:11.86,Cap,,0,0,0,,{\an5\pos(540,1345)}it ready.
+Dialogue: 0,0:00:11.86,0:00:12.20,Cap,,0,0,0,,{\an5\pos(540,1345)}The rule
+Dialogue: 0,0:00:12.20,0:00:12.42,Cap,,0,0,0,,{\an5\pos(540,1345)}was called
+Dialogue: 0,0:00:12.42,0:00:13.26,Cap,,0,0,0,,{\an5\pos(540,1345)}the Assize
+Dialogue: 0,0:00:13.26,0:00:14.40,Cap,,0,0,0,,{\an5\pos(540,1345)}of Arms,
+Dialogue: 0,0:00:14.40,0:00:14.82,Cap,,0,0,0,,{\an5\pos(540,1345)}and it worked
+Dialogue: 0,0:00:14.82,0:00:15.50,Cap,,0,0,0,,{\an5\pos(540,1345)}like a tax
+Dialogue: 0,0:00:15.50,0:00:15.94,Cap,,0,0,0,,{\an5\pos(540,1345)}bracket
+Dialogue: 0,0:00:15.94,0:00:16.92,Cap,,0,0,0,,{\an5\pos(540,1345)}of violence.
+Dialogue: 0,0:00:16.92,0:00:17.26,Cap,,0,0,0,,{\an5\pos(540,1345)}The poorest
+Dialogue: 0,0:00:17.26,0:00:17.88,Cap,,0,0,0,,{\an5\pos(540,1345)}man owed
+Dialogue: 0,0:00:17.88,0:00:18.66,Cap,,0,0,0,,{\an5\pos(540,1345)}a gambeson
+Dialogue: 0,0:00:18.66,0:00:19.61,Cap,,0,0,0,,{\an5\pos(540,1345)}and a spear.
+Dialogue: 0,0:00:19.72,0:00:20.55,Cap,,0,0,0,,{\an5\pos(540,1345)}The richest?
+Dialogue: 0,0:00:20.70,0:00:21.26,Cap,,0,0,0,,{\an5\pos(540,1345)}Chain mail
+Dialogue: 0,0:00:21.26,0:00:22.46,Cap,,0,0,0,,{\an5\pos(540,1345)}and a warhorse.
+Dialogue: 0,0:00:22.46,0:00:23.16,Cap,,0,0,0,,{\an5\pos(540,1345)}Officials rode
+Dialogue: 0,0:00:23.16,0:00:23.76,Cap,,0,0,0,,{\an5\pos(540,1345)}through towns
+Dialogue: 0,0:00:23.76,0:00:24.60,Cap,,0,0,0,,{\an5\pos(540,1345)}checking,
+Dialogue: 0,0:00:24.60,0:00:24.88,Cap,,0,0,0,,{\an5\pos(540,1345)}and if
+Dialogue: 0,0:00:24.88,0:00:25.16,Cap,,0,0,0,,{\an5\pos(540,1345)}you came
+Dialogue: 0,0:00:25.16,0:00:25.86,Cap,,0,0,0,,{\an5\pos(540,1345)}up short,
+Dialogue: 0,0:00:25.86,0:00:26.42,Cap,,0,0,0,,{\an5\pos(540,1345)}you paid.
+Dialogue: 0,0:00:26.42,0:00:26.90,Cap,,0,0,0,,{\an5\pos(540,1345)}Why?
+Dialogue: 0,0:00:26.90,0:00:27.04,Cap,,0,0,0,,{\an5\pos(540,1345)}Because
+Dialogue: 0,0:00:27.04,0:00:27.46,Cap,,0,0,0,,{\an5\pos(540,1345)}the king
+Dialogue: 0,0:00:27.46,0:00:28.32,Cap,,0,0,0,,{\an5\pos(540,1345)}had no army
+Dialogue: 0,0:00:28.32,0:00:28.64,Cap,,0,0,0,,{\an5\pos(540,1345)}he could
+Dialogue: 0,0:00:28.64,0:00:29.44,Cap,,0,0,0,,{\an5\pos(540,1345)}call on demand.
+Dialogue: 0,0:00:29.44,0:00:30.20,Cap,,0,0,0,,{\an5\pos(540,1345)}The citizens
+Dialogue: 0,0:00:30.20,0:00:31.53,Cap,,0,0,0,,{\an5\pos(540,1345)}were the army.
+Dialogue: 0,0:00:31.58,0:00:31.80,Cap,,0,0,0,,{\an5\pos(540,1345)}Every
+Dialogue: 0,0:00:31.80,0:00:32.62,Cap,,0,0,0,,{\an5\pos(540,1345)}blacksmith was
+Dialogue: 0,0:00:32.62,0:00:33.02,Cap,,0,0,0,,{\an5\pos(540,1345)}a waiting
+Dialogue: 0,0:00:33.02,0:00:33.84,Cap,,0,0,0,,{\an5\pos(540,1345)}soldier.
+Dialogue: 0,0:00:33.84,0:00:34.40,Cap,,0,0,0,,{\an5\pos(540,1345)}If invaders
+Dialogue: 0,0:00:34.40,0:00:35.04,Cap,,0,0,0,,{\an5\pos(540,1345)}landed on
+Dialogue: 0,0:00:35.04,0:00:35.94,Cap,,0,0,0,,{\an5\pos(540,1345)}the coast,
+Dialogue: 0,0:00:35.94,0:00:36.44,Cap,,0,0,0,,{\an5\pos(540,1345)}the alarm
+Dialogue: 0,0:00:36.44,0:00:36.86,Cap,,0,0,0,,{\an5\pos(540,1345)}went out
+Dialogue: 0,0:00:36.86,0:00:37.52,Cap,,0,0,0,,{\an5\pos(540,1345)}village by
+Dialogue: 0,0:00:37.52,0:00:38.32,Cap,,0,0,0,,{\an5\pos(540,1345)}village.
+Dialogue: 0,0:00:38.32,0:00:38.74,Cap,,0,0,0,,{\an5\pos(540,1345)}Men grabbed
+Dialogue: 0,0:00:38.74,0:00:39.36,Cap,,0,0,0,,{\an5\pos(540,1345)}whatever they
+Dialogue: 0,0:00:39.36,0:00:40.10,Cap,,0,0,0,,{\an5\pos(540,1345)}owned and ran
+Dialogue: 0,0:00:40.10,0:00:40.52,Cap,,0,0,0,,{\an5\pos(540,1345)}to fight
+Dialogue: 0,0:00:40.52,0:00:41.26,Cap,,0,0,0,,{\an5\pos(540,1345)}for free.
+Dialogue: 0,0:00:41.26,0:00:41.52,Cap,,0,0,0,,{\an5\pos(540,1345)}It saved
+Dialogue: 0,0:00:41.52,0:00:42.12,Cap,,0,0,0,,{\an5\pos(540,1345)}the crown
+Dialogue: 0,0:00:42.12,0:00:43.17,Cap,,0,0,0,,{\an5\pos(540,1345)}a fortune.
+Dialogue: 0,0:00:43.30,0:00:43.70,Cap,,0,0,0,,{\an5\pos(540,1345)}A standing
+Dialogue: 0,0:00:43.70,0:00:44.48,Cap,,0,0,0,,{\an5\pos(540,1345)}army costs
+Dialogue: 0,0:00:44.48,0:00:45.55,Cap,,0,0,0,,{\an5\pos(540,1345)}a fortune;
+Dialogue: 0,0:00:45.56,0:00:45.96,Cap,,0,0,0,,{\an5\pos(540,1345)}a legally
+Dialogue: 0,0:00:45.96,0:00:46.86,Cap,,0,0,0,,{\an5\pos(540,1345)}armed public
+Dialogue: 0,0:00:46.86,0:00:47.88,Cap,,0,0,0,,{\an5\pos(540,1345)}costs nothing.
+Dialogue: 0,0:00:47.88,0:00:48.65,Cap,,0,0,0,,{\an5\pos(540,1345)}The catch?
+Dialogue: 0,0:00:48.78,0:00:49.22,Cap,,0,0,0,,{\an5\pos(540,1345)}An armed
+Dialogue: 0,0:00:49.22,0:00:50.18,Cap,,0,0,0,,{\an5\pos(540,1345)}public is also
+Dialogue: 0,0:00:50.18,0:00:50.78,Cap,,0,0,0,,{\an5\pos(540,1345)}a dangerous
+Dialogue: 0,0:00:50.78,0:00:51.76,Cap,,0,0,0,,{\an5\pos(540,1345)}public,
+Dialogue: 0,0:00:51.76,0:00:52.12,Cap,,0,0,0,,{\an5\pos(540,1345)}and kings
+Dialogue: 0,0:00:52.12,0:00:52.98,Cap,,0,0,0,,{\an5\pos(540,1345)}spent centuries
+Dialogue: 0,0:00:52.98,0:00:53.72,Cap,,0,0,0,,{\an5\pos(540,1345)}worrying about
+Dialogue: 0,0:00:53.72,0:00:54.44,Cap,,0,0,0,,{\an5\pos(540,1345)}both.
+Dialogue: 0,0:00:54.44,0:00:54.82,Cap,,0,0,0,,{\an5\pos(540,1345)}And here's
+Dialogue: 0,0:00:54.82,0:00:55.32,Cap,,0,0,0,,{\an5\pos(540,1345)}the wild
+Dialogue: 0,0:00:55.32,0:00:56.14,Cap,,0,0,0,,{\an5\pos(540,1345)}part.
+Dialogue: 0,0:00:56.14,0:00:56.46,Cap,,0,0,0,,{\an5\pos(540,1345)}The weapon
+Dialogue: 0,0:00:56.46,0:00:57.18,Cap,,0,0,0,,{\an5\pos(540,1345)}laws never
+Dialogue: 0,0:00:57.18,0:00:58.08,Cap,,0,0,0,,{\an5\pos(540,1345)}really died.
+Dialogue: 0,0:00:58.08,0:00:58.84,Cap,,0,0,0,,{\an5\pos(540,1345)}England's last
+Dialogue: 0,0:00:58.84,0:00:59.36,Cap,,0,0,0,,{\an5\pos(540,1345)}archery
+Dialogue: 0,0:00:59.36,0:00:59.98,Cap,,0,0,0,,{\an5\pos(540,1345)}requirement
+Dialogue: 0,0:00:59.98,0:01:00.56,Cap,,0,0,0,,{\an5\pos(540,1345)}stayed on
+Dialogue: 0,0:01:00.56,0:01:01.08,Cap,,0,0,0,,{\an5\pos(540,1345)}the books
+Dialogue: 0,0:01:01.08,0:01:01.62,Cap,,0,0,0,,{\an5\pos(540,1345)}until
+Dialogue: 0,0:01:01.62,0:01:03.32,Cap,,0,0,0,,{\an5\pos(540,1345)}the 1960s.
+Dialogue: 0,0:01:03.32,0:01:03.54,Cap,,0,0,0,,{\an5\pos(540,1345)}For seven
+Dialogue: 0,0:01:03.54,0:01:04.84,Cap,,0,0,0,,{\an5\pos(540,1345)}hundred years,
+Dialogue: 0,0:01:04.84,0:01:05.46,Cap,,0,0,0,,{\an5\pos(540,1345)}the government's
+Dialogue: 0,0:01:05.46,0:01:06.08,Cap,,0,0,0,,{\an5\pos(540,1345)}backup plan
+Dialogue: 0,0:01:06.08,0:01:06.92,Cap,,0,0,0,,{\an5\pos(540,1345)}was basically
+Dialogue: 0,0:01:06.92,0:01:07.96,Cap,,0,0,0,,{\an5\pos(540,1345)}"bring your own
+Dialogue: 0,0:01:07.96,0:01:08.64,Cap,,0,0,0,,{\an5\pos(540,1345)}army."
