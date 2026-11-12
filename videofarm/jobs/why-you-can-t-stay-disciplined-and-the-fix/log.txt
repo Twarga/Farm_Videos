@@ -361,3 +361,11 @@ farm.llm.LLMError: LLM failed after 4 attempts: request failed: timed out
 15:39:01 llm request (attempt 1, 2744 chars)
 15:39:01 llm request (attempt 1, 2634 chars)
 15:39:01 llm request (attempt 1, 2733 chars)
+15:45:04 llm request failed: HTTP Error 500: Internal Server Error
+15:45:04 llm request failed: HTTP Error 500: Internal Server Error
+15:45:04 llm request failed: HTTP Error 500: Internal Server Error
+15:45:04 llm request failed: HTTP Error 500: Internal Server Error
+15:45:09 llm request (attempt 2, 2744 chars)
+15:45:09 llm request (attempt 2, 2733 chars)
+15:45:09 llm request (attempt 2, 2634 chars)
+15:45:09 llm request (attempt 2, 2692 chars)
