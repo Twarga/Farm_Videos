@@ -1,6 +1,9 @@
-"""Scene plates are drawn in code (farm/scenes.py) into cache/images/<key>.png.
-`wait` renders whatever is missing; `pending_all` is kept for the web UI's queue view."""
-from . import config, scenes
+"""Plates come from Nano Banana through the Antigravity CLI. `agy` is logged in on the laptop, not on this host, so the
+farm only owns the queue: images.json lists every plate a job needs, `pending_all` lists the ones still missing, and
+farm/imgworker.py fills cache/images/<key>.png over ssh. `wait` blocks until a job's plates exist."""
+import time
+
+from . import config
 
 
 def missing(job):
@@ -9,46 +12,35 @@ def missing(job):
 
 
 def pending_all():
-    """Every missing image across all jobs that are waiting for images (used by the web UI)."""
+    """Every missing plate of every job, with the job and style it belongs to (read by imgworker.py)."""
     from .job import all_jobs
     out = []
     for j in all_jobs():
-        if j.meta.get("stages", {}).get("images", {}).get("state") in ("waiting", "running"):
-            q = j.read("images.json", {})
-            for i in missing(j):
-                out.append({**i, "job": j.slug, "ref": q.get("ref")})
+        q = j.read("images.json")
+        if q:
+            out += [{**i, "job": j.slug, "style": q["style"]} for i in missing(j)]
     return out
 
 
-def _fill(job, st):
-    """Draw every missing plate for this job, right now."""
-    miss = missing(job)
-    shots = job.read("shots.json", {"chapters": []})["chapters"]
-    by_key = {}
-    for ch in shots:
-        if ch is None:
-            continue
-        for s in ch["shots"]:
-            if s.get("image"):
-                by_key[s["image"]] = (s, ch)
-        if ch.get("icon_image"):
-            by_key[ch["icon_image"]] = (None, ch)
-    total = len(job.read("images.json")["images"])
-    done = total - len(miss)
-    for i, item in enumerate(miss):
-        shot, ch = by_key.get(item["key"], ({}, {}))
-        if item.get("kind") == "icon":
-            item["icon"] = ch.get("icon", "lightbulb")
-        item.setdefault("shot", shot)
-        item.setdefault("chapter", ch)
-        scenes.render_item(job.style, item, job.path)
-        done += 1
-        job.set_stage("images", "running", f"{done}/{total}")
-        job.log(f"image {done}/{total} {item['key']} drawn")
+def reset(job):
+    """Forget this job's plates (e.g. after changing its image prompts) so the worker makes them again."""
+    for i in job.read("images.json", {"images": []})["images"]:
+        (config.IMAGE_CACHE / f"{i['key']}.png").unlink(missing_ok=True)
+    job.set_stage("images", "waiting", f"{len(missing(job))} missing")
 
 
 def wait(job, poll=5, timeout=None):
-    from . import style as S
-    _fill(job, S.load(job.style))
-    job.set_stage("images", "done")
-    return True
+    """Block until every plate exists, publishing progress. False if `timeout` seconds pass first."""
+    total = len(job.read("images.json")["images"])
+    t0, last = time.time(), None
+    while True:
+        left = len(missing(job))
+        if not left:
+            job.set_stage("images", "done")
+            return True
+        if left != last:
+            job.set_stage("images", "running" if left < total else "waiting", f"{total - left}/{total}")
+            last = left
+        if timeout is not None and time.time() - t0 > timeout:
+            return False
+        time.sleep(poll)
