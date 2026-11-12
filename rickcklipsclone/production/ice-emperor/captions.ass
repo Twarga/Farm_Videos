@@ -1,0 +1,118 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Montserrat Black,100,&H00FFFFFF,&H00FFFFFF,&H00000000,&H90000000,0,0,0,0,100,100,0,0,1,6,4,5,40,40,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.42,Cap,,0,0,0,,{\an5\pos(540,1345)}This emperor
+Dialogue: 0,0:00:00.42,0:00:01.30,Cap,,0,0,0,,{\an5\pos(540,1345)}made it illegal
+Dialogue: 0,0:00:01.30,0:00:01.80,Cap,,0,0,0,,{\an5\pos(540,1345)}to melt
+Dialogue: 0,0:00:01.80,0:00:02.52,Cap,,0,0,0,,{\an5\pos(540,1345)}ice.
+Dialogue: 0,0:00:02.52,0:00:03.04,Cap,,0,0,0,,{\an5\pos(540,1345)}Not to freeze
+Dialogue: 0,0:00:03.04,0:00:03.56,Cap,,0,0,0,,{\an5\pos(540,1345)}it.
+Dialogue: 0,0:00:03.56,0:00:03.88,Cap,,0,0,0,,{\an5\pos(540,1345)}To melt
+Dialogue: 0,0:00:03.88,0:00:04.52,Cap,,0,0,0,,{\an5\pos(540,1345)}it.
+Dialogue: 0,0:00:04.52,0:00:04.98,Cap,,0,0,0,,{\an5\pos(540,1345)}If your ice
+Dialogue: 0,0:00:04.98,0:00:05.26,Cap,,0,0,0,,{\an5\pos(540,1345)}turned
+Dialogue: 0,0:00:05.26,0:00:05.88,Cap,,0,0,0,,{\an5\pos(540,1345)}to water,
+Dialogue: 0,0:00:05.88,0:00:06.14,Cap,,0,0,0,,{\an5\pos(540,1345)}you were
+Dialogue: 0,0:00:06.14,0:00:06.90,Cap,,0,0,0,,{\an5\pos(540,1345)}a criminal.
+Dialogue: 0,0:00:06.90,0:00:07.26,Cap,,0,0,0,,{\an5\pos(540,1345)}You see,
+Dialogue: 0,0:00:07.26,0:00:07.74,Cap,,0,0,0,,{\an5\pos(540,1345)}in ancient
+Dialogue: 0,0:00:07.74,0:00:08.32,Cap,,0,0,0,,{\an5\pos(540,1345)}Rome,
+Dialogue: 0,0:00:08.32,0:00:09.04,Cap,,0,0,0,,{\an5\pos(540,1345)}ice was
+Dialogue: 0,0:00:09.04,0:00:09.76,Cap,,0,0,0,,{\an5\pos(540,1345)}worth more than
+Dialogue: 0,0:00:09.76,0:00:10.02,Cap,,0,0,0,,{\an5\pos(540,1345)}the men
+Dialogue: 0,0:00:10.02,0:00:10.60,Cap,,0,0,0,,{\an5\pos(540,1345)}who hauled
+Dialogue: 0,0:00:10.60,0:00:10.90,Cap,,0,0,0,,{\an5\pos(540,1345)}it.
+Dialogue: 0,0:00:10.90,0:00:11.02,Cap,,0,0,0,,{\an5\pos(540,1345)}It came
+Dialogue: 0,0:00:11.02,0:00:11.50,Cap,,0,0,0,,{\an5\pos(540,1345)}down from
+Dialogue: 0,0:00:11.50,0:00:11.96,Cap,,0,0,0,,{\an5\pos(540,1345)}the Alps
+Dialogue: 0,0:00:11.96,0:00:13.12,Cap,,0,0,0,,{\an5\pos(540,1345)}on mule-back,
+Dialogue: 0,0:00:13.12,0:00:13.82,Cap,,0,0,0,,{\an5\pos(540,1345)}packed in straw
+Dialogue: 0,0:00:13.82,0:00:14.82,Cap,,0,0,0,,{\an5\pos(540,1345)}and sawdust.
+Dialogue: 0,0:00:14.82,0:00:15.26,Cap,,0,0,0,,{\an5\pos(540,1345)}Every mile
+Dialogue: 0,0:00:15.26,0:00:16.14,Cap,,0,0,0,,{\an5\pos(540,1345)}it travelled,
+Dialogue: 0,0:00:16.14,0:00:16.60,Cap,,0,0,0,,{\an5\pos(540,1345)}it melted
+Dialogue: 0,0:00:16.60,0:00:17.42,Cap,,0,0,0,,{\an5\pos(540,1345)}a little.
+Dialogue: 0,0:00:17.42,0:00:18.26,Cap,,0,0,0,,{\an5\pos(540,1345)}So every drop
+Dialogue: 0,0:00:18.26,0:00:18.74,Cap,,0,0,0,,{\an5\pos(540,1345)}of melt
+Dialogue: 0,0:00:18.74,0:00:19.24,Cap,,0,0,0,,{\an5\pos(540,1345)}was money
+Dialogue: 0,0:00:19.24,0:00:20.24,Cap,,0,0,0,,{\an5\pos(540,1345)}leaking away.
+Dialogue: 0,0:00:20.24,0:00:20.78,Cap,,0,0,0,,{\an5\pos(540,1345)}Emperors loved
+Dialogue: 0,0:00:20.78,0:00:21.74,Cap,,0,0,0,,{\an5\pos(540,1345)}their snow-chilled
+Dialogue: 0,0:00:21.74,0:00:22.55,Cap,,0,0,0,,{\an5\pos(540,1345)}wine.
+Dialogue: 0,0:00:22.74,0:00:23.34,Cap,,0,0,0,,{\an5\pos(540,1345)}Senators served
+Dialogue: 0,0:00:23.34,0:00:23.80,Cap,,0,0,0,,{\an5\pos(540,1345)}it to show
+Dialogue: 0,0:00:23.80,0:00:24.38,Cap,,0,0,0,,{\an5\pos(540,1345)}off.
+Dialogue: 0,0:00:24.38,0:00:24.78,Cap,,0,0,0,,{\an5\pos(540,1345)}So the state
+Dialogue: 0,0:00:24.78,0:00:25.79,Cap,,0,0,0,,{\an5\pos(540,1345)}stepped in.
+Dialogue: 0,0:00:25.84,0:00:26.42,Cap,,0,0,0,,{\an5\pos(540,1345)}Ice became
+Dialogue: 0,0:00:26.42,0:00:27.14,Cap,,0,0,0,,{\an5\pos(540,1345)}a regulated
+Dialogue: 0,0:00:27.14,0:00:28.04,Cap,,0,0,0,,{\an5\pos(540,1345)}treasure.
+Dialogue: 0,0:00:28.04,0:00:28.48,Cap,,0,0,0,,{\an5\pos(540,1345)}Melt someone
+Dialogue: 0,0:00:28.48,0:00:29.32,Cap,,0,0,0,,{\an5\pos(540,1345)}else's ice,
+Dialogue: 0,0:00:29.32,0:00:29.56,Cap,,0,0,0,,{\an5\pos(540,1345)}or let
+Dialogue: 0,0:00:29.56,0:00:29.92,Cap,,0,0,0,,{\an5\pos(540,1345)}it slip?
+Dialogue: 0,0:00:29.92,0:00:30.70,Cap,,0,0,0,,{\an5\pos(540,1345)}You could
+Dialogue: 0,0:00:30.70,0:00:31.78,Cap,,0,0,0,,{\an5\pos(540,1345)}lose your hand.
+Dialogue: 0,0:00:31.78,0:00:32.46,Cap,,0,0,0,,{\an5\pos(540,1345)}Some emperors
+Dialogue: 0,0:00:32.46,0:00:33.06,Cap,,0,0,0,,{\an5\pos(540,1345)}even built
+Dialogue: 0,0:00:33.06,0:00:33.76,Cap,,0,0,0,,{\an5\pos(540,1345)}ice houses
+Dialogue: 0,0:00:33.76,0:00:34.88,Cap,,0,0,0,,{\an5\pos(540,1345)}under temples,
+Dialogue: 0,0:00:34.88,0:00:35.60,Cap,,0,0,0,,{\an5\pos(540,1345)}like vaults
+Dialogue: 0,0:00:35.60,0:00:36.14,Cap,,0,0,0,,{\an5\pos(540,1345)}for frozen
+Dialogue: 0,0:00:36.14,0:00:36.88,Cap,,0,0,0,,{\an5\pos(540,1345)}gold.
+Dialogue: 0,0:00:36.88,0:00:37.24,Cap,,0,0,0,,{\an5\pos(540,1345)}And here's
+Dialogue: 0,0:00:37.24,0:00:37.60,Cap,,0,0,0,,{\an5\pos(540,1345)}the crazy
+Dialogue: 0,0:00:37.60,0:00:38.34,Cap,,0,0,0,,{\an5\pos(540,1345)}part.
+Dialogue: 0,0:00:38.34,0:00:39.10,Cap,,0,0,0,,{\an5\pos(540,1345)}It worked.
+Dialogue: 0,0:00:39.10,0:00:39.46,Cap,,0,0,0,,{\an5\pos(540,1345)}For a few
+Dialogue: 0,0:00:39.46,0:00:40.08,Cap,,0,0,0,,{\an5\pos(540,1345)}coins you
+Dialogue: 0,0:00:40.08,0:00:40.40,Cap,,0,0,0,,{\an5\pos(540,1345)}could buy
+Dialogue: 0,0:00:40.40,0:00:40.78,Cap,,0,0,0,,{\an5\pos(540,1345)}a chipped
+Dialogue: 0,0:00:40.78,0:00:41.44,Cap,,0,0,0,,{\an5\pos(540,1345)}cup of snow
+Dialogue: 0,0:00:41.44,0:00:42.44,Cap,,0,0,0,,{\an5\pos(540,1345)}in July.
+Dialogue: 0,0:00:42.44,0:00:42.92,Cap,,0,0,0,,{\an5\pos(540,1345)}Rich Romans
+Dialogue: 0,0:00:42.92,0:00:43.88,Cap,,0,0,0,,{\an5\pos(540,1345)}hosted parties
+Dialogue: 0,0:00:43.88,0:00:44.58,Cap,,0,0,0,,{\an5\pos(540,1345)}just to prove
+Dialogue: 0,0:00:44.58,0:00:44.98,Cap,,0,0,0,,{\an5\pos(540,1345)}they had
+Dialogue: 0,0:00:44.98,0:00:45.86,Cap,,0,0,0,,{\an5\pos(540,1345)}ice,
+Dialogue: 0,0:00:45.86,0:00:46.28,Cap,,0,0,0,,{\an5\pos(540,1345)}right there
+Dialogue: 0,0:00:46.28,0:00:47.04,Cap,,0,0,0,,{\an5\pos(540,1345)}in the heat.
+Dialogue: 0,0:00:47.04,0:00:47.28,Cap,,0,0,0,,{\an5\pos(540,1345)}The workers
+Dialogue: 0,0:00:47.28,0:00:48.52,Cap,,0,0,0,,{\an5\pos(540,1345)}got frostbite
+Dialogue: 0,0:00:48.52,0:00:49.06,Cap,,0,0,0,,{\an5\pos(540,1345)}hauling it down
+Dialogue: 0,0:00:49.06,0:00:49.80,Cap,,0,0,0,,{\an5\pos(540,1345)}the mountain.
+Dialogue: 0,0:00:49.80,0:00:50.46,Cap,,0,0,0,,{\an5\pos(540,1345)}The aristocrats
+Dialogue: 0,0:00:50.46,0:00:51.12,Cap,,0,0,0,,{\an5\pos(540,1345)}got brain
+Dialogue: 0,0:00:51.12,0:00:51.98,Cap,,0,0,0,,{\an5\pos(540,1345)}freeze drinking
+Dialogue: 0,0:00:51.98,0:00:52.46,Cap,,0,0,0,,{\an5\pos(540,1345)}it up.
+Dialogue: 0,0:00:52.46,0:00:52.72,Cap,,0,0,0,,{\an5\pos(540,1345)}It took
+Dialogue: 0,0:00:52.72,0:00:53.16,Cap,,0,0,0,,{\an5\pos(540,1345)}seventeen
+Dialogue: 0,0:00:53.16,0:00:53.88,Cap,,0,0,0,,{\an5\pos(540,1345)}hundred years
+Dialogue: 0,0:00:53.88,0:00:54.64,Cap,,0,0,0,,{\an5\pos(540,1345)}before anyone
+Dialogue: 0,0:00:54.64,0:00:55.45,Cap,,0,0,0,,{\an5\pos(540,1345)}thought,
+Dialogue: 0,0:00:55.48,0:00:56.18,Cap,,0,0,0,,{\an5\pos(540,1345)}maybe ice
+Dialogue: 0,0:00:56.18,0:00:56.58,Cap,,0,0,0,,{\an5\pos(540,1345)}shouldn't be
+Dialogue: 0,0:00:56.58,0:00:56.92,Cap,,0,0,0,,{\an5\pos(540,1345)}illegal
+Dialogue: 0,0:00:56.92,0:00:57.58,Cap,,0,0,0,,{\an5\pos(540,1345)}to melt.
+Dialogue: 0,0:00:57.58,0:00:57.96,Cap,,0,0,0,,{\an5\pos(540,1345)}Turns out
+Dialogue: 0,0:00:57.96,0:00:58.52,Cap,,0,0,0,,{\an5\pos(540,1345)}the emperor
+Dialogue: 0,0:00:58.52,0:00:59.00,Cap,,0,0,0,,{\an5\pos(540,1345)}wasn't
+Dialogue: 0,0:00:59.00,0:00:59.40,Cap,,0,0,0,,{\an5\pos(540,1345)}protecting
+Dialogue: 0,0:00:59.40,0:00:59.90,Cap,,0,0,0,,{\an5\pos(540,1345)}the ice.
+Dialogue: 0,0:00:59.90,0:01:00.38,Cap,,0,0,0,,{\an5\pos(540,1345)}He was
+Dialogue: 0,0:01:00.38,0:01:00.70,Cap,,0,0,0,,{\an5\pos(540,1345)}protecting
+Dialogue: 0,0:01:00.70,0:01:01.26,Cap,,0,0,0,,{\an5\pos(540,1345)}the right
+Dialogue: 0,0:01:01.26,0:01:01.70,Cap,,0,0,0,,{\an5\pos(540,1345)}to be
+Dialogue: 0,0:01:01.70,0:01:02.14,Cap,,0,0,0,,{\an5\pos(540,1345)}the only
+Dialogue: 0,0:01:02.14,0:01:02.58,Cap,,0,0,0,,{\an5\pos(540,1345)}one who
+Dialogue: 0,0:01:02.58,0:01:03.20,Cap,,0,0,0,,{\an5\pos(540,1345)}had it.
