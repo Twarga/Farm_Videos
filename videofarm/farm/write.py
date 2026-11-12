@@ -181,7 +181,7 @@ def shots(job, st, parallel=4):
 
         numbered = "\n".join(f"{k + 1}. {s}" for k, s in enumerate(ch["sentences"]))
         sh = llm.ask_json(S.prompt(st, "shots", name=ch["name"], outfit=ch.get("outfit") or "his usual clothes",
-                                   sentences=numbered, count=n), validate, log=job.log)
+                                   sentences=numbered, count=n), validate, max_tokens=24000, log=job.log)
         for s, line in zip(sh, ch["sentences"]):
             s["line"] = line
             if s["kind"] == "image":

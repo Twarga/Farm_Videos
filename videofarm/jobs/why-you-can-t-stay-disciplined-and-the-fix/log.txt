@@ -390,3 +390,23 @@ farm.llm.LLMError: LLM failed after 4 attempts: request failed: timed out
 15:58:42 llm request (attempt 2, 2733 chars)
 15:58:42 llm reply rejected (attempt 1): no JSON object in reply
 15:58:42 llm request (attempt 2, 2744 chars)
+16:00:42 llm reply rejected (attempt 2): no JSON object in reply
+16:00:42 llm request (attempt 3, 2634 chars)
+16:00:42 llm reply rejected (attempt 2): no JSON object in reply
+16:00:42 llm request (attempt 3, 2692 chars)
+16:00:42 llm reply rejected (attempt 2): no JSON object in reply
+16:00:42 llm reply rejected (attempt 2): no JSON object in reply
+16:00:42 llm request (attempt 3, 2733 chars)
+16:00:42 llm request (attempt 3, 2744 chars)
+16:02:42 llm reply rejected (attempt 3): no JSON object in reply
+16:02:42 llm request (attempt 4, 2634 chars)
+16:02:42 llm reply rejected (attempt 3): no JSON object in reply
+16:02:42 llm request (attempt 4, 2692 chars)
+16:02:42 llm reply rejected (attempt 3): no JSON object in reply
+16:02:42 llm request (attempt 4, 2733 chars)
+16:02:42 llm reply rejected (attempt 3): no JSON object in reply
+16:02:42 llm request (attempt 4, 2744 chars)
+16:03:03 llm request (attempt 1, 2744 chars)
+16:03:03 llm request (attempt 1, 2692 chars)
+16:03:03 llm request (attempt 1, 2733 chars)
+16:03:03 llm request (attempt 1, 2634 chars)
