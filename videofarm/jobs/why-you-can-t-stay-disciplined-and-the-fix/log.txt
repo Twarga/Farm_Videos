@@ -496,3 +496,9 @@ farm.llm.LLMError: LLM failed after 4 attempts: request failed: timed out
 16:28:28 llm request (attempt 4, 2733 chars)
 16:28:28 llm request (attempt 4, 2744 chars)
 16:28:28 llm request (attempt 4, 2725 chars)
+16:31:38 llm ok (attempt 4)
+16:31:38 shots 7/9 '5. Make Progress Pay Today': 32
+16:32:11 llm ok (attempt 4)
+16:32:11 shots 8/9 '8. Practice Returning, Not Restarting': 32
+16:32:13 llm ok (attempt 4)
+16:32:13 shots 9/9 '4. Shrink The First Step': 34

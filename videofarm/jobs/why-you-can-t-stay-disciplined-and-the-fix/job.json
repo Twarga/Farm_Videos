@@ -23,14 +23,19 @@
       "t": 1794486055.2187326
     },
     "shots": {
-      "state": "running",
+      "state": "done",
       "detail": "",
-      "t": 1794500589.9398115
+      "t": 1794501133.6462705
     },
     "images": {
       "state": "waiting",
-      "detail": "162 queued",
-      "t": 1794500824.281779
+      "detail": "257 missing",
+      "t": 1794501133.6577382
+    },
+    "voice": {
+      "state": "running",
+      "detail": "44/266",
+      "t": 1794501271.0118437
     }
   }
 }
