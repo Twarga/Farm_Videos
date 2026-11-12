@@ -1,0 +1,5 @@
+Money, explained in about 45 seconds.
+
+Short videos on the things that run your life: what banks do with your deposit, how a credit score gets calculated, why printing money backfires, what the Fed moves and why your groceries cost more after.
+
+Every frame is drawn in code. New videos as they're made.
