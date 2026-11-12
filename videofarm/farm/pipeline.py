@@ -3,7 +3,7 @@ import traceback
 
 from . import images, package, render, shorts, style as S, voice, write
 
-STAGES = ["outline", "script", "shots", "voice", "images", "render", "shorts", "package"]
+STAGES = ["outline", "script", "shots", "specs", "voice", "images", "render", "shorts", "package"]
 
 
 def _stage(job, name, fn, *a):
@@ -31,6 +31,8 @@ def run(job, wait_images=True, image_timeout=None, rerender=False):
         _stage(job, "script", write.script, job, st)
     if not job.stage_done("shots"):
         _stage(job, "shots", write.shots, job, st)
+    if not job.stage_done("specs"):
+        _stage(job, "specs", write.specs, job, st)
     if not job.stage_done("images"):
         job.set_stage("images", "waiting", f"{len(images.missing(job))} missing")  # the worker starts now
     if not job.stage_done("voice"):

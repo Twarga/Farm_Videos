@@ -4,9 +4,8 @@
   suggest <job>                    score every style for the job, propose titles
   pick <job> <style> [--title T]   choose the style (and optionally a suggested title)
   run <job> [--no-wait] [--rerender]   run / resume the whole pipeline
-  pending                          JSON list of plates still missing across all jobs (read by imgworker.py)
-  reimage <job>                    drop the job's plates so imgworker.py makes them again
-  reprompt <job>                   rebuild the job's image prompts/keys from the current style pack, then requeue
+  specs <job>                      turn the storyboard's scene text into drawable recipes (shot specs)
+  reimage <job>                    drop the job's plates so they are drawn again (after changing the art)
   status                           one line per job
   styles                           list style packs
 """
@@ -36,9 +35,8 @@ def main(argv=None):
     p.add_argument("job")
     p.add_argument("--no-wait", action="store_true")
     p.add_argument("--rerender", action="store_true")
-    sub.add_parser("pending")
     sub.add_parser("reimage").add_argument("job")
-    sub.add_parser("reprompt").add_argument("job")
+    sub.add_parser("specs").add_argument("job")
     sub.add_parser("status")
     sub.add_parser("styles")
     a = ap.parse_args(argv)
@@ -57,13 +55,11 @@ def main(argv=None):
         print(f"{j.slug}: style={a.style} title={j.meta['title']}")
     elif a.cmd == "run":
         print(pipeline.run(Job(a.job), wait_images=not a.no_wait, rerender=a.rerender))
-    elif a.cmd == "pending":
-        print(json.dumps(images.pending_all()))
     elif a.cmd == "reimage":
         images.reset(Job(a.job))
-    elif a.cmd == "reprompt":
+    elif a.cmd == "specs":
         j = Job(a.job)
-        print(f"{len(write.reprompt(j, S.load(j.style)))} plates queued")
+        write.specs(j, S.load(j.style))
     elif a.cmd == "status":
         for j in all_jobs():
             st = " ".join(f"{k}:{v['state']}" + (f"({v['detail']})" if v.get("detail") else "")

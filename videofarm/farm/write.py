@@ -226,16 +226,86 @@ def queue_images(job, st):
     return q
 
 
-def reprompt(job, st):
-    """Rebuild every shot's image prompt and plate key from its stored scene with the current style pack and
-    reference image (use after editing the pack), then requeue. Plates made from the old prompts are orphaned."""
+SPEC_PROMPT = """You turn storyboard shot descriptions into scene recipes for a 2D vector illustration engine. Use ONLY the
+vocabularies below. Return JSON: {{"shots": [{{"n": 1, "shot": ..., "people": [...], "props": [...], "bubble": null, "text": ""}}, ...]}}
+with exactly {count} entries, in order.
+
+CAMERA "shot": wide (whole person small, set visible) | medium (person fills the frame) | close (huge head and shoulders: faces, emotions, reactions).
+Follow the camera named in the description ("extreme close-up" -> close).
+"people": 1 or 2 entries {{"who": "hero"|"other", "pose": P, "mood": M, "side": "left"|"center"|"right"}}. The hero is the main character; use "other" for a second person (teller, boss, friend). Close shots: 1 person.
+POSES P: {poses}
+MOODS M: {moods}
+"props": 0-3 entries {{"name": N, "slot": S, "size": "s"|"m"|"l"}}. Pick the closest object from this list, never invent names (paycheck -> invoice, subscription -> phone, savings -> piggy_bank, debt -> trash_pile, gym -> dumbbell ...). Close shots: at most 1 prop.
+NAMES N: {props}
+SLOTS S: far_left | left | center | right | far_right | hand (hand = something the person holds). Place props away from the person's side.
+"bubble": null, or {{"kind": "thought"|"speech", "prop": N or null}} ONLY when the description shows a thought, imagination, dream, memory or something said.
+"text": the printed word from the shot's TEXT field if it is not empty, otherwise "".
+
+SHOTS (n. description | TEXT):
+{shots}
+"""
+
+
+def specs(job, st, parallel=4):
+    """Convert every image shot's free-text scene into a validated recipe for farm/compose.py (shot['spec'])."""
+    from . import compose
     data = job.read("shots.json")
-    for ch in data["chapters"]:
-        for s in ch["shots"] if ch else []:
-            if s["kind"] == "image":
-                s["prompt"] = S.image_prompt(st, s["scene"], ch.get("outfit", ""), s["text"])
-                s["image"] = S.image_key(st, s["prompt"])
-    job.write("shots.json", data)
-    q = queue_images(job, st)
-    job.set_stage("images", "waiting", f"{len(q)} queued")
-    return q
+    lock = threading.Lock()
+    vocab = dict(poses=", ".join(compose.POSES), moods=", ".join(compose.MOODS), props=", ".join(sorted(compose.PROPS)))
+
+    def chapter(ci):
+        ch = data["chapters"][ci]
+        todo = [(k, s) for k, s in enumerate(ch["shots"]) if s["kind"] == "image" and not s.get("spec")]
+        if not todo:
+            return
+        listing = "\n".join(f"{n}. {s['scene']} | {s['text']}" for n, (k, s) in enumerate(todo, 1))
+
+        def validate(o):
+            out = o["shots"]
+            if len(out) != len(todo):
+                raise ValueError(f"need exactly {len(todo)} entries, got {len(out)}")
+            for e in out:
+                if e.get("shot") not in compose.FLOOR:
+                    raise ValueError(f"entry {e.get('n')}: shot must be wide, medium or close")
+                if not 1 <= len(e.get("people") or []) <= 2:
+                    raise ValueError(f"entry {e.get('n')}: people must have 1 or 2 entries")
+                for p in e["people"]:
+                    if p.get("pose") not in compose.POSES or p.get("mood") not in compose.MOODS:
+                        raise ValueError(f"entry {e.get('n')}: pose/mood must come from the lists")
+                bad = [p.get("name") for p in e.get("props") or [] if p.get("name") not in compose.PROPS]
+                if bad:
+                    raise ValueError(f"entry {e.get('n')}: unknown prop names {bad}; use only the NAMES list")
+                e["props"] = e.get("props") or []
+                e["bubble"] = e.get("bubble") or None
+                e["text"] = str(e.get("text") or "")
+            return out
+
+        res = llm.ask_json(SPEC_PROMPT.format(count=len(todo), shots=listing, **vocab), validate, max_tokens=48000, log=job.log)
+        with lock:
+            for (k, s), e in zip(todo, res):
+                s["spec"] = {key: e[key] for key in ("shot", "people", "props", "bubble", "text")}
+            job.write("shots.json", data)
+            job.log(f"specs '{ch['name']}': {len(todo)}")
+
+    with cf.ThreadPoolExecutor(parallel) as ex:
+        for f in [ex.submit(chapter, ci) for ci, ch in enumerate(data["chapters"]) if ch]:
+            f.result()
+
+    if st["transition"] == "roster":
+        todo = [c for c in data["chapters"] if c and not c.get("intro") and not c.get("icon_prop")]
+        if todo:
+            names = sorted(compose.PROPS)
+            listing = "\n".join(f"{i}. {c['icon']}" for i, c in enumerate(todo, 1))
+
+            def check(o):
+                out = o["icons"]
+                if len(out) != len(todo) or any(n not in compose.PROPS for n in out):
+                    raise ValueError(f"need exactly {len(todo)} names, each one from: {', '.join(names)}")
+                return out
+
+            res = llm.ask_json(f"Pick the closest object for each icon phrase. Allowed names: {', '.join(names)}.\n"
+                               f'Return JSON {{"icons": [name, ...]}} with exactly {len(todo)} names, in order.\n\n{listing}',
+                               check, max_tokens=48000, log=job.log)
+            for c, n in zip(todo, res):
+                c["icon_prop"] = n
+            job.write("shots.json", data)

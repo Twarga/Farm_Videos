@@ -767,3 +767,19 @@ farm.llm.LLMError: LLM failed after 4 attempts: request failed: timed out
 17:45:56 llm request (attempt 1, 471 chars)
 17:46:16 llm ok (attempt 1)
 17:46:16 all done
+20:52:24 llm request (attempt 1, 4320 chars)
+20:52:24 llm request (attempt 1, 7876 chars)
+20:52:24 llm request (attempt 1, 7947 chars)
+20:52:24 llm request (attempt 1, 7786 chars)
+20:53:26 llm ok (attempt 1)
+20:53:26 specs 'Intro': 12
+20:53:26 llm request (attempt 1, 8891 chars)
+20:54:06 llm ok (attempt 1)
+20:54:06 specs '2. Your Phone Wins By Default': 31
+20:54:06 llm request (attempt 1, 7819 chars)
+20:54:33 llm ok (attempt 1)
+20:54:33 specs '1. Stop Waiting To Feel Ready': 30
+20:54:33 llm request (attempt 1, 7579 chars)
+20:54:53 llm ok (attempt 1)
+20:54:53 specs '3. Give Your Habit An Appointment': 33
+20:54:53 llm request (attempt 1, 7221 chars)
