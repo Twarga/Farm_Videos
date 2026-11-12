@@ -119,8 +119,8 @@ for k in range(3):                                          # sled creaks
 for k in range(4):                                          # melt drips
     add(sfx, wt(4, "mile") + 0.15 * k, pluck(rng.uniform(700, 950)), 0.35)
 for k in range(3):                                          # party sip glugs
-    add(sfx, wt(9, "snow") + 0.2 * k, glug(), 0.4)
+    add(sfx, wt(10, "snow") + 0.2 * k, glug(), 0.4)
 add(sfx, wt(7, "hand"), thump(), 0.8)                       # punishment sting
-add(sfx, wt(15, "only"), pluck(920), 0.6)                   # monopoly reveal
+add(sfx, wt(16, "only"), pluck(920), 0.6)                   # monopoly reveal
 write(ROOT / "audio" / "sfx.wav", sfx)
 print("sfx", DUR)

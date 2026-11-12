@@ -113,8 +113,8 @@ spans = json.load(open(ROOT / "spans.json"))
 for s in spans["shots"][1:]:
     add(sfx, max(0, s["g0"] / 30 - 0.2), whoosh(), 0.35 if not s["cut_in"] else 0.0)
 
-add(sfx, wt(2, "fight"), cannon(), 0.9)                     # boarding cannon
-add(sfx, wt(4, "twenty"), pluck(220), 0.7)                  # clock tick
+add(sfx, wt(3, "fight"), cannon(), 0.9)                     # boarding cannon
+add(sfx, wt(5, "twenty"), pluck(220), 0.7)                  # clock tick
 add(sfx, wt(7, "cheated"), pluck(880), 0.6)                 # cheat ping
 add(sfx, wt(9, "flip"), pluck(700), 0.6)                    # patch flip
 add(sfx, wt(9, "instant"), pluck(950), 0.5)                 # instant sight

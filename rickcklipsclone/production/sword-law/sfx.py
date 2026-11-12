@@ -100,12 +100,12 @@ for s in spans["shots"][1:]:
     add(sfx, max(0, s["g0"] / 30 - 0.2), whoosh(), 0.35 if not s["cut_in"] else 0.0)
 
 add(sfx, wt(0, "fined"), thump(), 0.9)                        # gavel / stamp on the fine
-for w in ("spear", "horse"):                                  # gear shown per bracket
-    add(sfx, wt(3, w), shing(), 0.5)
+for w in ("spear", "warhorse"):                                  # gear shown per bracket
+    add(sfx, wt(4, w), shing(), 0.5)
 for k in range(3):                                            # alarm beacons flare
-    add(sfx, wt(7, "alarm") + 0.35 * k, pluck(700 + 120 * k), 0.45)
+    add(sfx, wt(8, "alarm") + 0.35 * k, pluck(700 + 120 * k), 0.45)
 for k in range(6):                                            # gold draining
-    add(sfx, wt(9, "fortune") + 0.13 * k, pluck(rng.uniform(500, 900)), 0.3)
+    add(sfx, wt(10, "fortune") + 0.13 * k, pluck(rng.uniform(500, 900)), 0.3)
 add(sfx, wt(14, "army"), shing(), 0.7)                        # BYOA payoff
 write(ROOT / "audio" / "sfx.wav", sfx)
 print("sfx", DUR)
