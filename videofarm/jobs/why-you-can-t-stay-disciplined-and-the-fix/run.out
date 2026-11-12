@@ -487,3 +487,11 @@ farm.llm.LLMError: LLM failed after 4 attempts: request failed: timed out
 [why-you-can-t-stay-disciplined-and-the-fix] 15:45:09 llm request (attempt 2, 2733 chars)
 [why-you-can-t-stay-disciplined-and-the-fix] 15:45:09 llm request (attempt 2, 2634 chars)
 [why-you-can-t-stay-disciplined-and-the-fix] 15:45:09 llm request (attempt 2, 2692 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 15:51:14 llm request failed: HTTP Error 500: Internal Server Error
+[why-you-can-t-stay-disciplined-and-the-fix] 15:51:14 llm request failed: HTTP Error 500: Internal Server Error
+[why-you-can-t-stay-disciplined-and-the-fix] 15:51:14 llm request failed: HTTP Error 500: Internal Server Error
+[why-you-can-t-stay-disciplined-and-the-fix] 15:51:15 llm request failed: HTTP Error 500: Internal Server Error
+[why-you-can-t-stay-disciplined-and-the-fix] 15:51:24 llm request (attempt 3, 2692 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 15:51:24 llm request (attempt 3, 2733 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 15:51:24 llm request (attempt 3, 2634 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 15:51:25 llm request (attempt 3, 2744 chars)
