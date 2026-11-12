@@ -28,14 +28,19 @@
       "t": 1794501133.6462705
     },
     "images": {
-      "state": "waiting",
-      "detail": "257 missing",
-      "t": 1794501133.6577382
+      "state": "done",
+      "detail": "",
+      "t": 1794501971.8895175
     },
     "voice": {
+      "state": "done",
+      "detail": "",
+      "t": 1794501940.844228
+    },
+    "render": {
       "state": "running",
-      "detail": "234/266",
-      "t": 1794501839.564452
+      "detail": "0/9 chapters",
+      "t": 1794501971.9136093
     }
   }
 }
