@@ -748,7 +748,7 @@ SHOTS = [
     ([12], "day", False),
     ([13], "day", False),
     ([14], "day", False),
-    ([15], "golden", False),
+    ([15, 16], "golden", False),
 ]
 
 
