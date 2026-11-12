@@ -191,3 +191,7 @@ farm.llm.LLMError: LLM failed after 4 attempts: request failed: timed out
 [why-you-can-t-stay-disciplined-and-the-fix] 13:31:44 llm request failed: timed out
 [why-you-can-t-stay-disciplined-and-the-fix] 13:31:54 llm request (attempt 3, 2634 chars)
 [why-you-can-t-stay-disciplined-and-the-fix] 13:31:54 llm request (attempt 3, 2725 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 13:35:54 llm request failed: timed out
+[why-you-can-t-stay-disciplined-and-the-fix] 13:35:54 llm request failed: timed out
+[why-you-can-t-stay-disciplined-and-the-fix] 13:36:09 llm request (attempt 4, 2634 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 13:36:09 llm request (attempt 4, 2725 chars)
