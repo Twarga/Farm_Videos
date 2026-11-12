@@ -23,9 +23,9 @@
       "t": 1794486055.2187326
     },
     "shots": {
-      "state": "running",
-      "detail": "",
-      "t": 1794494073.169543
+      "state": "error",
+      "detail": "LLMError: LLM failed after 4 attempts: request failed: timed out",
+      "t": 1794496094.131358
     },
     "images": {
       "state": "waiting",
