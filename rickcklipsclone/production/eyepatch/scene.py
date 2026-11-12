@@ -825,7 +825,7 @@ def stage(k, T0, n, cam_holder):
         cam, _ = make_camera([(1, (2.8, 30, 1.7), (-0.4, 34, 1.5)), (n, (1.0, 32, 1.6), (-0.4, 34, 1.6))], 32, 3)
         sprite("pirate_nopatch", (-0.4, 34.2, 0.05), 1.8, cam)
         tm = text("20 MIN", (-0.3, 33.9, 3.6), 0.5, mat("t20", "#ff8a5a", emit=2.2, noise=0), font=FONT_BOLD)
-        f = F(word_time(4, "twenty"))
+        f = F(word_time(5, "twenty"))
         tm.scale = (0.01, 0.01, 0.01)
         tm.keyframe_insert("scale", frame=f)
         tm.scale = (1, 1, 1)

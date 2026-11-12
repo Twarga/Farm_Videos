@@ -881,3 +881,8 @@ farm.llm.LLMError: LLM failed after 4 attempts: request failed: timed out
 [why-you-can-t-stay-disciplined-and-the-fix] 17:23:29 long video: /home/tlab/videofarm/jobs/why-you-can-t-stay-disciplined-and-the-fix/out/long.mp4 (10.1 min)
 [why-you-can-t-stay-disciplined-and-the-fix] 17:31:47 short 1: 1. Stop Waiting To Feel Ready (57s)
 [why-you-can-t-stay-disciplined-and-the-fix] 17:38:47 short 2: 2. Your Phone Wins By Default (57s)
+[why-you-can-t-stay-disciplined-and-the-fix] 17:45:56 short 3: 3. Give Your Habit An Appointment (56s)
+[why-you-can-t-stay-disciplined-and-the-fix] 17:45:56 llm request (attempt 1, 471 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 17:46:16 llm ok (attempt 1)
+[why-you-can-t-stay-disciplined-and-the-fix] 17:46:16 all done
+done

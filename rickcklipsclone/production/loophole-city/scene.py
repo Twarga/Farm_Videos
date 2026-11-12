@@ -872,9 +872,9 @@ def stage(k, T0, n, cam_holder):
     elif k == 9:  # day: parking meters + street lights tagged
         cam, _ = make_camera([(1, (2.8, 26.5, 1.8), (-0.4, 30.5, 1.5)), (n, (1.0, 29, 1.7), (-0.4, 30.5, 1.6))], 28, 4)
         sprite("mayor_broke", (1.4, 30.5, 0.05), 1.8, cam)
-        f = F(word_time(10, "parking"))
+        f = F(word_time(9, "parking"))
         price_tag("tag1", (-0.5, 30.4, 2.9), "SOLD", f)
-        f2 = F(word_time(10, "street"))
+        f2 = F(word_time(9, "street"))
         price_tag("tag2", (2.0, 29.6, 2.9), "SOLD", f2)
     elif k == 10:  # anything not bolted down
         cam, _ = make_camera([(1, (2.8, 27.5, 1.8), (-0.4, 31, 1.5)), (n, (1.0, 30, 1.7), (-0.4, 31, 1.6))], 28, 4)
