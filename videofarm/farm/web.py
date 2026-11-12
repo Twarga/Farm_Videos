@@ -111,6 +111,8 @@ class H(BaseHTTPRequestHandler):
         p = self.path.split("?")[0]
         if p == "/":
             return self._file(STATIC / "index.html", "text/html; charset=utf-8")
+        if p == "/gallery":
+            return self._file(STATIC / "gallery.html", "text/html; charset=utf-8")
         if p == "/api/jobs":
             return self._json(200, [job_view(j) for j in all_jobs()])
         if p == "/api/styles":

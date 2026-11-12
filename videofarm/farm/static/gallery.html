@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Farm gallery</title>
+<style>
+  @font-face { font-family: "Baloo 2"; src: url("/fonts/Baloo2.ttf"); font-weight: 400 800; }
+  :root {
+    --ink:#16130f; --mut:#6b6358; --line:#ddd5c6; --paper:#fbf8f2; --card:#fff;
+    --acc:#f2b705; --bad:#b3261e; --ok:#2f7d32;
+    --ctl-bg: rgba(10,8,6,.82); --ctl-hl: #f2b705;
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--paper); color:var(--ink); font:16px/1.5 system-ui, sans-serif; }
+  h1, h2, h3 { font-family:"Baloo 2", system-ui, sans-serif; line-height:1.15; margin:0; }
+  h1 { font-size:1.9rem; font-weight:800; }
+  h2 { font-size:1.25rem; font-weight:800; }
+  h3 { font-size:1rem; font-weight:700; }
+  a { color:var(--ink); }
+  button { font:inherit; cursor:pointer; }
+  :focus-visible { outline:3px solid var(--ink); outline-offset:2px; }
+  .top { max-width:1280px; margin:0 auto; padding:24px 20px 0; display:flex; align-items:baseline; gap:16px; flex-wrap:wrap; }
+  .top p { color:var(--mut); margin:0; }
+  .top .nav { margin-left:auto; font-size:.9rem; }
+  .grid { max-width:1280px; margin:0 auto; padding:22px 20px 80px; display:grid; grid-template-columns:repeat(auto-fill, minmax(330px,1fr)); gap:22px; }
+  .vid { background:var(--card); border:1.5px solid var(--line); border-radius:12px; overflow:hidden; display:flex; flex-direction:column; }
+  .vid .poster { position:relative; display:block; width:100%; aspect-ratio:16/9; background:#111; border:0; padding:0; }
+  .vid .poster img { width:100%; height:100%; object-fit:cover; display:block; }
+  .vid .poster .play { position:absolute; inset:0; display:grid; place-items:center; }
+  .vid .poster .play span { width:66px; height:66px; border-radius:50%; background:var(--ctl-bg); display:grid; place-items:center; transition:transform .15s; }
+  .vid .poster:hover .play span, .vid .poster:focus-visible .play span { transform:scale(1.12); background:var(--acc); }
+  .vid .poster .play svg { width:28px; height:28px; fill:#fff; margin-left:4px; }
+  .vid .poster:hover .play svg, .vid .poster:focus-visible .play svg { fill:var(--ink); }
+  .vid .poster .dur { position:absolute; right:8px; bottom:8px; background:var(--ctl-bg); color:#fff; font-size:.78rem; padding:2px 7px; border-radius:5px; }
+  .vid .body { padding:14px 16px 12px; display:flex; flex-direction:column; gap:6px; flex:1; }
+  .vid .meta { color:var(--mut); font-size:.83rem; display:flex; gap:8px; flex-wrap:wrap; align-items:center; }
+  .chip { display:inline-block; font-size:.75rem; font-weight:700; padding:1px 8px; border-radius:99px; border:1.5px solid var(--line); }
+  .chip.done { border-color:var(--ok); color:var(--ok); }
+  .chip.run { border-color:var(--acc); }
+  .chip.err { border-color:var(--bad); color:var(--bad); }
+  .vid .acts { margin-top:auto; padding-top:8px; display:flex; gap:14px; flex-wrap:wrap; font-size:.85rem; font-weight:600; }
+  .shorts { display:flex; gap:10px; padding:0 16px 14px; }
+  .shorts button { position:relative; width:72px; aspect-ratio:9/16; padding:0; border:1.5px solid var(--line); border-radius:8px; background:#111; overflow:hidden; }
+  .shorts button span { position:absolute; inset:auto 0 4px; text-align:center; color:#fff; font-size:.65rem; font-weight:700; text-shadow:0 1px 3px #000; }
+  .shorts button::after { content:"▶"; position:absolute; inset:0; display:grid; place-items:center; color:#fff; font-size:1.1rem; text-shadow:0 1px 4px #000; }
+  .shorts button:hover { border-color:var(--acc); }
+  .empty { grid-column:1/-1; border:1.5px dashed var(--line); border-radius:12px; padding:40px; color:var(--mut); text-align:center; }
+
+  /* ------ player overlay ------ */
+  .ov { position:fixed; inset:0; background:rgba(12,10,8,.92); display:none; z-index:50; }
+  .ov.on { display:flex; flex-direction:column; align-items:center; justify-content:center; padding:20px; }
+  .ov .frame { width:min(1200px, 100%); display:flex; flex-direction:column; gap:10px; }
+  .ov .frame.sh { width:min(430px, 100%); }
+  .ov header { display:flex; align-items:center; gap:14px; color:#fff; }
+  .ov header h2 { color:#fff; font-size:1.05rem; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .ov header .x { margin-left:auto; background:none; border:1.5px solid #666; color:#fff; width:40px; height:40px; border-radius:8px; font-size:1.1rem; }
+  .ov header .x:hover { border-color:#fff; }
+  .stage { position:relative; background:#000; border-radius:12px; overflow:hidden; }
+  .stage video { width:100%; max-height:74vh; display:block; }
+  .stage.sh video { aspect-ratio:9/16; }
+
+  .bar { position:absolute; left:0; right:0; bottom:0; background:linear-gradient(transparent, var(--ctl-bg)); padding:26px 12px 10px; opacity:0; transition:opacity .18s; }
+  .stage:hover .bar, .stage:focus-within .bar, .stage.paused .bar { opacity:1; }
+  .seek { -webkit-appearance:none; appearance:none; width:100%; height:5px; border-radius:99px; background:rgba(255,255,255,.3); outline:none; cursor:pointer; }
+  .seek::-webkit-slider-thumb { -webkit-appearance:none; width:14px; height:14px; border-radius:50%; background:var(--ctl-hl); border:0; }
+  .seek::-moz-range-thumb { width:14px; height:14px; border-radius:50%; background:var(--ctl-hl); border:0; }
+  .ctl { display:flex; align-items:center; gap:6px; margin-top:8px; }
+  .ctl button { background:none; border:0; color:#fff; width:38px; height:34px; border-radius:6px; display:grid; place-items:center; }
+  .ctl button:hover { background:rgba(255,255,255,.15); }
+  .ctl svg { width:20px; height:20px; fill:#fff; }
+  .ctl .tm { color:#fff; font-size:.82rem; font-variant-numeric:tabular-nums; margin:0 8px; white-space:nowrap; }
+  .ctl .sp { margin-left:auto; color:#fff; font-size:.8rem; font-weight:700; width:auto; padding:0 10px; }
+  .ctl input.vol { -webkit-appearance:none; width:74px; height:4px; border-radius:99px; background:rgba(255,255,255,.35); cursor:pointer; }
+  .ctl input.vol::-webkit-slider-thumb { -webkit-appearance:none; width:11px; height:11px; border-radius:50%; background:#fff; }
+  .spin { position:absolute; inset:0; display:none; place-items:center; pointer-events:none; }
+  .spin.on { display:grid; }
+  .spin i { width:52px; height:52px; border:4px solid rgba(255,255,255,.25); border-top-color:var(--ctl-hl); border-radius:50%; animation:sp .8s linear infinite; }
+  @keyframes sp { to { transform:rotate(360deg); } }
+  .big { position:absolute; inset:0; display:grid; place-items:center; background:none; border:0; padding:0; }
+  .big span { width:78px; height:78px; border-radius:50%; background:var(--ctl-bg); display:grid; place-items:center; }
+  .big svg { width:34px; height:34px; fill:#fff; margin-left:5px; }
+  .ov .sub { color:#cfc8bd; font-size:.83rem; display:flex; gap:16px; }
+  .ov .sub a { color:#fff; }
+  kbd { background:#2b2620; color:#fff; border-radius:4px; padding:1px 6px; font-size:.72rem; font-family:inherit; }
+</style>
+</head>
+<body>
+<div class="top">
+  <h1>Farm gallery</h1>
+  <p id="count"></p>
+  <span class="nav"><a href="/">← job board</a></span>
+</div>
+<div class="grid" id="grid"><div class="empty">Loading…</div></div>
+
+<div class="ov" id="ov" role="dialog" aria-modal="true" aria-label="Video player">
+  <div class="frame" id="frame">
+    <header><h2 id="ptitle"></h2><button class="x" id="close" aria-label="Close player">✕</button></header>
+    <div class="stage" id="stage">
+      <video id="v" playsinline preload="metadata"></video>
+      <button class="big" id="big" aria-label="Play"><span><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span></button>
+      <div class="spin" id="spin"><i></i></div>
+      <div class="bar">
+        <input class="seek" id="seek" type="range" min="0" max="1000" value="0" step="1" aria-label="Seek">
+        <div class="ctl">
+          <button id="pp" aria-label="Play/Pause"><svg viewBox="0 0 24 24" id="ppi"><path d="M8 5v14l11-7z"/></svg></button>
+          <button id="rw" aria-label="Back 10s"><svg viewBox="0 0 24 24"><path d="M12 5V1L7 6l5 5V7c3.3 0 6 2.7 6 6s-2.7 6-6 6-6-2.7-6-6H4c0 4.4 3.6 8 8 8s8-3.6 8-8-3.6-8-8-8z"/></svg></button>
+          <button id="ff" aria-label="Forward 10s"><svg viewBox="0 0 24 24"><path d="M12 5V1l5 5-5 5V7c-3.3 0-6 2.7-6 6s2.7 6 6 6 6-2.7 6-6h2c0 4.4-3.6 8-8 8s-8-3.6-8-8 3.6-8 8-8z"/></svg></button>
+          <button id="mute" aria-label="Mute"><svg viewBox="0 0 24 24" id="mui"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3a4.5 4.5 0 0 0-2.5-4v8a4.5 4.5 0 0 0 2.5-4z"/></svg></button>
+          <input class="vol" id="vol" type="range" min="0" max="1" step="0.05" value="1" aria-label="Volume">
+          <span class="tm" id="tm">0:00 / 0:00</span>
+          <button class="sp" id="spd" aria-label="Playback speed">1×</button>
+          <button id="pip" aria-label="Picture in picture"><svg viewBox="0 0 24 24"><path d="M19 7h-8v6h8V7zm2-4H3a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h18a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2zm0 16H3V5h18v14z"/></svg></button>
+          <button id="fs" aria-label="Fullscreen"><svg viewBox="0 0 24 24"><path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z"/></svg></button>
+        </div>
+      </div>
+    </div>
+    <div class="sub"><span id="psub"></span><a id="dl" href="#" download>download mp4</a><span class="hint"><kbd>space</kbd> play · <kbd>←</kbd><kbd>→</kbd> 10s · <kbd>↑</kbd><kbd>↓</kbd> vol · <kbd>f</kbd> full · <kbd>Esc</kbd> close</span></div>
+  </div>
+</div>
+
+<script>
+const $ = (s) => document.querySelector(s);
+const esc = (s) => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const fmt = (s) => { s = Math.max(0, Math.round(s || 0)); return `${Math.floor(s/60)}:${String(s%60).padStart(2,"0")}`; };
+const fmtSize = (n) => n > 1e9 ? (n/1e9).toFixed(1)+" GB" : n > 1e6 ? (n/1e6).toFixed(0)+" MB" : (n/1e3).toFixed(0)+" KB";
+
+const ov = $("#ov"), v = $("#v"), stage = $("#stage"), frame = $("#frame"), seek = $("#seek"), spin = $("#spin");
+let jobs = {}, seeking = false, cur = null;
+
+function stateChip(j) {
+  const st = j.stages || {}, last = Object.keys(st).pop();
+  if (!j.style) return `<span class="chip">needs style pick</span>`;
+  const s = st[last] || {};
+  if (s.state === "done" && last === "package") return `<span class="chip done">done</span>`;
+  if (s.state === "error") return `<span class="chip err">error: ${esc(s.detail||"")}</span>`;
+  if (s.state === "running") return `<span class="chip run">${esc(last)} ${esc(s.detail||"")}</span>`;
+  return `<span class="chip">${esc(s.state||"queued")}</span>`;
+}
+
+async function load() {
+  const list = await (await fetch("/api/jobs")).json();
+  jobs = {};
+  const grid = $("#grid");
+  $("#count").textContent = `${list.length} video${list.length===1?"":"s"}`;
+  if (!list.length) { grid.innerHTML = `<div class="empty">No videos yet — make one on the <a href="/">job board</a>.</div>`; return; }
+  grid.innerHTML = list.map(j => {
+    jobs[j.slug] = j;
+    const hasLong = j.outputs.includes("long.mp4");
+    const thumb = j.outputs.includes("thumbnail.png") ? `/files/${j.slug}/out/thumbnail.png` : "";
+    const shorts = j.outputs.filter(n => /^short_\d+\.mp4$/.test(n)).sort();
+    return `<article class="vid">
+      <button class="poster" data-slug="${esc(j.slug)}" ${hasLong ? "" : "disabled"} aria-label="Play ${esc(j.title)}">
+        ${thumb ? `<img src="${thumb}" alt="" loading="lazy">` : ""}
+        <span class="play"><span><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span></span>
+        ${j.duration ? `<span class="dur">${fmt(j.duration)}</span>` : ""}
+      </button>
+      <div class="body">
+        <h3>${esc(j.title)}</h3>
+        <div class="meta"><span>${esc(j.style||"unstyled")}</span>${stateChip(j)}</div>
+        <div class="acts">
+          ${hasLong ? `<a href="/files/${j.slug}/out/long.mp4" download>long.mp4</a>` : ""}
+          ${j.outputs.includes("youtube.txt") ? `<a href="/files/${j.slug}/out/youtube.txt" download>youtube.txt</a>` : ""}
+          ${thumb ? `<a href="${thumb}" download>thumbnail.png</a>` : ""}
+        </div>
+      </div>
+      ${shorts.length ? `<div class="shorts">${shorts.map((s,i) =>
+        `<button data-slug="${esc(j.slug)}" data-src="${esc(s)}" aria-label="Play short ${i+1}"><span>short ${i+1}</span></button>`).join("")}</div>` : ""}
+    </article>`;
+  }).join("");
+  for (const j of Object.values(jobs)) if (j.slug && !j.duration) fetch(`/api/jobs/${j.slug}`).then(r=>r.json()).then(d=>{
+    jobs[j.slug] = {...jobs[j.slug], ...d};
+    const el = grid.querySelector(`[data-slug="${CSS.escape(j.slug)}"].poster .dur`);
+    if (d.duration && !el) grid.querySelector(`[data-slug="${CSS.escape(j.slug)}"].poster`)?.insertAdjacentHTML("beforeend", `<span class="dur">${fmt(d.duration)}</span>`);
+  }).catch(()=>{});
+}
+
+/* ---------- player ---------- */
+function setPP() {
+  const playing = !v.paused && !v.ended;
+  $("#ppi").innerHTML = playing ? '<path d="M6 4h4v16H6zM14 4h4v16h-4z"/>' : '<path d="M8 5v14l11-7z"/>';
+  $("#big").style.display = playing ? "none" : "grid";
+  stage.classList.toggle("paused", !playing);
+}
+function open(slug, file, short) {
+  const j = jobs[slug] || {};
+  cur = {slug, file};
+  $("#ptitle").textContent = j.title || slug;
+  $("#psub").textContent = `${j.style || ""} · ${file}`;
+  $("#dl").href = `/files/${slug}/out/${file}`;
+  frame.classList.toggle("sh", !!short);
+  stage.classList.toggle("sh", !!short);
+  v.src = `/files/${slug}/out/${file}`;
+  v.playbackRate = 1; $("#spd").textContent = "1×";
+  ov.classList.add("on");
+  document.body.style.overflow = "hidden";
+  v.play().catch(()=>{});
+}
+function close() { ov.classList.remove("on"); document.body.style.overflow = ""; v.pause(); v.removeAttribute("src"); v.load(); }
+
+$("#grid").addEventListener("click", e => {
+  const b = e.target.closest("button");
+  if (!b || b.disabled) return;
+  const slug = b.dataset.slug; if (!slug) return;
+  open(slug, b.dataset.src || "long.mp4", !!b.dataset.src);
+});
+$("#close").onclick = close;
+ov.addEventListener("click", e => { if (e.target === ov) close(); });
+$("#big").onclick = () => v.play();
+v.addEventListener("click", () => v.paused ? v.play() : v.pause());
+v.addEventListener("play", setPP); v.addEventListener("pause", setPP); v.addEventListener("ended", setPP);
+v.addEventListener("waiting", () => spin.classList.add("on"));
+v.addEventListener("playing", () => spin.classList.remove("on"));
+v.addEventListener("canplay", () => spin.classList.remove("on"));
+v.addEventListener("timeupdate", () => {
+  if (!seeking && v.duration) seek.value = Math.round(v.currentTime / v.duration * 1000);
+  $("#tm").textContent = `${fmt(v.currentTime)} / ${fmt(v.duration)}`;
+});
+v.addEventListener("loadedmetadata", () => $("#tm").textContent = `0:00 / ${fmt(v.duration)}`);
+v.addEventListener("progress", () => {
+  try { const b = v.buffered; if (v.duration && b.length) seek.style.background =
+    `linear-gradient(90deg, var(--ctl-hl) ${v.currentTime/v.duration*100}%, rgba(255,255,255,.55) ${v.currentTime/v.duration*100}%, rgba(255,255,255,.55) ${b.end(b.length-1)/v.duration*100}%, rgba(255,255,255,.3) ${b.end(b.length-1)/v.duration*100}%)`; } catch {}
+});
+seek.addEventListener("input", () => { seeking = true; if (v.duration) $("#tm").textContent = `${fmt(seek.value/1000*v.duration)} / ${fmt(v.duration)}`; });
+seek.addEventListener("change", () => { if (v.duration) v.currentTime = seek.value/1000*v.duration; seeking = false; });
+$("#pp").onclick = () => v.paused ? v.play() : v.pause();
+$("#rw").onclick = () => v.currentTime = Math.max(0, v.currentTime - 10);
+$("#ff").onclick = () => v.currentTime = Math.min(v.duration || 1e9, v.currentTime + 10);
+$("#mute").onclick = () => { v.muted = !v.muted; $("#vol").value = v.muted ? 0 : v.volume; };
+$("#vol").oninput = () => { v.volume = +$("#vol").value; v.muted = v.volume === 0; };
+const speeds = [0.5, 0.75, 1, 1.25, 1.5, 1.75, 2];
+$("#spd").onclick = () => { const i = (speeds.indexOf(v.playbackRate) + 1) % speeds.length; v.playbackRate = speeds[i]; $("#spd").textContent = speeds[i]+"×"; };
+$("#pip").onclick = async () => { try { document.pictureInPictureElement ? await document.exitPictureInPicture() : await v.requestPictureInPicture(); } catch {} };
+$("#fs").onclick = () => document.fullscreenElement ? document.exitFullscreen() : stage.requestFullscreen();
+document.addEventListener("keydown", e => {
+  if (!ov.classList.contains("on") || e.target.tagName === "INPUT" && e.target !== seek) return;
+  if (e.key === "Escape") return close();
+  if (e.key === " ") { e.preventDefault(); v.paused ? v.play() : v.pause(); }
+  if (e.key === "ArrowLeft") v.currentTime -= 10;
+  if (e.key === "ArrowRight") v.currentTime += 10;
+  if (e.key === "ArrowUp") { e.preventDefault(); v.volume = Math.min(1, v.volume + .1); $("#vol").value = v.volume; }
+  if (e.key === "ArrowDown") { e.preventDefault(); v.volume = Math.max(0, v.volume - .1); $("#vol").value = v.volume; }
+  if (e.key === "f") $("#fs").click();
+  if (e.key === "m") $("#mute").click();
+});
+
+load();
+setInterval(load, 15000);
+</script>
+</body>
+</html>
