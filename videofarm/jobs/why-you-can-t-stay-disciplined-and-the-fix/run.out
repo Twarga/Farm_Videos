@@ -344,3 +344,7 @@ Traceback (most recent call last):
   File "/home/tlab/videofarm/farm/llm.py", line 92, in ask_json
     raise LLMError(f"LLM failed after {config.LLM_RETRIES} attempts: {last_err}")
 farm.llm.LLMError: LLM failed after 4 attempts: request failed: timed out
+[why-you-can-t-stay-disciplined-and-the-fix] 14:34:33 llm request (attempt 1, 2692 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 14:34:33 llm request (attempt 1, 2744 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 14:34:33 llm request (attempt 1, 2733 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 14:34:33 llm request (attempt 1, 2634 chars)

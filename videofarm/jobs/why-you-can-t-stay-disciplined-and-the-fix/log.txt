@@ -256,3 +256,7 @@ farm.llm.LLMError: LLM failed after 4 attempts: request failed: timed out
     raise LLMError(f"LLM failed after {config.LLM_RETRIES} attempts: {last_err}")
 farm.llm.LLMError: LLM failed after 4 attempts: request failed: timed out
 
+14:34:33 llm request (attempt 1, 2692 chars)
+14:34:33 llm request (attempt 1, 2744 chars)
+14:34:33 llm request (attempt 1, 2733 chars)
+14:34:33 llm request (attempt 1, 2634 chars)
