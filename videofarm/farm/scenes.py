@@ -132,7 +132,7 @@ def person_prof(d, x, y, h, pose="stand", mood="neutral", top=(30, 105, 180), bo
     # arms
     sh = head_cy + hd * 0.48
     hl = h * 0.17
-    hands = [(x - tw * 0.74, sh + hl * 1.1), (x + tw * 0.74, sh + hl * 1.1)]
+    hands = [(x - tw * 0.88, sh + hl * 1.3), (x + tw * 0.88, sh + hl * 1.3)]
     if pose == "point":
         hands = [(x - tw * 0.74, sh + hl * 1.1), (x + tw * 1.0, sh - hl * 0.2)]
     elif pose == "armsup":
@@ -705,7 +705,7 @@ def scene(style, spec, ch):
     for i, p in enumerate(big[:1]):
         draw_set(d, p, (int(W * .55), int(H * .30), int(W * .97), floor_y), style)
 
-    ph, px = {"wide": (H * .50, W * .66), "medium": (H * .66, W * .64), "close": (H * .92, W * .58), "still": (0, 0)}[spec["shot"]]
+    ph, px = {"wide": (H * .50, W * .66), "medium": (H * .66, W * .64), "close": (H * .76, W * .58), "still": (0, 0)}[spec["shot"]]
     if spec["person"] and ph:
         py = int(H * 0.76) if has_desk or spec["pose"] == "sit" else floor_y
         behind = desk_top_y(py) if has_desk else None
