@@ -629,3 +629,7 @@ NameError: name 'cf' is not defined
 15:16:19 long video: /home/tlab/videofarm/jobs/every-money-habit-that-keeps-you-broke-explained/out/long.mp4 (11.7 min)
 15:22:03 short 1: Impulse Buying (51s)
 15:28:01 short 2: Late Payments (55s)
+15:33:54 short 3: Waiting to Invest (53s)
+15:33:55 llm request (attempt 1, 474 chars)
+15:34:08 llm ok (attempt 1)
+15:34:08 all done
