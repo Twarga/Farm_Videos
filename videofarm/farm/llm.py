@@ -24,7 +24,7 @@ def _post(messages, system, max_tokens):
         "anthropic-version": "2023-06-01",
         "x-api-key": config.LLM_KEY,
     })
-    with urllib.request.urlopen(req, timeout=240) as r:
+    with urllib.request.urlopen(req, timeout=config.LLM_TIMEOUT) as r:
         data = json.loads(r.read())
     if "error" in data:
         raise LLMError(str(data["error"]))

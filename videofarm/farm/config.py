@@ -14,6 +14,7 @@ LLM_URL = os.environ.get("FARM_LLM_URL", "http://127.0.0.1:7187/v1/messages")
 LLM_MODEL = os.environ.get("FARM_LLM_MODEL", "gpt-6.1-sol")
 LLM_KEY = os.environ.get("FARM_LLM_KEY", "x")
 LLM_RETRIES = int(os.environ.get("FARM_LLM_RETRIES", "4"))
+LLM_TIMEOUT = int(os.environ.get("FARM_LLM_TIMEOUT", "240"))
 
 FPS = 30
 LONG_W, LONG_H = 1920, 1080
