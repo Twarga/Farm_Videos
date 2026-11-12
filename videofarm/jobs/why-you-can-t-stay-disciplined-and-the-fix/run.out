@@ -560,3 +560,17 @@ farm.llm.LLMError: LLM failed after 4 attempts: request failed: timed out
 [why-you-can-t-stay-disciplined-and-the-fix] 16:11:22 shots 5/9 '6. Stop Borrowing From Sleep': 30
 [why-you-can-t-stay-disciplined-and-the-fix] 16:13:03 llm reply rejected (attempt 1): no JSON object in reply
 [why-you-can-t-stay-disciplined-and-the-fix] 16:13:03 llm request (attempt 2, 2725 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 16:15:03 llm reply rejected (attempt 2): no JSON object in reply
+[why-you-can-t-stay-disciplined-and-the-fix] 16:15:03 llm request (attempt 3, 2725 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 16:16:59 llm request (attempt 1, 2692 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 16:16:59 llm request (attempt 1, 2744 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 16:16:59 llm request (attempt 1, 2733 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 16:16:59 llm request (attempt 1, 2725 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 16:18:59 llm reply rejected (attempt 1): no JSON object in reply
+[why-you-can-t-stay-disciplined-and-the-fix] 16:18:59 llm request (attempt 2, 2725 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 16:18:59 llm reply rejected (attempt 1): no JSON object in reply
+[why-you-can-t-stay-disciplined-and-the-fix] 16:18:59 llm request (attempt 2, 2744 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 16:18:59 llm reply rejected (attempt 1): no JSON object in reply
+[why-you-can-t-stay-disciplined-and-the-fix] 16:18:59 llm request (attempt 2, 2692 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 16:18:59 llm reply rejected (attempt 1): no JSON object in reply
+[why-you-can-t-stay-disciplined-and-the-fix] 16:18:59 llm request (attempt 2, 2733 chars)
