@@ -18,17 +18,36 @@ def _post(messages, system, max_tokens):
         "max_tokens": max_tokens,
         "system": system,
         "messages": messages,
+        "stream": True,
     }).encode()
     req = urllib.request.Request(config.LLM_URL, data=body, headers={
         "content-type": "application/json",
         "anthropic-version": "2023-06-01",
         "x-api-key": config.LLM_KEY,
     })
+    # Streaming keeps the upstream connection alive per-chunk; a buffered call
+    # would need the whole generation inside the proxy's single-read timeout.
+    text, err = [], []
     with urllib.request.urlopen(req, timeout=config.LLM_TIMEOUT) as r:
-        data = json.loads(r.read())
-    if "error" in data:
-        raise LLMError(str(data["error"]))
-    return "".join(b.get("text", "") for b in data.get("content", []) if b.get("type") == "text")
+        for raw in r:
+            if not raw.startswith(b"data:"):
+                continue
+            data = raw[5:].strip()
+            if data == b"[DONE]" or not data:
+                continue
+            try:
+                ev = json.loads(data)
+            except ValueError:
+                continue
+            if ev.get("type") == "content_block_delta":
+                d = ev.get("delta", {})
+                if d.get("type") == "text_delta":
+                    text.append(d.get("text", ""))
+            elif ev.get("type") == "error" or "error" in ev:
+                err.append(str(ev.get("error") or ev))
+    if err:
+        raise LLMError(err[-1])
+    return "".join(text)
 
 
 def _extract_json(text):

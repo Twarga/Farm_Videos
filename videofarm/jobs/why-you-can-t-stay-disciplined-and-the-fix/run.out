@@ -495,3 +495,16 @@ farm.llm.LLMError: LLM failed after 4 attempts: request failed: timed out
 [why-you-can-t-stay-disciplined-and-the-fix] 15:51:24 llm request (attempt 3, 2733 chars)
 [why-you-can-t-stay-disciplined-and-the-fix] 15:51:24 llm request (attempt 3, 2634 chars)
 [why-you-can-t-stay-disciplined-and-the-fix] 15:51:25 llm request (attempt 3, 2744 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 15:56:29 llm request failed: HTTP Error 502: Bad Gateway
+[why-you-can-t-stay-disciplined-and-the-fix] 15:56:42 llm request (attempt 1, 2692 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 15:56:42 llm request (attempt 1, 2744 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 15:56:42 llm request (attempt 1, 2634 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 15:56:42 llm request (attempt 1, 2733 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 15:58:42 llm reply rejected (attempt 1): no JSON object in reply
+[why-you-can-t-stay-disciplined-and-the-fix] 15:58:42 llm request (attempt 2, 2634 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 15:58:42 llm reply rejected (attempt 1): no JSON object in reply
+[why-you-can-t-stay-disciplined-and-the-fix] 15:58:42 llm reply rejected (attempt 1): no JSON object in reply
+[why-you-can-t-stay-disciplined-and-the-fix] 15:58:42 llm request (attempt 2, 2692 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 15:58:42 llm request (attempt 2, 2733 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 15:58:42 llm reply rejected (attempt 1): no JSON object in reply
+[why-you-can-t-stay-disciplined-and-the-fix] 15:58:42 llm request (attempt 2, 2744 chars)
