@@ -28,6 +28,7 @@ def _post(messages, system, max_tokens):
     # Streaming keeps the upstream connection alive per-chunk; a buffered call
     # would need the whole generation inside the proxy's single-read timeout.
     text, err = [], []
+    stop_reason, out_tokens = None, None
     with urllib.request.urlopen(req, timeout=config.LLM_TIMEOUT) as r:
         for raw in r:
             if not raw.startswith(b"data:"):
@@ -43,11 +44,17 @@ def _post(messages, system, max_tokens):
                 d = ev.get("delta", {})
                 if d.get("type") == "text_delta":
                     text.append(d.get("text", ""))
+            elif ev.get("type") == "message_delta":
+                stop_reason = ev.get("delta", {}).get("stop_reason")
+                out_tokens = ev.get("usage", {}).get("output_tokens")
             elif ev.get("type") == "error" or "error" in ev:
                 err.append(str(ev.get("error") or ev))
     if err:
         raise LLMError(err[-1])
-    return "".join(text)
+    out = "".join(text)
+    if not out.strip():
+        raise LLMError(f"empty reply (stop_reason={stop_reason}, output_tokens={out_tokens})")
+    return out
 
 
 def _extract_json(text):
@@ -102,7 +109,7 @@ def ask_json(prompt, validate, system="You are a precise assistant. Reply with J
         except (ValueError, KeyError, TypeError) as e:
             last_err = str(e)
             if log:
-                log(f"llm reply rejected (attempt {attempt}): {last_err}")
+                log(f"llm reply rejected (attempt {attempt}): {last_err} | reply[:120]={reply[:120]!r}")
             messages = messages + [
                 {"role": "assistant", "content": reply},
                 {"role": "user", "content": f"That reply was rejected: {last_err}\n"
