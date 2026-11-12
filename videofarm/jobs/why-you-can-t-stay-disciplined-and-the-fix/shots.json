@@ -705,7 +705,319 @@
         }
       ]
     },
-    null,
+    {
+      "name": "3. Give Your Habit An Appointment",
+      "intro": false,
+      "outfit": "No clothes, plain stick figure holding a cereal bowl and a notebook.",
+      "color": "#F28C28",
+      "icon": "3. Give Your Habit An Appointment",
+      "shots": [
+        {
+          "kind": "image",
+          "scene": "Wide establishing shot of a black-and-white kitchen: the plain stick figure stands beside a table, holding a cereal bowl and closed notebook, his face relaxed.",
+          "text": "",
+          "camera": "pull",
+          "line": "You're in the kitchen.",
+          "prompt": "Classic stickman-animation YouTube style in exactly the same art style as the reference image: black ink line art on cream off-white paper, uniform thick black strokes, monochrome black-and-white, clean simple line-art background, soft dark vignette at the edges, no color. When the main character appears he is EXACTLY the stick figure from the reference image: a perfect circle head, two small black dot eyes, a simple one-line mouth and small eyebrow lines for emotion, thin stick limbs. No clothes, plain stick figure holding a cereal bowl and a notebook.. Other people are stick figures in the same style. 16:9 landscape composition. One clear moment, big readable subject, simple line-art set (room, street, office) only when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Wide establishing shot of a black-and-white kitchen: the plain stick figure stands beside a table, holding a cereal bowl and closed notebook, his face relaxed.",
+          "image": "858d6bce73c9e166"
+        },
+        {
+          "kind": "image",
+          "scene": "Medium shot at the kitchen table: he swallows the final spoonful, holding the nearly empty cereal bowl close, with a satisfied smile.",
+          "text": "",
+          "camera": "push",
+          "line": "You finish breakfast.",
+          "prompt": "Classic stickman-animation YouTube style in exactly the same art style as the reference image: black ink line art on cream off-white paper, uniform thick black strokes, monochrome black-and-white, clean simple line-art background, soft dark vignette at the edges, no color. When the main character appears he is EXACTLY the stick figure from the reference image: a perfect circle head, two small black dot eyes, a simple one-line mouth and small eyebrow lines for emotion, thin stick limbs. No clothes, plain stick figure holding a cereal bowl and a notebook.. Other people are stick figures in the same style. 16:9 landscape composition. One clear moment, big readable subject, simple line-art set (room, street, office) only when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Medium shot at the kitchen table: he swallows the final spoonful, holding the nearly empty cereal bowl close, with a satisfied smile.",
+          "image": "1539cea13dc2fd59"
+        },
+        {
+          "kind": "image",
+          "scene": "Side view in the kitchen: he braces against the table and slides his chair backward, a closed notebook tucked under one arm, his expression casual.",
+          "text": "",
+          "camera": "right",
+          "line": "You push your chair back.",
+          "prompt": "Classic stickman-animation YouTube style in exactly the same art style as the reference image: black ink line art on cream off-white paper, uniform thick black strokes, monochrome black-and-white, clean simple line-art background, soft dark vignette at the edges, no color. When the main character appears he is EXACTLY the stick figure from the reference image: a perfect circle head, two small black dot eyes, a simple one-line mouth and small eyebrow lines for emotion, thin stick limbs. No clothes, plain stick figure holding a cereal bowl and a notebook.. Other people are stick figures in the same style. 16:9 landscape composition. One clear moment, big readable subject, simple line-art set (room, street, office) only when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Side view in the kitchen: he braces against the table and slides his chair backward, a closed notebook tucked under one arm, his expression casual.",
+          "image": "1e9196bb5af08374"
+        },
+        {
+          "kind": "image",
+          "scene": "Wide shot between kitchen and living room: he drifts toward the couch with his notebook dangling at his side, eyes unfocused and shoulders loose.",
+          "text": "",
+          "camera": "right",
+          "line": "You start wandering toward the couch.",
+          "prompt": "Classic stickman-animation YouTube style in exactly the same art style as the reference image: black ink line art on cream off-white paper, uniform thick black strokes, monochrome black-and-white, clean simple line-art background, soft dark vignette at the edges, no color. When the main character appears he is EXACTLY the stick figure from the reference image: a perfect circle head, two small black dot eyes, a simple one-line mouth and small eyebrow lines for emotion, thin stick limbs. No clothes, plain stick figure holding a cereal bowl and a notebook.. Other people are stick figures in the same style. 16:9 landscape composition. One clear moment, big readable subject, simple line-art set (room, street, office) only when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Wide shot between kitchen and living room: he drifts toward the couch with his notebook dangling at his side, eyes unfocused and shoulders loose.",
+          "image": "61d3c7490ec23a42"
+        },
+        {
+          "kind": "image",
+          "scene": "Over-the-shoulder view back toward the kitchen table: he stops midstep, noticing a small note beside his cereal bowl, his raised eyebrow showing sudden recognition.",
+          "text": "",
+          "camera": "push",
+          "line": "Then you notice the note beside your bowl.",
+          "prompt": "Classic stickman-animation YouTube style in exactly the same art style as the reference image: black ink line art on cream off-white paper, uniform thick black strokes, monochrome black-and-white, clean simple line-art background, soft dark vignette at the edges, no color. When the main character appears he is EXACTLY the stick figure from the reference image: a perfect circle head, two small black dot eyes, a simple one-line mouth and small eyebrow lines for emotion, thin stick limbs. No clothes, plain stick figure holding a cereal bowl and a notebook.. Other people are stick figures in the same style. 16:9 landscape composition. One clear moment, big readable subject, simple line-art set (room, street, office) only when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Over-the-shoulder view back toward the kitchen table: he stops midstep, noticing a small note beside his cereal bowl, his raised eyebrow showing sudden recognition.",
+          "image": "999cbbc8b4acfc23"
+        },
+        {
+          "kind": "image",
+          "scene": "Close view at the kitchen table: he bends toward the note beside his bowl, reading its handwritten instruction with an attentive, slightly surprised expression.",
+          "text": "After breakfast: write",
+          "camera": "still",
+          "line": "\"After breakfast: write at the table.\"",
+          "prompt": "Classic stickman-animation YouTube style in exactly the same art style as the reference image: black ink line art on cream off-white paper, uniform thick black strokes, monochrome black-and-white, clean simple line-art background, soft dark vignette at the edges, no color. When the main character appears he is EXACTLY the stick figure from the reference image: a perfect circle head, two small black dot eyes, a simple one-line mouth and small eyebrow lines for emotion, thin stick limbs. No clothes, plain stick figure holding a cereal bowl and a notebook.. Other people are stick figures in the same style. 16:9 landscape composition. One clear moment, big readable subject, simple line-art set (room, street, office) only when the scene needs it. The only text allowed in the image is: After breakfast: write — spelled exactly like that in simple black hand lettering. No other text. SCENE: Close view at the kitchen table: he bends toward the note beside his bowl, reading its handwritten instruction with an attentive, slightly surprised expression.",
+          "image": "435e30e16c30d396"
+        },
+        {
+          "kind": "image",
+          "scene": "Medium side shot in the kitchen: he lowers himself back into the chair and places his notebook on the table, his face newly resolved.",
+          "text": "",
+          "camera": "left",
+          "line": "You sit back down.",
+          "prompt": "Classic stickman-animation YouTube style in exactly the same art style as the reference image: black ink line art on cream off-white paper, uniform thick black strokes, monochrome black-and-white, clean simple line-art background, soft dark vignette at the edges, no color. When the main character appears he is EXACTLY the stick figure from the reference image: a perfect circle head, two small black dot eyes, a simple one-line mouth and small eyebrow lines for emotion, thin stick limbs. No clothes, plain stick figure holding a cereal bowl and a notebook.. Other people are stick figures in the same style. 16:9 landscape composition. One clear moment, big readable subject, simple line-art set (room, street, office) only when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Medium side shot in the kitchen: he lowers himself back into the chair and places his notebook on the table, his face newly resolved.",
+          "image": "96d60e52dd7f5cee"
+        },
+        {
+          "kind": "image",
+          "scene": "Close shot across the kitchen table: he opens the notebook with both hands, spreading its blank pages flat, his small smile suggesting an easy first step.",
+          "text": "",
+          "camera": "push",
+          "line": "You open your notebook.",
+          "prompt": "Classic stickman-animation YouTube style in exactly the same art style as the reference image: black ink line art on cream off-white paper, uniform thick black strokes, monochrome black-and-white, clean simple line-art background, soft dark vignette at the edges, no color. When the main character appears he is EXACTLY the stick figure from the reference image: a perfect circle head, two small black dot eyes, a simple one-line mouth and small eyebrow lines for emotion, thin stick limbs. No clothes, plain stick figure holding a cereal bowl and a notebook.. Other people are stick figures in the same style. 16:9 landscape composition. One clear moment, big readable subject, simple line-art set (room, street, office) only when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Close shot across the kitchen table: he opens the notebook with both hands, spreading its blank pages flat, his small smile suggesting an easy first step.",
+          "image": "22e6c492707e1e39"
+        },
+        {
+          "kind": "image",
+          "scene": "Medium flashback at the kitchen table: he nudges the closed notebook away while glancing at a wall clock, wearing a reassuring smile that excuses postponement.",
+          "text": "",
+          "camera": "pull",
+          "line": "Usually, you promise yourself you'll do it later.",
+          "prompt": "Classic stickman-animation YouTube style in exactly the same art style as the reference image: black ink line art on cream off-white paper, uniform thick black strokes, monochrome black-and-white, clean simple line-art background, soft dark vignette at the edges, no color. When the main character appears he is EXACTLY the stick figure from the reference image: a perfect circle head, two small black dot eyes, a simple one-line mouth and small eyebrow lines for emotion, thin stick limbs. No clothes, plain stick figure holding a cereal bowl and a notebook.. Other people are stick figures in the same style. 16:9 landscape composition. One clear moment, big readable subject, simple line-art set (room, street, office) only when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Medium flashback at the kitchen table: he nudges the closed notebook away while glancing at a wall clock, wearing a reassuring smile that excuses postponement.",
+          "image": "8130eb75bb269c7d"
+        },
+        {
+          "kind": "image",
+          "scene": "Extreme close-up of his face in the kitchen: he smiles confidently while holding a paper badge near his cheek, mistaking its official appearance for real commitment.",
+          "text": "LATER",
+          "camera": "push",
+          "line": "Later sounds committed.",
+          "prompt": "Classic stickman-animation YouTube style in exactly the same art style as the reference image: black ink line art on cream off-white paper, uniform thick black strokes, monochrome black-and-white, clean simple line-art background, soft dark vignette at the edges, no color. When the main character appears he is EXACTLY the stick figure from the reference image: a perfect circle head, two small black dot eyes, a simple one-line mouth and small eyebrow lines for emotion, thin stick limbs. No clothes, plain stick figure holding a cereal bowl and a notebook.. Other people are stick figures in the same style. 16:9 landscape composition. One clear moment, big readable subject, simple line-art set (room, street, office) only when the scene needs it. The only text allowed in the image is: LATER — spelled exactly like that in simple black hand lettering. No other text. SCENE: Extreme close-up of his face in the kitchen: he smiles confidently while holding a paper badge near his cheek, mistaking its official appearance for real commitment.",
+          "image": "5355ec5752b604cf"
+        },
+        {
+          "kind": "image",
+          "scene": "Medium shot beside the kitchen counter: he relaxes with both hands behind his head, an untouched coin pile and closed notebook nearby, his expression comfortably unconcerned.",
+          "text": "",
+          "camera": "still",
+          "line": "It costs you nothing right now.",
+          "prompt": "Classic stickman-animation YouTube style in exactly the same art style as the reference image: black ink line art on cream off-white paper, uniform thick black strokes, monochrome black-and-white, clean simple line-art background, soft dark vignette at the edges, no color. When the main character appears he is EXACTLY the stick figure from the reference image: a perfect circle head, two small black dot eyes, a simple one-line mouth and small eyebrow lines for emotion, thin stick limbs. No clothes, plain stick figure holding a cereal bowl and a notebook.. Other people are stick figures in the same style. 16:9 landscape composition. One clear moment, big readable subject, simple line-art set (room, street, office) only when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Medium shot beside the kitchen counter: he relaxes with both hands behind his head, an untouched coin pile and closed notebook nearby, his expression comfortably unconcerned.",
+          "image": "e54adffc56fc3fab"
+        },
+        {
+          "kind": "image",
+          "scene": "Extreme close-up of his face at the kitchen table: he beams beside a tiny trophy, while the closed notebook below his chin remains untouched.",
+          "text": "",
+          "camera": "push",
+          "line": "You get to feel responsible without starting.",
+          "prompt": "Classic stickman-animation YouTube style in exactly the same art style as the reference image: black ink line art on cream off-white paper, uniform thick black strokes, monochrome black-and-white, clean simple line-art background, soft dark vignette at the edges, no color. When the main character appears he is EXACTLY the stick figure from the reference image: a perfect circle head, two small black dot eyes, a simple one-line mouth and small eyebrow lines for emotion, thin stick limbs. No clothes, plain stick figure holding a cereal bowl and a notebook.. Other people are stick figures in the same style. 16:9 landscape composition. One clear moment, big readable subject, simple line-art set (room, street, office) only when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Extreme close-up of his face at the kitchen table: he beams beside a tiny trophy, while the closed notebook below his chin remains untouched.",
+          "image": "b6941fbdfb342044"
+        },
+        {
+          "kind": "image",
+          "scene": "Wide kitchen shot: he waits beneath a bell with no clapper, holding his closed notebook against his chest, his hopeful smile fading into puzzled impatience.",
+          "text": "",
+          "camera": "pull",
+          "line": "But later has no starting signal.",
+          "prompt": "Classic stickman-animation YouTube style in exactly the same art style as the reference image: black ink line art on cream off-white paper, uniform thick black strokes, monochrome black-and-white, clean simple line-art background, soft dark vignette at the edges, no color. When the main character appears he is EXACTLY the stick figure from the reference image: a perfect circle head, two small black dot eyes, a simple one-line mouth and small eyebrow lines for emotion, thin stick limbs. No clothes, plain stick figure holding a cereal bowl and a notebook.. Other people are stick figures in the same style. 16:9 landscape composition. One clear moment, big readable subject, simple line-art set (room, street, office) only when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Wide kitchen shot: he waits beneath a bell with no clapper, holding his closed notebook against his chest, his hopeful smile fading into puzzled impatience.",
+          "image": "db3b46d2f9eabe65"
+        },
+        {
+          "kind": "image",
+          "scene": "Medium shot at the kitchen table: he faces a miniature version of himself across a closed notebook, both gesturing like negotiators, his expression strained and indecisive.",
+          "text": "",
+          "camera": "left",
+          "line": "So every free moment becomes another negotiation.",
+          "prompt": "Classic stickman-animation YouTube style in exactly the same art style as the reference image: black ink line art on cream off-white paper, uniform thick black strokes, monochrome black-and-white, clean simple line-art background, soft dark vignette at the edges, no color. When the main character appears he is EXACTLY the stick figure from the reference image: a perfect circle head, two small black dot eyes, a simple one-line mouth and small eyebrow lines for emotion, thin stick limbs. No clothes, plain stick figure holding a cereal bowl and a notebook.. Other people are stick figures in the same style. 16:9 landscape composition. One clear moment, big readable subject, simple line-art set (room, street, office) only when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Medium shot at the kitchen table: he faces a miniature version of himself across a closed notebook, both gesturing like negotiators, his expression strained and indecisive.",
+          "image": "99aa48fe5555f7fd"
+        },
+        {
+          "kind": "image",
+          "scene": "Side view near the couch: he places the closed notebook just beyond reach, then sinks into the cushions with a guilty sideways glance.",
+          "text": "",
+          "camera": "right",
+          "line": "You delay again.",
+          "prompt": "Classic stickman-animation YouTube style in exactly the same art style as the reference image: black ink line art on cream off-white paper, uniform thick black strokes, monochrome black-and-white, clean simple line-art background, soft dark vignette at the edges, no color. When the main character appears he is EXACTLY the stick figure from the reference image: a perfect circle head, two small black dot eyes, a simple one-line mouth and small eyebrow lines for emotion, thin stick limbs. No clothes, plain stick figure holding a cereal bowl and a notebook.. Other people are stick figures in the same style. 16:9 landscape composition. One clear moment, big readable subject, simple line-art set (room, street, office) only when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Side view near the couch: he places the closed notebook just beyond reach, then sinks into the cushions with a guilty sideways glance.",
+          "image": "e6c5c17c5e0082b4"
+        },
+        {
+          "kind": "image",
+          "scene": "Wide view in the kitchen doorway: two other plain stick figures wait beside an empty work tray while he grips his closed notebook, looking sheepish.",
+          "text": "",
+          "camera": "pull",
+          "line": "People counting on you keep waiting.",
+          "prompt": "Classic stickman-animation YouTube style in exactly the same art style as the reference image: black ink line art on cream off-white paper, uniform thick black strokes, monochrome black-and-white, clean simple line-art background, soft dark vignette at the edges, no color. When the main character appears he is EXACTLY the stick figure from the reference image: a perfect circle head, two small black dot eyes, a simple one-line mouth and small eyebrow lines for emotion, thin stick limbs. No clothes, plain stick figure holding a cereal bowl and a notebook.. Other people are stick figures in the same style. 16:9 landscape composition. One clear moment, big readable subject, simple line-art set (room, street, office) only when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Wide view in the kitchen doorway: two other plain stick figures wait beside an empty work tray while he grips his closed notebook, looking sheepish.",
+          "image": "8667150808caef48"
+        },
+        {
+          "kind": "image",
+          "scene": "Medium shot in the kitchen doorway: he explains with animated hand gestures beside his closed notebook, while two listeners lean forward and his face brightens hopefully.",
+          "text": "",
+          "camera": "push",
+          "line": "They hear your plan.",
+          "prompt": "Classic stickman-animation YouTube style in exactly the same art style as the reference image: black ink line art on cream off-white paper, uniform thick black strokes, monochrome black-and-white, clean simple line-art background, soft dark vignette at the edges, no color. When the main character appears he is EXACTLY the stick figure from the reference image: a perfect circle head, two small black dot eyes, a simple one-line mouth and small eyebrow lines for emotion, thin stick limbs. No clothes, plain stick figure holding a cereal bowl and a notebook.. Other people are stick figures in the same style. 16:9 landscape composition. One clear moment, big readable subject, simple line-art set (room, street, office) only when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Medium shot in the kitchen doorway: he explains with animated hand gestures beside his closed notebook, while two listeners lean forward and his face brightens hopefully.",
+          "image": "9cb190627136e2a6"
+        },
+        {
+          "kind": "image",
+          "scene": "Reverse angle from the listeners in the kitchen: he presents the notebook's completely blank pages, their slumped shoulders contrasting with his embarrassed, tight-lipped expression.",
+          "text": "",
+          "camera": "still",
+          "line": "They don't see the work.",
+          "prompt": "Classic stickman-animation YouTube style in exactly the same art style as the reference image: black ink line art on cream off-white paper, uniform thick black strokes, monochrome black-and-white, clean simple line-art background, soft dark vignette at the edges, no color. When the main character appears he is EXACTLY the stick figure from the reference image: a perfect circle head, two small black dot eyes, a simple one-line mouth and small eyebrow lines for emotion, thin stick limbs. No clothes, plain stick figure holding a cereal bowl and a notebook.. Other people are stick figures in the same style. 16:9 landscape composition. One clear moment, big readable subject, simple line-art set (room, street, office) only when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Reverse angle from the listeners in the kitchen: he presents the notebook's completely blank pages, their slumped shoulders contrasting with his embarrassed, tight-lipped expression.",
+          "image": "97ad2af76e159548"
+        },
+        {
+          "kind": "image",
+          "scene": "Extreme close-up of his face in the kitchen: he holds an open, empty gift box beneath his chin, his cheerful confidence collapsing into visible embarrassment.",
+          "text": "",
+          "camera": "push",
+          "line": "Your good intentions start looking like empty promises.",
+          "prompt": "Classic stickman-animation YouTube style in exactly the same art style as the reference image: black ink line art on cream off-white paper, uniform thick black strokes, monochrome black-and-white, clean simple line-art background, soft dark vignette at the edges, no color. When the main character appears he is EXACTLY the stick figure from the reference image: a perfect circle head, two small black dot eyes, a simple one-line mouth and small eyebrow lines for emotion, thin stick limbs. No clothes, plain stick figure holding a cereal bowl and a notebook.. Other people are stick figures in the same style. 16:9 landscape composition. One clear moment, big readable subject, simple line-art set (room, street, office) only when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Extreme close-up of his face in the kitchen: he holds an open, empty gift box beneath his chin, his cheerful confidence collapsing into visible embarrassment.",
+          "image": "f11028f226762c14"
+        },
+        {
+          "kind": "card",
+          "scene": "",
+          "text": "AN APPOINTMENT, NOT ANOTHER PROMISE",
+          "camera": "still",
+          "line": "Your habit needs an appointment, not another promise."
+        },
+        {
+          "kind": "image",
+          "scene": "Medium kitchen shot: he points from his cereal bowl toward his closed notebook, a small bell between them, his expression alert as the meal becomes a starting signal.",
+          "text": "",
+          "camera": "right",
+          "line": "Use a daily event as the starting bell.",
+          "prompt": "Classic stickman-animation YouTube style in exactly the same art style as the reference image: black ink line art on cream off-white paper, uniform thick black strokes, monochrome black-and-white, clean simple line-art background, soft dark vignette at the edges, no color. When the main character appears he is EXACTLY the stick figure from the reference image: a perfect circle head, two small black dot eyes, a simple one-line mouth and small eyebrow lines for emotion, thin stick limbs. No clothes, plain stick figure holding a cereal bowl and a notebook.. Other people are stick figures in the same style. 16:9 landscape composition. One clear moment, big readable subject, simple line-art set (room, street, office) only when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Medium kitchen shot: he points from his cereal bowl toward his closed notebook, a small bell between them, his expression alert as the meal becomes a starting signal.",
+          "image": "e231dd5ced2edd9c"
+        },
+        {
+          "kind": "image",
+          "scene": "Tight side shot at the kitchen table: he sets the empty cereal bowl down and releases his spoon, his satisfied expression marking breakfast's unmistakable ending.",
+          "text": "",
+          "camera": "still",
+          "line": "Breakfast ends.",
+          "prompt": "Classic stickman-animation YouTube style in exactly the same art style as the reference image: black ink line art on cream off-white paper, uniform thick black strokes, monochrome black-and-white, clean simple line-art background, soft dark vignette at the edges, no color. When the main character appears he is EXACTLY the stick figure from the reference image: a perfect circle head, two small black dot eyes, a simple one-line mouth and small eyebrow lines for emotion, thin stick limbs. No clothes, plain stick figure holding a cereal bowl and a notebook.. Other people are stick figures in the same style. 16:9 landscape composition. One clear moment, big readable subject, simple line-art set (room, street, office) only when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Tight side shot at the kitchen table: he sets the empty cereal bowl down and releases his spoon, his satisfied expression marking breakfast's unmistakable ending.",
+          "image": "468328285030b95f"
+        },
+        {
+          "kind": "image",
+          "scene": "Overhead-angled medium shot at the kitchen table: he opens his notebook beside the empty cereal bowl, looking down with calm concentration as the pages spread.",
+          "text": "",
+          "camera": "push",
+          "line": "You open your notebook at the kitchen table.",
+          "prompt": "Classic stickman-animation YouTube style in exactly the same art style as the reference image: black ink line art on cream off-white paper, uniform thick black strokes, monochrome black-and-white, clean simple line-art background, soft dark vignette at the edges, no color. When the main character appears he is EXACTLY the stick figure from the reference image: a perfect circle head, two small black dot eyes, a simple one-line mouth and small eyebrow lines for emotion, thin stick limbs. No clothes, plain stick figure holding a cereal bowl and a notebook.. Other people are stick figures in the same style. 16:9 landscape composition. One clear moment, big readable subject, simple line-art set (room, street, office) only when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Overhead-angled medium shot at the kitchen table: he opens his notebook beside the empty cereal bowl, looking down with calm concentration as the pages spread.",
+          "image": "e91e20bd694c3d90"
+        },
+        {
+          "kind": "image",
+          "scene": "Extreme close-up of his face in the kitchen: his eyes shift from the empty bowl toward the open notebook below, his expression certain rather than searching.",
+          "text": "",
+          "camera": "push",
+          "line": "Now you know exactly when to start.",
+          "prompt": "Classic stickman-animation YouTube style in exactly the same art style as the reference image: black ink line art on cream off-white paper, uniform thick black strokes, monochrome black-and-white, clean simple line-art background, soft dark vignette at the edges, no color. When the main character appears he is EXACTLY the stick figure from the reference image: a perfect circle head, two small black dot eyes, a simple one-line mouth and small eyebrow lines for emotion, thin stick limbs. No clothes, plain stick figure holding a cereal bowl and a notebook.. Other people are stick figures in the same style. 16:9 landscape composition. One clear moment, big readable subject, simple line-art set (room, street, office) only when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Extreme close-up of his face in the kitchen: his eyes shift from the empty bowl toward the open notebook below, his expression certain rather than searching.",
+          "image": "13132c4356822d2d"
+        },
+        {
+          "kind": "image",
+          "scene": "Wide kitchen shot: he steps away from an enormous calendar covered in tangled lines, carrying only his notebook, his relieved face rejecting an overwhelming planning project.",
+          "text": "",
+          "camera": "pull",
+          "line": "You don't need to organize your entire day.",
+          "prompt": "Classic stickman-animation YouTube style in exactly the same art style as the reference image: black ink line art on cream off-white paper, uniform thick black strokes, monochrome black-and-white, clean simple line-art background, soft dark vignette at the edges, no color. When the main character appears he is EXACTLY the stick figure from the reference image: a perfect circle head, two small black dot eyes, a simple one-line mouth and small eyebrow lines for emotion, thin stick limbs. No clothes, plain stick figure holding a cereal bowl and a notebook.. Other people are stick figures in the same style. 16:9 landscape composition. One clear moment, big readable subject, simple line-art set (room, street, office) only when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Wide kitchen shot: he steps away from an enormous calendar covered in tangled lines, carrying only his notebook, his relieved face rejecting an overwhelming planning project.",
+          "image": "900d1220f61dd0fa"
+        },
+        {
+          "kind": "image",
+          "scene": "Medium kitchen shot: he points to the bowl icon on a small wheel of daily events, leaving its toothbrush and moon icons untouched, his expression decisive.",
+          "text": "",
+          "camera": "still",
+          "line": "You need to pick one daily event.",
+          "prompt": "Classic stickman-animation YouTube style in exactly the same art style as the reference image: black ink line art on cream off-white paper, uniform thick black strokes, monochrome black-and-white, clean simple line-art background, soft dark vignette at the edges, no color. When the main character appears he is EXACTLY the stick figure from the reference image: a perfect circle head, two small black dot eyes, a simple one-line mouth and small eyebrow lines for emotion, thin stick limbs. No clothes, plain stick figure holding a cereal bowl and a notebook.. Other people are stick figures in the same style. 16:9 landscape composition. One clear moment, big readable subject, simple line-art set (room, street, office) only when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Medium kitchen shot: he points to the bowl icon on a small wheel of daily events, leaving its toothbrush and moon icons untouched, his expression decisive.",
+          "image": "1c61f660c1e9e6a4"
+        },
+        {
+          "kind": "image",
+          "scene": "Low wide shot in the kitchen: he faces a towering stack of manuscript pages, clutching his small notebook, his worried expression exposing how oversized the imagined task feels.",
+          "text": "",
+          "camera": "pull",
+          "line": "You don't need to write a whole chapter.",
+          "prompt": "Classic stickman-animation YouTube style in exactly the same art style as the reference image: black ink line art on cream off-white paper, uniform thick black strokes, monochrome black-and-white, clean simple line-art background, soft dark vignette at the edges, no color. When the main character appears he is EXACTLY the stick figure from the reference image: a perfect circle head, two small black dot eyes, a simple one-line mouth and small eyebrow lines for emotion, thin stick limbs. No clothes, plain stick figure holding a cereal bowl and a notebook.. Other people are stick figures in the same style. 16:9 landscape composition. One clear moment, big readable subject, simple line-art set (room, street, office) only when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Low wide shot in the kitchen: he faces a towering stack of manuscript pages, clutching his small notebook, his worried expression exposing how oversized the imagined task feels.",
+          "image": "1455e8aaf27ce34a"
+        },
+        {
+          "kind": "image",
+          "scene": "Close medium shot at the kitchen table: he ignores the distant page tower and simply opens his small notebook, his eyebrows relaxing into an encouraging smile.",
+          "text": "",
+          "camera": "push",
+          "line": "You need to open your notebook.",
+          "prompt": "Classic stickman-animation YouTube style in exactly the same art style as the reference image: black ink line art on cream off-white paper, uniform thick black strokes, monochrome black-and-white, clean simple line-art background, soft dark vignette at the edges, no color. When the main character appears he is EXACTLY the stick figure from the reference image: a perfect circle head, two small black dot eyes, a simple one-line mouth and small eyebrow lines for emotion, thin stick limbs. No clothes, plain stick figure holding a cereal bowl and a notebook.. Other people are stick figures in the same style. 16:9 landscape composition. One clear moment, big readable subject, simple line-art set (room, street, office) only when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Close medium shot at the kitchen table: he ignores the distant page tower and simply opens his small notebook, his eyebrows relaxing into an encouraging smile.",
+          "image": "e63e4b941fb38420"
+        },
+        {
+          "kind": "image",
+          "scene": "Medium kitchen shot: he tries to catch a wispy cloud containing a blurry target, his notebook tucked under one arm, his face strained by the vanishing idea.",
+          "text": "",
+          "camera": "left",
+          "line": "You don't need to remember a vague goal.",
+          "prompt": "Classic stickman-animation YouTube style in exactly the same art style as the reference image: black ink line art on cream off-white paper, uniform thick black strokes, monochrome black-and-white, clean simple line-art background, soft dark vignette at the edges, no color. When the main character appears he is EXACTLY the stick figure from the reference image: a perfect circle head, two small black dot eyes, a simple one-line mouth and small eyebrow lines for emotion, thin stick limbs. No clothes, plain stick figure holding a cereal bowl and a notebook.. Other people are stick figures in the same style. 16:9 landscape composition. One clear moment, big readable subject, simple line-art set (room, street, office) only when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Medium kitchen shot: he tries to catch a wispy cloud containing a blurry target, his notebook tucked under one arm, his face strained by the vanishing idea.",
+          "image": "286fba911c7a0ad9"
+        },
+        {
+          "kind": "image",
+          "scene": "Close side view of the kitchen table: he places the instruction note directly beside his cereal bowl, pressing it flat with one finger, his expression calmly deliberate.",
+          "text": "After breakfast: write",
+          "camera": "still",
+          "line": "You need to put the note beside your bowl.",
+          "prompt": "Classic stickman-animation YouTube style in exactly the same art style as the reference image: black ink line art on cream off-white paper, uniform thick black strokes, monochrome black-and-white, clean simple line-art background, soft dark vignette at the edges, no color. When the main character appears he is EXACTLY the stick figure from the reference image: a perfect circle head, two small black dot eyes, a simple one-line mouth and small eyebrow lines for emotion, thin stick limbs. No clothes, plain stick figure holding a cereal bowl and a notebook.. Other people are stick figures in the same style. 16:9 landscape composition. One clear moment, big readable subject, simple line-art set (room, street, office) only when the scene needs it. The only text allowed in the image is: After breakfast: write — spelled exactly like that in simple black hand lettering. No other text. SCENE: Close side view of the kitchen table: he places the instruction note directly beside his cereal bowl, pressing it flat with one finger, his expression calmly deliberate.",
+          "image": "9507faec24d1b9f8"
+        },
+        {
+          "kind": "image",
+          "scene": "Wide kitchen shot the next morning: sunlight falls across his empty cereal bowl as he opens the notebook beside it again, wearing a small, confident smile.",
+          "text": "",
+          "camera": "right",
+          "line": "You repeat the same pairing tomorrow.",
+          "prompt": "Classic stickman-animation YouTube style in exactly the same art style as the reference image: black ink line art on cream off-white paper, uniform thick black strokes, monochrome black-and-white, clean simple line-art background, soft dark vignette at the edges, no color. When the main character appears he is EXACTLY the stick figure from the reference image: a perfect circle head, two small black dot eyes, a simple one-line mouth and small eyebrow lines for emotion, thin stick limbs. No clothes, plain stick figure holding a cereal bowl and a notebook.. Other people are stick figures in the same style. 16:9 landscape composition. One clear moment, big readable subject, simple line-art set (room, street, office) only when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Wide kitchen shot the next morning: sunlight falls across his empty cereal bowl as he opens the notebook beside it again, wearing a small, confident smile.",
+          "image": "6a7eda25e86942ed"
+        },
+        {
+          "kind": "image",
+          "scene": "Extreme close-up of his face in the kitchen: he brushes away a thought bubble containing two arguing miniature selves, his open notebook below, his expression peacefully decisive.",
+          "text": "",
+          "camera": "push",
+          "line": "You stop making the starting point a daily debate.",
+          "prompt": "Classic stickman-animation YouTube style in exactly the same art style as the reference image: black ink line art on cream off-white paper, uniform thick black strokes, monochrome black-and-white, clean simple line-art background, soft dark vignette at the edges, no color. When the main character appears he is EXACTLY the stick figure from the reference image: a perfect circle head, two small black dot eyes, a simple one-line mouth and small eyebrow lines for emotion, thin stick limbs. No clothes, plain stick figure holding a cereal bowl and a notebook.. Other people are stick figures in the same style. 16:9 landscape composition. One clear moment, big readable subject, simple line-art set (room, street, office) only when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Extreme close-up of his face in the kitchen: he brushes away a thought bubble containing two arguing miniature selves, his open notebook below, his expression peacefully decisive.",
+          "image": "58f772d170009451"
+        },
+        {
+          "kind": "image",
+          "scene": "Tight low-angle shot at the kitchen table: he slides the empty cereal bowl aside, his content face visible above it as the notebook waits within easy reach.",
+          "text": "",
+          "camera": "left",
+          "line": "Breakfast ends.",
+          "prompt": "Classic stickman-animation YouTube style in exactly the same art style as the reference image: black ink line art on cream off-white paper, uniform thick black strokes, monochrome black-and-white, clean simple line-art background, soft dark vignette at the edges, no color. When the main character appears he is EXACTLY the stick figure from the reference image: a perfect circle head, two small black dot eyes, a simple one-line mouth and small eyebrow lines for emotion, thin stick limbs. No clothes, plain stick figure holding a cereal bowl and a notebook.. Other people are stick figures in the same style. 16:9 landscape composition. One clear moment, big readable subject, simple line-art set (room, street, office) only when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Tight low-angle shot at the kitchen table: he slides the empty cereal bowl aside, his content face visible above it as the notebook waits within easy reach.",
+          "image": "1547a6527189ab1e"
+        },
+        {
+          "kind": "image",
+          "scene": "Medium front view at the kitchen table: he leans over the open notebook and makes his first pencil stroke, his face quietly focused rather than triumphant.",
+          "text": "",
+          "camera": "push",
+          "line": "You begin.",
+          "prompt": "Classic stickman-animation YouTube style in exactly the same art style as the reference image: black ink line art on cream off-white paper, uniform thick black strokes, monochrome black-and-white, clean simple line-art background, soft dark vignette at the edges, no color. When the main character appears he is EXACTLY the stick figure from the reference image: a perfect circle head, two small black dot eyes, a simple one-line mouth and small eyebrow lines for emotion, thin stick limbs. No clothes, plain stick figure holding a cereal bowl and a notebook.. Other people are stick figures in the same style. 16:9 landscape composition. One clear moment, big readable subject, simple line-art set (room, street, office) only when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Medium front view at the kitchen table: he leans over the open notebook and makes his first pencil stroke, his face quietly focused rather than triumphant.",
+          "image": "2c6d896910f44497"
+        }
+      ]
+    },
     null,
     null,
     {
