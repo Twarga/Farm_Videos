@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <filter id="wob" x="-8%" y="-8%" width="116%" height="116%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.016" numOctaves="2" seed="7" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="9" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="#201b17"/>
+  <g filter="url(#wob)">
+    <!-- robot -->
+    <g>
+      <!-- ears -->
+      <circle cx="112" cy="258" r="13" fill="#5f80d0" stroke="#2b2620" stroke-width="9"/>
+      <circle cx="338" cy="258" r="13" fill="#5f80d0" stroke="#2b2620" stroke-width="9"/>
+      <!-- legs -->
+      <rect x="146" y="388" width="26" height="40" rx="11" fill="#5f80d0" stroke="#2b2620" stroke-width="8"/>
+      <rect x="196" y="390" width="26" height="40" rx="11" fill="#5f80d0" stroke="#2b2620" stroke-width="8"/>
+      <rect x="246" y="390" width="26" height="40" rx="11" fill="#5f80d0" stroke="#2b2620" stroke-width="8"/>
+      <rect x="296" y="388" width="26" height="40" rx="11" fill="#5f80d0" stroke="#2b2620" stroke-width="8"/>
+      <!-- body: wide, face off-center right -->
+      <rect x="112" y="196" width="226" height="204" rx="30" fill="#5f80d0" stroke="#2b2620" stroke-width="12"/>
+      <!-- texture speck -->
+      <circle cx="150" cy="226" r="5" fill="#f2c14e"/>
+      <!-- eyes: thin ring + green -->
+      <circle cx="232" cy="282" r="16" fill="#7ecb6f" stroke="#2b2620" stroke-width="7"/>
+      <circle cx="282" cy="282" r="16" fill="#7ecb6f" stroke="#2b2620" stroke-width="7"/>
+      <circle cx="237" cy="277" r="4" fill="#f3ead9"/>
+      <circle cx="287" cy="277" r="4" fill="#f3ead9"/>
+      <!-- mouth scribble, lower right -->
+      <line x1="222" y1="338" x2="300" y2="338" stroke="#2b2620" stroke-width="7" stroke-linecap="round"/>
+      <line x1="222" y1="354" x2="300" y2="354" stroke="#2b2620" stroke-width="7" stroke-linecap="round"/>
+      <line x1="222" y1="370" x2="262" y2="370" stroke="#2b2620" stroke-width="7" stroke-linecap="round"/>
+    </g>
+    <!-- coin -->
+    <circle cx="382" cy="382" r="72" fill="#f2c14e" stroke="#2b2620" stroke-width="11"/>
+    <circle cx="382" cy="382" r="48" fill="none" stroke="#2b2620" stroke-width="6"/>
+    <text x="382" y="404" font-family="'Patrick Hand',sans-serif" font-size="68" fill="#2b2620" text-anchor="middle">$</text>
+  </g>
+</svg>

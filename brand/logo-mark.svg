@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="40 80 430 460">
+  <circle cx="352" cy="380" r="74" fill="#f2c14e" stroke="#26211c" stroke-width="12"/>
+  <circle cx="352" cy="380" r="50" fill="none" stroke="#26211c" stroke-width="7"/>
+  <text x="352" y="404" font-family="'Patrick Hand',sans-serif" font-size="72" font-weight="700" fill="#26211c" text-anchor="middle">$</text>
+  <rect x="318" y="316" width="60" height="34" rx="17" fill="#5b7fd4" stroke="#26211c" stroke-width="10"/>
+  <rect x="126" y="240" width="26" height="40" rx="10" fill="#5b7fd4" stroke="#26211c" stroke-width="10"/>
+  <rect x="342" y="240" width="26" height="40" rx="10" fill="#5b7fd4" stroke="#26211c" stroke-width="10"/>
+  <rect x="176" y="392" width="30" height="46" rx="12" fill="#5b7fd4" stroke="#26211c" stroke-width="10"/>
+  <rect x="258" y="392" width="30" height="46" rx="12" fill="#5b7fd4" stroke="#26211c" stroke-width="10"/>
+  <rect x="140" y="182" width="216" height="220" rx="34" fill="#5b7fd4" stroke="#26211c" stroke-width="13"/>
+  <circle cx="206" cy="262" r="15" fill="#7ecb6f" stroke="#26211c" stroke-width="8"/>
+  <circle cx="290" cy="262" r="15" fill="#7ecb6f" stroke="#26211c" stroke-width="8"/>
+  <line x1="192" y1="330" x2="304" y2="330" stroke="#26211c" stroke-width="7" stroke-linecap="round"/>
+  <line x1="192" y1="348" x2="304" y2="348" stroke="#26211c" stroke-width="7" stroke-linecap="round"/>
+  <line x1="192" y1="366" x2="236" y2="366" stroke="#26211c" stroke-width="7" stroke-linecap="round"/>
+</svg>
