@@ -134,6 +134,26 @@ def sparkle(cx, cy, r, fill="#f2c14e"):
             f'stroke="{INK}" stroke-width="5" stroke-linejoin="round"/>')
 
 
+def subscribe_pill(x, y):
+    w, h = 440, 86
+    bell = ('<path d="M0 -24 C-15 -24 -23 -12 -23 3 L-23 12 L-31 22 L31 22 L23 12 L23 3 C23 -12 15 -24 0 -24 Z" '
+            f'fill="#fff" stroke="{INK}" stroke-width="5" stroke-linejoin="round"/>'
+            f'<circle cx="0" cy="-28" r="5" fill="#fff" stroke="{INK}" stroke-width="4"/>'
+            f'<circle cx="0" cy="29" r="7" fill="#fff" stroke="{INK}" stroke-width="4"/>')
+    cursor = (f'<path d="M0 0 L0 46 L12 35 L22 58 L33 53 L23 31 L39 31 Z" fill="#fff" stroke="{INK}" '
+              f'stroke-width="6" stroke-linejoin="round"/>')
+    return (f'<g style="{SHADOW}"><g filter="url(#wob)">'
+            '<defs><linearGradient id="redG" x1="0" y1="0" x2="0" y2="1">'
+            '<stop offset="0" stop-color="#ea5a4a"/><stop offset="1" stop-color="#c9322a"/></linearGradient></defs>'
+            f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="43" fill="url(#redG)" stroke="{INK}" stroke-width="8"/>'
+            f'<rect x="{x + 28}" y="{y + 11}" width="{w - 56}" height="13" rx="6.5" fill="#fff" opacity=".28"/>'
+            f'<g transform="translate({x + 62} {y + h / 2 + 2})">{bell}</g>'
+            f'<text x="{x + 110}" y="{y + 60}" font-family="Baloo 2" font-weight="800" font-size="54" fill="#fff" '
+            f'stroke="{INK}" stroke-width="2" paint-order="stroke">subscribe</text>'
+            f'<g transform="translate({x + w - 50} {y + h * 0.4:.0f})">{cursor}</g>'
+            '</g></g>')
+
+
 def paper(W, H, seed=5):
     rnd = random.Random(seed)
     parts = [f'<rect width="{W}" height="{H}" fill="#e0ddd5"/>']
@@ -207,9 +227,10 @@ html,body{{margin:0;background:#e0ddd5}} svg{{display:block}}
 {right}
 <g style="{SHADOW}"><use href="#robot" transform="translate(715 {gy})"/></g>
 <g id="hl" filter="url(#wob)"></g>
-<text id="word" x="960" y="745" font-family="Baloo 2" font-weight="800" font-size="190" fill="{INK}"
+<text id="word" x="960" y="678" font-family="Baloo 2" font-weight="800" font-size="190" fill="{INK}"
       style="filter:drop-shadow(4px 6px 0 rgba(38,33,28,.17))">flat money</text>
-<text x="964" y="838" font-family="Patrick Hand" font-size="76" fill="#5c5246">money, explained in about 45 seconds</text>
+<text x="964" y="766" font-family="Patrick Hand" font-size="76" fill="#5c5246">money, explained in about 45 seconds</text>
+{subscribe_pill(964, 820)}
 </svg>
 <script>
 Promise.all([document.fonts.load('800 190px "Baloo 2"'), document.fonts.load('76px "Patrick Hand"')]).then(()=>{{
@@ -218,7 +239,7 @@ Promise.all([document.fonts.load('800 190px "Baloo 2"'), document.fonts.load('76
   const fs=190*1060/t.getComputedTextLength();
   t.setAttribute('font-size',fs);
   const x0=t.getStartPositionOfChar(5).x, len=t.getSubStringLength(5,5);
-  const y=745-fs*0.16, th=fs*0.27;
+  const y=678-fs*0.16, th=fs*0.27;
   const p=document.createElementNS('http://www.w3.org/2000/svg','path');
   p.setAttribute('d',`M ${{x0-10}} ${{y+4}} C ${{x0+len*0.3}} ${{y-7}}, ${{x0+len*0.7}} ${{y+8}}, ${{x0+len+12}} ${{y-3}}`);
   p.setAttribute('stroke','#f4a62a'); p.setAttribute('stroke-opacity','.92');
