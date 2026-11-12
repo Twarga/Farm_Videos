@@ -1,0 +1,90 @@
+--- a/docs/product/PRODUCT_CONTRACT.md
++++ b/docs/product/PRODUCT_CONTRACT.md
+@@ -35,14 +35,15 @@
+ ## Design invariants
+
+ - Light mode is the default; dark mode is a first-class twin with the same hierarchy.
+-- IBM Plex Sans carries interface copy; IBM Plex Mono carries prices, specifications, identifiers, and aligned numeric data.
+-- The canvas remains white/near-black with a restrained crimson primary and semantic green/amber states.
+-- Crimson is reserved for primary action, current state, and meaningful warning—not decoration across large surfaces.
++- The Highlighter identity follows `brand/BRAND.md` and `brand/tokens/tokens.css`: Mona Sans for interface copy and headings; Geist Mono for prices, specifications, identifiers, and aligned numeric data.
++- White paper and near-black ink remain the canvas. Volt highlights selections and primary actions; vermilion marks caveats. Semantic status colors always have accompanying words or icons.
++- Volt never appears as text on paper or as the sole boundary on white. Use an ink label and ink boundary on volt fills; catch text uses accessible vermilion text tokens.
++- The sticker device may appear once per page. Pills are allowed for buttons and filter chips; 24–32 px radii are allowed on hero surfaces. Dense comparison surfaces keep clear row rules and restrained rounding.
+ - The desktop catalog remains a dense list/table with a left filter rail; cards remain an optional view.
+ - Mobile may restructure the catalog, but it must preserve price, provider/plan, core hardware, trust/catch, compare, and deal access.
+ - Provider logos use a normalized visual frame and a safe fallback mark; flags supplement accessible country names.
+ - UI state motion stays between roughly 150–220 ms, communicates state, and honors reduced-motion preference.
+-- Avoid nested cards, decorative gradients, glassmorphism, oversized rounding, bounce motion, and repeated feature-card grids.
++- Avoid nested cards, decorative gradients, glassmorphism, bounce motion, and repeated feature-card grids.
+
+ ## Accessibility and interaction invariants
+
+--- a/DESIGN.md
++++ b/DESIGN.md
+@@ -4,42 +4,25 @@
+ bestvpsforme.com — plain-language VPS comparison built from reviewed offer evidence.
+
+ ## Scene
+-A bright desk at noon. White paper, one crimson stamp for the action, numbers in mono. Not a magazine, not a night-ops dashboard.
++Highlighter: white paper, near-black ink, volt for the chosen line, vermilion for the catch. Direct, precise, bold. The visual source is [brand/BRAND.md](brand/BRAND.md), [semantic tokens](brand/tokens/tokens.css), and [page mockups](brand/mockups/).
+
+ ## Theme
+-Light by default. Dark is a first-class twin, same hierarchy, no section inversions.
++Light by default. Dark is a first-class twin with the same hierarchy. Components use semantic tokens rather than hard-coded colors.
+
+ ## Color strategy
+-Restrained. Pure white canvas. Crimson primary (seed-205, hue ~18°) on ≤10% of surface. Semantic green for verified, amber for caveats. Never cream/warm-paper body.
+-
+-## Palette (OKLCH)
+-
+-```css
+-:root {
+-  --bg: oklch(1 0 0);
+-  --surface: oklch(0.975 0 0);
+-  --ink: oklch(0.22 0.018 18);
+-  --muted: oklch(0.48 0.012 18);
+-  --line: oklch(0.90 0.008 18);
+-  --primary: oklch(0.48 0.20 18);
+-  --primary-ink: oklch(0.99 0.005 18);
+-  --verified: oklch(0.40 0.10 165);
+-  --unknown: oklch(0.55 0.13 70);
+-  --info: oklch(0.42 0.08 250);
+-}
+-```
++Ink and paper dominate. Volt is a fill behind ink text on paper, with an ink boundary where needed; never volt text on white. Vermilion shapes and icons accompany caveat words. Catch text uses the accessible light/dark vermilion text tokens. Color never carries meaning alone.
+
+ ## Typography
+-IBM Plex Sans for UI. IBM Plex Mono for prices, specs, IDs. Fixed rem scale. Table numbers always mono.
++Mona Sans carries UI, body, and display headings, preserving its variable width axis. Geist Mono carries prices, specs, IDs, and aligned numeric data. Hero numbers may use tabular Mona Sans Wide. Fonts load locally with fallbacks.
+
+ ## Shape
+-Radius 8px for panels and inputs. 6px for table action buttons. Pills only for filter chips. No 24px+ cards.
++Pills are allowed for buttons and filter chips. Hero surfaces may use 24–32 px radii. Dense table surfaces keep compact controls, hairline row rules, and restrained rounding. The sticker device is allowed once per page.
+
+ ## Density
+-Catalog: cockpit. Hairline row rules, sticky header, left filter rail. Homepage and deal pages: more air, same tokens.
++Catalog: a dense list/table with sticky header and left filter rail; cards are optional. Homepage and offer pages allow more air with the same tokens and evidence hierarchy.
+
+ ## Motion
+-150–220ms on state (filters, view toggle, drawers). No page-load choreography. Honor prefers-reduced-motion.
++150–220 ms for state changes. Motion communicates state, preserves keyboard focus, and honors prefers-reduced-motion.
+
+ ## Signature
+-servers.fyi-style list as the catalog default, with Trustpilot as a first-class column next to RAM/CPU, plus a cards mode. Each offer has a canonical page.
++The highlighted choice, visible catch, dated evidence and money-blind ordering. An unreviewed price or fact stays unknown; visual emphasis never makes an unsupported claim. Each offer keeps a canonical page. Accessibility, integrity, data and route rules remain binding in [the product contract](docs/product/PRODUCT_CONTRACT.md).
+--- a/PRODUCT.md
++++ b/PRODUCT.md
+@@ -10,10 +10,10 @@
+ Beginner builders and practical self-hosters choosing a first or next VPS. They arrive with a job (n8n, Coolify, a site) and leave via Get deal. No account required.
+
+ ## Personality
+-Calm, precise, daylight instrument. Like a Hetzner console at noon: dense where comparison needs it, plain-English where beginners hesitate.
++Sharp, calm, precise, a little dry. Highlighter makes the chosen line visible: bold where it helps a decision, dense where comparison needs it, plain-English where beginners hesitate. Mona Sans and Geist Mono, ink/paper/volt/vermilion, carry that identity without exaggerating facts.
+
+ ## Anti-references
+-Dark gamer hosting templates. Affiliate listicles. Fake “live prices.” Cream-paper magazine UI. Three equal feature cards. AI-purple SaaS glow.
++Dark gamer hosting templates. Affiliate listicles. Fake “live prices.” Cream-paper magazine UI. Three equal feature cards. AI-purple SaaS glow. Volt text on paper, decoration presented as evidence, and repeated stickers.
+
+ ## Principles
+ - Rankings never use commission.

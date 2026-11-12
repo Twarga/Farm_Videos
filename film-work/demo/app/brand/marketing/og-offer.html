@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>OG — offer template</title><link rel="stylesheet" href="marketing.css">
+<style>
+  /* Template for /offers/[id]/opengraph-image. Variables: logo, provider, plan, specs, real, ad, today, renew, catch, date. */
+  .frame { width: 1200px; height: 630px; padding: 56px 64px; background: var(--ink-50); display: grid; grid-template-columns: 1fr 470px; gap: 48px; align-items: center; }
+  .id { display: flex; gap: 22px; align-items: center; }
+  .pmark { width: 96px; height: 96px; border-radius: 24px; padding: 16px; }
+  .id b { display: block; font: 700 30px/1.1 var(--font-sans); font-stretch: 112%; }
+  .id span { display: block; margin-top: 8px; font: 500 22px/1 var(--font-mono); color: var(--ink-600); }
+  h1 { font-size: 88px; margin-top: 40px; }
+  .catch { margin-top: 30px; display: flex; gap: 14px; align-items: baseline; font: 600 26px/1.35 var(--font-sans); max-width: 24ch; }
+  .card { padding: 40px; }
+  .card small { display: inline-block; padding: 8px 14px; border-radius: 8px; background: var(--volt-400); font: 700 18px/1 var(--font-sans); font-stretch: 112%; }
+  .big { margin-top: 20px; font: 800 132px/.85 var(--font-sans); font-stretch: 125%; letter-spacing: -.06em; }
+  .big span { font: 600 30px/1 var(--font-sans); letter-spacing: 0; color: var(--ink-500); }
+  ul { list-style: none; padding: 0; margin: 28px 0 0; border-top: 2px dashed var(--ink-300); }
+  li { display: flex; justify-content: space-between; padding: 14px 0; border-bottom: 2px dashed var(--ink-300); font: 500 22px/1 var(--font-sans); }
+  li .mono { font-weight: 650; }
+  s { text-decoration-color: var(--verm-500); text-decoration-thickness: 3px; color: var(--ink-500); }
+  .logo { position: absolute; left: 64px; bottom: 44px; height: 34px; }
+</style></head>
+<body><div class="frame">
+  <div>
+    <div class="id"><span class="pmark"><img src="../../public/logos/hostinger.svg" alt=""></span><div><b>Hostinger</b><span>1 vCPU · 4 GB · 50 GB NVMe</span></div></div>
+    <h1 class="wide">KVM 1</h1>
+    <p class="catch"><span class="dot"></span>24 months upfront. Renews +85%.</p>
+  </div>
+  <div class="sticker card">
+    <small>3-year real price</small>
+    <div class="big">$8.32<span>/mo</span></div>
+    <ul><li><span>Advertised</span><s class="mono">$6.49</s></li><li><span>Due today</span><span class="mono">$155.76</span></li><li><span>Renews at</span><span class="mono">$11.99</span></li></ul>
+  </div>
+  <img class="logo" src="../logo/lockup-horizontal-light.svg" alt="">
+</div></body></html>

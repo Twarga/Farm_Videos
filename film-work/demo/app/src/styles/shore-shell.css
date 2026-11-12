@@ -1,0 +1,31 @@
+@import "./shore-patchwork.css";
+
+[data-theme="day"] { --footer-evidence: #835500; --c-disk: var(--footer-evidence); --c-bw: #0b6c5d; }
+[data-theme="day"] .kicker { color: var(--footer-evidence); }
+.unk { color: var(--text-muted); }
+[data-theme="day"] .foot__company strong { color: var(--footer-evidence); }
+@media (prefers-reduced-motion: reduce) { .seg button { transition: none; } }
+.finder .field { display: block; min-width: 0; min-height: 0; padding: 0; border: 0; border-radius: 0; background: transparent; transition: none; }
+.finder .field:focus-within { border-color: transparent; box-shadow: none; }
+.rail__body { grid-template-columns: minmax(0, 1fr); grid-auto-rows: max-content; }
+.rail__body > :not(.rail__clear) { width: 100%; min-width: 0; }
+.rail .chips { margin-top: 0; }
+@media (max-width: 640px) { .pill--icon { width: 44px; min-height: 44px; } .pill--pail { min-height: 44px; } }
+
+/* The app keeps the project's 44px target contract without editing the
+   approved mockup CSS. The visible chip and track stay the same weight.
+   45px absorbs sub-pixel rounding in mobile layout viewports. */
+.chip { min-height: 45px; }
+.rng { height: 45px; }
+
+/* The rail leaves the flow at sheet widths; flex keeps the results full-width
+   without re-deriving the approved 1180px breakpoint in integration CSS. */
+.cat { display: flex; align-items: flex-start; }
+.cat > .rail { flex: 0 0 272px; }
+.cat > section { flex: 1 1 auto; min-width: 0; }
+
+/* F3: the pail notice borrows the mockup toast's stitched edge without
+   moving the full-bench feedback away from the mobile dock. */
+html .compare-notice { border: 1px dashed var(--catch); background: var(--raised); color: var(--text); }
+.finder__count b.pop { display: inline-block; animation: count-pop .32s var(--ease-out); }
+.fxnote { padding: 10px 0; color: var(--text-muted); font-size: 0.8125rem; }

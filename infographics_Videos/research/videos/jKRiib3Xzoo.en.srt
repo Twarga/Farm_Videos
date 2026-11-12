@@ -1,0 +1,277 @@
+1
+00:00:00,160 --> 00:00:02,870
+Not sure which title or thumbnail to use? 
+
+2
+00:00:02,870 --> 00:00:08,160
+Try “A/B\h\htesting,”  a feature that lets you\h
+choose up to 3 video titles and/or\h\h
+
+3
+00:00:08,160 --> 00:00:12,640
+thumbnails to test with viewers to help\h
+pick your winner. Here’s how it works.
+
+4
+00:00:12,640 --> 00:00:17,600
+Eligible creators can use the “A/B testing”\h
+feature through YouTube Studio desktop\h\h
+
+5
+00:00:17,600 --> 00:00:22,640
+when publishing a new video, or with an\h
+existing video. On the Video Details page,\h\h
+
+6
+00:00:22,640 --> 00:00:26,720
+click the icon under the ‘Title’ section\h
+or ‘Thumbnail section. From here,\h\h
+
+7
+00:00:26,720 --> 00:00:31,040
+choose if you want to run a Title\h
+only test, a Thumbnail only test,\h\h
+
+8
+00:00:31,040 --> 00:00:35,280
+or a Title and Thumbnail test.
+For title only, you can add up\h\h
+
+9
+00:00:35,280 --> 00:00:39,920
+to three different titles to test.\h
+Titles must be under 100 characters.\h
+
+10
+00:00:39,920 --> 00:00:44,320
+For thumbnail only, you can upload three\h
+different images to learn which viewers\h\h
+
+11
+00:00:44,320 --> 00:00:50,000
+prefer. For title and thumbnail, you can add\h
+three different title and thumbnail combinations
+
+12
+00:00:50,000 --> 00:00:55,920
+After you’ve added your titles, thumbnails or\h
+combinations of both, click Done. A/B testing is\h\h
+
+13
+00:00:55,920 --> 00:01:01,440
+only available for Public, long form videos, and\h
+the test will start once you publish your video.
+
+14
+00:01:01,440 --> 00:01:02,960
+Here’s how the test works:\h
+
+15
+00:01:02,960 --> 00:01:08,320
+YouTube will show your chosen titles and/or\h
+thumbnails evenly across your video’s audience,\h\h
+
+16
+00:01:08,320 --> 00:01:13,520
+and will select a winning thumbnail based on\h
+which one generates the most watch time share\h
+
+17
+00:01:13,520 --> 00:01:17,840
+You can check the status of your test at\h
+any time by going to the Video Details\h\h
+
+18
+00:01:17,840 --> 00:01:22,320
+page and clicking “View test report”\h
+under the Title or Thumbnail section\h
+
+19
+00:01:22,320 --> 00:01:26,080
+You’ll see how much time is left for the\h
+test and how they’re performing. You can\h\h
+
+20
+00:01:26,080 --> 00:01:30,480
+also choose to stop the test and manually\h
+set one of the options as the winner\h
+
+21
+00:01:30,480 --> 00:01:35,200
+If you let the test run, the results\h
+may take a few hours or up to a couple\h\h
+
+22
+00:01:35,200 --> 00:01:37,920
+of weeks to be finalized.
+How long it takes to get\h\h
+
+23
+00:01:37,920 --> 00:01:43,040
+the results is affected by factors like:
+How similar your titles and/or thumbnails\h\h
+
+24
+00:01:43,040 --> 00:01:46,160
+are (the more they differ, the\h
+faster your test will finish)\h
+
+25
+00:01:46,160 --> 00:01:49,840
+And your video traffic (the more\h
+impressions that your video receives,\h\h
+
+26
+00:01:49,840 --> 00:01:52,720
+the faster your test will finish)
+Once the test is finished,\h\h
+
+27
+00:01:52,720 --> 00:01:57,040
+the test report will show the results
+If there’s a statistically significant result,\h\h
+
+28
+00:01:57,040 --> 00:02:01,840
+you’ll see a “Winner” label. YouTube will\h
+automatically update your video title and/or\h\h
+
+29
+00:02:01,840 --> 00:02:06,400
+thumbnail to this winner when the test is done.
+You might also see a “Performed Same” label.\h\h
+
+30
+00:02:06,400 --> 00:02:11,600
+This result indicates that all test options had\h
+similar watch time performance. If there’s no\h\h
+
+31
+00:02:11,600 --> 00:02:15,680
+clear winner, or if the options “Performed\h
+Same,” the first title and/or thumbnail\h\h
+
+32
+00:02:15,680 --> 00:02:20,320
+will be selected and shown to your audience.
+Remember that in either case, it’s ultimately\h\h
+
+33
+00:02:20,320 --> 00:02:24,880
+up to you – you can always manually select\h
+the video title and thumbnail you want to use.\h
+
+34
+00:02:24,880 --> 00:02:29,600
+You can also choose to run a new test, but\h
+note it will delete your old experiment
+
+35
+00:02:29,600 --> 00:02:33,120
+Now let’s walk through some things\h
+to note and best practices for\h\h
+
+36
+00:02:33,120 --> 00:02:36,880
+using the “A/B testing” feature:
+Titles and Thumbnails must follow\h\h
+
+37
+00:02:36,880 --> 00:02:41,520
+our Community Guidelines, and the tool will\h
+not work on videos that are designated as\h\h
+
+38
+00:02:41,520 --> 00:02:47,040
+made for kids, for mature audiences, or live.
+Note that great titles and thumbnails serve\h\h
+
+39
+00:02:47,040 --> 00:02:52,000
+an important purpose beyond getting viewers to\h
+click. They help a viewer understand what the\h\h
+
+40
+00:02:52,000 --> 00:02:56,160
+video is about so that they don't waste\h
+their time clicking on the wrong videos.\h
+
+41
+00:02:56,160 --> 00:03:01,040
+Remember that your title and thumbnail should\h
+work together as a team. We highly encourage\h\h
+
+42
+00:03:01,040 --> 00:03:05,600
+testing title and thumbnail combinations\h
+to find which pairing works best to help\h\h
+
+43
+00:03:05,600 --> 00:03:10,720
+viewers understand what your video is about.
+We suggest testing titles and thumbnails on\h\h
+
+44
+00:03:10,720 --> 00:03:15,360
+a limited selection of older videos for\h
+initial guidance, then a selection of more\h\h
+
+45
+00:03:15,360 --> 00:03:19,680
+recent videos you think will provide the most\h
+meaningful insights for your content strategy.\h
+
+46
+00:03:19,680 --> 00:03:23,360
+We also recommend testing thumbnail\h
+variations that explore different\h\h
+
+47
+00:03:23,360 --> 00:03:28,880
+layout compositions and changes to thumbnail\h
+elements (including background, text overlays, and\h\h
+
+48
+00:03:28,880 --> 00:03:34,160
+object placement) to learn which resonates most\h
+with your audience. Some tips to keep in mind:\h
+
+49
+00:03:34,160 --> 00:03:39,520
+Ensure your images are balanced, with a focal\h
+point to direct viewers attention towards\h
+
+50
+00:03:39,520 --> 00:03:43,520
+Utilize high contrast, allowing\h
+your subject to stand out against\h\h
+
+51
+00:03:43,520 --> 00:03:49,200
+the background in both light and dark mode.
+With text, remember that fewer words can be\h\h
+
+52
+00:03:49,200 --> 00:03:53,600
+impactful, while too much text can be\h
+difficult to process while scrolling.\h
+
+53
+00:03:53,600 --> 00:03:58,880
+And finally when it comes to depth of field, keep\h
+your background in mind and play with blank space
+
+54
+00:03:58,880 --> 00:04:03,360
+We hope the A/B testing feature will help you\h
+gain insights when it comes to making titles\h\h
+
+55
+00:04:03,360 --> 00:04:07,760
+and thumbnails, and help your overall video\h
+performance in the long run! For more info,\h\h
+
+56
+00:04:07,760 --> 00:04:10,880
+check out the links below. Thanks for watching!
+

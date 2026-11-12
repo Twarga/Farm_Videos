@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How we check — bestvpsforme</title>
+<link rel="icon" href="../logo/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/bvf.css">
+<style>
+  .mhero { padding: 88px 0 72px; }
+  .mhero h1 { max-width: 13ch; margin-top: 22px; }
+  .mhero p { margin-top: 28px; max-width: 56ch; color: var(--fg-muted); }
+  .rules { display: grid; grid-template-columns: repeat(4, 1fr); border-block: 1px solid var(--border); }
+  .rules > div { padding: 28px 24px 32px 0; }
+  .rules > div + div { padding-left: 24px; border-left: 1px solid var(--border); }
+  .rules b { font: 700 13px/1 var(--font-mono); color: var(--accent-text); }
+  .rules h3 { margin-top: 16px; font: 720 21px/1.2 var(--font-sans); font-stretch: 112%; letter-spacing: -.02em; }
+  .rules p { margin-top: 10px; font: 460 15px/1.5 var(--font-sans); color: var(--fg-muted); }
+  .part { display: grid; grid-template-columns: 320px minmax(0, 1fr); gap: 64px; padding: 88px 0; border-bottom: 1px solid var(--border); }
+  .part h2 { position: sticky; top: calc(var(--nav-h) + 32px); align-self: start; }
+  .part .prose { font: 420 18px/1.65 var(--font-sans); color: var(--fg-muted); max-width: 64ch; }
+  .part .prose > * + * { margin-top: 1em; }
+  .part .prose strong { color: var(--fg); font-weight: 620; }
+  .score { margin-top: 28px; border: 1px solid var(--border); border-radius: var(--r-xl); overflow: hidden; }
+  .score > div { display: grid; grid-template-columns: 1fr 120px 2fr; gap: 20px; align-items: center; padding: 16px 22px; border-bottom: 1px solid var(--border); font: 520 15px/1.35 var(--font-sans); }
+  .score > div:last-child { border-bottom: 0; }
+  .score .w { font: 650 18px/1 var(--font-mono); color: var(--accent-text); }
+  .bar { height: 10px; border-radius: 5px; background: var(--bg-muted); overflow: hidden; }
+  .bar i { display: block; height: 100%; background: var(--volt-400); border-radius: 5px; }
+  .never { list-style: none; padding: 0; margin: 28px 0 0; display: grid; gap: 0; }
+  .never li { display: flex; gap: 16px; align-items: baseline; padding: 18px 0; border-top: 1px solid var(--border); font: 560 19px/1.35 var(--font-sans); font-stretch: 104%; color: var(--fg); }
+  .never li s { text-decoration-color: var(--catch); text-decoration-thickness: 2.5px; color: var(--fg-muted); }
+  .never li b { margin-left: auto; font: 600 12px/1 var(--font-mono); color: var(--catch-fg); white-space: nowrap; }
+  @media (max-width: 1000px) { .rules { grid-template-columns: 1fr 1fr; } .rules > div:nth-child(odd) { padding-left: 0; border-left: 0; } .part { grid-template-columns: 1fr; gap: 24px; } .part h2 { position: static; } .score > div { grid-template-columns: 1fr 70px; } .score .bar { grid-column: 1 / -1; } }
+</style>
+</head>
+<body>
+<header class="nav">
+  <div class="container--wide nav__in">
+    <a class="nav__logo" href="home.html" aria-label="bestvpsforme home"><img src="../logo/lockup-horizontal-dark.svg" alt="bestvpsforme" data-logo></a>
+    <nav class="nav__links" aria-label="Primary"><a href="catalog.html">Plans</a><a href="compare.html">Compare</a><a href="provider.html">Providers</a><a href="guide.html">Guides</a><a href="methodology.html" aria-current="page">How we check</a></nav>
+    <button class="nav__search" type="button" data-open-palette><i data-icon="search"></i>Search 314 plans, 41 providers…<span class="kbd">⌘K</span></button>
+    <div class="row nav__right" style="--gap:6px"><a class="btn btn--line btn--sm nav__compare" href="compare.html"><i data-icon="compare"></i>Compare <span class="nav__count">0</span></a><button class="btn btn--ghost btn--icon" type="button" data-theme-toggle aria-label="Switch theme"><i data-icon="sun"></i></button></div>
+  </div>
+</header>
+<main class="container--wide">
+  <section class="mhero">
+    <p class="eyebrow">How we check · Method v1 · 31 Aug 2026</p>
+    <h1 class="d-2xl">Receipts for <span class="hl" data-animate>every number.</span></h1>
+    <p class="b-lg">We read each provider's own pricing page, not its ads. We turn every plan into one comparable number and write down the catch. The formula below is the whole method. Nothing is hidden, and commission never touches it.</p>
+  </section>
+
+  <div class="rules">
+    <div><b>01</b><h3>Order never uses money.</h3><p>Affiliate status, commission and partnerships are never inputs to rank. A test fails the build if they are.</p></div>
+    <div><b>02</b><h3>Unknown stays unknown.</h3><p>Missing facts say "Not published". Never zero, never "included".</p></div>
+    <div><b>03</b><h3>Every fact is dated.</h3><p>Prices and review scores are snapshots with a check date and a source link.</p></div>
+    <div><b>04</b><h3>Links are labelled.</h3><p>"Affiliate link" or "Direct link" sits next to every Visit button.</p></div>
+  </div>
+
+  <section class="part">
+    <h2 class="d-md">The 3-year real price</h2>
+    <div class="prose">
+      <p>The ad price hides the term, the intro period and the renewal. So we price the first <strong>36 months</strong> the way the provider's own terms describe them, then divide by 36.</p>
+      <div class="formula" style="margin:1.6em 0;padding:26px 28px;border-radius:24px;background:#000;border:1px solid var(--border);font:520 17px/1.7 var(--font-mono);color:#f3f5f7">real = ( <span style="color:var(--volt-400)">due_today</span> + Σ <span style="color:var(--volt-400)">renewals</span> + Σ <span style="color:var(--volt-400)">required_extras</span> ) ÷ 36</div>
+      <p>Prices in euros or pounds are converted to USD at the <strong>ECB rate on the check date</strong>, shown under the price. VAT treatment is stated per provider.</p>
+    </div>
+  </section>
+
+  <section class="part">
+    <h2 class="d-md">How "Value" is ordered</h2>
+    <div class="prose">
+      <p>The default sort is the plain 3-year real price. The optional <strong>Value</strong> sort weighs four public inputs:</p>
+      <div class="score">
+        <div><span>Real price (lower is better)</span><span class="w">45%</span><span class="bar"><i style="width:45%"></i></span></div>
+        <div><span>RAM per dollar</span><span class="w">25%</span><span class="bar"><i style="width:25%"></i></span></div>
+        <div><span>Trustpilot score, weighted by review count</span><span class="w">15%</span><span class="bar"><i style="width:15%"></i></span></div>
+        <div><span>Evidence confidence</span><span class="w">15%</span><span class="bar"><i style="width:15%"></i></span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="part" style="border-bottom:0">
+    <h2 class="d-md">What we never do</h2>
+    <ul class="never">
+      <li><s>Sell a higher position</s><b>never</b></li>
+      <li><s>Show a "live price" we didn't check</s><b>never</b></li>
+      <li><s>Turn "not published" into "included"</s><b>never</b></li>
+      <li><s>Hide which links pay us</s><b>never</b></li>
+    </ul>
+  </section>
+</main>
+<script src="assets/bvf-data.js"></script>
+<script src="assets/bvf.js"></script>
+<script>
+  const swapLogo = () => document.querySelectorAll("[data-logo]").forEach((i) => i.src = `../logo/lockup-horizontal-${document.documentElement.dataset.theme === "dark" ? "dark" : "light"}.svg`);
+  swapLogo(); new MutationObserver(swapLogo).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
+</script>
+</body>
+</html>

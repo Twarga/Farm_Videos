@@ -1,0 +1,24 @@
+.progress { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); margin-bottom: 20px; border: 1px solid var(--hair); border-radius: 12px; background: var(--surface); }
+.progress div { display: grid; gap: 4px; padding: 16px 20px; border-right: 1px solid var(--hair); }
+.progress div:last-child { border-right: 0; }
+.progress strong { font-family: var(--mono); font-size: 1.5rem; }
+.progress span, .count { color: var(--text-muted); font-size: .8125rem; }
+.toolbar { display: flex; flex-wrap: wrap; align-items: end; gap: 12px; margin: 20px 0 8px; }
+.toolbar label { display: grid; gap: 5px; color: var(--text); font-size: .8125rem; font-weight: 600; }
+.toolbar label:first-child { flex: 1 1 260px; }
+.toolbar input, .toolbar select { width: 100%; min-height: 44px; padding: 9px 12px; border: 1px solid var(--border); border-radius: 9px; background: var(--surface); color: var(--text); font: inherit; font-size: .9375rem; }
+.toolbar button { min-height: 44px; }
+.count { margin: 10px 0 14px; }
+.scroll { position: relative; max-width: 100%; overflow-x: auto; border: 1px solid var(--hair); border-radius: 12px; }
+.table { width: 100%; min-width: 620px; border-collapse: collapse; font-size: .875rem; }
+.table th, .table td { padding: 12px 14px; border-bottom: 1px solid var(--hair); text-align: left; vertical-align: top; }
+.table th { background: var(--raised); color: var(--text-muted); font-size: .75rem; }
+.table tr:last-child td { border-bottom: 0; }
+.table a { color: var(--text); font-weight: 700; text-decoration: none; }
+.table a:hover { color: var(--brand); text-decoration: underline; }
+.table small { display: block; margin-top: 2px; color: var(--text-muted); font-size: .8125rem; font-weight: 400; }
+.empty { padding: 24px; border: 1px solid var(--hair); border-radius: 12px; color: var(--text-muted); }
+.pagination, .detailNav { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-top: 16px; color: var(--text-muted); font-size: .875rem; }
+.pagination a, .detailNav a { display: inline-flex; align-items: center; min-height: 44px; color: var(--brand); }
+.toolbar :is(input,select):focus-visible, .table a:focus-visible, .pagination a:focus-visible, .detailNav a:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+@media (max-width: 700px) { .progress { grid-template-columns: 1fr; } .progress div { border-right: 0; border-bottom: 1px solid var(--hair); } .progress div:last-child { border-bottom: 0; } .toolbar label, .toolbar button { flex: 1 1 100%; } }

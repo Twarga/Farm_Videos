@@ -1,0 +1,41 @@
+{
+  "slug": "every-money-habit-that-keeps-you-broke-explained",
+  "subject": "personal finance: everyday money habits that quietly keep people broke",
+  "title": "Every Money Habit That Keeps You Broke Explained",
+  "style": "professor",
+  "minutes": null,
+  "shorts": 3,
+  "created": 1794484839.7122552,
+  "stages": {
+    "outline": {
+      "state": "done",
+      "detail": "",
+      "t": 1794485261.0888572
+    },
+    "script": {
+      "state": "done",
+      "detail": "",
+      "t": 1794486052.9935586
+    },
+    "shots": {
+      "state": "done",
+      "detail": "",
+      "t": 1794487434.3813407
+    },
+    "images": {
+      "state": "done",
+      "detail": "",
+      "t": 1794488762.8342085
+    },
+    "voice": {
+      "state": "done",
+      "detail": "",
+      "t": 1794488729.2145784
+    },
+    "render": {
+      "state": "running",
+      "detail": "3/12 chapters",
+      "t": 1794489945.4540038
+    }
+  }
+}

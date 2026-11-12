@@ -1,0 +1,1151 @@
+{
+  "schemaVersion": 1,
+  "phase": "baseline",
+  "generatedAt": "2026-10-07T16:15:43.965Z",
+  "identity": {
+    "sourceBackup": "/tmp/bestvpsforme-phase7-8mkpmcnf/current-data.db",
+    "databaseSha256": "35e8b986f3eec0301d8283baffee91575e7823c97e9f33a6c8dc05dfd7a7c9ce",
+    "publication": {
+      "id": "341cd929-08fa-4ba3-8f54-1df8a434f4b1",
+      "snapshot_version": 6,
+      "published_at": 1791370150823
+    },
+    "counts": {
+      "published": 330,
+      "drafts": 0,
+      "snapshotOffers": 330
+    },
+    "buildDirectory": "/tmp/bestvpsforme-phase7-8mkpmcnf/baseline",
+    "buildId": "ypbG2QgvXBiO71Isr0id_",
+    "commit": null,
+    "node": "v24.17.0",
+    "next": "16.3.6",
+    "react": "19.2.0"
+  },
+  "versions": {
+    "node": "v24.17.0",
+    "next": "16.3.6",
+    "playwright": "1.63.0",
+    "lighthouse": "13.5.0",
+    "webVitals": "6.2.3",
+    "chromium": "153.0.8010.12",
+    "chromiumExecutable": "/home/twarga/.cache/ms-playwright/chromium-1243/chrome-linux64/chrome"
+  },
+  "requestedRunsPerRouteAndCacheMode": 3,
+  "settings": {
+    "onlyCategories": [
+      "performance"
+    ],
+    "onlyAudits": [
+      "errors-in-console"
+    ],
+    "output": "json",
+    "logLevel": "error",
+    "formFactor": "mobile",
+    "throttlingMethod": "devtools",
+    "throttling": {
+      "rttMs": 150,
+      "throughputKbps": 1638.4,
+      "requestLatencyMs": 150,
+      "downloadThroughputKbps": 1638.4,
+      "uploadThroughputKbps": 750,
+      "cpuSlowdownMultiplier": 4
+    },
+    "screenEmulation": {
+      "mobile": true,
+      "width": 390,
+      "height": 844,
+      "deviceScaleFactor": 1,
+      "disabled": false
+    },
+    "maxWaitForLoad": 45000
+  },
+  "budgets": {
+    "lcpMsExclusive": 2000,
+    "clsExclusive": 0.05,
+    "labInpMsExclusive": 200,
+    "initialCatalogJsBytesExclusive": 120000
+  },
+  "scope": "Local Lighthouse load and scripted lab INP only; the separate catalog-js-budget report is required for the JavaScript launch gate",
+  "javascriptBudget": {
+    "status": "separate-check-required",
+    "tool": "scripts/check_phase7_js_budget.ts"
+  },
+  "fieldInp": {
+    "status": "unavailable",
+    "reason": "Local scripted sessions are lab evidence, not field p75"
+  },
+  "samples": [
+    {
+      "route": "/",
+      "template": "home",
+      "mode": "cold",
+      "run": 1,
+      "valid": false,
+      "failures": [
+        "Lighthouse runtime failed"
+      ],
+      "lcp": null,
+      "cls": null,
+      "tbt": null,
+      "error": "__name is not defined"
+    },
+    {
+      "route": "/",
+      "template": "home",
+      "mode": "warm",
+      "run": 1,
+      "valid": false,
+      "failures": [
+        "Lighthouse runtime failed"
+      ],
+      "lcp": null,
+      "cls": null,
+      "tbt": null,
+      "error": "__name is not defined"
+    },
+    {
+      "route": "/",
+      "template": "home",
+      "mode": "cold",
+      "run": 2,
+      "valid": false,
+      "failures": [
+        "Lighthouse runtime failed"
+      ],
+      "lcp": null,
+      "cls": null,
+      "tbt": null,
+      "error": "__name is not defined"
+    },
+    {
+      "route": "/",
+      "template": "home",
+      "mode": "warm",
+      "run": 2,
+      "valid": false,
+      "failures": [
+        "Lighthouse runtime failed"
+      ],
+      "lcp": null,
+      "cls": null,
+      "tbt": null,
+      "error": "__name is not defined"
+    },
+    {
+      "route": "/",
+      "template": "home",
+      "mode": "cold",
+      "run": 3,
+      "valid": false,
+      "failures": [
+        "Lighthouse runtime failed"
+      ],
+      "lcp": null,
+      "cls": null,
+      "tbt": null,
+      "error": "__name is not defined"
+    },
+    {
+      "route": "/",
+      "template": "home",
+      "mode": "warm",
+      "run": 3,
+      "valid": false,
+      "failures": [
+        "Lighthouse runtime failed"
+      ],
+      "lcp": null,
+      "cls": null,
+      "tbt": null,
+      "error": "__name is not defined"
+    },
+    {
+      "route": "/catalog",
+      "template": "catalog",
+      "mode": "cold",
+      "run": 1,
+      "valid": false,
+      "failures": [
+        "Lighthouse runtime failed"
+      ],
+      "lcp": null,
+      "cls": null,
+      "tbt": null,
+      "error": "__name is not defined"
+    },
+    {
+      "route": "/catalog",
+      "template": "catalog",
+      "mode": "warm",
+      "run": 1,
+      "valid": false,
+      "failures": [
+        "Lighthouse runtime failed"
+      ],
+      "lcp": null,
+      "cls": null,
+      "tbt": null,
+      "error": "__name is not defined"
+    },
+    {
+      "route": "/catalog",
+      "template": "catalog",
+      "mode": "cold",
+      "run": 2,
+      "valid": false,
+      "failures": [
+        "Lighthouse runtime failed"
+      ],
+      "lcp": null,
+      "cls": null,
+      "tbt": null,
+      "error": "__name is not defined"
+    },
+    {
+      "route": "/catalog",
+      "template": "catalog",
+      "mode": "warm",
+      "run": 2,
+      "valid": false,
+      "failures": [
+        "Lighthouse runtime failed"
+      ],
+      "lcp": null,
+      "cls": null,
+      "tbt": null,
+      "error": "__name is not defined"
+    },
+    {
+      "route": "/catalog",
+      "template": "catalog",
+      "mode": "cold",
+      "run": 3,
+      "valid": false,
+      "failures": [
+        "Lighthouse runtime failed"
+      ],
+      "lcp": null,
+      "cls": null,
+      "tbt": null,
+      "error": "__name is not defined"
+    },
+    {
+      "route": "/catalog",
+      "template": "catalog",
+      "mode": "warm",
+      "run": 3,
+      "valid": false,
+      "failures": [
+        "Lighthouse runtime failed"
+      ],
+      "lcp": null,
+      "cls": null,
+      "tbt": null,
+      "error": "__name is not defined"
+    },
+    {
+      "route": "/special-offers",
+      "template": "special-offers",
+      "mode": "cold",
+      "run": 1,
+      "valid": false,
+      "failures": [
+        "Lighthouse runtime failed"
+      ],
+      "lcp": null,
+      "cls": null,
+      "tbt": null,
+      "error": "__name is not defined"
+    },
+    {
+      "route": "/special-offers",
+      "template": "special-offers",
+      "mode": "warm",
+      "run": 1,
+      "valid": false,
+      "failures": [
+        "Lighthouse runtime failed"
+      ],
+      "lcp": null,
+      "cls": null,
+      "tbt": null,
+      "error": "__name is not defined"
+    },
+    {
+      "route": "/special-offers",
+      "template": "special-offers",
+      "mode": "cold",
+      "run": 2,
+      "valid": false,
+      "failures": [
+        "Lighthouse runtime failed"
+      ],
+      "lcp": null,
+      "cls": null,
+      "tbt": null,
+      "error": "__name is not defined"
+    },
+    {
+      "route": "/special-offers",
+      "template": "special-offers",
+      "mode": "warm",
+      "run": 2,
+      "valid": false,
+      "failures": [
+        "Lighthouse runtime failed"
+      ],
+      "lcp": null,
+      "cls": null,
+      "tbt": null,
+      "error": "__name is not defined"
+    },
+    {
+      "route": "/special-offers",
+      "template": "special-offers",
+      "mode": "cold",
+      "run": 3,
+      "valid": false,
+      "failures": [
+        "Lighthouse runtime failed"
+      ],
+      "lcp": null,
+      "cls": null,
+      "tbt": null,
+      "error": "__name is not defined"
+    },
+    {
+      "route": "/special-offers",
+      "template": "special-offers",
+      "mode": "warm",
+      "run": 3,
+      "valid": false,
+      "failures": [
+        "Lighthouse runtime failed"
+      ],
+      "lcp": null,
+      "cls": null,
+      "tbt": null,
+      "error": "__name is not defined"
+    },
+    {
+      "route": "/compare?p=liquid-web-lw-6g,liquid-web-lw-4g",
+      "template": "compare-filled",
+      "mode": "cold",
+      "run": 1,
+      "valid": false,
+      "failures": [
+        "Lighthouse runtime failed"
+      ],
+      "lcp": null,
+      "cls": null,
+      "tbt": null,
+      "error": "__name is not defined"
+    },
+    {
+      "route": "/compare?p=liquid-web-lw-6g,liquid-web-lw-4g",
+      "template": "compare-filled",
+      "mode": "warm",
+      "run": 1,
+      "valid": false,
+      "failures": [
+        "Lighthouse runtime failed"
+      ],
+      "lcp": null,
+      "cls": null,
+      "tbt": null,
+      "error": "__name is not defined"
+    },
+    {
+      "route": "/compare?p=liquid-web-lw-6g,liquid-web-lw-4g",
+      "template": "compare-filled",
+      "mode": "cold",
+      "run": 2,
+      "valid": false,
+      "failures": [
+        "Lighthouse runtime failed"
+      ],
+      "lcp": null,
+      "cls": null,
+      "tbt": null,
+      "error": "__name is not defined"
+    },
+    {
+      "route": "/compare?p=liquid-web-lw-6g,liquid-web-lw-4g",
+      "template": "compare-filled",
+      "mode": "warm",
+      "run": 2,
+      "valid": false,
+      "failures": [
+        "Lighthouse runtime failed"
+      ],
+      "lcp": null,
+      "cls": null,
+      "tbt": null,
+      "error": "__name is not defined"
+    },
+    {
+      "route": "/compare?p=liquid-web-lw-6g,liquid-web-lw-4g",
+      "template": "compare-filled",
+      "mode": "cold",
+      "run": 3,
+      "valid": false,
+      "failures": [
+        "Lighthouse runtime failed"
+      ],
+      "lcp": null,
+      "cls": null,
+      "tbt": null,
+      "error": "__name is not defined"
+    },
+    {
+      "route": "/compare?p=liquid-web-lw-6g,liquid-web-lw-4g",
+      "template": "compare-filled",
+      "mode": "warm",
+      "run": 3,
+      "valid": false,
+      "failures": [
+        "Lighthouse runtime failed"
+      ],
+      "lcp": null,
+      "cls": null,
+      "tbt": null,
+      "error": "__name is not defined"
+    },
+    {
+      "route": "/providers/liquid-web",
+      "template": "provider",
+      "mode": "cold",
+      "run": 1,
+      "valid": false,
+      "failures": [
+        "Lighthouse runtime failed"
+      ],
+      "lcp": null,
+      "cls": null,
+      "tbt": null,
+      "error": "__name is not defined"
+    },
+    {
+      "route": "/providers/liquid-web",
+      "template": "provider",
+      "mode": "warm",
+      "run": 1,
+      "valid": false,
+      "failures": [
+        "Lighthouse runtime failed"
+      ],
+      "lcp": null,
+      "cls": null,
+      "tbt": null,
+      "error": "__name is not defined"
+    },
+    {
+      "route": "/providers/liquid-web",
+      "template": "provider",
+      "mode": "cold",
+      "run": 2,
+      "valid": false,
+      "failures": [
+        "Lighthouse runtime failed"
+      ],
+      "lcp": null,
+      "cls": null,
+      "tbt": null,
+      "error": "__name is not defined"
+    },
+    {
+      "route": "/providers/liquid-web",
+      "template": "provider",
+      "mode": "warm",
+      "run": 2,
+      "valid": false,
+      "failures": [
+        "Lighthouse runtime failed"
+      ],
+      "lcp": null,
+      "cls": null,
+      "tbt": null,
+      "error": "__name is not defined"
+    },
+    {
+      "route": "/providers/liquid-web",
+      "template": "provider",
+      "mode": "cold",
+      "run": 3,
+      "valid": false,
+      "failures": [
+        "Lighthouse runtime failed"
+      ],
+      "lcp": null,
+      "cls": null,
+      "tbt": null,
+      "error": "__name is not defined"
+    },
+    {
+      "route": "/providers/liquid-web",
+      "template": "provider",
+      "mode": "warm",
+      "run": 3,
+      "valid": false,
+      "failures": [
+        "Lighthouse runtime failed"
+      ],
+      "lcp": null,
+      "cls": null,
+      "tbt": null,
+      "error": "__name is not defined"
+    },
+    {
+      "route": "/guides/vps-market-snapshot-457-rows",
+      "template": "guide",
+      "mode": "cold",
+      "run": 1,
+      "valid": false,
+      "failures": [
+        "Lighthouse runtime failed"
+      ],
+      "lcp": null,
+      "cls": null,
+      "tbt": null,
+      "error": "__name is not defined"
+    },
+    {
+      "route": "/guides/vps-market-snapshot-457-rows",
+      "template": "guide",
+      "mode": "warm",
+      "run": 1,
+      "valid": false,
+      "failures": [
+        "Lighthouse runtime failed"
+      ],
+      "lcp": null,
+      "cls": null,
+      "tbt": null,
+      "error": "__name is not defined"
+    },
+    {
+      "route": "/guides/vps-market-snapshot-457-rows",
+      "template": "guide",
+      "mode": "cold",
+      "run": 2,
+      "valid": false,
+      "failures": [
+        "Lighthouse runtime failed"
+      ],
+      "lcp": null,
+      "cls": null,
+      "tbt": null,
+      "error": "__name is not defined"
+    },
+    {
+      "route": "/guides/vps-market-snapshot-457-rows",
+      "template": "guide",
+      "mode": "warm",
+      "run": 2,
+      "valid": false,
+      "failures": [
+        "Lighthouse runtime failed"
+      ],
+      "lcp": null,
+      "cls": null,
+      "tbt": null,
+      "error": "__name is not defined"
+    },
+    {
+      "route": "/guides/vps-market-snapshot-457-rows",
+      "template": "guide",
+      "mode": "cold",
+      "run": 3,
+      "valid": false,
+      "failures": [
+        "Lighthouse runtime failed"
+      ],
+      "lcp": null,
+      "cls": null,
+      "tbt": null,
+      "error": "__name is not defined"
+    },
+    {
+      "route": "/guides/vps-market-snapshot-457-rows",
+      "template": "guide",
+      "mode": "warm",
+      "run": 3,
+      "valid": false,
+      "failures": [
+        "Lighthouse runtime failed"
+      ],
+      "lcp": null,
+      "cls": null,
+      "tbt": null,
+      "error": "__name is not defined"
+    },
+    {
+      "route": "/offers/liquid-web-lw-6g",
+      "template": "offer",
+      "mode": "cold",
+      "run": 1,
+      "valid": false,
+      "failures": [
+        "Lighthouse runtime failed"
+      ],
+      "lcp": null,
+      "cls": null,
+      "tbt": null,
+      "error": "__name is not defined"
+    },
+    {
+      "route": "/offers/liquid-web-lw-6g",
+      "template": "offer",
+      "mode": "warm",
+      "run": 1,
+      "valid": false,
+      "failures": [
+        "Lighthouse runtime failed"
+      ],
+      "lcp": null,
+      "cls": null,
+      "tbt": null,
+      "error": "__name is not defined"
+    },
+    {
+      "route": "/offers/liquid-web-lw-6g",
+      "template": "offer",
+      "mode": "cold",
+      "run": 2,
+      "valid": false,
+      "failures": [
+        "Lighthouse runtime failed"
+      ],
+      "lcp": null,
+      "cls": null,
+      "tbt": null,
+      "error": "__name is not defined"
+    },
+    {
+      "route": "/offers/liquid-web-lw-6g",
+      "template": "offer",
+      "mode": "warm",
+      "run": 2,
+      "valid": false,
+      "failures": [
+        "Lighthouse runtime failed"
+      ],
+      "lcp": null,
+      "cls": null,
+      "tbt": null,
+      "error": "__name is not defined"
+    },
+    {
+      "route": "/offers/liquid-web-lw-6g",
+      "template": "offer",
+      "mode": "cold",
+      "run": 3,
+      "valid": false,
+      "failures": [
+        "Lighthouse runtime failed"
+      ],
+      "lcp": null,
+      "cls": null,
+      "tbt": null,
+      "error": "__name is not defined"
+    },
+    {
+      "route": "/offers/liquid-web-lw-6g",
+      "template": "offer",
+      "mode": "warm",
+      "run": 3,
+      "valid": false,
+      "failures": [
+        "Lighthouse runtime failed"
+      ],
+      "lcp": null,
+      "cls": null,
+      "tbt": null,
+      "error": "__name is not defined"
+    }
+  ],
+  "interactions": [
+    {
+      "journey": "filters-auto-apply-clear",
+      "route": "/catalog",
+      "run": 1,
+      "valid": false,
+      "error": "page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"http://127.0.0.1:44713/catalog\", waiting until \"networkidle\"\n"
+    },
+    {
+      "journey": "filters-auto-apply-clear",
+      "route": "/catalog",
+      "run": 2,
+      "valid": false,
+      "error": "page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"http://127.0.0.1:44713/catalog\", waiting until \"networkidle\"\n"
+    },
+    {
+      "journey": "filters-auto-apply-clear",
+      "route": "/catalog",
+      "run": 3,
+      "valid": false,
+      "error": "page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"http://127.0.0.1:44713/catalog\", waiting until \"networkidle\"\n"
+    },
+    {
+      "journey": "sort-keyboard",
+      "route": "/catalog",
+      "run": 1,
+      "valid": false,
+      "error": "page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"http://127.0.0.1:44713/catalog\", waiting until \"networkidle\"\n"
+    },
+    {
+      "journey": "sort-keyboard",
+      "route": "/catalog",
+      "run": 2,
+      "valid": false,
+      "error": "page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"http://127.0.0.1:44713/catalog\", waiting until \"networkidle\"\n"
+    },
+    {
+      "journey": "sort-keyboard",
+      "route": "/catalog",
+      "run": 3,
+      "valid": false,
+      "error": "page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"http://127.0.0.1:44713/catalog\", waiting until \"networkidle\"\n"
+    },
+    {
+      "journey": "pagination",
+      "route": "/catalog",
+      "run": 1,
+      "valid": false,
+      "error": "page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"http://127.0.0.1:44713/catalog\", waiting until \"networkidle\"\n"
+    },
+    {
+      "journey": "pagination",
+      "route": "/catalog",
+      "run": 2,
+      "valid": false,
+      "error": "page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"http://127.0.0.1:44713/catalog\", waiting until \"networkidle\"\n"
+    },
+    {
+      "journey": "pagination",
+      "route": "/catalog",
+      "run": 3,
+      "valid": false,
+      "error": "page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"http://127.0.0.1:44713/catalog\", waiting until \"networkidle\"\n"
+    },
+    {
+      "journey": "compare-picks",
+      "route": "/catalog",
+      "run": 1,
+      "valid": false,
+      "error": "page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"http://127.0.0.1:44713/catalog\", waiting until \"networkidle\"\n"
+    },
+    {
+      "journey": "compare-picks",
+      "route": "/catalog",
+      "run": 2,
+      "valid": false,
+      "error": "page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"http://127.0.0.1:44713/catalog\", waiting until \"networkidle\"\n"
+    },
+    {
+      "journey": "compare-picks",
+      "route": "/catalog",
+      "run": 3,
+      "valid": false,
+      "error": "page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"http://127.0.0.1:44713/catalog\", waiting until \"networkidle\"\n"
+    },
+    {
+      "journey": "compare-removal",
+      "route": "/compare?p=liquid-web-lw-6g,liquid-web-lw-4g",
+      "run": 1,
+      "valid": false,
+      "error": "page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"http://127.0.0.1:44713/compare?p=liquid-web-lw-6g,liquid-web-lw-4g\", waiting until \"networkidle\"\n"
+    },
+    {
+      "journey": "compare-removal",
+      "route": "/compare?p=liquid-web-lw-6g,liquid-web-lw-4g",
+      "run": 2,
+      "valid": false,
+      "error": "page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"http://127.0.0.1:44713/compare?p=liquid-web-lw-6g,liquid-web-lw-4g\", waiting until \"networkidle\"\n"
+    },
+    {
+      "journey": "compare-removal",
+      "route": "/compare?p=liquid-web-lw-6g,liquid-web-lw-4g",
+      "run": 3,
+      "valid": false,
+      "error": "page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"http://127.0.0.1:44713/compare?p=liquid-web-lw-6g,liquid-web-lw-4g\", waiting until \"networkidle\"\n"
+    },
+    {
+      "journey": "theme",
+      "route": "/",
+      "run": 1,
+      "valid": false,
+      "error": "page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"http://127.0.0.1:44713/\", waiting until \"networkidle\"\n"
+    },
+    {
+      "journey": "theme",
+      "route": "/",
+      "run": 2,
+      "valid": false,
+      "error": "page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"http://127.0.0.1:44713/\", waiting until \"networkidle\"\n"
+    },
+    {
+      "journey": "theme",
+      "route": "/",
+      "run": 3,
+      "valid": false,
+      "error": "page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"http://127.0.0.1:44713/\", waiting until \"networkidle\"\n"
+    },
+    {
+      "journey": "admin-client-validation",
+      "route": "/admin",
+      "run": 1,
+      "valid": true,
+      "evidence": {
+        "value": 32,
+        "interactionCount": 13,
+        "supported": true,
+        "eventEntries": 26,
+        "metricId": "v6-1791390300854-5170614279010",
+        "documentRoute": "/admin"
+      },
+      "assessment": {
+        "status": "measured",
+        "passed": true,
+        "value": 32
+      }
+    },
+    {
+      "journey": "admin-client-validation",
+      "route": "/admin",
+      "run": 2,
+      "valid": true,
+      "evidence": {
+        "value": 32,
+        "interactionCount": 13,
+        "supported": true,
+        "eventEntries": 35,
+        "metricId": "v6-1791390305679-3875144205843",
+        "documentRoute": "/admin"
+      },
+      "assessment": {
+        "status": "measured",
+        "passed": true,
+        "value": 32
+      }
+    },
+    {
+      "journey": "admin-client-validation",
+      "route": "/admin",
+      "run": 3,
+      "valid": true,
+      "evidence": {
+        "value": 24,
+        "interactionCount": 13,
+        "supported": true,
+        "eventEntries": 21,
+        "metricId": "v6-1791390310458-1041489679877",
+        "documentRoute": "/admin"
+      },
+      "assessment": {
+        "status": "measured",
+        "passed": true,
+        "value": 24
+      }
+    }
+  ],
+  "failures": [
+    "/ cold: 0/3 valid Lighthouse samples",
+    "/ cold run 1: Lighthouse runtime failed",
+    "/ cold run 2: Lighthouse runtime failed",
+    "/ cold run 3: Lighthouse runtime failed",
+    "/ warm: 0/3 valid Lighthouse samples",
+    "/ warm run 1: Lighthouse runtime failed",
+    "/ warm run 2: Lighthouse runtime failed",
+    "/ warm run 3: Lighthouse runtime failed",
+    "/catalog cold: 0/3 valid Lighthouse samples",
+    "/catalog cold run 1: Lighthouse runtime failed",
+    "/catalog cold run 2: Lighthouse runtime failed",
+    "/catalog cold run 3: Lighthouse runtime failed",
+    "/catalog warm: 0/3 valid Lighthouse samples",
+    "/catalog warm run 1: Lighthouse runtime failed",
+    "/catalog warm run 2: Lighthouse runtime failed",
+    "/catalog warm run 3: Lighthouse runtime failed",
+    "/special-offers cold: 0/3 valid Lighthouse samples",
+    "/special-offers cold run 1: Lighthouse runtime failed",
+    "/special-offers cold run 2: Lighthouse runtime failed",
+    "/special-offers cold run 3: Lighthouse runtime failed",
+    "/special-offers warm: 0/3 valid Lighthouse samples",
+    "/special-offers warm run 1: Lighthouse runtime failed",
+    "/special-offers warm run 2: Lighthouse runtime failed",
+    "/special-offers warm run 3: Lighthouse runtime failed",
+    "/compare?p=liquid-web-lw-6g,liquid-web-lw-4g cold: 0/3 valid Lighthouse samples",
+    "/compare?p=liquid-web-lw-6g,liquid-web-lw-4g cold run 1: Lighthouse runtime failed",
+    "/compare?p=liquid-web-lw-6g,liquid-web-lw-4g cold run 2: Lighthouse runtime failed",
+    "/compare?p=liquid-web-lw-6g,liquid-web-lw-4g cold run 3: Lighthouse runtime failed",
+    "/compare?p=liquid-web-lw-6g,liquid-web-lw-4g warm: 0/3 valid Lighthouse samples",
+    "/compare?p=liquid-web-lw-6g,liquid-web-lw-4g warm run 1: Lighthouse runtime failed",
+    "/compare?p=liquid-web-lw-6g,liquid-web-lw-4g warm run 2: Lighthouse runtime failed",
+    "/compare?p=liquid-web-lw-6g,liquid-web-lw-4g warm run 3: Lighthouse runtime failed",
+    "/providers/liquid-web cold: 0/3 valid Lighthouse samples",
+    "/providers/liquid-web cold run 1: Lighthouse runtime failed",
+    "/providers/liquid-web cold run 2: Lighthouse runtime failed",
+    "/providers/liquid-web cold run 3: Lighthouse runtime failed",
+    "/providers/liquid-web warm: 0/3 valid Lighthouse samples",
+    "/providers/liquid-web warm run 1: Lighthouse runtime failed",
+    "/providers/liquid-web warm run 2: Lighthouse runtime failed",
+    "/providers/liquid-web warm run 3: Lighthouse runtime failed",
+    "/guides/vps-market-snapshot-457-rows cold: 0/3 valid Lighthouse samples",
+    "/guides/vps-market-snapshot-457-rows cold run 1: Lighthouse runtime failed",
+    "/guides/vps-market-snapshot-457-rows cold run 2: Lighthouse runtime failed",
+    "/guides/vps-market-snapshot-457-rows cold run 3: Lighthouse runtime failed",
+    "/guides/vps-market-snapshot-457-rows warm: 0/3 valid Lighthouse samples",
+    "/guides/vps-market-snapshot-457-rows warm run 1: Lighthouse runtime failed",
+    "/guides/vps-market-snapshot-457-rows warm run 2: Lighthouse runtime failed",
+    "/guides/vps-market-snapshot-457-rows warm run 3: Lighthouse runtime failed",
+    "/offers/liquid-web-lw-6g cold: 0/3 valid Lighthouse samples",
+    "/offers/liquid-web-lw-6g cold run 1: Lighthouse runtime failed",
+    "/offers/liquid-web-lw-6g cold run 2: Lighthouse runtime failed",
+    "/offers/liquid-web-lw-6g cold run 3: Lighthouse runtime failed",
+    "/offers/liquid-web-lw-6g warm: 0/3 valid Lighthouse samples",
+    "/offers/liquid-web-lw-6g warm run 1: Lighthouse runtime failed",
+    "/offers/liquid-web-lw-6g warm run 2: Lighthouse runtime failed",
+    "/offers/liquid-web-lw-6g warm run 3: Lighthouse runtime failed",
+    "filters-auto-apply-clear run 1: invalid journey",
+    "filters-auto-apply-clear run 2: invalid journey",
+    "filters-auto-apply-clear run 3: invalid journey",
+    "sort-keyboard run 1: invalid journey",
+    "sort-keyboard run 2: invalid journey",
+    "sort-keyboard run 3: invalid journey",
+    "pagination run 1: invalid journey",
+    "pagination run 2: invalid journey",
+    "pagination run 3: invalid journey",
+    "compare-picks run 1: invalid journey",
+    "compare-picks run 2: invalid journey",
+    "compare-picks run 3: invalid journey",
+    "compare-removal run 1: invalid journey",
+    "compare-removal run 2: invalid journey",
+    "compare-removal run 3: invalid journey",
+    "theme run 1: invalid journey",
+    "theme run 2: invalid journey",
+    "theme run 3: invalid journey"
+  ],
+  "routes": [
+    {
+      "template": "home",
+      "route": "/"
+    },
+    {
+      "template": "catalog",
+      "route": "/catalog"
+    },
+    {
+      "template": "special-offers",
+      "route": "/special-offers"
+    },
+    {
+      "template": "compare-filled",
+      "route": "/compare?p=liquid-web-lw-6g,liquid-web-lw-4g"
+    },
+    {
+      "template": "provider",
+      "route": "/providers/liquid-web"
+    },
+    {
+      "template": "guide",
+      "route": "/guides/vps-market-snapshot-457-rows"
+    },
+    {
+      "template": "offer",
+      "route": "/offers/liquid-web-lw-6g"
+    }
+  ],
+  "publicOfferCount": 330,
+  "loadSummaries": [
+    {
+      "route": "/",
+      "mode": "cold",
+      "validSamples": 0,
+      "invalidSamples": 3,
+      "lcp": null,
+      "cls": null,
+      "passed": false
+    },
+    {
+      "route": "/",
+      "mode": "warm",
+      "validSamples": 0,
+      "invalidSamples": 3,
+      "lcp": null,
+      "cls": null,
+      "passed": false
+    },
+    {
+      "route": "/catalog",
+      "mode": "cold",
+      "validSamples": 0,
+      "invalidSamples": 3,
+      "lcp": null,
+      "cls": null,
+      "passed": false
+    },
+    {
+      "route": "/catalog",
+      "mode": "warm",
+      "validSamples": 0,
+      "invalidSamples": 3,
+      "lcp": null,
+      "cls": null,
+      "passed": false
+    },
+    {
+      "route": "/special-offers",
+      "mode": "cold",
+      "validSamples": 0,
+      "invalidSamples": 3,
+      "lcp": null,
+      "cls": null,
+      "passed": false
+    },
+    {
+      "route": "/special-offers",
+      "mode": "warm",
+      "validSamples": 0,
+      "invalidSamples": 3,
+      "lcp": null,
+      "cls": null,
+      "passed": false
+    },
+    {
+      "route": "/compare?p=liquid-web-lw-6g,liquid-web-lw-4g",
+      "mode": "cold",
+      "validSamples": 0,
+      "invalidSamples": 3,
+      "lcp": null,
+      "cls": null,
+      "passed": false
+    },
+    {
+      "route": "/compare?p=liquid-web-lw-6g,liquid-web-lw-4g",
+      "mode": "warm",
+      "validSamples": 0,
+      "invalidSamples": 3,
+      "lcp": null,
+      "cls": null,
+      "passed": false
+    },
+    {
+      "route": "/providers/liquid-web",
+      "mode": "cold",
+      "validSamples": 0,
+      "invalidSamples": 3,
+      "lcp": null,
+      "cls": null,
+      "passed": false
+    },
+    {
+      "route": "/providers/liquid-web",
+      "mode": "warm",
+      "validSamples": 0,
+      "invalidSamples": 3,
+      "lcp": null,
+      "cls": null,
+      "passed": false
+    },
+    {
+      "route": "/guides/vps-market-snapshot-457-rows",
+      "mode": "cold",
+      "validSamples": 0,
+      "invalidSamples": 3,
+      "lcp": null,
+      "cls": null,
+      "passed": false
+    },
+    {
+      "route": "/guides/vps-market-snapshot-457-rows",
+      "mode": "warm",
+      "validSamples": 0,
+      "invalidSamples": 3,
+      "lcp": null,
+      "cls": null,
+      "passed": false
+    },
+    {
+      "route": "/offers/liquid-web-lw-6g",
+      "mode": "cold",
+      "validSamples": 0,
+      "invalidSamples": 3,
+      "lcp": null,
+      "cls": null,
+      "passed": false
+    },
+    {
+      "route": "/offers/liquid-web-lw-6g",
+      "mode": "warm",
+      "validSamples": 0,
+      "invalidSamples": 3,
+      "lcp": null,
+      "cls": null,
+      "passed": false
+    }
+  ],
+  "interactionSummaries": [
+    {
+      "journey": "filters-auto-apply-clear",
+      "route": "/catalog",
+      "validSamples": 0,
+      "measured": null,
+      "belowThresholdSamples": 0,
+      "passed": false
+    },
+    {
+      "journey": "sort-keyboard",
+      "route": "/catalog",
+      "validSamples": 0,
+      "measured": null,
+      "belowThresholdSamples": 0,
+      "passed": false
+    },
+    {
+      "journey": "pagination",
+      "route": "/catalog",
+      "validSamples": 0,
+      "measured": null,
+      "belowThresholdSamples": 0,
+      "passed": false
+    },
+    {
+      "journey": "compare-picks",
+      "route": "/catalog",
+      "validSamples": 0,
+      "measured": null,
+      "belowThresholdSamples": 0,
+      "passed": false
+    },
+    {
+      "journey": "compare-removal",
+      "route": "/compare?p=liquid-web-lw-6g,liquid-web-lw-4g",
+      "validSamples": 0,
+      "measured": null,
+      "belowThresholdSamples": 0,
+      "passed": false
+    },
+    {
+      "journey": "theme",
+      "route": "/",
+      "validSamples": 0,
+      "measured": null,
+      "belowThresholdSamples": 0,
+      "passed": false
+    },
+    {
+      "journey": "admin-client-validation",
+      "route": "/admin",
+      "validSamples": 3,
+      "measured": {
+        "median": 32,
+        "worst": 32,
+        "count": 3
+      },
+      "belowThresholdSamples": 0,
+      "passed": true
+    }
+  ],
+  "passed": false
+}

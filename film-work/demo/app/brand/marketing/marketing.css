@@ -1,0 +1,20 @@
+@import url("../tokens/tokens.css");
+* { box-sizing: border-box; margin: 0; }
+html, body { background: var(--paper); }
+body { font-family: var(--font-sans); color: var(--ink-950); -webkit-font-smoothing: antialiased; }
+.frame { position: relative; overflow: hidden; }
+.wide { font-stretch: 125%; font-weight: 800; letter-spacing: -0.05em; line-height: 0.9; }
+.mono { font-family: var(--font-mono); letter-spacing: -0.03em; font-variant-numeric: tabular-nums slashed-zero; }
+.hl { background-image: linear-gradient(100deg, transparent .2em, var(--volt-400) .2em, var(--volt-400) calc(100% - .08em), transparent calc(100% - .08em)); background-repeat: no-repeat; background-size: 100% 62%; background-position: 0 86%; padding: 0 .08em; margin: 0 -.08em; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
+.stamp { display: inline-flex; align-items: center; gap: 10px; padding: 10px 18px; border: 2.5px solid currentColor; border-radius: 999px; font: 600 20px/1 var(--font-mono); letter-spacing: .05em; text-transform: uppercase; }
+.sticker { background: #fff; border-radius: 36px; box-shadow: 0 0 0 3px var(--ink-950), 12px 12px 0 0 var(--ink-950); }
+.catch { color: var(--verm-700); }
+.dot { display: inline-block; width: 14px; height: 14px; border-radius: 50%; background: var(--verm-500); }
+.pmark { display: grid; place-items: center; background: #fff; box-shadow: inset 0 0 0 2px var(--ink-150); overflow: hidden; }
+.pmark img { width: 100%; height: 100%; object-fit: contain; }
+.rack { display: grid; gap: 18px; }
+.rack i { display: flex; align-items: center; gap: 18px; height: 58px; padding: 0 24px; border-radius: 16px; background: var(--ink-950); }
+.rack i::before { content: ""; width: 14px; height: 14px; border-radius: 50%; background: #fff; }
+.rack i::after { content: ""; margin-left: auto; width: 44px; height: 10px; border-radius: 5px; background: #fff; opacity: .5; }
+.rack i.pick { background: var(--volt-400); transform: translateX(24%); box-shadow: 0 0 0 3px var(--ink-950); }
+.rack i.pick::before, .rack i.pick::after { background: var(--ink-950); }

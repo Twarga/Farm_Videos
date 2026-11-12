@@ -1,0 +1,113 @@
+{
+  "functional": {
+    "homeCount1440": "317",
+    "homeRam1440": [
+      "127",
+      "/catalog?ram=16"
+    ],
+    "priceSort1440": {
+      "length": 96,
+      "inversions": 0,
+      "first": [
+        0.5,
+        1.83,
+        2,
+        2,
+        2.25
+      ]
+    },
+    "compare1440": {
+      "heads": 3,
+      "sew": 3,
+      "diff": 11
+    },
+    "compareHide1440": 0,
+    "cost1440": "True monthly costAt least $10.99/mo",
+    "specials": "0",
+    "providers1440": "41 hosting providers · 317 plans · Snapshot 7 Oct 2026",
+    "homeCount390": "317",
+    "homeRam390": [
+      "127",
+      "/catalog?ram=16"
+    ],
+    "priceSort390": {
+      "length": 96,
+      "inversions": 0,
+      "first": [
+        0.5,
+        1.83,
+        2,
+        2,
+        2.25
+      ]
+    },
+    "sheet": "Show\n317\nplans",
+    "compare390": {
+      "heads": 3,
+      "sew": 3,
+      "diff": 11
+    },
+    "compareHide390": 0,
+    "cost390": "True monthly costAt least $10.99/mo",
+    "providers390": "41 hosting providers · 317 plans · Snapshot 7 Oct 2026",
+    "homeCount768": "317",
+    "homeRam768": [
+      "127",
+      "/catalog?ram=16"
+    ],
+    "priceSort768": {
+      "length": 96,
+      "inversions": 0,
+      "first": [
+        0.5,
+        1.83,
+        2,
+        2,
+        2.25
+      ]
+    },
+    "compare768": {
+      "heads": 3,
+      "sew": 3,
+      "diff": 11
+    },
+    "compareHide768": 0,
+    "cost768": "True monthly costAt least $10.99/mo",
+    "providers768": "41 hosting providers · 317 plans · Snapshot 7 Oct 2026",
+    "/offers/cloudcone-frankenstein-26-ssd-vps-1": 404,
+    "/providers/cloudcone": 404,
+    "/providers/cockbox": 404,
+    "/providers/yourserver": 404
+  },
+  "errors": [],
+  "broken": [],
+  "overflow": {
+    "home-1440": 0,
+    "catalog-1440": 0,
+    "compare-1440": 0,
+    "offer-1440": 0,
+    "specials-1440": 0,
+    "providers-1440": 0,
+    "home-390": 0,
+    "catalog-390": 0,
+    "compare-390": 0,
+    "offer-390": 0,
+    "specials-390": 0,
+    "providers-390": 0,
+    "home-768": 0,
+    "catalog-768": 0,
+    "compare-768": 0,
+    "offer-768": 0,
+    "specials-768": 0,
+    "providers-768": 0
+  },
+  "axe": {
+    "/": [],
+    "/catalog": [],
+    "/compare?id=hostinger-kvm-2&id=liquid-web-lw-2g": [],
+    "/offers/hostinger-kvm-2": [],
+    "/special-offers": [],
+    "/corrections": [],
+    "/admin": []
+  }
+}

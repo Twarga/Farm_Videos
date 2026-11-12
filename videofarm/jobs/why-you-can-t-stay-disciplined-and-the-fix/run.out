@@ -1,0 +1,183 @@
+[why-you-can-t-stay-disciplined-and-the-fix] 12:08:45 llm request (attempt 1, 1480 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 12:12:43 llm ok (attempt 1)
+[why-you-can-t-stay-disciplined-and-the-fix] 12:12:43 llm request (attempt 1, 1763 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 12:13:25 llm ok (attempt 1)
+[why-you-can-t-stay-disciplined-and-the-fix] 12:13:25 script 1/9 'Intro': 78 words
+[why-you-can-t-stay-disciplined-and-the-fix] 12:13:25 llm request (attempt 1, 2130 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 12:14:29 llm ok (attempt 1)
+[why-you-can-t-stay-disciplined-and-the-fix] 12:14:29 script 2/9 '1. Stop Waiting To Feel Ready': 200 words
+[why-you-can-t-stay-disciplined-and-the-fix] 12:14:29 llm request (attempt 1, 2079 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 12:15:19 llm ok (attempt 1)
+[why-you-can-t-stay-disciplined-and-the-fix] 12:15:19 script 3/9 '2. Your Phone Wins By Default': 202 words
+[why-you-can-t-stay-disciplined-and-the-fix] 12:15:19 llm request (attempt 1, 2183 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 12:16:31 llm ok (attempt 1)
+[why-you-can-t-stay-disciplined-and-the-fix] 12:16:31 script 4/9 '3. Give Your Habit An Appointment': 201 words
+[why-you-can-t-stay-disciplined-and-the-fix] 12:16:31 llm request (attempt 1, 2123 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 12:17:17 llm ok (attempt 1)
+[why-you-can-t-stay-disciplined-and-the-fix] 12:17:17 script 5/9 '4. Shrink The First Step': 214 words
+[why-you-can-t-stay-disciplined-and-the-fix] 12:17:17 llm request (attempt 1, 2169 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 12:18:15 llm ok (attempt 1)
+[why-you-can-t-stay-disciplined-and-the-fix] 12:18:15 script 6/9 '5. Make Progress Pay Today': 208 words
+[why-you-can-t-stay-disciplined-and-the-fix] 12:18:15 llm request (attempt 1, 2158 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 12:19:14 llm ok (attempt 1)
+[why-you-can-t-stay-disciplined-and-the-fix] 12:19:14 script 7/9 '6. Stop Borrowing From Sleep': 198 words
+[why-you-can-t-stay-disciplined-and-the-fix] 12:19:14 llm request (attempt 1, 2201 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 12:20:12 llm ok (attempt 1)
+[why-you-can-t-stay-disciplined-and-the-fix] 12:20:12 script 8/9 '7. Find The Repeating Obstacle': 194 words
+[why-you-can-t-stay-disciplined-and-the-fix] 12:20:12 llm request (attempt 1, 2242 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 12:20:55 llm ok (attempt 1)
+[why-you-can-t-stay-disciplined-and-the-fix] 12:20:55 script 9/9 '8. Practice Returning, Not Restarting': 206 words
+[why-you-can-t-stay-disciplined-and-the-fix] 12:20:55 script total 1701 words ≈ 11.3 min
+[why-you-can-t-stay-disciplined-and-the-fix] 12:20:55 llm request (attempt 1, 1833 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 12:22:27 llm ok (attempt 1)
+[why-you-can-t-stay-disciplined-and-the-fix] 12:22:27 shots 1/9 'Intro': 13
+[why-you-can-t-stay-disciplined-and-the-fix] 12:22:27 llm request (attempt 1, 2672 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 12:26:38 llm request (attempt 1, 2672 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 12:26:38 llm request (attempt 1, 2686 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 12:26:38 llm request (attempt 1, 2692 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 12:26:38 llm request (attempt 1, 2744 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 12:28:33 llm ok (attempt 1)
+[why-you-can-t-stay-disciplined-and-the-fix] 12:28:33 shots 2/9 '2. Your Phone Wins By Default': 32
+[why-you-can-t-stay-disciplined-and-the-fix] 12:28:33 llm request (attempt 1, 2733 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 12:30:39 llm request failed: timed out
+[why-you-can-t-stay-disciplined-and-the-fix] 12:30:39 llm request failed: timed out
+[why-you-can-t-stay-disciplined-and-the-fix] 12:30:39 llm request failed: timed out
+[why-you-can-t-stay-disciplined-and-the-fix] 12:30:44 llm request (attempt 2, 2692 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 12:30:44 llm request (attempt 2, 2744 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 12:30:44 llm request (attempt 2, 2672 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 12:32:33 llm request failed: timed out
+[why-you-can-t-stay-disciplined-and-the-fix] 12:32:38 llm request (attempt 2, 2733 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 12:34:44 llm request failed: timed out
+[why-you-can-t-stay-disciplined-and-the-fix] 12:34:44 llm request failed: timed out
+[why-you-can-t-stay-disciplined-and-the-fix] 12:34:44 llm request failed: timed out
+[why-you-can-t-stay-disciplined-and-the-fix] 12:34:54 llm request (attempt 3, 2692 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 12:34:54 llm request (attempt 3, 2744 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 12:34:54 llm request (attempt 3, 2672 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 12:36:38 llm request failed: timed out
+[why-you-can-t-stay-disciplined-and-the-fix] 12:36:48 llm request (attempt 3, 2733 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 12:38:54 llm request failed: timed out
+[why-you-can-t-stay-disciplined-and-the-fix] 12:38:54 llm request failed: timed out
+[why-you-can-t-stay-disciplined-and-the-fix] 12:38:54 llm request failed: timed out
+[why-you-can-t-stay-disciplined-and-the-fix] 12:39:09 llm request (attempt 4, 2692 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 12:39:09 llm request (attempt 4, 2744 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 12:39:09 llm request (attempt 4, 2672 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 12:40:48 llm request failed: timed out
+[why-you-can-t-stay-disciplined-and-the-fix] 12:41:03 llm request (attempt 4, 2733 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 12:43:09 llm request failed: timed out
+[why-you-can-t-stay-disciplined-and-the-fix] 12:43:09 llm request failed: timed out
+[why-you-can-t-stay-disciplined-and-the-fix] 12:43:10 llm request failed: timed out
+[why-you-can-t-stay-disciplined-and-the-fix] 12:43:29 llm request (attempt 1, 2634 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 12:43:29 llm request (attempt 1, 2600 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 12:43:30 llm request (attempt 1, 2725 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 12:45:03 llm request failed: timed out
+[why-you-can-t-stay-disciplined-and-the-fix] 12:47:29 llm request failed: timed out
+[why-you-can-t-stay-disciplined-and-the-fix] 12:47:30 llm request failed: timed out
+[why-you-can-t-stay-disciplined-and-the-fix] 12:47:30 llm request failed: timed out
+[why-you-can-t-stay-disciplined-and-the-fix] 12:47:34 llm request (attempt 2, 2634 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 12:47:35 llm request (attempt 2, 2600 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 12:47:35 llm request (attempt 2, 2725 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 12:51:35 llm request failed: timed out
+[why-you-can-t-stay-disciplined-and-the-fix] 12:51:35 llm request failed: timed out
+[why-you-can-t-stay-disciplined-and-the-fix] 12:51:35 llm request failed: timed out
+[why-you-can-t-stay-disciplined-and-the-fix] 12:51:45 llm request (attempt 3, 2634 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 12:51:45 llm request (attempt 3, 2600 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 12:51:45 llm request (attempt 3, 2725 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 12:55:45 llm request failed: timed out
+[why-you-can-t-stay-disciplined-and-the-fix] 12:55:45 llm request failed: timed out
+[why-you-can-t-stay-disciplined-and-the-fix] 12:55:45 llm request failed: timed out
+[why-you-can-t-stay-disciplined-and-the-fix] 12:56:00 llm request (attempt 4, 2634 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 12:56:00 llm request (attempt 4, 2600 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 12:56:00 llm request (attempt 4, 2725 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 13:00:00 llm request failed: timed out
+[why-you-can-t-stay-disciplined-and-the-fix] 13:00:00 llm request failed: timed out
+[why-you-can-t-stay-disciplined-and-the-fix] 13:00:00 llm request failed: timed out
+[why-you-can-t-stay-disciplined-and-the-fix] 13:00:20 Traceback (most recent call last):
+  File "/home/tlab/videofarm/farm/pipeline.py", line 12, in _stage
+    r = fn(*a)
+        ^^^^^^
+  File "/home/tlab/videofarm/farm/write.py", line 200, in shots
+    f.result()
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/usr/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tlab/videofarm/farm/write.py", line 183, in board
+    sh = llm.ask_json(S.prompt(st, "shots", name=ch["name"], outfit=ch.get("outfit") or "his usual clothes",
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tlab/videofarm/farm/llm.py", line 92, in ask_json
+    raise LLMError(f"LLM failed after {config.LLM_RETRIES} attempts: {last_err}")
+farm.llm.LLMError: LLM failed after 4 attempts: request failed: timed out
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/tlab/videofarm/farm/__main__.py", line 69, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/tlab/videofarm/farm/__main__.py", line 55, in main
+    print(pipeline.run(Job(a.job), wait_images=not a.no_wait, rerender=a.rerender))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tlab/videofarm/farm/pipeline.py", line 33, in run
+    _stage(job, "shots", write.shots, job, st)
+  File "/home/tlab/videofarm/farm/pipeline.py", line 12, in _stage
+    r = fn(*a)
+        ^^^^^^
+  File "/home/tlab/videofarm/farm/write.py", line 200, in shots
+    f.result()
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/usr/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tlab/videofarm/farm/write.py", line 183, in board
+    sh = llm.ask_json(S.prompt(st, "shots", name=ch["name"], outfit=ch.get("outfit") or "his usual clothes",
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tlab/videofarm/farm/llm.py", line 92, in ask_json
+    raise LLMError(f"LLM failed after {config.LLM_RETRIES} attempts: {last_err}")
+farm.llm.LLMError: LLM failed after 4 attempts: request failed: timed out
+[why-you-can-t-stay-disciplined-and-the-fix] 13:03:41 llm request (attempt 1, 2672 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 13:03:41 llm request (attempt 1, 2744 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 13:03:41 llm request (attempt 1, 2692 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 13:03:41 llm request (attempt 1, 2733 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 13:06:48 llm request (attempt 1, 2672 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 13:06:48 llm request (attempt 1, 2744 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 13:06:48 llm request (attempt 1, 2692 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 13:06:48 llm request (attempt 1, 2733 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 13:10:49 llm request failed: timed out
+[why-you-can-t-stay-disciplined-and-the-fix] 13:10:49 llm request failed: timed out
+[why-you-can-t-stay-disciplined-and-the-fix] 13:10:49 llm request failed: timed out
+[why-you-can-t-stay-disciplined-and-the-fix] 13:10:49 llm request failed: timed out
+[why-you-can-t-stay-disciplined-and-the-fix] 13:10:54 llm request (attempt 2, 2733 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 13:10:54 llm request (attempt 2, 2692 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 13:10:54 llm request (attempt 2, 2744 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 13:10:54 llm request (attempt 2, 2672 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 13:14:54 llm request failed: timed out
+[why-you-can-t-stay-disciplined-and-the-fix] 13:14:54 llm request failed: timed out
+[why-you-can-t-stay-disciplined-and-the-fix] 13:14:54 llm request failed: timed out
+[why-you-can-t-stay-disciplined-and-the-fix] 13:14:54 llm request failed: timed out
+[why-you-can-t-stay-disciplined-and-the-fix] 13:15:04 llm request (attempt 3, 2733 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 13:15:04 llm request (attempt 3, 2692 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 13:15:04 llm request (attempt 3, 2744 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 13:15:04 llm request (attempt 3, 2672 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 13:19:04 llm request failed: timed out
+[why-you-can-t-stay-disciplined-and-the-fix] 13:19:04 llm request failed: timed out
+[why-you-can-t-stay-disciplined-and-the-fix] 13:19:04 llm request failed: timed out
+[why-you-can-t-stay-disciplined-and-the-fix] 13:19:04 llm request failed: timed out
+[why-you-can-t-stay-disciplined-and-the-fix] 13:19:19 llm request (attempt 4, 2733 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 13:19:19 llm request (attempt 4, 2692 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 13:19:19 llm request (attempt 4, 2744 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 13:19:19 llm request (attempt 4, 2672 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 13:23:19 llm request failed: timed out
+[why-you-can-t-stay-disciplined-and-the-fix] 13:23:19 llm request failed: timed out
+[why-you-can-t-stay-disciplined-and-the-fix] 13:23:19 llm request failed: timed out
+[why-you-can-t-stay-disciplined-and-the-fix] 13:23:19 llm request failed: timed out
+[why-you-can-t-stay-disciplined-and-the-fix] 13:23:39 llm request (attempt 1, 2634 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 13:23:39 llm request (attempt 1, 2600 chars)
+[why-you-can-t-stay-disciplined-and-the-fix] 13:23:39 llm request (attempt 1, 2725 chars)

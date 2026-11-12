@@ -1,0 +1,541 @@
+[
+  {
+    "provider": "Scaleway",
+    "plan_slug": "stardust1-s",
+    "url": "https://www.scaleway.com/en/pricing/virtual-instances/",
+    "excerpt": "| STARDUST1-S | 1 vCPU | 1 GB | 100 Mbps | \u20ac0.0006 /HOUR | ~\u20ac0.43 /MONTH |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Scaleway",
+    "plan_slug": "dev1-s",
+    "url": "https://www.scaleway.com/en/pricing/virtual-instances/",
+    "excerpt": "| DEV1-S | 2 vCPUs | 2 GB | 200 Mbps | \u20ac0.00898 /HOUR | ~\u20ac6.55 /MONTH |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Scaleway",
+    "plan_slug": "dev1-m",
+    "url": "https://www.scaleway.com/en/pricing/virtual-instances/",
+    "excerpt": "| DEV1-M | 3 vCPUs | 4 GB | 300 Mbps | \u20ac0.0202 /HOUR | ~\u20ac14.74 /MONTH |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Scaleway",
+    "plan_slug": "dev1-l",
+    "url": "https://www.scaleway.com/en/pricing/virtual-instances/",
+    "excerpt": "| DEV1-L | 4 vCPUs | 8 GB | 400 Mbps | \u20ac0.04284 /HOUR | ~\u20ac31.27 /MONTH |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Scaleway",
+    "plan_slug": "dev1-xl",
+    "url": "https://www.scaleway.com/en/pricing/virtual-instances/",
+    "excerpt": "| DEV1-XL | 4 vCPUs | 12 GB | 500 Mbps | \u20ac0.06508 /HOUR | ~\u20ac47.50 /MONTH |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Scaleway",
+    "plan_slug": "play2-pico",
+    "url": "https://www.scaleway.com/en/pricing/virtual-instances/",
+    "excerpt": "| PLAY2-PICO | 1 vCPU | 2 GB | 100 Mbps | \u20ac0.01428 /HOUR | ~\u20ac10.42 /MONTH |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Scaleway",
+    "plan_slug": "play2-nano",
+    "url": "https://www.scaleway.com/en/pricing/virtual-instances/",
+    "excerpt": "| PLAY2-NANO | 2 vCPUs | 4 GB | 200 Mbps | \u20ac0.02754 /HOUR | ~\u20ac20.10 /MONTH |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Scaleway",
+    "plan_slug": "play2-micro",
+    "url": "https://www.scaleway.com/en/pricing/virtual-instances/",
+    "excerpt": "| PLAY2-MICRO | 4 vCPUs | 8 GB | 400 Mbps | \u20ac0.05508 /HOUR | ~\u20ac40.20 /MONTH |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Scaleway",
+    "plan_slug": "pro2-xxs",
+    "url": "https://www.scaleway.com/en/pricing/virtual-instances/",
+    "excerpt": "| PRO2-XXS | 2 vCPUs | 8 GB | 350 Mbps | \u20ac0.0561 /HOUR | ~\u20ac40.95 /MONTH |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Scaleway",
+    "plan_slug": "pro2-xs",
+    "url": "https://www.scaleway.com/en/pricing/virtual-instances/",
+    "excerpt": "| PRO2-XS | 4 vCPUs | 16 GB | 700 Mbps | \u20ac0.1122 /HOUR | ~\u20ac81.90 /MONTH |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Scaleway",
+    "plan_slug": "pro2-s",
+    "url": "https://www.scaleway.com/en/pricing/virtual-instances/",
+    "excerpt": "| PRO2-S | 8 vCPUs | 32 GB | 1.5 Gbps | \u20ac0.22338 /HOUR | ~\u20ac163.06 /MONTH |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Scaleway",
+    "plan_slug": "pro2-m",
+    "url": "https://www.scaleway.com/en/pricing/virtual-instances/",
+    "excerpt": "| PRO2-M | 16 vCPUs | 64 GB | 3 Gbps | \u20ac0.44676 /HOUR | ~\u20ac326.13 /MONTH |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Scaleway",
+    "plan_slug": "pro2-l",
+    "url": "https://www.scaleway.com/en/pricing/virtual-instances/",
+    "excerpt": "| PRO2-L | 32 vCPUs | 128 GB | 6 Gbps | \u20ac0.89454 /HOUR | ~\u20ac653.01 /MONTH |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Scaleway",
+    "plan_slug": "gp1-xs",
+    "url": "https://www.scaleway.com/en/pricing/virtual-instances/",
+    "excerpt": "| GP1-XS | 4 vCPUs | 16 GB | 500 Mbps | \u20ac0.09282 /HOUR | ~\u20ac67.75 /MONTH |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Scaleway",
+    "plan_slug": "gp1-s",
+    "url": "https://www.scaleway.com/en/pricing/virtual-instances/",
+    "excerpt": "| GP1-S | 8 vCPUs | 32 GB | 800 Mbps | \u20ac0.19074 /HOUR | ~\u20ac139.24 /MONTH |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Scaleway",
+    "plan_slug": "gp1-m",
+    "url": "https://www.scaleway.com/en/pricing/virtual-instances/",
+    "excerpt": "| GP1-M | 16 vCPUs | 64 GB | 1.5 Gbps | \u20ac0.38352 /HOUR | ~\u20ac279.96 /MONTH |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Scaleway",
+    "plan_slug": "gp1-l",
+    "url": "https://www.scaleway.com/en/pricing/virtual-instances/",
+    "excerpt": "| GP1-L | 32 vCPUs | 128 GB | 5 Gbps | \u20ac0.77418 /HOUR | ~\u20ac565.15 /MONTH |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Scaleway",
+    "plan_slug": "gp1-xl",
+    "url": "https://www.scaleway.com/en/pricing/virtual-instances/",
+    "excerpt": "| GP1-XL | 48 vCPUs | 256 GB | 10 Gbps | \u20ac1.67382 /HOUR | ~\u20ac1,221.88 /MONTH |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Scaleway",
+    "plan_slug": "basic3-x2c-4g",
+    "url": "https://www.scaleway.com/en/pricing/virtual-instances/",
+    "excerpt": "| BASIC3-X2C-4G | 2 vCPUs | 4 GB | 350 Mbps | \u20ac0.03945 /HOUR | ~\u20ac28.79 /MONTH |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Scaleway",
+    "plan_slug": "basic3-x2c-8g",
+    "url": "https://www.scaleway.com/en/pricing/virtual-instances/",
+    "excerpt": "| BASIC3-X2C-8G | 2 vCPUs | 8 GB | 350 Mbps | \u20ac0.05923 /HOUR | ~\u20ac43.23 /MONTH |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Scaleway",
+    "plan_slug": "basic3-x4c-8g",
+    "url": "https://www.scaleway.com/en/pricing/virtual-instances/",
+    "excerpt": "| BASIC3-X4C-8G | 4 vCPUs | 8 GB | 700 Mbps | \u20ac0.079 /HOUR | ~\u20ac57.67 /MONTH |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Scaleway",
+    "plan_slug": "basic3-x4c-16g",
+    "url": "https://www.scaleway.com/en/pricing/virtual-instances/",
+    "excerpt": "| BASIC3-X4C-16G | 4 vCPUs | 16 GB | 700 Mbps | \u20ac0.11845 /HOUR | ~\u20ac86.46 /MONTH |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Scaleway",
+    "plan_slug": "basic3-x6c-12g",
+    "url": "https://www.scaleway.com/en/pricing/virtual-instances/",
+    "excerpt": "| BASIC3-X6C-12G | 6 vCPUs | 12 GB | 1.1 Gbps | \u20ac0.1356 /HOUR | ~\u20ac98.98 /MONTH |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Scaleway",
+    "plan_slug": "basic3-x6c-24g",
+    "url": "https://www.scaleway.com/en/pricing/virtual-instances/",
+    "excerpt": "| BASIC3-X6C-24G | 6 vCPUs | 24 GB | 1.1 Gbps | \u20ac0.1553 /HOUR | ~\u20ac113.36 /MONTH |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Scaleway",
+    "plan_slug": "basic3-x8c-16g",
+    "url": "https://www.scaleway.com/en/pricing/virtual-instances/",
+    "excerpt": "| BASIC3-X8C-16G | 8 vCPUs | 16 GB | 1.5 Gbps | \u20ac0.17768 /HOUR | ~\u20ac129.70 /MONTH |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Scaleway",
+    "plan_slug": "basic3-x8c-32g",
+    "url": "https://www.scaleway.com/en/pricing/virtual-instances/",
+    "excerpt": "| BASIC3-X8C-32G | 8 vCPUs | 32 GB | 1.5 Gbps | \u20ac0.2368 /HOUR | ~\u20ac172.86 /MONTH |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Scaleway",
+    "plan_slug": "basic3-x12c-24g",
+    "url": "https://www.scaleway.com/en/pricing/virtual-instances/",
+    "excerpt": "| BASIC3-X12C-24G | 12 vCPUs | 24 GB | 2.3 Gbps | \u20ac0.2711 /HOUR | ~\u20ac197.90 /MONTH |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Scaleway",
+    "plan_slug": "basic3-x12c-48g",
+    "url": "https://www.scaleway.com/en/pricing/virtual-instances/",
+    "excerpt": "| BASIC3-X12C-48G | 12 vCPUs | 48 GB | 2.3 Gbps | \u20ac0.3104 /HOUR | ~\u20ac226.59 /MONTH |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Scaleway",
+    "plan_slug": "basic3-x16c-32g",
+    "url": "https://www.scaleway.com/en/pricing/virtual-instances/",
+    "excerpt": "| BASIC3-X16C-32G | 16 vCPUs | 32 GB | 3 Gbps | \u20ac0.35525 /HOUR | ~\u20ac259.33 /MONTH |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Scaleway",
+    "plan_slug": "basic3-x16c-64g",
+    "url": "https://www.scaleway.com/en/pricing/virtual-instances/",
+    "excerpt": "| BASIC3-X16C-64G | 16 vCPUs | 64 GB | 3 Gbps | \u20ac0.47329 /HOUR | ~\u20ac345.49 /MONTH |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "UpCloud",
+    "plan_slug": "starter-1xcpu-1gb",
+    "url": "https://upcloud.com/products/cloud-servers/",
+    "excerpt": "| 1 GB   | 1         | 250 Mbit/s | 10 GB   | **\u20ac3/mo *** |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "UpCloud",
+    "plan_slug": "starter-1xcpu-2gb",
+    "url": "https://upcloud.com/products/cloud-servers/",
+    "excerpt": "| 2 GB   | 1         | 250 Mbit/s | 20 GB   | **\u20ac6/mo**   |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "UpCloud",
+    "plan_slug": "starter-2xcpu-2gb",
+    "url": "https://upcloud.com/products/cloud-servers/",
+    "excerpt": "| 2 GB   | 2         | 250 Mbit/s | 30 GB   | **\u20ac8/mo**   |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "UpCloud",
+    "plan_slug": "starter-1xcpu-4gb",
+    "url": "https://upcloud.com/products/cloud-servers/",
+    "excerpt": "| 4 GB   | 1         | 250 Mbit/s | 30 GB   | **\u20ac10/mo**  |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "UpCloud",
+    "plan_slug": "starter-2xcpu-4gb",
+    "url": "https://upcloud.com/products/cloud-servers/",
+    "excerpt": "| 4 GB   | 2         | 500 Mbit/s | 30 GB   | **\u20ac12/mo**  |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "UpCloud",
+    "plan_slug": "starter-2xcpu-8gb",
+    "url": "https://upcloud.com/products/cloud-servers/",
+    "excerpt": "| 8 GB   | 2         | 500 Mbit/s | 40 GB   | **\u20ac18/mo**  |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "UpCloud",
+    "plan_slug": "starter-4xcpu-8gb",
+    "url": "https://upcloud.com/products/cloud-servers/",
+    "excerpt": "| 8 GB   | 4         | 500 Mbit/s | 40 GB   | **\u20ac20/mo**  |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "UpCloud",
+    "plan_slug": "starter-2xcpu-16gb",
+    "url": "https://upcloud.com/products/cloud-servers/",
+    "excerpt": "| 16 GB  | 2         | 500 Mbit/s | 50 GB   | **\u20ac24/mo**  |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "UpCloud",
+    "plan_slug": "starter-4xcpu-16gb",
+    "url": "https://upcloud.com/products/cloud-servers/",
+    "excerpt": "| 16 GB  | 4         | 500 Mbit/s | 50 GB   | **\u20ac28/mo**  |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "UpCloud",
+    "plan_slug": "premium-1xcpu-1gb",
+    "url": "https://upcloud.com/products/cloud-servers/",
+    "excerpt": "| 1 GB   | 1         | 25 GB   | **\u20ac5/mo**    |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "UpCloud",
+    "plan_slug": "premium-1xcpu-2gb",
+    "url": "https://upcloud.com/products/cloud-servers/",
+    "excerpt": "| 2 GB   | 1         | 25 GB   | **\u20ac12/mo**   |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "UpCloud",
+    "plan_slug": "premium-2xcpu-2gb",
+    "url": "https://upcloud.com/products/cloud-servers/",
+    "excerpt": "| 2 GB   | 2         | 50 GB   | **\u20ac16/mo**   |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "UpCloud",
+    "plan_slug": "premium-2xcpu-4gb",
+    "url": "https://upcloud.com/products/cloud-servers/",
+    "excerpt": "| 4 GB   | 2         | 50 GB   | **\u20ac26/mo**   |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "UpCloud",
+    "plan_slug": "premium-2xcpu-8gb",
+    "url": "https://upcloud.com/products/cloud-servers/",
+    "excerpt": "| 8 GB   | 2         | 100 GB  | **\u20ac38/mo**   |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "UpCloud",
+    "plan_slug": "premium-4xcpu-8gb",
+    "url": "https://upcloud.com/products/cloud-servers/",
+    "excerpt": "| 8 GB   | 4         | 100 GB  | **\u20ac52/mo**   |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "UpCloud",
+    "plan_slug": "premium-2xcpu-16gb",
+    "url": "https://upcloud.com/products/cloud-servers/",
+    "excerpt": "| 16 GB  | 2         | 150 GB  | **\u20ac72/mo**   |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "UpCloud",
+    "plan_slug": "premium-4xcpu-16gb",
+    "url": "https://upcloud.com/products/cloud-servers/",
+    "excerpt": "| 16 GB  | 4         | 150 GB  | **\u20ac92/mo**   |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "UpCloud",
+    "plan_slug": "premium-8xcpu-16gb",
+    "url": "https://upcloud.com/products/cloud-servers/",
+    "excerpt": "| 16 GB  | 8         | 200 GB  | **\u20ac148/mo**  |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "UpCloud",
+    "plan_slug": "premium-4xcpu-32gb",
+    "url": "https://upcloud.com/products/cloud-servers/",
+    "excerpt": "| 32 GB  | 4         | 200 GB  | **\u20ac142/mo**  |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "UpCloud",
+    "plan_slug": "premium-8xcpu-32gb",
+    "url": "https://upcloud.com/products/cloud-servers/",
+    "excerpt": "| 32 GB  | 8         | 200 GB  | **\u20ac192/mo**  |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "UpCloud",
+    "plan_slug": "premium-16xcpu-32gb",
+    "url": "https://upcloud.com/products/cloud-servers/",
+    "excerpt": "| 32 GB  | 16        | 300 GB  | **\u20ac310/mo**  |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Contabo",
+    "plan_slug": "cloud-vps-4",
+    "url": "https://contabo.com/en/vps/",
+    "excerpt": "## Cloud VPS 4\n\u20ac5.50\n4\n40 / month\nIncluding VAT Excluding VAT\nfor the first 24 months\n4 vCPU Cores\n8 GB RAM\n100 GB SSD",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Contabo",
+    "plan_slug": "cloud-vps-6",
+    "url": "https://contabo.com/en/vps/",
+    "excerpt": "## Cloud VPS 6\n\u20ac7.50\n6\n00 / month\nIncluding VAT Excluding VAT\nfor the first 24 months\n6 vCPU Cores\n12 GB RAM\n200GB SSD / 100GB NVMe",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Contabo",
+    "plan_slug": "cloud-vps-8",
+    "url": "https://contabo.com/en/vps/",
+    "excerpt": "## Cloud VPS 8\n\u20ac14.00\n11\n20 / month\nIncluding VAT Excluding VAT\nfor the first 24 months\n8 vCPU Cores\n24 GB RAM\n300GB SSD / 150GB NVMe",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Contabo",
+    "plan_slug": "cloud-vps-12",
+    "url": "https://contabo.com/en/vps/",
+    "excerpt": "## Cloud VPS 12\n\u20ac25.00\n20\n00 / month\nIncluding VAT Excluding VAT\nfor the first 24 months\n12 vCPU Cores\n48 GB RAM\n400GB SSD / 200GB NVMe",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Contabo",
+    "plan_slug": "cloud-vps-16",
+    "url": "https://contabo.com/en/vps/",
+    "excerpt": "## Cloud VPS 16\n\u20ac37.00\n29\n60 / month\nIncluding VAT Excluding VAT\nfor the first 24 months\n16 vCPU Cores\n64 GB RAM\n500GB SSD / 250GB NVMe",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Contabo",
+    "plan_slug": "cloud-vps-18",
+    "url": "https://contabo.com/en/vps/",
+    "excerpt": "## Cloud VPS 18\n\u20ac49.00\n39\n20 / month\nIncluding VAT Excluding VAT\nfor the first 24 months\n18 vCPU Cores\n96 GB RAM\n600GB SSD / 300GB NVMe",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Leaseweb",
+    "plan_slug": "vps-1-eu",
+    "url": "https://blog.leaseweb.com/2026/07/28/vps-price-increases-are-coming-for-new-contracts-in-2026/",
+    "excerpt": "| VPS 1        | \u20ac 3,99                        | \u20ac 4,99                              |\n\"id\": \"VPS02_1\", \"name\": \"Leaseweb VPS 1\", \"vCpu\": \"4\", \"vRam\": \"6\", \"nvmeStorage\": \"100 GB\", \"traffic\": \"30 TB Volume\"",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Leaseweb",
+    "plan_slug": "vps-2-eu",
+    "url": "https://blog.leaseweb.com/2026/07/28/vps-price-increases-are-coming-for-new-contracts-in-2026/",
+    "excerpt": "| VPS 2        | \u20ac 8,99                        | No change                           |\n\"id\": \"VPS02_2\", \"name\": \"Leaseweb VPS 2\", \"vCpu\": \"6\", \"vRam\": \"16\", \"nvmeStorage\": \"200 GB\", \"traffic\": \"30 TB Volume\"",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Leaseweb",
+    "plan_slug": "vps-3-eu",
+    "url": "https://blog.leaseweb.com/2026/07/28/vps-price-increases-are-coming-for-new-contracts-in-2026/",
+    "excerpt": "| VPS 3        | \u20ac 13,99                       | No change                           |\n\"id\": \"VPS02_3\", \"name\": \"Leaseweb VPS 3\", \"vCpu\": \"8\", \"vRam\": \"24\", \"nvmeStorage\": \"300 GB\", \"traffic\": \"30 TB Volume\"",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Leaseweb",
+    "plan_slug": "vps-4-eu",
+    "url": "https://blog.leaseweb.com/2026/07/28/vps-price-increases-are-coming-for-new-contracts-in-2026/",
+    "excerpt": "| VPS 4        | \u20ac 25,99                       | No change                           |\n\"id\": \"VPS02_4\", \"name\": \"Leaseweb VPS 4\", \"vCpu\": \"12\", \"vRam\": \"48\", \"nvmeStorage\": \"400 GB\", \"traffic\": \"30 TB Volume\"",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Leaseweb",
+    "plan_slug": "vps-5-eu",
+    "url": "https://blog.leaseweb.com/2026/07/28/vps-price-increases-are-coming-for-new-contracts-in-2026/",
+    "excerpt": "| VPS 5        | \u20ac 33,99                       | No change                           |\n\"id\": \"VPS02_5\", \"name\": \"Leaseweb VPS 5\", \"vCpu\": \"16\", \"vRam\": \"64\", \"nvmeStorage\": \"500 GB\", \"traffic\": \"30 TB Volume\"",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Leaseweb",
+    "plan_slug": "vps-6-eu",
+    "url": "https://blog.leaseweb.com/2026/07/28/vps-price-increases-are-coming-for-new-contracts-in-2026/",
+    "excerpt": "| VPS 6        | \u20ac 65,99                       | \u20ac 69,99                             |\n\"id\": \"VPS02_6\", \"name\": \"Leaseweb VPS 6\", \"vCpu\": \"24\", \"vRam\": \"120\", \"nvmeStorage\": \"600 GB\", \"traffic\": \"30 TB Volume\"",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Leaseweb",
+    "plan_slug": "vps-1-us",
+    "url": "https://blog.leaseweb.com/2026/07/28/vps-price-increases-are-coming-for-new-contracts-in-2026/",
+    "excerpt": "| VPS 1        | $ 3,50                        | $ 6,99                              |\n\"id\": \"VPS02_1\", \"name\": \"Leaseweb VPS 1\", \"vCpu\": \"4\", \"vRam\": \"6\", \"nvmeStorage\": \"100 GB\", \"traffic\": \"30 TB Volume\"",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Leaseweb",
+    "plan_slug": "vps-2-us",
+    "url": "https://blog.leaseweb.com/2026/07/28/vps-price-increases-are-coming-for-new-contracts-in-2026/",
+    "excerpt": "| VPS 2        | $ 9,00                        | $ 10,99                             |\n\"id\": \"VPS02_2\", \"name\": \"Leaseweb VPS 2\", \"vCpu\": \"6\", \"vRam\": \"16\", \"nvmeStorage\": \"200 GB\", \"traffic\": \"30 TB Volume\"",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Leaseweb",
+    "plan_slug": "vps-3-us",
+    "url": "https://blog.leaseweb.com/2026/07/28/vps-price-increases-are-coming-for-new-contracts-in-2026/",
+    "excerpt": "| VPS 3        | $ 14,60                       | $ 19,99                             |\n\"id\": \"VPS02_3\", \"name\": \"Leaseweb VPS 3\", \"vCpu\": \"8\", \"vRam\": \"24\", \"nvmeStorage\": \"300 GB\", \"traffic\": \"30 TB Volume\"",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Leaseweb",
+    "plan_slug": "vps-4-us",
+    "url": "https://blog.leaseweb.com/2026/07/28/vps-price-increases-are-coming-for-new-contracts-in-2026/",
+    "excerpt": "| VPS 4        | $ 27,90                       | $ 34,99                             |\n\"id\": \"VPS02_4\", \"name\": \"Leaseweb VPS 4\", \"vCpu\": \"12\", \"vRam\": \"48\", \"nvmeStorage\": \"400 GB\", \"traffic\": \"30 TB Volume\"",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Leaseweb",
+    "plan_slug": "vps-5-us",
+    "url": "https://blog.leaseweb.com/2026/07/28/vps-price-increases-are-coming-for-new-contracts-in-2026/",
+    "excerpt": "| VPS 5        | $ 36,70                       | $ 55,99                             |\n\"id\": \"VPS02_5\", \"name\": \"Leaseweb VPS 5\", \"vCpu\": \"16\", \"vRam\": \"64\", \"nvmeStorage\": \"500 GB\", \"traffic\": \"30 TB Volume\"",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Leaseweb",
+    "plan_slug": "vps-6-us",
+    "url": "https://blog.leaseweb.com/2026/07/28/vps-price-increases-are-coming-for-new-contracts-in-2026/",
+    "excerpt": "| VPS 6        | $ 65,99                       | $ 72,99                             |\n\"id\": \"VPS02_6\", \"name\": \"Leaseweb VPS 6\", \"vCpu\": \"24\", \"vRam\": \"120\", \"nvmeStorage\": \"600 GB\", \"traffic\": \"30 TB Volume\"",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Cherry Servers",
+    "plan_slug": "c-vps-1-g2",
+    "url": "https://www.cherryservers.com/pricing/virtual-servers",
+    "excerpt": "{\"name\": \"Cloud VPS 1 (Gen 2)\", \"slug\": \"B2-1-1gb-20s-shared\", \"specs\": {\"cpus\": {\"name\": \"1 vCore\"}, \"memory\": {\"name\": \"1GB\"}, \"storage\": [{\"name\": \"SSD 20GB\"}], \"bandwidth\": {\"name\": \"1TB\"}}, \"pricing\": [{\"unit\": \"Monthly\", \"price\": 3.0, \"currency\": \"EUR\"}]}",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Cherry Servers",
+    "plan_slug": "c-vps-2-g2",
+    "url": "https://www.cherryservers.com/pricing/virtual-servers",
+    "excerpt": "{\"name\": \"Cloud VPS 2 (Gen 2)\", \"slug\": \"B2-2-2gb-40s-shared\", \"specs\": {\"cpus\": {\"name\": \"2 vCores\"}, \"memory\": {\"name\": \"2GB\"}, \"storage\": [{\"name\": \"SSD 40GB\"}], \"bandwidth\": {\"name\": \"1TB\"}}, \"pricing\": [{\"unit\": \"Monthly\", \"price\": 6.0, \"currency\": \"EUR\"}]}",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Cherry Servers",
+    "plan_slug": "c-vps-4-g2",
+    "url": "https://www.cherryservers.com/pricing/virtual-servers",
+    "excerpt": "{\"name\": \"Cloud VPS 4 (Gen 2)\", \"slug\": \"B2-4-4gb-80s-shared\", \"specs\": {\"cpus\": {\"name\": \"4 vCores\"}, \"memory\": {\"name\": \"4GB\"}, \"storage\": [{\"name\": \"SSD 80GB\"}], \"bandwidth\": {\"name\": \"1TB\"}}, \"pricing\": [{\"unit\": \"Monthly\", \"price\": 9.0, \"currency\": \"EUR\"}]}",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Cherry Servers",
+    "plan_slug": "c-vps-6-g2",
+    "url": "https://www.cherryservers.com/pricing/virtual-servers",
+    "excerpt": "{\"name\": \"Cloud VPS 6 (Gen 2)\", \"slug\": \"B2-6-6gb-100s-shared\", \"specs\": {\"cpus\": {\"name\": \"6 vCores\"}, \"memory\": {\"name\": \"6GB\"}, \"storage\": [{\"name\": \"SSD 100GB\"}], \"bandwidth\": {\"name\": \"1TB\"}}, \"pricing\": [{\"unit\": \"Monthly\", \"price\": 13.0, \"currency\": \"EUR\"}]}",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Cherry Servers",
+    "plan_slug": "storage-vps-2",
+    "url": "https://www.cherryservers.com/pricing/virtual-servers",
+    "excerpt": "{\"name\": \"Storage VPS 2\", \"slug\": \"S1-1-2gb-700hdd-shared\", \"specs\": {\"cpus\": {\"name\": \"1 vCore\"}, \"memory\": {\"name\": \"2GB\"}, \"storage\": [{\"name\": \"HDD 700GB\"}], \"bandwidth\": {\"name\": \"5TB\"}}, \"pricing\": [{\"unit\": \"Monthly\", \"price\": 19.0, \"currency\": \"EUR\"}]}",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Cherry Servers",
+    "plan_slug": "storage-vps-4",
+    "url": "https://www.cherryservers.com/pricing/virtual-servers",
+    "excerpt": "{\"name\": \"Storage VPS 4\", \"slug\": \"S1-1-4gb-1000hdd-shared\", \"specs\": {\"cpus\": {\"name\": \"1 vCore\"}, \"memory\": {\"name\": \"4GB\"}, \"storage\": [{\"name\": \"HDD 1000GB\"}], \"bandwidth\": {\"name\": \"5TB\"}}, \"pricing\": [{\"unit\": \"Monthly\", \"price\": 29.0, \"currency\": \"EUR\"}]}",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Cherry Servers",
+    "plan_slug": "storage-vps-6",
+    "url": "https://www.cherryservers.com/pricing/virtual-servers",
+    "excerpt": "{\"name\": \"Storage VPS 6\", \"slug\": \"S1-2-6gb-2000hdd-shared\", \"specs\": {\"cpus\": {\"name\": \"2 vCores\"}, \"memory\": {\"name\": \"6GB\"}, \"storage\": [{\"name\": \"HDD 2000GB\"}], \"bandwidth\": {\"name\": \"5TB\"}}, \"pricing\": [{\"unit\": \"Monthly\", \"price\": 39.0, \"currency\": \"EUR\"}]}",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Cherry Servers",
+    "plan_slug": "storage-vps-8",
+    "url": "https://www.cherryservers.com/pricing/virtual-servers",
+    "excerpt": "{\"name\": \"Storage VPS 8\", \"slug\": \"S1-2-8gb-3000hdd-shared\", \"specs\": {\"cpus\": {\"name\": \"2 vCores\"}, \"memory\": {\"name\": \"8GB\"}, \"storage\": [{\"name\": \"HDD 3000GB\"}], \"bandwidth\": {\"name\": \"5TB\"}}, \"pricing\": [{\"unit\": \"Monthly\", \"price\": 49.0, \"currency\": \"EUR\"}]}",
+    "checked_date": "2026-11-01"
+  }
+]

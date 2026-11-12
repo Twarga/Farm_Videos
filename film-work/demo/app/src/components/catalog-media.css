@@ -1,0 +1,110 @@
+/* Short classes keep repeated catalog media compact. Shared button states and
+   caller-supplied Tailwind utilities continue to apply through their layers. */
+@layer components {
+  .provider-logo {
+    display: grid;
+    flex-shrink: 0;
+    place-items: center;
+    box-shadow: 0 0 0 1px var(--line);
+  }
+  .provider-logo--asset {
+    overflow: hidden;
+    background: var(--paper);
+  }
+  .provider-logo--fallback {
+    background: var(--ink);
+    color: var(--bg);
+    font-family: var(--font-sans), sans-serif;
+  }
+  .provider-logo__image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  .deal-link {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+  }
+  /* Two-class specificity preserves the removed utilities' precedence over
+     shared component defaults; caller utilities still win in the utilities layer. */
+  .ui-button.get-deal {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    height: 32px;
+    padding-inline: 10px;
+    background: var(--primary);
+    color: var(--primary-ink);
+    font-size: var(--fs-sm);
+    font-weight: 500;
+    transition-property: transform, translate, scale, rotate;
+    transition-duration: 150ms;
+    transition-timing-function: var(--default-transition-timing-function);
+  }
+  .ui-button.get-deal:active {
+    scale: .98;
+  }
+  @media (width < 768px) {
+    .ui-button.get-deal {
+      min-height: var(--control-touch);
+    }
+  }
+  .affiliate-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: var(--fs-sm);
+    color: var(--muted);
+  }
+
+  .flag {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+  }
+  .flag-image {
+    display: inline-block;
+    border-radius: var(--r-xs);
+    object-fit: cover;
+    box-shadow: 0 0 0 1px color-mix(in oklab, var(--ink) 10%, transparent);
+  }
+  .flag-code {
+    font-size: var(--fs-sm);
+    color: var(--muted);
+  }
+
+  .trust-source {
+    font-size: var(--fs-sm);
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    color: var(--muted);
+  }
+  .trust-rating, .trust-compact, .trust-unknown {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .trust-unknown {
+    font-size: var(--fs-sm);
+    color: var(--muted);
+  }
+  .trust-score {
+    font-size: var(--fs-sm);
+    font-weight: 500;
+    color: var(--ink);
+  }
+  .trust-count {
+    font-size: var(--fs-sm);
+    color: var(--muted);
+  }
+  .trust-block {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+  }
+}

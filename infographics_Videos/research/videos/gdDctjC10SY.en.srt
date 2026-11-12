@@ -1,0 +1,343 @@
+1
+00:00:00,130 --> 00:00:03,100
+We’re introducing new updates
+to the YouTube Partner Program.
+
+2
+00:00:03,166 --> 00:00:05,302
+If you’re a creator
+currently in the Program
+
+3
+00:00:05,369 --> 00:00:10,674
+you’ll need to review and accept new
+terms by January 31, 2027 to keep earning.
+
+4
+00:00:10,807 --> 00:00:13,176
+If you’re a creator looking
+to apply to the Program
+
+5
+00:00:13,243 --> 00:00:15,879
+there are new eligibility
+requirements you need to know.
+
+6
+00:00:15,946 --> 00:00:20,217
+There are also changes to the way
+the Shorts creator pool is being distributed
+
+7
+00:00:20,284 --> 00:00:23,487
+and we're introducing new
+revenue streams like Premium Lite
+
+8
+00:00:23,554 --> 00:00:25,722
+and targeted incentive programs.
+
+9
+00:00:25,822 --> 00:00:29,660
+With these changes, our total investment
+in creators remains unchanged.
+
+10
+00:00:29,726 --> 00:00:33,897
+In fact, we expect to pay even more
+to creators in 2027 than we did
+
+11
+00:00:33,964 --> 00:00:36,667
+in 2026. Let’s walk through what’s changing.
+
+12
+00:00:36,733 --> 00:00:41,772
+First, we’re updating the YouTube Partner
+Program entry requirements to unlock ads
+
+13
+00:00:41,838 --> 00:00:44,107
+and Premium revenue sharing for new creators.
+
+14
+00:00:44,174 --> 00:00:46,810
+While YouTube has grown
+to billions of monthly viewers
+
+15
+00:00:46,877 --> 00:00:50,514
+the YPP entry thresholds
+have remained mostly unchanged.
+
+16
+00:00:50,581 --> 00:00:52,215
+To reflect the growth of YouTube
+
+17
+00:00:52,282 --> 00:00:54,484
+starting February 1, 2027
+
+18
+00:00:54,551 --> 00:00:58,088
+entry thresholds for new
+creators are 1000 subscribers
+
+19
+00:00:58,155 --> 00:01:02,459
+and either 8000 qualified
+watch hours in the last 12 months
+
+20
+00:01:02,526 --> 00:01:06,763
+or 20 million qualified
+Shorts views in the last 90 days.
+
+21
+00:01:06,897 --> 00:01:11,268
+If you’re already in YPP,
+your status is not impacted by this update.
+
+22
+00:01:11,468 --> 00:01:15,005
+There are no changes to the eligibility
+requirements for fan funding
+
+23
+00:01:15,072 --> 00:01:17,841
+YouTube creator partnerships
+or YouTube shopping.
+
+24
+00:01:17,908 --> 00:01:21,345
+These products will continue to help
+creators start their earning journeys
+
+25
+00:01:21,411 --> 00:01:25,983
+when they reach 500 subscribers,
+3000 qualified watch hours in the last year
+
+26
+00:01:26,049 --> 00:01:29,386
+or 3 million qualified
+Shorts views in the last 90 days.
+
+27
+00:01:29,686 --> 00:01:33,523
+Next, to earn ads and
+Premium revenue share for Shorts each month
+
+28
+00:01:33,590 --> 00:01:38,829
+creators will now need to maintain 10
+million Shorts views over the last 90 days.
+
+29
+00:01:38,929 --> 00:01:41,865
+If your business is already
+seeing similar Shorts views
+
+30
+00:01:41,932 --> 00:01:44,768
+this change is unlikely
+to impact your earnings.
+
+31
+00:01:44,901 --> 00:01:49,272
+Importantly, this update will not
+impact your overall YPP status
+
+32
+00:01:49,339 --> 00:01:53,810
+nor will it impact other YPP
+revenue streams like long-form video ads.
+
+33
+00:01:54,044 --> 00:01:56,813
+While you'll need to meet
+minimum thresholds to earn ads
+
+34
+00:01:56,880 --> 00:01:58,782
+and Premium revenue share for Shorts
+
+35
+00:01:58,849 --> 00:02:03,587
+we're also adding new targeted incentive
+programs to ensure creators have more ways
+
+36
+00:02:03,654 --> 00:02:06,189
+to earn, especially those just starting out.
+
+37
+00:02:06,256 --> 00:02:09,826
+These programs will include things
+like bonuses for YouTube shopping
+
+38
+00:02:09,893 --> 00:02:14,231
+incentives for brand deals and earnings
+boosts for cultural trend activations.
+
+39
+00:02:14,297 --> 00:02:18,135
+They’re designed to reward you based on
+things like growth and engagement rates
+
+40
+00:02:18,201 --> 00:02:19,569
+not just your total views.
+
+41
+00:02:19,636 --> 00:02:22,873
+We'll share specific
+criteria and how to opt in soon.
+
+42
+00:02:23,073 --> 00:02:27,044
+Plus, we’re expanding Premium Lite
+to all countries where Premium is available.
+
+43
+00:02:27,177 --> 00:02:31,581
+Premium Lite offers ad-free offline
+and background viewing outside of music
+
+44
+00:02:31,648 --> 00:02:33,617
+and Shorts. For creators
+
+45
+00:02:33,684 --> 00:02:37,921
+this means a more leaned-in viewer
+audience that can actively contribute
+
+46
+00:02:37,988 --> 00:02:39,289
+to subscription earnings.
+
+47
+00:02:39,356 --> 00:02:41,825
+When a user signs up for Premium, on average
+
+48
+00:02:41,892 --> 00:02:44,661
+partners earn more than when
+the user was watching ads.
+
+49
+00:02:44,728 --> 00:02:48,999
+We’re also updating our terms to
+support new Shorts ad formats.
+
+50
+00:02:49,066 --> 00:02:53,036
+In the future, iIf a brand targets an
+ad to five or fewer specific channels
+
+51
+00:02:53,103 --> 00:02:56,039
+you'll be able to earn direct
+revenue from those placements
+
+52
+00:02:56,106 --> 00:02:58,742
+on top of the existing Shorts creator pool.
+
+53
+00:02:58,809 --> 00:03:01,578
+If you’re a creator in the YouTube
+Partner program currently
+
+54
+00:03:01,645 --> 00:03:06,283
+you’ll need to review and accept
+these new terms by January 31, 2027
+
+55
+00:03:06,349 --> 00:03:10,487
+to keep earning. You may see terms
+around watch page monetization
+
+56
+00:03:10,587 --> 00:03:13,557
+Shorts monetization, and
+fan funding monetization.
+
+57
+00:03:13,623 --> 00:03:17,394
+For creators who enabled fan
+funding features like channel memberships
+
+58
+00:03:17,461 --> 00:03:22,332
+or Super Chat before 2023, you may
+still be on an older version of the terms.
+
+59
+00:03:22,399 --> 00:03:24,134
+To keep our legal terms consistent
+
+60
+00:03:24,201 --> 00:03:27,304
+we’re moving everyone to the current
+Commerce Product module.
+
+61
+00:03:27,370 --> 00:03:29,706
+There are no changes
+to eligibility thresholds
+
+62
+00:03:29,773 --> 00:03:32,642
+how the products work or revenue share rates.
+
+63
+00:03:32,709 --> 00:03:36,546
+Now let's walk through how to accept the new
+YouTube Partner Program terms.
+
+64
+00:03:36,613 --> 00:03:37,848
+Head to YouTube studio
+
+65
+00:03:37,914 --> 00:03:42,319
+on desktop or mobile. You’ll see a
+notification in your studio dashboard.
+
+66
+00:03:42,385 --> 00:03:44,554
+Choose Review updated terms.
+
+67
+00:03:44,621 --> 00:03:48,391
+From there, select Continue,
+read each module and if you accept
+
+68
+00:03:48,458 --> 00:03:50,861
+check the box and hit Accept and continue.
+
+69
+00:03:51,027 --> 00:03:53,630
+Once you’ve finished
+accepting them all, hit Finish.
+
+70
+00:03:53,697 --> 00:03:59,336
+Remember, you must accept these module
+updates by January 31, 2027 to keep earning
+
+71
+00:03:59,402 --> 00:04:03,206
+we encourage you to accept all of them
+to reach your full earning potential.
+
+72
+00:04:03,273 --> 00:04:06,710
+For more info, check out the links
+in the description. Thanks for watching.
+

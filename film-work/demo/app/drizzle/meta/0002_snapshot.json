@@ -1,0 +1,608 @@
+{
+  "version": "6",
+  "dialect": "sqlite",
+  "id": "f5eff54c-3b12-4e2b-ab04-856c54b7d2a4",
+  "prevId": "0d914211-3bcf-4e42-9ead-c30226035dc7",
+  "tables": {
+    "offer_prices": {
+      "name": "offer_prices",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "text",
+          "primaryKey": true,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "offer_id": {
+          "name": "offer_id",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "original_amount": {
+          "name": "original_amount",
+          "type": "real",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "original_currency": {
+          "name": "original_currency",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "advertised_monthly": {
+          "name": "advertised_monthly",
+          "type": "real",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "effective_monthly": {
+          "name": "effective_monthly",
+          "type": "real",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "cash_due_today": {
+          "name": "cash_due_today",
+          "type": "real",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "renewal_monthly": {
+          "name": "renewal_monthly",
+          "type": "real",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "hourly_amount": {
+          "name": "hourly_amount",
+          "type": "real",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "yearly_amount": {
+          "name": "yearly_amount",
+          "type": "real",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "term_months": {
+          "name": "term_months",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "billing_label": {
+          "name": "billing_label",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "normalized_currency": {
+          "name": "normalized_currency",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false,
+          "default": "'USD'"
+        },
+        "exchange_rate": {
+          "name": "exchange_rate",
+          "type": "real",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "exchange_rate_date": {
+          "name": "exchange_rate_date",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "source_text": {
+          "name": "source_text",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "source_url": {
+          "name": "source_url",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "valid_from": {
+          "name": "valid_from",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false,
+          "default": "(unixepoch() * 1000)"
+        },
+        "valid_to": {
+          "name": "valid_to",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "source_checked_at": {
+          "name": "source_checked_at",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false,
+          "default": "(unixepoch() * 1000)"
+        }
+      },
+      "indexes": {
+        "offer_prices_offer_validity_idx": {
+          "name": "offer_prices_offer_validity_idx",
+          "columns": [
+            "offer_id",
+            "valid_from",
+            "valid_to"
+          ],
+          "isUnique": false
+        },
+        "offer_prices_effective_idx": {
+          "name": "offer_prices_effective_idx",
+          "columns": [
+            "effective_monthly"
+          ],
+          "isUnique": false
+        }
+      },
+      "foreignKeys": {
+        "offer_prices_offer_id_offers_id_fk": {
+          "name": "offer_prices_offer_id_offers_id_fk",
+          "tableFrom": "offer_prices",
+          "tableTo": "offers",
+          "columnsFrom": [
+            "offer_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "restrict",
+          "onUpdate": "cascade"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "checkConstraints": {
+        "offer_prices_currency_check": {
+          "name": "offer_prices_currency_check",
+          "value": "\"offer_prices\".\"original_currency\" is null or \"offer_prices\".\"original_currency\" in ('USD', 'EUR', 'GBP', 'CAD', 'AUD', 'other')"
+        },
+        "offer_prices_normalized_currency_check": {
+          "name": "offer_prices_normalized_currency_check",
+          "value": "\"offer_prices\".\"normalized_currency\" = 'USD'"
+        },
+        "offer_prices_numeric_check": {
+          "name": "offer_prices_numeric_check",
+          "value": "(\"offer_prices\".\"original_amount\" is null or \"offer_prices\".\"original_amount\" >= 0)\n        and (\"offer_prices\".\"advertised_monthly\" is null or \"offer_prices\".\"advertised_monthly\" >= 0)\n        and (\"offer_prices\".\"effective_monthly\" is null or \"offer_prices\".\"effective_monthly\" >= 0)\n        and (\"offer_prices\".\"cash_due_today\" is null or \"offer_prices\".\"cash_due_today\" >= 0)\n        and (\"offer_prices\".\"renewal_monthly\" is null or \"offer_prices\".\"renewal_monthly\" >= 0)\n        and (\"offer_prices\".\"hourly_amount\" is null or \"offer_prices\".\"hourly_amount\" >= 0)\n        and (\"offer_prices\".\"yearly_amount\" is null or \"offer_prices\".\"yearly_amount\" >= 0)\n        and (\"offer_prices\".\"term_months\" is null or \"offer_prices\".\"term_months\" > 0)"
+        },
+        "offer_prices_validity_check": {
+          "name": "offer_prices_validity_check",
+          "value": "\"offer_prices\".\"valid_to\" is null or \"offer_prices\".\"valid_to\" >= \"offer_prices\".\"valid_from\""
+        }
+      }
+    },
+    "offers": {
+      "name": "offers",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "text",
+          "primaryKey": true,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "provider_id": {
+          "name": "provider_id",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "slug": {
+          "name": "slug",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "plan_name": {
+          "name": "plan_name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "sku": {
+          "name": "sku",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "product_type": {
+          "name": "product_type",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false,
+          "default": "'vps'"
+        },
+        "publication_status": {
+          "name": "publication_status",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false,
+          "default": "'draft'"
+        },
+        "vcpus": {
+          "name": "vcpus",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "cpu_kind": {
+          "name": "cpu_kind",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "cpu_source": {
+          "name": "cpu_source",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "architecture": {
+          "name": "architecture",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "ram_gb": {
+          "name": "ram_gb",
+          "type": "real",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "disk_gb": {
+          "name": "disk_gb",
+          "type": "real",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "disk_type": {
+          "name": "disk_type",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "bandwidth_tb": {
+          "name": "bandwidth_tb",
+          "type": "real",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "bandwidth_source": {
+          "name": "bandwidth_source",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "ipv4_status": {
+          "name": "ipv4_status",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false,
+          "default": "'unknown'"
+        },
+        "ipv4_source": {
+          "name": "ipv4_source",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "billing_notes": {
+          "name": "billing_notes",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "official_url": {
+          "name": "official_url",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "confidence": {
+          "name": "confidence",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false,
+          "default": "'medium'"
+        },
+        "fit_notes": {
+          "name": "fit_notes",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "catch_notes": {
+          "name": "catch_notes",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "featured": {
+          "name": "featured",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false,
+          "default": false
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false,
+          "default": "(unixepoch() * 1000)"
+        },
+        "updated_at": {
+          "name": "updated_at",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false,
+          "default": "(unixepoch() * 1000)"
+        },
+        "published_at": {
+          "name": "published_at",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        }
+      },
+      "indexes": {
+        "offers_provider_status_idx": {
+          "name": "offers_provider_status_idx",
+          "columns": [
+            "provider_id",
+            "publication_status"
+          ],
+          "isUnique": false
+        },
+        "offers_status_idx": {
+          "name": "offers_status_idx",
+          "columns": [
+            "publication_status"
+          ],
+          "isUnique": false
+        },
+        "offers_product_type_idx": {
+          "name": "offers_product_type_idx",
+          "columns": [
+            "product_type"
+          ],
+          "isUnique": false
+        },
+        "offers_provider_slug_unique": {
+          "name": "offers_provider_slug_unique",
+          "columns": [
+            "provider_id",
+            "slug"
+          ],
+          "isUnique": true
+        }
+      },
+      "foreignKeys": {
+        "offers_provider_id_providers_id_fk": {
+          "name": "offers_provider_id_providers_id_fk",
+          "tableFrom": "offers",
+          "tableTo": "providers",
+          "columnsFrom": [
+            "provider_id"
+          ],
+          "columnsTo": [
+            "id"
+          ],
+          "onDelete": "restrict",
+          "onUpdate": "cascade"
+        }
+      },
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "checkConstraints": {
+        "offers_product_type_check": {
+          "name": "offers_product_type_check",
+          "value": "\"offers\".\"product_type\" in ('vps', 'cloud', 'dedicated', 'paas', 'hosting', 'other')"
+        },
+        "offers_publication_status_check": {
+          "name": "offers_publication_status_check",
+          "value": "\"offers\".\"publication_status\" in ('staged', 'draft', 'published', 'hidden', 'archived', 'blocked')"
+        },
+        "offers_confidence_check": {
+          "name": "offers_confidence_check",
+          "value": "\"offers\".\"confidence\" in ('high', 'medium', 'low')"
+        },
+        "offers_ipv4_status_check": {
+          "name": "offers_ipv4_status_check",
+          "value": "\"offers\".\"ipv4_status\" in ('included', 'extra', 'location-dependent', 'unknown')"
+        },
+        "offers_numeric_check": {
+          "name": "offers_numeric_check",
+          "value": "(\"offers\".\"vcpus\" is null or \"offers\".\"vcpus\" >= 0)\n        and (\"offers\".\"ram_gb\" is null or \"offers\".\"ram_gb\" >= 0)\n        and (\"offers\".\"disk_gb\" is null or \"offers\".\"disk_gb\" >= 0)\n        and (\"offers\".\"bandwidth_tb\" is null or \"offers\".\"bandwidth_tb\" >= 0)"
+        }
+      }
+    },
+    "providers": {
+      "name": "providers",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "text",
+          "primaryKey": true,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "slug": {
+          "name": "slug",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "name": {
+          "name": "name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "official_url": {
+          "name": "official_url",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "hq_country": {
+          "name": "hq_country",
+          "type": "text(2)",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "logo_path": {
+          "name": "logo_path",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "status": {
+          "name": "status",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false,
+          "default": "'active'"
+        },
+        "note": {
+          "name": "note",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false,
+          "default": "(unixepoch() * 1000)"
+        },
+        "updated_at": {
+          "name": "updated_at",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false,
+          "default": "(unixepoch() * 1000)"
+        }
+      },
+      "indexes": {
+        "providers_slug_unique": {
+          "name": "providers_slug_unique",
+          "columns": [
+            "slug"
+          ],
+          "isUnique": true
+        },
+        "providers_status_idx": {
+          "name": "providers_status_idx",
+          "columns": [
+            "status"
+          ],
+          "isUnique": false
+        },
+        "providers_hq_country_idx": {
+          "name": "providers_hq_country_idx",
+          "columns": [
+            "hq_country"
+          ],
+          "isUnique": false
+        }
+      },
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "checkConstraints": {
+        "providers_status_check": {
+          "name": "providers_status_check",
+          "value": "\"providers\".\"status\" in ('active', 'draft', 'paused', 'archived')"
+        }
+      }
+    }
+  },
+  "views": {},
+  "enums": {},
+  "_meta": {
+    "schemas": {},
+    "tables": {},
+    "columns": {}
+  },
+  "internal": {
+    "indexes": {}
+  }
+}

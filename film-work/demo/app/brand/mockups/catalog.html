@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Plans — bestvpsforme</title>
+<link rel="icon" href="../logo/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/bvf.css">
+<style>
+  .cat { display: grid; grid-template-columns: 288px minmax(0, 1fr); min-height: calc(100dvh - var(--nav-h)); }
+  .rail { position: sticky; top: var(--nav-h); align-self: start; height: calc(100dvh - var(--nav-h)); overflow: auto; border-right: 1px solid var(--border); padding: 24px 22px 120px; scrollbar-width: thin; }
+  .rail__head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 18px; }
+  .rail__head h2 { font: 700 17px/1 var(--font-sans); font-stretch: 112%; letter-spacing: -.01em; }
+  .rail__head button { border: 0; background: none; font: 600 13px/1 var(--font-sans); text-decoration: underline; text-underline-offset: 3px; text-decoration-color: var(--border-strong); }
+  .fgroup { padding: 20px 0; border-top: 1px solid var(--border); }
+  .fgroup h3 { display: flex; justify-content: space-between; align-items: center; font: 650 13px/1 var(--font-sans); font-stretch: 108%; margin-bottom: 14px; }
+  .fgroup h3 span { font: 500 12px/1 var(--font-mono); color: var(--fg-subtle); }
+  .bands { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; }
+  .bands button { height: 36px; border-radius: 10px; border: 1px solid var(--border-strong); background: var(--surface); font: 600 13px/1 var(--font-mono); letter-spacing: -.02em; transition: all var(--d-fast); }
+  .bands button:hover { border-color: var(--fg); }
+  .bands button[aria-pressed="true"] { background: var(--fg); color: var(--bg); border-color: var(--fg); }
+  .hist { display: flex; align-items: flex-end; gap: 2px; height: 36px; margin: 2px 0 10px; }
+  .hist i { flex: 1; background: var(--ink-200); border-radius: 2px 2px 0 0; }
+  .hist i.on { background: var(--fg); }
+  [data-theme="dark"] .hist i { background: var(--ink-700); }
+  [data-theme="dark"] .hist i.on { background: var(--volt-400); }
+  .opt { display: flex; align-items: center; gap: 10px; min-height: 34px; font: 500 14px/1.2 var(--font-sans); cursor: pointer; }
+  .opt small { margin-left: auto; font: 500 12px/1 var(--font-mono); color: var(--fg-subtle); }
+  .opt .pmark { --size: 22px; border-radius: 6px; padding: 3px; }
+  .fsearch { height: 36px; margin-bottom: 8px; }
+  .fsearch input { font-size: 13.5px; }
+  .toggle { display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 40px; font: 520 14px/1.3 var(--font-sans); }
+  .switch { position: relative; width: 38px; height: 22px; border-radius: 11px; background: var(--ink-200); flex: none; transition: background var(--d-fast); }
+  .switch::after { content: ""; position: absolute; top: 3px; left: 3px; width: 16px; height: 16px; border-radius: 50%; background: #fff; box-shadow: var(--sh-1); transition: transform var(--d-base) var(--ease-spring); }
+  .switch.on { background: var(--fg); }
+  .switch.on::after { transform: translateX(16px); background: var(--volt-400); }
+  [data-theme="dark"] .switch { background: var(--ink-700); }
+
+  .main { min-width: 0; padding: 26px var(--gutter) 140px; }
+  .top { display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; flex-wrap: wrap; }
+  .top h1 { font: 800 44px/1 var(--font-sans); font-stretch: 125%; letter-spacing: -.045em; }
+  .top h1 .num { font-family: var(--font-sans); font-weight: 800; }
+  .top p { margin-top: 10px; color: var(--fg-muted); font: 480 15px/1.4 var(--font-sans); }
+  .tools { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+  .tools .field { width: 280px; height: 40px; }
+  .sumbar { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 28px; align-items: center; margin-top: 22px; padding: 16px 20px; border-radius: var(--r-lg); background: var(--bg-subtle); border: 1px solid var(--border); }
+  .sumbar__stats { display: flex; gap: 28px; }
+  .sumbar__stats div { display: grid; gap: 6px; }
+  .sumbar__stats span { font: 560 11.5px/1 var(--font-sans); letter-spacing: .06em; text-transform: uppercase; color: var(--fg-subtle); }
+  .sumbar__stats b { font: 650 20px/1 var(--font-mono); letter-spacing: -.03em; }
+  .mini { height: 46px; }
+  .mini svg { width: 100%; height: 100%; }
+  .chips { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin-top: 18px; }
+  .chips .chip--active svg { width: 13px; height: 13px; }
+  .chips .clear { border: 0; background: none; font: 600 13px/1 var(--font-sans); text-decoration: underline; text-underline-offset: 3px; color: var(--fg-muted); margin-left: 4px; }
+  .disc { display: flex; gap: 10px; align-items: center; margin-top: 18px; font: 500 13.5px/1.4 var(--font-sans); color: var(--fg-muted); }
+  .disc svg { width: 16px; height: 16px; color: var(--fg); flex: none; }
+  .disc a { color: var(--fg); text-decoration: underline; text-decoration-color: var(--volt-600); text-decoration-thickness: 2px; text-underline-offset: 3px; }
+  .tablewrap { margin-top: 14px; }
+  .dtable thead th { top: var(--nav-h); }
+  .dtable tbody tr { cursor: pointer; }
+  .rank { font: 600 12px/1 var(--font-mono); color: var(--fg-subtle); }
+  .more { display: flex; justify-content: center; margin-top: 28px; gap: 12px; align-items: center; }
+  .more span { font: 500 13px/1 var(--font-sans); color: var(--fg-muted); }
+  .rowhint { position: absolute; }
+  .explain { display: inline-flex; align-items: center; gap: 6px; }
+  .explain button { width: 18px; height: 18px; border-radius: 50%; border: 1px solid var(--border-strong); background: none; display: grid; place-items: center; font: 700 10px/1 var(--font-mono); color: var(--fg-subtle); padding: 0; }
+  .explain .tip { position: absolute; top: calc(100% + 8px); right: 0; width: 280px; padding: 14px 16px; border-radius: 14px; background: var(--ink-950); color: #e8ebef; text-transform: none; letter-spacing: 0; font: 460 13px/1.45 var(--font-sans); box-shadow: var(--sh-pop); white-space: normal; z-index: 5; }
+  .explain .tip b { color: var(--volt-400); font-weight: 650; }
+  th { position: relative; }
+
+  .mfilters { display: none; }
+  .mcards { display: none; }
+  @media (max-width: 1100px) {
+    .cat { grid-template-columns: 1fr; }
+    .rail { display: none; }
+    .dtable .c-trust { display: none; }
+  }
+  @media (max-width: 760px) {
+    .top h1 { font-size: 34px; }
+    .tools { width: 100%; }
+    .tools .field { width: 100%; order: -1; }
+    .tools .seg, .tools .hide-sm { display: none; }
+    .sumbar { grid-template-columns: 1fr; gap: 12px; padding: 14px 16px; }
+    .sumbar__stats { gap: 18px; }
+    .tablewrap, .disc, .more .btn + span { display: none; }
+    .mfilters { position: sticky; top: var(--nav-h); z-index: 5; display: flex; gap: 8px; overflow-x: auto; padding: 12px var(--gutter); margin: 14px calc(var(--gutter) * -1) 0; background: var(--bg); border-bottom: 1px solid var(--border); scrollbar-width: none; }
+    .mfilters .chip { flex: none; }
+    .mcards { display: grid; gap: 12px; margin-top: 16px; }
+    .mcard { border: 1px solid var(--border); border-radius: 18px; padding: 16px; background: var(--surface); }
+    .mcard.is-picked { border-color: var(--ink-950); box-shadow: inset 4px 0 0 var(--volt-400); }
+    .mcard__top { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; gap: 12px; align-items: center; }
+    .mcard__id strong { display: block; font: 680 16px/1.2 var(--font-sans); font-stretch: 104%; }
+    .mcard__id span { display: block; margin-top: 3px; font: 480 12.5px/1.2 var(--font-sans); color: var(--fg-muted); }
+    .mcard__specs { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 14px; }
+    .mcard__specs span { padding: 6px 9px; border-radius: 8px; background: var(--bg-muted); font-size: 12.5px; }
+    .mcard__catch { display: flex; gap: 8px; align-items: baseline; margin-top: 12px; font: 500 13px/1.4 var(--font-sans); color: var(--catch-fg); }
+    .mcard__actions { display: flex; justify-content: space-between; align-items: center; margin-top: 14px; padding-top: 12px; border-top: 1px dashed var(--border-strong); }
+    .mcard__pick { display: flex; align-items: center; gap: 10px; min-height: 44px; font: 600 14px/1 var(--font-sans); }
+    .mcard .btn--sm { --h: 44px; }
+  }
+</style>
+</head>
+<body>
+<a class="sr-only" href="#main">Skip to content</a>
+<header class="nav">
+  <div class="container--wide nav__in" style="width:calc(100% - 2*var(--gutter));max-width:none">
+    <a class="nav__logo" href="home.html" aria-label="bestvpsforme home"><img src="../logo/lockup-horizontal-light.svg" alt="bestvpsforme" data-logo></a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="catalog.html" aria-current="page">Plans</a>
+      <a href="compare.html">Compare</a>
+      <a href="provider.html">Providers</a>
+      <a href="guide.html">Guides</a>
+      <a href="methodology.html">How we check</a>
+    </nav>
+    <button class="nav__search" type="button" data-open-palette><i data-icon="search"></i>Search 314 plans, 41 providers…<span class="kbd">⌘K</span></button>
+    <div class="row nav__right" style="--gap:6px">
+      <a class="btn btn--line btn--sm nav__compare" href="compare.html"><i data-icon="compare"></i>Compare <span class="nav__count">0</span></a>
+      <button class="btn btn--ghost btn--icon" type="button" data-theme-toggle aria-label="Switch theme"><i data-icon="moon"></i></button>
+    </div>
+  </div>
+</header>
+
+<div class="cat">
+  <aside class="rail" aria-label="Filters">
+    <div class="rail__head"><h2>Filters</h2><button type="button">Reset 2</button></div>
+
+    <div class="fgroup">
+      <h3>Real price / month <span>USD</span></h3>
+      <div class="hist" aria-hidden="true"><i class="on" style="height:88%"></i><i class="on" style="height:100%"></i><i class="on" style="height:72%"></i><i style="height:58%"></i><i style="height:64%"></i><i style="height:40%"></i><i style="height:46%"></i><i style="height:30%"></i><i style="height:22%"></i><i style="height:26%"></i><i style="height:14%"></i><i style="height:10%"></i><i style="height:8%"></i><i style="height:5%"></i></div>
+      <div class="bands" role="group" aria-label="Price band">
+        <button type="button">&lt;$5</button><button type="button">&lt;$10</button><button type="button" aria-pressed="true">&lt;$25</button>
+        <button type="button">&lt;$50</button><button type="button">&lt;$100</button><button type="button">Any</button>
+      </div>
+    </div>
+
+    <div class="fgroup">
+      <h3>Memory</h3>
+      <div class="bands" role="group" aria-label="Minimum RAM">
+        <button type="button">1 GB</button><button type="button">2 GB</button><button type="button" aria-pressed="true">4 GB</button>
+        <button type="button">8 GB</button><button type="button">16 GB</button><button type="button">32+</button>
+      </div>
+    </div>
+
+    <div class="fgroup">
+      <h3>vCPU</h3>
+      <div class="bands" role="group" aria-label="Minimum vCPU"><button type="button" aria-pressed="true">Any</button><button type="button">2+</button><button type="button">4+</button></div>
+    </div>
+
+    <div class="fgroup">
+      <h3>Honesty filters</h3>
+      <div class="toggle">No long contracts <span class="switch" role="switch" aria-checked="false" tabindex="0"></span></div>
+      <div class="toggle">Flat renewal price <span class="switch" role="switch" aria-checked="false" tabindex="0"></span></div>
+      <div class="toggle">IPv4 included <span class="switch" role="switch" aria-checked="false" tabindex="0"></span></div>
+      <div class="toggle">Trustpilot 4.0+ <span class="switch" role="switch" aria-checked="false" tabindex="0"></span></div>
+    </div>
+
+    <div class="fgroup">
+      <h3>Where it runs</h3>
+      <div class="bands" role="group" aria-label="Region" style="grid-template-columns:repeat(2,1fr)"><button type="button">Europe</button><button type="button">N. America</button><button type="button">Asia</button><button type="button">Oceania</button></div>
+    </div>
+
+    <div class="fgroup">
+      <h3>Provider <span>41</span></h3>
+      <label class="field fsearch"><i data-icon="search"></i><input placeholder="Find a provider…" aria-label="Find a provider"></label>
+      <label class="opt"><input type="checkbox" class="check"><span class="pmark"><img src="../../public/logos/hostinger.svg" alt=""></span>Hostinger<small>4</small></label>
+      <label class="opt"><input type="checkbox" class="check"><span class="pmark"><img src="../../public/logos/netcup.svg" alt=""></span>netcup<small>6</small></label>
+      <label class="opt"><input type="checkbox" class="check"><span class="pmark"><img src="../../public/logos/ovh.svg" alt=""></span>OVHcloud<small>4</small></label>
+      <label class="opt"><input type="checkbox" class="check"><span class="pmark"><img src="../../public/logos/ionos.svg" alt=""></span>IONOS<small>4</small></label>
+      <button class="btn btn--ghost btn--sm" type="button" style="margin-top:6px;padding:0 6px">Show all 41</button>
+    </div>
+  </aside>
+
+  <main id="main" class="main">
+    <div class="top">
+      <div>
+        <h1>11 plans fit.</h1>
+        <p>4 GB+ · under $25. Sorted by 3-year real price, the same formula for every plan.</p>
+      </div>
+      <div class="tools">
+        <label class="field"><i data-icon="search"></i><input type="search" placeholder="Search plan or provider" aria-label="Search plans"><span class="kbd">/</span></label>
+        <label class="sr-only" for="sort">Sort</label>
+        <select id="sort" class="select hide-sm"><option>Real price: low to high</option><option>Value score</option><option>Most RAM per $</option><option>Trustpilot</option><option>Due today</option></select>
+        <div class="seg" role="group" aria-label="View"><button type="button" aria-pressed="true"><i data-icon="list"></i>Table</button><button type="button" aria-pressed="false"><i data-icon="grid"></i>Cards</button></div>
+      </div>
+    </div>
+
+    <div class="sumbar">
+      <div class="sumbar__stats">
+        <div><span>From</span><b>$4.35</b></div>
+        <div><span>Median</span><b>$9.42</b></div>
+        <div><span>Catches</span><b style="color:var(--catch-fg)">9</b></div>
+      </div>
+      <div class="mini" aria-label="Real price spread of these 11 plans, from $4.35 to $24.00" role="img">
+        <svg viewBox="0 0 600 46" preserveAspectRatio="none"><line x1="0" x2="600" y1="30" y2="30" stroke="var(--border-strong)"/><g fill="var(--fg)"><circle cx="104" cy="30" r="6" fill="var(--volt-400)" stroke="var(--ink-950)" stroke-width="1.5"/><circle cx="108" cy="18" r="6" fill="var(--volt-400)" stroke="var(--ink-950)" stroke-width="1.5"/><circle cx="120" cy="30" r="6"/><circle cx="154" cy="30" r="6"/><circle cx="199" cy="30" r="6"/><circle cx="225" cy="30" r="6"/><circle cx="249" cy="18" r="6"/><circle cx="262" cy="30" r="6"/><circle cx="386" cy="30" r="6"/><circle cx="576" cy="30" r="6"/><circle cx="576" cy="18" r="6"/></g><line x1="225" x2="225" y1="4" y2="40" stroke="var(--fg)" stroke-dasharray="3 3"/></svg>
+      </div>
+    </div>
+
+    <div class="chips" aria-label="Active filters">
+      <button class="chip chip--active" type="button">4 GB+ <i data-icon="x"></i></button>
+      <button class="chip chip--active" type="button">Under $25 <i data-icon="x"></i></button>
+      <button class="clear" type="button">Clear all</button>
+    </div>
+
+    <div class="mfilters" aria-label="Filters">
+      <button class="chip is-on" type="button"><i data-icon="sliders"></i>Filters · 2</button>
+      <button class="chip" type="button">Price</button><button class="chip" type="button">RAM</button><button class="chip" type="button">Region</button><button class="chip" type="button">Honesty</button><button class="chip" type="button">Sort</button>
+    </div>
+
+    <p class="disc"><i data-icon="info"></i><span>Some links earn us a commission. It never changes the order. <a href="methodology.html">How we check</a></span></p>
+
+    <div class="tablewrap">
+      <table class="dtable" aria-label="VPS plans">
+        <thead>
+          <tr>
+            <th scope="col" class="c-pick"><span class="sr-only">Pick</span></th>
+            <th scope="col" class="c-plan">Plan</th>
+            <th scope="col" class="c-price r is-sorted">3-yr real price <span class="arrow">↑</span></th>
+            <th scope="col" class="c-spec">CPU · RAM · Disk</th>
+            <th scope="col" class="c-trust">Trustpilot</th>
+            <th scope="col" class="c-catch">The catch</th>
+            <th scope="col" class="c-act r"><span class="sr-only">Action</span></th>
+          </tr>
+        </thead>
+        <tbody data-catalog-rows></tbody>
+      </table>
+    </div>
+
+    <div class="mcards" data-catalog-cards></div>
+
+    <div class="more"><button class="btn btn--line" type="button">Show 11 more below the filters</button><span>Showing 11 of 11</span></div>
+  </main>
+</div>
+
+<div class="tray" hidden role="region" aria-label="Compare tray">
+  <span class="tray__label"><span class="num">0</span> of 4 picked</span>
+  <div class="tray__slots"><span class="tray__slot"></span><span class="tray__slot"></span><span class="tray__slot"></span><span class="tray__slot"></span></div>
+  <a class="btn btn--volt" href="compare.html" style="border-color:var(--volt-400)">Compare <i data-icon="arrow"></i></a>
+</div>
+
+<script src="assets/bvf-data.js"></script>
+<script src="assets/bvf.js"></script>
+<script>
+  const swapLogo = () => document.querySelectorAll("[data-logo]").forEach((i) => i.src = `../logo/lockup-horizontal-${document.documentElement.dataset.theme === "dark" ? "dark" : "light"}.svg`);
+  swapLogo(); new MutationObserver(swapLogo).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
+</script>
+</body>
+</html>

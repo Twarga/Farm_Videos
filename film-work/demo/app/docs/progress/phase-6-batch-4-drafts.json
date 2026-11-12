@@ -1,0 +1,198 @@
+[
+  {
+    "offerId": "namecheap-pulsar",
+    "catchNotes": null,
+    "catchSource": "https://www.namecheap.com/hosting/vps/; offer billing notes and structured termMonths=12, renewalMonthly=None, ipv4Status=included, snapshot checked 2026-08-31. Stored billing excerpt: Five plan names confirmed on Namecheap KB (updated 2026-04-06). Numeric prices from 2026 public checkout roundups (official VPS HTML 403 on fetch). Yearly intro / renewal. UNVERIFIED if you need pixel-perfect checkout. Renewal ~$106.56/yr. Publication hold: The stored numeric price uses secondary checkout roundups; verify the exact Pulsar checkout and renewal before publication.",
+    "fitNotes": "A WordPress site has 2 vCPU and 2 GB RAM to work with.",
+    "fitSource": "https://www.namecheap.com/hosting/vps/; offer specs row, snapshot checked 2026-08-31: 2 vCPU, 2 GB RAM, 40 GB SSD RAID 10. Workload tag is an editorial fit assessment, not a performance benchmark. Publication hold: The stored numeric price uses secondary checkout roundups; verify the exact Pulsar checkout and renewal before publication.",
+    "niches": [
+      "wordpress"
+    ]
+  },
+  {
+    "offerId": "upcloud-starter-1xcpu-2gb",
+    "catchNotes": "Egress is subject to fair use; the hourly bill caps at 28 days per month.",
+    "catchSource": "https://upcloud.com/products/cloud-servers/; offer billing notes and structured termMonths=1, renewalMonthly=None, ipv4Status=included, snapshot checked 2026-08-31. Stored billing excerpt: EUR excl tax. Hourly billed, capped 28 days/month. IPv4 included on Starter. Zero-cost egress with fair-use. 1GB plan max 5 concurrent per customer. USD prices also published ($3.5 for 1GB). Publication hold: Current provider research identifies Starter disks as standard SSD; the frozen snapshot says MaxIOPS. Owner must reconcile disk type.",
+    "fitNotes": "A WordPress site has 1 vCPU and 2 GB RAM to work with.",
+    "fitSource": "https://upcloud.com/products/cloud-servers/; offer specs row, snapshot checked 2026-08-31: 1 vCPU, 2 GB RAM, 20 GB MaxIOPS. Workload tag is an editorial fit assessment, not a performance benchmark. Publication hold: Current provider research identifies Starter disks as standard SSD; the frozen snapshot says MaxIOPS. Owner must reconcile disk type.",
+    "niches": [
+      "wordpress"
+    ]
+  },
+  {
+    "offerId": "leaseweb-vps-1-us",
+    "catchNotes": null,
+    "catchSource": "https://blog.leaseweb.com/2026/07/28/vps-price-increases-are-coming-for-new-contracts-in-2026/; offer billing notes and structured termMonths=1, renewalMonthly=None, ipv4Status=included, snapshot checked 2026-08-31. Stored billing excerpt: New-contract prices from 1 Aug 2026, official Leaseweb blog. EUR for NL/DE. USD US-region also published. Specs for VPS 1/2/3/5 from public VPSBenchmarks plan sheet (4c/6GB/100GB etc.). VPS 4/6 specs UNVERIFIED. Publication hold: Hardware comes from a secondary VPSBenchmarks sheet; confirm this SKU with the provider before publication.",
+    "fitNotes": null,
+    "fitSource": "https://blog.leaseweb.com/2026/07/28/vps-price-increases-are-coming-for-new-contracts-in-2026/; offer specs row, snapshot checked 2026-08-31: 4 vCPU, 6 GB RAM, 100 GB SSD. Workload tag is an editorial fit assessment, not a performance benchmark. Publication hold: Hardware comes from a secondary VPSBenchmarks sheet; confirm this SKU with the provider before publication. No fit or workload tag asserted until hardware is confirmed.",
+    "niches": []
+  },
+  {
+    "offerId": "aws-lightsail-ls-gp-micro-v4",
+    "catchNotes": "Several Asia-Pacific locations and São Paulo include half the listed transfer.",
+    "catchSource": "https://aws.amazon.com/lightsail/pricing/; offer billing notes and structured termMonths=1, renewalMonthly=None, ipv4Status=included, snapshot checked 2026-08-31. Stored billing excerpt: USD. Linux/Unix bundles with public IPv4. Hourly up to monthly cap. APAC Mumbai/Sydney/Jakarta/Malaysia/HK and Sao Paulo get half the transfer. Skip Windows and IPv6-only (IPv6-only GP starts $3.50). Cutoff: Lightsail VM bundles only (not containers/DBs).",
+    "fitNotes": "A VPN has 2 vCPU and 1 GB RAM to work with.",
+    "fitSource": "https://aws.amazon.com/lightsail/pricing/; offer specs row, snapshot checked 2026-08-31: 2 vCPU, 1 GB RAM, 40 GB SSD. Workload tag is an editorial fit assessment, not a performance benchmark.",
+    "niches": [
+      "vpn"
+    ]
+  },
+  {
+    "offerId": "buyvm-slice-2048",
+    "catchNotes": null,
+    "catchSource": "https://buyvm.net/kvm-dedicated-server-slices/; offer billing notes and structured termMonths=1, renewalMonthly=None, ipv4Status=included, snapshot checked 2026-08-31. Stored billing excerpt: USD. Las Vegas, New York, Luxembourg. Unmetered bandwidth. DirectAdmin included. SLICE 512 billed yearly only.",
+    "fitNotes": "A WordPress site has 1 vCPU and 2 GB RAM to work with.",
+    "fitSource": "https://buyvm.net/kvm-dedicated-server-slices/; offer specs row, snapshot checked 2026-08-31: 1 vCPU, 2 GB RAM, 40 GB SSD. Workload tag is an editorial fit assessment, not a performance benchmark.",
+    "niches": [
+      "wordpress"
+    ]
+  },
+  {
+    "offerId": "hostkey-hostkey-mini",
+    "catchNotes": null,
+    "catchSource": "https://hostkey.com/vps/; offer billing notes and structured termMonths=1, renewalMonthly=None, ipv4Status=included, snapshot checked 2026-08-31. Stored billing excerpt: EUR from official hostkey.com/vps/ library. 1 Gbit/s, 3 TB included. Skip GPU SKUs. Publication hold: Current provider research identified a tax-basis difference; verify the exact SKU price and tax basis before publication.",
+    "fitNotes": "A Docker stack has 4 vCPU and 6 GB RAM to work with.",
+    "fitSource": "https://hostkey.com/vps/; offer specs row, snapshot checked 2026-08-31: 4 vCPU, 6 GB RAM, 120 GB SSD. Workload tag is an editorial fit assessment, not a performance benchmark. Publication hold: Current provider research identified a tax-basis difference; verify the exact SKU price and tax basis before publication.",
+    "niches": [
+      "docker"
+    ]
+  },
+  {
+    "offerId": "racknerd-special-6gb",
+    "catchNotes": "The promotional rate requires yearly billing; the frozen snapshot has no verified renewal amount.",
+    "catchSource": "https://www.racknerd.com/specials/; offer billing notes and structured termMonths=12, renewalMonthly=None, ipv4Status=included, snapshot checked 2026-08-31. Stored billing excerpt: Promo yearly from racknerd.com/specials/ (current public specials 2026-08-31). KVM/SolusVM, 1 Gbps, 1 IPv4.",
+    "fitNotes": "A Docker stack has 6 vCPU and 6 GB RAM to work with.",
+    "fitSource": "https://www.racknerd.com/specials/; offer specs row, snapshot checked 2026-08-31: 6 vCPU, 6 GB RAM, 100 GB SSD. Workload tag is an editorial fit assessment, not a performance benchmark.",
+    "niches": [
+      "docker"
+    ]
+  },
+  {
+    "offerId": "alphavps-alpha-c8g",
+    "catchNotes": "The €5.52/month annual equivalent requires yearly billing; monthly billing costs €6.49.",
+    "catchSource": "https://alphavps.com/cheap-vps; offer billing notes and structured termMonths=1, renewalMonthly=None, ipv4Status=included, snapshot checked 2026-08-31. Stored billing excerpt: EUR from official alphavps.com/cheap-vps. Monthly €6.49; annual billed €5.52/mo (€66.2/yr), flat at renewal. Xeon Scalable KVM. 14-day money-back. Publication hold: Current provider research identified separate monthly and annual prices; verify this exact SKU term before publishing billing prose.",
+    "fitNotes": "A Docker stack has 4 vCPU and 8 GB RAM to work with.",
+    "fitSource": "https://alphavps.com/cheap-vps; offer specs row, snapshot checked 2026-08-31: 4 vCPU, 8 GB RAM, 75 GB NVMe RAID-10. Workload tag is an editorial fit assessment, not a performance benchmark. Publication hold: Current provider research identified separate monthly and annual prices; verify this exact SKU term before publishing billing prose.",
+    "niches": [
+      "docker"
+    ]
+  },
+  {
+    "offerId": "scaleway-dev1-s",
+    "catchNotes": "Storage and public IPv4 cost extra beyond the instance rate.",
+    "catchSource": "https://www.scaleway.com/en/pricing/virtual-instances/; offer billing notes and structured termMonths=1, renewalMonthly=None, ipv4Status=extra, snapshot checked 2026-08-31. Stored billing excerpt: EUR before tax, PAR-1. Approx monthly as published (~730h). Storage and public IPv4 billed separately; egress+IPv6 in list price. Cutoff: Development (PLAY2/DEV1/STARDUST) + PRO2 + GP1 + BASIC3. Skip POP2/BASIC2/STANDARD2/STANDARD3/COMPUTE3/MEMORY3 (older or specialized matrix).",
+    "fitNotes": "A WordPress site has 2 vCPU and 2 GB RAM to work with.",
+    "fitSource": "https://www.scaleway.com/en/pricing/virtual-instances/; offer specs row, snapshot checked 2026-08-31: 2 vCPU, 2 GB RAM, disk capacity not published. Workload tag is an editorial fit assessment, not a performance benchmark.",
+    "niches": [
+      "wordpress"
+    ]
+  },
+  {
+    "offerId": "time4vps-linux-8",
+    "catchNotes": "Backups and NVMe upgrades cost extra.",
+    "catchSource": "https://www.time4vps.com/linux-vps/; offer billing notes and structured termMonths=1, renewalMonthly=14.24, ipv4Status=included, snapshot checked 2026-08-31. Stored billing excerpt: EUR. Official linux-vps page: list / intro / renewal. Linux 1 has no discount. Lithuania. Optional backups/NVMe add-ons. List €19.99/mo; renews €14.24/mo. Publication hold: Current provider research found billing-term disagreement in this product line; verify this exact SKU term before publication.",
+    "fitNotes": "A Docker stack has 3 vCPU and 8 GB RAM to work with.",
+    "fitSource": "https://www.time4vps.com/linux-vps/; offer specs row, snapshot checked 2026-08-31: 3 vCPU, 8 GB RAM, 100 GB SSD. Workload tag is an editorial fit assessment, not a performance benchmark. Publication hold: Current provider research found billing-term disagreement in this product line; verify this exact SKU term before publication.",
+    "niches": [
+      "docker"
+    ]
+  },
+  {
+    "offerId": "ovhcloud-vps-2",
+    "catchNotes": "Asia-Pacific locations include 1 TB traffic; exceeding it reduces the connection to 10 Mbps.",
+    "catchSource": "https://www.ovhcloud.com/en/vps/; offer billing notes and structured termMonths=1, renewalMonthly=None, ipv4Status=included, snapshot checked 2026-08-31. Stored billing excerpt: Advertised 'from' monthly on OVHcloud EN VPS page (VPS 2027 range). Unlimited traffic except APAC quota (VPS-1 500GB, VPS-2/3 1TB, VPS-4 3TB then cap 10Mbps). Daily backup included. IPv4 included. Bandwidth field: unlimited*.",
+    "fitNotes": "A Docker stack has 4 vCPU and 8 GB RAM to work with.",
+    "fitSource": "https://www.ovhcloud.com/en/vps/; offer specs row, snapshot checked 2026-08-31: 4 vCPU, 8 GB RAM, 75 GB NVMe. Workload tag is an editorial fit assessment, not a performance benchmark.",
+    "niches": [
+      "docker"
+    ]
+  },
+  {
+    "offerId": "contabo-cloud-vps-6",
+    "catchNotes": "The advertised monthly equivalent requires a 24-month subscription; unlimited traffic remains subject to fair use.",
+    "catchSource": "https://www.contabo.com/en/vps/; offer billing notes and structured termMonths=24, renewalMonthly=None, ipv4Status=included, snapshot checked 2026-08-31. Stored billing excerpt: EUR including VAT; advertised as effective monthly for 24-month subscription. Excl-VAT list also shown (4.40/6.00/11.20/20.00/29.60/39.20). Unlimited traffic fair-use. IPv4 included. Cutoff: Core Cloud VPS only (Performance VPS is a separate line, not fully tabulated in fetch).",
+    "fitNotes": "A Docker stack has 6 vCPU and 12 GB RAM to work with.",
+    "fitSource": "https://www.contabo.com/en/vps/; offer specs row, snapshot checked 2026-08-31: 6 vCPU, 12 GB RAM, 200 GB SSD. Workload tag is an editorial fit assessment, not a performance benchmark.",
+    "niches": [
+      "docker"
+    ]
+  },
+  {
+    "offerId": "hostinger-kvm-2",
+    "catchNotes": "The 24-month introductory rate renews at $14.99/month.",
+    "catchSource": "https://www.hostinger.com/vps-hosting; offer billing notes and structured termMonths=24, renewalMonthly=14.99, ipv4Status=included, snapshot checked 2026-08-31. Stored billing excerpt: USD. Intro price for current promo; renews at higher rate for 2 years (listed). Cancel anytime. NVMe. Regular/renewal $14.99/mo. Crossed-out list also shown ($...).",
+    "fitNotes": "A Docker stack has 2 vCPU and 8 GB RAM to work with.",
+    "fitSource": "https://www.hostinger.com/vps-hosting; offer specs row, snapshot checked 2026-08-31: 2 vCPU, 8 GB RAM, 100 GB NVMe. Workload tag is an editorial fit assessment, not a performance benchmark.",
+    "niches": [
+      "docker"
+    ]
+  },
+  {
+    "offerId": "hostsailor-hs-sailor-nvme",
+    "catchNotes": null,
+    "catchSource": "https://hostsailor.com/kvm-vps; offer billing notes and structured termMonths=1, renewalMonthly=None, ipv4Status=included, snapshot checked 2026-08-31. Stored billing excerpt: USD monthly from official clients.hostsailor.com/index.php?rp=/store/kvm-vps-nvme (also listed on hostsailor.com/kvm-vps). Netherlands NVMe KVM. 1 Gbit. 1 IPv4 + /64 IPv6. Yearly listed as 12× monthly. Dubai-registered; NL/RO DCs. Crypto accepted.",
+    "fitNotes": "A WordPress site has 2 vCPU and 2 GB RAM to work with.",
+    "fitSource": "https://hostsailor.com/kvm-vps; offer specs row, snapshot checked 2026-08-31: 2 vCPU, 2 GB RAM, 50 GB NVMe. Workload tag is an editorial fit assessment, not a performance benchmark.",
+    "niches": [
+      "wordpress"
+    ]
+  },
+  {
+    "offerId": "clouding-io-clouding-2gb",
+    "catchNotes": "Transfer beyond the included 4 TB costs €0.004/GB.",
+    "catchSource": "https://clouding.io/en/; offer billing notes and structured termMonths=1, renewalMonthly=None, ipv4Status=included, snapshot checked 2026-08-31. Stored billing excerpt: EUR. Hourly 0.011€, monthly cap 8€ from official clouding.io/en. 4 TB transfer then 0.004€/GB.",
+    "fitNotes": "A WordPress site has 1 vCPU and 2 GB RAM to work with.",
+    "fitSource": "https://clouding.io/en/; offer specs row, snapshot checked 2026-08-31: 1 vCPU, 2 GB RAM, 30 GB NVMe. Workload tag is an editorial fit assessment, not a performance benchmark.",
+    "niches": [
+      "wordpress"
+    ]
+  },
+  {
+    "offerId": "upcloud-starter-2xcpu-2gb",
+    "catchNotes": "Egress is subject to fair use; the hourly bill caps at 28 days per month.",
+    "catchSource": "https://upcloud.com/products/cloud-servers/; offer billing notes and structured termMonths=1, renewalMonthly=None, ipv4Status=included, snapshot checked 2026-08-31. Stored billing excerpt: EUR excl tax. Hourly billed, capped 28 days/month. IPv4 included on Starter. Zero-cost egress with fair-use. 1GB plan max 5 concurrent per customer. USD prices also published ($3.5 for 1GB). Publication hold: Current provider research identifies Starter disks as standard SSD; the frozen snapshot says MaxIOPS. Owner must reconcile disk type.",
+    "fitNotes": "A WordPress site has 2 vCPU and 2 GB RAM to work with.",
+    "fitSource": "https://upcloud.com/products/cloud-servers/; offer specs row, snapshot checked 2026-08-31: 2 vCPU, 2 GB RAM, 30 GB MaxIOPS. Workload tag is an editorial fit assessment, not a performance benchmark. Publication hold: Current provider research identifies Starter disks as standard SSD; the frozen snapshot says MaxIOPS. Owner must reconcile disk type.",
+    "niches": [
+      "wordpress"
+    ]
+  },
+  {
+    "offerId": "hostkey-hostkey-v3-pico",
+    "catchNotes": null,
+    "catchSource": "https://hostkey.com/vps/; offer billing notes and structured termMonths=1, renewalMonthly=None, ipv4Status=included, snapshot checked 2026-08-31. Stored billing excerpt: EUR from official hostkey.com/vps/ library. 1 Gbit/s, 3 TB included. Skip GPU SKUs. Publication hold: Current provider research identified a tax-basis difference; verify the exact SKU price and tax basis before publication.",
+    "fitNotes": "A WordPress site has 1 vCPU and 2 GB RAM to work with.",
+    "fitSource": "https://hostkey.com/vps/; offer specs row, snapshot checked 2026-08-31: 1 vCPU, 2 GB RAM, 40 GB NVMe. Workload tag is an editorial fit assessment, not a performance benchmark. Publication hold: Current provider research identified a tax-basis difference; verify the exact SKU price and tax basis before publication.",
+    "niches": [
+      "wordpress"
+    ]
+  },
+  {
+    "offerId": "ssd-nodes-kvm-medium",
+    "catchNotes": "The advertised monthly equivalent requires a 36-month billing cycle.",
+    "catchSource": "https://www.ssdnodes.com/pricing/; offer billing notes and structured termMonths=36, renewalMonthly=None, ipv4Status=included, snapshot checked 2026-08-31. Stored billing excerpt: USD. Prices on page are 3-year billing cycle, shown as $X per year (e.g. Small $66/yr = $5.50/mo). Monthly costs more (not listed as numbers on this fetch). 15 DCs including Brazil (Aug 2026). IPv6 included; IPv4 policy check at checkout.",
+    "fitNotes": "A Docker stack has 4 vCPU and 16 GB RAM to work with.",
+    "fitSource": "https://www.ssdnodes.com/pricing/; offer specs row, snapshot checked 2026-08-31: 4 vCPU, 16 GB RAM, 320 GB SSD. Workload tag is an editorial fit assessment, not a performance benchmark.",
+    "niches": [
+      "docker"
+    ]
+  },
+  {
+    "offerId": "hostwinds-ul-2",
+    "catchNotes": null,
+    "catchSource": "https://www.hostwinds.com/unmanaged-vps; offer billing notes and structured termMonths=1, renewalMonthly=None, ipv4Status=included, snapshot checked 2026-08-31. Stored billing excerpt: USD unmanaged Linux. 1c/1GB $4.99 from public 2026 plan listings (hostwinds.com/vps is JS). Higher unmanaged tiers from the same public table. Same public table; treat as advertised unmanaged Linux line. Publication hold: Stored hardware and price use secondary public listings; confirm the exact provider SKU before publication.",
+    "fitNotes": null,
+    "fitSource": "https://www.hostwinds.com/unmanaged-vps; offer specs row, snapshot checked 2026-08-31: 1 vCPU, 2 GB RAM, 50 GB SSD. Workload tag is an editorial fit assessment, not a performance benchmark. Publication hold: Stored hardware and price use secondary public listings; confirm the exact provider SKU before publication. No fit or workload tag asserted until hardware is confirmed.",
+    "niches": []
+  },
+  {
+    "offerId": "knownhost-entry-plus",
+    "catchNotes": null,
+    "catchSource": "https://www.knownhost.com/unmanaged-vps.html; offer billing notes and structured termMonths=1, renewalMonthly=None, ipv4Status=included, snapshot checked 2026-08-31. Stored billing excerpt: USD starting-at unmanaged NVMe. ATL/SEA/AMS. 2 IPv4 included. Managed VPS is a separate higher line from $43.25.",
+    "fitNotes": "A WordPress site has 2 vCPU and 2 GB RAM to work with.",
+    "fitSource": "https://www.knownhost.com/unmanaged-vps.html; offer specs row, snapshot checked 2026-08-31: 2 vCPU, 2 GB RAM, 50 GB NVMe. Workload tag is an editorial fit assessment, not a performance benchmark.",
+    "niches": [
+      "wordpress"
+    ]
+  }
+]

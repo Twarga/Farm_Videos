@@ -1,0 +1,173 @@
+{
+  "identity": {
+    "sourceBackup": "/tmp/bestvpsforme-phase7-completion-l2y1dvba/current-data.db",
+    "databaseSha256": "35e8b986f3eec0301d8283baffee91575e7823c97e9f33a6c8dc05dfd7a7c9ce",
+    "publication": {
+      "id": "341cd929-08fa-4ba3-8f54-1df8a434f4b1",
+      "snapshot_version": 6,
+      "published_at": 1791370150823
+    },
+    "counts": {
+      "published": 330,
+      "drafts": 0,
+      "snapshotOffers": 330
+    },
+    "buildDirectory": "/tmp/bestvpsforme-phase7-completion-l2y1dvba/release",
+    "buildId": "DeQrfbnwlhVS5MmCtqtwd",
+    "commit": null,
+    "node": "v24.17.0",
+    "next": "16.3.8",
+    "react": "19.2.0"
+  },
+  "measuredAt": "2026-10-12T21:48:23.296Z",
+  "documents": [
+    {
+      "route": "/",
+      "status": 200,
+      "executableScripts": 12,
+      "freshNonce": true,
+      "forgedHeadersReplaced": true,
+      "cacheControl": "private, no-store, max-age=0"
+    },
+    {
+      "route": "/",
+      "status": 200,
+      "executableScripts": 12,
+      "freshNonce": true,
+      "forgedHeadersReplaced": true,
+      "cacheControl": "private, no-store, max-age=0"
+    },
+    {
+      "route": "/catalog",
+      "status": 200,
+      "executableScripts": 9,
+      "freshNonce": true,
+      "forgedHeadersReplaced": true,
+      "cacheControl": "private, no-store, max-age=0"
+    },
+    {
+      "route": "/catalog",
+      "status": 200,
+      "executableScripts": 9,
+      "freshNonce": true,
+      "forgedHeadersReplaced": true,
+      "cacheControl": "private, no-store, max-age=0"
+    },
+    {
+      "route": "/admin",
+      "status": 200,
+      "executableScripts": 12,
+      "freshNonce": true,
+      "forgedHeadersReplaced": true,
+      "cacheControl": "private, no-store, max-age=0"
+    },
+    {
+      "route": "/api/phase7-missing",
+      "status": 404,
+      "executableScripts": 12,
+      "freshNonce": true,
+      "forgedHeadersReplaced": true,
+      "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate"
+    },
+    {
+      "route": "/icons/phase7-missing.svg",
+      "status": 404,
+      "executableScripts": 12,
+      "freshNonce": true,
+      "forgedHeadersReplaced": true,
+      "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate"
+    },
+    {
+      "route": "/_next/phase7-missing",
+      "status": 404,
+      "executableScripts": 12,
+      "freshNonce": true,
+      "forgedHeadersReplaced": true,
+      "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate"
+    },
+    {
+      "route": "/admin/editorial",
+      "status": 307,
+      "anonymousRedirect": true,
+      "cacheControl": "private, no-store, max-age=0"
+    },
+    {
+      "route": "/admin/imports",
+      "status": 307,
+      "anonymousRedirect": true,
+      "cacheControl": "private, no-store, max-age=0"
+    },
+    {
+      "route": "/admin/terms",
+      "status": 307,
+      "anonymousRedirect": true,
+      "cacheControl": "private, no-store, max-age=0"
+    }
+  ],
+  "data": [
+    {
+      "route": "/api/public/offers",
+      "status": 200,
+      "cacheControl": "no-store",
+      "credentialPropertiesAbsent": true
+    },
+    {
+      "route": "/api/health/live",
+      "status": 200,
+      "cacheControl": "no-store",
+      "credentialPropertiesAbsent": true
+    },
+    {
+      "route": "/api/health/ready",
+      "status": 200,
+      "cacheControl": "no-store",
+      "credentialPropertiesAbsent": true
+    },
+    {
+      "route": "/_next/data/DeQrfbnwlhVS5MmCtqtwd/catalog.json?ram=4",
+      "status": 200,
+      "cacheControl": "private, no-store, max-age=0",
+      "credentialPropertiesAbsent": true
+    }
+  ],
+  "metadata": {
+    "feed": {
+      "status": 200,
+      "cacheControl": "private, no-store, max-age=0",
+      "contentType": "application/rss+xml; charset=utf-8",
+      "interpretation": "Feed contains versioned guide files, not live offer-price/editorial rows; configured cache is recorded, not treated as a live price oracle."
+    },
+    "offerImage": {
+      "offerId": "liquid-web-lw-6g",
+      "status": 200,
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "publicPriceChanged": true,
+      "imageChangedAfterLivePriceMutation": true,
+      "originalImageRestored": true
+    }
+  },
+  "backup": {
+    "format": "BVF1",
+    "cipher": "AES-256-GCM",
+    "encryptedSha256": "4483e6991597f4c10a3e0d5820dcc2c79101cd56b301641b2109135b022d3d49",
+    "tablesPreserved": 23,
+    "allRowsAndSchemaPreserved": true,
+    "publishedOffers": 330,
+    "integrity": "ok",
+    "foreignKeyErrors": 0,
+    "encryptedMode": "0600",
+    "restoredMode": "0600",
+    "wrongKeyRejectedWithoutPlaintext": true,
+    "offHostUpload": false
+  },
+  "limitations": [
+    {
+      "name": "forged-fetch-destination",
+      "status": 200,
+      "html": true,
+      "cspPresent": false,
+      "interpretation": "Non-browser header-forgery probe; normal browsers forbid author-controlled Sec-Fetch-Dest. This does not establish a browser XSS exploit."
+    }
+  ],
+  "passed": true
+}

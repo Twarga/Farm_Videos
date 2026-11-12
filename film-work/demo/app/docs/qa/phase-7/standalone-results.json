@@ -1,0 +1,54 @@
+{
+  "buildId": "DeQrfbnwlhVS5MmCtqtwd",
+  "sourceCommit": "cff5358",
+  "databaseOrigin": "readonly source backup, AES-256-GCM restore, disposable synthetic session",
+  "loopbackOnly": true,
+  "health": {
+    "ok": true,
+    "service": "bestvpsforme",
+    "check": "ready",
+    "database": "ok",
+    "catalog": "published"
+  },
+  "publicAssets": [
+    {
+      "route": "/api/health/live",
+      "status": 200,
+      "contentType": "application/json",
+      "cacheControl": "no-store"
+    },
+    {
+      "route": "/api/health/ready",
+      "status": 200,
+      "contentType": "application/json",
+      "cacheControl": "no-store"
+    },
+    {
+      "route": "/phase7-missing-route",
+      "status": 404,
+      "contentType": "text/html; charset=utf-8",
+      "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate"
+    },
+    {
+      "route": "/guides/vps-market-snapshot-457-rows/opengraph-image",
+      "status": 200,
+      "contentType": "image/png",
+      "cacheControl": "private, no-store, max-age=0"
+    },
+    {
+      "route": "/icons/catalog-da9fbb3c8fe96e30.svg",
+      "status": 200,
+      "contentType": "image/svg+xml",
+      "cacheControl": "private, no-store, max-age=0"
+    }
+  ],
+  "liveBrowser": {
+    "homeToPagesCatalog": true,
+    "oneMain": true,
+    "h1": "VPS plans",
+    "documentOverflow": false,
+    "comparisonInputsEnabled": true
+  },
+  "productionDataMutations": false,
+  "rollbackCompatibility": "Runtime application sources remain those of pre-Phase-7 cff5358; that release serves the isolated restored publication. No external previous production image or traffic rollback was exercised."
+}

@@ -1,0 +1,346 @@
+{
+  "schemaVersion": 1,
+  "phase": "final",
+  "generatedAt": "2026-10-09T11:08:09.622Z",
+  "identity": {
+    "sourceBackup": "/tmp/bestvpsforme-phase7-final-2h22bhi3/source.db",
+    "databaseSha256": "35e8b986f3eec0301d8283baffee91575e7823c97e9f33a6c8dc05dfd7a7c9ce",
+    "publication": {
+      "id": "341cd929-08fa-4ba3-8f54-1df8a434f4b1",
+      "snapshot_version": 6,
+      "published_at": 1791370150823
+    },
+    "counts": {
+      "published": 330,
+      "drafts": 0,
+      "snapshotOffers": 330
+    },
+    "buildDirectory": "/tmp/bestvpsforme-phase7-final-2h22bhi3/build",
+    "buildId": "ceedf3SlpkOUfiPfCTm6_",
+    "commit": null,
+    "node": "v24.17.0",
+    "next": "16.3.8",
+    "react": "19.2.0"
+  },
+  "versions": {
+    "node": "v24.17.0",
+    "next": "16.3.8",
+    "playwright": "1.63.0",
+    "lighthouse": "13.5.0",
+    "webVitals": "6.2.3",
+    "chromium": "153.0.8010.12",
+    "chromiumExecutable": "/home/twarga/.cache/ms-playwright/chromium-1243/chrome-linux64/chrome"
+  },
+  "requestedRunsPerRouteAndCacheMode": 1,
+  "settings": {
+    "onlyCategories": [
+      "performance"
+    ],
+    "onlyAudits": [
+      "errors-in-console"
+    ],
+    "output": "json",
+    "logLevel": "error",
+    "formFactor": "mobile",
+    "throttlingMethod": "devtools",
+    "throttling": {
+      "rttMs": 150,
+      "throughputKbps": 1638.4,
+      "requestLatencyMs": 150,
+      "downloadThroughputKbps": 1638.4,
+      "uploadThroughputKbps": 750,
+      "cpuSlowdownMultiplier": 4
+    },
+    "screenEmulation": {
+      "mobile": true,
+      "width": 390,
+      "height": 844,
+      "deviceScaleFactor": 1,
+      "disabled": false
+    },
+    "maxWaitForLoad": 45000
+  },
+  "budgets": {
+    "lcpMsExclusive": 2000,
+    "clsExclusive": 0.05,
+    "labInpMsExclusive": 200,
+    "initialCatalogJsBytesExclusive": 120000
+  },
+  "scope": "One-pair diagnostic; not launch acceptance evidence",
+  "javascriptBudget": {
+    "status": "separate-check-required",
+    "tool": "scripts/check_phase7_js_budget.ts"
+  },
+  "fieldInp": {
+    "status": "unavailable",
+    "reason": "Local scripted sessions are lab evidence, not field p75"
+  },
+  "samples": [
+    {
+      "route": "/catalog",
+      "template": "catalog",
+      "mode": "cold",
+      "run": 1,
+      "valid": true,
+      "failures": [],
+      "lcp": 1015.174,
+      "cls": 0.0001053297998884421,
+      "tbt": 62.16899999999987,
+      "artifact": "/tmp/bestvpsforme-phase7-final-2h22bhi3/diagnose-fixed-artifacts/catalog-cold-1.json",
+      "settings": {
+        "output": "json",
+        "maxWaitForFcp": 30000,
+        "maxWaitForLoad": 45000,
+        "pauseAfterFcpMs": 5250,
+        "pauseAfterLoadMs": 5250,
+        "networkQuietThresholdMs": 5250,
+        "cpuQuietThresholdMs": 5250,
+        "formFactor": "mobile",
+        "throttling": {
+          "rttMs": 150,
+          "throughputKbps": 1638.4,
+          "requestLatencyMs": 150,
+          "downloadThroughputKbps": 1638.4,
+          "uploadThroughputKbps": 750,
+          "cpuSlowdownMultiplier": 4
+        },
+        "throttlingMethod": "devtools",
+        "screenEmulation": {
+          "mobile": true,
+          "width": 390,
+          "height": 844,
+          "deviceScaleFactor": 1,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+        "auditMode": false,
+        "gatherMode": false,
+        "clearStorageTypes": [
+          "file_systems",
+          "shader_cache",
+          "service_workers",
+          "cache_storage"
+        ],
+        "disableStorageReset": false,
+        "debugNavigation": false,
+        "channel": "node",
+        "usePassiveGathering": false,
+        "disableFullPageScreenshot": false,
+        "skipAboutBlank": false,
+        "blankPage": "about:blank",
+        "ignoreStatusCode": false,
+        "locale": "en-US",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": [
+          "errors-in-console"
+        ],
+        "onlyCategories": [
+          "performance"
+        ],
+        "skipAudits": null
+      },
+      "warnings": []
+    },
+    {
+      "route": "/catalog",
+      "template": "catalog",
+      "mode": "warm",
+      "run": 1,
+      "valid": true,
+      "failures": [],
+      "lcp": 360.806,
+      "cls": 0,
+      "tbt": 54.87599999999986,
+      "artifact": "/tmp/bestvpsforme-phase7-final-2h22bhi3/diagnose-fixed-artifacts/catalog-warm-1.json",
+      "settings": {
+        "output": "json",
+        "maxWaitForFcp": 30000,
+        "maxWaitForLoad": 45000,
+        "pauseAfterFcpMs": 5250,
+        "pauseAfterLoadMs": 5250,
+        "networkQuietThresholdMs": 5250,
+        "cpuQuietThresholdMs": 5250,
+        "formFactor": "mobile",
+        "throttling": {
+          "rttMs": 150,
+          "throughputKbps": 1638.4,
+          "requestLatencyMs": 150,
+          "downloadThroughputKbps": 1638.4,
+          "uploadThroughputKbps": 750,
+          "cpuSlowdownMultiplier": 4
+        },
+        "throttlingMethod": "devtools",
+        "screenEmulation": {
+          "mobile": true,
+          "width": 390,
+          "height": 844,
+          "deviceScaleFactor": 1,
+          "disabled": false
+        },
+        "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+        "auditMode": false,
+        "gatherMode": false,
+        "clearStorageTypes": [
+          "file_systems",
+          "shader_cache",
+          "service_workers",
+          "cache_storage"
+        ],
+        "disableStorageReset": true,
+        "debugNavigation": false,
+        "channel": "node",
+        "usePassiveGathering": false,
+        "disableFullPageScreenshot": false,
+        "skipAboutBlank": false,
+        "blankPage": "about:blank",
+        "ignoreStatusCode": false,
+        "locale": "en-US",
+        "blockedUrlPatterns": null,
+        "additionalTraceCategories": null,
+        "extraHeaders": null,
+        "precomputedLanternData": null,
+        "onlyAudits": [
+          "errors-in-console"
+        ],
+        "onlyCategories": [
+          "performance"
+        ],
+        "skipAudits": null
+      },
+      "warnings": []
+    }
+  ],
+  "interactions": [
+    {
+      "journey": "filters-auto-apply-clear",
+      "route": "/catalog",
+      "run": 1,
+      "valid": true,
+      "evidence": {
+        "value": 136,
+        "interactionCount": 4,
+        "supported": true,
+        "eventEntries": 83,
+        "metricId": "v6-1791544135573-3286114317396",
+        "documentRoute": "/catalog"
+      },
+      "assessment": {
+        "status": "measured",
+        "passed": true,
+        "value": 136
+      }
+    }
+  ],
+  "failures": [],
+  "routes": [
+    {
+      "template": "catalog",
+      "route": "/catalog"
+    }
+  ],
+  "diagnosticOnly": true,
+  "publicOfferCount": 330,
+  "loadSummaries": [
+    {
+      "route": "/catalog",
+      "mode": "cold",
+      "validSamples": 1,
+      "invalidSamples": 0,
+      "lcp": {
+        "median": 1015.174,
+        "worst": 1015.174,
+        "count": 1
+      },
+      "cls": {
+        "median": 0.0001053297998884421,
+        "worst": 0.0001053297998884421,
+        "count": 1
+      },
+      "passed": true
+    },
+    {
+      "route": "/catalog",
+      "mode": "warm",
+      "validSamples": 1,
+      "invalidSamples": 0,
+      "lcp": {
+        "median": 360.806,
+        "worst": 360.806,
+        "count": 1
+      },
+      "cls": {
+        "median": 0,
+        "worst": 0,
+        "count": 1
+      },
+      "passed": true
+    }
+  ],
+  "interactionSummaries": [
+    {
+      "journey": "filters-auto-apply-clear",
+      "route": "/catalog",
+      "validSamples": 1,
+      "measured": {
+        "median": 136,
+        "worst": 136,
+        "count": 1
+      },
+      "belowThresholdSamples": 0,
+      "passed": true
+    },
+    {
+      "journey": "sort-keyboard",
+      "route": "/catalog",
+      "validSamples": 0,
+      "measured": null,
+      "belowThresholdSamples": 0,
+      "passed": false
+    },
+    {
+      "journey": "pagination",
+      "route": "/catalog",
+      "validSamples": 0,
+      "measured": null,
+      "belowThresholdSamples": 0,
+      "passed": false
+    },
+    {
+      "journey": "compare-picks",
+      "route": "/catalog",
+      "validSamples": 0,
+      "measured": null,
+      "belowThresholdSamples": 0,
+      "passed": false
+    },
+    {
+      "journey": "compare-removal",
+      "route": "/compare?p=liquid-web-lw-6g,liquid-web-lw-4g",
+      "validSamples": 0,
+      "measured": null,
+      "belowThresholdSamples": 0,
+      "passed": false
+    },
+    {
+      "journey": "theme",
+      "route": "/",
+      "validSamples": 0,
+      "measured": null,
+      "belowThresholdSamples": 0,
+      "passed": false
+    },
+    {
+      "journey": "admin-client-validation",
+      "route": "/admin",
+      "validSamples": 0,
+      "measured": null,
+      "belowThresholdSamples": 0,
+      "passed": false
+    }
+  ],
+  "diagnosticSucceeded": true,
+  "passed": false
+}

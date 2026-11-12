@@ -1,0 +1,39 @@
+{
+  "database": "/home/twarga/Documents/bestvpsforme/data/bestvpsforme.db",
+  "receipts": [
+    {
+      "offerId": "liquid-web-lw-1g",
+      "requestId": "16d7999d-3058-4d74-9cef-18e1a976d4bd",
+      "priceId": "736e3b41-e4d1-4b0d-976a-69100425f1a9",
+      "setupFee": 0,
+      "setupFeeSource": "https://www.liquidweb.com/vps-hosting/cloud-vps/; checked 2026-10-07. Cloud VPS product page states: Zero setup fees. Compute table matches this stored plan. Applies to base server setup only; taxes, management and add-ons remain separate. Existing source price date and renewal review are preserved.",
+      "savedAt": "2026-10-07T11:09:48.572Z"
+    },
+    {
+      "offerId": "liquid-web-lw-2g",
+      "requestId": "1566cd12-44f5-42ab-82ab-5becec9f3e73",
+      "priceId": "85f295d7-64e9-40ac-9e23-69a34907daa8",
+      "setupFee": 0,
+      "setupFeeSource": "https://www.liquidweb.com/vps-hosting/cloud-vps/; checked 2026-10-07. Cloud VPS product page states: Zero setup fees. Compute table matches this stored plan. Applies to base server setup only; taxes, management and add-ons remain separate. Existing source price date and renewal review are preserved.",
+      "savedAt": "2026-10-07T11:09:48.578Z"
+    },
+    {
+      "offerId": "liquid-web-lw-4g",
+      "requestId": "bf6ba320-6610-4f8d-b6ee-22f2b5e7eb64",
+      "priceId": "f051ccc3-afbf-43cb-816e-aa83ecc14156",
+      "setupFee": 0,
+      "setupFeeSource": "https://www.liquidweb.com/vps-hosting/cloud-vps/; checked 2026-10-07. Cloud VPS product page states: Zero setup fees. Compute table matches this stored plan. Applies to base server setup only; taxes, management and add-ons remain separate. Existing source price date and renewal review are preserved.",
+      "savedAt": "2026-10-07T11:09:48.584Z"
+    },
+    {
+      "offerId": "liquid-web-lw-6g",
+      "requestId": "248764df-6cc0-4a26-89ab-1edb3c97b9bf",
+      "priceId": "ae20b2b4-1190-4a17-a4b7-7c5536191839",
+      "setupFee": 0,
+      "setupFeeSource": "https://www.liquidweb.com/vps-hosting/cloud-vps/; checked 2026-10-07. Cloud VPS product page states: Zero setup fees. Compute table matches this stored plan. Applies to base server setup only; taxes, management and add-ons remain separate. Existing source price date and renewal review are preserved.",
+      "savedAt": "2026-10-07T11:09:48.590Z"
+    }
+  ],
+  "unchangedOtherPriceRecords": 652,
+  "integrity": "ok"
+}

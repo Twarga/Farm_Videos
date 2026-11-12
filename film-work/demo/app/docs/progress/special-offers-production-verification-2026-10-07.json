@@ -1,0 +1,25 @@
+{
+  "counts": {
+    "offers": 331,
+    "offer_prices": 656,
+    "providers": 48,
+    "offer_editorial": 0,
+    "admin_users": 0,
+    "audit_log": 1,
+    "site_settings": 1,
+    "__drizzle_migrations": 17,
+    "publishedOffers": 330,
+    "activeProviders": 44
+  },
+  "checks": {
+    "integrity": "ok",
+    "foreignKeyFailures": [],
+    "backupIntegrity": "ok",
+    "backupPermissions": "0o600",
+    "preserved_offers": true,
+    "preserved_offer_prices": true,
+    "preserved_providers": true,
+    "preserved_offer_editorial": true,
+    "preserved_audit_log": true
+  }
+}

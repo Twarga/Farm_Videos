@@ -1,0 +1,43 @@
+[
+  {
+    "provider": "CloudCone",
+    "plan_slugs": [
+      "ssd-vps-1",
+      "ssd-vps-2",
+      "ssd-vps-3",
+      "ssd-vps-4",
+      "ssd-vps-5",
+      "ssd-vps-6"
+    ],
+    "url": "https://cloudcone.com/vps/",
+    "excerpt": "### SSD VPS 1\n**$2.33 /MO** Billed **$28** per year, USD\n- 2 vCPU Cores\n- 1 GB Dedicated RAM\n- 30 GB Pure SSD Disk\n- On RAID-10 Configuration\n- 4 TB/Mo Bandwidth at 1 Gb/s\n- 1x IPv4 and 3x IPv6\n- Category: VPS\n- Virtualization: KVM\n- Datacenters in USA",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "CloudCone",
+    "plan_slugs": [
+      "sc2-starter",
+      "sc2-basic",
+      "sc2-standard",
+      "sc2-business",
+      "sc2-professional",
+      "sc2-premium"
+    ],
+    "url": "https://cloudcone.com/cloud-servers/",
+    "excerpt": "### SC2 Starter Plan\n**$5.20** Per Month ($0.00699 per hour)\n- 1 vCPU Core\n- 1 GB Dedicated RAM\n- 20 GB RAID-10 SSD Disk\n- 3 TB/Mo Bandwidth at 1 Gb/s\n- 1x IPv4 and 3x IPv6\n- Los Angeles, US\n- Includes Managed Firewall\n- Includes Advance Server Metrics",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "CloudCone",
+    "plan_slugs": [
+      "frankenstein-26-ssd-vps-1",
+      "frankenstein-26-ssd-vps-2",
+      "frankenstein-26-ssd-vps-3",
+      "frankenstein-26-ssd-vps-4",
+      "frankenstein-26-ssd-vps-5"
+    ],
+    "url": "https://hello.cloudcone.com/halloween-vps-sale-2026/",
+    "excerpt": "### Frankenstein-26-SSD-VPS-1\n#### Lifetime Recurring Offer\n$20.25/Year\n- 2 vCPU Core\n- 1.25 GB Dedicated RAM\n- 30 GB of SSD Disk\n- On RAID-10 Configuration\n- 4 TB/Mo Bandwidth at 1 Gb/s\n- 1x IPv4 and 3x IPv6\n- Datacenter: Los Angeles, USA",
+    "checked_date": "2026-11-01"
+  }
+]

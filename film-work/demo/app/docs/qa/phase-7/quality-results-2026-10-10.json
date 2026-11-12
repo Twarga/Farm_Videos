@@ -1,0 +1,94 @@
+{
+  "recordedAt": "2026-10-10T14:32:25.759358+00:00",
+  "buildId": "kfsfRayDWDzMr7Vzz_twm",
+  "checks": [
+    {
+      "command": "data:check",
+      "log": "/tmp/bestvpsforme-phase7-final-2h22bhi3/data-final.log",
+      "logSha256": "bd0282f0d46e103f0200464e8cfdd33c7673c2500b8fca0cc1d3b479d4dd52f2",
+      "exitCode": 0
+    },
+    {
+      "command": "lint",
+      "log": "/tmp/bestvpsforme-phase7-final-2h22bhi3/lint-final.log",
+      "logSha256": "1a90765efeb70e6b5f7bda8c7a78bbc88208701bf2f46a2ac6eef0d5583dae25",
+      "exitCode": 0
+    },
+    {
+      "command": "typecheck",
+      "log": "/tmp/bestvpsforme-phase7-final-2h22bhi3/typecheck-final.log",
+      "logSha256": "73853f358a60f7fa300f4870d0d865184dbec299d0b6332f11ac8eaf7eb401b5",
+      "exitCode": 0
+    },
+    {
+      "command": "test",
+      "log": "/tmp/bestvpsforme-phase7-final-2h22bhi3/unit-final.log",
+      "logSha256": "136c08fe6758d5160c8d5189d6b75f1ecf9492d67bafc60173a919a3a3843dd7",
+      "exitCode": 0
+    },
+    {
+      "command": "build",
+      "log": "/tmp/bestvpsforme-phase7-final-2h22bhi3/build-final-group.log",
+      "logSha256": "536a8684d5feff91e893345d9dc3c85a520efe80637f031afe0f414e90a0d2dd",
+      "exitCode": 0
+    },
+    {
+      "command": "npm audit --omit=dev --audit-level=high",
+      "log": "/tmp/bestvpsforme-phase7-final-2h22bhi3/audit-final.log",
+      "logSha256": "6d8c5c8f3d7684adb070417bd608d01ae90aa3dc26a65af03ffda4955f38d9a3",
+      "exitCode": 0
+    },
+    {
+      "command": "check:security",
+      "log": "/tmp/bestvpsforme-phase7-final-2h22bhi3/security-final.log",
+      "logSha256": "b662694eb9ba671a2ddc084d3c1922d9c89d52756f02a5b8fce8c2513a9abe09",
+      "exitCode": 0
+    },
+    {
+      "command": "test:e2e",
+      "log": "/tmp/bestvpsforme-phase7-final-2h22bhi3/browser-final.log",
+      "logSha256": "a3e3c1ff1a857b06d95d49201971ecffcde807afc4d3da16f0bb2cc83c1b2017",
+      "exitCode": 0
+    },
+    {
+      "command": "check:phase7:a11y",
+      "log": "/tmp/bestvpsforme-phase7-final-2h22bhi3/accessibility-final.log",
+      "logSha256": "06f227aca1e4d2e4647eaf6c8d4c60d3931ab6af5b32d5a91ba71148297be872",
+      "exitCode": 0
+    },
+    {
+      "command": "check:phase7:js",
+      "log": "/tmp/bestvpsforme-phase7-final-2h22bhi3/js-final.log",
+      "logSha256": "2f24bacbc142883271d6012295e2fc0c93ef00d06fc42770c0595a4198446873",
+      "exitCode": 1
+    },
+    {
+      "command": "measure:phase7",
+      "log": "/tmp/bestvpsforme-phase7-final-2h22bhi3/performance-final-current.log",
+      "logSha256": "f074211dbac767002b1afea23694ff9af88c488b1a9eee6d14732349a5eee267",
+      "exitCode": 0
+    }
+  ],
+  "unitTests": {
+    "passed": 495,
+    "files": 82
+  },
+  "browserTests": {
+    "passed": 885,
+    "skipped": 207,
+    "failed": 0
+  },
+  "research": {
+    "errors": 0,
+    "warnings": 7
+  },
+  "productionDependencyVulnerabilities": 0,
+  "knownFailure": "Complete catalog first-load JavaScript is 168903 gzip-9 bytes, exceeding the unchanged <120000-byte budget.",
+  "performance": {
+    "validLoadSamples": 42,
+    "validInteractionRuns": 24,
+    "worstLcpMs": 1018.478,
+    "worstCls": 0.012166657190801346,
+    "worstLabInpMs": 176
+  }
+}

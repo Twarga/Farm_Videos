@@ -1,0 +1,187 @@
+[
+  {
+    "provider": "SSD Nodes",
+    "plan_slugs": [
+      "kvm-small",
+      "kvm-medium",
+      "kvm-2xl",
+      "kvm-4xl",
+      "kvm-8xl",
+      "kvm-16xl"
+    ],
+    "url": "https://www.ssdnodes.com/pricing/",
+    "excerpt": "### KVM / SMALL\n### ~~$83~~ $66\nPer Year\n- 8GB RAM\n- 160GB SSD\n- 2x Intel Silver vCPU\n- 4TB/Month Outbound Transfer\n- Free IPv6 Included\n- That's $5.50/month!\n*The above prices are for 3-years billing cycles.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Render",
+    "plan_slugs": [
+      "render-free-web",
+      "render-starter",
+      "render-standard"
+    ],
+    "url": "https://render.com/pricing",
+    "excerpt": "| Free | $0/month | 512 MB RAM | free |\n| Less than 1 CPU | $7/month | 512 MB RAM | 0.5c-512mb |\n| 1 CPU | $25/month | 2 GB RAM | 1c-2g |\nSSDs for $0.25/GB per month",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Railway",
+    "plan_slugs": [
+      "railway-free",
+      "railway-hobby"
+    ],
+    "url": "https://railway.app/pricing",
+    "excerpt": "| Free | $0 | $1/month | 1 vCPU / 0.5 GB | 1 | 3 days |\n| Hobby | $5 | $5/month | 48 vCPU / 48 GB | 6 | 7 days |\nRailway charges per-second for the CPU, memory, and disk your services actually use.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "VDSina",
+    "plan_slugs": [
+      "vdsina-standard-from",
+      "vdsina-standard-2gb",
+      "vdsina-standard-4gb",
+      "vdsina-standard-8gb"
+    ],
+    "url": "https://vdsina.com/pricing/standard",
+    "excerpt": "1 core, 1 Gb, 10 Gb, 1 Tb: 0.07 $ / day 2.10 $ / month\n1 core, 2 Gb, 40 Gb, 32 Tb: 0.50 $ / day 15.00 $ / month\n2 core, 4 Gb, 80 Gb, 32 Tb: 0.67 $ / day 20.10 $ / month\n4 core, 8 Gb, 160 Gb, 32 Tb: 1.34 $ / day 40.20 $ / month",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Njalla",
+    "plan_slugs": [
+      "njalla-15",
+      "njalla-30",
+      "njalla-45",
+      "njalla-60",
+      "njalla-75",
+      "njalla-90"
+    ],
+    "url": "https://njal.la/servers/",
+    "excerpt": "VPS 15: 1 Core, 1.5 GB RAM, 15 GB Disk, 1.5 TB Traffic, 15 \u20ac / month\nVPS 30: 2 Cores, 3 GB RAM, 30 GB Disk, 3 TB Traffic, 30 \u20ac / month\nVPS 90: 6 Cores, 9 GB RAM, 90 GB Disk, 9 TB Traffic, 90 \u20ac / month\nIn secret locations in Sweden.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "FlokiNET",
+    "plan_slugs": [
+      "floki-ro-i",
+      "floki-ro-ii",
+      "floki-ro-iii",
+      "floki-ro-iv",
+      "floki-ro-v",
+      "floki-ro-vi",
+      "floki-ro-vii"
+    ],
+    "url": "https://flokinet.is/vps/",
+    "excerpt": "### Romania VPS I Starting at \u20ac 7.99 per month\n- 1 CPU Core, 1 GB RAM, 20 GB NVMe Storage, 1 Gbit Uplink / 3 TB Traffic, 1 IPv4 & /64 IPv6, KVM Based\n### Romania VPS VII Starting at \u20ac 73.90 per month\n- 12 CPU Core, 12 GB RAM, 220 GB NVMe, 20 TB Traffic",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "ServerMania",
+    "plan_slugs": [
+      "sm-starter",
+      "sm-compute-2",
+      "sm-compute-4",
+      "sm-compute-8",
+      "sm-compute-16",
+      "sm-compute-32"
+    ],
+    "url": "https://www.servermania.com/cloud-hosting.htm",
+    "excerpt": "| Starter | 1 | 1GB | 15 GB | 1 TB | $8.93/mo | $0.009489/hour |\n| Compute | 2 | 4GB | 50 GB | 4 TB | $27.79/mo | $0.027116/hour |\n| Compute | 4 | 8GB | 150 GB | 5 TB | $49.58/mo | $0.054213/hour |\n| Compute | 32 | 64GB | 600 GB | 9 TB | $315.77/mo | $0.407910/hour |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "RoseHosting",
+    "plan_slugs": [
+      "rose-nvme-2",
+      "rose-nvme-4",
+      "rose-nvme-8",
+      "rose-nvme-12",
+      "rose-nvme-16"
+    ],
+    "url": "https://www.rosehosting.com/linux-vps-hosting.html",
+    "excerpt": "FIXED PRICE - NO PRICE CHANGE ON RENEWAL\nNVME 2 vps: $43.99 /mo, 2 Dedicated Xeon Cores, 2 GB DDR5 ECC RAM, 50 GB PCIe4 NVMe Disk, Unmetered Transfer\nNVME 16 vps: $159.99 /mo, 8 Dedicated Xeon Cores, 16 GB DDR5 ECC RAM, 200 GB NVMe",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "HostSailor",
+    "plan_slugs": [
+      "hs-mini-nvme",
+      "hs-sailor-nvme",
+      "hs-seaman-nvme",
+      "hs-lieutenant-nvme"
+    ],
+    "url": "https://hostsailor.com/kvm-vps",
+    "excerpt": "Mini sailor monthlyPrice: $4.99 yearlyPrice: $59.88\nSailor NVMe VPS monthlyPrice: $8.99 yearlyPrice: $107.88\nSeaman NVMe VPS monthlyPrice: $15.99 yearlyPrice: $191.88\nLieutenant monthlyPrice: $22.99 yearlyPrice: $275.88\nAll plans include Linux by default. Hosted in Netherlands.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Privex",
+    "plan_slugs": [
+      "privex-v1-se-ssd",
+      "privex-v2-se-ssd",
+      "privex-v1-se-nvme",
+      "privex-v2-nl-nvme"
+    ],
+    "url": "https://pay.privex.io/order/choose-server-nojs",
+    "excerpt": "V1-SE-SSD Sweden 1G RAM 25G SSD 1 core 100mbps 1 TB cap Has IPv4: YES $0.00 setup fee $7.49 / mo\nV2-SE-SSD Sweden 2G RAM 35G SSD 2 cores $10.00 / mo\nV1-SE-NVME Sweden 1G RAM 20G NVMe $10.00 / mo\nV2-NL-NVME Netherlands 2G RAM 30G NVMe 2 cores $15.00 / mo",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Shinjiru",
+    "plan_slugs": [
+      "shinjiru-basic",
+      "shinjiru-standard",
+      "shinjiru-pro",
+      "shinjiru-premium"
+    ],
+    "url": "https://www.shinjiru.com/offshore-web-hosting/offshore-vps-openvz-linux/",
+    "excerpt": "<form name=\"BASIC\"><option>$9.90 (24 mths)</option><option>$12.90 (1 mth)</option></form>\n<form name=\"STANDARD\"><option>$18.90 (1 mth)</option></form>\n<form name=\"PRO\"><option>$28.90 (1 mth)</option></form>\n<form name=\"PREMIUM\"><option>$36.90 (1 mth)</option></form>",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "OrangeWebsite",
+    "plan_slugs": [
+      "ow-l1",
+      "ow-l2",
+      "ow-l3",
+      "ow-l4"
+    ],
+    "url": "https://orangewebsite.com/hosting/vps",
+    "excerpt": "Cloud VPS Level #1 Starting at \u20ac29.90 p/month* RAM 1GB Disk Space 20GB CPU Cores 2 Monthly Traffic 200GB Dedicated IP 1 KVM\nCloud VPS Level #2 Starting at \u20ac45.90 p/month*\nCloud VPS Level #3 Starting at \u20ac59.90 p/month*\nCloud VPS Level #4 Starting at \u20ac89.90 p/month*",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "alwaysdata",
+    "plan_slugs": [
+      "alwaysdata-free",
+      "alwaysdata-plus-from"
+    ],
+    "url": "https://www.alwaysdata.com/en/offers/",
+    "excerpt": "Free: For personal needs, ad-free offer available for life 0 \u20ac /month Disk space SSD 1 Go gift RAM 256 Mo free CPU \u00bc this too, for life\nPlus: Managed cloud Starting from 5 \u20ac VAT excl./mo Disk space SSD 50 Go RAM 1 Go CPU 1",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Cockbox",
+    "plan_slugs": [
+      "cb-nvme-md-2",
+      "cb-nvme-md-4",
+      "cb-sshd-ro-2",
+      "cb-hdd-ro-1"
+    ],
+    "url": "https://cockbox.org/",
+    "excerpt": "$15.00/mo 2 GB DDR4 Memory 1 vCPU core 20 GB NVME Storage Unlimited shared gigabit [Purchase](https://cockbox.org/service/add/9/2)\n$30.00/mo 4 GB DDR4 Memory 2 vCPU cores 40 GB NVME Storage\n$15.00/mo 2 GB Memory 1 vCPU core 60 GB SSHD\n$10.00/mo 1 GB Memory 0.5 vCPU 60 GB HDD",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Yourserver",
+    "plan_slugs": [
+      "ys-1gb",
+      "ys-4gb",
+      "ys-8gb",
+      "ys-16gb"
+    ],
+    "url": "https://www.yourserver.se/en/linux",
+    "excerpt": "\u20ac5 / month RAM 1GB CPU cores 1 SSD disk 10GB Transfer Unlimited Location Sweden Latvia BUY NOW\n\u20ac20 / month RAM 4GB CPU cores 1 SSD disk 40GB\n\u20ac40 / month RAM 8GB CPU cores 2 SSD disk 80GB\nLarger plans Available: 16GB RAM 4 CPU 160GB SSD \u20ac80",
+    "checked_date": "2026-11-01"
+  }
+]

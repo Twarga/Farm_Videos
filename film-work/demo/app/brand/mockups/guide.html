@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Guide — Compare VPS prices — bestvpsforme</title>
+<link rel="icon" href="../logo/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/bvf.css">
+<style>
+  .ghead { padding: 64px 0 48px; border-bottom: 1px solid var(--border); }
+  .ghead h1 { max-width: 16ch; margin-top: 22px; }
+  .ghead .deck { margin-top: 24px; max-width: 54ch; font: 440 22px/1.45 var(--font-sans); color: var(--fg-muted); }
+  .byline { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; margin-top: 32px; font: 520 14px/1.3 var(--font-sans); }
+  .avatar { width: 40px; height: 40px; border-radius: 50%; background: var(--ink-950); color: var(--volt-400); display: grid; place-items: center; font: 800 15px/1 var(--font-sans); font-stretch: 125%; }
+  .layout { display: grid; grid-template-columns: 220px minmax(0, 720px) 1fr; gap: 64px; padding: 56px 0 120px; }
+  .toc { position: sticky; top: calc(var(--nav-h) + 32px); align-self: start; }
+  .toc ol { list-style: none; margin: 16px 0 0; padding: 0; display: grid; gap: 4px; counter-reset: t; }
+  .toc a { display: grid; grid-template-columns: 28px 1fr; padding: 8px 10px; border-radius: 10px; font: 520 14px/1.35 var(--font-sans); color: var(--fg-muted); counter-increment: t; }
+  .toc a::before { content: counter(t, decimal-leading-zero); font: 560 12px/1.6 var(--font-mono); color: var(--fg-subtle); }
+  .toc a[aria-current] { background: var(--bg-muted); color: var(--fg); }
+  .prose { font: 420 19px/1.7 var(--font-sans); }
+  .prose > * + * { margin-top: 1.1em; }
+  .prose h2 { margin-top: 2.2em; font: 760 34px/1.1 var(--font-sans); font-stretch: 118%; letter-spacing: -.035em; }
+  .prose h2 + p { margin-top: .7em; }
+  .prose strong { font-weight: 650; }
+  .prose a { text-decoration: underline; text-decoration-color: var(--volt-600); text-decoration-thickness: 2px; text-underline-offset: 4px; }
+  .prose ol { padding-left: 1.2em; }
+  .prose li + li { margin-top: .45em; }
+  .formula { margin: 1.6em 0; padding: 26px 28px; border-radius: var(--r-xl); background: var(--ink-950); color: #f3f5f7; font: 520 17px/1.7 var(--font-mono); letter-spacing: -.02em; }
+  .formula .v { color: var(--volt-400); }
+  .formula small { display: block; margin-top: 12px; font: 460 13.5px/1.5 var(--font-sans); color: #a9b0bb; letter-spacing: 0; }
+  .callout { display: grid; grid-template-columns: 36px 1fr; gap: 14px; padding: 22px 24px; border-radius: var(--r-lg); background: var(--catch-bg); font: 480 16.5px/1.55 var(--font-sans); }
+  .callout svg { width: 24px; height: 24px; color: var(--catch-fg); }
+  .callout b { color: var(--catch-fg); }
+  .mention { margin-top: 1.6em; border: 1px solid var(--border); border-radius: var(--r-xl); overflow: hidden; }
+  .mention h3 { padding: 16px 20px; font: 700 14px/1 var(--font-sans); font-stretch: 108%; background: var(--bg-subtle); border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; }
+  .mention h3 span { font: 500 12px/1 var(--font-mono); color: var(--fg-subtle); }
+  .mention .dtable td { font-size: 14px; padding: 12px 20px; }
+  .aside { align-self: start; position: sticky; top: calc(var(--nav-h) + 32px); max-width: 300px; }
+  .aside .card { padding: 22px; }
+  .aside h3 { font: 700 17px/1.25 var(--font-sans); font-stretch: 108%; margin-top: 12px; }
+  .aside p { margin-top: 8px; font: 480 14px/1.5 var(--font-sans); color: var(--fg-muted); }
+  @media (max-width: 1180px) { .layout { grid-template-columns: minmax(0, 1fr); } .toc, .aside { display: none; } .prose { font-size: 18px; } }
+</style>
+</head>
+<body>
+<header class="nav">
+  <div class="container--wide nav__in">
+    <a class="nav__logo" href="home.html" aria-label="bestvpsforme home"><img src="../logo/lockup-horizontal-light.svg" alt="bestvpsforme" data-logo></a>
+    <nav class="nav__links" aria-label="Primary"><a href="catalog.html">Plans</a><a href="compare.html">Compare</a><a href="provider.html">Providers</a><a href="guide.html" aria-current="page">Guides</a><a href="methodology.html">How we check</a></nav>
+    <button class="nav__search" type="button" data-open-palette><i data-icon="search"></i>Search 314 plans, 41 providers…<span class="kbd">⌘K</span></button>
+    <div class="row nav__right" style="--gap:6px"><a class="btn btn--line btn--sm nav__compare" href="compare.html"><i data-icon="compare"></i>Compare <span class="nav__count">0</span></a><button class="btn btn--ghost btn--icon" type="button" data-theme-toggle aria-label="Switch theme"><i data-icon="moon"></i></button></div>
+  </div>
+</header>
+<main>
+  <header class="ghead"><div class="container--wide">
+    <p class="eyebrow">Guides · Money · 7 min read</p>
+    <h1 class="d-xl">How to compare VPS prices without falling for the <span class="hl" data-animate>first-term number.</span></h1>
+    <p class="deck">A four-step method for intro prices, contract terms, renewals and add-ons. It's the same method our catalog uses.</p>
+    <div class="byline"><span class="avatar">b/</span><span>The bestvpsforme desk<br><span class="muted">Independent research</span></span><span class="stamp"><i data-icon="check"></i>Checked 1 Sep 2026</span></div>
+  </div></header>
+
+  <div class="container--wide layout">
+    <nav class="toc" aria-label="On this page"><p class="eyebrow">On this page</p><ol><li><a href="#s1" aria-current="true">Find the term</a></li><li><a href="#s2">Find the renewal</a></li><li><a href="#s3">Add the extras</a></li><li><a href="#s4">Divide by 36</a></li></ol></nav>
+
+    <article class="prose">
+      <p>A VPS ad shows the smallest number the provider can legally print. That number is true. It just isn't what you'll pay. Here is how to find the number that is.</p>
+      <h2 id="s1">1. Find the term</h2>
+      <p>Look for <strong>"with a 12-month term"</strong>, "billed annually" or "24 months". If the intro price needs a long term, you pay for the whole term <span class="catch-mark">on day one</span>.</p>
+      <div class="callout"><i data-icon="warn"></i><p><b>Real example.</b> Hostinger KVM 1 is advertised at $6.49/mo. It needs 24 months upfront: <b>$155.76 due today.</b></p></div>
+      <h2 id="s2">2. Find the renewal</h2>
+      <p>The renewal price is usually in the footnote or the checkout summary. It's the price you'll pay for most of the server's life.</p>
+      <h2 id="s3">3. Add the extras</h2>
+      <p>IPv4 addresses, backups, snapshots and control panels are often extra. <strong>40 plans</strong> in our snapshot charge extra for a public IPv4.</p>
+      <h2 id="s4">4. Divide by 36</h2>
+      <p>Three years is roughly how long a small server lives. Add up the whole bill and divide by 36 months.</p>
+      <div class="formula">real_price = ( <span class="v">due_today</span> + <span class="v">renewals</span> + <span class="v">extras</span> ) ÷ 36<br>$8.32 = ( $155.76 + 12 × $11.99 + $0 ) ÷ 36<small>This is the "3-year real price" you see on every plan in the catalog.</small></div>
+      <div class="mention"><h3>Plans mentioned <span>snapshot 31 Aug 2026</span></h3>
+        <table class="dtable"><tbody>
+          <tr><td><a class="id" href="offer.html"><span class="pmark pmark--sm"><img src="../../public/logos/hostinger.svg" alt=""></span><strong>Hostinger KVM 1</strong></a></td><td class="r"><span class="price"><b>$8.32<small>/mo</small></b></span></td></tr>
+          <tr><td><a class="id" href="offer.html"><span class="pmark pmark--sm"><img src="../../public/logos/ionos.svg" alt=""></span><strong>IONOS VPS M+</strong></a></td><td class="r"><span class="price"><b>$10.42<small>/mo</small></b></span></td></tr>
+        </tbody></table></div>
+    </article>
+
+    <aside class="aside"><div class="card"><span class="rack" style="width:64px;gap:4px"><i style="height:12px;padding:0 5px"></i><i class="pick" style="height:12px;padding:0 5px"></i><i style="height:12px;padding:0 5px"></i></span><h3>Skip the maths.</h3><p>Every plan in the catalog already shows its 3-year real price.</p><a class="btn btn--volt btn--sm" style="margin-top:16px" href="catalog.html">Open the catalog <i data-icon="arrow"></i></a></div></aside>
+  </div>
+</main>
+<script src="assets/bvf-data.js"></script>
+<script src="assets/bvf.js"></script>
+<script>
+  const swapLogo = () => document.querySelectorAll("[data-logo]").forEach((i) => i.src = `../logo/lockup-horizontal-${document.documentElement.dataset.theme === "dark" ? "dark" : "light"}.svg`);
+  swapLogo(); new MutationObserver(swapLogo).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
+</script>
+</body>
+</html>

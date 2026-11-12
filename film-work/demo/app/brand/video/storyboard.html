@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Storyboard — LaunchFilm key frames</title>
+<link rel="stylesheet" href="../marketing/marketing.css">
+<style>
+  body { background: #fff; }
+  .f { width: 1920px; height: 1080px; position: relative; overflow: hidden; display: none; }
+  .f.on { display: block; }
+  .f:not(.on) { display: none; }
+  .tc { position: absolute; left: 40px; bottom: 32px; font: 600 22px/1 var(--font-mono); color: var(--ink-400); letter-spacing: .04em; }
+  .cap { position: absolute; left: 50%; bottom: 88px; transform: translateX(-50%); padding: 14px 26px; border-radius: 14px; background: rgb(255 255 255 / .92); font: 600 44px/1.2 var(--font-sans); color: var(--ink-950); white-space: nowrap; box-shadow: 0 0 0 1px var(--ink-150); }
+  .dark .cap { background: rgb(14 17 22 / .92); color: #fff; box-shadow: none; }
+  /* F1 ad */
+  .f1.on { display: grid; place-items: center; }
+  .f1 .ad { width: 1100px; padding: 80px; border-radius: 48px; background: var(--ink-50); }
+  .f1 .ad b { font: 800 380px/.8 var(--font-sans); font-stretch: 125%; letter-spacing: -.07em; }
+  .f1 .ad b sup { font-size: 140px; vertical-align: top; }
+  .f1 .ad b .star { color: var(--verm-500); }
+  .f1 .ad span { font: 600 64px/1 var(--font-sans); color: var(--ink-500); }
+  .f1 .btn { margin-top: 56px; height: 120px; border-radius: 28px; background: var(--ink-700); display: grid; place-items: center; color: #fff; font: 650 44px/1 var(--font-sans); }
+  /* F2 fine print */
+  .f2 { padding: 220px 180px; }
+  .f2 p { font: 460 72px/1.45 var(--font-sans); color: var(--ink-700); max-width: 30ch; }
+  .f2 .hl { color: var(--ink-950); font-weight: 650; }
+  .f2 i { display: inline-grid; place-items: center; width: 64px; height: 64px; margin: 0 8px 0 4px; border-radius: 50%; background: var(--verm-500); color: #fff; font: 700 32px/1 var(--font-mono); font-style: normal; vertical-align: middle; }
+  /* F3 real price */
+  .f3.on { display: grid; grid-template-columns: 1fr 1fr; align-items: center; padding: 0 160px; gap: 80px; }
+  .f3 .was { font: 800 300px/.8 var(--font-sans); font-stretch: 125%; letter-spacing: -.07em; text-decoration: line-through; text-decoration-color: var(--verm-500); text-decoration-thickness: 24px; color: var(--ink-300); }
+  .f3 .card { padding: 64px; border-radius: 48px; box-shadow: 0 0 0 4px var(--ink-950), 18px 18px 0 0 var(--ink-950); background: #fff; }
+  .f3 .card small { display: inline-block; padding: 12px 20px; border-radius: 12px; background: var(--volt-400); font: 700 30px/1 var(--font-sans); font-stretch: 112%; }
+  .f3 .card b { display: block; margin-top: 28px; font: 800 190px/.85 var(--font-sans); font-stretch: 125%; letter-spacing: -.06em; }
+  .f3 .card span { display: block; margin-top: 26px; font: 500 34px/1.3 var(--font-sans); color: var(--ink-600); }
+  /* F4 logo */
+  .f4.on { display: grid; place-items: center; }
+  .f4 img { width: 1200px; }
+  /* F5 zero */
+  .f5.on { background: #0a0c10; display: grid; place-items: center; text-align: center; }
+  .f5 b { display: block; font: 800 620px/.8 var(--font-sans); font-stretch: 125%; letter-spacing: -.07em; color: var(--volt-400); }
+  .f5 > div > span { display: block; margin-top: 40px; font: 650 72px/1 var(--font-sans); font-stretch: 112%; color: #fff; }
+  /* F6 end */
+  .f6.on { display: grid; place-items: center; text-align: center; }
+  .f6 h1 { font-size: 150px; }
+  .f6 h1 span.l2 { display: block; color: var(--ink-400); }
+  .f6 .pill { display: inline-flex; align-items: center; margin-top: 72px; height: 120px; padding: 0 64px; border-radius: 999px; background: var(--volt-400); box-shadow: 0 0 0 4px var(--ink-950); font: 700 48px/1 var(--font-sans); font-stretch: 112%; }
+  .f6 .url { margin-top: 40px; font: 600 40px/1 var(--font-mono); color: var(--ink-500); }
+</style></head>
+<body>
+  <section class="f f1"><div class="ad"><b><sup>$</sup>4<sup class="star">*</sup></b><span>/mo</span><div class="btn">Get started</div></div><span class="cap">Every hosting ad has a number.</span><span class="tc">1.1 · f0–74</span></section>
+  <section class="f f2"><p>*<span class="hl">Introductory price for the first 3 months</span><i>1</i> with a <span class="hl">12-month minimum term</span><i>2</i>. <span class="hl">Regular price applies thereafter</span><i>3</i>.</p><span class="cap">Intro periods. Contracts. Renewals.</span><span class="tc">1.3 · f180–299</span></section>
+  <section class="f f3"><div class="was">$4</div><div class="card"><small>The 3-year real price</small><b>$10.42</b><span>IONOS VPS M+ · snapshot 31 Aug 2026</span></div><span class="cap">Do the maths, and four dollars is ten forty-two.</span><span class="tc">1.4 · f300–419</span></section>
+  <section class="f f4"><img src="../logo/lockup-horizontal-light.svg" alt=""><span class="cap">bestvpsforme reads the fine print for you.</span><span class="tc">2.1 · f420–509</span></section>
+  <section class="f f5 dark"><div><b>0</b><span>paid placements</span></div><span class="cap">Nobody pays to rank.</span><span class="tc">3.1 · f1200–1319</span></section>
+  <section class="f f6"><div><h1 class="wide">We read the <span class="hl">fine print.</span><span class="l2">You pick the server.</span></h1><div class="pill">Compare 314 plans →</div><p class="url">bestvpsforme.com</p></div><span class="tc">4.2 · f1680–1799</span></section>
+  <script>const n = +(new URLSearchParams(location.search).get("f") || 1); document.querySelectorAll(".f")[n - 1]?.classList.add("on");</script>
+</body></html>

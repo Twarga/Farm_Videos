@@ -1,0 +1,12 @@
+GET http://127.0.0.1:3002/offers/hostinger-kvm-1 → 200
+Database: /tmp/bestvpsforme-pricing-ykaym217/catalog.db
+Next.js 16.3.6
+
+Effective monthly price: $6.49 / mo
+Renewal not reviewed
+VAT basis unknown
+Due today not published
+
+Pricing and billing Due today not published Advertised $6.49 Effective $6.49 Due today Not published Renewal Not published 24 months term · USD. Intro price for current promo; renews at higher rate for 2 years (listed). Cancel anytime. NVMe. Regular/renewal $11.99/mo. Crossed-out list also shown ($19.49...).
+
+Assertions passed: no "$6.49 renewal" / "$6.49 due today".

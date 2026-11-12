@@ -1,0 +1,80 @@
+Continue the bestvpsforme overhaul at /home/twarga/Documents/bestvpsforme,
+branch codex/resume-overhaul.
+
+Owner decisions (recorded now, add them to bigone.md "Decisions" and the ledger):
+- D-7: the real price uses a 36-month horizon ("3-year real price").
+- D-9: convert EUR/GBP with the ECB reference rate on the price's check date.
+  Show VAT exactly as the provider lists it, and state the VAT basis
+  (incl./excl./unknown) on the offer page.
+
+Goal of this session: make every price on the site honest. Do Task 1.9, then
+Task 1.10, then the small cleanup items below. Follow bigone.md for both tasks.
+
+## Before you start
+1. Read AGENTS.md, docs/progress/session-resume-2026-09-28.md, and bigone.md
+   (Part B findings D12 + D13, Tasks 1.9 and 1.10).
+2. Verify the starting state: git status, npm test (expect 28 passing),
+   npx tsc --noEmit, npx eslint src scripts tests.
+3. There is one uncommitted edit in bigone.md (the Task 1.9 file list now names
+   src/db/import-publish.ts:175-178). Keep it and include it in your first commit.
+
+## Task 1.9: real renewal, term, due-today (P0)
+- ROOT CAUSE FIRST: src/db/import-publish.ts lines ~175-178 write cashDueToday
+  and renewalMonthly as copies of effectiveMonthly. That is why the Hostinger
+  KVM 1 page says "$6.49 due today, $6.49 renewal". Its source notes say it needs
+  24 months upfront ($155.76) and renews at $11.99.
+  Write a failing test that shows an unreviewed long-term offer is published with
+  fake renewal/due-today values. Then change the code to write null unless a
+  reviewed value exists, and confirm the test passes. Fix src/db/seed.ts too.
+- Then follow Task 1.9's steps: an additive, nullable migration (use the
+  drizzle-safe-migrations approach), src/lib/real-price.ts with
+  realPrice()/costSeries() and the tests exactly as written in bigone.md, then the
+  suggestPriceTerms() parser tested against the real billing_notes text
+  (Hostinger, IONOS, Time4VPS, AlphaVPS).
+- Parser output is only a SUGGESTION. It must never publish by itself. Show each
+  suggestion next to its evidence text in the admin import review, where a
+  person approves it.
+- UI: show the real price only when realPrice() is not null. Otherwise show the
+  effective price with a "Renewal not reviewed" tag, and sort those plans last
+  under "3-yr real price".
+- Produce a review list (markdown in docs/data/) of all 43 plans with a term
+  longer than 1 month or an intro price: plan, current stored values, suggested
+  terms, and the exact note text. I will review it. Do not approve terms yourself.
+
+## Task 1.10: currency and VAT (P0)
+- Follow Task 1.10. toUsd() returns null when there is no rate (never assume 1.0).
+- Add the fx_rates table and scripts/import_fx_rates.ts for ECB reference rates.
+  Block publication when a non-USD price has no rate.
+- Display: USD first, then "€5.91 · ECB 1.09 on 31 Aug" underneath, plus the VAT
+  basis on the offer page.
+- Note: there are 99 EUR and 7 GBP current prices without a rate (216 including
+  price history). Your tests and review list should reflect the current rows.
+
+## Small fixes from the last quality review
+- Remove the empty leftover output/ folder (it's untracked and empty; confirm it
+  is empty before removing it).
+- src/lib/finder-redirect.test.ts uses Next's experimental
+  unstable_getResponseFromNextConfig. Keep it, but add a one-line note to the
+  ledger that it may need updating when Next.js is upgraded.
+- The Phase 0 status line in the bigone.md phase table is correct. Update the
+  Phase 1 and Phase 2 status lines when you finish.
+
+## Rules (same as before)
+- Test first: failing test → implement → passing test.
+- Never change or publish the real database (data/bestvpsforme.db). Use a SQLite
+  backup copy in /tmp for dev servers and builds.
+- STOP and ask me before: publishing any snapshot, running a migration against
+  the real database, approving price terms, or deleting any tracked file.
+- Don't start brand/UI work (Phase 3+). D-8 is not approved yet.
+- Small commits with clear messages. Don't push.
+
+## Proof I need when you finish
+1. Output of: npm test, npx tsc --noEmit, npx eslint src scripts tests, and
+   npm run build (using a /tmp copy of the database).
+2. A dev server on a /tmp copy of the database, plus a screenshot or HTML excerpt
+   of /offers/hostinger-kvm-1 showing it no longer claims "$6.49 renewal" /
+   "$6.49 due today". Before review it should say "Not published" or
+   "Renewal not reviewed".
+3. The path to the 43-plan review list.
+4. An updated ledger entry and bigone.md status lines, with the tasks ticked
+   only where verified.

@@ -1,0 +1,220 @@
+> ## Documentation Index
+> Fetch the complete documentation index at: https://hyperframes.heygen.com/llms.txt
+> Use this file to discover all available pages before exploring further.
+
+# Install and update agent skills
+
+> Teach a coding agent how to create valid HyperFrames projects.
+
+HyperFrames skills teach coding agents the project format, animation rules, media workflow, and validation loop that generic web knowledge does not cover.
+
+<video aria-label="One command installs the skills" src="https://static.heygen.ai/hyperframes-oss/docs/images/showcase/skills-install-demo-v2.mp4" poster="https://static.heygen.ai/hyperframes-oss/docs/images/showcase/skills-install-demo-v2.jpg" playsInline preload="metadata" />
+
+The terminal output is a real run of the command. Afterwards the agent reads
+`/hyperframes` before it builds, instead of guessing at the framework's rules.
+
+Prefer a [versioned plugin](https://hyperframes.heygen.com/guides/plugins.md) when your agent supports one. This
+page covers standalone installs, including OpenCode. Plugin users should update
+through their agent's plugin manager instead of running the commands below.
+
+## Install for a person
+
+Run the interactive installer:
+
+```bash theme={null}
+npx skills add heygen-com/hyperframes
+```
+
+Run this command from your video project's directory. If you cloned HyperFrames
+to contribute, use `npx hyperframes skills update` for a global install from that
+checkout, or run the project installer in a separate video project. Project-local
+installer targets can overlap the checkout's tracked `skills/` source and
+overwrite uncommitted edits.
+
+Select **Core Skills**. That covers every kind of video; the other skills install when a request needs them, so you do not need the full catalog up front.
+
+Start a fresh agent chat after installation, then ask it to use `/hyperframes`.
+
+## Install or refresh from an agent
+
+For a non-interactive agent or CI environment, use:
+
+```bash theme={null}
+npx hyperframes skills update
+```
+
+This installs or refreshes the core set and any HyperFrames skills already present in the global install, then links those bundles into compatible installed agents. It does not add every optional skill.
+
+Updates check the Claude global store (`~/.claude/skills`, or the `skills/` folder
+under `CLAUDE_CONFIG_DIR`) that the installer writes to. Skills found only in
+another agent's directory do not make a missing core skill count as installed
+there, and optional skills in that other directory are not automatically added
+to the managed store. Name an optional skill explicitly to add it. The install
+record's publisher attribution is respected even before the managed store exists.
+An explicit update request for a skill owned by another publisher fails without
+overwriting it, including when the freshness check is unavailable offline.
+
+Check freshness without changing anything:
+
+```bash theme={null}
+npx hyperframes skills check
+```
+
+Install or refresh one skill explicitly:
+
+```bash theme={null}
+npx hyperframes skills update slideshow
+```
+
+## Use the skills in GitHub Copilot CLI
+
+Run `npx hyperframes skills update`, open the project, and start Copilot:
+
+```bash theme={null}
+copilot
+```
+
+If Copilot was already running, use `/skills reload`. Use `/skills list` or
+`/skills info hyperframes` to confirm discovery. GitHub's [current skills
+guide](https://docs.github.com/en/copilot/how-tos/copilot-cli/customize-copilot/add-skills)
+lists its project and personal skill locations.
+
+Both agents can use the same first request:
+
+```text theme={null}
+Using /hyperframes, make a 10-second product intro for https://example.com.
+```
+
+Continue in the same conversation for revisions. For hosted creation instead
+of a local project, use the [HyperFrames MCP guide](https://hyperframes.heygen.com/guides/mcp.md).
+
+## Use the skills in Google Antigravity
+
+Install the skills from the root of the project you open in Antigravity:
+
+```bash theme={null}
+npx skills add heygen-com/hyperframes
+```
+
+Select **Core Skills** and **Antigravity**. This uses Antigravity's supported
+project location, `.agents/skills`, and keeps the skills with the project. Start
+a fresh Antigravity conversation after installation.
+
+Antigravity also supports a global `~/.gemini/config/skills` directory. See
+Google's [current skills guide](https://antigravity.google/docs/skills?app=antigravity-ide)
+before managing that directory by hand.
+
+## Use the skills in IBM Bob
+
+Run `npx hyperframes skills update`, then open or restart Bob Shell in the
+project folder so it discovers the skills linked under `~/.bob/skills`:
+
+```bash theme={null}
+bob
+```
+
+Ask Bob to use `/hyperframes` for the first request. Running the update again
+refreshes the same global skill bundles without changing the project format.
+
+## What the skills cover
+
+Make any video by asking for it; the `/hyperframes` skill carries the contract and the references (each kind of film, story, motion, look, sound, review, captions, overlays).
+
+| Skill | What it covers |
+| - | - |
+| `/hyperframes` | Read first for any request to make, edit, animate or render a video, motion graphic, captions or overlays. Holds the render contract and the work loop, and points to the references for format, motion, look, captions, whole films and storyboards. |
+| `/hyperframes-cli` | The CLI by job: scaffold, check, look at frames, edit the timeline, preview, render locally or in the cloud, publish, project history. |
+| `/hyperframes-registry` | About 450 ready-made blocks and components installed as editable source: transitions, overlays, titles, kinetic type, captions, charts, maps, 3D, camera moves. |
+| `/media-use` | Music, sound effects, images, icons, logos, voiceover, avatar and generated video, transcripts, cutouts, colour grades and looks, with HeyGen or free local tools; mixes placed audio. |
+| `/figma` | A Figma file or frame: rendered assets, brand tokens, components, and storyboard frames as reconstructed motion. |
+| `/slideshow` | A presentation, pitch deck or interactive deck. Output is a navigable deck, not a rendered MP4. |
+| `/remotion-to-hyperframes` | Bringing existing video code or footage into HyperFrames (Remotion first; also Motion Canvas, Lottie, Three.js, canvas, other tools' renders), verified frame by frame. |
+| `/reverse-any-video` | Rebuilding any video file as an editable HyperFrames project (motion graphics, talking heads, live action, AI-generated footage), checked frame by frame against the original. HyperFrames Pro. |
+| `/style-sampling` | Making a new episode on your topic in one of five proven styles: Collage Explainer, Finance Explainer, Animated Science Explainer, 3D Brand Explainer, 3D True Crime. HyperFrames Pro. |
+
+You can name a skill directly, but you do not need to memorize the names to start.
+
+## Install more only when you need it
+
+Install the complete published set deliberately with:
+
+```bash theme={null}
+npx hyperframes skills
+```
+
+`npx skills add heygen-com/hyperframes --all` also installs the complete published set. Repo-internal skills are excluded by default.
+
+Or install one named skill:
+
+```bash theme={null}
+npx skills add heygen-com/hyperframes --skill slideshow
+```
+
+Use the full set for an environment that must work across many HyperFrames tasks without fetching later. For a normal project, the core set is smaller and easier to keep current.
+
+## If the agent cannot see a skill
+
+1. Start a new agent session.
+2. Confirm that the project or global skill directory belongs to the agent you are using.
+3. Run `npx hyperframes skills check`.
+4. Run `npx hyperframes skills update` when the check reports a missing or stale core skill.
+
+The individual skill definitions remain the source of truth for agents and are
+available in the [HyperFrames repository](https://github.com/heygen-com/hyperframes/tree/main/skills).
+
+## If an update says no installed skills match
+
+With `skills@1.7.x`, `npx skills update heygen-com/hyperframes` treats
+`heygen-com/hyperframes` as an installed skill name. It reports
+`No installed skills found matching` even when HyperFrames skills are installed.
+Use the HyperFrames updater to refresh the core set and the HyperFrames skills
+already installed globally:
+
+```bash theme={null}
+npx hyperframes skills update
+```
+
+The standalone `skills update` command accepts skill names, such as
+`npx skills update hyperframes -g` to update only the global `/hyperframes` skill.
+The repository name belongs in `skills add`, as shown in the install steps above.
+
+## If an installed skill has a YAML parse error
+
+A `Skipped .../SKILL.md — YAML parse error` warning names the installed file that
+cannot be read. Back up that file before editing it, especially if it contains
+custom instructions. A multiline description needs indented continuation lines;
+for example:
+
+```yaml theme={null}
+---
+name: seam-craft
+description: >-
+  Render-correctness doctrine for scene-to-scene seams.
+  Load when assembling the master timeline.
+---
+```
+
+Keep the file's existing description text and skill body; the example shows only
+the YAML format. Run `npx skills list -g` afterwards to verify global discovery,
+or `npx skills list` for a project install.
+
+Repo-internal skills such as `seam-craft` are excluded from the published set.
+Refreshing the core skills does not repair an old, separately installed copy of
+an internal skill. A YAML warning and a name-matching error can occur in the same
+run and need these separate fixes.
+
+## Related topics
+
+* [Make your first video](https://hyperframes.heygen.com/quickstart.md)
+* [Choose what to make](https://hyperframes.heygen.com/workflows.md)
+* [Use authentication and hosted services](https://hyperframes.heygen.com/guides/authentication.md)
+
+
+## Related topics
+
+- [Make videos with Codex](https://hyperframes.heygen.com/guides/with-codex.md)
+- [Let an agent drive Studio](https://hyperframes.heygen.com/guides/webmcp.md)
+- [Make videos with Claude Code](https://hyperframes.heygen.com/guides/with-claude-code.md)
+
+
+This documentation is built and hosted on [Mintlify](https://mintlify.com), a developer documentation platform.

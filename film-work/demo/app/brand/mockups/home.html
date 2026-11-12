@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Home — bestvpsforme</title>
+<link rel="icon" href="../logo/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/bvf.css">
+<style>
+  .hero { padding-top: clamp(40px, 6vw, 88px); padding-bottom: clamp(56px, 7vw, 104px); position: relative; }
+  .hero__grid { display: grid; grid-template-columns: minmax(0, 1.12fr) minmax(0, 0.88fr); gap: clamp(40px, 5vw, 88px); align-items: center; }
+  .hero__meta { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; margin-bottom: 28px; }
+  .hero h1 { max-width: 12ch; }
+  .hero h1 .line2 { display: block; color: var(--fg-muted); font-weight: 720; }
+  .hero__lede { margin-top: 28px; max-width: 46ch; color: var(--fg-muted); }
+  .hero__lede strong { color: var(--fg); font-weight: 620; }
+  .hero__ask { margin-top: 36px; padding: 22px 24px 24px; border-radius: var(--r-xl); background: var(--bg-subtle); border: 1px solid var(--border); }
+  .hero__ask .row { margin-top: 18px; }
+  .hero__promises { display: flex; flex-wrap: wrap; gap: 8px 20px; margin-top: 22px; font: 520 13.5px/1.3 var(--font-sans); color: var(--fg-muted); }
+  .hero__promises span { display: inline-flex; align-items: center; gap: 7px; }
+  .hero__promises svg { width: 16px; height: 16px; color: var(--fg); }
+  .hero__demo { position: relative; }
+  .hero__demo .sticker { position: relative; z-index: 1; }
+  .pin { position: absolute; z-index: 2; display: inline-flex; align-items: center; gap: 8px; padding: 9px 13px; border-radius: 14px; background: var(--surface); box-shadow: var(--sh-3), 0 0 0 1px var(--border); font: 600 13px/1.2 var(--font-sans); white-space: nowrap; }
+  .pin .num { font-weight: 700; }
+  .pin--a { top: -22px; right: -18px; transform: rotate(2.5deg); background: var(--ink-950); color: #fff; box-shadow: var(--sh-3); }
+  .pin--a .num { color: var(--volt-400); }
+  .pin--b { top: 47%; left: -58px; transform: rotate(-2deg); }
+  .pin--b .dot { width: 9px; height: 9px; }
+
+  .logos { border-block: 1px solid var(--border); background: var(--bg); }
+  .logos__in { display: flex; align-items: center; gap: 40px; padding-block: 26px; }
+  .logos__label { flex: none; font: 560 13px/1.35 var(--font-sans); color: var(--fg-muted); max-width: 16ch; }
+  .logos__row { display: flex; flex: 1; justify-content: space-between; gap: 28px; align-items: center; overflow: hidden; }
+  .lchip { display: inline-flex; align-items: center; gap: 9px; font: 620 14px/1 var(--font-sans); font-stretch: 104%; white-space: nowrap; }
+  .logos__row img.x { height: 26px; width: auto; max-width: 110px; object-fit: contain; filter: grayscale(1) contrast(1.1); opacity: 0.72; transition: filter var(--d-base), opacity var(--d-base); }
+  .logos__row img:hover { filter: none; opacity: 1; }
+  [data-theme="dark"] .logos__row img { filter: grayscale(1) invert(1) brightness(1.6); opacity: 0.6; }
+
+  .anatomy { display: grid; grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr); gap: clamp(40px, 6vw, 100px); align-items: center; }
+  .anatomy__copy .d-lg { max-width: 13ch; }
+  .anatomy__copy p { margin-top: 24px; max-width: 44ch; }
+  .anatomy__copy ul { list-style: none; padding: 0; margin: 32px 0 0; display: grid; gap: 14px; }
+  .anatomy__copy li { display: grid; grid-template-columns: 28px 1fr; gap: 12px; font: 500 16px/1.45 var(--font-sans); }
+  .anatomy__copy li b { display: grid; place-items: center; width: 28px; height: 28px; border-radius: 8px; background: var(--fg); color: var(--bg); font: 700 13px/1 var(--font-mono); }
+  .ad { position: relative; margin: 30px 196px 110px 0; padding: 34px; border-radius: var(--r-xl); background: var(--bg-subtle); border: 1px solid var(--border); }
+  .ad__brand { display: flex; align-items: center; gap: 12px; font: 650 15px/1 var(--font-sans); }
+  .ad__price { margin-top: 26px; display: flex; align-items: flex-start; gap: 4px; }
+  .ad__price b { font: 800 120px/0.8 var(--font-sans); font-stretch: 125%; letter-spacing: -0.06em; }
+  .ad__price sup { font: 800 42px/1 var(--font-sans); font-stretch: 125%; margin-top: 4px; }
+  .ad__price .star { color: var(--catch); }
+  .ad__price span { align-self: flex-end; font: 600 20px/1 var(--font-sans); color: var(--fg-muted); margin-bottom: 8px; }
+  .ad__cta { margin-top: 26px; width: 100%; height: 52px; border-radius: 12px; display: grid; place-items: center; background: var(--ink-700); color: #fff; font: 650 15px/1 var(--font-sans); opacity: .9; }
+  .ad__fine { margin-top: 14px; font: 460 10.5px/1.4 var(--font-sans); color: var(--fg-subtle); }
+  .note { position: absolute; left: calc(100% - 13px); display: flex; align-items: center; gap: 10px; font: 600 14px/1.25 var(--font-sans); white-space: nowrap; }
+  .note::before { content: ""; width: 30px; height: 1.5px; background: var(--catch); margin-right: -10px; }
+  .note i { font-style: normal; display: grid; place-items: center; width: 26px; height: 26px; border-radius: 50%; background: var(--catch); color: #fff; font: 700 12px/1 var(--font-mono); flex: none; }
+  .note span { padding: 8px 12px; border-radius: 10px; background: var(--surface); box-shadow: var(--sh-2), 0 0 0 1px var(--border); }
+  .note--1 { top: 128px; }
+  .note--2 { top: 196px; }
+  .note--3 { top: 264px; }
+  .ad__verdict { position: absolute; left: calc(100% + 20px); bottom: -92px; padding: 16px 20px; border-radius: 18px; background: var(--volt-400); color: var(--ink-950); box-shadow: var(--sh-sticker); }
+  .ad__verdict small { display: block; font: 650 11.5px/1 var(--font-sans); font-stretch: 112%; letter-spacing: .08em; text-transform: uppercase; }
+  .ad__verdict b { display: block; margin-top: 8px; font: 650 38px/1 var(--font-mono); letter-spacing: -.04em; }
+
+  .market { display: grid; grid-template-columns: repeat(12, 1fr); gap: var(--s-6); }
+  .market__head { grid-column: 1 / 8; }
+  .market__legend { grid-column: 9 / -1; align-self: end; display: flex; gap: 18px; justify-content: flex-end; font: 520 13px/1 var(--font-sans); color: var(--fg-muted); }
+  .market__legend span { display: inline-flex; gap: 8px; align-items: center; }
+  .market__chart { grid-column: 1 / -1; margin-top: 12px; padding: 28px 28px 18px; border-radius: var(--r-xl); border: 1px solid var(--border); }
+  .stats { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(4, 1fr); border-top: 1px solid var(--border); margin-top: 12px; }
+  .stat { padding: 28px 24px 0 0; }
+  .stat + .stat { padding-left: 24px; border-left: 1px solid var(--border); }
+  .stat p { margin-top: 12px; color: var(--fg-muted); font: 480 14.5px/1.45 var(--font-sans); max-width: 26ch; }
+
+  .work { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 44px; }
+  .wtile { position: relative; display: grid; grid-template-columns: 1fr auto; gap: 18px; padding: 24px; border-radius: var(--r-xl); border: 1px solid var(--border); background: var(--surface); transition: border-color var(--d-base), transform var(--d-base) var(--ease-out), box-shadow var(--d-base); }
+  .wtile:hover { border-color: var(--fg); transform: translateY(-2px); box-shadow: var(--sh-3); }
+  .wtile:hover .rack i.pick { transform: translateX(28%); }
+  .wtile h3 { font: 700 21px/1.15 var(--font-sans); font-stretch: 112%; letter-spacing: -.02em; }
+  .wtile p { margin-top: 8px; color: var(--fg-muted); font: 480 14px/1.4 var(--font-sans); }
+  .wtile .rack { width: 74px; gap: 5px; }
+  .wtile .rack i { height: 15px; padding: 0 6px; border-radius: 4px; }
+  .wtile .rack i::before { width: 4px; height: 4px; }
+  .wtile .rack i::after { width: 10px; height: 3px; }
+  .wtile__foot { grid-column: 1 / -1; display: flex; justify-content: space-between; align-items: center; padding-top: 16px; border-top: 1px dashed var(--border-strong); font: 560 13.5px/1 var(--font-sans); }
+  .wtile__foot .num { font-weight: 650; }
+
+  .method { padding: clamp(48px, 6vw, 88px); display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(40px, 6vw, 96px); position: relative; overflow: hidden; }
+  .method .eyebrow { color: #7f8792; }
+  .method h2 { margin-top: 18px; color: #fff; max-width: 11ch; }
+  .method__zero { margin-top: 40px; display: flex; align-items: baseline; gap: 16px; }
+  .method__zero b { font: 800 136px/.8 var(--font-sans); font-stretch: 125%; letter-spacing: -.06em; color: var(--volt-400); }
+  .method__zero span { font: 560 17px/1.3 var(--font-sans); color: #c9ced6; max-width: 16ch; }
+  .steps { list-style: none; margin: 0; padding: 0; display: grid; gap: 0; align-self: center; }
+  .steps li { display: grid; grid-template-columns: 56px 1fr; gap: 18px; padding: 26px 0; border-top: 1px solid #262c35; }
+  .steps li:last-child { border-bottom: 1px solid #262c35; }
+  .steps b { font: 600 14px/1.5 var(--font-mono); color: var(--volt-400); }
+  .steps h3 { font: 680 20px/1.25 var(--font-sans); font-stretch: 108%; color: #fff; letter-spacing: -.015em; }
+  .steps p { margin-top: 8px; color: #a9b0bb; font: 460 15px/1.5 var(--font-sans); }
+  .method .btn--volt { margin-top: 36px; border-color: var(--volt-400); }
+  .method__rack { position: absolute; right: -40px; top: -30px; width: 220px; opacity: .08; }
+  .method__rack .rack i { background: #fff; height: 30px; }
+
+  .guides { display: grid; grid-template-columns: 1.3fr 1fr 1fr; gap: 16px; margin-top: 40px; }
+  .gcard { display: flex; flex-direction: column; min-height: 300px; padding: 28px; border-radius: var(--r-xl); border: 1px solid var(--border); transition: border-color var(--d-base); }
+  .gcard:hover { border-color: var(--fg); }
+  .gcard h3 { margin-top: 16px; font: 720 24px/1.15 var(--font-sans); font-stretch: 112%; letter-spacing: -.025em; }
+  .gcard p { margin-top: 12px; color: var(--fg-muted); font: 460 15px/1.5 var(--font-sans); }
+  .gcard .row { margin-top: auto; padding-top: 24px; font: 520 13px/1 var(--font-sans); color: var(--fg-muted); }
+  .gcard--feature { background: var(--volt-400); color: var(--ink-950); border-color: var(--ink-950); }
+  .gcard--feature p, .gcard--feature .row, .gcard--feature .eyebrow { color: var(--ink-800); }
+  .gcard--feature h3 { font-size: 32px; }
+
+  .final { display: flex; align-items: center; justify-content: space-between; gap: 32px; padding: clamp(40px, 5vw, 72px); border-radius: var(--r-2xl); background: var(--volt-400); color: var(--ink-950); box-shadow: inset 0 0 0 1.5px var(--ink-950); }
+  .final .d-lg { max-width: 14ch; }
+  .final .btn--ink { background: var(--ink-950); color: #fff; }
+
+  dialog.palette { width: min(640px, 92vw); padding: 0; border: 0; border-radius: 20px; background: var(--surface); color: var(--fg); box-shadow: var(--sh-pop), 0 0 0 1px var(--border); }
+  dialog.palette::backdrop { background: rgb(14 17 22 / .42); }
+  .palette__in { display: flex; align-items: center; gap: 12px; height: 60px; padding: 0 20px; border-bottom: 1px solid var(--border); }
+  .palette__in input { flex: 1; border: 0; outline: 0; background: none; font: 500 18px/1 var(--font-sans); }
+  .palette__list { list-style: none; margin: 0; padding: 8px; max-height: 360px; overflow: auto; }
+  .palette__list li { display: flex; align-items: center; gap: 12px; padding: 10px 12px; border-radius: 10px; font: 520 14.5px/1.2 var(--font-sans); }
+  .palette__list li[aria-selected="true"] { background: var(--bg-muted); }
+  .palette__list small { margin-left: auto; color: var(--fg-subtle); font: 500 12px/1 var(--font-mono); }
+  .palette__group { padding: 12px 12px 6px; font: 650 11px/1 var(--font-sans); letter-spacing: .08em; text-transform: uppercase; color: var(--fg-subtle); }
+
+  @media (max-width: 1180px) { .logos__row .lchip:nth-child(n+8) { display: none; } }
+  @media (max-width: 1023px) {
+    .hero__grid, .anatomy, .method { grid-template-columns: 1fr; }
+    .pin--b { left: 8px; }
+    .pin--a { right: 8px; }
+    .ad { margin: 20px 0 50px; }
+    .note { position: static; margin-top: 10px; } .note::before { display: none; }
+    .ad__verdict { position: static; margin-top: 24px; display: inline-block; }
+    .market__head, .market__legend { grid-column: 1 / -1; justify-content: flex-start; }
+    .stats { grid-template-columns: 1fr 1fr; }
+    .stat:nth-child(3) { padding-left: 0; border-left: 0; }
+    .work, .guides { grid-template-columns: 1fr 1fr; }
+    .final { flex-direction: column; align-items: flex-start; }
+    .logos__label { display: none; }
+    .logos__row .lchip:nth-child(n+5) { display: none; }
+  }
+  @media (max-width: 640px) {
+    .work, .guides, .stats { grid-template-columns: 1fr; }
+    .stat + .stat { padding-left: 0; border-left: 0; }
+    .hero__ask { padding: 18px; }
+    .hero__ask .row { flex-direction: column; align-items: stretch; }
+    .ad__price b { font-size: 88px; }
+    .method__zero b { font-size: 88px; }
+    .pin--b { display: none; }
+    .logos__row .lchip:nth-child(n+3) { display: none; }
+  }
+</style>
+</head>
+<body>
+<a class="sr-only" href="#main">Skip to content</a>
+
+<header class="nav">
+  <div class="container--wide nav__in">
+    <a class="nav__logo" href="home.html" aria-label="bestvpsforme home"><img src="../logo/lockup-horizontal-light.svg" alt="bestvpsforme" data-logo></a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="catalog.html">Plans</a>
+      <a href="compare.html">Compare</a>
+      <a href="provider.html">Providers</a>
+      <a href="guide.html">Guides</a>
+      <a href="methodology.html">How we check</a>
+    </nav>
+    <button class="nav__search" type="button" data-open-palette><i data-icon="search"></i>Search 314 plans, 41 providers…<span class="kbd">⌘K</span></button>
+    <div class="row nav__right" style="--gap:6px">
+      <a class="btn btn--line btn--sm nav__compare" href="compare.html"><i data-icon="compare"></i>Compare <span class="nav__count">0</span></a>
+      <button class="btn btn--ghost btn--icon" type="button" data-theme-toggle aria-label="Switch theme"><i data-icon="moon"></i></button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="container--wide hero__grid">
+      <div>
+        <div class="hero__meta">
+          <span class="stamp"><i data-icon="check"></i>Checked 31 Aug 2026</span>
+          <span class="eyebrow">314 plans · 41 providers · 0 paid placements</span>
+        </div>
+        <h1 class="d-2xl">We read the <span class="hl" data-animate>fine print.</span><span class="line2">You pick the server.</span></h1>
+        <p class="hero__lede b-lg">Every VPS priced the way you will actually pay: <strong>upfront terms, intro periods and renewals</strong> included. The catch sits next to the price, in plain English.</p>
+
+        <form class="hero__ask" action="catalog.html">
+          <p class="madlib">I'm building
+            <label class="sr-only" for="q-work">Project</label>
+            <select id="q-work"><option>a WordPress site</option><option>n8n automations</option><option selected>a Docker stack</option><option>a game server</option><option>a private VPN</option><option>something else</option></select>
+            and want to pay under
+            <label class="sr-only" for="q-price">Budget</label>
+            <select id="q-price"><option>$5</option><option selected>$10</option><option>$20</option><option>$50</option></select>
+            a month, hosted in
+            <label class="sr-only" for="q-where">Region</label>
+            <select id="q-where"><option>anywhere</option><option selected>Europe</option><option>North America</option><option>Asia</option></select>.
+          </p>
+          <div class="row row--wrap">
+            <button class="btn btn--volt btn--lg" type="submit">Show 16 plans <i data-icon="arrow"></i></button>
+            <a class="btn btn--ghost btn--lg" href="catalog.html">Browse all 314</a>
+          </div>
+        </form>
+
+        <div class="hero__promises">
+          <span><i data-icon="shield"></i>Commission never changes the order</span>
+          <span><i data-icon="link"></i>Affiliate links labelled</span>
+          <span><i data-icon="info"></i>Unknown shown as unknown</span>
+        </div>
+      </div>
+
+      <div class="hero__demo" data-reveal>
+        <span class="pin pin--a"><span class="num">+85%</span> at renewal</span>
+        <article class="sticker xray" aria-label="Price X-ray: Hostinger KVM 1">
+          <div class="xray__head">
+            <span class="pmark pmark--lg"><img src="../../public/logos/hostinger.svg" alt=""></span>
+            <div class="xray__id"><strong>Hostinger KVM 1</strong><span class="num" style="font-size:12.5px">1 vCPU · 4 GB · 50 GB NVMe · 4 TB</span></div>
+            <div class="seg xray__toggle" role="group" aria-label="Price view">
+              <button type="button" data-xray="ad" aria-pressed="false">The ad</button>
+              <button type="button" data-xray="real" aria-pressed="true">Real price</button>
+            </div>
+          </div>
+
+          <div data-mode="real">
+            <div class="xray__big"><span class="n-2xl">$8.32</span><span class="per">/mo</span></div>
+            <p class="xray__lbl"><span class="tag tag--volt">3-year real price</span> what you pay on average, all terms included</p>
+            <ul class="xray__lines">
+              <li><span>Advertised</span><span class="num strike">$6.49/mo</span></li>
+              <li><span>Due today <span class="muted">· 24 months upfront</span></span><span class="num">$155.76</span></li>
+              <li><span>Renews at <span class="muted">· from month 25</span></span><span class="num">$11.99/mo</span></li>
+              <li class="total"><span>3-year total</span><span class="n-md">$299.64</span></li>
+            </ul>
+            <p class="xray__catch"><i data-icon="warn"></i><span><strong>The catch:</strong> the $6.49 price needs a 24-month prepay. Renewal is 85% higher.</span></p>
+          </div>
+
+          <div data-mode="ad">
+            <div class="xray__big"><span class="n-2xl">$6.49</span><span class="per">/mo*</span></div>
+            <p class="xray__lbl">What the ad says.</p>
+            <p class="cap subtle" style="margin-top:120px">*Terms apply. Switch to <b>Real price</b> to read them.</p>
+          </div>
+
+          <div class="xray__foot">
+            <span class="cap muted">Source: provider pricing page, checked 31 Aug 2026</span>
+            <a class="btn btn--ink btn--sm" href="offer.html">See the plan <i data-icon="arrow"></i></a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="logos" aria-label="Providers we read prices from">
+    <div class="container--wide logos__in">
+      <p class="logos__label">Prices read straight from the source at</p>
+      <div class="logos__row">
+        <span class="lchip"><span class="pmark pmark--sm"><img src="../../public/logos/digitalocean.svg" alt=""></span>DigitalOcean</span>
+        <span class="lchip"><span class="pmark pmark--sm"><img src="../../public/logos/hostinger.svg" alt=""></span>Hostinger</span>
+        <span class="lchip"><span class="pmark pmark--sm"><img src="../../public/logos/ovh.svg" alt=""></span>OVHcloud</span>
+        <span class="lchip"><span class="pmark pmark--sm"><img src="../../public/logos/ionos.svg" alt=""></span>IONOS</span>
+        <span class="lchip"><span class="pmark pmark--sm"><img src="../../public/logos/netcup.svg" alt=""></span>netcup</span>
+        <span class="lchip"><span class="pmark pmark--sm"><img src="../../public/logos/upcloud.svg" alt=""></span>UpCloud</span>
+        <span class="lchip"><span class="pmark pmark--sm"><img src="../../public/logos/scaleway.svg" alt=""></span>Scaleway</span>
+        <span class="lchip"><span class="pmark pmark--sm"><img src="../../public/logos/akamai.svg" alt=""></span>Akamai Linode</span>
+        <span class="lchip"><span class="pmark pmark--sm"><img src="../../public/logos/contabo.svg" alt=""></span>Contabo</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container--wide anatomy">
+      <div class="anatomy__copy" data-reveal>
+        <p class="eyebrow">Anatomy of a VPS ad</p>
+        <h2 class="d-lg" style="margin-top:18px">The ad says $4. The contract says <span class="hl" data-animate>$10.42.</span></h2>
+        <p class="b-lg muted">Hosting ads lead with the smallest number they can legally print. We read the rest of the page, do the maths over three years, and put the result where you can see it.</p>
+        <ul>
+          <li><b>1</b><span>Intro prices that last three months.</span></li>
+          <li><b>2</b><span>Contracts you only see at checkout.</span></li>
+          <li><b>3</b><span>Renewal prices that double the bill.</span></li>
+        </ul>
+      </div>
+      <div style="position:relative" data-reveal>
+        <div class="ad" aria-hidden="true">
+          <div class="ad__brand"><span class="pmark"><img src="../../public/logos/ionos.svg" alt=""></span>IONOS · VPS M+</div>
+          <div class="ad__price"><sup>$</sup><b>4</b><sup class="star">*</sup><span>/mo</span></div>
+          <div class="ad__cta">Get started</div>
+          <p class="ad__fine">*Introductory price for the first 3 months with a 12-month minimum term. Regular price applies thereafter. Taxes may apply.</p>
+          <div class="note note--1"><i>1</i><span>$4 only for months 1–3</span></div>
+          <div class="note note--2"><i>2</i><span>12-month contract</span></div>
+          <div class="note note--3"><i>3</i><span>then $11/mo</span></div>
+          <div class="ad__verdict"><small>Our 3-year real price</small><b>$10.42<span style="font-size:18px;color:var(--ink-700)">/mo</span></b></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0">
+    <div class="container--wide market">
+      <div class="market__head">
+        <p class="eyebrow">The market, 31 Aug snapshot</p>
+        <h2 class="d-md" style="margin-top:16px">What 4 GB of RAM really costs.</h2>
+      </div>
+      <div class="market__legend"><span><span class="dot" style="background:var(--volt-400);box-shadow:0 0 0 1.5px var(--ink-950)"></span>Under $6.50</span><span><span class="dot" style="background:var(--fg)"></span>Everything else</span></div>
+      <div class="market__chart" data-reveal><div class="strip" data-strip></div></div>
+      <div class="stats">
+        <div class="stat"><span class="n-xl">13×</span><p>Price gap between the cheapest and priciest 4 GB plan.</p></div>
+        <div class="stat"><span class="n-xl">$19.50</span><p>Median monthly price for 4 GB across 36 plans.</p></div>
+        <div class="stat"><span class="n-xl">43</span><p>Plans that need a 12- or 24-month commitment to get the headline price.</p></div>
+        <div class="stat"><span class="n-xl">40</span><p>Plans where a public IPv4 address costs extra.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0">
+    <div class="container--wide">
+      <div class="row row--between row--wrap" style="align-items:flex-end">
+        <div><p class="eyebrow">Start with the job</p><h2 class="d-md" style="margin-top:16px">What are you building?</h2></div>
+        <a class="btn btn--line" href="catalog.html">All 314 plans <i data-icon="arrow"></i></a>
+      </div>
+      <div class="work">
+        <a class="wtile" href="catalog.html"><div><h3>WordPress site</h3><p>A blog or a shop with a few plugins.</p></div><div class="rack"><i></i><i class="pick"></i><i></i></div><div class="wtile__foot"><span>272 plans · 2 GB+</span><span>from <span class="num">$2.15</span></span></div></a>
+        <a class="wtile" href="catalog.html"><div><h3>n8n automations</h3><p>Workflows, webhooks and bots, always on.</p></div><div class="rack"><i></i><i class="pick"></i><i></i></div><div class="wtile__foot"><span>272 plans · 2 GB+</span><span>from <span class="num">$2.15</span></span></div></a>
+        <a class="wtile" href="catalog.html"><div><h3>Coolify / PaaS</h3><p>Your own Heroku on one server.</p></div><div class="rack"><i></i><i class="pick"></i><i></i></div><div class="wtile__foot"><span>234 plans · 4 GB+</span><span>from <span class="num">$3.99</span></span></div></a>
+        <a class="wtile" href="catalog.html"><div><h3>Docker stack</h3><p>A handful of containers and a database.</p></div><div class="rack"><i></i><i class="pick"></i><i></i></div><div class="wtile__foot"><span>234 plans · 4 GB+</span><span>from <span class="num">$3.99</span></span></div></a>
+        <a class="wtile" href="catalog.html"><div><h3>Game server</h3><p>Minecraft-class worlds for friends.</p></div><div class="rack"><i></i><i class="pick"></i><i></i></div><div class="wtile__foot"><span>180 plans · 8 GB+</span><span>from <span class="num">$5.50</span></span></div></a>
+        <a class="wtile" href="catalog.html"><div><h3>Private VPN</h3><p>WireGuard for you and your devices.</p></div><div class="rack"><i></i><i class="pick"></i><i></i></div><div class="wtile__foot"><span>298 plans · 1 GB+</span><span>from <span class="num">$0.43</span></span></div></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0">
+    <div class="container--wide">
+      <div class="panel-ink method">
+        <div>
+          <p class="eyebrow">How we check</p>
+          <h2 class="d-lg">Commission never moves a plan.</h2>
+          <div class="method__zero"><b>0</b><span>paid placements, sponsored slots or "partner picks".</span></div>
+          <a class="btn btn--volt btn--lg" href="methodology.html">Read the method <i data-icon="arrow"></i></a>
+        </div>
+        <ol class="steps">
+          <li><b>01</b><div><h3>We read the pricing page, not the ad.</h3><p>Term length, intro period, renewal, setup fees, IPv4. Every number has a source link and a date.</p></div></li>
+          <li><b>02</b><div><h3>We price it over three years.</h3><p>One comparable number: the 3-year real price. The formula is public and the same for everyone.</p></div></li>
+          <li><b>03</b><div><h3>We write the catch down.</h3><p>One plain sentence per plan. If we don't know, we say "not published", never "included".</p></div></li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0">
+    <div class="container--wide">
+      <div class="row row--between row--wrap" style="align-items:flex-end">
+        <div><p class="eyebrow">Guides</p><h2 class="d-md" style="margin-top:16px">Learn it once. Choose well forever.</h2></div>
+        <a class="btn btn--line" href="guide.html">All guides <i data-icon="arrow"></i></a>
+      </div>
+      <div class="guides">
+        <a class="gcard gcard--feature" href="guide.html"><span class="eyebrow">Money · 7 min</span><h3>How to compare VPS prices without falling for the first-term number.</h3><p>A four-step method for intro prices, contract terms, renewals and add-ons.</p><div class="row"><span class="stamp" style="border-color:var(--ink-950)"><i data-icon="check"></i>Checked 1 Sep 2026</span></div></a>
+        <a class="gcard" href="guide.html"><span class="eyebrow">Basics · 5 min</span><h3>How much RAM does your project need?</h3><p>Real numbers for WordPress, n8n, Docker and game servers.</p><div class="row">Updated 1 Sep 2026</div></a>
+        <a class="gcard" href="guide.html"><span class="eyebrow">Security · 9 min</span><h3>First-day Linux VPS security, calmly.</h3><p>Keys, updates, firewall, backups. In that order.</p><div class="row">Updated 1 Sep 2026</div></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0">
+    <div class="container--wide">
+      <div class="final">
+        <h2 class="d-lg">Stop guessing. Start comparing.</h2>
+        <div class="row row--wrap"><a class="btn btn--ink btn--lg" href="catalog.html">Compare 314 plans <i data-icon="arrow"></i></a></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container--wide">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <img src="../logo/lockup-horizontal-dark.svg" alt="bestvpsforme" style="height:34px;width:auto">
+        <p class="footer__lede">Independent VPS price research. We read the fine print so you can pick the server.</p>
+        <p style="margin-top:20px"><span class="stamp"><i data-icon="check"></i>Snapshot 31 Aug 2026</span></p>
+      </div>
+      <div class="footer__col"><h4>Product</h4><ul><li><a href="catalog.html">All plans</a></li><li><a href="compare.html">Compare</a></li><li><a href="provider.html">Providers</a></li><li><a href="#">Updates</a></li></ul></div>
+      <div class="footer__col"><h4>Research</h4><ul><li><a href="methodology.html">How we check</a></li><li><a href="guide.html">Guides</a></li><li><a href="#">Dataset</a></li><li><a href="#">Report a correction</a></li></ul></div>
+      <div class="footer__col"><h4>Company</h4><ul><li><a href="#">About</a></li><li><a href="#">Brand kit</a></li><li><a href="#">hello@bestvpsforme.com</a></li></ul></div>
+      <div class="footer__col"><h4>Legal</h4><ul><li><a href="#">Privacy</a></li><li><a href="#">Terms</a></li><li><a href="#">Affiliate disclosure</a></li></ul></div>
+    </div>
+    <div class="footer__bottom"><span>© 2026 bestvpsforme. Provider names and logos belong to their owners.</span><span>Some links earn us a commission. It never changes the order.</span></div>
+  </div>
+  <img class="footer__giant" src="../logo/wordmark-dark.svg" alt="" aria-hidden="true">
+</footer>
+
+<dialog class="palette" data-palette aria-label="Search">
+  <div class="palette__in"><i data-icon="search"></i><input type="search" placeholder="Search plans, providers, guides…" aria-label="Search"><span class="kbd">Esc</span></div>
+  <ul class="palette__list" role="listbox">
+    <li class="palette__group" role="presentation">Quick filters</li>
+    <li role="option" aria-selected="true"><i data-icon="sparkle"></i>Cheapest 4 GB real price<small>↵</small></li>
+    <li role="option"><i data-icon="globe"></i>EU only, under $10</li>
+    <li class="palette__group" role="presentation">Providers</li>
+    <li role="option"><span class="pmark pmark--sm"><img src="../../public/logos/hostinger.svg" alt=""></span>Hostinger<small>4 plans</small></li>
+    <li role="option"><span class="pmark pmark--sm"><img src="../../public/logos/netcup.svg" alt=""></span>netcup<small>6 plans</small></li>
+    <li class="palette__group" role="presentation">Guides</li>
+    <li role="option"><i data-icon="book"></i>How much RAM does your project need?</li>
+  </ul>
+</dialog>
+
+<script src="assets/bvf-data.js"></script>
+<script src="assets/bvf.js"></script>
+<script>
+  const swapLogo = () => document.querySelectorAll("[data-logo]").forEach((i) => i.src = `../logo/lockup-horizontal-${document.documentElement.dataset.theme === "dark" ? "dark" : "light"}.svg`);
+  swapLogo(); new MutationObserver(swapLogo).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
+</script>
+</body>
+</html>

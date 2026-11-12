@@ -1,0 +1,891 @@
+{
+  "checkedAt": "2026-10-07",
+  "status": "research_complete_dispositions_recorded",
+  "scope": "Setup-fee evidence refresh only. Frozen target states are preserved; no new renewal review or price mutation.",
+  "productionWritten": false,
+  "providers": [
+    {
+      "id": "dreamhost",
+      "url": "https://www.dreamhost.com/hosting/vps/",
+      "result": "unknown",
+      "reason": "Stack pricing and renewal statements are available, but no explicit VPS provisioning/setup fee amount or waiver was found. Root access, deployment and bandwidth statements do not establish a setup fee.",
+      "checkedAt": "2026-10-07",
+      "retrieval": "provider_page_retrieved",
+      "productionWritten": false
+    },
+    {
+      "id": "fastcomet",
+      "url": "https://www.fastcomet.com/vps-pricing",
+      "result": "unknown",
+      "quote": "Free Site Setup",
+      "reason": "Site assistance and server configuration services are described, but no explicit VPS provisioning fee amount or waiver was found. Site setup is not a server provisioning fee.",
+      "checkedAt": "2026-10-07",
+      "retrieval": "provider_page_retrieved",
+      "productionWritten": false
+    },
+    {
+      "id": "hostinger",
+      "url": "https://www.hostinger.com/vps-hosting",
+      "result": "unknown",
+      "reason": "KVM pricing is accessible; no explicit setup fee amount or waiver found. Included apps, backups and instant provisioning do not establish a zero fee.",
+      "checkedAt": "2026-10-07",
+      "retrieval": "provider_page_retrieved",
+      "productionWritten": false
+    },
+    {
+      "id": "ionos",
+      "url": "https://www.ionos.com/servers/vps",
+      "result": "zero_evidence_price_hold",
+      "setupFee": 0,
+      "quote": "Unlimited traffic and no setup fees",
+      "reason": "Explicit zero fee covers VPS+ family, but stored introductory/regular rates are stale. Keep production setup-only saves on hold until price reconciliation; do not refresh old price check/reviewer stamps using this setup-only research.",
+      "checkedAt": "2026-10-07",
+      "retrieval": "provider_page_retrieved",
+      "productionWritten": false
+    },
+    {
+      "id": "liquid-web",
+      "url": "https://www.liquidweb.com/vps-hosting/cloud-vps/",
+      "result": "verified_zero_candidate",
+      "setupFee": 0,
+      "quote": "Zero setup fees.",
+      "reason": "Cloud VPS product-family fee waiver is explicit. Compute table matches all four stored plans: 1 GB $5/month, 2 GB $11/month, 4 GB $17/month and 6 GB $22/month. Applies to base Cloud VPS provisioning, not optional add-ons or a complete due-today/tax quotation.",
+      "checkedAt": "2026-10-07",
+      "retrieval": "provider_page_retrieved",
+      "productionWritten": false
+    },
+    {
+      "id": "scalahosting",
+      "url": "https://www.scalahosting.com/managed-cloud-hosting.html",
+      "requestedUrl": "https://www.scalahosting.com/vps-hosting.html",
+      "result": "unknown",
+      "reason": "Provider redirects to managed cloud. Intro/renewal pricing, migration and SPanel are visible, but no explicit VPS setup fee amount or waiver found. Domain-reseller zero setup wording belongs to another product.",
+      "checkedAt": "2026-10-07",
+      "retrieval": "provider_page_retrieved",
+      "productionWritten": false
+    },
+    {
+      "id": "time4vps",
+      "url": "https://www.time4vps.com/linux-vps/",
+      "result": "unknown",
+      "reason": "Linux VPS page was retrieved successfully on this check, unlike the historical 403. No explicit setup fee amount or waiver found; a blank fee remains unknown.",
+      "checkedAt": "2026-10-07",
+      "retrieval": "provider_page_retrieved",
+      "productionWritten": false
+    }
+  ],
+  "longTermTargets": [
+    {
+      "offerId": "aws-ec2-ec2-t3-micro-free",
+      "frozenState": "open",
+      "disposition": "preserve_open",
+      "reason": "Usable reviewed renewal is missing; original citation: Not published Preserve the current row; setup-only review is excluded by D6-5. Due-today is also unverified.",
+      "originalMissing": "verified setup fee; usable reviewed renewal; due-today amount.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "buyvm-slice-512",
+      "frozenState": "open",
+      "disposition": "preserve_open",
+      "reason": "Usable reviewed renewal is missing; original citation: Note: 'SLICE 512 billed yearly only' at $2.25/mo equivalent \u2192 $27 due. Renewal change not stated. Preserve the current row; setup-only review is excluded by D6-5. No due-today amount is inferred.",
+      "originalMissing": "verified setup fee; usable reviewed renewal.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "microsoft-azure-azure-b1s-free",
+      "frozenState": "open",
+      "disposition": "preserve_open",
+      "reason": "Usable reviewed renewal is missing; original citation: Not published Preserve the current row; setup-only review is excluded by D6-5. Due-today is also unverified.",
+      "originalMissing": "verified setup fee; usable reviewed renewal; due-today amount.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "namecheap-hypernova",
+      "frozenState": "open",
+      "disposition": "preserve_open",
+      "reason": "Usable reviewed renewal is missing; original citation: Not published Preserve the current row; setup-only review is excluded by D6-5. Due-today is also unverified.",
+      "originalMissing": "verified setup fee; usable reviewed renewal; due-today amount.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "namecheap-magnetar",
+      "frozenState": "open",
+      "disposition": "preserve_open",
+      "reason": "Usable reviewed renewal is missing; original citation: Not published Preserve the current row; setup-only review is excluded by D6-5. Due-today is also unverified.",
+      "originalMissing": "verified setup fee; usable reviewed renewal; due-today amount.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "namecheap-pulsar",
+      "frozenState": "open",
+      "disposition": "preserve_open",
+      "reason": "Usable reviewed renewal is missing; original citation: Not published Preserve the current row; setup-only review is excluded by D6-5. Due-today is also unverified.",
+      "originalMissing": "verified setup fee; usable reviewed renewal; due-today amount.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "namecheap-quasar",
+      "frozenState": "open",
+      "disposition": "preserve_open",
+      "reason": "Usable reviewed renewal is missing; original citation: Not published Preserve the current row; setup-only review is excluded by D6-5. Due-today is also unverified.",
+      "originalMissing": "verified setup fee; usable reviewed renewal; due-today amount.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "namecheap-spark",
+      "frozenState": "open",
+      "disposition": "preserve_open",
+      "reason": "Usable reviewed renewal is missing; original citation: Not published Preserve the current row; setup-only review is excluded by D6-5. Due-today is also unverified.",
+      "originalMissing": "verified setup fee; usable reviewed renewal; due-today amount.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "racknerd-kvm-512",
+      "frozenState": "open",
+      "disposition": "preserve_open",
+      "reason": "Usable reviewed renewal is missing; original citation: Not published Preserve the current row; setup-only review is excluded by D6-5. Due-today is also unverified.",
+      "originalMissing": "verified setup fee; usable reviewed renewal; due-today amount.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "racknerd-special-1gb",
+      "frozenState": "open",
+      "disposition": "preserve_open",
+      "reason": "Usable reviewed renewal is missing; original citation: Note: 'Promo yearly from racknerd.com/specials/.' Renewal stated only as 'lifetime lock typically' (hedged) \u2014 not approved. Preserve the current row; setup-only review is excluded by D6-5. No due-today amount is inferred.",
+      "originalMissing": "verified setup fee; usable reviewed renewal.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "racknerd-special-2gb",
+      "frozenState": "open",
+      "disposition": "preserve_open",
+      "reason": "Usable reviewed renewal is missing; original citation: Note: 'Promo yearly from racknerd.com/specials/.' Renewal stated only as 'lifetime lock typically' (hedged) \u2014 not approved. Preserve the current row; setup-only review is excluded by D6-5. No due-today amount is inferred.",
+      "originalMissing": "verified setup fee; usable reviewed renewal.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "racknerd-special-4gb",
+      "frozenState": "open",
+      "disposition": "preserve_open",
+      "reason": "Usable reviewed renewal is missing; original citation: Note: 'Promo yearly from racknerd.com/specials/.' Renewal stated only as 'lifetime lock typically' (hedged) \u2014 not approved. Preserve the current row; setup-only review is excluded by D6-5. No due-today amount is inferred.",
+      "originalMissing": "verified setup fee; usable reviewed renewal.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "racknerd-special-6gb",
+      "frozenState": "open",
+      "disposition": "preserve_open",
+      "reason": "Usable reviewed renewal is missing; original citation: Note: 'Promo yearly from racknerd.com/specials/.' Renewal stated only as 'lifetime lock typically' (hedged) \u2014 not approved. Preserve the current row; setup-only review is excluded by D6-5. No due-today amount is inferred.",
+      "originalMissing": "verified setup fee; usable reviewed renewal.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "racknerd-special-8gb",
+      "frozenState": "open",
+      "disposition": "preserve_open",
+      "reason": "Usable reviewed renewal is missing; original citation: Note: 'Promo yearly from racknerd.com/specials/.' Renewal stated only as 'lifetime lock typically' (hedged) \u2014 not approved. Preserve the current row; setup-only review is excluded by D6-5. No due-today amount is inferred.",
+      "originalMissing": "verified setup fee; usable reviewed renewal.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "ssd-nodes-kvm-16xl",
+      "frozenState": "open",
+      "disposition": "preserve_open",
+      "reason": "Usable reviewed renewal is missing; original citation: Note: 'Prices on page are 3-year billing cycle' ($23/mo \u00d7 36 = $828). Renewal after term not stated. Preserve the current row; setup-only review is excluded by D6-5. No due-today amount is inferred.",
+      "originalMissing": "verified setup fee; usable reviewed renewal.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "ssd-nodes-kvm-2xl",
+      "frozenState": "open",
+      "disposition": "preserve_open",
+      "reason": "Usable reviewed renewal is missing; original citation: Note: 'Prices on page are 3-year billing cycle' ($11.08/mo \u00d7 36 = $398.88). Renewal after term not stated. Preserve the current row; setup-only review is excluded by D6-5. No due-today amount is inferred.",
+      "originalMissing": "verified setup fee; usable reviewed renewal.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "ssd-nodes-kvm-4xl",
+      "frozenState": "open",
+      "disposition": "preserve_open",
+      "reason": "Usable reviewed renewal is missing; original citation: Note: 'Prices on page are 3-year billing cycle' ($16.42/mo \u00d7 36 = $591.12). Renewal after term not stated. Preserve the current row; setup-only review is excluded by D6-5. No due-today amount is inferred.",
+      "originalMissing": "verified setup fee; usable reviewed renewal.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "ssd-nodes-kvm-8xl",
+      "frozenState": "open",
+      "disposition": "preserve_open",
+      "reason": "Usable reviewed renewal is missing; original citation: Note: 'Prices on page are 3-year billing cycle' ($18/mo \u00d7 36 = $648). Renewal after term not stated. Preserve the current row; setup-only review is excluded by D6-5. No due-today amount is inferred.",
+      "originalMissing": "verified setup fee; usable reviewed renewal.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "ssd-nodes-kvm-medium",
+      "frozenState": "open",
+      "disposition": "preserve_open",
+      "reason": "Usable reviewed renewal is missing; original citation: Note: 'Prices on page are 3-year billing cycle' ($9.42/mo \u00d7 36 = $339.12). Renewal after term not stated. Preserve the current row; setup-only review is excluded by D6-5. No due-today amount is inferred.",
+      "originalMissing": "verified setup fee; usable reviewed renewal.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "ssd-nodes-kvm-small",
+      "frozenState": "open",
+      "disposition": "preserve_open",
+      "reason": "Usable reviewed renewal is missing; original citation: Note: 'Prices on page are 3-year billing cycle' ($5.50/mo \u00d7 36 = $198). Renewal after term not stated. Preserve the current row; setup-only review is excluded by D6-5. No due-today amount is inferred.",
+      "originalMissing": "verified setup fee; usable reviewed renewal.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "contabo-cloud-vps-12",
+      "frozenState": "quarantined",
+      "disposition": "preserve_quarantined",
+      "reason": "The evidence explicitly says renewal was not stated. Owner-gated renewal correction remains unresolved; keep the current price read-only and exclude setup review.",
+      "originalMissing": "verified setup fee; due-today amount; owner-approved renewal correction.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "contabo-cloud-vps-16",
+      "frozenState": "quarantined",
+      "disposition": "preserve_quarantined",
+      "reason": "The evidence explicitly says renewal was not stated. Owner-gated renewal correction remains unresolved; keep the current price read-only and exclude setup review.",
+      "originalMissing": "verified setup fee; due-today amount; owner-approved renewal correction.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "contabo-cloud-vps-18",
+      "frozenState": "quarantined",
+      "disposition": "preserve_quarantined",
+      "reason": "The evidence explicitly says renewal was not stated. Owner-gated renewal correction remains unresolved; keep the current price read-only and exclude setup review.",
+      "originalMissing": "verified setup fee; due-today amount; owner-approved renewal correction.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "contabo-cloud-vps-4",
+      "frozenState": "quarantined",
+      "disposition": "preserve_quarantined",
+      "reason": "The evidence explicitly says renewal was not stated. Owner-gated renewal correction remains unresolved; keep the current price read-only and exclude setup review.",
+      "originalMissing": "verified setup fee; due-today amount; owner-approved renewal correction.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "contabo-cloud-vps-6",
+      "frozenState": "quarantined",
+      "disposition": "preserve_quarantined",
+      "reason": "The evidence explicitly says renewal was not stated. Owner-gated renewal correction remains unresolved; keep the current price read-only and exclude setup review.",
+      "originalMissing": "verified setup fee; due-today amount; owner-approved renewal correction.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "contabo-cloud-vps-8",
+      "frozenState": "quarantined",
+      "disposition": "preserve_quarantined",
+      "reason": "The evidence explicitly says renewal was not stated. Owner-gated renewal correction remains unresolved; keep the current price read-only and exclude setup review.",
+      "originalMissing": "verified setup fee; due-today amount; owner-approved renewal correction.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "netcup-rs-1000-g12",
+      "frozenState": "quarantined",
+      "disposition": "preserve_quarantined",
+      "reason": "A listed price or contract term was used to infer renewal. Owner-gated renewal correction remains unresolved; keep the current price read-only and exclude setup review.",
+      "originalMissing": "verified setup fee; due-today amount; owner-approved renewal correction.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "netcup-vps-1000-g12",
+      "frozenState": "quarantined",
+      "disposition": "preserve_quarantined",
+      "reason": "The evidence explicitly says renewal was not stated. Owner-gated renewal correction remains unresolved; keep the current price read-only and exclude setup review.",
+      "originalMissing": "verified setup fee; due-today amount; owner-approved renewal correction.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "netcup-vps-2000-g12",
+      "frozenState": "quarantined",
+      "disposition": "preserve_quarantined",
+      "reason": "The evidence explicitly says renewal was not stated. Owner-gated renewal correction remains unresolved; keep the current price read-only and exclude setup review.",
+      "originalMissing": "verified setup fee; due-today amount; owner-approved renewal correction.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "netcup-vps-4000-g12",
+      "frozenState": "quarantined",
+      "disposition": "preserve_quarantined",
+      "reason": "The evidence explicitly says renewal was not stated. Owner-gated renewal correction remains unresolved; keep the current price read-only and exclude setup review.",
+      "originalMissing": "verified setup fee; due-today amount; owner-approved renewal correction.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "netcup-500-g12",
+      "frozenState": "quarantined",
+      "disposition": "preserve_quarantined",
+      "reason": "The evidence explicitly says renewal was not stated. Owner-gated renewal correction remains unresolved; keep the current price read-only and exclude setup review.",
+      "originalMissing": "verified setup fee; due-today amount; owner-approved renewal correction.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "netcup-vps-8000-g12",
+      "frozenState": "quarantined",
+      "disposition": "preserve_quarantined",
+      "reason": "The evidence explicitly says renewal was not stated. Owner-gated renewal correction remains unresolved; keep the current price read-only and exclude setup review.",
+      "originalMissing": "verified setup fee; due-today amount; owner-approved renewal correction.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "dreamhost-dh-stack16",
+      "frozenState": "reviewed",
+      "disposition": "unknown",
+      "reason": "Stack pricing and renewal statements are available, but no explicit VPS provisioning/setup fee amount or waiver was found. Root access, deployment and bandwidth statements do not establish a setup fee. Due-today remains unknown.",
+      "originalMissing": "verified setup fee; due-today amount.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "dreamhost-dh-stack32",
+      "frozenState": "reviewed",
+      "disposition": "unknown",
+      "reason": "Stack pricing and renewal statements are available, but no explicit VPS provisioning/setup fee amount or waiver was found. Root access, deployment and bandwidth statements do not establish a setup fee. Due-today remains unknown.",
+      "originalMissing": "verified setup fee; due-today amount.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "dreamhost-dh-stack4",
+      "frozenState": "reviewed",
+      "disposition": "unknown",
+      "reason": "Stack pricing and renewal statements are available, but no explicit VPS provisioning/setup fee amount or waiver was found. Root access, deployment and bandwidth statements do not establish a setup fee. Due-today remains unknown.",
+      "originalMissing": "verified setup fee; due-today amount.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "dreamhost-dh-stack8",
+      "frozenState": "reviewed",
+      "disposition": "unknown",
+      "reason": "Stack pricing and renewal statements are available, but no explicit VPS provisioning/setup fee amount or waiver was found. Root access, deployment and bandwidth statements do not establish a setup fee. Due-today remains unknown.",
+      "originalMissing": "verified setup fee; due-today amount.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "hostinger-kvm-1",
+      "frozenState": "reviewed",
+      "disposition": "unknown",
+      "reason": "KVM pricing is accessible; no explicit setup fee amount or waiver found. Included apps, backups and instant provisioning do not establish a zero fee. Due-today remains unknown.",
+      "originalMissing": "verified setup fee; due-today amount.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "hostinger-kvm-2",
+      "frozenState": "reviewed",
+      "disposition": "unknown",
+      "reason": "KVM pricing is accessible; no explicit setup fee amount or waiver found. Included apps, backups and instant provisioning do not establish a zero fee. Due-today remains unknown.",
+      "originalMissing": "verified setup fee; due-today amount.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "hostinger-kvm-4",
+      "frozenState": "reviewed",
+      "disposition": "unknown",
+      "reason": "KVM pricing is accessible; no explicit setup fee amount or waiver found. Included apps, backups and instant provisioning do not establish a zero fee. Due-today remains unknown.",
+      "originalMissing": "verified setup fee; due-today amount.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "hostinger-kvm-8",
+      "frozenState": "reviewed",
+      "disposition": "unknown",
+      "reason": "KVM pricing is accessible; no explicit setup fee amount or waiver found. Included apps, backups and instant provisioning do not establish a zero fee. Due-today remains unknown.",
+      "originalMissing": "verified setup fee; due-today amount.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "ionos-vps-l-plus",
+      "frozenState": "reviewed",
+      "disposition": "zero_evidence_price_hold",
+      "reason": "Explicit zero fee covers VPS+ family, but stored introductory/regular rates are stale. Keep production setup-only saves on hold until price reconciliation; do not refresh old price check/reviewer stamps using this setup-only research. Due-today remains unknown.",
+      "originalMissing": "verified setup fee; due-today amount.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "ionos-vps-m-plus",
+      "frozenState": "reviewed",
+      "disposition": "zero_evidence_price_hold",
+      "reason": "Explicit zero fee covers VPS+ family, but stored introductory/regular rates are stale. Keep production setup-only saves on hold until price reconciliation; do not refresh old price check/reviewer stamps using this setup-only research. Due-today remains unknown.",
+      "originalMissing": "verified setup fee; due-today amount.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "ionos-vps-xl-plus",
+      "frozenState": "reviewed",
+      "disposition": "zero_evidence_price_hold",
+      "reason": "Explicit zero fee covers VPS+ family, but stored introductory/regular rates are stale. Keep production setup-only saves on hold until price reconciliation; do not refresh old price check/reviewer stamps using this setup-only research. Due-today remains unknown.",
+      "originalMissing": "verified setup fee; due-today amount.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "ionos-vps-xxl-plus",
+      "frozenState": "reviewed",
+      "disposition": "zero_evidence_price_hold",
+      "reason": "Explicit zero fee covers VPS+ family, but stored introductory/regular rates are stale. Keep production setup-only saves on hold until price reconciliation; do not refresh old price check/reviewer stamps using this setup-only research. Due-today remains unknown.",
+      "originalMissing": "verified setup fee; due-today amount.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "scalahosting-scala-b1",
+      "frozenState": "reviewed",
+      "disposition": "unknown",
+      "reason": "Provider redirects to managed cloud. Intro/renewal pricing, migration and SPanel are visible, but no explicit VPS setup fee amount or waiver found. Domain-reseller zero setup wording belongs to another product. Due-today remains unknown.",
+      "originalMissing": "verified setup fee; due-today amount.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "scalahosting-scala-b2",
+      "frozenState": "reviewed",
+      "disposition": "unknown",
+      "reason": "Provider redirects to managed cloud. Intro/renewal pricing, migration and SPanel are visible, but no explicit VPS setup fee amount or waiver found. Domain-reseller zero setup wording belongs to another product. Due-today remains unknown.",
+      "originalMissing": "verified setup fee; due-today amount.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "scalahosting-scala-b3",
+      "frozenState": "reviewed",
+      "disposition": "unknown",
+      "reason": "Provider redirects to managed cloud. Intro/renewal pricing, migration and SPanel are visible, but no explicit VPS setup fee amount or waiver found. Domain-reseller zero setup wording belongs to another product. Due-today remains unknown.",
+      "originalMissing": "verified setup fee; due-today amount.",
+      "productionWritten": false
+    }
+  ],
+  "setupOnlyCandidates": [
+    {
+      "offerId": "dreamhost-dh-stack16",
+      "providerId": "dreamhost",
+      "disposition": "unknown",
+      "setupFee": null,
+      "sourceUrl": "https://www.dreamhost.com/hosting/vps/",
+      "checkedAt": "2026-10-07",
+      "reason": "Stack pricing and renewal statements are available, but no explicit VPS provisioning/setup fee amount or waiver was found. Root access, deployment and bandwidth statements do not establish a setup fee.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "dreamhost-dh-stack32",
+      "providerId": "dreamhost",
+      "disposition": "unknown",
+      "setupFee": null,
+      "sourceUrl": "https://www.dreamhost.com/hosting/vps/",
+      "checkedAt": "2026-10-07",
+      "reason": "Stack pricing and renewal statements are available, but no explicit VPS provisioning/setup fee amount or waiver was found. Root access, deployment and bandwidth statements do not establish a setup fee.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "dreamhost-dh-stack4",
+      "providerId": "dreamhost",
+      "disposition": "unknown",
+      "setupFee": null,
+      "sourceUrl": "https://www.dreamhost.com/hosting/vps/",
+      "checkedAt": "2026-10-07",
+      "reason": "Stack pricing and renewal statements are available, but no explicit VPS provisioning/setup fee amount or waiver was found. Root access, deployment and bandwidth statements do not establish a setup fee.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "dreamhost-dh-stack8",
+      "providerId": "dreamhost",
+      "disposition": "unknown",
+      "setupFee": null,
+      "sourceUrl": "https://www.dreamhost.com/hosting/vps/",
+      "checkedAt": "2026-10-07",
+      "reason": "Stack pricing and renewal statements are available, but no explicit VPS provisioning/setup fee amount or waiver was found. Root access, deployment and bandwidth statements do not establish a setup fee.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "fastcomet-cloud-2",
+      "providerId": "fastcomet",
+      "disposition": "unknown",
+      "setupFee": null,
+      "sourceUrl": "https://www.fastcomet.com/vps-pricing",
+      "checkedAt": "2026-10-07",
+      "reason": "Site assistance and server configuration services are described, but no explicit VPS provisioning fee amount or waiver was found. Site setup is not a server provisioning fee.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "fastcomet-cloud-3",
+      "providerId": "fastcomet",
+      "disposition": "unknown",
+      "setupFee": null,
+      "sourceUrl": "https://www.fastcomet.com/vps-pricing",
+      "checkedAt": "2026-10-07",
+      "reason": "Site assistance and server configuration services are described, but no explicit VPS provisioning fee amount or waiver was found. Site setup is not a server provisioning fee.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "fastcomet-cloud-4",
+      "providerId": "fastcomet",
+      "disposition": "unknown",
+      "setupFee": null,
+      "sourceUrl": "https://www.fastcomet.com/vps-pricing",
+      "checkedAt": "2026-10-07",
+      "reason": "Site assistance and server configuration services are described, but no explicit VPS provisioning fee amount or waiver was found. Site setup is not a server provisioning fee.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "hostinger-kvm-1",
+      "providerId": "hostinger",
+      "disposition": "unknown",
+      "setupFee": null,
+      "sourceUrl": "https://www.hostinger.com/vps-hosting",
+      "checkedAt": "2026-10-07",
+      "reason": "KVM pricing is accessible; no explicit setup fee amount or waiver found. Included apps, backups and instant provisioning do not establish a zero fee.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "hostinger-kvm-2",
+      "providerId": "hostinger",
+      "disposition": "unknown",
+      "setupFee": null,
+      "sourceUrl": "https://www.hostinger.com/vps-hosting",
+      "checkedAt": "2026-10-07",
+      "reason": "KVM pricing is accessible; no explicit setup fee amount or waiver found. Included apps, backups and instant provisioning do not establish a zero fee.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "hostinger-kvm-4",
+      "providerId": "hostinger",
+      "disposition": "unknown",
+      "setupFee": null,
+      "sourceUrl": "https://www.hostinger.com/vps-hosting",
+      "checkedAt": "2026-10-07",
+      "reason": "KVM pricing is accessible; no explicit setup fee amount or waiver found. Included apps, backups and instant provisioning do not establish a zero fee.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "hostinger-kvm-8",
+      "providerId": "hostinger",
+      "disposition": "unknown",
+      "setupFee": null,
+      "sourceUrl": "https://www.hostinger.com/vps-hosting",
+      "checkedAt": "2026-10-07",
+      "reason": "KVM pricing is accessible; no explicit setup fee amount or waiver found. Included apps, backups and instant provisioning do not establish a zero fee.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "ionos-vps-l-plus",
+      "providerId": "ionos",
+      "disposition": "zero_evidence_price_hold",
+      "setupFee": 0,
+      "sourceUrl": "https://www.ionos.com/servers/vps",
+      "checkedAt": "2026-10-07",
+      "reason": "Explicit zero fee covers VPS+ family, but stored introductory/regular rates are stale. Keep production setup-only saves on hold until price reconciliation; do not refresh old price check/reviewer stamps using this setup-only research.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "ionos-vps-m-plus",
+      "providerId": "ionos",
+      "disposition": "zero_evidence_price_hold",
+      "setupFee": 0,
+      "sourceUrl": "https://www.ionos.com/servers/vps",
+      "checkedAt": "2026-10-07",
+      "reason": "Explicit zero fee covers VPS+ family, but stored introductory/regular rates are stale. Keep production setup-only saves on hold until price reconciliation; do not refresh old price check/reviewer stamps using this setup-only research.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "ionos-vps-xl-plus",
+      "providerId": "ionos",
+      "disposition": "zero_evidence_price_hold",
+      "setupFee": 0,
+      "sourceUrl": "https://www.ionos.com/servers/vps",
+      "checkedAt": "2026-10-07",
+      "reason": "Explicit zero fee covers VPS+ family, but stored introductory/regular rates are stale. Keep production setup-only saves on hold until price reconciliation; do not refresh old price check/reviewer stamps using this setup-only research.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "ionos-vps-xxl-plus",
+      "providerId": "ionos",
+      "disposition": "zero_evidence_price_hold",
+      "setupFee": 0,
+      "sourceUrl": "https://www.ionos.com/servers/vps",
+      "checkedAt": "2026-10-07",
+      "reason": "Explicit zero fee covers VPS+ family, but stored introductory/regular rates are stale. Keep production setup-only saves on hold until price reconciliation; do not refresh old price check/reviewer stamps using this setup-only research.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "liquid-web-lw-1g",
+      "providerId": "liquid-web",
+      "disposition": "verified_zero_candidate",
+      "setupFee": 0,
+      "sourceUrl": "https://www.liquidweb.com/vps-hosting/cloud-vps/",
+      "checkedAt": "2026-10-07",
+      "reason": "Cloud VPS product-family fee waiver is explicit. Compute table matches all four stored plans: 1 GB $5/month, 2 GB $11/month, 4 GB $17/month and 6 GB $22/month. Applies to base Cloud VPS provisioning, not optional add-ons or a complete due-today/tax quotation.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "liquid-web-lw-2g",
+      "providerId": "liquid-web",
+      "disposition": "verified_zero_candidate",
+      "setupFee": 0,
+      "sourceUrl": "https://www.liquidweb.com/vps-hosting/cloud-vps/",
+      "checkedAt": "2026-10-07",
+      "reason": "Cloud VPS product-family fee waiver is explicit. Compute table matches all four stored plans: 1 GB $5/month, 2 GB $11/month, 4 GB $17/month and 6 GB $22/month. Applies to base Cloud VPS provisioning, not optional add-ons or a complete due-today/tax quotation.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "liquid-web-lw-4g",
+      "providerId": "liquid-web",
+      "disposition": "verified_zero_candidate",
+      "setupFee": 0,
+      "sourceUrl": "https://www.liquidweb.com/vps-hosting/cloud-vps/",
+      "checkedAt": "2026-10-07",
+      "reason": "Cloud VPS product-family fee waiver is explicit. Compute table matches all four stored plans: 1 GB $5/month, 2 GB $11/month, 4 GB $17/month and 6 GB $22/month. Applies to base Cloud VPS provisioning, not optional add-ons or a complete due-today/tax quotation.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "liquid-web-lw-6g",
+      "providerId": "liquid-web",
+      "disposition": "verified_zero_candidate",
+      "setupFee": 0,
+      "sourceUrl": "https://www.liquidweb.com/vps-hosting/cloud-vps/",
+      "checkedAt": "2026-10-07",
+      "reason": "Cloud VPS product-family fee waiver is explicit. Compute table matches all four stored plans: 1 GB $5/month, 2 GB $11/month, 4 GB $17/month and 6 GB $22/month. Applies to base Cloud VPS provisioning, not optional add-ons or a complete due-today/tax quotation.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "scalahosting-scala-b1",
+      "providerId": "scalahosting",
+      "disposition": "unknown",
+      "setupFee": null,
+      "sourceUrl": "https://www.scalahosting.com/managed-cloud-hosting.html",
+      "checkedAt": "2026-10-07",
+      "reason": "Provider redirects to managed cloud. Intro/renewal pricing, migration and SPanel are visible, but no explicit VPS setup fee amount or waiver found. Domain-reseller zero setup wording belongs to another product.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "scalahosting-scala-b2",
+      "providerId": "scalahosting",
+      "disposition": "unknown",
+      "setupFee": null,
+      "sourceUrl": "https://www.scalahosting.com/managed-cloud-hosting.html",
+      "checkedAt": "2026-10-07",
+      "reason": "Provider redirects to managed cloud. Intro/renewal pricing, migration and SPanel are visible, but no explicit VPS setup fee amount or waiver found. Domain-reseller zero setup wording belongs to another product.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "scalahosting-scala-b3",
+      "providerId": "scalahosting",
+      "disposition": "unknown",
+      "setupFee": null,
+      "sourceUrl": "https://www.scalahosting.com/managed-cloud-hosting.html",
+      "checkedAt": "2026-10-07",
+      "reason": "Provider redirects to managed cloud. Intro/renewal pricing, migration and SPanel are visible, but no explicit VPS setup fee amount or waiver found. Domain-reseller zero setup wording belongs to another product.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "time4vps-linux-1",
+      "providerId": "time4vps",
+      "disposition": "unknown",
+      "setupFee": null,
+      "sourceUrl": "https://www.time4vps.com/linux-vps/",
+      "checkedAt": "2026-10-07",
+      "reason": "Linux VPS page was retrieved successfully on this check, unlike the historical 403. No explicit setup fee amount or waiver found; a blank fee remains unknown.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "time4vps-linux-16",
+      "providerId": "time4vps",
+      "disposition": "unknown",
+      "setupFee": null,
+      "sourceUrl": "https://www.time4vps.com/linux-vps/",
+      "checkedAt": "2026-10-07",
+      "reason": "Linux VPS page was retrieved successfully on this check, unlike the historical 403. No explicit setup fee amount or waiver found; a blank fee remains unknown.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "time4vps-linux-2",
+      "providerId": "time4vps",
+      "disposition": "unknown",
+      "setupFee": null,
+      "sourceUrl": "https://www.time4vps.com/linux-vps/",
+      "checkedAt": "2026-10-07",
+      "reason": "Linux VPS page was retrieved successfully on this check, unlike the historical 403. No explicit setup fee amount or waiver found; a blank fee remains unknown.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "time4vps-linux-24",
+      "providerId": "time4vps",
+      "disposition": "unknown",
+      "setupFee": null,
+      "sourceUrl": "https://www.time4vps.com/linux-vps/",
+      "checkedAt": "2026-10-07",
+      "reason": "Linux VPS page was retrieved successfully on this check, unlike the historical 403. No explicit setup fee amount or waiver found; a blank fee remains unknown.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "time4vps-linux-32",
+      "providerId": "time4vps",
+      "disposition": "unknown",
+      "setupFee": null,
+      "sourceUrl": "https://www.time4vps.com/linux-vps/",
+      "checkedAt": "2026-10-07",
+      "reason": "Linux VPS page was retrieved successfully on this check, unlike the historical 403. No explicit setup fee amount or waiver found; a blank fee remains unknown.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "time4vps-linux-4",
+      "providerId": "time4vps",
+      "disposition": "unknown",
+      "setupFee": null,
+      "sourceUrl": "https://www.time4vps.com/linux-vps/",
+      "checkedAt": "2026-10-07",
+      "reason": "Linux VPS page was retrieved successfully on this check, unlike the historical 403. No explicit setup fee amount or waiver found; a blank fee remains unknown.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "time4vps-linux-48",
+      "providerId": "time4vps",
+      "disposition": "unknown",
+      "setupFee": null,
+      "sourceUrl": "https://www.time4vps.com/linux-vps/",
+      "checkedAt": "2026-10-07",
+      "reason": "Linux VPS page was retrieved successfully on this check, unlike the historical 403. No explicit setup fee amount or waiver found; a blank fee remains unknown.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "time4vps-linux-64",
+      "providerId": "time4vps",
+      "disposition": "unknown",
+      "setupFee": null,
+      "sourceUrl": "https://www.time4vps.com/linux-vps/",
+      "checkedAt": "2026-10-07",
+      "reason": "Linux VPS page was retrieved successfully on this check, unlike the historical 403. No explicit setup fee amount or waiver found; a blank fee remains unknown.",
+      "productionWritten": false
+    },
+    {
+      "offerId": "time4vps-linux-8",
+      "providerId": "time4vps",
+      "disposition": "unknown",
+      "setupFee": null,
+      "sourceUrl": "https://www.time4vps.com/linux-vps/",
+      "checkedAt": "2026-10-07",
+      "reason": "Linux VPS page was retrieved successfully on this check, unlike the historical 403. No explicit setup fee amount or waiver found; a blank fee remains unknown.",
+      "productionWritten": false
+    }
+  ],
+  "allQuarantinedRows": [
+    {
+      "offerId": "contabo-cloud-vps-12",
+      "disposition": "preserve_quarantined",
+      "reason": "The evidence explicitly says renewal was not stated. Owner-gated correction pending; untouched."
+    },
+    {
+      "offerId": "contabo-cloud-vps-16",
+      "disposition": "preserve_quarantined",
+      "reason": "The evidence explicitly says renewal was not stated. Owner-gated correction pending; untouched."
+    },
+    {
+      "offerId": "contabo-cloud-vps-18",
+      "disposition": "preserve_quarantined",
+      "reason": "The evidence explicitly says renewal was not stated. Owner-gated correction pending; untouched."
+    },
+    {
+      "offerId": "contabo-cloud-vps-4",
+      "disposition": "preserve_quarantined",
+      "reason": "The evidence explicitly says renewal was not stated. Owner-gated correction pending; untouched."
+    },
+    {
+      "offerId": "contabo-cloud-vps-6",
+      "disposition": "preserve_quarantined",
+      "reason": "The evidence explicitly says renewal was not stated. Owner-gated correction pending; untouched."
+    },
+    {
+      "offerId": "contabo-cloud-vps-8",
+      "disposition": "preserve_quarantined",
+      "reason": "The evidence explicitly says renewal was not stated. Owner-gated correction pending; untouched."
+    },
+    {
+      "offerId": "fastcomet-cloud-5",
+      "disposition": "preserve_quarantined",
+      "reason": "A listed price or contract term was used to infer renewal. Owner-gated correction pending; untouched."
+    },
+    {
+      "offerId": "fastcomet-cloud-6",
+      "disposition": "preserve_quarantined",
+      "reason": "A listed price or contract term was used to infer renewal. Owner-gated correction pending; untouched."
+    },
+    {
+      "offerId": "fastcomet-cloud-7",
+      "disposition": "preserve_quarantined",
+      "reason": "A listed price or contract term was used to infer renewal. Owner-gated correction pending; untouched."
+    },
+    {
+      "offerId": "fastcomet-cloud-8",
+      "disposition": "preserve_quarantined",
+      "reason": "A listed price or contract term was used to infer renewal. Owner-gated correction pending; untouched."
+    },
+    {
+      "offerId": "netcup-500-g12",
+      "disposition": "preserve_quarantined",
+      "reason": "The evidence explicitly says renewal was not stated. Owner-gated correction pending; untouched."
+    },
+    {
+      "offerId": "netcup-rs-1000-g12",
+      "disposition": "preserve_quarantined",
+      "reason": "A listed price or contract term was used to infer renewal. Owner-gated correction pending; untouched."
+    },
+    {
+      "offerId": "netcup-vps-1000-g12",
+      "disposition": "preserve_quarantined",
+      "reason": "The evidence explicitly says renewal was not stated. Owner-gated correction pending; untouched."
+    },
+    {
+      "offerId": "netcup-vps-2000-g12",
+      "disposition": "preserve_quarantined",
+      "reason": "The evidence explicitly says renewal was not stated. Owner-gated correction pending; untouched."
+    },
+    {
+      "offerId": "netcup-vps-4000-g12",
+      "disposition": "preserve_quarantined",
+      "reason": "The evidence explicitly says renewal was not stated. Owner-gated correction pending; untouched."
+    },
+    {
+      "offerId": "netcup-vps-8000-g12",
+      "disposition": "preserve_quarantined",
+      "reason": "The evidence explicitly says renewal was not stated. Owner-gated correction pending; untouched."
+    }
+  ],
+  "newSpecialPlansOutsideFrozenScope": [
+    {
+      "offerId": "cloudcone-frankenstein-26-ssd-vps-1",
+      "disposition": "outside_frozen_phase6_terms_worklist",
+      "reason": "Added on 7 October as a special offer; not part of the original 47 long-term targets or 31 setup-only candidates. This research supplies no reviewed setup fee, renewal stamp or projection for this new row."
+    },
+    {
+      "offerId": "cloudcone-frankenstein-26-ssd-vps-2",
+      "disposition": "outside_frozen_phase6_terms_worklist",
+      "reason": "Added on 7 October as a special offer; not part of the original 47 long-term targets or 31 setup-only candidates. This research supplies no reviewed setup fee, renewal stamp or projection for this new row."
+    },
+    {
+      "offerId": "cloudcone-frankenstein-26-ssd-vps-3",
+      "disposition": "outside_frozen_phase6_terms_worklist",
+      "reason": "Added on 7 October as a special offer; not part of the original 47 long-term targets or 31 setup-only candidates. This research supplies no reviewed setup fee, renewal stamp or projection for this new row."
+    },
+    {
+      "offerId": "cloudcone-frankenstein-26-ssd-vps-4",
+      "disposition": "outside_frozen_phase6_terms_worklist",
+      "reason": "Added on 7 October as a special offer; not part of the original 47 long-term targets or 31 setup-only candidates. This research supplies no reviewed setup fee, renewal stamp or projection for this new row."
+    },
+    {
+      "offerId": "cloudcone-frankenstein-26-ssd-vps-5",
+      "disposition": "outside_frozen_phase6_terms_worklist",
+      "reason": "Added on 7 October as a special offer; not part of the original 47 long-term targets or 31 setup-only candidates. This research supplies no reviewed setup fee, renewal stamp or projection for this new row."
+    },
+    {
+      "offerId": "greencloudvps-budgetkvmnyc-3-sale",
+      "disposition": "outside_frozen_phase6_terms_worklist",
+      "reason": "Added on 7 October as a special offer; not part of the original 47 long-term targets or 31 setup-only candidates. This research supplies no reviewed setup fee, renewal stamp or projection for this new row."
+    },
+    {
+      "offerId": "greencloudvps-epycnyc-2-sale",
+      "disposition": "outside_frozen_phase6_terms_worklist",
+      "reason": "Added on 7 October as a special offer; not part of the original 47 long-term targets or 31 setup-only candidates. This research supplies no reviewed setup fee, renewal stamp or projection for this new row."
+    },
+    {
+      "offerId": "greencloudvps-epycnyc-3-sale",
+      "disposition": "outside_frozen_phase6_terms_worklist",
+      "reason": "Added on 7 October as a special offer; not part of the original 47 long-term targets or 31 setup-only candidates. This research supplies no reviewed setup fee, renewal stamp or projection for this new row."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "draftPublicIsolation": 100,
+  "publicOffers": 330,
+  "voiceRoutes": [
+    "/",
+    "/catalog",
+    "/special-offers",
+    "/compare",
+    "/providers",
+    "/guides",
+    "/about",
+    "/terms",
+    "/privacy",
+    "/updates"
+  ],
+  "voiceViolations": 0,
+  "liquidWebReviewedProjections": [
+    {
+      "id": "liquid-web-lw-6g",
+      "setupFee": 0,
+      "realMonthly": 22
+    },
+    {
+      "id": "liquid-web-lw-4g",
+      "setupFee": 0,
+      "realMonthly": 17
+    },
+    {
+      "id": "liquid-web-lw-2g",
+      "setupFee": 0,
+      "realMonthly": 11
+    },
+    {
+      "id": "liquid-web-lw-1g",
+      "setupFee": 0,
+      "realMonthly": 5
+    }
+  ]
+}

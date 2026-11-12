@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "phase": "final",
+  "generatedAt": "2026-10-25T20:01:22.043Z",
+  "passed": false,
+  "failedAt": "runtime-initialization",
+  "failures": [
+    "RUNTIME_SOURCE_DATABASE must name an existing /tmp online backup"
+  ]
+}

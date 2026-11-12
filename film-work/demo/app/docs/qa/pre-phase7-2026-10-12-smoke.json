@@ -1,0 +1,148 @@
+{
+  "guideImages": [
+    {
+      "path": "/guides/vps-market-snapshot-457-rows",
+      "pageStatus": 200,
+      "imageStatus": 200,
+      "type": "image/png",
+      "signature": "89504e470d0a1a0a",
+      "width": 1200,
+      "height": 630,
+      "bytes": 63289
+    },
+    {
+      "path": "/guides/choosing-vps-location",
+      "pageStatus": 200,
+      "imageStatus": 200,
+      "type": "image/png",
+      "signature": "89504e470d0a1a0a",
+      "width": 1200,
+      "height": 630,
+      "bytes": 56657
+    },
+    {
+      "path": "/guides/compare-vps-prices-without-traps",
+      "pageStatus": 200,
+      "imageStatus": 200,
+      "type": "image/png",
+      "signature": "89504e470d0a1a0a",
+      "width": 1200,
+      "height": 630,
+      "bytes": 61074
+    },
+    {
+      "path": "/guides/how-much-vps-ram-do-you-need",
+      "pageStatus": 200,
+      "imageStatus": 200,
+      "type": "image/png",
+      "signature": "89504e470d0a1a0a",
+      "width": 1200,
+      "height": 630,
+      "bytes": 67659
+    },
+    {
+      "path": "/guides/secure-a-new-linux-vps",
+      "pageStatus": 200,
+      "imageStatus": 200,
+      "type": "image/png",
+      "signature": "89504e470d0a1a0a",
+      "width": 1200,
+      "height": 630,
+      "bytes": 62781
+    },
+    {
+      "path": "/guides/vps-vs-shared-hosting",
+      "pageStatus": 200,
+      "imageStatus": 200,
+      "type": "image/png",
+      "signature": "89504e470d0a1a0a",
+      "width": 1200,
+      "height": 630,
+      "bytes": 69736
+    },
+    {
+      "path": "/guides/what-is-a-vps",
+      "pageStatus": 200,
+      "imageStatus": 200,
+      "type": "image/png",
+      "signature": "89504e470d0a1a0a",
+      "width": 1200,
+      "height": 630,
+      "bytes": 52033
+    }
+  ],
+  "shell": [
+    {
+      "route": "/",
+      "theme": "dark",
+      "main": 1,
+      "skipTarget": true,
+      "footer": 1,
+      "links": [
+        "/catalog",
+        "/special-offers",
+        "/providers",
+        "/guides",
+        "/methodology"
+      ],
+      "footerLinks": [
+        "/catalog",
+        "/compare",
+        "/providers",
+        "/updates",
+        "/methodology",
+        "/guides",
+        "/guides/vps-market-snapshot-457-rows",
+        "/corrections",
+        "/about",
+        "mailto:hello@bestvpsforme.com",
+        "/privacy",
+        "/terms",
+        "/methodology#independence",
+        "/methodology#independence"
+      ],
+      "overflow": false,
+      "logoWidth": 159.671875
+    },
+    {
+      "route": "/catalog",
+      "theme": "dark",
+      "main": 1,
+      "skipTarget": true,
+      "footer": 1,
+      "links": [
+        "/catalog",
+        "/special-offers",
+        "/providers",
+        "/guides",
+        "/methodology"
+      ],
+      "footerLinks": [
+        "/catalog",
+        "/compare",
+        "/providers",
+        "/updates",
+        "/methodology",
+        "/guides",
+        "/guides/vps-market-snapshot-457-rows",
+        "/corrections",
+        "/about",
+        "mailto:hello@bestvpsforme.com",
+        "/privacy",
+        "/terms",
+        "/methodology#independence",
+        "/methodology#independence"
+      ],
+      "overflow": false,
+      "logoWidth": 159.671875
+    }
+  ],
+  "visualReview": {
+    "guide": "1200x630 generated image: complete title, readable description, author/date and branded lockup without overlap",
+    "catalog": "390px light and 1440px dark screenshots reviewed; retained receipt/tag styling, one main/footer, no horizontal document overflow",
+    "menu": "Opened and closed with Escape",
+    "theme": "Dark persisted across home/catalog router boundary",
+    "networkNote": "Rapid navigations canceled outstanding RSC prefetch requests; no JavaScript exception was observed"
+  },
+  "productionMutations": false
+}

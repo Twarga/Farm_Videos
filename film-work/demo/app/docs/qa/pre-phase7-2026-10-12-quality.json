@@ -1,0 +1,99 @@
+{
+  "command": "CI= npm run release:check",
+  "result": "passed",
+  "retries": 0,
+  "flaky": 0,
+  "failed": 0,
+  "unit": {
+    "files": 81,
+    "passed": 497
+  },
+  "browser": {
+    "passed": 891,
+    "skipped": 207,
+    "profiles": [
+      {
+        "name": "standard",
+        "passed": 682,
+        "skipped": 182
+      },
+      {
+        "name": "large catalog",
+        "passed": 44,
+        "skipped": 4
+      },
+      {
+        "name": "large CSP",
+        "passed": 36,
+        "skipped": 6
+      },
+      {
+        "name": "actions CSP",
+        "passed": 36,
+        "skipped": 6
+      },
+      {
+        "name": "admin actions",
+        "passed": 12,
+        "skipped": 0
+      },
+      {
+        "name": "editorial",
+        "passed": 18,
+        "skipped": 0
+      },
+      {
+        "name": "terms",
+        "passed": 18,
+        "skipped": 0
+      },
+      {
+        "name": "reviewed price audit",
+        "passed": 33,
+        "skipped": 9
+      },
+      {
+        "name": "settings",
+        "passed": 12,
+        "skipped": 0
+      }
+    ]
+  },
+  "dependencyAudit": {
+    "vulnerabilities": 0
+  },
+  "researchCsv": {
+    "errors": 0,
+    "warnings": 7
+  },
+  "lint": "passed",
+  "typecheck": "passed",
+  "build": "passed",
+  "security": "passed",
+  "content": "passed",
+  "catalogBudget": {
+    "bytes": 118706,
+    "exclusiveLimit": 120000,
+    "buildId": "6laP8FWQHs7sJtc76DsdX",
+    "laterScriptsBytes": 144297
+  },
+  "focused": {
+    "delayedNavigation": {
+      "passed": 18,
+      "retries": 0
+    },
+    "keyboardContrast": {
+      "passed": 30,
+      "retries": 0
+    }
+  },
+  "manualScreenReader": "pending",
+  "currentBuildFullLighthouseMatrix": "not run: Phase 7 acceptance work",
+  "externalDeployment": false,
+  "finalTypecheckVerification": {
+    "command": "npm run typecheck",
+    "implementation": "rm -rf .next/dev && next typegen && tsc --noEmit",
+    "result": "passed",
+    "note": "Verified separately after the full run; application runtime unchanged"
+  }
+}

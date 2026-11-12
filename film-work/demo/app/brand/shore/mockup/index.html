@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en" data-theme="night">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>bestvpsforme · The Shore · design mockup</title>
+  <meta name="description" content="Design mockup of the bestvpsforme V1 remake. Not the live site.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M17 9c6 0 10 4.4 10 10.2C27 25 22.6 29 16.6 29c-4.2 0-7.4-2.4-8.3-6 2.1 1 5.2.5 6.1-2.1.9-2.8-.7-5.1-3.3-5.6C12 11.7 13.9 9 17 9z' fill='%239b7bff'/%3E%3Cpath d='M18.5 19.5a1.4 1.4 0 1 1-1.4-1.4 2.8 2.8 0 1 1 2.8 2.8' fill='none' stroke='%23efe3c8' stroke-width='1.3'/%3E%3Cpath d='M8 17 6 9M12 16l1-7' stroke='%23e89d88' stroke-width='1.8' stroke-linecap='round'/%3E%3Ccircle cx='6' cy='8' r='2.4' fill='%23efe3c8'/%3E%3Ccircle cx='13' cy='8' r='2.4' fill='%23efe3c8'/%3E%3Ccircle cx='6' cy='8' r='1.1' fill='%23070a1c'/%3E%3Ccircle cx='13' cy='8' r='1.1' fill='%23070a1c'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="shore.css">
+  <script>
+    (() => {
+      const saved = localStorage.getItem('shore-theme');
+      const sys = matchMedia('(prefers-color-scheme: light)').matches ? 'day' : 'night';
+      document.documentElement.dataset.theme = saved || sys;
+      window.STYLES = [];
+      window.registerStyle = (s) => window.STYLES.push(s);
+    })();
+  </script>
+</head>
+<body>
+  <svg class="sprite" aria-hidden="true" focusable="false">
+    <defs>
+      <pattern id="sh-x" width="5" height="5" patternUnits="userSpaceOnUse"><path d="M0 0L5 5M5 0L0 5" stroke="rgba(239,227,200,.12)" stroke-width=".6"/></pattern>
+      <radialGradient id="moonGlow"><stop offset="0" stop-color="#efe3c8" stop-opacity=".2"/><stop offset="1" stop-color="#efe3c8" stop-opacity="0"/></radialGradient>
+      <symbol id="i-shell" viewBox="0 0 24 24"><path d="M13.5 5.5c4.4 0 7.5 3.3 7.5 7.6 0 4.4-3.3 7.4-7.7 7.4-3.1 0-5.4-1.8-6.1-4.4 1.6.7 3.8.3 4.5-1.6.7-2-.5-3.8-2.4-4.1.7-2.9 2.2-4.9 4.2-4.9z"/><path class="dash" d="M14.6 13.2a1.1 1.1 0 1 1-1.1-1.1 2.2 2.2 0 1 1 2.2 2.2 3.4 3.4 0 1 1-3.4-3.4"/></symbol>
+      <symbol id="i-pail" viewBox="0 0 24 24"><path d="M5 9h14l-1.6 10.2a1.6 1.6 0 0 1-1.6 1.3H8.2a1.6 1.6 0 0 1-1.6-1.3z"/><path d="M6.5 9C6.5 5.5 9 3.5 12 3.5S17.5 5.5 17.5 9"/><path class="dash" d="M6.2 13.5h11.6"/></symbol>
+      <symbol id="i-tag" viewBox="0 0 24 24"><path d="M3.5 12.6V5a1.5 1.5 0 0 1 1.5-1.5h7.6l8 8a1.5 1.5 0 0 1 0 2.1l-7.5 7.5a1.5 1.5 0 0 1-2.1 0z"/><circle cx="8" cy="8" r="1.5"/><path class="dash" d="M10.5 13.5l4-4"/></symbol>
+      <symbol id="i-hook" viewBox="0 0 24 24"><path d="M14 3v11.5a4.5 4.5 0 0 1-9 0V12l2.4 2.4"/><circle cx="14" cy="3.2" r="1.2"/><path class="dash" d="M14 3c3 2 5 5 5 9"/></symbol>
+      <symbol id="i-lantern" viewBox="0 0 24 24"><path d="M9 6.5h6M10 4.5a2 2 0 0 1 4 0"/><rect x="7.5" y="6.5" width="9" height="12" rx="2"/><path d="M8.5 20.5h7"/><path d="M12 15.5c-1.3-1.2-1.1-2.9 0-4.4 1.1 1.5 1.3 3.2 0 4.4z"/></symbol>
+      <symbol id="i-check" viewBox="0 0 24 24"><path d="M4.5 12.5l4.6 4.6L19.5 6.7"/></symbol>
+      <symbol id="i-moon" viewBox="0 0 24 24"><path d="M19.5 14.6A8 8 0 0 1 9.4 4.5a8 8 0 1 0 10.1 10.1z"/></symbol>
+      <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path class="dash" d="M12 2.5v2.5M12 19v2.5M2.5 12H5M19 12h2.5M5.3 5.3l1.8 1.8M16.9 16.9l1.8 1.8M5.3 18.7l1.8-1.8M16.9 7.1l1.8-1.8"/></symbol>
+      <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16"/><path class="dash" d="M4 17h16"/></symbol>
+      <symbol id="i-cpu" viewBox="0 0 24 24"><rect x="6.5" y="6.5" width="11" height="11" rx="2"/><rect x="9.5" y="9.5" width="5" height="5" rx="1"/><path class="dash" d="M9.5 3v3.5M14.5 3v3.5M9.5 17.5V21M14.5 17.5V21M3 9.5h3.5M3 14.5h3.5M17.5 9.5H21M17.5 14.5H21"/></symbol>
+      <symbol id="i-ram" viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="9" rx="1.5"/><path d="M7 10v3M11 10v3M15 10v3"/><path class="dash" d="M5 16v2.5M9 16v2.5M13 16v2.5M17 16v2.5"/></symbol>
+      <symbol id="i-disk" viewBox="0 0 24 24"><ellipse cx="12" cy="6.5" rx="7.5" ry="3"/><path d="M4.5 6.5v11c0 1.7 3.4 3 7.5 3s7.5-1.3 7.5-3v-11"/><path class="dash" d="M4.5 12c0 1.7 3.4 3 7.5 3s7.5-1.3 7.5-3"/></symbol>
+      <symbol id="i-transfer" viewBox="0 0 24 24"><path d="M4 8.5h14l-3.5-3.5M20 15.5H6l3.5 3.5"/></symbol>
+      <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-6.5-6-6.5-11a6.5 6.5 0 0 1 13 0c0 5-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.3"/></symbol>
+      <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4.5 12h14.5M13.5 6.5 19 12l-5.5 5.5"/></symbol>
+      <symbol id="i-out" viewBox="0 0 24 24"><path d="M8 16 17 7M9.5 7H17v7.5"/></symbol>
+      <symbol id="i-close" viewBox="0 0 24 24"><path d="M6.5 6.5l11 11M17.5 6.5l-11 11"/></symbol>
+      <symbol id="i-star" viewBox="0 0 24 24"><path d="M12 3.8l2.4 5 5.4.7-4 3.8 1 5.4L12 16.1l-4.8 2.6 1-5.4-4-3.8 5.4-.7z"/></symbol>
+      <symbol id="i-bottle" viewBox="0 0 24 24"><path d="M10 3.5h4M10.5 3.5v4l-2.5 3V19a1.5 1.5 0 0 0 1.5 1.5h5A1.5 1.5 0 0 0 16 19v-8.5l-2.5-3v-4"/><path class="dash" d="M9.5 14h5"/></symbol>
+      <symbol id="i-grid" viewBox="0 0 24 24"><rect x="4" y="4" width="6.5" height="6.5" rx="1.5"/><rect x="13.5" y="4" width="6.5" height="6.5" rx="1.5"/><rect x="4" y="13.5" width="6.5" height="6.5" rx="1.5"/><rect class="dash" x="13.5" y="13.5" width="6.5" height="6.5" rx="1.5"/></symbol>
+      <symbol id="i-list" viewBox="0 0 24 24"><path d="M9 6.5h11M9 12h11"/><path class="dash" d="M9 17.5h11"/><circle cx="5" cy="6.5" r="1.2"/><circle cx="5" cy="12" r="1.2"/><circle cx="5" cy="17.5" r="1.2"/></symbol>
+      <symbol id="i-sort" viewBox="0 0 24 24"><path d="M8 4.5v15M4.5 8 8 4.5 11.5 8"/><path d="M16 19.5v-15M12.5 16l3.5 3.5 3.5-3.5"/></symbol>
+      <symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6"/><path d="M15 15l5 5"/></symbol>
+    </defs>
+  </svg>
+
+  <a class="skip" href="#app">Skip to content</a>
+
+  <header class="top" id="top">
+    <div class="top__in">
+      <a class="brand" href="#home" aria-label="bestvpsforme home">
+        <span class="brand__crab" id="brandCrab" aria-hidden="true"></span>
+        <span class="wordmark">bestvps<span>forme</span></span>
+      </a>
+      <nav class="nav" id="nav" aria-label="Main">
+        <a href="#catalog" data-nav="catalog">VPS plans</a>
+        <a href="#special-offers" data-nav="special-offers">Special offers</a>
+        <a href="#providers" data-nav="providers">Providers</a>
+        <a href="#guides" data-nav="guides">Guides</a>
+        <a href="#methodology" data-nav="methodology">How we compare</a>
+      </nav>
+      <div class="top__actions">
+        <button class="pill pill--icon" id="themeBtn" type="button" aria-label="Switch to day theme">
+          <svg class="ico ico--moon" aria-hidden="true"><use href="#i-moon"/></svg>
+          <svg class="ico ico--sun" aria-hidden="true"><use href="#i-sun"/></svg>
+        </button>
+        <a class="pill pill--pail" href="#compare" id="pailBtn" data-n="0" aria-label="Compare, 0 of 4 plans selected">
+          <span class="pail" aria-hidden="true">
+            <svg viewBox="0 0 34 30" class="pail__svg">
+              <g class="pail__shells" id="pailShells"></g>
+              <path class="pail__body" d="M5 12h24l-2.6 14.4a2.4 2.4 0 0 1-2.4 2H10a2.4 2.4 0 0 1-2.4-2z"/>
+              <path class="pail__seam" d="M6.4 18.5h21.2"/>
+              <path class="pail__handle" d="M7.5 12C7.5 6.5 11.6 3 17 3s9.5 3.5 9.5 9"/>
+            </svg>
+          </span>
+          <span class="pill__label">Compare</span>
+          <span class="pill__count num" id="pailCount">0</span>
+        </a>
+        <button class="pill pill--icon menu-btn" id="menuBtn" type="button" aria-label="Menu" aria-expanded="false" aria-controls="nav">
+          <svg class="ico" aria-hidden="true"><use href="#i-menu"/></svg>
+        </button>
+      </div>
+    </div>
+    <span class="tide-wave" aria-hidden="true"></span>
+  </header>
+
+  <main id="app" tabindex="-1"></main>
+
+  <footer class="foot" id="foot">
+    <svg class="foot__shore" viewBox="0 0 1440 40" preserveAspectRatio="none" aria-hidden="true" focusable="false"></svg>
+    <div class="foot__in">
+      <div class="foot__crew" aria-hidden="true">
+        <span class="foot__bear" id="footBear"></span>
+        <span class="foot__crab" id="footCrab"></span>
+      </div>
+      <div class="foot__brand">
+        <p class="wordmark wordmark--sm">bestvps<span>forme</span></p>
+        <p class="foot__line">Compare VPS prices, hardware and billing terms. Missing evidence stays marked.</p>
+        <p class="foot__company">bestvpsforme is a <strong>TwargaOps</strong> product. The Keeper keeps the light on; the crab reads the fine print.</p>
+      </div>
+      <nav class="foot__cols" aria-label="Footer">
+        <div><h2>Product</h2><a href="#catalog">Plans</a><a href="#special-offers">Special offers</a><a href="#compare">Compare</a><a href="#providers">Providers</a><a href="#updates">Updates</a></div>
+        <div><h2>Research</h2><a href="#methodology">How we compare</a><a href="#guides">Guides</a><a href="#corrections">Corrections</a></div>
+        <div><h2>Legal</h2><a href="#privacy">Privacy</a><a href="#terms">Terms</a><a href="#affiliate">Affiliate disclosure</a></div>
+      </nav>
+    </div>
+    <p class="foot__fine">Some links earn us a commission. They never change the order. · Mockup data: <span id="footMeta"></span></p>
+  </footer>
+
+  <aside class="review" aria-label="Mockup review controls">
+    <button class="review__toggle" id="reviewToggle" type="button" aria-expanded="false" aria-controls="reviewPanel">Mockup</button>
+    <div class="review__panel" id="reviewPanel">
+      <p class="review__note">Not part of the design. Use these to see every screen and state.</p>
+      <div class="review__group">
+        <span>Screens</span>
+        <a href="#home">Home</a><a href="#catalog">Catalog</a><a href="#catalog?view=cards">Cards</a><a href="#offer/hostinger-kvm-2">Offer</a><a href="#compare">Compare</a><a href="#special-offers">Offers</a><a href="#providers">Providers</a><a href="#provider/hostinger">Provider</a><a href="#guides">Guides</a><a href="#guide/intro-vs-renewal">Guide</a><a href="#methodology">Method</a><a href="#corrections">Correction</a><a href="#updates">Updates</a><a href="#privacy">Privacy</a><a href="#nowhere">404</a>
+      </div>
+      <div class="review__group">
+        <span>States</span>
+        <button type="button" data-review="fill">Fill compare (3)</button>
+        <button type="button" data-review="clear">Empty compare</button>
+        <button type="button" data-review="loading">Catalog loading</button>
+        <button type="button" data-review="nodata">No data</button>
+        <button type="button" data-review="empty">No results</button>
+      </div>
+      <div class="review__group">
+        <span>Motion</span>
+        <label><input type="checkbox" id="rmToggle"> Reduce motion</label>
+      </div>
+    </div>
+  </aside>
+
+  <div class="sr-only" aria-live="polite" id="live"></div>
+
+  <script src="kit/patchwork.js"></script>
+  <script src="data.js"></script>
+  <script src="shore.js"></script>
+</body>
+</html>

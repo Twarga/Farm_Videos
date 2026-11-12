@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mockups — bestvpsforme</title>
+<link rel="icon" href="../logo/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/bvf.css">
+<style>
+  .gal { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; padding: 40px 0 120px; }
+  .gal a { display: grid; gap: 14px; padding: 14px; border-radius: 22px; border: 1px solid var(--border); transition: border-color var(--d-base), transform var(--d-base) var(--ease-out); }
+  .gal a:hover { border-color: var(--fg); transform: translateY(-2px); }
+  .gal img { width: 100%; aspect-ratio: 16 / 10; object-fit: cover; object-position: top; border-radius: 12px; border: 1px solid var(--border); background: var(--bg-subtle); }
+  .gal strong { font: 700 17px/1.2 var(--font-sans); font-stretch: 108%; }
+  .gal span { font: 480 13.5px/1.4 var(--font-sans); color: var(--fg-muted); }
+  @media (max-width: 900px) { .gal { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body data-no-badge>
+<header class="nav"><div class="container--wide nav__in"><img src="../logo/lockup-horizontal-light.svg" alt="bestvpsforme" style="height:30px" data-logo><span class="eyebrow" style="margin-left:auto">Mockups v1 · open any file directly, no server needed</span><button class="btn btn--ghost btn--icon" type="button" data-theme-toggle aria-label="Switch theme"><i data-icon="moon"></i></button></div></header>
+<main class="container--wide">
+  <h1 class="d-lg" style="margin-top:56px">The whole product, <span class="hl" data-animate>remade.</span></h1>
+  <p class="b-lg muted" style="margin-top:20px;max-width:60ch">Static HTML built on brand/tokens/tokens.css. Data comes from the 31 Aug 2026 snapshot and the providers' own billing notes. Where the product would compute a value (3-year real price, EUR→USD), the mockup shows the intended result. Add <code>?theme=dark</code> to any URL for the dark twin.</p>
+  <div class="gal">
+    <a href="home.html"><img src="../previews/home-desktop.png" alt=""><strong>Home</strong><span>Price X-ray hero, mad-lib search, anatomy of an ad, market chart, jobs, method, guides.</span></a>
+    <a href="catalog.html"><img src="../previews/catalog-desktop.png" alt=""><strong>Plans (catalog)</strong><span>Honesty filters, price bands with histogram, summary strip, catch column, pick → tray.</span></a>
+    <a href="offer.html"><img src="../previews/offer-desktop.png" alt=""><strong>Offer</strong><span>Receipt card, cost-over-time chart, honest spec grid, evidence, cheaper alternatives.</span></a>
+    <a href="compare.html"><img src="../previews/compare-desktop.png" alt=""><strong>Compare</strong><span>Shareable URL, best-in-row highlighting, differences-only, verdict cards.</span></a>
+    <a href="provider.html"><img src="../previews/provider-desktop.png" alt=""><strong>Provider</strong><span>Identity, five-number summary, strong / watch out / good to know, plans.</span></a>
+    <a href="guide.html"><img src="../previews/guide-desktop.png" alt=""><strong>Guide article</strong><span>Editorial layout, TOC, catch callouts, formula block, plans mentioned.</span></a>
+    <a href="methodology.html"><img src="../previews/methodology-desktop-dark.png" alt=""><strong>How we check</strong><span>Rules, the 3-year real price formula, public Value weights, what we never do.</span></a>
+    <a href="mobile.html"><img src="../previews/mobile.png" alt=""><strong>Mobile</strong><span>Home, catalog cards with sticky filter chips, offer with sticky buy bar.</span></a>
+    <a href="brand.html"><img src="../previews/brand-sheet.png" alt=""><strong>Brand sheet</strong><span>Logo system, clear space, colour, type, signature devices, don'ts.</span></a>
+    <a href="../marketing/index.html"><img src="../previews/marketing.png" alt=""><strong>Marketing kit</strong><span>OG images, social square and story, video title cards.</span></a>
+  </div>
+</main>
+<script src="assets/bvf.js"></script>
+</body>
+</html>

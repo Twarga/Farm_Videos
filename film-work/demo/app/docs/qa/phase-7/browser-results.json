@@ -1,0 +1,69 @@
+{
+  "buildId": "kfsfRayDWDzMr7Vzz_twm",
+  "log": "/tmp/bestvpsforme-phase7-final-2h22bhi3/browser-final.log",
+  "exitCode": 0,
+  "counts": {
+    "passed": 885,
+    "skipped": 207,
+    "failed": 0
+  },
+  "profileResults": [
+    {
+      "count": 182,
+      "result": "skipped"
+    },
+    {
+      "count": 676,
+      "result": "passed"
+    },
+    {
+      "count": 4,
+      "result": "skipped"
+    },
+    {
+      "count": 44,
+      "result": "passed"
+    },
+    {
+      "count": 6,
+      "result": "skipped"
+    },
+    {
+      "count": 36,
+      "result": "passed"
+    },
+    {
+      "count": 6,
+      "result": "skipped"
+    },
+    {
+      "count": 36,
+      "result": "passed"
+    },
+    {
+      "count": 12,
+      "result": "passed"
+    },
+    {
+      "count": 18,
+      "result": "passed"
+    },
+    {
+      "count": 18,
+      "result": "passed"
+    },
+    {
+      "count": 9,
+      "result": "skipped"
+    },
+    {
+      "count": 33,
+      "result": "passed"
+    },
+    {
+      "count": 12,
+      "result": "passed"
+    }
+  ],
+  "intentionalSkips": "Fixture-specific/profile-specific specs run in their matching later coordinator profiles. Freshness/recovery each own a separate runtime and execute once in desktop-light, covering both themes and widths internally."
+}

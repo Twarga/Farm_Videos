@@ -1,0 +1,31 @@
+.toolbar { display: flex; flex-wrap: wrap; align-items: end; gap: 12px; margin: 22px 0 10px; }
+.toolbar label { display: grid; gap: 5px; color: var(--text); font-size: .8125rem; font-weight: 600; }
+.toolbar label:first-child { flex: 1 1 240px; }
+.toolbar input, .toolbar select, .form input, .form select, .form textarea {
+  width: 100%; min-height: 44px; padding: 9px 12px; border: 1px solid var(--border);
+  border-radius: 9px; background: var(--surface); color: var(--text); font: inherit; font-size: .9375rem;
+}
+.toolbar button { min-height: 44px; }
+.count { margin: 10px 0 14px; color: var(--text-muted); font-size: .875rem; }
+.scroll { position: relative; max-width: 100%; overflow-x: auto; border: 1px solid var(--hair); border-radius: 12px; }
+.table { width: 100%; border-collapse: collapse; min-width: 760px; font-size: .875rem; }
+.table th { text-align: left; background: var(--raised); color: var(--text-muted); font-size: .75rem; font-weight: 700; }
+.table th, .table td { padding: 12px 14px; border-bottom: 1px solid var(--hair); vertical-align: top; }
+.table tr:last-child td { border-bottom: 0; }
+.recordLink { color: var(--text); font-weight: 700; text-decoration: none; }
+.recordLink:hover { color: var(--brand); text-decoration: underline; }
+.recordLink small { display: block; margin-top: 2px; color: var(--text-muted); font-size: .8125rem; font-weight: 400; }
+.pagination { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-top: 16px; color: var(--text-muted); font-size: .875rem; }
+.pagination a { color: var(--brand); min-height: 44px; display: inline-flex; align-items: center; }
+.empty { padding: 24px; border: 1px solid var(--hair); border-radius: 12px; }
+.empty h2 { margin: 0 0 6px; font-size: 1rem; }
+.empty p { margin: 0; color: var(--text-muted); }
+.detailMeta { display: flex; flex-wrap: wrap; gap: 8px 18px; margin: 20px 0; color: var(--text-muted); font-size: .875rem; }
+.form { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; padding: 20px; border: 1px solid var(--hair); border-radius: 12px; background: var(--raised); }
+.form label { display: grid; min-width: 0; gap: 6px; color: var(--text); font-size: .8125rem; font-weight: 600; }
+.form textarea { min-height: 88px; resize: vertical; }
+.form .wide, .actions { grid-column: 1 / -1; }
+.actions { display: flex; flex-wrap: wrap; align-items: center; gap: 20px; }
+.actions a { color: var(--brand); }
+.toolbar :is(input,select):focus-visible, .form :is(input,select,textarea):focus-visible, .pagination a:focus-visible, .recordLink:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+@media (max-width: 700px) { .form { grid-template-columns: minmax(0, 1fr); padding: 14px; } .form .wide, .actions { grid-column: auto; } .toolbar label, .toolbar button { flex: 1 1 100%; } }

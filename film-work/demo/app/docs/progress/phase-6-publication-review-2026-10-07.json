@@ -1,0 +1,806 @@
+{
+  "date": "2026-10-07",
+  "reviewedCount": 0,
+  "entries": [
+    {
+      "position": 1,
+      "offerId": "scaleway-stardust1-s",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": false,
+      "fitOmitted": false
+    },
+    {
+      "position": 2,
+      "offerId": "racknerd-special-1gb",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": false,
+      "fitOmitted": false
+    },
+    {
+      "position": 3,
+      "offerId": "ramnode-lite-1gb",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": false,
+      "fitOmitted": false
+    },
+    {
+      "position": 4,
+      "offerId": "buyvm-slice-512",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": false,
+      "fitOmitted": false
+    },
+    {
+      "position": 5,
+      "offerId": "webdock-essential",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": false,
+      "fitOmitted": false
+    },
+    {
+      "position": 6,
+      "offerId": "alibaba-cloud-aliyun-ssd-starter",
+      "status": "draft",
+      "unpublishedReason": "Resolve the original Alibaba SKU and hardware before publication.",
+      "catchOmitted": false,
+      "fitOmitted": true
+    },
+    {
+      "position": 7,
+      "offerId": "interserver-1-slice",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": false,
+      "fitOmitted": false
+    },
+    {
+      "position": 8,
+      "offerId": "time4vps-linux-2",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": false,
+      "fitOmitted": false
+    },
+    {
+      "position": 9,
+      "offerId": "hostkey-hostkey-pico",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": false,
+      "fitOmitted": false
+    },
+    {
+      "position": 10,
+      "offerId": "alphavps-alpha-c2g",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": false,
+      "fitOmitted": false
+    },
+    {
+      "position": 11,
+      "offerId": "clouding-io-clouding-1gb",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": false,
+      "fitOmitted": false
+    },
+    {
+      "position": 12,
+      "offerId": "upcloud-starter-1xcpu-1gb",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": false,
+      "fitOmitted": false
+    },
+    {
+      "position": 13,
+      "offerId": "namecheap-spark",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": false,
+      "fitOmitted": false
+    },
+    {
+      "position": 14,
+      "offerId": "digitalocean-basic-512mb",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": false,
+      "fitOmitted": false
+    },
+    {
+      "position": 15,
+      "offerId": "ionos-vps-m-plus",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": false,
+      "fitOmitted": false
+    },
+    {
+      "position": 16,
+      "offerId": "ovhcloud-vps-1",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": false,
+      "fitOmitted": false
+    },
+    {
+      "position": 17,
+      "offerId": "hostsailor-hs-mini-nvme",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": false,
+      "fitOmitted": false
+    },
+    {
+      "position": 18,
+      "offerId": "hostwinds-ul-1",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": false,
+      "fitOmitted": false
+    },
+    {
+      "position": 19,
+      "offerId": "liquid-web-lw-1g",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": false,
+      "fitOmitted": false
+    },
+    {
+      "position": 20,
+      "offerId": "knownhost-entry",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": false,
+      "fitOmitted": false
+    },
+    {
+      "position": 21,
+      "offerId": "aws-lightsail-ls-gp-nano-v4",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": false,
+      "fitOmitted": false
+    },
+    {
+      "position": 22,
+      "offerId": "akamai-linode-g6-nanode-1",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": true,
+      "fitOmitted": false
+    },
+    {
+      "position": 23,
+      "offerId": "ssd-nodes-kvm-small",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": false,
+      "fitOmitted": false
+    },
+    {
+      "position": 24,
+      "offerId": "google-cloud-f1-micro",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": false,
+      "fitOmitted": false
+    },
+    {
+      "position": 25,
+      "offerId": "leaseweb-vps-1-eu",
+      "status": "draft",
+      "unpublishedReason": "Hardware comes from a secondary VPSBenchmarks sheet; confirm this SKU with the provider before publication.",
+      "catchOmitted": true,
+      "fitOmitted": true
+    },
+    {
+      "position": 26,
+      "offerId": "yourserver-ys-1gb",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": true,
+      "fitOmitted": false
+    },
+    {
+      "position": 27,
+      "offerId": "greencloudvps-gcvps-ryzenkvm-1",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": true,
+      "fitOmitted": false
+    },
+    {
+      "position": 28,
+      "offerId": "contabo-cloud-vps-4",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": false,
+      "fitOmitted": false
+    },
+    {
+      "position": 29,
+      "offerId": "hostinger-kvm-1",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": false,
+      "fitOmitted": false
+    },
+    {
+      "position": 30,
+      "offerId": "netcup-500-g12",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": false,
+      "fitOmitted": false
+    },
+    {
+      "position": 31,
+      "offerId": "cherry-servers-c-vps-2-g2",
+      "status": "draft",
+      "unpublishedReason": "Stored plan facts use a secondary VPSBenchmarks table; confirm hardware and current console price before publication.",
+      "catchOmitted": true,
+      "fitOmitted": true
+    },
+    {
+      "position": 32,
+      "offerId": "privex-privex-v1-se-ssd",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": true,
+      "fitOmitted": false
+    },
+    {
+      "position": 33,
+      "offerId": "dreamhost-dh-stack4",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": false,
+      "fitOmitted": false
+    },
+    {
+      "position": 34,
+      "offerId": "flokinet-floki-ro-i",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": true,
+      "fitOmitted": false
+    },
+    {
+      "position": 35,
+      "offerId": "cockbox-cb-hdd-ro-1",
+      "status": "draft",
+      "unpublishedReason": "The frozen provider fetch marked every listed SKU sold out; check availability before publication.",
+      "catchOmitted": false,
+      "fitOmitted": false
+    },
+    {
+      "position": 36,
+      "offerId": "20i-1-core",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": true,
+      "fitOmitted": false
+    },
+    {
+      "position": 37,
+      "offerId": "oracle-cloud-a1-flex-1-6",
+      "status": "draft",
+      "unpublishedReason": "Paid A1 SKU only: do not borrow the historical free allowance. Confirm billed architecture and disk cost before publication.",
+      "catchOmitted": false,
+      "fitOmitted": false
+    },
+    {
+      "position": 38,
+      "offerId": "atlantic-net-g3-2gb-win",
+      "status": "draft",
+      "unpublishedReason": "This is a Windows SKU; confirm the intended workload and Windows licensing before publication.",
+      "catchOmitted": true,
+      "fitOmitted": false
+    },
+    {
+      "position": 39,
+      "offerId": "njalla-njalla-15",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": false,
+      "fitOmitted": false
+    },
+    {
+      "position": 40,
+      "offerId": "scalahosting-scala-b1",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": false,
+      "fitOmitted": false
+    },
+    {
+      "position": 41,
+      "offerId": "fastcomet-cloud-1",
+      "status": "draft",
+      "unpublishedReason": "Hardware comes from companion public tables and the stored regular price is hedged; confirm provider SKU and price before publication.",
+      "catchOmitted": true,
+      "fitOmitted": true
+    },
+    {
+      "position": 42,
+      "offerId": "microsoft-azure-azure-b1s-free",
+      "status": "draft",
+      "unpublishedReason": "Dated account-specific allowance: verify the account creation rules and current provider eligibility before publication.",
+      "catchOmitted": false,
+      "fitOmitted": false
+    },
+    {
+      "position": 43,
+      "offerId": "aws-ec2-ec2-t3-micro-free",
+      "status": "draft",
+      "unpublishedReason": "Dated account-specific allowance: verify the account creation rules and current provider eligibility before publication.",
+      "catchOmitted": false,
+      "fitOmitted": false
+    },
+    {
+      "position": 44,
+      "offerId": "racknerd-kvm-512",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": false,
+      "fitOmitted": false
+    },
+    {
+      "position": 45,
+      "offerId": "ramnode-lite-2gb",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": false,
+      "fitOmitted": false
+    },
+    {
+      "position": 46,
+      "offerId": "racknerd-special-2gb",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": false,
+      "fitOmitted": false
+    },
+    {
+      "position": 47,
+      "offerId": "time4vps-linux-1",
+      "status": "draft",
+      "unpublishedReason": "Current provider research found billing-term disagreement in this product line; verify this exact SKU term before publication.",
+      "catchOmitted": false,
+      "fitOmitted": false
+    },
+    {
+      "position": 48,
+      "offerId": "buyvm-slice-1024",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": true,
+      "fitOmitted": false
+    },
+    {
+      "position": 49,
+      "offerId": "ramnode-std-0.5gb",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": true,
+      "fitOmitted": false
+    },
+    {
+      "position": 50,
+      "offerId": "hostkey-hostkey-nano",
+      "status": "draft",
+      "unpublishedReason": "Current provider research identified a tax-basis difference; verify the exact SKU price and tax basis before publication.",
+      "catchOmitted": true,
+      "fitOmitted": false
+    },
+    {
+      "position": 51,
+      "offerId": "alphavps-alpha-c4g",
+      "status": "draft",
+      "unpublishedReason": "Current provider research identified separate monthly and annual prices; verify this exact SKU term before publishing billing prose.",
+      "catchOmitted": false,
+      "fitOmitted": false
+    },
+    {
+      "position": 52,
+      "offerId": "webdock-advanced",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": false,
+      "fitOmitted": false
+    },
+    {
+      "position": 53,
+      "offerId": "racknerd-special-4gb",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": false,
+      "fitOmitted": false
+    },
+    {
+      "position": 54,
+      "offerId": "ramnode-std-1gb",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": true,
+      "fitOmitted": false
+    },
+    {
+      "position": 55,
+      "offerId": "time4vps-linux-4",
+      "status": "draft",
+      "unpublishedReason": "Current provider research found billing-term disagreement in this product line; verify this exact SKU term before publication.",
+      "catchOmitted": false,
+      "fitOmitted": false
+    },
+    {
+      "position": 56,
+      "offerId": "alphavps-alpha-c6g",
+      "status": "draft",
+      "unpublishedReason": "Current provider research identified separate monthly and annual prices; verify this exact SKU term before publishing billing prose.",
+      "catchOmitted": false,
+      "fitOmitted": false
+    },
+    {
+      "position": 57,
+      "offerId": "digitalocean-basic-1gb",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": true,
+      "fitOmitted": false
+    },
+    {
+      "position": 58,
+      "offerId": "greencloudvps-gcvps-ssdkvm-1",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": false,
+      "fitOmitted": false
+    },
+    {
+      "position": 59,
+      "offerId": "ionos-vps-l-plus",
+      "status": "draft",
+      "unpublishedReason": "Known IONOS price drift requires reconciliation of this exact SKU with the provider page before publication.",
+      "catchOmitted": false,
+      "fitOmitted": false
+    },
+    {
+      "position": 60,
+      "offerId": "google-cloud-e2-micro",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": false,
+      "fitOmitted": false
+    },
+    {
+      "position": 61,
+      "offerId": "namecheap-pulsar",
+      "status": "draft",
+      "unpublishedReason": "The stored numeric price uses secondary checkout roundups; verify the exact Pulsar checkout and renewal before publication.",
+      "catchOmitted": true,
+      "fitOmitted": false
+    },
+    {
+      "position": 62,
+      "offerId": "upcloud-starter-1xcpu-2gb",
+      "status": "draft",
+      "unpublishedReason": "Current provider research identifies Starter disks as standard SSD; the frozen snapshot says MaxIOPS. Owner must reconcile disk type.",
+      "catchOmitted": false,
+      "fitOmitted": false
+    },
+    {
+      "position": 63,
+      "offerId": "leaseweb-vps-1-us",
+      "status": "draft",
+      "unpublishedReason": "Hardware comes from a secondary VPSBenchmarks sheet; confirm this SKU with the provider before publication.",
+      "catchOmitted": true,
+      "fitOmitted": true
+    },
+    {
+      "position": 64,
+      "offerId": "aws-lightsail-ls-gp-micro-v4",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": false,
+      "fitOmitted": false
+    },
+    {
+      "position": 65,
+      "offerId": "buyvm-slice-2048",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": true,
+      "fitOmitted": false
+    },
+    {
+      "position": 66,
+      "offerId": "hostkey-hostkey-mini",
+      "status": "draft",
+      "unpublishedReason": "Current provider research identified a tax-basis difference; verify the exact SKU price and tax basis before publication.",
+      "catchOmitted": true,
+      "fitOmitted": false
+    },
+    {
+      "position": 67,
+      "offerId": "racknerd-special-6gb",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": false,
+      "fitOmitted": false
+    },
+    {
+      "position": 68,
+      "offerId": "alphavps-alpha-c8g",
+      "status": "draft",
+      "unpublishedReason": "Current provider research identified separate monthly and annual prices; verify this exact SKU term before publishing billing prose.",
+      "catchOmitted": false,
+      "fitOmitted": false
+    },
+    {
+      "position": 69,
+      "offerId": "scaleway-dev1-s",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": false,
+      "fitOmitted": false
+    },
+    {
+      "position": 70,
+      "offerId": "time4vps-linux-8",
+      "status": "draft",
+      "unpublishedReason": "Current provider research found billing-term disagreement in this product line; verify this exact SKU term before publication.",
+      "catchOmitted": false,
+      "fitOmitted": false
+    },
+    {
+      "position": 71,
+      "offerId": "ovhcloud-vps-2",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": false,
+      "fitOmitted": false
+    },
+    {
+      "position": 72,
+      "offerId": "contabo-cloud-vps-6",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": false,
+      "fitOmitted": false
+    },
+    {
+      "position": 73,
+      "offerId": "hostinger-kvm-2",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": false,
+      "fitOmitted": false
+    },
+    {
+      "position": 74,
+      "offerId": "hostsailor-hs-sailor-nvme",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": true,
+      "fitOmitted": false
+    },
+    {
+      "position": 75,
+      "offerId": "clouding-io-clouding-2gb",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": false,
+      "fitOmitted": false
+    },
+    {
+      "position": 76,
+      "offerId": "upcloud-starter-2xcpu-2gb",
+      "status": "draft",
+      "unpublishedReason": "Current provider research identifies Starter disks as standard SSD; the frozen snapshot says MaxIOPS. Owner must reconcile disk type.",
+      "catchOmitted": false,
+      "fitOmitted": false
+    },
+    {
+      "position": 77,
+      "offerId": "hostkey-hostkey-v3-pico",
+      "status": "draft",
+      "unpublishedReason": "Current provider research identified a tax-basis difference; verify the exact SKU price and tax basis before publication.",
+      "catchOmitted": true,
+      "fitOmitted": false
+    },
+    {
+      "position": 78,
+      "offerId": "ssd-nodes-kvm-medium",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": false,
+      "fitOmitted": false
+    },
+    {
+      "position": 79,
+      "offerId": "hostwinds-ul-2",
+      "status": "draft",
+      "unpublishedReason": "Stored hardware and price use secondary public listings; confirm the exact provider SKU before publication.",
+      "catchOmitted": true,
+      "fitOmitted": true
+    },
+    {
+      "position": 80,
+      "offerId": "knownhost-entry-plus",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": true,
+      "fitOmitted": false
+    },
+    {
+      "position": 81,
+      "offerId": "greencloudvps-gcvps-ryzenkvm-2",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": true,
+      "fitOmitted": false
+    },
+    {
+      "position": 82,
+      "offerId": "greencloudvps-gcvps-ssdkvm-2",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": false,
+      "fitOmitted": false
+    },
+    {
+      "position": 83,
+      "offerId": "racknerd-special-8gb",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": false,
+      "fitOmitted": false
+    },
+    {
+      "position": 84,
+      "offerId": "ramnode-std-2gb",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": true,
+      "fitOmitted": false
+    },
+    {
+      "position": 85,
+      "offerId": "privex-privex-v1-se-nvme",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": true,
+      "fitOmitted": false
+    },
+    {
+      "position": 86,
+      "offerId": "privex-privex-v2-se-ssd",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": true,
+      "fitOmitted": false
+    },
+    {
+      "position": 87,
+      "offerId": "hostkey-hostkey-v3-nano",
+      "status": "draft",
+      "unpublishedReason": "Current provider research identified a tax-basis difference; verify the exact SKU price and tax basis before publication.",
+      "catchOmitted": true,
+      "fitOmitted": false
+    },
+    {
+      "position": 88,
+      "offerId": "alphavps-alpha-c12g",
+      "status": "draft",
+      "unpublishedReason": "Current provider research identified separate monthly and annual prices; verify this exact SKU term before publishing billing prose.",
+      "catchOmitted": false,
+      "fitOmitted": false
+    },
+    {
+      "position": 89,
+      "offerId": "leaseweb-vps-2-eu",
+      "status": "draft",
+      "unpublishedReason": "Hardware comes from a secondary VPSBenchmarks sheet; confirm this SKU with the provider before publication.",
+      "catchOmitted": true,
+      "fitOmitted": true
+    },
+    {
+      "position": 90,
+      "offerId": "cherry-servers-c-vps-4-g2",
+      "status": "draft",
+      "unpublishedReason": "Stored plan facts use a secondary VPSBenchmarks table; confirm hardware and current console price before publication.",
+      "catchOmitted": true,
+      "fitOmitted": true
+    },
+    {
+      "position": 91,
+      "offerId": "leaseweb-vps-2-us",
+      "status": "draft",
+      "unpublishedReason": "Hardware comes from a secondary VPSBenchmarks sheet; confirm this SKU with the provider before publication.",
+      "catchOmitted": true,
+      "fitOmitted": true
+    },
+    {
+      "position": 92,
+      "offerId": "liquid-web-lw-2g",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": true,
+      "fitOmitted": false
+    },
+    {
+      "position": 93,
+      "offerId": "ionos-vps-xl-plus",
+      "status": "draft",
+      "unpublishedReason": "Known IONOS price drift requires reconciliation of this exact SKU with the provider page before publication.",
+      "catchOmitted": false,
+      "fitOmitted": false
+    },
+    {
+      "position": 94,
+      "offerId": "ssd-nodes-kvm-2xl",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": false,
+      "fitOmitted": false
+    },
+    {
+      "position": 95,
+      "offerId": "upcloud-starter-1xcpu-4gb",
+      "status": "draft",
+      "unpublishedReason": "Current provider research identifies Starter disks as standard SSD; the frozen snapshot says MaxIOPS. Owner must reconcile disk type.",
+      "catchOmitted": false,
+      "fitOmitted": false
+    },
+    {
+      "position": 96,
+      "offerId": "interserver-4-slices",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": true,
+      "fitOmitted": false
+    },
+    {
+      "position": 97,
+      "offerId": "digitalocean-basic-2gb",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": true,
+      "fitOmitted": false
+    },
+    {
+      "position": 98,
+      "offerId": "aws-lightsail-ls-gp-small-v4",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": false,
+      "fitOmitted": false
+    },
+    {
+      "position": 99,
+      "offerId": "akamai-linode-g6-standard-1",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": true,
+      "fitOmitted": false
+    },
+    {
+      "position": 100,
+      "offerId": "netcup-vps-1000-g12",
+      "status": "draft",
+      "unpublishedReason": "Owner evidence and wording review pending.",
+      "catchOmitted": false,
+      "fitOmitted": false
+    }
+  ]
+}

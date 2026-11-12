@@ -1,0 +1,29 @@
+{
+  "focused": {
+    "foreground": "rgb(14, 17, 22)",
+    "background": "rgb(212, 255, 58)",
+    "transition": "border-color",
+    "theme": "dark",
+    "focus": "Pick Reviewed Value to compare"
+  },
+  "failedAnimatedPair": {
+    "foreground": "#9c9ea1",
+    "background": "#5b6d25",
+    "ratio": 2.14
+  },
+  "pairedFocusState": {
+    "foreground": "#0E1116",
+    "background": "#D4FF3A",
+    "ratio": 16.36
+  },
+  "repeatJourney": {
+    "passed": 30,
+    "retries": 0
+  },
+  "finalRelease": {
+    "browserPassed": 891,
+    "failures": 0,
+    "flaky": 0,
+    "retries": 0
+  }
+}

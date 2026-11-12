@@ -1,0 +1,21 @@
+REMAKE (2026-11-10) - voice+visuals rebuilt from scratch
+=========================================================
+format: h264 1920x1080 @30fps, aac 48kHz stereo, faststart
+duration: 501.27s (8:21)
+bitrate: ~2.6 Mbps video, 192 kbps audio
+file: 06-final.mp4 = 166 MB
+
+voice: OmniVoice cloned Darija, 140 sentence chunks @146 wpm
+       beat-timed via beats.json (scene gaps 0.6s, chapter gaps 2.0s)
+mix:   VO highpass 70Hz + compressor, music bed 0.08 vol looped,
+       limiter 0.9, loudnorm -14 LUFS
+loudness: -14.8 LUFS integrated, -3.7 dBTP, LRA 2.6 LU
+
+visual checks:
+- scene-change events (ffmpeg scene>0.12): 49
+- frozen holds >4s (freezedetect n=0.003): 0
+- continuous motion: SceneShell drift (grid/rings/glow) + 3% breathing scale,
+  map routes animate dashes, chips/bars bob, CTA icons rotate
+- subtitles: 140 cues burned-in + 07-subtitles.srt
+- thumbnails: 3 variants in 08-thumbnails/
+- chapters in 09-metadata.md updated to beat times (01:15 / 02:59 / 04:53)

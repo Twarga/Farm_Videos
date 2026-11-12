@@ -1,0 +1,40 @@
+---
+title: How much RAM does a VPS need for a small project?
+description: A beginner-friendly way to estimate VPS memory for a website, automation service, containers, or a small database without pretending one number fits everyone.
+slug: how-much-vps-ram-do-you-need
+author: bestvpsforme
+publishedAt: 2026-08-31
+updatedAt: 2026-09-01
+topics: [workloads]
+dataSnapshotAt: 2026-08-31
+reviewStatus: published
+---
+
+## Start with the workload, not the largest plan
+
+RAM is working space for the operating system and applications. A small website may need much less memory than a website plus a database, background worker, and monitoring stack. The honest answer is a range, not a universal minimum.
+
+## A practical starting range
+
+| Workload | Reasonable starting point | Watch for |
+|---|---:|---|
+| Small static or light CMS site | 1–2 GB | Plugins, traffic spikes, and cache settings |
+| Automation or light API service | 2–4 GB | Number of workers and concurrent jobs |
+| Several containers | 4 GB or more | Image size and idle service overhead |
+| Database-heavy project | 4 GB or more | Working set, indexes, and backup jobs |
+
+These are planning ranges, not guarantees. Your framework, traffic, logs, and operating system use the remaining memory after the application starts.
+
+## Leave room for maintenance
+
+Do not size a server so tightly that routine updates require stopping the service. Keep an eye on memory pressure and swap activity, and test a backup restore before you need one. Adding RAM is easier than recovering from an out-of-memory failure, but the upgrade path varies by provider.
+
+## What to check in a plan
+
+Look for the stated RAM, CPU allocation, storage type, transfer limit, and renewal price. Also check whether IPv4, backups, or snapshots cost extra. The [catalog's workload filters](/catalog?workload=docker) can narrow the list, but you still need to verify the provider's current offer.
+
+## Sources, caveats, and disclosure
+
+For operating-system memory concepts, see the [Linux kernel memory documentation](https://www.kernel.org/doc/html/latest/admin-guide/mm/index.html). For container resource controls, see the [Docker resource constraints documentation](https://docs.docker.com/engine/containers/resource_constraints/). Workload ranges are editorial planning guidance; measure your own service after deployment.
+
+Some links may earn commission. Commission never changes the ranking or the facts shown in this guide.

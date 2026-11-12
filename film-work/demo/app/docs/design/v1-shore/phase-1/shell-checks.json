@@ -1,0 +1,329 @@
+{
+  "checkedAt": "2026-10-24T18:40:17.956Z",
+  "scope": "Real application shell and Pages catalog vs unchanged mockup; footer is captured at a common layout origin to avoid fractional paint offsets from differing upstream data; fine print excluded because publication/legal copy differs",
+  "browser": "153.0.8010.12",
+  "errors": [],
+  "visualFailures": 0,
+  "rawRasterDifferences": 0,
+  "comparison": "Playwright anti-alias-aware comparison; threshold .2 and maxDiffPixelRatio .01, matching the established project gate. Raw RGB distances are diagnostic only.",
+  "records": [
+    {
+      "name": "header",
+      "width": 390,
+      "theme": "day",
+      "sameSize": true,
+      "actualSize": [
+        390,
+        72
+      ],
+      "expectedSize": [
+        390,
+        72
+      ],
+      "changedPixels": 76,
+      "ratio": 0.0027065527065527066
+    },
+    {
+      "name": "footer",
+      "width": 390,
+      "theme": "day",
+      "sameSize": true,
+      "actualSize": [
+        350,
+        642
+      ],
+      "expectedSize": [
+        350,
+        642
+      ],
+      "changedPixels": 0,
+      "ratio": 0
+    },
+    {
+      "width": 390,
+      "theme": "day",
+      "axeViolations": []
+    },
+    {
+      "name": "catalog-header",
+      "width": 390,
+      "theme": "day",
+      "sameSize": true,
+      "actualSize": [
+        390,
+        72
+      ],
+      "expectedSize": [
+        390,
+        72
+      ],
+      "changedPixels": 76,
+      "ratio": 0.0027065527065527066
+    },
+    {
+      "name": "header",
+      "width": 390,
+      "theme": "night",
+      "sameSize": true,
+      "actualSize": [
+        390,
+        72
+      ],
+      "expectedSize": [
+        390,
+        72
+      ],
+      "changedPixels": 26,
+      "ratio": 0.000925925925925926
+    },
+    {
+      "name": "footer",
+      "width": 390,
+      "theme": "night",
+      "sameSize": true,
+      "actualSize": [
+        350,
+        642
+      ],
+      "expectedSize": [
+        350,
+        642
+      ],
+      "changedPixels": 0,
+      "ratio": 0
+    },
+    {
+      "width": 390,
+      "theme": "night",
+      "axeViolations": []
+    },
+    {
+      "name": "catalog-header",
+      "width": 390,
+      "theme": "night",
+      "sameSize": true,
+      "actualSize": [
+        390,
+        72
+      ],
+      "expectedSize": [
+        390,
+        72
+      ],
+      "changedPixels": 26,
+      "ratio": 0.000925925925925926
+    },
+    {
+      "name": "header",
+      "width": 768,
+      "theme": "day",
+      "sameSize": true,
+      "actualSize": [
+        768,
+        72
+      ],
+      "expectedSize": [
+        768,
+        72
+      ],
+      "changedPixels": 76,
+      "ratio": 0.0013744212962962963
+    },
+    {
+      "name": "footer",
+      "width": 768,
+      "theme": "day",
+      "sameSize": true,
+      "actualSize": [
+        728,
+        598
+      ],
+      "expectedSize": [
+        728,
+        598
+      ],
+      "changedPixels": 0,
+      "ratio": 0
+    },
+    {
+      "width": 768,
+      "theme": "day",
+      "axeViolations": []
+    },
+    {
+      "name": "catalog-header",
+      "width": 768,
+      "theme": "day",
+      "sameSize": true,
+      "actualSize": [
+        768,
+        72
+      ],
+      "expectedSize": [
+        768,
+        72
+      ],
+      "changedPixels": 76,
+      "ratio": 0.0013744212962962963
+    },
+    {
+      "name": "header",
+      "width": 768,
+      "theme": "night",
+      "sameSize": true,
+      "actualSize": [
+        768,
+        72
+      ],
+      "expectedSize": [
+        768,
+        72
+      ],
+      "changedPixels": 26,
+      "ratio": 0.00047019675925925923
+    },
+    {
+      "name": "footer",
+      "width": 768,
+      "theme": "night",
+      "sameSize": true,
+      "actualSize": [
+        728,
+        598
+      ],
+      "expectedSize": [
+        728,
+        598
+      ],
+      "changedPixels": 0,
+      "ratio": 0
+    },
+    {
+      "width": 768,
+      "theme": "night",
+      "axeViolations": []
+    },
+    {
+      "name": "catalog-header",
+      "width": 768,
+      "theme": "night",
+      "sameSize": true,
+      "actualSize": [
+        768,
+        72
+      ],
+      "expectedSize": [
+        768,
+        72
+      ],
+      "changedPixels": 26,
+      "ratio": 0.00047019675925925923
+    },
+    {
+      "name": "header",
+      "width": 1440,
+      "theme": "day",
+      "sameSize": true,
+      "actualSize": [
+        1440,
+        72
+      ],
+      "expectedSize": [
+        1440,
+        72
+      ],
+      "changedPixels": 52,
+      "ratio": 0.0005015432098765432
+    },
+    {
+      "name": "footer",
+      "width": 1440,
+      "theme": "day",
+      "sameSize": true,
+      "actualSize": [
+        1280,
+        235
+      ],
+      "expectedSize": [
+        1280,
+        235
+      ],
+      "changedPixels": 0,
+      "ratio": 0
+    },
+    {
+      "width": 1440,
+      "theme": "day",
+      "axeViolations": []
+    },
+    {
+      "name": "catalog-header",
+      "width": 1440,
+      "theme": "day",
+      "sameSize": true,
+      "actualSize": [
+        1440,
+        72
+      ],
+      "expectedSize": [
+        1440,
+        72
+      ],
+      "changedPixels": 52,
+      "ratio": 0.0005015432098765432
+    },
+    {
+      "name": "header",
+      "width": 1440,
+      "theme": "night",
+      "sameSize": true,
+      "actualSize": [
+        1440,
+        72
+      ],
+      "expectedSize": [
+        1440,
+        72
+      ],
+      "changedPixels": 0,
+      "ratio": 0
+    },
+    {
+      "name": "footer",
+      "width": 1440,
+      "theme": "night",
+      "sameSize": true,
+      "actualSize": [
+        1280,
+        235
+      ],
+      "expectedSize": [
+        1280,
+        235
+      ],
+      "changedPixels": 0,
+      "ratio": 0
+    },
+    {
+      "width": 1440,
+      "theme": "night",
+      "axeViolations": []
+    },
+    {
+      "name": "catalog-header",
+      "width": 1440,
+      "theme": "night",
+      "sameSize": true,
+      "actualSize": [
+        1440,
+        72
+      ],
+      "expectedSize": [
+        1440,
+        72
+      ],
+      "changedPixels": 0,
+      "ratio": 0
+    }
+  ]
+}

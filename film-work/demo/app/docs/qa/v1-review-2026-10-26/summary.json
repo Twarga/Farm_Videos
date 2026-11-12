@@ -1,0 +1,33 @@
+{
+  "lint": 0,
+  "typecheck": 0,
+  "test": 0,
+  "build": 0,
+  "security": 0,
+  "content": 0,
+  "audit": 0,
+  "e2e": 1,
+  "js-budget": 1,
+  "reviewedCommit": "e99f202",
+  "vitest": {
+    "filesPassed": 105,
+    "testsPassed": 596
+  },
+  "desktopE2e": {
+    "failed": 27,
+    "passed": 95,
+    "skipped": 32
+  },
+  "data": {
+    "eligibleOffers": 317,
+    "providers": 41,
+    "augustChecks": 314,
+    "termsReviewed": 43,
+    "realPriceComputable": 4
+  },
+  "database": {
+    "appliedMigrations": 19,
+    "quickCheck": "ok",
+    "foreignKeyViolations": 0
+  }
+}

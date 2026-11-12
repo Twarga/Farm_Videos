@@ -1,0 +1,1369 @@
+{
+  "capturedAt": "2026-10-24T13:33:07.684Z",
+  "sourceCommit": "cff53586b51a730fcf72766325d2e2a40284efff",
+  "browser": "153.0.8010.12",
+  "source": "brand/shore/mockup (fixture, never production)",
+  "motion": "Normal preference; screenshot animations disabled; review controls hidden only in capture",
+  "viewportHeight": "390:844; 768/1440:1000",
+  "sourceSha256": {
+    "README.md": "ea79e8da07bb2ed7106361814c271af63e6d4ac9b155d4e4753429e8e80ec974",
+    "data.js": "6932b7528ec4d47d2a7209f73572e0e53ee18508c84b6b358e080f5cfa7d86ec",
+    "fonts/ubuntu-sans-mono-400.woff2": "c52d835839def8185d9cd0ef48e8e2edb6e97c1a9f1192d3b36dc2df2be208d2",
+    "fonts/ubuntu-sans-mono-500.woff2": "669383adbd76bd315ccf32841d1c26a4bea77aa3ed7234dcc1143e5b7a7e96a0",
+    "fonts/ubuntu-sans.woff2": "8f34f6aeb6d02bae33e841c33848bfa689216f4323149d8471dc19c55ec8f2be",
+    "index.html": "aab6aec1e83de477d49246c6ad4ecf898b1a061f13ad2321072a0951e80a16a0",
+    "kit/patchwork.js": "8eacc96541ec89d440912a0dc300bb9fe26dbd5edf31c25226552e9e9dd5ceed",
+    "logos/akamai.svg": "6ad08dc2620f4a6bafae34cd3c8787ddf01c1cda5f0d940a53ae1800b820382c",
+    "logos/alphavps.png": "ff5f441d5145310827f4bc9a83af4fa7b6e8b1b125281b058c781a1601022b70",
+    "logos/amazonwebservices.svg": "f67734a0f5a7f925c84b6a9ea6e5489fe7af96e4ae167da6b71506a5d6afcab4",
+    "logos/cherryservers-mark.svg": "af190b6d5169742ad225bb08d66672e29219dfe047baef3e3a1a1ca8fb0dfc61",
+    "logos/contabo.svg": "5de7fab6dff65fece8427233ef932a8479db4d58c965134a888e19fbc244972f",
+    "logos/digitalocean.svg": "a381454d22f05a4e7034c3e869c99bcac9a6f915ccc00577ed131b604baed489",
+    "logos/googlecloud.svg": "534a0359c2784e152f5c88ce64a56976036d7336c7831775c995977fd3432713",
+    "logos/greencloud.png": "f2b3165dca415b50629e6c9f09219a543594591d6e424ece98fe11cab422daf8",
+    "logos/hetzner.svg": "d3a7dc7e55d0e9008587f1407af6c6fa197bb2b207b841a05a881d523a4c3dfb",
+    "logos/hosthatch.svg": "1f44e48a8e00ca266d4f418a34f4e6a38bc72868e54b32824e15031c376d240b",
+    "logos/hostinger.svg": "1df018b59333f30ef547197362bae3cf05c8086d181cdb88f440cfee496057b0",
+    "logos/infomaniak.svg": "a06b00e82d26e504163b976477303540497c33233aa82ba1be4b268f44be0b66",
+    "logos/ionos.svg": "7dbc95adf5b127697fc5d6a289bd81057bafdccb3da1b01a80f320218d8fd6a6",
+    "logos/kamatera.png": "04065f68e2685311dd22f9f9ced7e0b711b962e38a5d0c48abc5ba9bc4e2129e",
+    "logos/lightsail.svg": "79224fcf1ee0030e1ee8974ffb928af867b226f30f2e5817608897aafb45a14e",
+    "logos/linode.svg": "d63f4c82a59480d96dde3c68c03e07be3e526f92f8034872161b24235b7224ae",
+    "logos/marks/20i.png": "b45a8bd7d9e68798e05002f8ccc3f29ad22ca7bf7c71ecfee8f0827138c143e2",
+    "logos/marks/alibaba-cloud.png": "8941d8bc674ddbef0e0bbd14b517ec75bb2cc6ad251293f1e5c45274b84f7734",
+    "logos/marks/atlantic-net.png": "eac96373535dacef7a42ea3a1112dbc9c9670d6b5804d5f19e095d48cb727f5f",
+    "logos/marks/buyvm.png": "36d4a17d86ed94b793907d9aae0add905e2b04940237256fe0c698e7db0335ec",
+    "logos/marks/clouding-io.png": "a57d9fa16db90c997a05b8a537c46de88209e37d8ab2446d21a474b6bab9d33b",
+    "logos/marks/dreamhost.svg": "0c85ba5468c32671075cd34a9d25e6a604cb2f86b1ab4f191298483b37a2de06",
+    "logos/marks/fastcomet.png": "771fee1d972e6a47694134d7ac1f9fe20849fb02b81d3cf6eea90aad28ae9a46",
+    "logos/marks/flokinet.svg": "eff9c149e6554679a9dc7339ecaf7182c8f1a2e6a4923c1ae576723e4e300e02",
+    "logos/marks/hostkey.png": "7f15360af79e581ede7f704976bbc3f9e5c4cc1829f142d61da5f809b6e852b9",
+    "logos/marks/hostsailor.png": "bf0324d85f594a4a2d7458453563ea922a40e8bbd5ea8b0ae416ce7453df6004",
+    "logos/marks/hostwinds.png": "0e42b841c9b28ed743a11a684c08cba528dc64e579aa10541fb6dad1cfe649af",
+    "logos/marks/interserver.png": "0c895923842d8b45765a616d8ede92a0d0340c7aba8dbfae3ff00df53eb060c5",
+    "logos/marks/knownhost.png": "36badda02e48f1a8f5f991ddb9ad55c6ac7696a9f05c5cd2726ff4b696876c37",
+    "logos/marks/leaseweb.png": "2276abef4c4790ffb328ea2263285c5342bb595f26435c145456ea466f46162e",
+    "logos/marks/liquid-web.png": "85e1cab40db5d56f547aa97f9b59dd8149c2cdf961d846e892ec394191361ad7",
+    "logos/marks/microsoft-azure.png": "2601014bc9a081364b67c82fc772555b5d0ee1332918d445588970081fce3b86",
+    "logos/marks/namecheap.png": "9bf23f3c1c43b66d42a41945bdbaf79c7df41145210a06dbdfc7157e125bb1b6",
+    "logos/marks/njalla.png": "541e00433e4c8bfaa749bc30797aafaebf51f32211bf3d78c15ec29826663ad0",
+    "logos/marks/privex.png": "38d94e46304863616625b6d3581265ba119f7af967eb9ec4d2f2868392aef531",
+    "logos/marks/ramnode.png": "c309385e89558a99083b70df59a8b901c81902dff43ab162d1655faadadd395f",
+    "logos/marks/scalahosting.png": "c12c90ba516a498878e35bfbb930dbd3ed4911694480dc6710654755965f5288",
+    "logos/marks/yourserver.png": "98a029d22a83c38bfc4c3e3ef2a3117e9fb203ce716fc84e159e301583902363",
+    "logos/netcup.svg": "9fc4275ddfb19cc07ef3be739fdbda0bdd2c8aae84e800975aae52e750f41577",
+    "logos/nineteen84.png": "9c6f320d39632a274b5e73143d58b71acc64a169a22fa71f888adb7f6d50e95a",
+    "logos/oracle-official.svg": "305d310fda8165fb38e24273c643f2c61107e2440e12abc3c209bd49c2deff15",
+    "logos/oracle.svg": "d355bd1561de9aea08928e662bdce5b4834f0dcb6096aa0b04b4eed23fc1fcb9",
+    "logos/ovh.svg": "94802e6cc133e7242730d7e4da4459de84d4e3f0c165571c966cea0ddd33ad68",
+    "logos/racknerd.png": "d97fe6ad5c68959bc30a11935277d8c714a9d80f2f0b3e0531b4df52dd37bf0a",
+    "logos/scaleway.svg": "763e7b6483f3ce1e25488ac152f3a993a62f4b65c25e51e969b2bc50a48bda1a",
+    "logos/servarica.png": "aa330664f42ba13f53d2eb3255dbca661e623038d66d4955b44001c2d70257b9",
+    "logos/ssdnodes.jpg": "cb20ef97ddc76b67c916705c528cf0ac80df57b44562e226b35cef08fe71b0d1",
+    "logos/time4vps.png": "7e910d57df72cdbc8b182abf180bfb36a23ebcb59fddd6d1f83089925689f365",
+    "logos/upcloud.svg": "aa0b00e33e9fd6efa6ae21a9a4ef3f55fee1eb5ad9d8fb16835bfffcbf56ab6d",
+    "logos/vultr.svg": "745a4ede10c9f21a20e7fb3695573a457eab1883c3fd39e971a0cb058ec357ae",
+    "logos/webdock.png": "3bf5ec36f8baea1bfe0b9ae98f74903bcd0643e8f6e4b65c4b63d7d195a826a2",
+    "shore.css": "3cf1dc3588f8cc25861be993b7be573538b3990ae19ec247210474617ef035df",
+    "shore.js": "2c8b3f17f2e8b768c08da05053eb76b3aa5f3531af1df655b1544c9dbea81ae0"
+  },
+  "screenshots": [
+    {
+      "file": "home-390-day.png",
+      "route": "home",
+      "theme": "day",
+      "width": 390,
+      "title": "Compare VPS plans · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "catalog-390-day.png",
+      "route": "catalog",
+      "theme": "day",
+      "width": 390,
+      "title": "VPS plans · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "catalog-cards-390-day.png",
+      "route": "catalog?view=cards",
+      "theme": "day",
+      "width": 390,
+      "title": "VPS plans · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "catalog-empty-390-day.png",
+      "route": "catalog?ram=64&price=3&regions=oceania",
+      "theme": "day",
+      "width": 390,
+      "title": "VPS plans · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "offer-390-day.png",
+      "route": "offer/hostinger-kvm-2",
+      "theme": "day",
+      "width": 390,
+      "title": "KVM 2 · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "compare-empty-390-day.png",
+      "route": "compare",
+      "theme": "day",
+      "width": 390,
+      "title": "Compare plans · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "compare-selected-390-day.png",
+      "route": "compare",
+      "theme": "day",
+      "width": 390,
+      "title": "Compare plans · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "special-offers-390-day.png",
+      "route": "special-offers",
+      "theme": "day",
+      "width": 390,
+      "title": "Special offers · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "providers-390-day.png",
+      "route": "providers",
+      "theme": "day",
+      "width": 390,
+      "title": "Providers · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "provider-390-day.png",
+      "route": "provider/hostinger",
+      "theme": "day",
+      "width": 390,
+      "title": "Hostinger · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "guides-390-day.png",
+      "route": "guides",
+      "theme": "day",
+      "width": 390,
+      "title": "Guides · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "guide-how-much-memory-390-day.png",
+      "route": "guide/how-much-memory",
+      "theme": "day",
+      "width": 390,
+      "title": "How much memory does your project need? · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "guide-intro-vs-renewal-390-day.png",
+      "route": "guide/intro-vs-renewal",
+      "theme": "day",
+      "width": 390,
+      "title": "The intro price is not the price · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "guide-wordpress-390-day.png",
+      "route": "guide/wordpress",
+      "theme": "day",
+      "width": 390,
+      "title": "A VPS for a WordPress site · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "guide-vpn-390-day.png",
+      "route": "guide/vpn",
+      "theme": "day",
+      "width": 390,
+      "title": "A VPS for your own VPN · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "guide-docker-390-day.png",
+      "route": "guide/docker",
+      "theme": "day",
+      "width": 390,
+      "title": "Running a Docker stack · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "guide-ipv4-and-extras-390-day.png",
+      "route": "guide/ipv4-and-extras",
+      "theme": "day",
+      "width": 390,
+      "title": "IPv4, setup fees and other extras · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "methodology-390-day.png",
+      "route": "methodology",
+      "theme": "day",
+      "width": 390,
+      "title": "How we compare · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "corrections-390-day.png",
+      "route": "corrections",
+      "theme": "day",
+      "width": 390,
+      "title": "Send a correction · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "updates-390-day.png",
+      "route": "updates",
+      "theme": "day",
+      "width": 390,
+      "title": "Updates · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "privacy-390-day.png",
+      "route": "privacy",
+      "theme": "day",
+      "width": 390,
+      "title": "Privacy · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "terms-390-day.png",
+      "route": "terms",
+      "theme": "day",
+      "width": 390,
+      "title": "Terms of use · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "affiliate-390-day.png",
+      "route": "affiliate",
+      "theme": "day",
+      "width": 390,
+      "title": "Affiliate disclosure · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "404-390-day.png",
+      "route": "nope",
+      "theme": "day",
+      "width": 390,
+      "title": "Page not found · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "home-390-night.png",
+      "route": "home",
+      "theme": "night",
+      "width": 390,
+      "title": "Compare VPS plans · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "catalog-390-night.png",
+      "route": "catalog",
+      "theme": "night",
+      "width": 390,
+      "title": "VPS plans · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "catalog-cards-390-night.png",
+      "route": "catalog?view=cards",
+      "theme": "night",
+      "width": 390,
+      "title": "VPS plans · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "catalog-empty-390-night.png",
+      "route": "catalog?ram=64&price=3&regions=oceania",
+      "theme": "night",
+      "width": 390,
+      "title": "VPS plans · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "offer-390-night.png",
+      "route": "offer/hostinger-kvm-2",
+      "theme": "night",
+      "width": 390,
+      "title": "KVM 2 · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "compare-empty-390-night.png",
+      "route": "compare",
+      "theme": "night",
+      "width": 390,
+      "title": "Compare plans · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "compare-selected-390-night.png",
+      "route": "compare",
+      "theme": "night",
+      "width": 390,
+      "title": "Compare plans · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "special-offers-390-night.png",
+      "route": "special-offers",
+      "theme": "night",
+      "width": 390,
+      "title": "Special offers · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "providers-390-night.png",
+      "route": "providers",
+      "theme": "night",
+      "width": 390,
+      "title": "Providers · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "provider-390-night.png",
+      "route": "provider/hostinger",
+      "theme": "night",
+      "width": 390,
+      "title": "Hostinger · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "guides-390-night.png",
+      "route": "guides",
+      "theme": "night",
+      "width": 390,
+      "title": "Guides · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "guide-how-much-memory-390-night.png",
+      "route": "guide/how-much-memory",
+      "theme": "night",
+      "width": 390,
+      "title": "How much memory does your project need? · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "guide-intro-vs-renewal-390-night.png",
+      "route": "guide/intro-vs-renewal",
+      "theme": "night",
+      "width": 390,
+      "title": "The intro price is not the price · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "guide-wordpress-390-night.png",
+      "route": "guide/wordpress",
+      "theme": "night",
+      "width": 390,
+      "title": "A VPS for a WordPress site · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "guide-vpn-390-night.png",
+      "route": "guide/vpn",
+      "theme": "night",
+      "width": 390,
+      "title": "A VPS for your own VPN · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "guide-docker-390-night.png",
+      "route": "guide/docker",
+      "theme": "night",
+      "width": 390,
+      "title": "Running a Docker stack · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "guide-ipv4-and-extras-390-night.png",
+      "route": "guide/ipv4-and-extras",
+      "theme": "night",
+      "width": 390,
+      "title": "IPv4, setup fees and other extras · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "methodology-390-night.png",
+      "route": "methodology",
+      "theme": "night",
+      "width": 390,
+      "title": "How we compare · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "corrections-390-night.png",
+      "route": "corrections",
+      "theme": "night",
+      "width": 390,
+      "title": "Send a correction · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "updates-390-night.png",
+      "route": "updates",
+      "theme": "night",
+      "width": 390,
+      "title": "Updates · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "privacy-390-night.png",
+      "route": "privacy",
+      "theme": "night",
+      "width": 390,
+      "title": "Privacy · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "terms-390-night.png",
+      "route": "terms",
+      "theme": "night",
+      "width": 390,
+      "title": "Terms of use · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "affiliate-390-night.png",
+      "route": "affiliate",
+      "theme": "night",
+      "width": 390,
+      "title": "Affiliate disclosure · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "404-390-night.png",
+      "route": "nope",
+      "theme": "night",
+      "width": 390,
+      "title": "Page not found · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "home-768-day.png",
+      "route": "home",
+      "theme": "day",
+      "width": 768,
+      "title": "Compare VPS plans · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "catalog-768-day.png",
+      "route": "catalog",
+      "theme": "day",
+      "width": 768,
+      "title": "VPS plans · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "catalog-cards-768-day.png",
+      "route": "catalog?view=cards",
+      "theme": "day",
+      "width": 768,
+      "title": "VPS plans · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "catalog-empty-768-day.png",
+      "route": "catalog?ram=64&price=3&regions=oceania",
+      "theme": "day",
+      "width": 768,
+      "title": "VPS plans · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "offer-768-day.png",
+      "route": "offer/hostinger-kvm-2",
+      "theme": "day",
+      "width": 768,
+      "title": "KVM 2 · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "compare-empty-768-day.png",
+      "route": "compare",
+      "theme": "day",
+      "width": 768,
+      "title": "Compare plans · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "compare-selected-768-day.png",
+      "route": "compare",
+      "theme": "day",
+      "width": 768,
+      "title": "Compare plans · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "special-offers-768-day.png",
+      "route": "special-offers",
+      "theme": "day",
+      "width": 768,
+      "title": "Special offers · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "providers-768-day.png",
+      "route": "providers",
+      "theme": "day",
+      "width": 768,
+      "title": "Providers · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "provider-768-day.png",
+      "route": "provider/hostinger",
+      "theme": "day",
+      "width": 768,
+      "title": "Hostinger · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "guides-768-day.png",
+      "route": "guides",
+      "theme": "day",
+      "width": 768,
+      "title": "Guides · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "guide-how-much-memory-768-day.png",
+      "route": "guide/how-much-memory",
+      "theme": "day",
+      "width": 768,
+      "title": "How much memory does your project need? · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "guide-intro-vs-renewal-768-day.png",
+      "route": "guide/intro-vs-renewal",
+      "theme": "day",
+      "width": 768,
+      "title": "The intro price is not the price · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "guide-wordpress-768-day.png",
+      "route": "guide/wordpress",
+      "theme": "day",
+      "width": 768,
+      "title": "A VPS for a WordPress site · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "guide-vpn-768-day.png",
+      "route": "guide/vpn",
+      "theme": "day",
+      "width": 768,
+      "title": "A VPS for your own VPN · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "guide-docker-768-day.png",
+      "route": "guide/docker",
+      "theme": "day",
+      "width": 768,
+      "title": "Running a Docker stack · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "guide-ipv4-and-extras-768-day.png",
+      "route": "guide/ipv4-and-extras",
+      "theme": "day",
+      "width": 768,
+      "title": "IPv4, setup fees and other extras · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "methodology-768-day.png",
+      "route": "methodology",
+      "theme": "day",
+      "width": 768,
+      "title": "How we compare · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "corrections-768-day.png",
+      "route": "corrections",
+      "theme": "day",
+      "width": 768,
+      "title": "Send a correction · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "updates-768-day.png",
+      "route": "updates",
+      "theme": "day",
+      "width": 768,
+      "title": "Updates · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "privacy-768-day.png",
+      "route": "privacy",
+      "theme": "day",
+      "width": 768,
+      "title": "Privacy · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "terms-768-day.png",
+      "route": "terms",
+      "theme": "day",
+      "width": 768,
+      "title": "Terms of use · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "affiliate-768-day.png",
+      "route": "affiliate",
+      "theme": "day",
+      "width": 768,
+      "title": "Affiliate disclosure · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "404-768-day.png",
+      "route": "nope",
+      "theme": "day",
+      "width": 768,
+      "title": "Page not found · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "home-768-night.png",
+      "route": "home",
+      "theme": "night",
+      "width": 768,
+      "title": "Compare VPS plans · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "catalog-768-night.png",
+      "route": "catalog",
+      "theme": "night",
+      "width": 768,
+      "title": "VPS plans · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "catalog-cards-768-night.png",
+      "route": "catalog?view=cards",
+      "theme": "night",
+      "width": 768,
+      "title": "VPS plans · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "catalog-empty-768-night.png",
+      "route": "catalog?ram=64&price=3&regions=oceania",
+      "theme": "night",
+      "width": 768,
+      "title": "VPS plans · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "offer-768-night.png",
+      "route": "offer/hostinger-kvm-2",
+      "theme": "night",
+      "width": 768,
+      "title": "KVM 2 · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "compare-empty-768-night.png",
+      "route": "compare",
+      "theme": "night",
+      "width": 768,
+      "title": "Compare plans · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "compare-selected-768-night.png",
+      "route": "compare",
+      "theme": "night",
+      "width": 768,
+      "title": "Compare plans · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "special-offers-768-night.png",
+      "route": "special-offers",
+      "theme": "night",
+      "width": 768,
+      "title": "Special offers · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "providers-768-night.png",
+      "route": "providers",
+      "theme": "night",
+      "width": 768,
+      "title": "Providers · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "provider-768-night.png",
+      "route": "provider/hostinger",
+      "theme": "night",
+      "width": 768,
+      "title": "Hostinger · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "guides-768-night.png",
+      "route": "guides",
+      "theme": "night",
+      "width": 768,
+      "title": "Guides · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "guide-how-much-memory-768-night.png",
+      "route": "guide/how-much-memory",
+      "theme": "night",
+      "width": 768,
+      "title": "How much memory does your project need? · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "guide-intro-vs-renewal-768-night.png",
+      "route": "guide/intro-vs-renewal",
+      "theme": "night",
+      "width": 768,
+      "title": "The intro price is not the price · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "guide-wordpress-768-night.png",
+      "route": "guide/wordpress",
+      "theme": "night",
+      "width": 768,
+      "title": "A VPS for a WordPress site · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "guide-vpn-768-night.png",
+      "route": "guide/vpn",
+      "theme": "night",
+      "width": 768,
+      "title": "A VPS for your own VPN · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "guide-docker-768-night.png",
+      "route": "guide/docker",
+      "theme": "night",
+      "width": 768,
+      "title": "Running a Docker stack · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "guide-ipv4-and-extras-768-night.png",
+      "route": "guide/ipv4-and-extras",
+      "theme": "night",
+      "width": 768,
+      "title": "IPv4, setup fees and other extras · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "methodology-768-night.png",
+      "route": "methodology",
+      "theme": "night",
+      "width": 768,
+      "title": "How we compare · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "corrections-768-night.png",
+      "route": "corrections",
+      "theme": "night",
+      "width": 768,
+      "title": "Send a correction · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "updates-768-night.png",
+      "route": "updates",
+      "theme": "night",
+      "width": 768,
+      "title": "Updates · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "privacy-768-night.png",
+      "route": "privacy",
+      "theme": "night",
+      "width": 768,
+      "title": "Privacy · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "terms-768-night.png",
+      "route": "terms",
+      "theme": "night",
+      "width": 768,
+      "title": "Terms of use · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "affiliate-768-night.png",
+      "route": "affiliate",
+      "theme": "night",
+      "width": 768,
+      "title": "Affiliate disclosure · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "404-768-night.png",
+      "route": "nope",
+      "theme": "night",
+      "width": 768,
+      "title": "Page not found · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "home-1440-day.png",
+      "route": "home",
+      "theme": "day",
+      "width": 1440,
+      "title": "Compare VPS plans · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "catalog-1440-day.png",
+      "route": "catalog",
+      "theme": "day",
+      "width": 1440,
+      "title": "VPS plans · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "catalog-cards-1440-day.png",
+      "route": "catalog?view=cards",
+      "theme": "day",
+      "width": 1440,
+      "title": "VPS plans · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "catalog-empty-1440-day.png",
+      "route": "catalog?ram=64&price=3&regions=oceania",
+      "theme": "day",
+      "width": 1440,
+      "title": "VPS plans · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "offer-1440-day.png",
+      "route": "offer/hostinger-kvm-2",
+      "theme": "day",
+      "width": 1440,
+      "title": "KVM 2 · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "compare-empty-1440-day.png",
+      "route": "compare",
+      "theme": "day",
+      "width": 1440,
+      "title": "Compare plans · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "compare-selected-1440-day.png",
+      "route": "compare",
+      "theme": "day",
+      "width": 1440,
+      "title": "Compare plans · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "special-offers-1440-day.png",
+      "route": "special-offers",
+      "theme": "day",
+      "width": 1440,
+      "title": "Special offers · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "providers-1440-day.png",
+      "route": "providers",
+      "theme": "day",
+      "width": 1440,
+      "title": "Providers · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "provider-1440-day.png",
+      "route": "provider/hostinger",
+      "theme": "day",
+      "width": 1440,
+      "title": "Hostinger · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "guides-1440-day.png",
+      "route": "guides",
+      "theme": "day",
+      "width": 1440,
+      "title": "Guides · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "guide-how-much-memory-1440-day.png",
+      "route": "guide/how-much-memory",
+      "theme": "day",
+      "width": 1440,
+      "title": "How much memory does your project need? · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "guide-intro-vs-renewal-1440-day.png",
+      "route": "guide/intro-vs-renewal",
+      "theme": "day",
+      "width": 1440,
+      "title": "The intro price is not the price · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "guide-wordpress-1440-day.png",
+      "route": "guide/wordpress",
+      "theme": "day",
+      "width": 1440,
+      "title": "A VPS for a WordPress site · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "guide-vpn-1440-day.png",
+      "route": "guide/vpn",
+      "theme": "day",
+      "width": 1440,
+      "title": "A VPS for your own VPN · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "guide-docker-1440-day.png",
+      "route": "guide/docker",
+      "theme": "day",
+      "width": 1440,
+      "title": "Running a Docker stack · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "guide-ipv4-and-extras-1440-day.png",
+      "route": "guide/ipv4-and-extras",
+      "theme": "day",
+      "width": 1440,
+      "title": "IPv4, setup fees and other extras · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "methodology-1440-day.png",
+      "route": "methodology",
+      "theme": "day",
+      "width": 1440,
+      "title": "How we compare · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "corrections-1440-day.png",
+      "route": "corrections",
+      "theme": "day",
+      "width": 1440,
+      "title": "Send a correction · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "updates-1440-day.png",
+      "route": "updates",
+      "theme": "day",
+      "width": 1440,
+      "title": "Updates · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "privacy-1440-day.png",
+      "route": "privacy",
+      "theme": "day",
+      "width": 1440,
+      "title": "Privacy · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "terms-1440-day.png",
+      "route": "terms",
+      "theme": "day",
+      "width": 1440,
+      "title": "Terms of use · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "affiliate-1440-day.png",
+      "route": "affiliate",
+      "theme": "day",
+      "width": 1440,
+      "title": "Affiliate disclosure · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "404-1440-day.png",
+      "route": "nope",
+      "theme": "day",
+      "width": 1440,
+      "title": "Page not found · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "home-1440-night.png",
+      "route": "home",
+      "theme": "night",
+      "width": 1440,
+      "title": "Compare VPS plans · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "catalog-1440-night.png",
+      "route": "catalog",
+      "theme": "night",
+      "width": 1440,
+      "title": "VPS plans · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "catalog-cards-1440-night.png",
+      "route": "catalog?view=cards",
+      "theme": "night",
+      "width": 1440,
+      "title": "VPS plans · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "catalog-empty-1440-night.png",
+      "route": "catalog?ram=64&price=3&regions=oceania",
+      "theme": "night",
+      "width": 1440,
+      "title": "VPS plans · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "offer-1440-night.png",
+      "route": "offer/hostinger-kvm-2",
+      "theme": "night",
+      "width": 1440,
+      "title": "KVM 2 · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "compare-empty-1440-night.png",
+      "route": "compare",
+      "theme": "night",
+      "width": 1440,
+      "title": "Compare plans · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "compare-selected-1440-night.png",
+      "route": "compare",
+      "theme": "night",
+      "width": 1440,
+      "title": "Compare plans · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "special-offers-1440-night.png",
+      "route": "special-offers",
+      "theme": "night",
+      "width": 1440,
+      "title": "Special offers · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "providers-1440-night.png",
+      "route": "providers",
+      "theme": "night",
+      "width": 1440,
+      "title": "Providers · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "provider-1440-night.png",
+      "route": "provider/hostinger",
+      "theme": "night",
+      "width": 1440,
+      "title": "Hostinger · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "guides-1440-night.png",
+      "route": "guides",
+      "theme": "night",
+      "width": 1440,
+      "title": "Guides · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "guide-how-much-memory-1440-night.png",
+      "route": "guide/how-much-memory",
+      "theme": "night",
+      "width": 1440,
+      "title": "How much memory does your project need? · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "guide-intro-vs-renewal-1440-night.png",
+      "route": "guide/intro-vs-renewal",
+      "theme": "night",
+      "width": 1440,
+      "title": "The intro price is not the price · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "guide-wordpress-1440-night.png",
+      "route": "guide/wordpress",
+      "theme": "night",
+      "width": 1440,
+      "title": "A VPS for a WordPress site · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "guide-vpn-1440-night.png",
+      "route": "guide/vpn",
+      "theme": "night",
+      "width": 1440,
+      "title": "A VPS for your own VPN · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "guide-docker-1440-night.png",
+      "route": "guide/docker",
+      "theme": "night",
+      "width": 1440,
+      "title": "Running a Docker stack · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "guide-ipv4-and-extras-1440-night.png",
+      "route": "guide/ipv4-and-extras",
+      "theme": "night",
+      "width": 1440,
+      "title": "IPv4, setup fees and other extras · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "methodology-1440-night.png",
+      "route": "methodology",
+      "theme": "night",
+      "width": 1440,
+      "title": "How we compare · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "corrections-1440-night.png",
+      "route": "corrections",
+      "theme": "night",
+      "width": 1440,
+      "title": "Send a correction · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "updates-1440-night.png",
+      "route": "updates",
+      "theme": "night",
+      "width": 1440,
+      "title": "Updates · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "privacy-1440-night.png",
+      "route": "privacy",
+      "theme": "night",
+      "width": 1440,
+      "title": "Privacy · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "terms-1440-night.png",
+      "route": "terms",
+      "theme": "night",
+      "width": 1440,
+      "title": "Terms of use · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "affiliate-1440-night.png",
+      "route": "affiliate",
+      "theme": "night",
+      "width": 1440,
+      "title": "Affiliate disclosure · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    },
+    {
+      "file": "404-1440-night.png",
+      "route": "nope",
+      "theme": "night",
+      "width": 1440,
+      "title": "Page not found · bestvpsforme · Shore mockup",
+      "overflow": 0,
+      "errors": []
+    }
+  ],
+  "failures": 0
+}

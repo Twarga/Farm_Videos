@@ -1,0 +1,516 @@
+{
+  "checkedAt": "2026-10-24T13:46:58.488Z",
+  "browser": "153.0.8010.12",
+  "status": "passed",
+  "scope": "Standalone design preview only; no production admin/backend changes",
+  "navigationChecks": 66,
+  "axeScans": 18,
+  "screenshots": 12,
+  "errors": [],
+  "checks": [
+    {
+      "width": 390,
+      "theme": "night",
+      "hash": "#dashboard",
+      "overflow": 0
+    },
+    {
+      "width": 390,
+      "theme": "night",
+      "hash": "#imports",
+      "overflow": 0
+    },
+    {
+      "width": 390,
+      "theme": "night",
+      "hash": "#terms",
+      "overflow": 0
+    },
+    {
+      "width": 390,
+      "theme": "night",
+      "hash": "#editorial",
+      "overflow": 0
+    },
+    {
+      "width": 390,
+      "theme": "night",
+      "hash": "#publications",
+      "overflow": 0
+    },
+    {
+      "width": 390,
+      "theme": "night",
+      "hash": "#corrections",
+      "overflow": 0
+    },
+    {
+      "width": 390,
+      "theme": "night",
+      "hash": "#providers",
+      "overflow": 0
+    },
+    {
+      "width": 390,
+      "theme": "night",
+      "hash": "#affiliates",
+      "overflow": 0
+    },
+    {
+      "width": 390,
+      "theme": "night",
+      "hash": "#settings",
+      "overflow": 0
+    },
+    {
+      "width": 390,
+      "theme": "night",
+      "hash": "#audit",
+      "overflow": 0
+    },
+    {
+      "width": 390,
+      "theme": "night",
+      "hash": "#health",
+      "overflow": 0
+    },
+    {
+      "width": 390,
+      "theme": "night",
+      "section": "dashboard",
+      "axeViolations": []
+    },
+    {
+      "width": 390,
+      "theme": "night",
+      "section": "providers",
+      "axeViolations": []
+    },
+    {
+      "width": 390,
+      "theme": "night",
+      "section": "settings",
+      "axeViolations": []
+    },
+    {
+      "width": 390,
+      "theme": "day",
+      "hash": "#dashboard",
+      "overflow": 0
+    },
+    {
+      "width": 390,
+      "theme": "day",
+      "hash": "#imports",
+      "overflow": 0
+    },
+    {
+      "width": 390,
+      "theme": "day",
+      "hash": "#terms",
+      "overflow": 0
+    },
+    {
+      "width": 390,
+      "theme": "day",
+      "hash": "#editorial",
+      "overflow": 0
+    },
+    {
+      "width": 390,
+      "theme": "day",
+      "hash": "#publications",
+      "overflow": 0
+    },
+    {
+      "width": 390,
+      "theme": "day",
+      "hash": "#corrections",
+      "overflow": 0
+    },
+    {
+      "width": 390,
+      "theme": "day",
+      "hash": "#providers",
+      "overflow": 0
+    },
+    {
+      "width": 390,
+      "theme": "day",
+      "hash": "#affiliates",
+      "overflow": 0
+    },
+    {
+      "width": 390,
+      "theme": "day",
+      "hash": "#settings",
+      "overflow": 0
+    },
+    {
+      "width": 390,
+      "theme": "day",
+      "hash": "#audit",
+      "overflow": 0
+    },
+    {
+      "width": 390,
+      "theme": "day",
+      "hash": "#health",
+      "overflow": 0
+    },
+    {
+      "width": 390,
+      "theme": "day",
+      "section": "dashboard",
+      "axeViolations": []
+    },
+    {
+      "width": 390,
+      "theme": "day",
+      "section": "providers",
+      "axeViolations": []
+    },
+    {
+      "width": 390,
+      "theme": "day",
+      "section": "settings",
+      "axeViolations": []
+    },
+    {
+      "width": 768,
+      "theme": "night",
+      "hash": "#dashboard",
+      "overflow": 0
+    },
+    {
+      "width": 768,
+      "theme": "night",
+      "hash": "#imports",
+      "overflow": 0
+    },
+    {
+      "width": 768,
+      "theme": "night",
+      "hash": "#terms",
+      "overflow": 0
+    },
+    {
+      "width": 768,
+      "theme": "night",
+      "hash": "#editorial",
+      "overflow": 0
+    },
+    {
+      "width": 768,
+      "theme": "night",
+      "hash": "#publications",
+      "overflow": 0
+    },
+    {
+      "width": 768,
+      "theme": "night",
+      "hash": "#corrections",
+      "overflow": 0
+    },
+    {
+      "width": 768,
+      "theme": "night",
+      "hash": "#providers",
+      "overflow": 0
+    },
+    {
+      "width": 768,
+      "theme": "night",
+      "hash": "#affiliates",
+      "overflow": 0
+    },
+    {
+      "width": 768,
+      "theme": "night",
+      "hash": "#settings",
+      "overflow": 0
+    },
+    {
+      "width": 768,
+      "theme": "night",
+      "hash": "#audit",
+      "overflow": 0
+    },
+    {
+      "width": 768,
+      "theme": "night",
+      "hash": "#health",
+      "overflow": 0
+    },
+    {
+      "width": 768,
+      "theme": "night",
+      "section": "dashboard",
+      "axeViolations": []
+    },
+    {
+      "width": 768,
+      "theme": "night",
+      "section": "providers",
+      "axeViolations": []
+    },
+    {
+      "width": 768,
+      "theme": "night",
+      "section": "settings",
+      "axeViolations": []
+    },
+    {
+      "width": 768,
+      "theme": "day",
+      "hash": "#dashboard",
+      "overflow": 0
+    },
+    {
+      "width": 768,
+      "theme": "day",
+      "hash": "#imports",
+      "overflow": 0
+    },
+    {
+      "width": 768,
+      "theme": "day",
+      "hash": "#terms",
+      "overflow": 0
+    },
+    {
+      "width": 768,
+      "theme": "day",
+      "hash": "#editorial",
+      "overflow": 0
+    },
+    {
+      "width": 768,
+      "theme": "day",
+      "hash": "#publications",
+      "overflow": 0
+    },
+    {
+      "width": 768,
+      "theme": "day",
+      "hash": "#corrections",
+      "overflow": 0
+    },
+    {
+      "width": 768,
+      "theme": "day",
+      "hash": "#providers",
+      "overflow": 0
+    },
+    {
+      "width": 768,
+      "theme": "day",
+      "hash": "#affiliates",
+      "overflow": 0
+    },
+    {
+      "width": 768,
+      "theme": "day",
+      "hash": "#settings",
+      "overflow": 0
+    },
+    {
+      "width": 768,
+      "theme": "day",
+      "hash": "#audit",
+      "overflow": 0
+    },
+    {
+      "width": 768,
+      "theme": "day",
+      "hash": "#health",
+      "overflow": 0
+    },
+    {
+      "width": 768,
+      "theme": "day",
+      "section": "dashboard",
+      "axeViolations": []
+    },
+    {
+      "width": 768,
+      "theme": "day",
+      "section": "providers",
+      "axeViolations": []
+    },
+    {
+      "width": 768,
+      "theme": "day",
+      "section": "settings",
+      "axeViolations": []
+    },
+    {
+      "width": 1440,
+      "theme": "night",
+      "hash": "#dashboard",
+      "overflow": 0
+    },
+    {
+      "width": 1440,
+      "theme": "night",
+      "hash": "#imports",
+      "overflow": 0
+    },
+    {
+      "width": 1440,
+      "theme": "night",
+      "hash": "#terms",
+      "overflow": 0
+    },
+    {
+      "width": 1440,
+      "theme": "night",
+      "hash": "#editorial",
+      "overflow": 0
+    },
+    {
+      "width": 1440,
+      "theme": "night",
+      "hash": "#publications",
+      "overflow": 0
+    },
+    {
+      "width": 1440,
+      "theme": "night",
+      "hash": "#corrections",
+      "overflow": 0
+    },
+    {
+      "width": 1440,
+      "theme": "night",
+      "hash": "#providers",
+      "overflow": 0
+    },
+    {
+      "width": 1440,
+      "theme": "night",
+      "hash": "#affiliates",
+      "overflow": 0
+    },
+    {
+      "width": 1440,
+      "theme": "night",
+      "hash": "#settings",
+      "overflow": 0
+    },
+    {
+      "width": 1440,
+      "theme": "night",
+      "hash": "#audit",
+      "overflow": 0
+    },
+    {
+      "width": 1440,
+      "theme": "night",
+      "hash": "#health",
+      "overflow": 0
+    },
+    {
+      "width": 1440,
+      "theme": "night",
+      "section": "dashboard",
+      "axeViolations": []
+    },
+    {
+      "width": 1440,
+      "theme": "night",
+      "section": "providers",
+      "axeViolations": []
+    },
+    {
+      "width": 1440,
+      "theme": "night",
+      "section": "settings",
+      "axeViolations": []
+    },
+    {
+      "width": 1440,
+      "theme": "day",
+      "hash": "#dashboard",
+      "overflow": 0
+    },
+    {
+      "width": 1440,
+      "theme": "day",
+      "hash": "#imports",
+      "overflow": 0
+    },
+    {
+      "width": 1440,
+      "theme": "day",
+      "hash": "#terms",
+      "overflow": 0
+    },
+    {
+      "width": 1440,
+      "theme": "day",
+      "hash": "#editorial",
+      "overflow": 0
+    },
+    {
+      "width": 1440,
+      "theme": "day",
+      "hash": "#publications",
+      "overflow": 0
+    },
+    {
+      "width": 1440,
+      "theme": "day",
+      "hash": "#corrections",
+      "overflow": 0
+    },
+    {
+      "width": 1440,
+      "theme": "day",
+      "hash": "#providers",
+      "overflow": 0
+    },
+    {
+      "width": 1440,
+      "theme": "day",
+      "hash": "#affiliates",
+      "overflow": 0
+    },
+    {
+      "width": 1440,
+      "theme": "day",
+      "hash": "#settings",
+      "overflow": 0
+    },
+    {
+      "width": 1440,
+      "theme": "day",
+      "hash": "#audit",
+      "overflow": 0
+    },
+    {
+      "width": 1440,
+      "theme": "day",
+      "hash": "#health",
+      "overflow": 0
+    },
+    {
+      "width": 1440,
+      "theme": "day",
+      "section": "dashboard",
+      "axeViolations": []
+    },
+    {
+      "width": 1440,
+      "theme": "day",
+      "section": "providers",
+      "axeViolations": []
+    },
+    {
+      "width": 1440,
+      "theme": "day",
+      "section": "settings",
+      "axeViolations": []
+    }
+  ]
+}

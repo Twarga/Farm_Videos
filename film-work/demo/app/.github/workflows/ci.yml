@@ -1,0 +1,60 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      DATABASE_URL: /tmp/bestvpsforme-e2e/catalog.db
+      E2E_DATABASE_URL: /tmp/bestvpsforme-e2e/catalog.db
+      E2E_FIXTURE: "1"
+      BESTVPSFORME_PUBLIC_DATA_MODE: ""
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm audit --omit=dev --audit-level=high
+      - run: npm run data:check
+      - run: npm run lint
+      - run: npm run typecheck
+      - run: npm test
+      - run: npm run check:security
+      - run: npm run check:content
+      - run: npm run test:e2e:prepare
+      - run: npm run build
+      - run: npx playwright install --with-deps chromium
+      - run: npm run test:e2e
+        env:
+          E2E_REUSE_BUILD: "1"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: phase-7-measurements
+          path: |
+            /tmp/bestvpsforme-browser-checks-*/catalog-js-budget.json
+            /tmp/bestvpsforme-phase7-freshness-*/freshness.json
+            /tmp/bestvpsforme-phase7-recovery-*/recovery.json
+            /tmp/bestvpsforme-phase7-recovery-*/*.png
+            /tmp/bestvpsforme-phase7-recovery-*/404-*.json
+            /tmp/bestvpsforme-phase7-recovery-*/failure-*.json
+            /tmp/bestvpsforme-phase7-recovery-*/history-failure-*.json
+          if-no-files-found: ignore
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: playwright-report
+          path: |
+            playwright-report/
+            test-results/
+          if-no-files-found: ignore

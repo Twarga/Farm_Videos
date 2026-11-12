@@ -1,0 +1,17 @@
+{
+  "sourceAccess": "SQLite mode=ro, consistent online backup",
+  "protectedTablesUnchanged": {
+    "offers": true,
+    "offer_prices": true,
+    "offer_editorial": true,
+    "publication_snapshots": true,
+    "site_settings": true
+  },
+  "integrity": "ok",
+  "foreignKeyErrors": 0,
+  "publishedOffers": 330,
+  "reviewedEditorial": 62,
+  "heldEditorial": 38,
+  "migrations": 17,
+  "productionMutations": false
+}

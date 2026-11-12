@@ -1,0 +1,88 @@
+{
+  "measuredAt": "2026-10-10T14:16:02.175Z",
+  "identity": {
+    "sourceBackup": "/tmp/bestvpsforme-phase7-final-2h22bhi3/source.db",
+    "databaseSha256": "35e8b986f3eec0301d8283baffee91575e7823c97e9f33a6c8dc05dfd7a7c9ce",
+    "publication": {
+      "id": "341cd929-08fa-4ba3-8f54-1df8a434f4b1",
+      "snapshot_version": 6,
+      "published_at": 1791370150823
+    },
+    "counts": {
+      "published": 330,
+      "drafts": 0,
+      "snapshotOffers": 330
+    },
+    "buildDirectory": "/tmp/bestvpsforme-phase7-final-2h22bhi3/build",
+    "buildId": "kfsfRayDWDzMr7Vzz_twm",
+    "commit": null,
+    "node": "v24.17.0",
+    "next": "16.3.8",
+    "react": "19.2.0"
+  },
+  "before": {
+    "width": 1440,
+    "height": 913,
+    "dpr": 1
+  },
+  "zoom": 2,
+  "method": "Actual chrome.tabs.setZoom(2), followed by CDP Page.captureScreenshot without a CSS clip; supplemental viewport images avoid Playwright cropping at browser zoom.",
+  "captures": [
+    {
+      "theme": "light",
+      "route": "/catalog",
+      "geometry": {
+        "width": 720,
+        "height": 456,
+        "dpr": 2,
+        "pageWidth": 720
+      },
+      "filename": "/tmp/phase7-zoom-cdp-light-catalog.png",
+      "imageWidth": 1440,
+      "imageHeight": 913,
+      "retainedScreenshot": "docs/qa/phase-7/screenshots/phase7-zoom-cdp-light-catalog.png"
+    },
+    {
+      "theme": "light",
+      "route": "/corrections",
+      "geometry": {
+        "width": 720,
+        "height": 456,
+        "dpr": 2,
+        "pageWidth": 720
+      },
+      "filename": "/tmp/phase7-zoom-cdp-light-corrections.png",
+      "imageWidth": 1440,
+      "imageHeight": 913,
+      "retainedScreenshot": "docs/qa/phase-7/screenshots/phase7-zoom-cdp-light-corrections.png"
+    },
+    {
+      "theme": "dark",
+      "route": "/catalog",
+      "geometry": {
+        "width": 720,
+        "height": 456,
+        "dpr": 2,
+        "pageWidth": 720
+      },
+      "filename": "/tmp/phase7-zoom-cdp-dark-catalog.png",
+      "imageWidth": 1440,
+      "imageHeight": 913,
+      "retainedScreenshot": "docs/qa/phase-7/screenshots/phase7-zoom-cdp-dark-catalog.png"
+    },
+    {
+      "theme": "dark",
+      "route": "/corrections",
+      "geometry": {
+        "width": 720,
+        "height": 456,
+        "dpr": 2,
+        "pageWidth": 720
+      },
+      "filename": "/tmp/phase7-zoom-cdp-dark-corrections.png",
+      "imageWidth": 1440,
+      "imageHeight": 913,
+      "retainedScreenshot": "docs/qa/phase-7/screenshots/phase7-zoom-cdp-dark-corrections.png"
+    }
+  ]
+}

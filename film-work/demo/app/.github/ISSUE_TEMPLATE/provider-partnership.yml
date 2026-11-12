@@ -1,0 +1,24 @@
+name: Provider partnership inquiry
+description: Start a provider partnership or affiliate conversation.
+title: "[Partnership] "
+labels: ["partnership", "commercial"]
+body:
+  - type: input
+    id: provider
+    attributes:
+      label: Provider
+    validations:
+      required: true
+  - type: input
+    id: contact
+    attributes:
+      label: Contact or signup URL
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Context
+      description: Keep commercial terms separate from factual corrections.
+    validations:
+      required: true

@@ -1,0 +1,23 @@
+{
+  "styles": {
+    "professor": {
+      "score": 10,
+      "why": "Its chapter-by-chapter list format and cartoon demonstrations make everyday money habits accessible, entertaining, and easy to understand for a broad personal-finance audience.",
+      "titles": [
+        "Every Money Habit That Quietly Drains Your Wallet Explained",
+        "Every Daily Spending Trap That Keeps You Broke Explained",
+        "Common Money Mistakes You Might Make Without Knowing"
+      ]
+    },
+    "stickman": {
+      "score": 9,
+      "why": "Its relatable second-person storytelling and emotional close-ups suit viewers seeking practical habit changes, though a focused numbered list fits better than an exhaustive explainer.",
+      "titles": [
+        "7 Everyday Habits That Quietly Keep You Broke",
+        "Stop Doing This If You Want to Save More Money",
+        "Why You Keep Running Out of Money (And the Fix)"
+      ]
+    }
+  },
+  "best": "professor"
+}

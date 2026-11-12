@@ -1,0 +1,1 @@
+ALTER TABLE `offer_prices` ADD `setup_fee_source` text;

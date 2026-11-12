@@ -1,0 +1,541 @@
+
+  /* ── Kit ── */
+  .s-patchwork .pw-ground { fill: none; stroke: var(--line); stroke-width: 1.3px; stroke-dasharray: 4 3; stroke-linecap: round; opacity: .4; }
+  .s-patchwork .pw-contact { fill: rgba(0, 0, 0, .35); }
+  .s-patchwork .pw-shadow { fill: rgba(0, 0, 0, .38); transform: translate(1.2px, 1.6px); }
+  .s-patchwork .pw-tex { pointer-events: none; }
+  .s-patchwork .pw-seam { fill: none; }
+  .s-patchwork .pw-seam, .s-patchwork .pw-seamed { stroke: var(--line); stroke-width: 1.15px; stroke-dasharray: 2.8 2; stroke-linecap: round; stroke-linejoin: round; }
+  .s-patchwork .pw-blush { fill: var(--accent); opacity: .45; }
+  .s-patchwork .pw-nose { fill: #1a1410; }
+  .s-patchwork .bd-star { fill: var(--line); opacity: .45; }
+  .s-patchwork .bd-moon { fill: var(--line); opacity: .7; }
+
+  /* Fabrics */
+  .s-patchwork .f-bear { fill: #6b4a2e; } .s-patchwork .f-bear-dark { fill: #4d3420; } .s-patchwork .f-belly { fill: #8f6a43; } .s-patchwork .f-muzzle { fill: #d9bb8f; }
+  .s-patchwork .f-amber { fill: #d98f2b; }
+  .s-patchwork .f-yeast { fill: #2e8a58; } .s-patchwork .f-nucleus { fill: #63c788; } .s-patchwork .f-cap { fill: #4b3d8f; }
+  .s-patchwork .f-apron { fill: #f07020; } .s-patchwork .f-bib, .s-patchwork .f-hat { fill: #f3ece0; } .s-patchwork .f-face { fill: #efcda6; } .s-patchwork .f-shoe { fill: #3a2418; }
+  .s-patchwork .f-oven { fill: #5a3826; } .s-patchwork .f-sack { fill: #e6dac4; } .s-patchwork .f-wood { fill: #c39a63; }
+  .s-patchwork .f-shell { fill: #7a5fd4; } .s-patchwork .f-shell2 { fill: #5c47a8; } .s-patchwork .f-crab { fill: #e89d88; }
+  .s-patchwork .f-cloud { fill: #2b4c76; transition: fill .3s ease; } .s-patchwork .f-ear { fill: #2a2433; }
+
+  /* Eyes */
+  .s-patchwork .e-btn { fill: #15120f; stroke: var(--line); stroke-width: .8px; }
+  .s-patchwork .e-hole { fill: var(--line); opacity: .5; }
+  .s-patchwork .e-glint { fill: #fff; opacity: .92; }
+  .s-patchwork .e-ring { fill: none; stroke: var(--line); stroke-width: .9px; }
+  .s-patchwork .e-happy, .s-patchwork .e-shut, .s-patchwork .e-strain { fill: none; stroke: var(--line); stroke-width: 1.3px; stroke-linecap: round; stroke-linejoin: round; }
+  .s-patchwork .e-x, .s-patchwork .e-spiral path { fill: none; stroke: var(--alarm); stroke-width: 1.2px; stroke-linecap: round; }
+  .s-patchwork .e-open { transform-box: fill-box; transform-origin: center; transition: transform 70ms ease-out; }
+  .s-patchwork.blink .e-open { transform: scaleY(.15); }
+  .s-patchwork .e-spiral { transform-box: fill-box; transform-origin: center; }
+
+  /* Mouths */
+  .s-patchwork .pw-mouth > * { fill: none; stroke: var(--line); stroke-width: 1.15px; stroke-linecap: round; stroke-linejoin: round; }
+  .s-patchwork .m-o, .s-patchwork .m-big { fill: #15120f; stroke-width: .9px; }
+
+  /* Face per state */
+  .s-patchwork .e-ring, .s-patchwork .e-happy, .s-patchwork .e-shut, .s-patchwork .e-x, .s-patchwork .e-strain, .s-patchwork .e-spiral, .s-patchwork .pw-mouth > * { opacity: 0; }
+  .s-patchwork[data-state="idle"] .m-smile, .s-patchwork[data-state="working"] .m-flat, .s-patchwork[data-state="quirk"] .m-o { opacity: 1; }
+  .s-patchwork[data-state="success"] .e-open { opacity: 0; }
+  .s-patchwork[data-state="success"] .e-happy, .s-patchwork[data-state="success"] .m-big { opacity: 1; }
+  .s-patchwork[data-state="error"] .m-frown { opacity: 1; }
+  .s-patchwork[data-state="sleep"] .e-open { opacity: 0; }
+  .s-patchwork[data-state="sleep"] .e-shut, .s-patchwork[data-state="sleep"] .m-smile { opacity: 1; }
+
+  /* Props per state */
+  .s-patchwork .on-i, .s-patchwork .on-w, .s-patchwork .on-q, .s-patchwork .on-s, .s-patchwork .on-e, .s-patchwork .on-z { display: none; }
+  .s-patchwork[data-state="idle"] .on-i, .s-patchwork[data-state="working"] .on-w, .s-patchwork[data-state="quirk"] .on-q,
+  .s-patchwork[data-state="success"] .on-s, .s-patchwork[data-state="error"] .on-e, .s-patchwork[data-state="sleep"] .on-z { display: inline; }
+  .s-patchwork[data-state="error"] .off-e, .s-patchwork[data-state="sleep"] .off-z { display: none; }
+
+  /* Baby machine */
+  .s-patchwork .mm-body { fill: #1d2b38; stroke: var(--line); stroke-width: .9px; stroke-dasharray: 2 1.4; }
+  .s-patchwork .mm-screen { fill: #00d26a; }
+  .s-patchwork .mm-dot { fill: #0b1a10; }
+  .s-patchwork .mm-foot { fill: #0e1620; }
+
+  /* Zzz */
+  .s-patchwork .pw-zzz text { fill: var(--line); font: 800 8px ui-monospace, monospace; opacity: 0; }
+  .s-patchwork .pw-zzz text:nth-child(2) { font-size: 10px; }
+  .s-patchwork .pw-zzz text:nth-child(3) { font-size: 13px; }
+  .s-patchwork[data-state="sleep"] .pw-zzz text { animation: patchwork-z 3s ease-out infinite; }
+  .s-patchwork[data-state="sleep"] .pw-zzz text:nth-child(2) { animation-delay: 1s; }
+  .s-patchwork[data-state="sleep"] .pw-zzz text:nth-child(3) { animation-delay: 2s; }
+  @keyframes patchwork-z { 0% { opacity: 0; transform: none; } 25% { opacity: .9; } 100% { opacity: 0; transform: translate(4px, -10px); } }
+
+  /* ═══ 1. TwargaOps · Watchman Bear ═══ */
+  .s-patchwork .lamp-handle { fill: none; stroke: var(--line); stroke-width: 1.2px; stroke-linecap: round; }
+  .s-patchwork .lamp-cap { fill: #3a2616; stroke: var(--line); stroke-width: .8px; }
+  .s-patchwork .lamp-glass { fill: rgba(233, 162, 59, .22); stroke: var(--line); stroke-width: .8px; }
+  .s-patchwork .lamp-strut { stroke: var(--line); stroke-width: .6px; opacity: .5; }
+  .s-patchwork .lamp-flame { fill: var(--amber); transform-box: fill-box; transform-origin: 50% 100%; animation: patchwork-flame 1.6s ease-in-out infinite; }
+  .s-patchwork .lamp-glow { fill: var(--amber); opacity: .18; }
+  .s-patchwork .lamp-ring { fill: none; stroke: var(--amber); stroke-width: 1px; transform-box: fill-box; transform-origin: center; }
+  .s-patchwork .fw { fill: none; stroke: var(--amber); stroke-width: 1.3px; stroke-linecap: round; }
+  .s-patchwork .fw-dot { fill: var(--amber); }
+  .s-patchwork .firework { transform-box: fill-box; transform-origin: center; }
+  .s-patchwork .smoke { fill: none; stroke: var(--muted); stroke-width: 1.4px; stroke-linecap: round; stroke-dasharray: 3 2.4; }
+  .s-patchwork .fringe, .s-patchwork .tink { fill: none; stroke: var(--line); stroke-width: 1px; stroke-linecap: round; }
+  .s-patchwork .tink { stroke: var(--amber); }
+  .s-patchwork .bear-body { transform-origin: 75px 117px; }
+  .s-patchwork .bear-arm { transform-origin: 95px 90px; }
+  .s-patchwork .bear-lantern { transform-origin: 106px 100px; }
+  .s-patchwork .scarf-tail { transform-origin: 92px 93px; }
+  @keyframes patchwork-flame { 0%, 100% { transform: scale(1); } 40% { transform: scale(.88, 1.14); } 70% { transform: scale(1.08, .92); } }
+
+  .s-patchwork.k-twargaops[data-state="idle"] .bear-body { animation: patchwork-breathe 3.6s ease-in-out infinite; }
+  .s-patchwork.k-twargaops[data-state="idle"] .bear-arm { animation: patchwork-sway 3.6s ease-in-out infinite; }
+  @keyframes patchwork-breathe { 50% { transform: scale(1.012, 1.018); } }
+  @keyframes patchwork-sway { 0%, 100% { transform: rotate(-3deg); } 50% { transform: rotate(4deg); } }
+
+  .s-patchwork.k-twargaops[data-state="working"] .bear-arm, .s-patchwork.k-twargaops[data-state="success"] .bear-arm { transform: rotate(-70deg); }
+  .s-patchwork.k-twargaops[data-state="working"] .bear-lantern, .s-patchwork.k-twargaops[data-state="success"] .bear-lantern { transform: rotate(70deg); }
+  .s-patchwork.k-twargaops[data-state="working"] .bear-arm { animation: patchwork-arm-up 3s var(--ease-io) infinite; }
+  .s-patchwork.k-twargaops[data-state="working"] .bear-lantern { animation: patchwork-lantern-up 3s var(--ease-io) infinite; }
+  .s-patchwork.k-twargaops[data-state="working"] .lamp-flame { animation-duration: .7s; }
+  .s-patchwork.k-twargaops[data-state="working"] .lamp-glow { opacity: .32; }
+  .s-patchwork.k-twargaops[data-state="working"] .lamp-ring { animation: patchwork-ring 1.4s ease-out infinite; }
+  .s-patchwork.k-twargaops[data-state="working"] .lamp-ring.r2 { animation-delay: .7s; }
+  .s-patchwork.k-twargaops[data-state="working"] .scarf-tail { animation: patchwork-flutter .5s ease-in-out infinite; }
+  @keyframes patchwork-arm-up { 0%, 100% { transform: none; } 18%, 85% { transform: rotate(-70deg); } }
+  @keyframes patchwork-lantern-up { 0%, 100% { transform: none; } 18%, 85% { transform: rotate(70deg); } }
+  @keyframes patchwork-ring { 0% { transform: scale(1); opacity: .8; } 100% { transform: scale(2.6); opacity: 0; } }
+  @keyframes patchwork-flutter { 50% { transform: rotate(-9deg); } }
+
+  .s-patchwork.k-twargaops[data-state="quirk"] .bear-tap { animation: patchwork-tap 3s ease-in-out 1 both; }
+  .s-patchwork.k-twargaops[data-state="quirk"] .tink { animation: patchwork-tink 3s steps(1) 1 both; }
+  .s-patchwork.k-twargaops[data-state="quirk"] .e-open { animation: patchwork-yawn-open 3s ease-in-out 1 both; }
+  .s-patchwork.k-twargaops[data-state="quirk"] .e-shut { animation: patchwork-yawn-shut 3s ease-in-out 1 both; }
+  .s-patchwork.k-twargaops[data-state="quirk"] .m-o { animation: patchwork-yawn-mouth 3s ease-in-out 1 both; transform-box: fill-box; transform-origin: 50% 0; }
+  .s-patchwork.k-twargaops[data-state="quirk"] .bear-body { animation: patchwork-stretch 3s ease-in-out 1 both; }
+  @keyframes patchwork-tap { 0% { opacity: 0; transform: translate(-3px, 3px); } 8% { opacity: 1; transform: none; } 14% { transform: translate(2px, -1.5px); } 19% { transform: none; } 24% { transform: translate(2px, -1.5px); } 29% { transform: none; } 36%, 100% { opacity: 0; transform: translate(-3px, 3px); } }
+  @keyframes patchwork-tink { 0%, 13% { opacity: 0; } 14%, 18% { opacity: 1; } 19%, 23% { opacity: 0; } 24%, 28% { opacity: 1; } 29%, 100% { opacity: 0; } }
+  @keyframes patchwork-yawn-open { 0%, 44% { opacity: 1; } 47%, 86% { opacity: 0; } 90%, 100% { opacity: 1; } }
+  @keyframes patchwork-yawn-shut { 0%, 44% { opacity: 0; } 47%, 86% { opacity: 1; } 90%, 100% { opacity: 0; } }
+  @keyframes patchwork-yawn-mouth { 0%, 44% { opacity: 0; transform: scale(.6); } 52%, 82% { opacity: 1; transform: scale(1.5, 1.8); } 90%, 100% { opacity: 0; transform: scale(.6); } }
+  @keyframes patchwork-stretch { 0%, 44%, 92%, 100% { transform: none; } 54%, 80% { transform: scale(1.03, 1.045); } }
+
+  .s-patchwork.k-twargaops[data-state="success"] .firework { animation: patchwork-burst 1.1s var(--ease-out) infinite; }
+  .s-patchwork.k-twargaops[data-state="success"] .bear-body { animation: patchwork-hop .8s var(--ease-out) 2; }
+  @keyframes patchwork-burst { 0% { transform: scale(.4); opacity: 0; } 30% { opacity: 1; } 70% { transform: scale(1.12); opacity: 1; } 100% { transform: scale(1.25); opacity: 0; } }
+  @keyframes patchwork-hop { 35% { transform: translateY(-4px); } 60% { transform: scale(1.02, .98); } }
+
+  .s-patchwork.k-twargaops[data-state="error"] .lamp-flame, .s-patchwork.k-twargaops[data-state="error"] .lamp-glow { opacity: 0; }
+  .s-patchwork.k-twargaops[data-state="error"] .smoke { animation: patchwork-smoke 1.8s linear infinite; }
+  .s-patchwork.k-twargaops[data-state="error"] .bear-body, .s-patchwork.k-twargaops[data-state="error"] .bear-arm { animation: patchwork-shiver .14s linear infinite; }
+  .s-patchwork.k-twargaops[data-state="error"] .e-ring, .s-patchwork.k-twargaops[data-state="error"] .m-zig { opacity: 1; }
+  .s-patchwork.k-twargaops[data-state="error"] .m-frown { opacity: 0; }
+  @keyframes patchwork-smoke { 0% { stroke-dashoffset: 0; opacity: 0; transform: none; } 20% { opacity: .9; } 100% { stroke-dashoffset: -16; opacity: 0; transform: translateY(-6px); } }
+  @keyframes patchwork-shiver { 50% { transform: translateX(.7px); } }
+
+  .s-patchwork.k-twargaops[data-state="sleep"] .bear-body { transform: translateY(2px) scale(1, .97); }
+  .s-patchwork.k-twargaops[data-state="sleep"] .lamp-flame { animation-duration: 3s; opacity: .6; }
+  .s-patchwork.k-twargaops[data-state="sleep"] .lamp-glow { opacity: .1; }
+
+  /* ═══ 2. Yeast · Yeast Cell ═══ */
+  .s-patchwork .membrane { fill: none; stroke: #8fe0ad; stroke-width: .8px; stroke-dasharray: 1.6 2.2; opacity: .45; }
+  .s-patchwork .bub { fill: none; stroke: #7fe0a6; stroke-width: 1.1px; }
+  .s-patchwork .wrinkle, .s-patchwork .pop { fill: none; stroke: var(--line); stroke-width: 1px; stroke-linecap: round; opacity: .7; }
+  .s-patchwork .cap-pom { fill: var(--line); }
+  .s-patchwork .y-body { transform-origin: 70px 117px; }
+  .s-patchwork .y-bud { transform-box: fill-box; transform-origin: 0% 50%; }
+  .s-patchwork .yb, .s-patchwork .fz, .s-patchwork .bub { transform-box: fill-box; transform-origin: center; }
+
+  .s-patchwork.k-yeast[data-state="idle"] .y-body { animation: patchwork-jiggle 1.3s ease-in-out infinite; }
+  .s-patchwork.k-yeast[data-state="idle"] .bub, .s-patchwork.k-yeast[data-state="working"] .bub { animation: patchwork-bubble 2.4s ease-in infinite; }
+  .s-patchwork .bub.b2 { animation-delay: .8s !important; } .s-patchwork .bub.b3 { animation-delay: 1.6s !important; }
+  @keyframes patchwork-jiggle { 0%, 100% { transform: none; } 25% { transform: scale(1.035, .97); } 50% { transform: scale(.98, 1.025); } 75% { transform: scale(1.015, .99); } }
+  @keyframes patchwork-bubble { 0% { opacity: 0; transform: translateY(4px) scale(.6); } 30% { opacity: 1; } 100% { opacity: 0; transform: translateY(-9px) scale(1.1); } }
+
+  .s-patchwork.k-yeast[data-state="working"] .y-bud { animation: patchwork-bud .8s var(--ease-io) infinite; }
+  .s-patchwork.k-yeast[data-state="working"] .y-body { animation: patchwork-bud-push .8s ease-in-out infinite; }
+  .s-patchwork.k-yeast[data-state="working"] .yb1 { animation: patchwork-yb1 4s var(--ease-out) infinite; }
+  .s-patchwork.k-yeast[data-state="working"] .yb2 { animation: patchwork-yb2 4s var(--ease-out) infinite; }
+  .s-patchwork.k-yeast[data-state="working"] .yb3 { animation: patchwork-yb3 4s var(--ease-out) infinite; }
+  .s-patchwork.k-yeast[data-state="working"] .yb4 { animation: patchwork-yb4 4s var(--ease-out) infinite; }
+  @keyframes patchwork-bud { 0% { transform: scale(.3); opacity: 0; } 70% { transform: scale(1); opacity: 1; } 80%, 100% { transform: scale(.2); opacity: 0; } }
+  @keyframes patchwork-bud-push { 0%, 66%, 100% { transform: none; } 76% { transform: scale(1.03, .97) translateX(-1px); } }
+  @keyframes patchwork-yb1 { 0%, 16% { opacity: 0; transform: translate(-15px, -18px) scale(.5); } 17% { opacity: 1; } 22% { transform: translate(-8px, -28px) scale(.85); } 28% { transform: none; } 31% { transform: translateY(-3px); } 34%, 92% { opacity: 1; transform: none; } 98%, 100% { opacity: 0; } }
+  @keyframes patchwork-yb2 { 0%, 36% { opacity: 0; transform: translate(-30px, -18px) scale(.5); } 37% { opacity: 1; } 43% { transform: translate(-15px, -32px) scale(.85); } 49% { transform: none; } 52% { transform: translateY(-3px); } 55%, 92% { opacity: 1; transform: none; } 98%, 100% { opacity: 0; } }
+  @keyframes patchwork-yb3 { 0%, 56% { opacity: 0; transform: translate(70px, -18px) scale(.5); } 57% { opacity: 1; } 63% { transform: translate(35px, -46px) scale(.85) rotate(-180deg); } 70% { transform: rotate(-360deg); } 73% { transform: translateY(-3px); } 76%, 92% { opacity: 1; transform: none; } 98%, 100% { opacity: 0; } }
+  @keyframes patchwork-yb4 { 0%, 76% { opacity: 0; transform: translate(-23px, -8px) scale(.5); } 77% { opacity: 1; } 82% { transform: translate(-11px, -22px) scale(.85); } 87% { transform: none; } 89% { transform: translateY(-2px); } 91%, 94% { opacity: 1; transform: none; } 99%, 100% { opacity: 0; } }
+
+  .s-patchwork.k-yeast[data-state="quirk"] .y-body { animation: patchwork-hiccup 2.8s ease-out 1 both; }
+  .s-patchwork.k-yeast[data-state="quirk"] .fz { animation: patchwork-fizz 1s var(--ease-out) 1 both; }
+  .s-patchwork .fz.f1 { animation-delay: .2s !important; } .s-patchwork .fz.f2 { animation-delay: .9s !important; } .s-patchwork .fz.f3 { animation-delay: 1.5s !important; }
+  .s-patchwork .fz.f4 { animation-delay: 1.7s !important; } .s-patchwork .fz.f5 { animation-delay: 1.9s !important; }
+  .s-patchwork.k-yeast[data-state="quirk"] .pw-blush { animation: patchwork-blush 2.8s ease-in-out 1 both; }
+  @keyframes patchwork-hiccup { 0%, 6%, 15%, 31%, 40%, 55%, 64%, 100% { transform: none; } 9% { transform: translateY(-4px) scale(1.03, .97); } 34% { transform: translateY(-4px) scale(1.03, .97); } 58% { transform: translateY(-6px) scale(1.04, .96); } }
+  @keyframes patchwork-fizz { 0% { opacity: 0; transform: translateY(10px) scale(.4); } 25% { opacity: 1; transform: none; } 80% { opacity: 1; transform: translateY(-8px); } 100% { opacity: 0; transform: translateY(-12px); } }
+  @keyframes patchwork-blush { 0%, 55% { opacity: .45; transform: none; } 70%, 100% { opacity: .95; } }
+
+  .s-patchwork.k-yeast[data-state="success"] .y-body { animation: patchwork-puff 1s var(--ease-out) infinite; }
+  .s-patchwork.k-yeast[data-state="success"] .burst { animation: patchwork-pop-out 1s var(--ease-out) infinite; }
+  .s-patchwork .burst.p2 { animation-delay: .15s !important; } .s-patchwork .burst.p3 { animation-delay: .3s !important; } .s-patchwork .burst.p4 { animation-delay: .45s !important; }
+  @keyframes patchwork-puff { 0%, 100% { transform: none; } 35% { transform: scale(1.07) translateY(-2px); } 60% { transform: scale(.98, 1.02); } }
+  @keyframes patchwork-pop-out { 0% { opacity: 0; transform: scale(.4); } 30% { opacity: 1; } 100% { opacity: 0; transform: translateY(-10px) scale(1.3); } }
+
+  .s-patchwork.k-yeast[data-state="error"] .y-body { transform: scale(1.06, .9); animation: patchwork-strain .2s linear infinite; }
+  .s-patchwork.k-yeast[data-state="error"] .y-bud { transform: translate(4px, 4px) scale(.85); animation: patchwork-stuck .5s ease-in-out infinite; }
+  .s-patchwork.k-yeast[data-state="error"] .e-open { opacity: 0; }
+  .s-patchwork.k-yeast[data-state="error"] .e-strain { opacity: 1; }
+  .s-patchwork.k-yeast[data-state="error"] .sad { animation: patchwork-sad 2s ease-out infinite; }
+  .s-patchwork.k-yeast[data-state="error"] .pop { animation: patchwork-popped 2s steps(1) infinite; }
+  @keyframes patchwork-strain { 0%, 100% { transform: scale(1.06, .9); } 50% { transform: scale(1.06, .9) translateX(.6px); } }
+  @keyframes patchwork-stuck { 0%, 100% { transform: translate(4px, 4px) scale(.85); } 50% { transform: translate(5.5px, 4px) scale(.9); } }
+  @keyframes patchwork-sad { 0% { opacity: 0; transform: translateY(6px); } 20%, 55% { opacity: 1; transform: none; } 60%, 100% { opacity: 0; } }
+  @keyframes patchwork-popped { 0%, 58% { opacity: 0; } 60%, 78% { opacity: 1; } 80%, 100% { opacity: 0; } }
+
+  .s-patchwork.k-yeast[data-state="sleep"] .y-body { animation: patchwork-breathe 4.5s ease-in-out infinite; }
+  .s-patchwork.k-yeast[data-state="sleep"] .slowbub { animation: patchwork-bubble 4s ease-in infinite; }
+
+  /* ═══ 3. LabsBackery · Test Kitchen Chefs ═══ */
+  .s-patchwork .pin-handle, .s-patchwork .oven-handle, .s-patchwork .board-string, .s-patchwork .sack-tie { fill: none; stroke: var(--line); stroke-width: 1px; stroke-linecap: round; }
+  .s-patchwork .oven-win { fill: #1a1210; }
+  .s-patchwork .oven-glow { fill: var(--alarm); opacity: 0; }
+  .s-patchwork .oven-dial { fill: var(--line); }
+  .s-patchwork .board-frame { fill: #6e4a2c; stroke: var(--line); stroke-width: .9px; }
+  .s-patchwork .board-face { fill: #1d2620; }
+  .s-patchwork .tally { fill: none; stroke: var(--line); stroke-width: 1.2px; stroke-linecap: round; }
+  .s-patchwork .tray-base { fill: #bcb4a6; stroke: var(--line); stroke-width: .6px; }
+  .s-patchwork .cake { fill: #1d2b38; stroke: var(--line); stroke-width: .5px; }
+  .s-patchwork .cake.fresh { fill: #00d26a; }
+  .s-patchwork .puff { fill: none; stroke: var(--muted); stroke-width: 1.4px; stroke-linecap: round; stroke-dasharray: 3 2; }
+  .s-patchwork .ding-ray { fill: none; stroke: var(--amber); stroke-width: 1.3px; stroke-linecap: round; }
+  .s-patchwork .smoke-cloud { fill: #6b6660; stroke: var(--line); stroke-width: .9px; stroke-dasharray: 2.4 1.8; }
+  .s-patchwork .poof-cloud { fill: #f3ece0; stroke: var(--line); stroke-width: .9px; stroke-dasharray: 2.4 1.8; opacity: .96; }
+  .s-patchwork .flour { fill: #f6f1e8; }
+  .s-patchwork .heart path { fill: var(--alarm); }
+  .s-patchwork .chef-in { transform-box: fill-box; transform-origin: 50% 100%; }
+  .s-patchwork .hat { transform-box: fill-box; transform-origin: 50% 100%; }
+  .s-patchwork .pin { transform-box: fill-box; transform-origin: center; }
+
+  .s-patchwork.k-labs[data-state="idle"] .chef-in { animation: patchwork-bob 1.6s ease-in-out infinite; }
+  .s-patchwork.k-labs[data-state="idle"] .chef-crumb .chef-in { animation-delay: -.5s; }
+  .s-patchwork.k-labs[data-state="idle"] .chef-pip .chef-in { animation-delay: -1s; }
+  .s-patchwork.k-labs[data-state="idle"] .hat { animation: patchwork-hat 2.2s ease-in-out infinite; }
+  .s-patchwork.k-labs[data-state="idle"] .pin { animation: patchwork-pin 1.8s ease-in-out infinite; }
+  @keyframes patchwork-bob { 50% { transform: translateY(-1.5px); } }
+  @keyframes patchwork-hat { 0%, 100% { transform: rotate(-4deg); } 50% { transform: rotate(4deg); } }
+  @keyframes patchwork-pin { 0%, 100% { transform: rotate(-8deg) translateX(-1px); } 50% { transform: rotate(8deg) translateX(1px); } }
+
+  .s-patchwork.k-labs[data-state="working"] .tray-in { animation: patchwork-tray-in 3.4s var(--ease-io) infinite; }
+  .s-patchwork.k-labs[data-state="working"] .tray-out { animation: patchwork-tray-out 3.4s var(--ease-io) infinite; }
+  .s-patchwork.k-labs[data-state="working"] .oven-glow { animation: patchwork-oven-attack 3.4s steps(1) infinite; }
+  .s-patchwork.k-labs[data-state="working"] .puff { animation: patchwork-steam 3.4s ease-out infinite; }
+  .s-patchwork.k-labs[data-state="working"] .puff.s2 { animation-delay: .15s; }
+  .s-patchwork.k-labs[data-state="working"] .ding { animation: patchwork-ding 3.4s steps(1) infinite; }
+  .s-patchwork.k-labs[data-state="working"] .chef-in { animation: patchwork-startle 3.4s ease-out infinite; }
+  @keyframes patchwork-tray-in { 0%, 8% { opacity: 1; transform: none; } 24% { opacity: 1; transform: translate(26px, 0); } 26%, 100% { opacity: 0; transform: translate(26px, 0); } }
+  @keyframes patchwork-tray-out { 0%, 62% { opacity: 0; transform: translate(26px, 0); } 64% { opacity: 1; transform: translate(26px, 0); } 80%, 96% { opacity: 1; transform: none; } 100% { opacity: 0; } }
+  @keyframes patchwork-oven-attack { 0%, 25% { opacity: 0; } 26%, 30% { opacity: .9; } 32% { opacity: .2; } 34%, 56% { opacity: .9; } 58%, 100% { opacity: 0; } }
+  @keyframes patchwork-steam { 0%, 30% { opacity: 0; transform: none; } 36% { opacity: .9; } 60% { opacity: 0; transform: translateY(-7px); } 100% { opacity: 0; } }
+  @keyframes patchwork-ding { 0%, 60% { opacity: 0; } 62%, 68% { opacity: 1; } 70%, 72% { opacity: 0; } 74%, 78% { opacity: 1; } 80%, 100% { opacity: 0; } }
+  @keyframes patchwork-startle { 0%, 28%, 40%, 82%, 92%, 100% { transform: none; } 32% { transform: translateY(-3px); } 86% { transform: translateY(-3px); } }
+
+  .s-patchwork.k-labs[data-state="quirk"] .poof { animation: patchwork-poof 3.4s ease-out 1 both; }
+  .s-patchwork.k-labs[data-state="quirk"] .flour { animation: patchwork-flour 3.4s steps(1) 1 both; }
+  .s-patchwork.k-labs[data-state="quirk"] .t4, .s-patchwork.k-labs[data-state="quirk"] .t5 { animation: patchwork-tally 3.4s steps(1) 1 both; }
+  .s-patchwork.k-labs[data-state="quirk"] .chef-in { animation: patchwork-tada 3.4s var(--ease-out) 1 both; }
+  .s-patchwork.k-labs[data-state="quirk"] .m-o { opacity: 0; }
+  .s-patchwork.k-labs[data-state="quirk"] .m-big { opacity: 1; }
+  @keyframes patchwork-poof { 0%, 6% { opacity: 0; transform: scale(.7); } 12%, 28% { opacity: 1; transform: none; } 36%, 100% { opacity: 0; transform: scale(1.1); } }
+  @keyframes patchwork-flour { 0%, 27% { opacity: 0; } 28%, 100% { opacity: 1; } }
+  @keyframes patchwork-tally { 0%, 59% { opacity: 0; } 60%, 100% { opacity: 1; } }
+  @keyframes patchwork-tada { 0%, 62%, 76%, 100% { transform: none; } 68% { transform: translateY(-5px); } }
+
+  .s-patchwork.k-labs[data-state="success"] .chef-in { animation: patchwork-hop .8s var(--ease-out) 2; }
+  .s-patchwork.k-labs[data-state="success"] .chef-crumb .chef-in { animation-delay: .1s; }
+  .s-patchwork.k-labs[data-state="success"] .chef-pip .chef-in { animation-delay: .2s; }
+  .s-patchwork.k-labs[data-state="success"] .tray-up { animation: patchwork-bob .8s ease-in-out infinite; }
+  .s-patchwork.k-labs[data-state="success"] .heart { animation: patchwork-heart .8s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+  @keyframes patchwork-heart { 50% { transform: scale(1.25); } }
+
+  .s-patchwork.k-labs[data-state="error"] .oven-glow { opacity: .85; }
+  .s-patchwork.k-labs[data-state="error"] .bigsmoke { animation: patchwork-bigsmoke 1.6s ease-out infinite; transform-box: fill-box; transform-origin: 50% 100%; }
+  .s-patchwork.k-labs[data-state="error"] .hat { animation: patchwork-hat-fly 1.8s var(--ease-out) infinite; }
+  .s-patchwork.k-labs[data-state="error"] .chef-crumb .hat { animation-delay: .15s; }
+  .s-patchwork.k-labs[data-state="error"] .chef-pip .hat { animation-delay: .3s; }
+  .s-patchwork.k-labs[data-state="error"] .chef-in { animation: patchwork-shiver .14s linear infinite; }
+  .s-patchwork.k-labs[data-state="error"] .e-open { opacity: 0; }
+  .s-patchwork.k-labs[data-state="error"] .e-x { opacity: 1; }
+  @keyframes patchwork-bigsmoke { 0% { opacity: .5; transform: scale(.8); } 50% { opacity: 1; transform: scale(1.05) translateY(-3px); } 100% { opacity: 0; transform: scale(1.15) translateY(-8px); } }
+  @keyframes patchwork-hat-fly { 0%, 100% { transform: none; } 30% { transform: translateY(-12px) rotate(-20deg); } 55% { transform: translateY(-14px) rotate(15deg); } 80% { transform: translateY(-4px) rotate(-6deg); } }
+
+  .s-patchwork.k-labs[data-state="sleep"] .hat { transform: translateY(4px) rotate(10deg); }
+  .s-patchwork.k-labs[data-state="sleep"] .chef-crumb .hat { transform: translateY(4px) rotate(-8deg); }
+  .s-patchwork.k-labs[data-state="sleep"] .chef-in { animation: patchwork-breathe 3.6s ease-in-out infinite; }
+
+  /* ═══ 4. bestvpsforme · Hermit Crab ═══ */
+  .s-patchwork .spiral, .s-patchwork .spiral-s { fill: none; stroke: var(--line); stroke-width: 1px; stroke-dasharray: 2.4 1.8; stroke-linecap: round; opacity: .8; }
+  .s-patchwork .led-g { fill: #00d26a; } .s-patchwork .led-a { fill: var(--amber); }
+  .s-patchwork .stalk-line, .s-patchwork .arm, .s-patchwork .legs path { fill: none; stroke: #e89d88; stroke-width: 2.6px; stroke-linecap: round; }
+  .s-patchwork .jaw { fill: none; stroke: #e89d88; stroke-width: 2.4px; stroke-linecap: round; transform-origin: 45.6px 97.6px; }
+  .s-patchwork .mark-x { fill: none; stroke: var(--alarm); stroke-width: 1.8px; stroke-linecap: round; }
+  .s-patchwork .mark-ok { fill: none; stroke: #00d26a; stroke-width: 2px; stroke-linecap: round; stroke-linejoin: round; }
+  .s-patchwork .tag-card { fill: var(--line); stroke: #15120f; stroke-width: .5px; }
+  .s-patchwork .tag-string { fill: none; stroke: var(--line); stroke-width: .8px; }
+  .s-patchwork .tag-txt { fill: #15120f; font: 800 7px ui-monospace, monospace; }
+  .s-patchwork .q { fill: var(--alarm); font: 800 10px ui-monospace, monospace; }
+  .s-patchwork .e-shut-s { fill: none; stroke: var(--line); stroke-width: 1.2px; stroke-linecap: round; }
+  .s-patchwork .stalk-l { transform-origin: 59.5px 97px; } .s-patchwork .stalk-r { transform-origin: 67.5px 97px; }
+  .s-patchwork .claw-l { transform-origin: 53px 105px; }
+  .s-patchwork .shell { transform-origin: 84px 115px; }
+  .s-patchwork .crab { transform-origin: 64px 112px; }
+
+  .s-patchwork.k-bvp[data-state="idle"] .stalk-l { animation: patchwork-stalk 3s ease-in-out infinite; }
+  .s-patchwork.k-bvp[data-state="idle"] .stalk-r { animation: patchwork-stalk 3s ease-in-out -1.4s infinite; }
+  .s-patchwork.k-bvp[data-state="idle"] .jaw { animation: patchwork-click 3s ease-in-out infinite; }
+  .s-patchwork.k-bvp[data-state="idle"] .shell { animation: patchwork-breathe 3.4s ease-in-out infinite; }
+  @keyframes patchwork-stalk { 0%, 100% { transform: rotate(-6deg); } 50% { transform: rotate(7deg); } }
+  @keyframes patchwork-click { 0%, 60%, 70%, 80%, 100% { transform: none; } 65%, 75% { transform: rotate(18deg); } }
+
+  .s-patchwork.k-bvp[data-state="working"] .stalk-l, .s-patchwork.k-bvp[data-state="working"] .stalk-r { transform: rotate(16deg); }
+  .s-patchwork.k-bvp[data-state="working"] .claw-l { animation: patchwork-point 3s ease-in-out infinite; }
+  .s-patchwork.k-bvp[data-state="working"] .crab { animation: patchwork-scuttle 3s ease-in-out infinite; }
+  .s-patchwork.k-bvp[data-state="working"] .mark-x { animation: patchwork-mark-x 3s steps(1) infinite; }
+  .s-patchwork.k-bvp[data-state="working"] .cand .mark-ok { animation: patchwork-mark-ok 3s var(--ease-out) infinite; transform-box: fill-box; transform-origin: center; }
+  @keyframes patchwork-point { 0%, 100% { transform: none; } 20%, 45% { transform: rotate(-25deg); } 60%, 85% { transform: rotate(-35deg); } }
+  @keyframes patchwork-scuttle { 0%, 100% { transform: none; } 50% { transform: translateX(3px); } }
+  @keyframes patchwork-mark-x { 0%, 24% { opacity: 0; } 25%, 96% { opacity: 1; } 97%, 100% { opacity: 0; } }
+  @keyframes patchwork-mark-ok { 0%, 54% { opacity: 0; transform: scale(.4); } 62% { opacity: 1; transform: scale(1.2); } 68%, 96% { opacity: 1; transform: none; } 100% { opacity: 0; } }
+
+  .s-patchwork.k-bvp[data-state="quirk"] .crab { animation: patchwork-hide 3s var(--ease-io) 1 both; }
+  .s-patchwork.k-bvp[data-state="quirk"] .peek { animation: patchwork-peek 3s var(--ease-out) 1 both; }
+  .s-patchwork.k-bvp[data-state="quirk"] .tag { animation: patchwork-tag 3s steps(1) 1 both; }
+  .s-patchwork.k-bvp[data-state="quirk"] .crab .e-open { animation: patchwork-squint-off 3s steps(1) 1 both; }
+  .s-patchwork.k-bvp[data-state="quirk"] .crab .e-strain { animation: patchwork-squint-on 3s steps(1) 1 both; }
+  @keyframes patchwork-hide { 0%, 8% { opacity: 1; transform: none; } 22%, 58% { opacity: 0; transform: translate(14px, -2px) scale(.45); } 70%, 100% { opacity: 1; transform: none; } }
+  @keyframes patchwork-peek { 0%, 36% { opacity: 0; transform: translate(3px, 6px); } 42%, 56% { opacity: 1; transform: none; } 62%, 100% { opacity: 0; transform: translate(3px, 6px); } }
+  @keyframes patchwork-tag { 0%, 69% { opacity: 0; } 70%, 100% { opacity: 1; } }
+  @keyframes patchwork-squint-off { 0%, 72% { opacity: 1; } 73%, 100% { opacity: 0; } }
+  @keyframes patchwork-squint-on { 0%, 72% { opacity: 0; } 73%, 100% { opacity: 1; } }
+
+  .s-patchwork.k-bvp[data-state="success"] .crab { animation: patchwork-dance .5s ease-in-out infinite; }
+  .s-patchwork.k-bvp[data-state="success"] .claw-l { transform: rotate(45deg); }
+  .s-patchwork.k-bvp[data-state="success"] .ok-big { animation: patchwork-heart .6s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+  @keyframes patchwork-dance { 0%, 100% { transform: translateX(-3px); } 50% { transform: translateX(3px) translateY(-1px); } }
+
+  .s-patchwork.k-bvp[data-state="error"] .shell { transform: scale(.86, 1.07); animation: patchwork-squeeze .3s ease-in-out infinite; }
+  .s-patchwork.k-bvp[data-state="error"] .crab { transform: scale(.94, 1.04); }
+  .s-patchwork.k-bvp[data-state="error"] .e-open { opacity: 0; }
+  .s-patchwork.k-bvp[data-state="error"] .e-spiral { opacity: 1; animation: patchwork-spin 1s linear infinite; }
+  .s-patchwork.k-bvp[data-state="error"] .q1 { animation: patchwork-tink 1.2s steps(1) infinite; }
+  .s-patchwork.k-bvp[data-state="error"] .q2 { animation: patchwork-tink 1.2s steps(1) .3s infinite; }
+  @keyframes patchwork-squeeze { 50% { transform: scale(.84, 1.09); } }
+  @keyframes patchwork-spin { to { transform: rotate(360deg); } }
+
+  .s-patchwork.k-bvp[data-state="sleep"] .shell { animation: patchwork-breathe 4.5s ease-in-out infinite; }
+
+  /* ═══ 5. Twarga Cloud · Quilted Lamb ═══ */
+  .s-patchwork .spool-thread { fill: var(--blue); }
+  .s-patchwork .spool-lines { fill: none; stroke: #0b3d66; stroke-width: .6px; }
+  .s-patchwork .thread { fill: none; stroke: var(--blue); stroke-width: 1.4px; stroke-linecap: round; }
+  .s-patchwork .pulse { fill: #9fdcff; }
+  .s-patchwork .tangle { fill: none; stroke: var(--alarm); stroke-width: 1.4px; stroke-linecap: round; }
+  .s-patchwork .curl { fill: none; stroke: var(--line); stroke-width: 1.1px; stroke-linecap: round; }
+  .s-patchwork .brow { fill: none; stroke: var(--line); stroke-width: 1.2px; stroke-linecap: round; }
+  .s-patchwork .sweat { fill: #9fdcff; }
+  .s-patchwork .bolt { fill: none; stroke: var(--amber); stroke-width: 1.8px; stroke-linecap: round; stroke-linejoin: round; }
+  .s-patchwork .raincloud { fill: #57606b; stroke: var(--line); stroke-width: .8px; stroke-dasharray: 2.2 1.6; }
+  .s-patchwork .drop { fill: none; stroke: var(--blue); stroke-width: 1.3px; stroke-linecap: round; }
+  .s-patchwork .rb { fill: none; stroke-width: 3.2px; stroke-dasharray: 3 1.4; }
+  .s-patchwork .rb1 { stroke: var(--amber); } .s-patchwork .rb2 { stroke: var(--green); } .s-patchwork .rb3 { stroke: var(--violet); } .s-patchwork .rb4 { stroke: var(--blue); }
+  .s-patchwork .sh-body { fill: var(--line); } .s-patchwork .sh-head { fill: #2a2433; }
+  .s-patchwork .float { transform-origin: 80px 70px; }
+
+  .s-patchwork.k-cloud[data-state="idle"] .float { animation: patchwork-float 3.2s ease-in-out infinite; }
+  @keyframes patchwork-float { 50% { transform: translateY(-2.5px); } }
+
+  .s-patchwork.k-cloud[data-state="working"] .float { transform: translateY(-14px); animation: patchwork-rise 2.4s var(--ease-io) infinite; }
+  .s-patchwork.k-cloud[data-state="working"] .pulse { animation: patchwork-pulse .9s linear infinite; }
+  .s-patchwork.k-cloud[data-state="working"] .pulse.p2 { animation-delay: .45s; }
+  @keyframes patchwork-rise { 0%, 100% { transform: none; } 30%, 80% { transform: translateY(-14px); } }
+  @keyframes patchwork-pulse { 0% { transform: none; opacity: 0; } 15% { opacity: 1; } 100% { transform: translateY(-36px); opacity: 0; } }
+
+  .s-patchwork.k-cloud[data-state="quirk"] .rain { animation: patchwork-rain 3s steps(1) 1 both; }
+  .s-patchwork.k-cloud[data-state="quirk"] .drop { animation: patchwork-drop .5s linear infinite; }
+  .s-patchwork.k-cloud[data-state="quirk"] .drop.d2 { animation-delay: .17s; } .s-patchwork.k-cloud[data-state="quirk"] .drop.d3 { animation-delay: .34s; }
+  .s-patchwork.k-cloud[data-state="quirk"] .float { animation: patchwork-wet-shake 3s ease-in-out 1 both; }
+  .s-patchwork.k-cloud[data-state="quirk"] .chefhat { animation: patchwork-hat-pop 3s var(--ease-out) 1 both; transform-box: fill-box; transform-origin: 50% 100%; }
+  @keyframes patchwork-rain { 0%, 44% { opacity: 1; } 46%, 100% { opacity: 0; } }
+  @keyframes patchwork-drop { 0% { transform: none; opacity: 1; } 100% { transform: translateY(8px); opacity: 0; } }
+  @keyframes patchwork-wet-shake { 0%, 44%, 64%, 100% { transform: none; } 48% { transform: rotate(-6deg); } 52% { transform: rotate(6deg); } 56% { transform: rotate(-5deg); } 60% { transform: rotate(4deg); } }
+  @keyframes patchwork-hat-pop { 0%, 64% { opacity: 0; transform: scale(.3); } 72% { opacity: 1; transform: scale(1.15); } 78%, 100% { opacity: 1; transform: none; } }
+
+  .s-patchwork.k-cloud[data-state="success"] .float { animation: patchwork-loop 1.6s ease-in-out infinite; }
+  .s-patchwork.k-cloud[data-state="success"] .rainbow { animation: patchwork-rainbow 1.6s ease-out 1 both; }
+  @keyframes patchwork-loop { 0%, 100% { transform: none; } 25% { transform: translate(8px, -6px) rotate(8deg); } 50% { transform: translate(0, -12px); } 75% { transform: translate(-8px, -6px) rotate(-8deg); } }
+  @keyframes patchwork-rainbow { 0% { opacity: 0; } 30%, 100% { opacity: 1; } }
+
+  .s-patchwork.k-cloud[data-state="error"] .f-cloud { fill: #4d535c; }
+  .s-patchwork.k-cloud[data-state="error"] .float { animation: patchwork-shiver .16s linear infinite; }
+  .s-patchwork.k-cloud[data-state="error"] .bolt { animation: patchwork-tink 1s steps(1) infinite; }
+
+  .s-patchwork.k-cloud[data-state="sleep"] .float { transform: translateY(36px); }
+  .s-patchwork.k-cloud[data-state="sleep"] .sh1 { animation: patchwork-sheep 2.8s var(--ease-io) infinite; }
+  .s-patchwork.k-cloud[data-state="sleep"] .sh2 { animation: patchwork-sheep 2.8s var(--ease-io) 1.4s infinite both; }
+  @keyframes patchwork-sheep { 0% { opacity: 0; transform: none; } 15% { opacity: 1; } 50% { transform: translate(24px, -10px); } 85% { opacity: 1; } 100% { opacity: 0; transform: translate(48px, 0); } }
+
+  /* ═══ 6. dododada · Teaching Dodo ═══ */
+  .s-patchwork .f-dodo { fill: #c98b9b; } .s-patchwork .f-dodo-dark { fill: #a96e80; } .s-patchwork .f-belly-d { fill: #f0d9cc; }
+  .s-patchwork .f-beak { fill: #f2c14e; } .s-patchwork .f-tuft { fill: #e9aabd; }
+  .s-patchwork .f-rose { fill: #ff6fae; } .s-patchwork .f-rose-dark { fill: #c8457f; }
+  .s-patchwork .f-egg { fill: #f3ece0; } .s-patchwork .f-chick-a { fill: #f2c14e; } .s-patchwork .f-chick-b { fill: #7fd3b0; }
+  .s-patchwork .f-page { fill: #f3ece0; } .s-patchwork .f-cover { fill: #8a3a52; } .s-patchwork .f-grad { fill: #2b2630; }
+  .s-patchwork .f-beak + .pw-seam, .s-patchwork .f-egg + .pw-seam, .s-patchwork .f-page + .pw-seam, .s-patchwork .f-chick-a + .pw-seam, .s-patchwork .f-chick-b + .pw-seam { stroke: #7a5a3a; }
+  .s-patchwork .beak-tip { fill: #c9842a; }
+  .s-patchwork .nostril { fill: #8a5a18; opacity: .8; }
+  .s-patchwork.k-dodo .pw-mouth > * { stroke: #3a2616; }
+  .s-patchwork.k-dodo .m-o, .s-patchwork.k-dodo .m-big { fill: #2a1710; }
+  .s-patchwork .d-lens { fill: rgba(239, 227, 200, .07); stroke: var(--line); stroke-width: .9px; }
+  .s-patchwork .d-temple { fill: none; stroke: var(--line); stroke-width: .9px; stroke-linecap: round; }
+  .s-patchwork .egg-spot { fill: #e58aa8; }
+  .s-patchwork .egg-crack { fill: none; stroke: #7a5a46; stroke-width: .9px; stroke-linecap: round; stroke-linejoin: round; opacity: 0; }
+  .s-patchwork .egg-shell { fill: #f3ece0; stroke: #9a8a76; stroke-width: .8px; stroke-dasharray: 2 1.4; stroke-linejoin: round; opacity: 0; }
+  .s-patchwork .chick-beak { fill: #e9863b; }
+  .s-patchwork .chick-tuft { fill: none; stroke: #7a5a3a; stroke-width: 1px; stroke-linecap: round; }
+  .s-patchwork .easel-leg { fill: none; stroke: #c39a63; stroke-width: 2px; stroke-linecap: round; }
+  .s-patchwork .board-tray { fill: #c39a63; stroke: var(--line); stroke-width: .7px; }
+  .s-patchwork .chalk { fill: none; stroke: var(--line); stroke-width: 1.2px; stroke-linecap: round; stroke-linejoin: round; stroke-dasharray: 1; opacity: .6; }
+  .s-patchwork .chalk-ok { fill: none; stroke: #00d26a; stroke-width: 1.9px; stroke-linecap: round; stroke-linejoin: round; stroke-dasharray: 1; opacity: 0; }
+  .s-patchwork .chalk-scribble { fill: none; stroke: var(--alarm); stroke-width: 1.3px; stroke-linecap: round; stroke-linejoin: round; }
+  .s-patchwork .chalk-stick { fill: none; stroke: #f6f1e8; stroke-width: 2.4px; stroke-linecap: round; }
+  .s-patchwork .book-lines { fill: none; stroke: #9a8a76; stroke-width: .7px; stroke-linecap: round; }
+  .s-patchwork .bulb-glow { fill: var(--amber); opacity: .2; }
+  .s-patchwork .bulb-glass { fill: rgba(242, 193, 78, .45); stroke: var(--line); stroke-width: .9px; stroke-linejoin: round; }
+  .s-patchwork .bulb-base { fill: none; stroke: var(--line); stroke-width: 1.2px; stroke-linecap: round; }
+  .s-patchwork .bulb-ray { fill: none; stroke: var(--amber); stroke-width: 1.3px; stroke-linecap: round; }
+  .s-patchwork .mortar-tassel { fill: none; stroke: #ff6fae; stroke-width: 1.1px; stroke-linecap: round; }
+  .s-patchwork .mortar-dot { fill: #ff6fae; }
+  .s-patchwork .d-all { transform-origin: 68px 118px; }
+  .s-patchwork .d-head { transform-origin: 68px 78px; }
+  .s-patchwork .d-glasses { transform-origin: 68px 61.5px; }
+  .s-patchwork .d-tuft { transform-origin: 68px 51px; }
+  .s-patchwork .d-wing-l { transform-origin: 46px 91px; } .s-patchwork .d-wing-r { transform-origin: 90px 91px; }
+  .s-patchwork .d-tail { transform-origin: 91px 98px; }
+  .s-patchwork .egg, .s-patchwork .chick { transform-box: fill-box; transform-origin: 50% 100%; }
+  .s-patchwork .bulb, .s-patchwork .mortar-in, .s-patchwork .dust-in, .s-patchwork .feather { transform-box: fill-box; transform-origin: center; }
+
+  .s-patchwork.k-dodo[data-state="idle"] .d-all { animation: patchwork-breathe 3.8s ease-in-out infinite; }
+  .s-patchwork.k-dodo[data-state="idle"] .d-head { animation: patchwork-dd-tilt 7s ease-in-out infinite; }
+  .s-patchwork.k-dodo[data-state="idle"] .d-tuft { animation: patchwork-dd-tuft 2.6s ease-in-out infinite; }
+  .s-patchwork.k-dodo[data-state="idle"] .d-wing-r { animation: patchwork-dd-sway 3.8s ease-in-out infinite; }
+  .s-patchwork.k-dodo[data-state="idle"] .d-wing-l { animation: patchwork-dd-sway 3.8s ease-in-out -1.9s infinite reverse; }
+  .s-patchwork.k-dodo[data-state="idle"] .d-tail { animation: patchwork-dd-wag 3s ease-in-out infinite; }
+  .s-patchwork.k-dodo[data-state="idle"] .egg-a { animation: patchwork-dd-rock 4.6s ease-in-out infinite; }
+  .s-patchwork.k-dodo[data-state="idle"] .egg-b { animation: patchwork-dd-rock 4.6s ease-in-out -2.3s infinite; }
+  @keyframes patchwork-dd-tilt { 0%, 100% { transform: none; } 30% { transform: rotate(-5deg); } 62% { transform: rotate(4deg); } }
+  @keyframes patchwork-dd-tuft { 0%, 100% { transform: rotate(-4deg); } 50% { transform: rotate(6deg); } }
+  @keyframes patchwork-dd-sway { 0%, 100% { transform: rotate(-2deg); } 50% { transform: rotate(3deg); } }
+  @keyframes patchwork-dd-wag { 0%, 100% { transform: none; } 50% { transform: rotate(5deg); } }
+  @keyframes patchwork-dd-rock { 0%, 70%, 100% { transform: none; } 76% { transform: rotate(-5deg); } 82% { transform: rotate(5deg); } 88% { transform: rotate(-3deg); } 94% { transform: rotate(2deg); } }
+
+  .s-patchwork.k-dodo[data-state="working"] .d-wing-r { animation: patchwork-dd-point 4.4s var(--ease-io) infinite; }
+  .s-patchwork.k-dodo[data-state="working"] .d-head { animation: patchwork-dd-lean 4.4s var(--ease-io) infinite; }
+  .s-patchwork.k-dodo[data-state="working"] .d-tuft { animation: patchwork-dd-tuft .9s ease-in-out infinite; }
+  .s-patchwork.k-dodo[data-state="working"] .d-all { animation: patchwork-dd-bob 1.1s ease-in-out infinite; }
+  .s-patchwork.k-dodo[data-state="working"] .c1 { animation: patchwork-dd-draw1 4.4s linear infinite; }
+  .s-patchwork.k-dodo[data-state="working"] .c2 { animation: patchwork-dd-draw2 4.4s linear infinite; }
+  .s-patchwork.k-dodo[data-state="working"] .c3 { animation: patchwork-dd-draw3 4.4s linear infinite; }
+  .s-patchwork.k-dodo[data-state="working"] .c4 { animation: patchwork-dd-draw4 4.4s linear infinite; }
+  .s-patchwork.k-dodo[data-state="working"] .c5 { animation: patchwork-dd-draw5 4.4s linear infinite; }
+  .s-patchwork.k-dodo[data-state="working"] .egg-a { animation: patchwork-dd-egg-a 4.4s ease-in-out infinite; }
+  .s-patchwork.k-dodo[data-state="working"] .egg-b { animation: patchwork-dd-egg-b 4.4s ease-in-out infinite; }
+  .s-patchwork.k-dodo[data-state="working"] .egg-a .egg-crack { animation: patchwork-dd-crack-a 4.4s linear infinite; }
+  .s-patchwork.k-dodo[data-state="working"] .egg-b .egg-crack { animation: patchwork-dd-crack-b 4.4s linear infinite; }
+  .s-patchwork.k-dodo[data-state="working"] .chick-wa { animation: patchwork-dd-hatch-a 4.4s ease-out infinite; }
+  .s-patchwork.k-dodo[data-state="working"] .chick-wb { animation: patchwork-dd-hatch-b 4.4s ease-out infinite; }
+  .s-patchwork.k-dodo[data-state="working"] .shell-a { animation: patchwork-dd-shell-a 4.4s linear infinite; }
+  .s-patchwork.k-dodo[data-state="working"] .shell-b { animation: patchwork-dd-shell-b 4.4s linear infinite; }
+  @keyframes patchwork-dd-point { 0%, 5% { transform: none; } 12% { transform: rotate(-78deg); } 20% { transform: rotate(-72deg); } 26% { transform: rotate(-80deg); } 33% { transform: rotate(-72deg); } 40% { transform: rotate(-80deg); } 48% { transform: rotate(-72deg); } 56% { transform: rotate(-80deg); } 62% { transform: rotate(-80deg); } 70% { transform: rotate(-72deg); } 80%, 88% { transform: rotate(-78deg); } 95%, 100% { transform: none; } }
+  @keyframes patchwork-dd-lean { 0%, 5% { transform: none; } 12%, 88% { transform: rotate(5deg) translateX(1px); } 95%, 100% { transform: none; } }
+  @keyframes patchwork-dd-bob { 50% { transform: translateY(-1px); } }
+  @keyframes patchwork-dd-draw1 { 0%, 8% { stroke-dashoffset: 1; opacity: .95; } 24%, 94% { stroke-dashoffset: 0; opacity: .95; } 99% { stroke-dashoffset: 0; opacity: 0; } 100% { stroke-dashoffset: 1; opacity: 0; } }
+  @keyframes patchwork-dd-draw2 { 0%, 24% { stroke-dashoffset: 1; opacity: .95; } 38%, 94% { stroke-dashoffset: 0; opacity: .95; } 99% { stroke-dashoffset: 0; opacity: 0; } 100% { stroke-dashoffset: 1; opacity: 0; } }
+  @keyframes patchwork-dd-draw3 { 0%, 38% { stroke-dashoffset: 1; opacity: .95; } 48%, 94% { stroke-dashoffset: 0; opacity: .95; } 99% { stroke-dashoffset: 0; opacity: 0; } 100% { stroke-dashoffset: 1; opacity: 0; } }
+  @keyframes patchwork-dd-draw4 { 0%, 48% { stroke-dashoffset: 1; opacity: .95; } 68%, 94% { stroke-dashoffset: 0; opacity: .95; } 99% { stroke-dashoffset: 0; opacity: 0; } 100% { stroke-dashoffset: 1; opacity: 0; } }
+  @keyframes patchwork-dd-draw5 { 0%, 68% { stroke-dashoffset: 1; opacity: .95; } 80%, 94% { stroke-dashoffset: 0; opacity: .95; } 99% { stroke-dashoffset: 0; opacity: 0; } 100% { stroke-dashoffset: 1; opacity: 0; } }
+  @keyframes patchwork-dd-egg-a { 0%, 5% { opacity: 1; transform: none; } 8% { transform: rotate(-7deg); } 10% { transform: rotate(7deg); } 12% { transform: rotate(-7deg); } 14% { transform: rotate(6deg); } 16% { transform: rotate(-4deg); } 18% { opacity: 1; transform: scale(1.08, .94); } 19%, 94% { opacity: 0; transform: scale(.6); } 100% { opacity: 1; transform: none; } }
+  @keyframes patchwork-dd-egg-b { 0%, 43% { opacity: 1; transform: none; } 46% { transform: rotate(-7deg); } 48% { transform: rotate(7deg); } 50% { transform: rotate(-7deg); } 52% { transform: rotate(6deg); } 54% { transform: rotate(-4deg); } 56% { opacity: 1; transform: scale(1.08, .94); } 57%, 94% { opacity: 0; transform: scale(.6); } 100% { opacity: 1; transform: none; } }
+  @keyframes patchwork-dd-crack-a { 0%, 9% { opacity: 0; } 10%, 19% { opacity: 1; } 20%, 100% { opacity: 0; } }
+  @keyframes patchwork-dd-crack-b { 0%, 47% { opacity: 0; } 48%, 57% { opacity: 1; } 58%, 100% { opacity: 0; } }
+  @keyframes patchwork-dd-hatch-a { 0%, 17% { opacity: 0; transform: scale(.3); } 20% { opacity: 1; transform: scale(1.15, .88); } 24% { transform: scale(.95, 1.06); } 27% { transform: none; } 30% { transform: translateY(-5px); } 33% { transform: none; } 36% { transform: translateY(-5px); } 39% { transform: rotate(9deg); } 48% { transform: none; } 70% { transform: none; } 73% { transform: translateY(-5px); } 76% { transform: none; } 94% { opacity: 1; } 99%, 100% { opacity: 0; transform: none; } }
+  @keyframes patchwork-dd-hatch-b { 0%, 57% { opacity: 0; transform: scale(.3); } 60% { opacity: 1; transform: scale(1.15, .88); } 64% { transform: scale(.95, 1.06); } 67% { transform: none; } 70% { transform: none; } 73% { transform: translateY(-5px); } 76% { transform: none; } 94% { opacity: 1; } 99%, 100% { opacity: 0; transform: none; } }
+  @keyframes patchwork-dd-shell-a { 0%, 19% { opacity: 0; } 20%, 94% { opacity: 1; } 99%, 100% { opacity: 0; } }
+  @keyframes patchwork-dd-shell-b { 0%, 58% { opacity: 0; } 59%, 94% { opacity: 1; } 99%, 100% { opacity: 0; } }
+
+  .s-patchwork.k-dodo[data-state="quirk"] .d-all { animation: patchwork-dd-jump 3s ease-in-out 1 both; }
+  .s-patchwork.k-dodo[data-state="quirk"] .d-wing-l { animation: patchwork-dd-flap-l 3s ease-in-out 1 both; }
+  .s-patchwork.k-dodo[data-state="quirk"] .d-wing-r { animation: patchwork-dd-flap-r 3s ease-in-out 1 both; }
+  .s-patchwork.k-dodo[data-state="quirk"] .d-head { animation: patchwork-dd-dizzy 3s ease-in-out 1 both; }
+  .s-patchwork.k-dodo[data-state="quirk"] .d-tuft { animation: patchwork-dd-tuft .3s ease-in-out 8; }
+  .s-patchwork.k-dodo[data-state="quirk"] .feather { animation: patchwork-dd-feather 3s linear 1 both; }
+  .s-patchwork.k-dodo[data-state="quirk"] .dust-in { animation: patchwork-dd-dust 3s ease-out 1 both; }
+  .s-patchwork.k-dodo[data-state="quirk"] .egg { animation: patchwork-dd-jolt 3s ease-out 1 both; }
+  @keyframes patchwork-dd-jump { 0%, 6% { transform: none; } 11% { transform: scale(1.05, .92); } 18% { transform: translateY(-9px); } 26% { transform: translateY(-13px); } 34% { transform: translateY(-9px); } 42% { transform: translateY(-13px); } 52% { transform: translateY(-8px); } 61% { transform: scale(1.07, .9); } 66% { transform: scale(.99, 1.02); } 72%, 100% { transform: none; } }
+  @keyframes patchwork-dd-flap-l { 0%, 8% { transform: none; } 14% { transform: rotate(70deg); } 18% { transform: rotate(18deg); } 22% { transform: rotate(70deg); } 26% { transform: rotate(18deg); } 30% { transform: rotate(70deg); } 34% { transform: rotate(18deg); } 38% { transform: rotate(70deg); } 42% { transform: rotate(18deg); } 46% { transform: rotate(70deg); } 52% { transform: rotate(40deg); } 62% { transform: rotate(6deg); } 76%, 86% { transform: rotate(34deg); } 94%, 100% { transform: none; } }
+  @keyframes patchwork-dd-flap-r { 0%, 8% { transform: none; } 14% { transform: rotate(-70deg); } 18% { transform: rotate(-18deg); } 22% { transform: rotate(-70deg); } 26% { transform: rotate(-18deg); } 30% { transform: rotate(-70deg); } 34% { transform: rotate(-18deg); } 38% { transform: rotate(-70deg); } 42% { transform: rotate(-18deg); } 46% { transform: rotate(-70deg); } 52% { transform: rotate(-40deg); } 62% { transform: rotate(-6deg); } 76%, 86% { transform: rotate(-34deg); } 94%, 100% { transform: none; } }
+  @keyframes patchwork-dd-dizzy { 0%, 60% { transform: none; } 66% { transform: rotate(-6deg); } 74% { transform: rotate(5deg); } 82% { transform: rotate(-3deg); } 90%, 100% { transform: none; } }
+  @keyframes patchwork-dd-feather { 0%, 18% { opacity: 0; transform: none; } 22% { opacity: 1; transform: none; } 38% { opacity: 1; transform: translate(7px, 9px) rotate(30deg); } 54% { opacity: 1; transform: translate(-4px, 21px) rotate(-35deg); } 70% { opacity: 1; transform: translate(6px, 31px) rotate(35deg); } 86%, 100% { opacity: 1; transform: translate(-2px, 38px) rotate(-10deg); } }
+  @keyframes patchwork-dd-dust { 0%, 60% { opacity: 0; transform: scale(.4); } 64% { opacity: 1; transform: scale(.8); } 80% { opacity: .8; transform: scale(1.3) translateY(-2px); } 94%, 100% { opacity: 0; transform: scale(1.6) translateY(-3px); } }
+  @keyframes patchwork-dd-jolt { 0%, 58% { transform: none; } 62% { transform: translateY(-3px); } 68%, 100% { transform: none; } }
+
+  .s-patchwork.k-dodo[data-state="success"] .d-all { animation: patchwork-hop .8s var(--ease-out) infinite; }
+  .s-patchwork.k-dodo[data-state="success"] .d-wing-l { transform: rotate(52deg); animation: patchwork-dd-cheer-l .4s ease-in-out infinite alternate; }
+  .s-patchwork.k-dodo[data-state="success"] .d-wing-r { transform: rotate(-52deg); animation: patchwork-dd-cheer-r .4s ease-in-out infinite alternate; }
+  .s-patchwork.k-dodo[data-state="success"] .d-tuft { animation: patchwork-dd-tuft .5s ease-in-out infinite; }
+  .s-patchwork.k-dodo[data-state="success"] .bulb { animation: patchwork-dd-bulb 1.6s ease-out infinite; }
+  .s-patchwork.k-dodo[data-state="success"] .bulb-glow { animation: patchwork-dd-glow .8s ease-in-out infinite alternate; }
+  .s-patchwork.k-dodo[data-state="success"] .chalk { opacity: .95; }
+  .s-patchwork.k-dodo[data-state="success"] .chalk-ok { animation: patchwork-dd-ok 1.6s ease-out infinite; }
+  .s-patchwork.k-dodo[data-state="success"] .chick-1 { animation: patchwork-dd-cheep .7s ease-out infinite; }
+  .s-patchwork.k-dodo[data-state="success"] .chick-2 { animation: patchwork-dd-cheep .7s ease-out .25s infinite; }
+  .s-patchwork.k-dodo[data-state="success"] .mortar-in { animation: patchwork-dd-toss 1.6s ease-in-out infinite; }
+  @keyframes patchwork-dd-cheer-l { from { transform: rotate(40deg); } to { transform: rotate(64deg); } }
+  @keyframes patchwork-dd-cheer-r { from { transform: rotate(-40deg); } to { transform: rotate(-64deg); } }
+  @keyframes patchwork-dd-bulb { 0% { opacity: 0; transform: scale(.3); } 18% { opacity: 1; transform: scale(1.2); } 28%, 100% { opacity: 1; transform: none; } }
+  @keyframes patchwork-dd-glow { from { opacity: .12; } to { opacity: .32; } }
+  @keyframes patchwork-dd-ok { 0% { opacity: 0; stroke-dashoffset: 1; } 15% { opacity: 1; stroke-dashoffset: 1; } 45%, 100% { opacity: 1; stroke-dashoffset: 0; } }
+  @keyframes patchwork-dd-cheep { 0%, 100% { transform: none; } 35% { transform: translateY(-6px) scale(.97, 1.04); } 60% { transform: scale(1.04, .96); } }
+  @keyframes patchwork-dd-toss { 0% { transform: translateY(0) rotate(0); } 45% { transform: translateY(-18px) rotate(200deg); } 85%, 100% { transform: translateY(0) rotate(360deg); } }
+
+  .s-patchwork.k-dodo[data-state="error"] .d-all { animation: patchwork-shiver .14s linear infinite; }
+  .s-patchwork.k-dodo[data-state="error"] .e-open { opacity: 0; }
+  .s-patchwork.k-dodo[data-state="error"] .e-strain { opacity: 1; }
+  .s-patchwork.k-dodo[data-state="error"] .d-glasses { transform: rotate(-7deg) translate(0, 1px); }
+  .s-patchwork.k-dodo[data-state="error"] .d-wing-l { transform: rotate(48deg); }
+  .s-patchwork.k-dodo[data-state="error"] .d-wing-r { transform: rotate(-48deg); }
+  .s-patchwork.k-dodo[data-state="error"] .d-tuft { animation: patchwork-dd-frazzle .22s ease-in-out infinite alternate; }
+  .s-patchwork.k-dodo[data-state="error"] .chalk { opacity: .22; }
+  .s-patchwork.k-dodo[data-state="error"] .sweat { animation: patchwork-sad 2s ease-out infinite; }
+  .s-patchwork.k-dodo[data-state="error"] .q1 { animation: patchwork-dd-q 1.2s steps(1) infinite; }
+  .s-patchwork.k-dodo[data-state="error"] .q2 { animation: patchwork-dd-q 1.2s steps(1) .4s infinite; }
+  .s-patchwork.k-dodo[data-state="error"] .egg { animation: patchwork-shiver .16s linear infinite; }
+  @keyframes patchwork-dd-frazzle { from { transform: rotate(-14deg); } to { transform: rotate(14deg); } }
+  @keyframes patchwork-dd-q { 0%, 59% { opacity: 1; } 60%, 100% { opacity: 0; } }
+
+  .s-patchwork.k-dodo[data-state="sleep"] .d-all { animation: patchwork-dd-doze 4.6s ease-in-out infinite; }
+  .s-patchwork.k-dodo[data-state="sleep"] .d-head { transform: rotate(9deg) translate(1.5px, 3px); }
+  .s-patchwork.k-dodo[data-state="sleep"] .d-glasses { opacity: 0; }
+  .s-patchwork.k-dodo[data-state="sleep"] .d-tuft { transform: rotate(-15deg); }
+  .s-patchwork.k-dodo[data-state="sleep"] .d-wing-l { transform: rotate(-5deg); }
+  .s-patchwork.k-dodo[data-state="sleep"] .d-wing-r { transform: rotate(5deg); }
+  .s-patchwork.k-dodo[data-state="sleep"] .chick { animation: patchwork-dd-chick-doze 4.6s ease-in-out infinite; }
+  .s-patchwork.k-dodo[data-state="sleep"] .chick-2 { animation-delay: -2.3s; }
+  @keyframes patchwork-dd-doze { 0%, 100% { transform: translateY(2px) scale(1, .97); } 50% { transform: translateY(2px) scale(1.012, .985); } }
+  @keyframes patchwork-dd-chick-doze { 0%, 100% { transform: none; } 50% { transform: scale(1.03, 1.05); } }
+
+  @media (prefers-reduced-motion: reduce) {
+    .s-patchwork.k-cloud[data-state="success"] .rainbow { opacity: 1; }
+    .s-patchwork.k-labs[data-state="quirk"] .flour, .s-patchwork.k-labs[data-state="quirk"] .t4 { opacity: 1; }
+    .s-patchwork.k-labs[data-state="quirk"] .poof { opacity: 0; }
+    .s-patchwork.k-bvp[data-state="working"] .mark-x, .s-patchwork.k-bvp[data-state="working"] .cand .mark-ok { opacity: 1; }
+    .s-patchwork.k-bvp[data-state="quirk"] .tag { opacity: 1; }
+    .s-patchwork.k-yeast[data-state="working"] .yb { opacity: 1; }
+    .s-patchwork.k-dodo[data-state="working"] .egg { opacity: 0; }
+    .s-patchwork.k-dodo[data-state="working"] .egg-shell { opacity: 1; }
+    .s-patchwork.k-dodo[data-state="success"] .chalk-ok { opacity: 1; }
+  }

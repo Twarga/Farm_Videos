@@ -1,0 +1,65 @@
+{
+  "buildDir": "/tmp/bestvpsforme-measurement-VuDsZ8",
+  "evidence": [
+    {
+      "theme": "light",
+      "width": 390,
+      "unknownStatus": 404,
+      "dependency": "offer_prices table unavailable then restored",
+      "recoveredBy": "retry()",
+      "violations": []
+    },
+    {
+      "theme": "light",
+      "width": 390,
+      "dependency": "publication_snapshots unavailable then restored; never reported as empty history",
+      "recoveredBy": "retry()",
+      "violations": []
+    },
+    {
+      "theme": "light",
+      "width": 1440,
+      "unknownStatus": 404,
+      "dependency": "offer_prices table unavailable then restored",
+      "recoveredBy": "retry()",
+      "violations": []
+    },
+    {
+      "theme": "light",
+      "width": 1440,
+      "dependency": "publication_snapshots unavailable then restored; never reported as empty history",
+      "recoveredBy": "retry()",
+      "violations": []
+    },
+    {
+      "theme": "dark",
+      "width": 390,
+      "unknownStatus": 404,
+      "dependency": "offer_prices table unavailable then restored",
+      "recoveredBy": "retry()",
+      "violations": []
+    },
+    {
+      "theme": "dark",
+      "width": 390,
+      "dependency": "publication_snapshots unavailable then restored; never reported as empty history",
+      "recoveredBy": "retry()",
+      "violations": []
+    },
+    {
+      "theme": "dark",
+      "width": 1440,
+      "unknownStatus": 404,
+      "dependency": "offer_prices table unavailable then restored",
+      "recoveredBy": "retry()",
+      "violations": []
+    },
+    {
+      "theme": "dark",
+      "width": 1440,
+      "dependency": "publication_snapshots unavailable then restored; never reported as empty history",
+      "recoveredBy": "retry()",
+      "violations": []
+    }
+  ]
+}

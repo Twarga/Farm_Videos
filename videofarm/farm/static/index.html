@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Video farm</title>
+<style>
+  @font-face { font-family: "Baloo 2"; src: url("/fonts/Baloo2.ttf"); font-weight: 400 800; }
+  :root { --ink:#16130f; --mut:#6b6358; --line:#ddd5c6; --paper:#fbf8f2; --card:#fff; --acc:#f2b705; --bad:#b3261e; --ok:#2f7d32; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--paper); color:var(--ink); font:16px/1.5 system-ui, sans-serif; }
+  h1, h2, h3 { font-family:"Baloo 2", system-ui, sans-serif; line-height:1.15; margin:0; }
+  h1 { font-size:1.9rem; font-weight:800; }
+  h2 { font-size:1.35rem; font-weight:800; margin-bottom:12px; }
+  h3 { font-size:1.1rem; font-weight:700; }
+  .wrap { display:grid; grid-template-columns: 340px 1fr; gap:32px; max-width:1280px; margin:0 auto; padding:28px 20px 80px; }
+  @media (max-width: 860px) { .wrap { grid-template-columns: 1fr; } }
+  header p { color:var(--mut); margin:4px 0 22px; }
+  label { display:block; font-weight:600; font-size:.92rem; margin:14px 0 6px; }
+  .hint { color:var(--mut); font-size:.85rem; font-weight:400; }
+  input, textarea { width:100%; font:inherit; padding:10px 12px; border:1.5px solid var(--line); border-radius:8px; background:#fff; color:var(--ink); }
+  textarea { min-height:96px; resize:vertical; }
+  .row { display:grid; grid-template-columns:1fr 1fr; gap:12px; }
+  button { font:inherit; font-weight:700; border:0; border-radius:8px; padding:11px 18px; min-height:44px; cursor:pointer; background:var(--ink); color:#fff; }
+  button.primary { background:var(--acc); color:var(--ink); }
+  button:disabled { opacity:.55; cursor:progress; }
+  :focus-visible { outline:3px solid var(--ink); outline-offset:2px; }
+  .err { color:var(--bad); font-size:.9rem; min-height:1.3em; margin-top:8px; }
+  .jobs { list-style:none; padding:0; margin:28px 0 0; border-top:1px solid var(--line); }
+  .jobs li button { all:unset; display:block; width:100%; box-sizing:border-box; padding:10px 6px; border-bottom:1px solid var(--line); cursor:pointer; }
+  .jobs li button:focus-visible { outline:3px solid var(--ink); }
+  .jobs li button[aria-current="true"] { background:#fff3c4; }
+  .jobs .t { font-weight:600; display:block; }
+  .jobs .s { color:var(--mut); font-size:.82rem; }
+  .styles { display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:18px; }
+  .style { background:var(--card); border:1.5px solid var(--line); border-radius:10px; overflow:hidden; display:flex; flex-direction:column; }
+  .style.best { border-color:var(--ink); }
+  .style img { width:100%; aspect-ratio:16/9; object-fit:cover; display:block; border-bottom:1.5px solid var(--line); }
+  .style .body { padding:14px 16px 16px; display:flex; flex-direction:column; gap:8px; flex:1; }
+  .score { font-family:"Baloo 2"; font-weight:800; font-size:1.05rem; }
+  .why { color:var(--mut); font-size:.92rem; margin:0; }
+  fieldset { border:0; padding:0; margin:4px 0 6px; }
+  fieldset legend { font-weight:600; font-size:.9rem; margin-bottom:4px; }
+  fieldset label { font-weight:400; margin:4px 0; display:flex; gap:8px; align-items:flex-start; font-size:.93rem; }
+  fieldset input { width:auto; margin-top:4px; }
+  .stages { list-style:none; padding:0; margin:0 0 18px; display:grid; grid-template-columns:repeat(auto-fit, minmax(150px, 1fr)); gap:8px; }
+  .stages li { border:1.5px solid var(--line); border-radius:8px; padding:8px 10px; background:#fff; font-size:.9rem; }
+  .stages li b { display:block; text-transform:capitalize; }
+  .stages li.done { border-color:var(--ok); }
+  .stages li.error { border-color:var(--bad); }
+  .stages li.running, .stages li.waiting { border-color:var(--acc); background:#fffbe9; }
+  .muted { color:var(--mut); }
+  video { width:100%; background:#000; border-radius:8px; display:block; }
+  .shorts { display:grid; grid-template-columns:repeat(auto-fill, minmax(200px, 1fr)); gap:14px; margin-top:12px; }
+  .shorts video { aspect-ratio:9/16; }
+  .thumb { max-width:520px; width:100%; border-radius:8px; border:1.5px solid var(--line); display:block; }
+  pre { background:#fff; border:1.5px solid var(--line); border-radius:8px; padding:12px; white-space:pre-wrap; font-size:.85rem; max-height:360px; overflow:auto; }
+  .log { font-size:.78rem; max-height:220px; }
+  section + section { margin-top:28px; }
+  .empty { border:1.5px dashed var(--line); border-radius:10px; padding:28px; color:var(--mut); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <aside>
+    <header>
+      <h1>Video farm</h1>
+      <p>Subject + title in. Long video, Shorts, thumbnail and YouTube text out.</p>
+    </header>
+    <form id="new">
+      <label for="subject">Subject <span class="hint">what the video is about, in plain words</span></label>
+      <textarea id="subject" name="subject" required placeholder="e.g. everyday money habits that quietly keep people broke"></textarea>
+      <label for="title">Title</label>
+      <input id="title" name="title" required placeholder="e.g. Every Money Habit That Keeps You Broke Explained">
+      <div class="row">
+        <div><label for="minutes">Minutes <span class="hint">8+ for mid-rolls</span></label>
+          <input id="minutes" name="minutes" type="number" min="8" max="20" step="0.5" value="10"></div>
+        <div><label for="shorts">Shorts</label>
+          <input id="shorts" name="shorts" type="number" min="0" max="6" value="3"></div>
+      </div>
+      <div style="margin-top:16px"><button class="primary" type="submit" id="go">Suggest styles</button></div>
+      <div class="err" id="newErr" role="alert"></div>
+    </form>
+    <ul class="jobs" id="jobs" aria-label="Videos"></ul>
+  </aside>
+
+  <main id="main" aria-live="polite">
+    <div class="empty">Start with a subject and a title. The farm scores each style for your subject and suggests titles; you pick one and it builds the whole video.</div>
+  </main>
+</div>
+
+<script>
+const $ = (s, el = document) => el.querySelector(s);
+let current = null, styles = [], pollTimer = null;
+const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const api = async (path, body) => {
+  const r = await fetch(path, body ? {method: "POST", headers: {"content-type": "application/json"}, body: JSON.stringify(body)} : {});
+  const j = await r.json();
+  if (!r.ok) throw new Error(j.error || r.statusText);
+  return j;
+};
+const ORDER = ["suggest", "outline", "script", "shots", "voice", "images", "render", "shorts", "package"];
+const LABEL = {suggest: "Style check", outline: "Outline", script: "Script", shots: "Storyboard", voice: "Voice", images: "Images", render: "Long video", shorts: "Shorts", package: "Thumbnail + text"};
+
+async function loadJobs() {
+  const jobs = await api("/api/jobs");
+  $("#jobs").innerHTML = jobs.map((j) => {
+    const st = j.stages || {}, last = ORDER.filter((k) => st[k]).pop();
+    const state = !j.style ? (st.suggest?.state === "done" ? "choose a style" : "checking styles…")
+      : last ? `${LABEL[last]}: ${st[last].state}${st[last].detail ? " · " + st[last].detail : ""}` : "queued";
+    return `<li><button data-slug="${esc(j.slug)}" aria-current="${j.slug === current}"><span class="t">${esc(j.title)}</span><span class="s">${esc(j.style || "no style yet")} · ${esc(state)}</span></button></li>`;
+  }).join("");
+}
+
+function styleCards(j) {
+  const sug = j.styles?.styles || {};
+  return `<section><h2>Choose a style</h2><p class="muted">Scores are the model's fit for “${esc(j.subject)}”. Pick a style and a title; the farm does the rest.</p>
+  <div class="styles">${styles.map((s) => {
+    const g = sug[s.name] || {score: "?", why: "", titles: []};
+    const titles = [j.title, ...g.titles.filter((t) => t !== j.title)];
+    return `<form class="style ${j.styles?.best === s.name ? "best" : ""}" data-style="${s.name}">
+      <img src="/styles/${s.name}/character.png" alt="${esc(s.label)} style sample frame">
+      <div class="body"><h3>${esc(s.label)}</h3><span class="score">Fit ${g.score}/10${j.styles?.best === s.name ? " · recommended" : ""}</span>
+      <p class="why">${esc(g.why || s.pitch)}</p>
+      <fieldset><legend>Title</legend>${titles.map((t, i) => `<label><input type="radio" name="title" value="${esc(t)}" ${i ? "" : "checked"}> ${esc(t)}</label>`).join("")}</fieldset>
+      <button class="primary" type="submit">Make it in ${esc(s.label)} style</button></div></form>`;
+  }).join("")}</div></section>`;
+}
+
+function progress(j) {
+  const st = j.stages || {};
+  return `<ul class="stages">${ORDER.filter((k) => k !== "suggest").map((k) => {
+    const s = st[k] || {state: "pending"};
+    return `<li class="${s.state}"><b>${LABEL[k]}</b>${esc(s.state)}${s.detail ? `<br><span class="muted">${esc(s.detail)}</span>` : ""}</li>`;
+  }).join("")}</ul>`;
+}
+
+function outputs(j) {
+  const o = new Set(j.outputs), f = (n) => `/files/${encodeURIComponent(j.slug)}/out/${n}`;
+  let h = "";
+  if (o.has("long.mp4")) h += `<section><h2>Long video${j.duration ? ` · ${Math.floor(j.duration / 60)}:${String(Math.round(j.duration % 60)).padStart(2, "0")}` : ""}</h2><video controls preload="metadata" src="${f("long.mp4")}"></video><p><a href="${f("long.mp4")}" download>Download long.mp4</a></p></section>`;
+  const sh = j.outputs.filter((n) => /^short_\d+\.mp4$/.test(n));
+  if (sh.length) h += `<section><h2>Shorts</h2><div class="shorts">${sh.map((n) => `<div><video controls preload="metadata" src="${f(n)}"></video><a href="${f(n)}" download>${n}</a></div>`).join("")}</div></section>`;
+  if (o.has("thumbnail.png")) h += `<section><h2>Thumbnail</h2><img class="thumb" src="${f("thumbnail.png")}?v=${Date.now() >> 16}" alt="Thumbnail for ${esc(j.title)}"></section>`;
+  if (o.has("youtube.txt")) h += `<section><h2>YouTube text</h2><button type="button" id="copyYt">Copy</button><pre id="yt">loading…</pre></section>`;
+  return h;
+}
+
+async function show(slug) {
+  current = slug;
+  const j = await api(`/api/jobs/${encodeURIComponent(slug)}`);
+  const main = $("#main");
+  let h = `<section><h2>${esc(j.title)}</h2><p class="muted">${esc(j.subject)}${j.style ? ` · ${esc(j.style)} style` : ""}</p></section>`;
+  const sug = j.stages?.suggest;
+  if (!j.style) {
+    if (sug?.state === "error") h += `<p class="err">Style check failed: ${esc(sug.detail)}</p>`;
+    else if (!j.styles) h += `<p class="muted">Checking which style fits this subject… (about 20 seconds)</p>`;
+    else h += styleCards(j);
+  } else {
+    h += progress(j) + outputs(j);
+    const err = Object.entries(j.stages || {}).find(([, s]) => s.state === "error");
+    if (err) h += `<section><p class="err">${esc(LABEL[err[0]] || err[0])} failed: ${esc(err[1].detail)}</p><button type="button" id="rerun">Resume from where it stopped</button></section>`;
+    if (j.log?.length) h += `<section><h3>Log</h3><pre class="log">${esc(j.log.join("\n"))}</pre></section>`;
+  }
+  main.innerHTML = h;
+  main.querySelectorAll("form.style").forEach((fm) => fm.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    fm.querySelector("button").disabled = true;
+    await api(`/api/jobs/${encodeURIComponent(slug)}/pick`, {style: fm.dataset.style, title: new FormData(fm).get("title")});
+    show(slug); loadJobs();
+  }));
+  $("#rerun")?.addEventListener("click", async () => { await api(`/api/jobs/${encodeURIComponent(slug)}/rerun`, {}); show(slug); });
+  if ($("#yt")) {
+    const t = await (await fetch(`/files/${encodeURIComponent(slug)}/out/youtube.txt`)).text();
+    $("#yt").textContent = t;
+    $("#copyYt").onclick = () => navigator.clipboard.writeText(t).then(() => { $("#copyYt").textContent = "Copied"; });
+  }
+  clearTimeout(pollTimer);
+  const busy = !j.styles || j.running || j.queued || Object.values(j.stages || {}).some((s) => ["running", "waiting"].includes(s.state));
+  if (busy) pollTimer = setTimeout(() => current === slug && show(slug), 4000);
+  loadJobs();
+}
+
+$("#jobs").addEventListener("click", (e) => { const b = e.target.closest("button[data-slug]"); if (b) show(b.dataset.slug); });
+$("#new").addEventListener("submit", async (e) => {
+  e.preventDefault();
+  const d = Object.fromEntries(new FormData(e.target));
+  $("#go").disabled = true; $("#newErr").textContent = "";
+  try { const r = await api("/api/jobs", d); e.target.reset(); show(r.slug); }
+  catch (err) { $("#newErr").textContent = err.message; }
+  finally { $("#go").disabled = false; }
+});
+(async () => { styles = await api("/api/styles"); await loadJobs(); setInterval(loadJobs, 8000); })();
+</script>
+</body>
+</html>

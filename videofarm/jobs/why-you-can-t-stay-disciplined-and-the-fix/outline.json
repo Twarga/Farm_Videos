@@ -1,0 +1,102 @@
+{
+  "hook": "You make a perfect plan on Sunday, abandon it by Wednesday, and call yourself lazy. Then you make an even stricter plan, as if insulting yourself wasn't enough. The fix isn't becoming a robot—it's building a routine that still works when you're tired, distracted, and not in the mood.",
+  "chapters": [
+    {
+      "name": "1. Stop Waiting To Feel Ready",
+      "angle": "You treat motivation like permission to begin. That lets a temporary feeling cancel a promise you actually care about. Start the planned action while you're still reluctant; motivation can help, but it doesn't get veto power.",
+      "scenario": "You're on your bedroom floor in workout clothes, watching motivational videos instead of exercising. You turn the video off, stand up, and begin your warm-up without waiting to feel inspired.",
+      "facts": [
+        "Motivation fluctuates with mood, context, and perceived effort.",
+        "Behavioral activation emphasizes taking manageable actions rather than waiting for motivation."
+      ],
+      "outfit": "Workout shorts and sneakers, holding a phone.",
+      "icon": "1. Stop Waiting To Feel Ready",
+      "color": "#E8443A"
+    },
+    {
+      "name": "2. Your Phone Wins By Default",
+      "angle": "You put your biggest distraction within reach, then act surprised when you reach for it. Familiar cues and easy access keep pulling you away. Before you work, leave your phone in another room and open only what the task requires.",
+      "scenario": "At your desk, you check one notification and end up scrolling while your assignment stays blank. You move the phone to the kitchen, close the extra tabs, and return to the assignment.",
+      "facts": [
+        "Environmental cues can trigger learned habits.",
+        "Adding friction makes an unwanted behavior less convenient."
+      ],
+      "outfit": "No clothes, plain stick figure holding a phone beside a laptop.",
+      "icon": "2. Your Phone Wins By Default",
+      "color": "#3D7DD8"
+    },
+    {
+      "name": "3. Give Your Habit An Appointment",
+      "angle": "You say you'll do it 'later' because that sounds committed without costing you anything right now. But later has no starting signal. Attach one specific action to a reliable daily event: after you finish breakfast, you open your notebook at the kitchen table.",
+      "scenario": "In your kitchen, you finish breakfast and start wandering toward the couch. A note beside your bowl says, 'After breakfast: write at the table,' so you sit back down and open your notebook.",
+      "facts": [
+        "Implementation intentions connect a specific situation with a specific action.",
+        "Consistent contextual cues can support habit formation."
+      ],
+      "outfit": "No clothes, plain stick figure holding a cereal bowl and a notebook.",
+      "icon": "3. Give Your Habit An Appointment",
+      "color": "#F28C28"
+    },
+    {
+      "name": "4. Shrink The First Step",
+      "angle": "You label the task 'finish the project,' then wonder why starting feels awful. You're asking yourself to confront the whole mountain at once. Define the first visible action—open the document and write three rough bullet points—then decide whether to continue.",
+      "scenario": "At your laptop, you stare at 'MAKE PRESENTATION' on your to-do list. You replace it with 'write three slide headings' and type those headings before worrying about the finished presentation.",
+      "facts": [
+        "Task chunking breaks complex work into manageable actions.",
+        "Proximal goals give you a more immediate target than distant outcomes."
+      ],
+      "outfit": "Glasses, holding a pencil beside a laptop and a to-do list.",
+      "icon": "4. Shrink The First Step",
+      "color": "#2BA36B"
+    },
+    {
+      "name": "5. Make Progress Pay Today",
+      "angle": "Your good habit asks for effort now and promises benefits months away. Your distractions offer something immediately. Give the useful behavior a small, immediate payoff: mark the completed session, enjoy a pleasant ritual, and reward showing up rather than waiting for impressive results.",
+      "scenario": "After an evening study session at your kitchen table, you mark a check on a paper calendar and make your favorite tea. You acknowledge today's work instead of dismissing it because you haven't passed the exam yet.",
+      "facts": [
+        "Present bias favors immediate benefits over delayed benefits.",
+        "Positive reinforcement can increase the likelihood of repeating a behavior."
+      ],
+      "outfit": "A hoodie, holding a marker and a mug beside a paper calendar.",
+      "icon": "5. Make Progress Pay Today",
+      "color": "#8E5BD9"
+    },
+    {
+      "name": "6. Stop Borrowing From Sleep",
+      "angle": "You treat sleep as spare time you can steal to prove you're serious. Then tomorrow's exhausted version of you has to execute the plan. Protect a realistic sleep window and shorten the routine when necessary; an impressive alarm time isn't evidence that your system works.",
+      "scenario": "In bed near midnight, you set an early alarm for a huge workout despite already feeling exhausted. You move the workout to a realistic time, shorten it, and put the phone down instead of watching another productivity video.",
+      "facts": [
+        "Sleep loss can impair attention and executive function.",
+        "Insufficient sleep can make emotional regulation harder."
+      ],
+      "outfit": "Pajamas, holding an alarm clock under a blanket.",
+      "icon": "6. Stop Borrowing From Sleep",
+      "color": "#E05596"
+    },
+    {
+      "name": "7. Find The Repeating Obstacle",
+      "angle": "You keep saying 'try harder' because it avoids investigating what actually went wrong. Repeating the same setup produces the same obstacle. Once a week, review your missed sessions, identify one recurring barrier, and change one part of the plan instead of your entire life.",
+      "scenario": "At your kitchen table on Sunday, you notice your missed reading sessions all followed late work nights. You move reading to lunch and write the new cue on your calendar instead of adding another motivational slogan.",
+      "facts": [
+        "Self-monitoring helps reveal when and where a behavior does or does not happen.",
+        "Feedback allows you to adjust a plan based on actual behavior."
+      ],
+      "outfit": "No clothes, plain stick figure holding a calendar and a pen.",
+      "icon": "7. Find The Repeating Obstacle",
+      "color": "#1BA6B0"
+    },
+    {
+      "name": "8. Practice Returning, Not Restarting",
+      "angle": "You miss once and turn it into a verdict about who you are. Quitting until your next grand reset makes one lapse much more expensive. Write a recovery rule now: at the next planned opportunity, do your minimum version, with no punishment session. Discipline includes returning, not just maintaining a streak.",
+      "scenario": "After missing a workout, you reach for a fresh 'NEW ME' plan at your desk. You put it aside, keep tomorrow's existing appointment, and complete a short session instead of doubling the workout to repay an imaginary debt.",
+      "facts": [
+        "All-or-nothing thinking treats a setback as total failure.",
+        "Self-compassion can support recovery from setbacks without removing accountability."
+      ],
+      "outfit": "Sneakers, holding a gym bag and a crumpled reset plan.",
+      "icon": "8. Practice Returning, Not Restarting",
+      "color": "#C9A227"
+    }
+  ],
+  "minutes": 9.0
+}

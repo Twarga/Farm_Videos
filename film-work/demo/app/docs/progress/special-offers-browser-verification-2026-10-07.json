@@ -1,0 +1,54 @@
+{
+  "results": [
+    {
+      "width": 390,
+      "theme": "light",
+      "routes": 3,
+      "pageErrors": 0,
+      "severeAccessibilityIssues": 0,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "theme": "dark",
+      "routes": 3,
+      "pageErrors": 0,
+      "severeAccessibilityIssues": 0,
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "theme": "light",
+      "routes": 3,
+      "pageErrors": 0,
+      "severeAccessibilityIssues": 0,
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "theme": "dark",
+      "routes": 3,
+      "pageErrors": 0,
+      "severeAccessibilityIssues": 0,
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "theme": "light",
+      "routes": 3,
+      "pageErrors": 0,
+      "severeAccessibilityIssues": 0,
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "theme": "dark",
+      "routes": 3,
+      "pageErrors": 0,
+      "severeAccessibilityIssues": 0,
+      "overflow": false
+    }
+  ],
+  "checkedOfferPages": 13,
+  "screenshotDirectory": "/tmp/bestvpsforme-specials-visual-sXRKpM"
+}

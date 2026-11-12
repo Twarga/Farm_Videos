@@ -1,0 +1,173 @@
+{
+  "chapters": [
+    {
+      "name": "Impulse Buying",
+      "angle": "You came in for one thing, but a sale makes an unplanned purchase feel like saving money.",
+      "facts": [
+        "A discount still costs money if you would not otherwise buy the item.",
+        "Small unplanned purchases add up across a month.",
+        "Limited-time offers can pressure you to buy before comparing options.",
+        "Waiting before purchasing gives the initial excitement time to fade."
+      ],
+      "icon": "a shopping bag with a lightning bolt",
+      "outfit": "an orange hoodie and white sneakers",
+      "color": "#FF6B00",
+      "scenario": ""
+    },
+    {
+      "name": "Credit Card Minimums",
+      "angle": "The minimum payment keeps you from missing a payment, but it is not a plan for getting out of debt quickly.",
+      "facts": [
+        "The minimum payment is usually only a small portion of the balance.",
+        "Unpaid balances generally accrue interest unless a special interest-free offer applies.",
+        "Without new charges, paying more than the minimum usually clears interest-bearing debt faster.",
+        "Taking longer to repay an interest-bearing balance generally increases total interest paid."
+      ],
+      "icon": "a credit card beside one tiny coin",
+      "outfit": "a red polo shirt and dark trousers",
+      "color": "#E53935",
+      "scenario": ""
+    },
+    {
+      "name": "Unused Subscriptions",
+      "angle": "You stopped using the service, but the service never stopped charging you.",
+      "facts": [
+        "Subscriptions can renew automatically until canceled.",
+        "Deleting an app usually does not cancel its subscription.",
+        "Annual renewals are easier to overlook because they happen infrequently.",
+        "Several small recurring charges can become a substantial ongoing expense."
+      ],
+      "icon": "a dusty television with a price tag",
+      "outfit": "purple pajamas and slippers",
+      "color": "#8E44AD",
+      "scenario": ""
+    },
+    {
+      "name": "Late Payments",
+      "angle": "Forgetting a deadline can make the exact same purchase more expensive without giving you anything extra.",
+      "facts": [
+        "Many lenders and service providers charge late-payment fees.",
+        "Automatic payments can fail when the linked account lacks sufficient funds.",
+        "Credit payments that become sufficiently overdue can damage your credit history.",
+        "Payment reminders help you check that a bill was actually paid."
+      ],
+      "icon": "a bill stamped OVERDUE",
+      "outfit": "a rumpled white shirt and loose blue tie",
+      "color": "#00A8E8",
+      "scenario": ""
+    },
+    {
+      "name": "Brand Loyalty",
+      "angle": "A familiar logo can feel like proof of quality, even when you have not compared what you are getting.",
+      "facts": [
+        "A brand name alone does not establish durability or performance.",
+        "Some store-brand products offer similar ingredients or specifications for less.",
+        "Products with similar features can sell at different prices.",
+        "Automatically choosing one brand means skipping comparison with alternatives."
+      ],
+      "icon": "a price tag wearing a crown",
+      "outfit": "a black hoodie with an oversized gold logo",
+      "color": "#FFD600",
+      "scenario": ""
+    },
+    {
+      "name": "Buying Too Cheap",
+      "angle": "The cheapest option today can become the most expensive option per year if you keep replacing it.",
+      "facts": [
+        "Repeated replacements add new purchase costs.",
+        "Repairs, energy use, and consumables contribute to total ownership cost.",
+        "A product's useful lifespan affects its cost per use.",
+        "A higher price alone does not guarantee better quality or longer life."
+      ],
+      "icon": "a shoe with a detached sole",
+      "outfit": "a faded blue T-shirt and patched jeans",
+      "color": "#2962FF",
+      "scenario": ""
+    },
+    {
+      "name": "Skipping Maintenance",
+      "angle": "Putting off a small fix feels cheaper until the neglected problem damages something much more expensive.",
+      "facts": [
+        "Routine care can prevent wear from developing into larger failures.",
+        "An ignored water leak can damage surrounding materials.",
+        "Underinflated tires can increase fuel use and tire wear.",
+        "Manufacturer schedules identify recommended maintenance tasks and intervals."
+      ],
+      "icon": "a bicycle wheel with a rusty chain",
+      "outfit": "green mechanic overalls and work boots",
+      "color": "#00B85A",
+      "scenario": ""
+    },
+    {
+      "name": "Chasing Rewards",
+      "angle": "A reward is not a win if earning it makes you spend money you would otherwise have kept.",
+      "facts": [
+        "Cashback returns only a fraction of the purchase price.",
+        "Spending thresholds can encourage purchases you did not originally plan.",
+        "Credit card interest and fees can exceed the value of rewards.",
+        "Points may have expiration dates or redemption restrictions."
+      ],
+      "icon": "a rewards card with a gold star",
+      "outfit": "a hot-pink varsity jacket with star patches",
+      "color": "#F500A6",
+      "scenario": ""
+    },
+    {
+      "name": "Ignoring Employer Match",
+      "angle": "Some jobs offer extra retirement money when you contribute, but you have to participate to receive it.",
+      "facts": [
+        "Some employers match employee contributions to a retirement plan.",
+        "Contributing below the matching threshold can leave part of the available match unused.",
+        "Employer contributions may have vesting rules that affect what you keep if you leave.",
+        "Retirement accounts can have taxes or restrictions on early withdrawals."
+      ],
+      "icon": "two coins joined by a plus sign",
+      "outfit": "a navy work uniform with a name badge",
+      "color": "#00BFA5",
+      "scenario": ""
+    },
+    {
+      "name": "No Emergency Fund",
+      "angle": "An unexpected bill can become a debt problem when there is no cash buffer between you and borrowing.",
+      "facts": [
+        "Necessary repairs and other unexpected expenses do not always arrive on payday.",
+        "Without accessible savings, an unexpected expense may require borrowing.",
+        "Interest-bearing borrowing adds financing costs to the original expense.",
+        "Keeping emergency savings separate can make them less tempting to spend."
+      ],
+      "icon": "an empty jar marked EMERGENCY",
+      "outfit": "a yellow raincoat and rubber boots",
+      "color": "#FFB300",
+      "scenario": ""
+    },
+    {
+      "name": "Waiting to Invest",
+      "angle": "Once bills and emergency savings are covered, waiting to feel rich can cost long-term money years of potential growth.",
+      "facts": [
+        "Reinvested returns can generate further returns.",
+        "Starting later leaves less time for potential compounding.",
+        "Investment growth is not guaranteed, and investments can lose value.",
+        "Money needed soon should not depend on uncertain market gains."
+      ],
+      "icon": "an hourglass beside a small sprout",
+      "outfit": "a mint-green sweatshirt with a seedling emblem",
+      "color": "#7C4DFF",
+      "scenario": ""
+    },
+    {
+      "name": "Lifestyle Creep",
+      "angle": "Your pay rises, but every extra dollar gets assigned to a nicer car, a bigger place, or a pricier routine.",
+      "facts": [
+        "Lifestyle creep happens when spending rises alongside income.",
+        "Higher recurring expenses continue after the excitement of an upgrade fades.",
+        "A raise increases savings only if some of the additional income remains unspent.",
+        "Leases, loans, and contracts can make expensive upgrades costly to reverse."
+      ],
+      "icon": "a shopping cart with an upward arrow",
+      "outfit": "a flashy turquoise tracksuit and gold-colored watch",
+      "color": "#FF3D57",
+      "scenario": ""
+    }
+  ],
+  "minutes": 10
+}

@@ -1,0 +1,22 @@
+# HyperFrames
+
+- [Docs (134 pages)](https://hyperframes.heygen.com/_llms/docs.txt): Documentation for Docs.
+- [Catalog (449 pages)](https://hyperframes.heygen.com/_llms/catalog.txt): Documentation for Catalog.
+
+## Optional
+
+- [Free lessons](https://hyperframes.heygen.com/lessons): A free video course
+- [Community](https://hyperframes.studio/?view=community&src=docs-navbar): Videos people made
+- [App changelog](https://hyperframes.studio/changelog?src=docs-navbar): What's new in the app
+
+> The links below point to documentation indexes. Follow each `/_llms/` index recursively until you reach documentation pages.
+
+## Indexes
+
+- [Docs (134 pages)](https://hyperframes.heygen.com/_llms/docs.txt): Documentation for Docs.
+- [Catalog (449 pages)](https://hyperframes.heygen.com/_llms/catalog.txt): Documentation for Catalog.
+- [Catalog / Catalog (449 pages)](https://hyperframes.heygen.com/_llms/catalog/catalog.txt): Documentation for Catalog / Catalog.
+- [Catalog / Catalog / Scenes & demos (93 pages)](https://hyperframes.heygen.com/_llms/catalog/catalog/scenes-and-demos.txt): Documentation for Catalog / Catalog / Scenes & demos.
+
+
+This documentation is built and hosted on [Mintlify](https://mintlify.com), a developer documentation platform.

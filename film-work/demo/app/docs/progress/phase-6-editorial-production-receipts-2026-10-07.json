@@ -1,0 +1,602 @@
+[
+  {
+    "offerId": "scaleway-stardust1-s",
+    "requestId": "689c934e-c95e-4eee-be79-b590c7b2c7fd",
+    "savedAt": "2026-10-07T11:09:48.160Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "racknerd-special-1gb",
+    "requestId": "7a4e6bc6-3971-4284-9f21-0ee9d39d905e",
+    "savedAt": "2026-10-07T11:09:48.162Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "ramnode-lite-1gb",
+    "requestId": "c9a391cd-e5c0-4168-a5f4-33060a5690e2",
+    "savedAt": "2026-10-07T11:09:48.163Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "buyvm-slice-512",
+    "requestId": "97d667dd-75a9-4cf7-9342-e2ad2c315cde",
+    "savedAt": "2026-10-07T11:09:48.163Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "webdock-essential",
+    "requestId": "cdf6be6c-5910-4222-b131-f5ac0b978ff9",
+    "savedAt": "2026-10-07T11:09:48.164Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "alibaba-cloud-aliyun-ssd-starter",
+    "requestId": "35ae894a-6026-462b-8cc7-a764cd1b2000",
+    "savedAt": "2026-10-07T11:09:48.165Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "interserver-1-slice",
+    "requestId": "4c780f86-d94b-4449-b318-2b0b886a24c3",
+    "savedAt": "2026-10-07T11:09:48.165Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "time4vps-linux-2",
+    "requestId": "920cad63-f098-4a17-b681-0eeb6a720777",
+    "savedAt": "2026-10-07T11:09:48.166Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "hostkey-hostkey-pico",
+    "requestId": "e16b0f20-b8e8-4016-b13f-e7eb236522f9",
+    "savedAt": "2026-10-07T11:09:48.167Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "alphavps-alpha-c2g",
+    "requestId": "34ee4d84-159a-473a-996a-83999ad7f729",
+    "savedAt": "2026-10-07T11:09:48.167Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "clouding-io-clouding-1gb",
+    "requestId": "587833d3-3404-4218-8f19-0c8132f6879e",
+    "savedAt": "2026-10-07T11:09:48.168Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "upcloud-starter-1xcpu-1gb",
+    "requestId": "c8143aa6-f76a-46f6-9eba-283ef22a6104",
+    "savedAt": "2026-10-07T11:09:48.168Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "namecheap-spark",
+    "requestId": "f4812332-564c-40c6-8f7b-e92a27bbe25a",
+    "savedAt": "2026-10-07T11:09:48.169Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "digitalocean-basic-512mb",
+    "requestId": "f7c3a139-231b-44f6-bb8e-e1f776c0a5a6",
+    "savedAt": "2026-10-07T11:09:48.170Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "ionos-vps-m-plus",
+    "requestId": "94973403-d655-4347-949f-176076cb63d1",
+    "savedAt": "2026-10-07T11:09:48.170Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "ovhcloud-vps-1",
+    "requestId": "9d6e9a23-31a7-4a3c-af0f-85a064dcda45",
+    "savedAt": "2026-10-07T11:09:48.171Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "hostsailor-hs-mini-nvme",
+    "requestId": "11c46066-3604-427c-8d58-4989bbd062ca",
+    "savedAt": "2026-10-07T11:09:48.171Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "hostwinds-ul-1",
+    "requestId": "7f8ec884-fd57-4174-b756-4a30dbb13bd1",
+    "savedAt": "2026-10-07T11:09:48.172Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "liquid-web-lw-1g",
+    "requestId": "419d81d5-c6da-4042-b1d9-45750577fae5",
+    "savedAt": "2026-10-07T11:09:48.172Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "knownhost-entry",
+    "requestId": "9b77a15f-e1c0-4893-9d3e-fe3543770c06",
+    "savedAt": "2026-10-07T11:09:48.173Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "aws-lightsail-ls-gp-nano-v4",
+    "requestId": "21a7d6ba-d237-47a0-9616-2bfa6df17a1a",
+    "savedAt": "2026-10-07T11:09:48.175Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "akamai-linode-g6-nanode-1",
+    "requestId": "f4d3dc7a-3d9e-4964-ac32-890e6e10c728",
+    "savedAt": "2026-10-07T11:09:48.175Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "ssd-nodes-kvm-small",
+    "requestId": "862f57b6-bf65-4f58-803e-1403dc8bc46c",
+    "savedAt": "2026-10-07T11:09:48.176Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "google-cloud-f1-micro",
+    "requestId": "5d09fe4f-9989-4724-aa50-61b70bcaf01a",
+    "savedAt": "2026-10-07T11:09:48.176Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "leaseweb-vps-1-eu",
+    "requestId": "bb2dda8a-1ed8-4be5-9867-c38edc2caf81",
+    "savedAt": "2026-10-07T11:09:48.177Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "yourserver-ys-1gb",
+    "requestId": "91dfd037-9588-4e60-b3b1-1c8501b1b3fa",
+    "savedAt": "2026-10-07T11:09:48.177Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "greencloudvps-gcvps-ryzenkvm-1",
+    "requestId": "48043887-4248-4b02-977b-666e141d2357",
+    "savedAt": "2026-10-07T11:09:48.178Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "contabo-cloud-vps-4",
+    "requestId": "29180866-81bd-4112-9804-612b55ff0e6e",
+    "savedAt": "2026-10-07T11:09:48.178Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "hostinger-kvm-1",
+    "requestId": "a7403326-ef4e-4725-bca9-cce53ca1c3b4",
+    "savedAt": "2026-10-07T11:09:48.179Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "netcup-500-g12",
+    "requestId": "94600713-e999-4c94-864b-6ea459df2018",
+    "savedAt": "2026-10-07T11:09:48.179Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "cherry-servers-c-vps-2-g2",
+    "requestId": "021ccd08-bb7b-4456-8028-7c4bb2d44dbe",
+    "savedAt": "2026-10-07T11:09:48.180Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "privex-privex-v1-se-ssd",
+    "requestId": "e6434afa-8d32-4c01-9a1e-338f0351c195",
+    "savedAt": "2026-10-07T11:09:48.180Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "dreamhost-dh-stack4",
+    "requestId": "91793342-0015-4986-8b40-cf9134348eef",
+    "savedAt": "2026-10-07T11:09:48.181Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "flokinet-floki-ro-i",
+    "requestId": "c207ffdb-3e06-431a-b767-0c3652c03525",
+    "savedAt": "2026-10-07T11:09:48.181Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "cockbox-cb-hdd-ro-1",
+    "requestId": "c3988bea-fe74-4b7a-b5be-12a6a2409378",
+    "savedAt": "2026-10-07T11:09:48.181Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "20i-1-core",
+    "requestId": "2b1c1fa2-7aaf-48d0-ad50-2f1974ab8acb",
+    "savedAt": "2026-10-07T11:09:48.182Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "oracle-cloud-a1-flex-1-6",
+    "requestId": "c43a4e85-96e3-4acd-81cb-a94b1f4e7ddf",
+    "savedAt": "2026-10-07T11:09:48.182Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "atlantic-net-g3-2gb-win",
+    "requestId": "18268140-7473-444d-abf8-0839604156a1",
+    "savedAt": "2026-10-07T11:09:48.183Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "njalla-njalla-15",
+    "requestId": "271e9c53-826c-4b11-a4aa-4a2971b2942f",
+    "savedAt": "2026-10-07T11:09:48.183Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "scalahosting-scala-b1",
+    "requestId": "22cebd1b-e94a-4ebb-8e8a-a9c2c1b7642c",
+    "savedAt": "2026-10-07T11:09:48.184Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "fastcomet-cloud-1",
+    "requestId": "91bf2af2-86fa-481c-95ea-699090ca7364",
+    "savedAt": "2026-10-07T11:09:48.185Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "microsoft-azure-azure-b1s-free",
+    "requestId": "4852c930-2413-4505-9343-6114006524dc",
+    "savedAt": "2026-10-07T11:09:48.185Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "aws-ec2-ec2-t3-micro-free",
+    "requestId": "5422fc7c-646b-4196-96c8-a63bc6b8d2a2",
+    "savedAt": "2026-10-07T11:09:48.186Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "racknerd-kvm-512",
+    "requestId": "e286a65e-f434-4b4b-b1b3-9c4b4f4857a1",
+    "savedAt": "2026-10-07T11:09:48.186Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "ramnode-lite-2gb",
+    "requestId": "e33c3335-f489-4687-a730-c977ff9a7039",
+    "savedAt": "2026-10-07T11:09:48.186Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "racknerd-special-2gb",
+    "requestId": "cca78d1b-d467-4b3f-a1ec-faaa6e5459cc",
+    "savedAt": "2026-10-07T11:09:48.187Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "time4vps-linux-1",
+    "requestId": "94505dcc-f6f3-4de6-b031-2ec35cb05de8",
+    "savedAt": "2026-10-07T11:09:48.187Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "buyvm-slice-1024",
+    "requestId": "64239b3d-3455-4669-9975-f6dc6276e1b3",
+    "savedAt": "2026-10-07T11:09:48.188Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "ramnode-std-0.5gb",
+    "requestId": "4fa7fd28-dae5-4248-92af-c1dcff3c57a4",
+    "savedAt": "2026-10-07T11:09:48.188Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "hostkey-hostkey-nano",
+    "requestId": "8d6780ae-8d5e-4787-84cc-1a0ff057fdad",
+    "savedAt": "2026-10-07T11:09:48.189Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "alphavps-alpha-c4g",
+    "requestId": "8beaf969-09f3-4f07-8dbf-e136e0b00be4",
+    "savedAt": "2026-10-07T11:09:48.189Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "webdock-advanced",
+    "requestId": "ebf96cd9-9f04-415a-a677-756420fde44a",
+    "savedAt": "2026-10-07T11:09:48.189Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "racknerd-special-4gb",
+    "requestId": "9ee6965c-0661-4e13-84ad-e57998bb64fc",
+    "savedAt": "2026-10-07T11:09:48.190Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "ramnode-std-1gb",
+    "requestId": "996c85b1-a122-4907-86a3-b8cfded6138e",
+    "savedAt": "2026-10-07T11:09:48.190Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "time4vps-linux-4",
+    "requestId": "b25e7e69-3e50-48d1-b330-8943e1a71744",
+    "savedAt": "2026-10-07T11:09:48.191Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "alphavps-alpha-c6g",
+    "requestId": "7abbb82c-449c-47c7-bcac-5d831fdb66e5",
+    "savedAt": "2026-10-07T11:09:48.191Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "digitalocean-basic-1gb",
+    "requestId": "13f4a86a-3db1-4c04-8345-d296ea76600c",
+    "savedAt": "2026-10-07T11:09:48.191Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "greencloudvps-gcvps-ssdkvm-1",
+    "requestId": "fe658ae0-65c7-4b69-8b08-c56f5aa4b362",
+    "savedAt": "2026-10-07T11:09:48.192Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "ionos-vps-l-plus",
+    "requestId": "de2eb7ab-7927-45bd-8a93-25442a432890",
+    "savedAt": "2026-10-07T11:09:48.192Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "google-cloud-e2-micro",
+    "requestId": "7c967ddf-1aef-447f-a31d-4da384c0f031",
+    "savedAt": "2026-10-07T11:09:48.193Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "namecheap-pulsar",
+    "requestId": "bafc1244-1281-4f94-95ae-c9a4ed52a9ac",
+    "savedAt": "2026-10-07T11:09:48.195Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "upcloud-starter-1xcpu-2gb",
+    "requestId": "007509aa-5130-4e7e-be74-88faed1e5853",
+    "savedAt": "2026-10-07T11:09:48.195Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "leaseweb-vps-1-us",
+    "requestId": "a7708180-923c-41ab-9588-6fc1aafa6ce6",
+    "savedAt": "2026-10-07T11:09:48.196Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "aws-lightsail-ls-gp-micro-v4",
+    "requestId": "f09acf40-dec4-46ee-a4fa-f3f18fa08b5e",
+    "savedAt": "2026-10-07T11:09:48.196Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "buyvm-slice-2048",
+    "requestId": "1ad31c33-bf6b-4100-9f7e-807a03ec4130",
+    "savedAt": "2026-10-07T11:09:48.196Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "hostkey-hostkey-mini",
+    "requestId": "aaab5b5a-a35d-45ee-bc33-eb0737c03207",
+    "savedAt": "2026-10-07T11:09:48.197Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "racknerd-special-6gb",
+    "requestId": "62d3751e-6dee-45e9-b366-d3a0f29eee26",
+    "savedAt": "2026-10-07T11:09:48.197Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "alphavps-alpha-c8g",
+    "requestId": "5cc2841a-9ed0-4281-a406-a02cdb4162a3",
+    "savedAt": "2026-10-07T11:09:48.197Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "scaleway-dev1-s",
+    "requestId": "81625695-663a-4f7b-b81d-cffe566d6b37",
+    "savedAt": "2026-10-07T11:09:48.198Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "time4vps-linux-8",
+    "requestId": "9848af32-f1e6-4a13-b8f9-08f2016b602d",
+    "savedAt": "2026-10-07T11:09:48.198Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "ovhcloud-vps-2",
+    "requestId": "7717bd87-1ab3-4c7b-a38c-0c4adc5a0b0a",
+    "savedAt": "2026-10-07T11:09:48.198Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "contabo-cloud-vps-6",
+    "requestId": "2a009a0c-2269-4214-9c6b-1fab6be6e032",
+    "savedAt": "2026-10-07T11:09:48.199Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "hostinger-kvm-2",
+    "requestId": "768cb2c9-fa3c-4faa-8a47-98845a164213",
+    "savedAt": "2026-10-07T11:09:48.199Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "hostsailor-hs-sailor-nvme",
+    "requestId": "74f6668d-0bb3-4438-9879-855cb39cc61c",
+    "savedAt": "2026-10-07T11:09:48.199Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "clouding-io-clouding-2gb",
+    "requestId": "bd133681-a939-44af-971f-681aac0f40f1",
+    "savedAt": "2026-10-07T11:09:48.200Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "upcloud-starter-2xcpu-2gb",
+    "requestId": "dbdf3b9a-351b-4c32-969d-f21408f638f8",
+    "savedAt": "2026-10-07T11:09:48.200Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "hostkey-hostkey-v3-pico",
+    "requestId": "dac9ea23-2c25-40c1-9541-9249348e6428",
+    "savedAt": "2026-10-07T11:09:48.200Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "ssd-nodes-kvm-medium",
+    "requestId": "1ee8ae82-503e-497b-a980-1019f38ccdbc",
+    "savedAt": "2026-10-07T11:09:48.201Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "hostwinds-ul-2",
+    "requestId": "8b5a38f9-1ad2-4aea-86ad-f4f978473ac8",
+    "savedAt": "2026-10-07T11:09:48.201Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "knownhost-entry-plus",
+    "requestId": "62077dc2-306f-41fb-8bb8-bc44a2637b1c",
+    "savedAt": "2026-10-07T11:09:48.201Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "greencloudvps-gcvps-ryzenkvm-2",
+    "requestId": "76a1f020-02d5-4eea-8b73-a746a9f6c7b9",
+    "savedAt": "2026-10-07T11:09:48.202Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "greencloudvps-gcvps-ssdkvm-2",
+    "requestId": "54daebc0-8a42-47e5-bb47-db482e4dc412",
+    "savedAt": "2026-10-07T11:09:48.202Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "racknerd-special-8gb",
+    "requestId": "30d96983-1348-4220-84bd-74fffd0bcaa6",
+    "savedAt": "2026-10-07T11:09:48.202Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "ramnode-std-2gb",
+    "requestId": "ca21c77c-f0cf-4f39-9c7e-07d3781e9263",
+    "savedAt": "2026-10-07T11:09:48.203Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "privex-privex-v1-se-nvme",
+    "requestId": "20895e6e-1c7d-4c4d-b644-88d15de49955",
+    "savedAt": "2026-10-07T11:09:48.203Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "privex-privex-v2-se-ssd",
+    "requestId": "7554fa8d-b533-4009-ac0c-8478a416ca3e",
+    "savedAt": "2026-10-07T11:09:48.203Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "hostkey-hostkey-v3-nano",
+    "requestId": "1453b655-37d0-4c22-8091-036851d9eb2a",
+    "savedAt": "2026-10-07T11:09:48.204Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "alphavps-alpha-c12g",
+    "requestId": "56e1d429-61c2-406c-8e64-913c2e689726",
+    "savedAt": "2026-10-07T11:09:48.204Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "leaseweb-vps-2-eu",
+    "requestId": "d49f6b92-0c93-47a4-8e88-5a049d1cdfa0",
+    "savedAt": "2026-10-07T11:09:48.204Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "cherry-servers-c-vps-4-g2",
+    "requestId": "2874afd6-0c0a-4311-9e20-da8ec0d9480d",
+    "savedAt": "2026-10-07T11:09:48.205Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "leaseweb-vps-2-us",
+    "requestId": "db84781e-c0b0-458b-b1c5-fd3008c0eb54",
+    "savedAt": "2026-10-07T11:09:48.205Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "liquid-web-lw-2g",
+    "requestId": "cba47435-67f7-4e35-a58a-e830c65f533e",
+    "savedAt": "2026-10-07T11:09:48.205Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "ionos-vps-xl-plus",
+    "requestId": "70d0f200-c3d8-4da0-af3e-81f9a809550f",
+    "savedAt": "2026-10-07T11:09:48.206Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "ssd-nodes-kvm-2xl",
+    "requestId": "854fca03-08d6-4c12-b275-4745fc422ef9",
+    "savedAt": "2026-10-07T11:09:48.206Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "upcloud-starter-1xcpu-4gb",
+    "requestId": "54697b60-675f-40e3-b5cc-7656b19bee42",
+    "savedAt": "2026-10-07T11:09:48.206Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "interserver-4-slices",
+    "requestId": "648a771f-873a-4791-bd5d-6958f5b7ea31",
+    "savedAt": "2026-10-07T11:09:48.207Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "digitalocean-basic-2gb",
+    "requestId": "162b1a1b-07cc-4ee4-8726-4b5c859b7abe",
+    "savedAt": "2026-10-07T11:09:48.207Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "aws-lightsail-ls-gp-small-v4",
+    "requestId": "00dbfa46-88cc-46af-a3dc-a1dd32bbb6fb",
+    "savedAt": "2026-10-07T11:09:48.207Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "akamai-linode-g6-standard-1",
+    "requestId": "dec23495-4655-45b4-b332-4e48320e8f9b",
+    "savedAt": "2026-10-07T11:09:48.207Z",
+    "reviewStatus": "draft"
+  },
+  {
+    "offerId": "netcup-vps-1000-g12",
+    "requestId": "c9e940e5-bd41-4e6b-8c22-ada776046cf7",
+    "savedAt": "2026-10-07T11:09:48.208Z",
+    "reviewStatus": "draft"
+  }
+]

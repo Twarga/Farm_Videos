@@ -1,0 +1,34 @@
+{
+  "version": "13.5.0",
+  "url": "http://127.0.0.1:3109/catalog",
+  "performance_score": 0.94,
+  "form_factor": "mobile",
+  "screen_emulation": {
+    "mobile": true,
+    "width": 390,
+    "height": 844,
+    "deviceScaleFactor": 1.75,
+    "disabled": false
+  },
+  "throttling": {
+    "rttMs": 150,
+    "throughputKbps": 1638.4,
+    "requestLatencyMs": 562.5,
+    "downloadThroughputKbps": 1474.5600000000002,
+    "uploadThroughputKbps": 675,
+    "cpuSlowdownMultiplier": 4
+  },
+  "lcp_ms": 2567.64795,
+  "fcp_ms": 1115.88265,
+  "tbt_ms": 132.50000000000023,
+  "cls": 0.09123222748815166,
+  "speed_index_ms": 1406.7800032621449,
+  "warnings": [
+    "The page loaded too slowly to finish within the time limit. Results may be incomplete."
+  ],
+  "runtime_error": null,
+  "next_version": "16.3.6",
+  "data_mode": "published current-data SQLite backup in /tmp",
+  "raw_html_bytes": 258141,
+  "full_report": "/tmp/bestvpsforme-e2e/goal-lighthouse-catalog.json"
+}

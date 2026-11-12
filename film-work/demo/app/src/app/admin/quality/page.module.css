@@ -1,0 +1,14 @@
+.summary { margin: 0 0 20px; color: var(--text-muted); }
+.summary strong { color: var(--text); }
+.groups { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 10px; margin-bottom: 20px; }
+.groups a { display: grid; gap: 8px; padding: 14px; border: 1px solid var(--hair); border-radius: 10px; background: var(--surface); color: var(--text); text-decoration: none; }
+.groups a[aria-current="page"] { border-color: var(--brand); }
+.groups a[data-severity="blocking"] { border-left: 3px solid var(--catch); }
+.groups a strong { font-size: 20px; }
+.groups a small { color: var(--text-muted); }
+.count { color: var(--text-muted); font-size: 13px; }
+.scroll { max-width: 100%; overflow: auto; border: 1px solid var(--hair); border-radius: 10px; }
+.table { width: 100%; min-width: 650px; border-collapse: collapse; text-align: left; }
+.table th, .table td { padding: 12px; border-bottom: 1px solid var(--hair); vertical-align: top; }
+.table thead { background: var(--surface); }
+.pages { display: flex; justify-content: space-between; gap: 12px; margin-top: 20px; }

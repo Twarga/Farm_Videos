@@ -1,0 +1,4 @@
+duration: 501.2s
+words: 1219
+wpm: 146
+beats: 140

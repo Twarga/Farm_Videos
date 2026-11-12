@@ -1,0 +1,555 @@
+[
+  {
+    "provider": "RackNerd",
+    "plan_slug": "kvm-512",
+    "url": "https://www.racknerd.com/kvm-vps",
+    "excerpt": "| 512 MB RAM | 1 vCore | 30 GB RAID-10 SSD | 500 GB @ 1Gbps | 1 Free IP | $26.99 /year |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "RackNerd",
+    "plan_slug": "kvm-1gb",
+    "url": "https://www.racknerd.com/kvm-vps",
+    "excerpt": "| 1 GB RAM | 2 vCore | 50 GB RAID-10 SSD | 1 TB @ 1Gbps | 1 Free IP | $17.99 /month |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "RackNerd",
+    "plan_slug": "kvm-2gb",
+    "url": "https://www.racknerd.com/kvm-vps",
+    "excerpt": "| 2 GB RAM | 3 vCore | 75 GB RAID-10 SSD | 2 TB @ 1Gbps | 1 Free IP | $20.59 /month |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "RackNerd",
+    "plan_slug": "kvm-4gb",
+    "url": "https://www.racknerd.com/kvm-vps",
+    "excerpt": "| 4 GB RAM | 4 vCore | 130 GB RAID-10 SSD | 3 TB @ 1Gbps | 1 Free IP | $24.59 /month |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "RackNerd",
+    "plan_slug": "kvm-6gb",
+    "url": "https://www.racknerd.com/kvm-vps",
+    "excerpt": "| 6 GB RAM | 5 vCore | 170 GB RAID-10 SSD | 4 TB @ 1Gbps | 1 Free IP | $27.59 /month |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "RackNerd",
+    "plan_slug": "kvm-8gb",
+    "url": "https://www.racknerd.com/kvm-vps",
+    "excerpt": "| 8 GB RAM | 6 vCore | 220 GB RAID-10 SSD | 5 TB @ 1Gbps | 1 Free IP | $36.59 /month |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "RackNerd",
+    "plan_slug": "kvm-12gb",
+    "url": "https://www.racknerd.com/kvm-vps",
+    "excerpt": "| 12 GB RAM | 7 vCore | 300 GB RAID-10 SSD | 6 TB @ 1Gbps | 1 Free IP | $55.99 /month |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "RackNerd",
+    "plan_slug": "special-1gb",
+    "url": "https://www.racknerd.com/specials/",
+    "excerpt": "1 GB KVM VPS $21.99/year - 1 vCPU Core - 20 GB SSD Storage - 1 GB RAM - 3 TB Monthly Transfer - 1Gbps Network Port - 1 IPv4 Address",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "RackNerd",
+    "plan_slug": "special-2gb",
+    "url": "https://www.racknerd.com/specials/",
+    "excerpt": "2 GB KVM VPS $35.99/year - 2 vCPU Cores - 35 GB SSD Storage - 2 GB RAM - 5 TB Monthly Transfer - 1Gbps Network Port - 1 IPv4 Address",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "RackNerd",
+    "plan_slug": "special-4gb",
+    "url": "https://www.racknerd.com/specials/",
+    "excerpt": "4 GB KVM VPS $59.99/year - 3 vCPU Cores - 60 GB SSD Storage - 4 GB RAM - 7 TB Monthly Transfer - 1Gbps Network Port - 1 IPv4 Address",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "RackNerd",
+    "plan_slug": "special-6gb",
+    "url": "https://www.racknerd.com/specials/",
+    "excerpt": "6 GB KVM VPS $89.99/year - 6 vCPU Cores - 100 GB SSD Storage - 6 GB RAM - 12 TB Monthly Transfer - 1Gbps Network Port - 1 IPv4 Address",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "RackNerd",
+    "plan_slug": "special-8gb",
+    "url": "https://www.racknerd.com/specials/",
+    "excerpt": "8 GB KVM VPS $119.99/year - 7 vCPU Cores - 150 GB SSD Storage - 8 GB RAM - 20 TB Monthly Transfer - 1Gbps Network Port - 1 IPv4 Address",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "BuyVM",
+    "plan_slug": "slice-512",
+    "url": "https://buyvm.net/kvm-dedicated-server-slices/",
+    "excerpt": "SLICE 512 - 1 Core @ 3.50+ GHz - Fair Share (~15% physical CPU) - 512 MB Memory - 10 GB SSD Storage - Unmetered Bandwidth - 1 IPv4 Address - $24.00 per year",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "BuyVM",
+    "plan_slug": "slice-1024",
+    "url": "https://buyvm.net/kvm-dedicated-server-slices/",
+    "excerpt": "SLICE 1024 - 1 Core @ 3.50+ GHz - Fair Share (~25% physical CPU) - 1024 MB Memory - 20 GB SSD Storage - Unmetered Bandwidth - 1 IPv4 Address - $3.50 per month",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "BuyVM",
+    "plan_slug": "slice-2048",
+    "url": "https://buyvm.net/kvm-dedicated-server-slices/",
+    "excerpt": "SLICE 2048 - 1 Core @ 3.50+ GHz - Fair Share (~50% physical CPU) - 2048 MB Memory - 40 GB SSD Storage - Unmetered Bandwidth - 1 IPv4 Address - $7.00 per month",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "BuyVM",
+    "plan_slug": "slice-4096",
+    "url": "https://buyvm.net/kvm-dedicated-server-slices/",
+    "excerpt": "SLICE 4096 - 1 Core @ 3.50+ GHz - Dedicated CPU Usage - 4096 MB Memory - 80 GB SSD Storage - Unmetered Bandwidth - 1 IPv4 Address - $15.00 per month",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "BuyVM",
+    "plan_slug": "hv-8gb",
+    "url": "https://buyvm.net/kvm-dedicated-server-slices/",
+    "excerpt": "HIGH VOLUME VPS PLANS | 2 Cores @ 3.50+ GHz | 8 GB Memory | 160 GB SSD | Unlim. 1000 Mbps | $30.00 / month",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "BuyVM",
+    "plan_slug": "hv-12gb",
+    "url": "https://buyvm.net/kvm-dedicated-server-slices/",
+    "excerpt": "HIGH VOLUME VPS PLANS | 3 Cores @ 3.50+ GHz | 12 GB Memory | 240 GB SSD | Unlim. 1000 Mbps | $45.00 / month",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "BuyVM",
+    "plan_slug": "hv-16gb",
+    "url": "https://buyvm.net/kvm-dedicated-server-slices/",
+    "excerpt": "HIGH VOLUME VPS PLANS | 4 Cores @ 3.50+ GHz | 16 GB Memory | 320 GB SSD | Unlim. 1000 Mbps | $60.00 / month",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "BuyVM",
+    "plan_slug": "hv-20gb",
+    "url": "https://buyvm.net/kvm-dedicated-server-slices/",
+    "excerpt": "HIGH VOLUME VPS PLANS | 5 Cores @ 3.50+ GHz | 20 GB Memory | 400 GB SSD | Unlim. 1000 Mbps | $75.00 / month",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "BuyVM",
+    "plan_slug": "hv-24gb",
+    "url": "https://buyvm.net/kvm-dedicated-server-slices/",
+    "excerpt": "HIGH VOLUME VPS PLANS | 6 Cores @ 3.50+ GHz | 24 GB Memory | 480 GB SSD | Unlim. 1000 Mbps | $90.00 / month",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "BuyVM",
+    "plan_slug": "hv-28gb",
+    "url": "https://buyvm.net/kvm-dedicated-server-slices/",
+    "excerpt": "HIGH VOLUME VPS PLANS | 7 Cores @ 3.50+ GHz | 28 GB Memory | 560 GB SSD | Unlim. 1000 Mbps | $105.00 / month",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "RamNode",
+    "plan_slug": "std-0.5gb",
+    "url": "https://ramnode.com/products/cloud-vps",
+    "excerpt": "| 512MB | 1 Core | 20GB | 1TB | $4/mo ($0.006/hr) |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "RamNode",
+    "plan_slug": "std-1gb",
+    "url": "https://ramnode.com/products/cloud-vps",
+    "excerpt": "| 1GB | 1 Core | 40GB | 2TB | $5/mo ($0.007/hr) |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "RamNode",
+    "plan_slug": "std-2gb",
+    "url": "https://ramnode.com/products/cloud-vps",
+    "excerpt": "| 2GB | 2 Cores | 80GB | 4TB | $10/mo ($0.015/hr) |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "RamNode",
+    "plan_slug": "std-3gb",
+    "url": "https://ramnode.com/products/cloud-vps",
+    "excerpt": "| 3GB | 2 Cores | 100GB | 6TB | $15/mo ($0.022/hr) |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "RamNode",
+    "plan_slug": "std-4gb",
+    "url": "https://ramnode.com/products/cloud-vps",
+    "excerpt": "| 4GB | 4 Cores | 120GB | 8TB | $20/mo ($0.030/hr) |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "RamNode",
+    "plan_slug": "std-6gb",
+    "url": "https://ramnode.com/products/cloud-vps",
+    "excerpt": "| 6GB | 4 Cores | 160GB | 10TB | $30/mo ($0.045/hr) |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "RamNode",
+    "plan_slug": "std-8gb",
+    "url": "https://ramnode.com/products/cloud-vps",
+    "excerpt": "| 8GB | 4 Cores | 180GB | 12TB | $40/mo ($0.060/hr) |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "RamNode",
+    "plan_slug": "std-16gb",
+    "url": "https://ramnode.com/products/cloud-vps",
+    "excerpt": "| 16GB | 8 Cores | 260GB | 14TB | $80/mo ($0.119/hr) |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "RamNode",
+    "plan_slug": "lite-1gb",
+    "url": "https://ramnode.com/products/cloud-vps",
+    "excerpt": "| 1GB | 1 Core | 15GB | 500GB | $2/mo ($0.003/hr) | Lite Cloud VPS – Entry-Level from $2/mo IPv6 included · +$2/mo for IPv4",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "RamNode",
+    "plan_slug": "lite-2gb",
+    "url": "https://ramnode.com/products/cloud-vps",
+    "excerpt": "| 2GB | 1 Core | 20GB | 500GB | $3/mo ($0.004/hr) | Lite Cloud VPS – Entry-Level from $2/mo IPv6 included · +$2/mo for IPv4",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "GreenCloudVPS",
+    "plan_slug": "gcvps-ssdkvm-1",
+    "url": "https://greencloudvps.com/budget-kvm-vps.php",
+    "excerpt": "| SSDKVM-1 | 15GB SSD | 1 core | 1GB | 1.5 TB | 10Gbps Port | Linux | 24/7/365 | $6/mo |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "GreenCloudVPS",
+    "plan_slug": "gcvps-ssdkvm-2",
+    "url": "https://greencloudvps.com/budget-kvm-vps.php",
+    "excerpt": "| SSDKVM-2 | 15GB SSD | 1 core | 2 GB | 2 TB | 10Gbps Port | Linux | 24/7/365 | $10/mo |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "GreenCloudVPS",
+    "plan_slug": "gcvps-ssdkvm-3",
+    "url": "https://greencloudvps.com/budget-kvm-vps.php",
+    "excerpt": "| SSDKVM-3 | 30GB SSD | 2 cores | 4 GB | 4 TB | 10Gbps Port | Linux | 24/7/365 | $20/mo |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "GreenCloudVPS",
+    "plan_slug": "gcvps-ssdkvm-4",
+    "url": "https://greencloudvps.com/budget-kvm-vps.php",
+    "excerpt": "| SSDKVM-4 | 60GB SSD | 4 cores | 8 GB | 8 TB | 10Gbps Port | Linux | 24/7/365 | $40/mo |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "GreenCloudVPS",
+    "plan_slug": "gcvps-ssdkvm-5",
+    "url": "https://greencloudvps.com/budget-kvm-vps.php",
+    "excerpt": "| SSDKVM-5 | 120GB SSD | 8 cores | 16 GB | 12 TB | 10Gbps Port | Linux | 24/7/365 | $80/mo |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "GreenCloudVPS",
+    "plan_slug": "gcvps-ryzenkvm-1",
+    "url": "https://greencloudvps.com/ryzen-kvm-vps.php",
+    "excerpt": "| RyzenKVM-1 | 15GB NVMe | 1 core @ 3.5+ GHz | 1GB | 1.5 TB | 10Gbps Port | Linux | 24/7/365 | $6/mo |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "GreenCloudVPS",
+    "plan_slug": "gcvps-ryzenkvm-2",
+    "url": "https://greencloudvps.com/ryzen-kvm-vps.php",
+    "excerpt": "| RyzenKVM-2 | 30GB NVMe | 1 core @ 3.5+ GHz | 2 GB | 2 TB | 10Gbps Port | Linux | 24/7/365 | $10/mo |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "GreenCloudVPS",
+    "plan_slug": "gcvps-ryzenkvm-3",
+    "url": "https://greencloudvps.com/ryzen-kvm-vps.php",
+    "excerpt": "| RyzenKVM-3 | 50GB NVMe | 2 cores @ 3.5+ GHz | 4 GB | 4 TB | 10Gbps Port | Linux | 24/7/365 | $20/mo |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "GreenCloudVPS",
+    "plan_slug": "gcvps-ryzenkvm-4",
+    "url": "https://greencloudvps.com/ryzen-kvm-vps.php",
+    "excerpt": "| RyzenKVM-4 | 80GB NVMe | 4 cores @ 3.5+ GHz | 8 GB | 8 TB | 10Gbps Port | Linux | 24/7/365 | $40/mo |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "GreenCloudVPS",
+    "plan_slug": "gcvps-ryzenkvm-5",
+    "url": "https://greencloudvps.com/ryzen-kvm-vps.php",
+    "excerpt": "| RyzenKVM-5 | 150GB NVMe | 8 cores @ 3.5+ GHz | 16 GB | 12 TB | 10Gbps Port | Linux | 24/7/365 | $80/mo |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "HostHatch",
+    "plan_slug": "hh-nvme-2",
+    "url": "https://hosthatch.com/products",
+    "excerpt": "{label:\"NVMe 2 GB\",price:{value:4,currency:\"USD\",cycle:\"month\"},hardware:{cpu:{value:1,label:\"1 AMD EPYC core\",note:\"( fair share )\"},ram:{value:2,unit:\"GB\"},storage:{value:10,unit:\"GB\"},bandwidth:{value:1,unit:\"TB\",tooltip:\"500GB in Hong Kong, Tokyo, Sydney & Singapore\"}}}",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "HostHatch",
+    "plan_slug": "hh-nvme-4",
+    "url": "https://hosthatch.com/products",
+    "excerpt": "{label:\"NVMe 4 GB\",price:{value:6,currency:\"USD\",cycle:\"month\"},hardware:{cpu:{value:2,label:\"2 AMD EPYC cores\",note:\"( fair share )\"},ram:{value:4,unit:\"GB\"},storage:{value:20,unit:\"GB\"},bandwidth:{value:1,unit:\"TB\"}}}",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "HostHatch",
+    "plan_slug": "hh-nvme-8",
+    "url": "https://hosthatch.com/products",
+    "excerpt": "{label:\"NVMe 8 GB\",price:{value:9,currency:\"USD\",cycle:\"month\"},hardware:{cpu:{value:2,label:\"2 AMD EPYC cores\",note:\"( fair share )\"},ram:{value:8,unit:\"GB\"},storage:{value:35,unit:\"GB\"},bandwidth:{value:2,unit:\"TB\"}}}",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "HostHatch",
+    "plan_slug": "hh-nvme-12",
+    "url": "https://hosthatch.com/products",
+    "excerpt": "{label:\"NVMe 12 GB\",price:{value:12,currency:\"USD\",cycle:\"month\"},hardware:{cpu:{value:4,label:\"4 AMD EPYC cores\",note:\"( 1 dedicated, 3 fair-shared cores )\"},ram:{value:12,unit:\"GB\"},storage:{value:50,unit:\"GB\"},bandwidth:{value:3,unit:\"TB\"}}}",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "HostHatch",
+    "plan_slug": "hh-nvme-16",
+    "url": "https://hosthatch.com/products",
+    "excerpt": "{label:\"NVMe 16 GB\",price:{value:15,currency:\"USD\",cycle:\"month\"},hardware:{cpu:{value:4,label:\"4 AMD EPYC cores\",note:\"( 2 dedicated, 2 fair-shared cores )\"},ram:{value:16,unit:\"GB\"},storage:{value:75,unit:\"GB\"},bandwidth:{value:4,unit:\"TB\"}}}",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "HostHatch",
+    "plan_slug": "hh-nvme-24",
+    "url": "https://hosthatch.com/products",
+    "excerpt": "{label:\"NVMe 24 GB\",price:{value:22,currency:\"USD\",cycle:\"month\"},hardware:{cpu:{value:6,label:\"6 AMD EPYC cores\",note:\"( 2 dedicated, 4 fair-shared cores )\"},ram:{value:24,unit:\"GB\"},storage:{value:100,unit:\"GB\"},bandwidth:{value:6,unit:\"TB\"}}}",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "HostHatch",
+    "plan_slug": "hh-nvme-32",
+    "url": "https://hosthatch.com/products",
+    "excerpt": "{label:\"NVMe 32 GB\",price:{value:29,currency:\"USD\",cycle:\"month\"},hardware:{cpu:{value:8,label:\"8 AMD EPYC cores\",note:\"( 3 dedicated, 5 fair-shared cores )\"},ram:{value:32,unit:\"GB\"},storage:{value:125,unit:\"GB\"},bandwidth:{value:8,unit:\"TB\"}}}",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "HostHatch",
+    "plan_slug": "hh-nvme-48",
+    "url": "https://hosthatch.com/products",
+    "excerpt": "{label:\"NVMe 48 GB\",price:{value:39,currency:\"USD\",cycle:\"month\"},hardware:{cpu:{value:8,label:\"8 AMD EPYC cores\",note:\"( 4 dedicated, 4 fair-shared cores )\"},ram:{value:48,unit:\"GB\"},storage:{value:150,unit:\"GB\"},bandwidth:{value:12,unit:\"TB\"}}}",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "HostHatch",
+    "plan_slug": "hh-nvme-64",
+    "url": "https://hosthatch.com/products",
+    "excerpt": "{label:\"NVMe 64 GB\",price:{value:49,currency:\"USD\",cycle:\"month\"},hardware:{cpu:{value:12,label:\"12 AMD EPYC cores\",note:\"( 6 dedicated, 6 fair-shared cores )\"},ram:{value:64,unit:\"GB\"},storage:{value:200,unit:\"GB\"},bandwidth:{value:15,unit:\"TB\"}}}",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "HostHatch",
+    "plan_slug": "hh-nvme-96",
+    "url": "https://hosthatch.com/products",
+    "excerpt": "{label:\"NVMe 96 GB\",price:{value:69,currency:\"USD\",cycle:\"month\"},hardware:{cpu:{value:16,label:\"16 AMD EPYC cores\",note:\"( 8 dedicated, 8 fair-shared cores )\"},ram:{value:96,unit:\"GB\"},storage:{value:250,unit:\"GB\"},bandwidth:{value:20,unit:\"TB\"}}}",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "HostHatch",
+    "plan_slug": "hh-storage-1tb",
+    "url": "https://hosthatch.com/products",
+    "excerpt": "{label:\"Storage 1TB\",price:{value:5,currency:\"USD\",cycle:\"month\"},locations:{AMS:o.VO,STO:o.dJ,LAX:r.U,CHI:r.c},hardware:{cpu:{value:1,label:\"1 vCPU core\"},ram:{value:1024,unit:\"MB\"},storage:{value:1000,unit:\"GB\"},bandwidth:{value:2500,unit:\"GB\"}}}",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "HostHatch",
+    "plan_slug": "hh-storage-2tb",
+    "url": "https://hosthatch.com/products",
+    "excerpt": "{label:\"Storage 2TB\",price:{value:9,currency:\"USD\",cycle:\"month\"},locations:{AMS:o.VO,STO:o.dJ,LAX:r.U,CHI:r.c},hardware:{cpu:{value:1,label:\"1 vCPU core\"},ram:{value:1024,unit:\"MB\"},storage:{value:2000,unit:\"GB\"},bandwidth:{value:5000,unit:\"GB\"}}}",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "HostHatch",
+    "plan_slug": "hh-storage-3tb",
+    "url": "https://hosthatch.com/products",
+    "excerpt": "{label:\"Storage 3TB\",price:{value:12,currency:\"USD\",cycle:\"month\"},locations:{AMS:o.VO,STO:o.dJ,LAX:r.U,CHI:r.c},hardware:{cpu:{value:1,label:\"1 vCPU core\"},ram:{value:2048,unit:\"MB\"},storage:{value:3000,unit:\"GB\"},bandwidth:{value:7500,unit:\"GB\"}}}",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "HostHatch",
+    "plan_slug": "hh-storage-4tb",
+    "url": "https://hosthatch.com/products",
+    "excerpt": "{label:\"Storage 4TB\",price:{value:16,currency:\"USD\",cycle:\"month\"},locations:{AMS:o.VO,STO:o.dJ,LAX:r.U,CHI:r.c},hardware:{cpu:{value:2,label:\"2 vCPU cores\"},ram:{value:2048,unit:\"MB\"},storage:{value:4000,unit:\"GB\"},bandwidth:{value:10000,unit:\"GB\"}}}",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "HostHatch",
+    "plan_slug": "hh-storage-5tb",
+    "url": "https://hosthatch.com/products",
+    "excerpt": "{label:\"Storage 5TB\",price:{value:20,currency:\"USD\",cycle:\"month\"},locations:{AMS:o.VO,STO:o.dJ,LAX:r.U,CHI:r.c},hardware:{cpu:{value:2,label:\"2 vCPU cores\"},ram:{value:2048,unit:\"MB\"},storage:{value:5000,unit:\"GB\"},bandwidth:{value:12500,unit:\"GB\"}}}",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "HostHatch",
+    "plan_slug": "hh-storage-6tb",
+    "url": "https://hosthatch.com/products",
+    "excerpt": "{label:\"Storage 6TB\",price:{value:24,currency:\"USD\",cycle:\"month\"},locations:{AMS:o.VO,STO:o.dJ,LAX:r.U,CHI:r.c},hardware:{cpu:{value:2,label:\"2 vCPU cores\"},ram:{value:2048,unit:\"MB\"},storage:{value:6000,unit:\"GB\"},bandwidth:{value:15000,unit:\"GB\"}}}",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "HostHatch",
+    "plan_slug": "hh-storage-8tb",
+    "url": "https://hosthatch.com/products",
+    "excerpt": "{label:\"Storage 8TB\",price:{value:32,currency:\"USD\",cycle:\"month\"},locations:{AMS:o.VO,STO:o.dJ,LAX:r.U,CHI:r.c},hardware:{cpu:{value:2,label:\"2 vCPU cores\"},ram:{value:2048,unit:\"MB\"},storage:{value:8000,unit:\"GB\"},bandwidth:{value:20000,unit:\"GB\"}}}",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "HostHatch",
+    "plan_slug": "hh-storage-10tb",
+    "url": "https://hosthatch.com/products",
+    "excerpt": "{label:\"Storage 10TB\",price:{value:38,currency:\"USD\",cycle:\"month\"},locations:{AMS:o.VO,STO:o.dJ,LAX:r.U,CHI:r.c},hardware:{cpu:{value:2,label:\"2 vCPU cores\"},ram:{value:2048,unit:\"MB\"},storage:{value:10000,unit:\"GB\"},bandwidth:{value:25000,unit:\"GB\"}}}",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "AlphaVPS",
+    "plan_slug": "alpha-c2g",
+    "url": "https://alphavps.com/cheap-vps",
+    "excerpt": "C2G Xeon Scalable 2 GB 2 vCPU 30 GB NVMe 3 TB @ 10G Monthly €2.99 Annual €2.54/mo · €30.50/YR",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "AlphaVPS",
+    "plan_slug": "alpha-c4g",
+    "url": "https://alphavps.com/cheap-vps",
+    "excerpt": "C4G Xeon Scalable 4 GB 2 vCPU 40 GB NVMe 5 TB @ 10G Monthly €3.99 Annual €3.39/mo · €40.70/YR",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "AlphaVPS",
+    "plan_slug": "alpha-c6g",
+    "url": "https://alphavps.com/cheap-vps",
+    "excerpt": "C6G Xeon Scalable 6 GB 3 vCPU 55 GB NVMe 6 TB @ 10G Monthly €4.99 Annual €4.24/mo · €50.90/YR",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "AlphaVPS",
+    "plan_slug": "alpha-c8g",
+    "url": "https://alphavps.com/cheap-vps",
+    "excerpt": "C8G Xeon Scalable 8 GB 4 vCPU 75 GB NVMe 8 TB @ 10G Monthly €6.49 Annual €5.52/mo · €66.20/YR",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "AlphaVPS",
+    "plan_slug": "alpha-c12g",
+    "url": "https://alphavps.com/cheap-vps",
+    "excerpt": "C12G Xeon Scalable 12 GB 4 vCPU 100 GB NVMe 10 TB @ 10G Monthly €8.99 Annual €7.64/mo · €91.70/YR",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "AlphaVPS",
+    "plan_slug": "alpha-c16g",
+    "url": "https://alphavps.com/cheap-vps",
+    "excerpt": "C16G Xeon Scalable 16 GB 6 vCPU 140 GB NVMe 12 TB @ 10G Monthly €11.99 Annual €10.19/mo · €122.30/YR",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "AlphaVPS",
+    "plan_slug": "alpha-c24g",
+    "url": "https://alphavps.com/cheap-vps",
+    "excerpt": "C24G Xeon Scalable 24 GB 8 vCPU 180 GB NVMe 15 TB @ 10G Monthly €16.99 Annual €14.44/mo · €173.30/YR",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "AlphaVPS",
+    "plan_slug": "alpha-c32g",
+    "url": "https://alphavps.com/cheap-vps",
+    "excerpt": "C32G Xeon Scalable 32 GB 8 vCPU 240 GB NVMe 20 TB @ 10G Monthly €22.99 Annual €19.54/mo · €234.50/YR",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Evolution Host",
+    "plan_slug": "evo-starter",
+    "url": "https://evolution-host.com/vps-hosting.php",
+    "excerpt": "€5 Starter Monthly VPS Plan 1 CPU Core at 4Ghz+ 1GB DDR5 RAM 20GB NVMe SSD 1Gb/s Port 10TB Monthly Transfer EvoShield Level 1 Linux Distributions",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Evolution Host",
+    "plan_slug": "evo-developer",
+    "url": "https://evolution-host.com/vps-hosting.php",
+    "excerpt": "€10 Developer Monthly VPS Plan 2 CPU Cores at 4Ghz+ 2GB DDR5 RAM 20GB NVMe SSD 1Gb/s Port 20TB Monthly Transfer EvoShield Level 1 Linux Distributions",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Evolution Host",
+    "plan_slug": "evo-production",
+    "url": "https://evolution-host.com/vps-hosting.php",
+    "excerpt": "€20 Production Monthly VPS Plan 3 CPU Cores at 4Ghz+ 3GB DDR5 RAM 60GB NVMe SSD 1Gb/s Port 30TB Monthly Transfer EvoShield Level 2 Linux Distributions",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Evolution Host",
+    "plan_slug": "evo-business",
+    "url": "https://evolution-host.com/vps-hosting.php",
+    "excerpt": "€40 Business Monthly VPS Plan 4 CPU Cores at 4Ghz+ 4GB DDR5 RAM 80GB NVMe SSD 1Gb/s Port 60TB Monthly Transfer EvoShield Level 2 Linux or Windows",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Evolution Host",
+    "plan_slug": "evo-professional",
+    "url": "https://evolution-host.com/vps-hosting.php",
+    "excerpt": "€60 Professional Monthly VPS Plan 8 CPU Cores at 4Ghz+ 8GB DDR5 RAM 120GB NVMe SSD 1Gb/s Port 70TB Monthly Transfer EvoShield Level 3 Linux or Windows",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Evolution Host",
+    "plan_slug": "evo-enterprise",
+    "url": "https://evolution-host.com/vps-hosting.php",
+    "excerpt": "€80 Enterprise Monthly VPS Plan 12 CPU Cores at 4Ghz+ 12GB DDR5 RAM 160GB NVMe SSD 1Gb/s Port 80TB Monthly Transfer EvoShield Level 3 Linux or Windows",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Evolution Host",
+    "plan_slug": "evo-ultimate",
+    "url": "https://evolution-host.com/vps-hosting.php",
+    "excerpt": "€100 Ultimate Monthly VPS Plan 16 CPU Cores at 4Ghz+ 16GB DDR5 RAM 200GB NVMe SSD 1Gb/s Port 100TB Monthly Transfer EvoShield Level 3 Linux or Windows",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "EDIS Global",
+    "plan_slug": "edis-vie-smart",
+    "url": "https://www.edisglobal.com/vps-hosting/austria-vienna",
+    "excerpt": "KVM Smart €4.99/ month Excl. VAT - RAM 1 GB - SSD 15 GB - CPU 1 vCPU (Intel®) - Traffic 1 TB - Uplink 2 × 10 Gbps",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "EDIS Global",
+    "plan_slug": "edis-vie-starter",
+    "url": "https://www.edisglobal.com/vps-hosting/austria-vienna",
+    "excerpt": "KVM Starter €8.49/ month Excl. VAT - RAM 2 GB - SSD 20 GB - CPU 1 vCPU (Intel®) - Traffic 2 TB - Uplink 2 × 10 Gbps",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "EDIS Global",
+    "plan_slug": "edis-vie-basic",
+    "url": "https://www.edisglobal.com/vps-hosting/austria-vienna",
+    "excerpt": "KVM Basic €10.49/ month Excl. VAT - RAM 4 GB - SSD 45 GB - CPU 1 vCPU (Intel®) - Traffic 4 TB - Uplink 2 × 10 Gbps",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "EDIS Global",
+    "plan_slug": "edis-vie-basic-plus",
+    "url": "https://www.edisglobal.com/vps-hosting/austria-vienna",
+    "excerpt": "KVM Basic Plus €14.69/ month Excl. VAT - RAM 4 GB - SSD 45 GB - CPU 2 vCPU (Intel®) - Traffic 4 TB - Uplink 2 × 10 Gbps",
+    "checked_date": "2026-11-01"
+  }
+]

@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Provider — IONOS — bestvpsforme</title>
+<link rel="icon" href="../logo/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/bvf.css">
+<style>
+  .phero { padding: 48px 0 40px; display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 40px; align-items: end; }
+  .phero__id { display: flex; gap: 24px; align-items: center; }
+  .phero__id .pmark { --size: 104px; }
+  .phero p.lede { margin-top: 20px; max-width: 58ch; color: var(--fg-muted); }
+  .pstats { display: grid; grid-template-columns: repeat(5, 1fr); border-block: 1px solid var(--border); }
+  .pstats > div { padding: 22px 24px 22px 0; }
+  .pstats > div + div { padding-left: 24px; border-left: 1px solid var(--border); }
+  .pstats span { display: block; font: 600 11.5px/1 var(--font-sans); letter-spacing: .07em; text-transform: uppercase; color: var(--fg-subtle); }
+  .pstats b { display: block; margin-top: 12px; font: 650 26px/1 var(--font-mono); letter-spacing: -.03em; }
+  .pstats small { display: block; margin-top: 6px; font: 480 13px/1.3 var(--font-sans); color: var(--fg-muted); }
+  .know { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 48px; }
+  .know > div { padding: 24px; border-radius: var(--r-xl); border: 1px solid var(--border); }
+  .know h3 { display: flex; gap: 10px; align-items: center; font: 700 16px/1 var(--font-sans); font-stretch: 108%; }
+  .know h3 svg { width: 19px; height: 19px; }
+  .know p { margin-top: 12px; font: 480 15px/1.5 var(--font-sans); color: var(--fg-muted); }
+  .know .bad { background: var(--catch-bg); border-color: transparent; }
+  .know .bad h3 { color: var(--catch-fg); }
+  .know .good h3 { color: var(--ok); }
+  .plist { margin-top: 64px; }
+  @media (max-width: 900px) { .phero { grid-template-columns: 1fr; } .pstats { grid-template-columns: 1fr 1fr; } .pstats > div:nth-child(odd) { padding-left: 0; border-left: 0; } .know { grid-template-columns: 1fr; } .phero__id .pmark { --size: 72px; } .dtable .c-spec, .dtable .c-trust { display: none; } }
+</style>
+</head>
+<body>
+<header class="nav">
+  <div class="container--wide nav__in">
+    <a class="nav__logo" href="home.html" aria-label="bestvpsforme home"><img src="../logo/lockup-horizontal-light.svg" alt="bestvpsforme" data-logo></a>
+    <nav class="nav__links" aria-label="Primary"><a href="catalog.html">Plans</a><a href="compare.html">Compare</a><a href="provider.html" aria-current="page">Providers</a><a href="guide.html">Guides</a><a href="methodology.html">How we check</a></nav>
+    <button class="nav__search" type="button" data-open-palette><i data-icon="search"></i>Search 314 plans, 41 providers…<span class="kbd">⌘K</span></button>
+    <div class="row nav__right" style="--gap:6px"><a class="btn btn--line btn--sm nav__compare" href="compare.html"><i data-icon="compare"></i>Compare <span class="nav__count">0</span></a><button class="btn btn--ghost btn--icon" type="button" data-theme-toggle aria-label="Switch theme"><i data-icon="moon"></i></button></div>
+  </div>
+</header>
+<main class="container--wide">
+  <section class="phero">
+    <div>
+      <div class="phero__id"><span class="pmark"><img src="../../public/logos/ionos.svg" alt=""></span><div><p class="eyebrow">Provider · HQ Germany</p><h1 class="d-xl" style="margin-top:12px">IONOS</h1></div></div>
+      <p class="lede b-lg">Big German host with low intro prices and unlimited traffic. The intro price lasts three months on a one-year contract, so read the real price, not the ad.</p>
+    </div>
+    <div class="row row--wrap"><span class="stamp"><i data-icon="check"></i>Checked 31 Aug 2026</span><a class="btn btn--line" href="#">ionos.com <i data-icon="out"></i></a></div>
+  </section>
+
+  <div class="pstats">
+    <div><span>Plans</span><b>4</b><small>in the current snapshot</small></div>
+    <div><span>Real price</span><b>$10.42–$19.75</b><small>3-year, per month</small></div>
+    <div><span>Ad price</span><b>from $4</b><small>first 3 months only</small></div>
+    <div><span>Trustpilot</span><b>4.7</b><small>41,348 reviews</small></div>
+    <div><span>Locations</span><b>4</b><small>US, UK, DE, ES</small></div>
+  </div>
+
+  <div class="know">
+    <div class="good"><h3><i data-icon="check"></i>Strong at</h3><p>Unlimited traffic on every VPS plan. Generous NVMe for the money: 120 GB on the 4 GB plan.</p></div>
+    <div class="bad"><h3><i data-icon="warn"></i>Watch out</h3><p>Intro prices last 3 months with a 12-month minimum term. VPS M+ goes from $4 to $11/mo.</p></div>
+    <div><h3><i data-icon="info"></i>Good to know</h3><p>IPv4 included. Four data-centre countries, fewer than most big providers.</p></div>
+  </div>
+
+  <section class="plist">
+    <div class="row row--between" style="align-items:flex-end;margin-bottom:12px"><h2 class="h-lg">All IONOS plans</h2><span class="cap muted">Sorted by 3-year real price</span></div>
+    <table class="dtable">
+      <thead><tr><th class="c-pick"><span class="sr-only">Pick</span></th><th class="c-plan">Plan</th><th class="c-price r">3-yr real price</th><th class="c-spec">CPU · RAM · Disk</th><th class="c-catch">The catch</th><th class="c-act r"><span class="sr-only">Action</span></th></tr></thead>
+      <tbody>
+        <tr data-id="i1"><td><input type="checkbox" class="check" aria-label="Pick VPS M+"></td><td><a class="id" href="offer.html"><span class="pmark"><img src="../../public/logos/ionos.svg" alt=""></span><span><strong>VPS M+</strong><span class="id__sub">4 GB · most popular size</span></span></a></td><td class="r"><span class="price"><b>$10.42<small>/mo</small></b><span><span class="strike num">$4.00</span> advertised</span></span></td><td><span class="spec3"><span>2<small>vCPU</small></span><span>4<small>GB</small></span><span>120<small>GB NVMe</small></span></span></td><td><span class="catchcell"><span class="dot dot--catch"></span><span>$4 lasts 3 months. Then $11/mo on a 1-year contract.</span></span></td><td class="r"><a class="btn btn--line btn--sm visit" href="#" rel="sponsored nofollow">Visit <i data-icon="out"></i></a><span class="affil">Affiliate link</span></td></tr>
+        <tr data-id="i2"><td><input type="checkbox" class="check" aria-label="Pick VPS L+"></td><td><a class="id" href="offer.html"><span class="pmark"><img src="../../public/logos/ionos.svg" alt=""></span><span><strong>VPS L+</strong><span class="id__sub">8 GB</span></span></a></td><td class="r"><span class="price"><b>$19.75<small>/mo</small></b><span><span class="strike num">$6.00</span> advertised</span></span></td><td><span class="spec3"><span>4<small>vCPU</small></span><span>8<small>GB</small></span><span>240<small>GB NVMe</small></span></span></td><td><span class="catchcell"><span class="dot dot--catch"></span><span>$6 lasts 3 months. Then $21/mo on a 1-year contract.</span></span></td><td class="r"><a class="btn btn--line btn--sm visit" href="#" rel="sponsored nofollow">Visit <i data-icon="out"></i></a><span class="affil">Affiliate link</span></td></tr>
+      </tbody>
+    </table>
+    <p class="cap muted" style="margin-top:14px">2 more IONOS plans below the fold in the product. Mockup shows two.</p>
+  </section>
+  <div style="height:120px"></div>
+</main>
+<div class="tray" hidden role="region" aria-label="Compare tray"><span class="tray__label"><span class="num">0</span> of 4 picked</span><div class="tray__slots"><span class="tray__slot"></span><span class="tray__slot"></span><span class="tray__slot"></span><span class="tray__slot"></span></div><a class="btn btn--volt" href="compare.html" style="border-color:var(--volt-400)">Compare <i data-icon="arrow"></i></a></div>
+<script src="assets/bvf-data.js"></script>
+<script src="assets/bvf.js"></script>
+<script>
+  const swapLogo = () => document.querySelectorAll("[data-logo]").forEach((i) => i.src = `../logo/lockup-horizontal-${document.documentElement.dataset.theme === "dark" ? "dark" : "light"}.svg`);
+  swapLogo(); new MutationObserver(swapLogo).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
+</script>
+</body>
+</html>

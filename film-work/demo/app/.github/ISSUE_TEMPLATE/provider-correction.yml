@@ -1,0 +1,33 @@
+name: Provider or offer correction
+description: Report a factual issue with a provider or VPS offer.
+title: "[Correction] "
+labels: ["correction", "needs-evidence"]
+body:
+  - type: input
+    id: offer
+    attributes:
+      label: Offer or provider
+      placeholder: "Hetzner CX22 or provider name"
+    validations:
+      required: true
+  - type: input
+    id: field
+    attributes:
+      label: Field to correct
+      placeholder: "Price, RAM, location, IPv4, availability"
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and source URL
+      description: Include the exact page and what it currently says.
+    validations:
+      required: true
+  - type: input
+    id: checked
+    attributes:
+      label: Date checked
+      placeholder: "YYYY-MM-DD"
+    validations:
+      required: true

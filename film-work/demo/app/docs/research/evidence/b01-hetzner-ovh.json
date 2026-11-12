@@ -1,0 +1,177 @@
+[
+  {
+    "provider": "Hetzner",
+    "plan_slug": "cx23",
+    "url": "https://www.hetzner.com/cloud/cost-optimized/",
+    "excerpt": "CX23\n\nnot available\n\n 2\n\nIntel\u00ae/AMD\n\n 4 GB\n\n 40 GB\n\nNVMe\n\nfrom /month \u20ac 5.99 per month, excl. VAT from /month\n\n/hour \u20ac 0.0096 per hour, excl. VAT /hour\n\nYour server's bill will never exceed its monthly price cap.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Hetzner",
+    "plan_slug": "cx33",
+    "url": "https://www.hetzner.com/cloud/cost-optimized/",
+    "excerpt": "CX33\n\nnot available\n\n 4\n\nIntel\u00ae/AMD\n\n 8 GB\n\n 80 GB\n\nNVMe\n\nfrom /month \u20ac 8.99 per month, excl. VAT from /month\n\n/hour \u20ac 0.0144 per hour, excl. VAT /hour\n\nYour server's bill will never exceed its monthly price cap.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Hetzner",
+    "plan_slug": "cx43",
+    "url": "https://www.hetzner.com/cloud/cost-optimized/",
+    "excerpt": "CX43\n\nnot available\n\n 8\n\nIntel\u00ae/AMD\n\n 16 GB\n\n 160 GB\n\nNVMe\n\nfrom /month \u20ac 16.49 per month, excl. VAT from /month\n\n/hour \u20ac 0.0264 per hour, excl. VAT /hour\n\nYour server's bill will never exceed its monthly price cap.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Hetzner",
+    "plan_slug": "cx53",
+    "url": "https://www.hetzner.com/cloud/cost-optimized/",
+    "excerpt": "CX53\n\nnot available\n\n 16\n\nIntel\u00ae/AMD\n\n 32 GB\n\n 320 GB\n\nNVMe\n\nfrom /month \u20ac 29.99 per month, excl. VAT from /month\n\n/hour \u20ac 0.0481 per hour, excl. VAT /hour",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Hetzner",
+    "plan_slug": "cax11",
+    "url": "https://www.hetzner.com/cloud/cost-optimized/",
+    "excerpt": "CAX11\n\nnot available\n\n 2\n\nAmpere\u00ae\n\n 4 GB\n\n 40 GB\n\nNVMe\n\nfrom /month \u20ac 6.49 per month, excl. VAT from /month\n\n/hour \u20ac 0.0104 per hour, excl. VAT /hour\n\nYour server's bill will never exceed its monthly price cap.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Hetzner",
+    "plan_slug": "cax21",
+    "url": "https://www.hetzner.com/cloud/cost-optimized/",
+    "excerpt": "CAX21\n\nnot available\n\n 4\n\nAmpere\u00ae\n\n 8 GB\n\n 80 GB\n\nNVMe\n\nfrom /month \u20ac 10.99 per month, excl. VAT from /month\n\n/hour \u20ac 0.0176 per hour, excl. VAT /hour\n\nYour server's bill will never exceed its monthly price cap.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Hetzner",
+    "plan_slug": "cax31",
+    "url": "https://www.hetzner.com/cloud/cost-optimized/",
+    "excerpt": "CAX31\n\nnot available\n\n 8\n\nAmpere\u00ae\n\n 16 GB\n\n 160 GB\n\nNVMe\n\nfrom /month \u20ac 21.49 per month, excl. VAT from /month\n\n/hour \u20ac 0.0344 per hour, excl. VAT /hour\n\nYour server's bill will never exceed its monthly price cap.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Hetzner",
+    "plan_slug": "cax41",
+    "url": "https://www.hetzner.com/cloud/cost-optimized/",
+    "excerpt": "CAX41\n\nnot available\n\n 16\n\nAmpere\u00ae\n\n 32 GB\n\n 320 GB\n\nNVMe\n\nfrom /month \u20ac 41.49 per month, excl. VAT from /month\n\n/hour \u20ac 0.0665 per hour, excl. VAT /hour\n\nYour server's bill will never exceed its monthly price cap.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Hetzner",
+    "plan_slug": "cpx02",
+    "url": "https://www.hetzner.com/cloud/regular-performance/",
+    "excerpt": "CPX02\n\nNew\n\n 1\n\nAMD\n\n 1 GB\n\n 20 GB\n\nNVMe\n\nfrom /month \u20ac 6.49 per month, excl. VAT from /month\n\n/hour \u20ac 0.0104 per hour, excl. VAT /hour\n\nYour server's bill will never exceed its monthly price cap.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Hetzner",
+    "plan_slug": "cpx12",
+    "url": "https://www.hetzner.com/cloud/regular-performance/",
+    "excerpt": "CPX12\n\n 1\n\nAMD\n\n 2 GB\n\n 40 GB\n\nNVMe\n\nfrom /month \u20ac 11.99 per month, excl. VAT from /month\n\n/hour \u20ac 0.0192 per hour, excl. VAT /hour\n\nYour server's bill will never exceed its monthly price cap.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Hetzner",
+    "plan_slug": "cpx22",
+    "url": "https://www.hetzner.com/cloud/regular-performance/",
+    "excerpt": "CPX22\n\n 2\n\nAMD\n\n 4 GB\n\n 80 GB\n\nNVMe\n\nfrom /month \u20ac 19.99 per month, excl. VAT from /month\n\n/hour \u20ac 0.0320 per hour, excl. VAT /hour\n\nYour server's bill will never exceed its monthly price cap.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Hetzner",
+    "plan_slug": "cpx32",
+    "url": "https://www.hetzner.com/cloud/regular-performance/",
+    "excerpt": "CPX32\n\n 4\n\nAMD\n\n 8 GB\n\n 160 GB\n\nNVMe\n\nfrom /month \u20ac 35.99 per month, excl. VAT from /month\n\n/hour \u20ac 0.0577 per hour, excl. VAT /hour\n\nYour server's bill will never exceed its monthly price cap.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Hetzner",
+    "plan_slug": "cpx42",
+    "url": "https://www.hetzner.com/cloud/regular-performance/",
+    "excerpt": "CPX42\n\n 8\n\nAMD\n\n 16 GB\n\n 320 GB\n\nNVMe\n\nfrom /month \u20ac 69.99 per month, excl. VAT from /month\n\n/hour \u20ac 0.1122 per hour, excl. VAT /hour\n\nYour server's bill will never exceed its monthly price cap.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Hetzner",
+    "plan_slug": "cpx52",
+    "url": "https://www.hetzner.com/cloud/regular-performance/",
+    "excerpt": "CPX52\n\n 12\n\nAMD\n\n 24 GB\n\n 480 GB\n\nNVMe\n\nfrom /month \u20ac 100.99 per month, excl. VAT from /month\n\n/hour \u20ac 0.1618 per hour, excl. VAT /hour\n\nYour server's bill will never exceed its monthly price cap.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Hetzner",
+    "plan_slug": "cpx62",
+    "url": "https://www.hetzner.com/cloud/regular-performance/",
+    "excerpt": "CPX62\n\n 16\n\nAMD\n\n 32 GB\n\n 640 GB\n\nNVMe\n\nfrom /month \u20ac 130.49 per month, excl. VAT from /month\n\n/hour \u20ac 0.2091 per hour, excl. VAT /hour\n\nYour server's bill will never exceed its monthly price cap.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Hetzner",
+    "plan_slug": "ccx13",
+    "url": "https://www.hetzner.com/cloud/general-purpose/",
+    "excerpt": "CCX13\n\n 2\n\nAMD\n\n 8 GB\n\n 80 GB\n\nNVMe\n\nfrom /month \u20ac 43.49 per month, excl. VAT from /month\n\n/hour \u20ac 0.0697 per hour, excl. VAT /hour\n\nYour server's bill will never exceed its monthly price cap.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Hetzner",
+    "plan_slug": "ccx23",
+    "url": "https://www.hetzner.com/cloud/general-purpose/",
+    "excerpt": "CCX23\n\n 4\n\nAMD\n\n 16 GB\n\n 160 GB\n\nNVMe\n\nfrom /month \u20ac 86.49 per month, excl. VAT from /month\n\n/hour \u20ac 0.1386 per hour, excl. VAT /hour\n\nYour server's bill will never exceed its monthly price cap.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Hetzner",
+    "plan_slug": "ccx33",
+    "url": "https://www.hetzner.com/cloud/general-purpose/",
+    "excerpt": "CCX33\n\n 8\n\nAMD\n\n 32 GB\n\n 240 GB\n\nNVMe\n\nfrom /month \u20ac 138.99 per month, excl. VAT from /month\n\n/hour \u20ac 0.2227 per hour, excl. VAT /hour\n\nYour server's bill will never exceed its monthly price cap.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Hetzner",
+    "plan_slug": "ccx43",
+    "url": "https://www.hetzner.com/cloud/general-purpose/",
+    "excerpt": "CCX43\n\n 16\n\nAMD\n\n 64 GB\n\n 360 GB\n\nNVMe\n\n[Create](https://console.hetzner.com/create/server?type=ccx43&useIPv4=true&useIPv6=false&usePrivateNet=false&location=fsn1) This product is currently unavailable. Please check back later.\n\n/month \u20ac 276.49 per month, excl. VAT /month",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Hetzner",
+    "plan_slug": "ccx53",
+    "url": "https://www.hetzner.com/cloud/general-purpose/",
+    "excerpt": "CCX53\n\n 32\n\nAMD\n\n 128 GB\n\n 600 GB\n\nNVMe\n\nfrom /month \u20ac 533.99 per month, excl. VAT from /month\n\n/hour \u20ac 0.8558 per hour, excl. VAT /hour\n\nYour server's bill will never exceed its monthly price cap.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Hetzner",
+    "plan_slug": "ccx63",
+    "url": "https://www.hetzner.com/cloud/general-purpose/",
+    "excerpt": "CCX63\n\n 48\n\nAMD\n\n 192 GB\n\n 960 GB\n\nNVMe\n\nfrom /month \u20ac 853.99 per month, excl. VAT from /month\n\n/hour \u20ac 1.3686 per hour, excl. VAT /hour\n\nYour server's bill will never exceed its monthly price cap.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "OVHcloud",
+    "plan_slug": "vps-1",
+    "url": "https://www.ovhcloud.com/en/vps/",
+    "excerpt": "VPS-1\n\nFrom $4.54 /month\n\n2 vCores\n\n4 GB  RAM\n\n40 GB SSD NVMe\n\nDaily backup of the previous 24 hours\n\nUnlimited traffic\n\n500 Mbps public bandwidth",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "OVHcloud",
+    "plan_slug": "vps-2",
+    "url": "https://www.ovhcloud.com/en/vps/",
+    "excerpt": "VPS-2\n\nFrom $8.50 /month\n\n4 vCores\n\n8 GB  RAM\n\n75 GB SSD NVMe\n\nDaily backup of the previous 24 hours\n\nUnlimited traffic\n\n1 Gbps public bandwidth",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "OVHcloud",
+    "plan_slug": "vps-3",
+    "url": "https://www.ovhcloud.com/en/vps/",
+    "excerpt": "VPS-3\n\nFrom $12.32 /month\n\n6 vCores\n\n12 GB  RAM\n\n100 GB SSD NVMe\n\nDaily backup of the previous 24 hours\n\nUnlimited traffic\n\n2 Gbps public bandwidth",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "OVHcloud",
+    "plan_slug": "vps-4",
+    "url": "https://www.ovhcloud.com/en/vps/",
+    "excerpt": "VPS-4\n\nFrom $23.37 /month\n\n8 vCores\n\n24 GB  RAM\n\n200 GB SSD NVMe\n\nDaily backup of the previous 24 hours\n\nUnlimited traffic\n\n3 Gbps public bandwidth",
+    "checked_date": "2026-11-01"
+  }
+]

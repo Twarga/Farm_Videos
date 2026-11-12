@@ -1,0 +1,39 @@
+{
+  "measuredAt": "2026-10-12T22:06:02.977Z",
+  "identity": {
+    "sourceBackup": "/tmp/bestvpsforme-phase7-completion-l2y1dvba/current-data.db",
+    "databaseSha256": "35e8b986f3eec0301d8283baffee91575e7823c97e9f33a6c8dc05dfd7a7c9ce",
+    "publication": {
+      "id": "341cd929-08fa-4ba3-8f54-1df8a434f4b1",
+      "snapshot_version": 6,
+      "published_at": 1791370150823
+    },
+    "counts": {
+      "published": 330,
+      "drafts": 0,
+      "snapshotOffers": 330
+    },
+    "buildDirectory": "/tmp/bestvpsforme-phase7-completion-l2y1dvba/release",
+    "buildId": "DeQrfbnwlhVS5MmCtqtwd",
+    "commit": null,
+    "node": "v24.17.0",
+    "next": "16.3.8",
+    "react": "19.2.0"
+  },
+  "passed": true,
+  "boundaries": [
+    "limited-stock at 24 hours",
+    "advertised at 72 hours",
+    "explicit provider expiry",
+    "sold-out immediately"
+  ],
+  "sameOriginSameWarmServer": true,
+  "initialVisiblePlans": [
+    "liquid-web-lw-6g",
+    "liquid-web-lw-4g",
+    "liquid-web-lw-2g"
+  ],
+  "expiredVisiblePlans": [],
+  "storedEvidenceUnchanged": true,
+  "noApplicationInvalidation": true
+}

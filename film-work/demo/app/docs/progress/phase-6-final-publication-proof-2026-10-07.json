@@ -1,0 +1,85 @@
+{
+  "offerPagesChecked": 100,
+  "publishedEditorial": 62,
+  "heldEditorial": 38,
+  "publishedCatches": 41,
+  "publishedFits": 62,
+  "workloads": {
+    "vpn": {
+      "count": 20,
+      "ids": [
+        "liquid-web-lw-1g",
+        "20i-1-core",
+        "clouding-io-clouding-1gb",
+        "digitalocean-basic-1gb",
+        "knownhost-entry",
+        "aws-lightsail-ls-gp-micro-v4",
+        "ramnode-lite-1gb",
+        "hostsailor-hs-mini-nvme",
+        "akamai-linode-g6-nanode-1",
+        "flokinet-floki-ro-i",
+        "greencloudvps-gcvps-ryzenkvm-1",
+        "buyvm-slice-1024",
+        "greencloudvps-gcvps-ssdkvm-1",
+        "scaleway-stardust1-s",
+        "racknerd-special-1gb",
+        "ramnode-std-1gb",
+        "privex-privex-v1-se-nvme",
+        "privex-privex-v1-se-ssd",
+        "njalla-njalla-15",
+        "google-cloud-e2-micro"
+      ]
+    },
+    "wordpress": {
+      "count": 18,
+      "ids": [
+        "liquid-web-lw-2g",
+        "interserver-1-slice",
+        "clouding-io-clouding-2gb",
+        "digitalocean-basic-2gb",
+        "scaleway-dev1-s",
+        "knownhost-entry-plus",
+        "aws-lightsail-ls-gp-small-v4",
+        "akamai-linode-g6-standard-1",
+        "ramnode-lite-2gb",
+        "greencloudvps-gcvps-ryzenkvm-2",
+        "buyvm-slice-2048",
+        "greencloudvps-gcvps-ssdkvm-2",
+        "hostsailor-hs-sailor-nvme",
+        "racknerd-special-2gb",
+        "ramnode-std-2gb",
+        "privex-privex-v2-se-ssd",
+        "webdock-advanced",
+        "webdock-essential"
+      ]
+    },
+    "docker": {
+      "count": 17,
+      "ids": [
+        "interserver-4-slices",
+        "scalahosting-scala-b1",
+        "contabo-cloud-vps-4",
+        "contabo-cloud-vps-6",
+        "hostinger-kvm-1",
+        "hostinger-kvm-2",
+        "ssd-nodes-kvm-2xl",
+        "ssd-nodes-kvm-medium",
+        "ssd-nodes-kvm-small",
+        "racknerd-special-4gb",
+        "racknerd-special-6gb",
+        "racknerd-special-8gb",
+        "dreamhost-dh-stack4",
+        "netcup-vps-1000-g12",
+        "netcup-500-g12",
+        "ovhcloud-vps-1",
+        "ovhcloud-vps-2"
+      ]
+    }
+  },
+  "integrity": "ok",
+  "foreignKeyViolations": 0,
+  "voiceScope": "Authored copy; exact provider SKU names excluded. ScalaHosting Build #1 is a product name, not a ranking claim.",
+  "editorialAudits": {
+    "count": 162
+  }
+}

@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Offer — Hostinger KVM 1 — bestvpsforme</title>
+<link rel="icon" href="../logo/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/bvf.css">
+<style>
+  .crumbs { display: flex; gap: 8px; align-items: center; padding-top: 28px; font: 520 13.5px/1 var(--font-sans); color: var(--fg-muted); }
+  .crumbs a:hover { color: var(--fg); }
+  .crumbs svg { width: 14px; height: 14px; }
+  .ohero { display: grid; grid-template-columns: minmax(0, 1fr) 440px; gap: clamp(40px, 5vw, 80px); padding: 32px 0 72px; align-items: start; }
+  .oid { display: flex; align-items: center; gap: 18px; }
+  .oid__p { font: 620 17px/1 var(--font-sans); font-stretch: 108%; }
+  .oid__p span { color: var(--fg-muted); font-weight: 480; }
+  .ohero h1 { margin-top: 26px; }
+  .ospec { margin-top: 18px; font: 520 17px/1.4 var(--font-mono); letter-spacing: -.02em; color: var(--fg-muted); }
+  .otags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 26px; }
+  .verdict { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 40px; }
+  .verdict > div { padding: 22px; border-radius: var(--r-lg); border: 1px solid var(--border); }
+  .verdict h2 { display: flex; align-items: center; gap: 10px; font: 700 15px/1 var(--font-sans); font-stretch: 108%; }
+  .verdict h2 svg { width: 20px; height: 20px; }
+  .verdict p { margin-top: 12px; font: 480 16px/1.5 var(--font-sans); }
+  .verdict .bad { background: var(--catch-bg); border-color: transparent; color: var(--catch-fg); }
+  .verdict .bad p { color: var(--fg); }
+  .verdict .good h2 { color: var(--ok); }
+
+  .receipt { position: sticky; top: calc(var(--nav-h) + 20px); padding: 28px; }
+  .receipt__top { display: flex; justify-content: space-between; align-items: center; }
+  .receipt__big { margin-top: 18px; display: flex; align-items: flex-end; gap: 8px; }
+  .receipt__big span:last-child { font: 560 17px/1.7 var(--font-sans); color: var(--fg-muted); }
+  .receipt .xray__lines li { font-size: 15px; }
+  .receipt__cta { display: grid; gap: 10px; margin-top: 22px; }
+  .receipt__cta .btn { width: 100%; }
+  .receipt__fine { margin-top: 14px; display: flex; gap: 8px; font: 480 12.5px/1.45 var(--font-sans); color: var(--fg-muted); }
+  .receipt__fine svg { width: 15px; height: 15px; flex: none; margin-top: 1px; color: var(--fg); }
+
+  .blk { padding-block: 64px; border-top: 1px solid var(--border); }
+  .blk__head { display: flex; justify-content: space-between; align-items: flex-end; gap: 24px; flex-wrap: wrap; margin-bottom: 32px; }
+  .chart { position: relative; padding: 28px; border-radius: var(--r-xl); border: 1px solid var(--border); }
+  .chart svg { width: 100%; height: auto; overflow: visible; }
+  @media (max-width: 760px) { .chart { overflow-x: auto; padding: 20px; } .chart svg { min-width: 760px; } }
+  .legend { display: flex; gap: 20px; font: 540 13.5px/1 var(--font-sans); color: var(--fg-muted); }
+  .legend span { display: inline-flex; align-items: center; gap: 8px; }
+  .legend i { width: 22px; height: 3px; border-radius: 2px; }
+  .specs { display: grid; grid-template-columns: repeat(4, 1fr); border: 1px solid var(--border); border-radius: var(--r-xl); overflow: hidden; }
+  .spec { padding: 22px 24px; border-right: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+  .spec:nth-child(4n) { border-right: 0; }
+  .spec:nth-last-child(-n+4) { border-bottom: 0; }
+  .spec dt { font: 600 11.5px/1 var(--font-sans); letter-spacing: .07em; text-transform: uppercase; color: var(--fg-subtle); }
+  .spec dd { margin: 12px 0 0; font: 620 24px/1.1 var(--font-mono); letter-spacing: -.03em; }
+  .spec dd.unk { font: 560 17px/1.3 var(--font-sans); color: var(--fg-subtle); }
+  .spec small { display: block; margin-top: 6px; font: 480 13px/1.35 var(--font-sans); color: var(--fg-muted); }
+  .evidence { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+  .ev { padding: 22px; border-radius: var(--r-lg); background: var(--bg-subtle); }
+  .ev p { margin-top: 12px; font: 480 14.5px/1.5 var(--font-sans); color: var(--fg-muted); }
+  .ev a { color: var(--fg); text-decoration: underline; text-underline-offset: 3px; text-decoration-color: var(--volt-600); text-decoration-thickness: 2px; }
+  .alts .dtable td { padding-block: 16px; }
+  .alts .save { font: 620 13px/1 var(--font-mono); color: var(--ok); }
+  .mbar { display: none; }
+  @media (max-width: 1023px) {
+    .ohero { grid-template-columns: 1fr; }
+    .receipt { position: static; }
+    .specs { grid-template-columns: 1fr 1fr; }
+    .spec:nth-child(2n) { border-right: 0; }
+    .spec:nth-child(4n) { border-right: 0; }
+    .spec:nth-last-child(-n+4) { border-bottom: 1px solid var(--border); }
+    .spec:nth-last-child(-n+2) { border-bottom: 0; }
+    .evidence { grid-template-columns: 1fr; }
+  }
+  @media (max-width: 640px) {
+    .verdict { grid-template-columns: 1fr; }
+    .ohero h1 { font-size: 64px; }
+    .receipt__cta .btn--volt { display: none; }
+    .mbar { position: fixed; left: 0; right: 0; bottom: 0; z-index: var(--z-tray); display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 16px calc(12px + env(safe-area-inset-bottom)); background: var(--surface); border-top: 1px solid var(--border); box-shadow: 0 -10px 30px -12px rgb(14 17 22 / .2); }
+    .mbar b { font: 650 22px/1 var(--font-mono); letter-spacing: -.03em; }
+    .mbar small { display: block; margin-top: 4px; font: 480 12px/1 var(--font-sans); color: var(--fg-muted); }
+    .alts .c-spec, .alts .c-trust { display: none; }
+    body { padding-bottom: 84px; }
+  }
+</style>
+</head>
+<body>
+<a class="sr-only" href="#main">Skip to content</a>
+<header class="nav">
+  <div class="container--wide nav__in">
+    <a class="nav__logo" href="home.html" aria-label="bestvpsforme home"><img src="../logo/lockup-horizontal-light.svg" alt="bestvpsforme" data-logo></a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="catalog.html" aria-current="page">Plans</a>
+      <a href="compare.html">Compare</a>
+      <a href="provider.html">Providers</a>
+      <a href="guide.html">Guides</a>
+      <a href="methodology.html">How we check</a>
+    </nav>
+    <button class="nav__search" type="button" data-open-palette><i data-icon="search"></i>Search 314 plans, 41 providers…<span class="kbd">⌘K</span></button>
+    <div class="row nav__right" style="--gap:6px">
+      <a class="btn btn--line btn--sm nav__compare" href="compare.html"><i data-icon="compare"></i>Compare <span class="nav__count">2</span></a>
+      <button class="btn btn--ghost btn--icon" type="button" data-theme-toggle aria-label="Switch theme"><i data-icon="moon"></i></button>
+    </div>
+  </div>
+</header>
+<div class="disclosure"><div class="container--wide disclosure__in"><i data-icon="info"></i><span><strong>This page has an affiliate link.</strong> If you buy through it we may earn a commission. It never changes the order. <a href="methodology.html">How we check</a></span></div></div>
+
+<main id="main" class="container--wide">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="catalog.html">Plans</a><i data-icon="chevron"></i><a href="provider.html">Hostinger</a><i data-icon="chevron"></i><span aria-current="page">KVM 1</span></nav>
+
+  <section class="ohero">
+    <div>
+      <div class="oid"><span class="pmark pmark--xl"><img src="../../public/logos/hostinger.svg" alt=""></span><div><p class="oid__p">Hostinger <span>· HQ Lithuania</span></p><p class="cap muted" style="margin-top:8px">4.7 Trustpilot · 66,058 reviews · checked 31 Aug 2026</p></div></div>
+      <h1 class="d-2xl">KVM 1</h1>
+      <p class="ospec">1 vCPU · 4 GB RAM · 50 GB NVMe · 4 TB transfer</p>
+      <div class="otags">
+        <span class="stamp"><i data-icon="check"></i>Price checked 31 Aug 2026</span>
+        <span class="tag tag--catch"><span class="dot dot--catch"></span>24-month prepay</span>
+        <span class="tag tag--catch"><span class="dot dot--catch"></span>Renews +85%</span>
+        <span class="tag tag--ok"><span class="dot dot--ok"></span>IPv4 included</span>
+      </div>
+      <div class="verdict">
+        <div class="good"><h2><i data-icon="check"></i>Good for</h2><p>A first WordPress or n8n server if you're happy to pay two years upfront. The biggest review base in the catalog: 66,058 reviews.</p></div>
+        <div class="bad"><h2><i data-icon="warn"></i>Watch out</h2><p>The <span class="catch-mark">$6.49 price needs a 24-month prepay</span> ($155.76 today). From month 25 it renews at <span class="catch-mark">$11.99/mo</span>.</p></div>
+      </div>
+    </div>
+
+    <aside class="sticker receipt" aria-label="Price breakdown">
+      <div class="receipt__top"><span class="tag tag--volt">3-year real price</span><span class="cap muted">USD</span></div>
+      <div class="receipt__big"><span class="n-2xl">$8.32</span><span>/mo</span></div>
+      <ul class="xray__lines">
+        <li><span>Advertised</span><span class="num strike">$6.49/mo</span></li>
+        <li><span>Due today <span class="muted">· 24 months</span></span><span class="num">$155.76</span></li>
+        <li><span>Renews at <span class="muted">· month 25+</span></span><span class="num">$11.99/mo</span></li>
+        <li><span>Setup fee</span><span class="subtle">Not published</span></li>
+        <li class="total"><span>3-year total</span><span class="n-md">$299.64</span></li>
+      </ul>
+      <div class="receipt__cta">
+        <a class="btn btn--volt btn--lg" href="#" rel="sponsored nofollow">Visit Hostinger <i data-icon="out"></i></a>
+        <label class="btn btn--line btn--lg" style="gap:12px"><input type="checkbox" class="check" checked> Picked for compare</label>
+      </div>
+      <p class="receipt__fine"><i data-icon="link"></i><span><b>Affiliate link.</b> We may earn a commission if you buy. It never changes the order, and the price you pay is the same.</span></p>
+    </aside>
+  </section>
+
+  <section class="blk">
+    <div class="blk__head">
+      <div><p class="eyebrow">Cost over time</p><h2 class="d-md" style="margin-top:14px">What you'll actually spend.</h2></div>
+      <div class="legend"><span><i style="background:var(--fg)"></i>Real cost</span><span><i style="background:var(--ink-300);height:2px;border-top:2px dashed var(--ink-400);background:none"></i>What the ad implies</span></div>
+    </div>
+    <div class="chart" role="img" aria-label="Cumulative cost over 36 months. Real cost: $155.76 on day one, flat until month 24, then rising $11.99 a month to $299.64. The ad implies $6.49 a month, $233.64 over three years.">
+      <svg viewBox="0 0 1200 360">
+        <g stroke="var(--border)"><line x1="60" x2="1180" y1="300" y2="300"/><line x1="60" x2="1180" y1="220" y2="220"/><line x1="60" x2="1180" y1="140" y2="140"/><line x1="60" x2="1180" y1="60" y2="60"/></g>
+        <g class="chart-label"><text x="48" y="304" text-anchor="end">$0</text><text x="48" y="224" text-anchor="end">$100</text><text x="48" y="144" text-anchor="end">$200</text><text x="48" y="64" text-anchor="end">$300</text>
+        <text x="60" y="326">Month 0</text><text x="433" y="326" text-anchor="middle">12</text><text x="807" y="326" text-anchor="middle">24</text><text x="1180" y="326" text-anchor="end">36</text></g>
+        <path d="M60 300 L1180 113" stroke="var(--ink-400)" stroke-width="2.5" stroke-dasharray="7 7" fill="none"/>
+        <path d="M60 300 L60 175.4 L807 175.4 L1180 60.3" stroke="var(--fg)" stroke-width="3.5" fill="none" stroke-linejoin="round"/>
+        <rect x="807" y="60" width="373" height="240" fill="var(--volt-400)" opacity=".18"/>
+        <circle cx="60" cy="175.4" r="7" fill="var(--volt-400)" stroke="var(--ink-950)" stroke-width="2"/>
+        <circle cx="807" cy="175.4" r="7" fill="var(--surface)" stroke="var(--fg)" stroke-width="2.5"/>
+        <circle cx="1180" cy="60.3" r="7" fill="var(--fg)"/>
+        <g font-family="var(--font-sans)" font-size="14" font-weight="620" fill="var(--fg)">
+          <text x="80" y="160">Day 1: $155.76 due</text>
+          <text x="819" y="198">Month 25: renews at $11.99</text>
+          <text x="1170" y="44" text-anchor="end">$299.64 total</text>
+          <text x="1170" y="142" text-anchor="end" fill="var(--fg-subtle)" font-weight="520">$233.64 at the ad price</text>
+        </g>
+      </svg>
+    </div>
+  </section>
+
+  <section class="blk">
+    <div class="blk__head"><div><p class="eyebrow">Hardware and extras</p><h2 class="d-md" style="margin-top:14px">What's in the box.</h2></div><span class="cap muted">Missing facts say "Not published". We never guess.</span></div>
+    <dl class="specs">
+      <div class="spec"><dt>CPU</dt><dd>1 vCPU</dd><small>Shared KVM</small></div>
+      <div class="spec"><dt>Memory</dt><dd>4 GB</dd><small>Fits WordPress + a small database</small></div>
+      <div class="spec"><dt>Disk</dt><dd>50 GB</dd><small>NVMe</small></div>
+      <div class="spec"><dt>Transfer</dt><dd>4 TB</dd><small>per month</small></div>
+      <div class="spec"><dt>IPv4</dt><dd>Included</dd><small>1 address</small></div>
+      <div class="spec"><dt>Backups</dt><dd class="unk">Not published</dd><small>Confirm at checkout</small></div>
+      <div class="spec"><dt>Management</dt><dd class="unk">Not published</dd><small>Assume unmanaged</small></div>
+      <div class="spec"><dt>Locations</dt><dd>11</dd><small>US, UK, FR, LT, NL, IN, BR, SG +3</small></div>
+    </dl>
+  </section>
+
+  <section class="blk">
+    <div class="blk__head"><div><p class="eyebrow">Evidence</p><h2 class="d-md" style="margin-top:14px">Where these numbers come from.</h2></div></div>
+    <div class="evidence">
+      <div class="ev"><span class="stamp"><i data-icon="check"></i>Checked 31 Aug 2026</span><p>Price, term and renewal read from <a href="#">hostinger.com/vps-hosting</a>. Renewal stated in the provider's own terms.</p></div>
+      <div class="ev"><span class="stamp"><i data-icon="shield"></i>Confidence: high</span><p>All three prices (intro, term, renewal) appear on the provider page. Nothing inferred.</p></div>
+      <div class="ev"><span class="stamp"><i data-icon="pencil"></i>Spot an error?</span><p>Send the field and a source. We fix and date every correction. <a href="#">Report a correction</a></p></div>
+    </div>
+  </section>
+
+  <section class="blk alts">
+    <div class="blk__head"><div><p class="eyebrow">Alternatives</p><h2 class="d-md" style="margin-top:14px">Same 4 GB, lower 3-year price.</h2></div><a class="btn btn--line" href="catalog.html">See all 4 GB plans <i data-icon="arrow"></i></a></div>
+    <table class="dtable">
+      <thead><tr><th class="c-plan">Plan</th><th class="c-price r">3-yr real price</th><th class="c-spec">CPU · RAM · Disk</th><th class="c-trust">Trustpilot</th><th>You save</th><th class="c-act r"><span class="sr-only">Action</span></th></tr></thead>
+      <tbody>
+        <tr><td><a class="id" href="#"><span class="pmark"><img src="../../public/logos/alphavps.png" alt=""></span><span><strong>C4G</strong><span class="id__sub">AlphaVPS</span></span></a></td><td class="r"><span class="price"><b>$4.35<small>/mo</small></b><span>same every month</span></span></td><td><span class="spec3"><span>2<small>vCPU</small></span><span>4<small>GB</small></span><span>40<small>GB NVMe</small></span></span></td><td class="c-trust"><span class="trust">4.7<span>128 reviews</span></span></td><td><span class="save">−$143.04 over 3 yrs</span></td><td class="r"><a class="btn btn--line btn--sm visit" href="offer.html">View <i data-icon="arrow"></i></a></td></tr>
+        <tr><td><a class="id" href="#"><span class="pmark"><img src="../../public/logos/ovh.svg" alt=""></span><span><strong>VPS-1</strong><span class="id__sub">OVHcloud</span></span></a></td><td class="r"><span class="price"><b>$4.54<small>/mo</small></b><span>same every month</span></span></td><td><span class="spec3"><span>2<small>vCPU</small></span><span>4<small>GB</small></span><span>40<small>GB NVMe</small></span></span></td><td class="c-trust"><span class="trust">3.9<span>6.5k reviews</span></span></td><td><span class="save">−$136.20 over 3 yrs</span></td><td class="r"><a class="btn btn--line btn--sm visit" href="offer.html">View <i data-icon="arrow"></i></a></td></tr>
+        <tr><td><a class="id" href="#"><span class="pmark"><img src="../../public/logos/netcup.svg" alt=""></span><span><strong>VPS 500 G12</strong><span class="id__sub">netcup</span></span></a></td><td class="r"><span class="price"><b>$6.44<small>/mo</small></b><span>12-month term</span></span></td><td><span class="spec3"><span>2<small>vCPU</small></span><span>4<small>GB</small></span><span>128<small>GB NVMe</small></span></span></td><td class="c-trust"><span class="trust">4.1<span>2.4k reviews</span></span></td><td><span class="save">−$67.80 over 3 yrs</span></td><td class="r"><a class="btn btn--line btn--sm visit" href="offer.html">View <i data-icon="arrow"></i></a></td></tr>
+      </tbody>
+    </table>
+  </section>
+</main>
+
+<div class="mbar"><div><b>$8.32<span style="font:500 13px var(--font-sans);color:var(--fg-muted)">/mo</span></b><small>3-year real price · affiliate link</small></div><a class="btn btn--volt" href="#" rel="sponsored nofollow">Visit Hostinger <i data-icon="out"></i></a></div>
+
+<footer class="footer" style="margin-top:40px">
+  <div class="container--wide"><div class="footer__bottom" style="margin-top:0;border-top:0"><span>© 2026 bestvpsforme. Provider names and logos belong to their owners.</span><span>Some links earn us a commission. It never changes the order.</span></div></div>
+</footer>
+
+<script src="assets/bvf-data.js"></script>
+<script src="assets/bvf.js"></script>
+<script>
+  const swapLogo = () => document.querySelectorAll("[data-logo]").forEach((i) => i.src = `../logo/lockup-horizontal-${document.documentElement.dataset.theme === "dark" ? "dark" : "light"}.svg`);
+  swapLogo(); new MutationObserver(swapLogo).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
+</script>
+</body>
+</html>

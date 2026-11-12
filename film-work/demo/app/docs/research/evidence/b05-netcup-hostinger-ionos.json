@@ -1,0 +1,261 @@
+[
+  {
+    "provider": "netcup",
+    "plan_slug": "vps-500-g12-5",
+    "url": "https://www.netcup.com/en/server/vps",
+    "excerpt": "VPS 500 G12.5 2 vCore (x86) 4 GB RAM 64 GB SSD Traffic included Snapshots, Remote console & more View all details 12 months contract period, from monthly €8.26 €9.50(incl. 19% VAT)",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "netcup",
+    "plan_slug": "vps-1000-g12-5",
+    "url": "https://www.netcup.com/en/server/vps",
+    "excerpt": "VPS 1000 G12.5 4 vCore (x86) 8 GB RAM 128 GB SSD Traffic included Snapshots, Remote console & more View all details 12 months contract period, from monthly €14.50 €16.68(incl. 19% VAT)",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "netcup",
+    "plan_slug": "vps-2000-g12-5",
+    "url": "https://www.netcup.com/en/server/vps",
+    "excerpt": "VPS 2000 G12.5 8 vCore (x86) 16 GB RAM 256 GB SSD Traffic included Snapshots, Remote console & more View all details 12 months contract period, from monthly €26.92 €30.96(incl. 19% VAT)",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "netcup",
+    "plan_slug": "vps-4000-g12-5",
+    "url": "https://www.netcup.com/en/server/vps",
+    "excerpt": "VPS 4000 G12.5 12 vCore (x86) 32 GB RAM 512 GB SSD Traffic included Snapshots, Remote-Konsole uvm. View all details 12 months contract period, from monthly €45.36 €52.16(incl. 19% VAT)",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "netcup",
+    "plan_slug": "vps-8000-g12-5",
+    "url": "https://www.netcup.com/en/server/vps",
+    "excerpt": "VPS 8000 G12.5 16 vCore (x86) 64 GB RAM 1 TB SSD Traffic included Snapshots, Remote console & more View all details 12 months contract period, from monthly €67.11 €77.16(incl. 19% VAT)",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "netcup",
+    "plan_slug": "rs-500-g12-5",
+    "url": "https://www.netcup.com/en/server/root-server",
+    "excerpt": "RS 500 G12.5 AMD EPYC™ 9645 2 dedicated cores 4 GB RAM 64 GB NVMe Snapshots, remote console & more View all details 12 months contract period, from monthly €12.93 €14.87(incl. 19% VAT)",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "netcup",
+    "plan_slug": "rs-1000-g12-5",
+    "url": "https://www.netcup.com/en/server/root-server",
+    "excerpt": "RS 1000 G12.5 AMD EPYC™ 9645 4 dedicated cores 8 GB RAM 128 GB NVMe Snapshots, remote console & more View all details 12 months contract period, from monthly €21.73 €25.00(incl. 19% VAT)",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "netcup",
+    "plan_slug": "rs-2000-g12-5",
+    "url": "https://www.netcup.com/en/server/root-server",
+    "excerpt": "RS 2000 G12.5 AMD EPYC™ 9645 8 dedicated cores 16 GB RAM 256 GB NVMe Snapshots, remote console & more View all details 12 months contract period, from monthly €40.70 €46.81(incl. 19% VAT)",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "netcup",
+    "plan_slug": "rs-4000-g12-5",
+    "url": "https://www.netcup.com/en/server/root-server",
+    "excerpt": "RS 4000 G12.5 AMD EPYC™ 9645 12 dedicated cores 32 GB RAM 512 GB NVMe Snapshots, remote console & more View all details 12 months contract period, from monthly €77.83 €89.50(incl. 19% VAT)",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "netcup",
+    "plan_slug": "rs-8000-g12-5",
+    "url": "https://www.netcup.com/en/server/root-server",
+    "excerpt": "RS 8000 G12.5 AMD EPYC™ 9645 16 dedicated cores 64 GB RAM 1 TB NVMe Snapshots, remote console & more View all details 12 months contract period, from monthly €148.42 €170.69(incl. 19% VAT)",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "netcup",
+    "plan_slug": "rs-12000-g12-5",
+    "url": "https://www.netcup.com/en/server/root-server",
+    "excerpt": "RS 12000 G12.5 AMD EPYC™ 9645 20 dedicated cores 96 GB RAM 1,5 TB NVMe Snapshots, remote console & more View all details 12 months contract period, from monthly €216.89 €249.43(incl. 19% VAT)",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "netcup",
+    "plan_slug": "rs-16000-g12-5",
+    "url": "https://www.netcup.com/en/server/root-server",
+    "excerpt": "RS 16000 G12.5 AMD EPYC™ 9645 24 dedicated cores 128 GB RAM 2 TB NVMe Snapshots, remote console & more View all details 12 months contract period, from monthly €289.46 €332.88(incl. 19% VAT)",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Hostinger",
+    "plan_slug": "kvm-1",
+    "url": "https://www.hostinger.com/vps-hosting",
+    "excerpt": "KVM 1 $19.49 $6.49/mo Choose plan Today you pay $155.76 for 24 months. Renews at $11.99/mo for the same term. Cancel anytime. 1 vCPU core 4 GB RAM 50 GB NVMe disk space 4 TB bandwidth",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Hostinger",
+    "plan_slug": "kvm-2",
+    "url": "https://www.hostinger.com/vps-hosting",
+    "excerpt": "KVM 2 $24.49 $8.79/mo Choose plan Today you pay $210.96 for 24 months. Renews at $14.99/mo for the same term. Cancel anytime. 2 vCPU cores 8 GB RAM 100 GB NVMe disk space 8 TB bandwidth",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Hostinger",
+    "plan_slug": "kvm-4",
+    "url": "https://www.hostinger.com/vps-hosting",
+    "excerpt": "KVM 4 $42.99 $12.99/mo Choose plan Today you pay $311.76 for 24 months. Renews at $28.99/mo for the same term. Cancel anytime. 4 vCPU cores 16 GB RAM 200 GB NVMe disk space 16 TB bandwidth",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Hostinger",
+    "plan_slug": "kvm-8",
+    "url": "https://www.hostinger.com/vps-hosting",
+    "excerpt": "KVM 8 $73.99 $25.99/mo Choose plan Today you pay $623.76 for 24 months. Renews at $49.99/mo for the same term. Cancel anytime. 8 vCPU cores 32 GB RAM 400 GB NVMe disk space 32 TB bandwidth",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "IONOS",
+    "plan_slug": "vps-s-plus",
+    "url": "https://www.ionos.com/servers/vps",
+    "excerpt": "VPS S+ Save $12 $6 $2 /month for 3 months with a 1-year term - 1 vCore CPU - 2 GB RAM - 60 GB NVMe",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "IONOS",
+    "plan_slug": "vps-m-plus",
+    "url": "https://www.ionos.com/servers/vps",
+    "excerpt": "VPS M+ Save $27 $14 $5 /month for 3 months with a 1-year term - 2 vCores CPU - 4 GB RAM - 120 GB NVMe",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "IONOS",
+    "plan_slug": "vps-l-plus",
+    "url": "https://www.ionos.com/servers/vps",
+    "excerpt": "VPS L+ Save $51 $25 $8 /month for 3 months with a 1-year term - 4 vCores CPU - 8 GB RAM - 240 GB NVMe",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "IONOS",
+    "plan_slug": "vps-xl-plus",
+    "url": "https://www.ionos.com/servers/vps",
+    "excerpt": "VPS XL+ Save $99 $47 $14 /month for 3 months with a 1-year term - 8 vCores CPU - 16 GB RAM - 480 GB NVMe",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "IONOS",
+    "plan_slug": "vps-xxl-plus",
+    "url": "https://www.ionos.com/servers/vps",
+    "excerpt": "VPS XXL+ Save $144 $68 $20 /month for 3 months with a 1-year term - 12 vCores CPU - 24 GB RAM - 720 GB NVMe",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Webdock",
+    "plan_slug": "essential",
+    "url": "https://webdock.io/pricing",
+    "excerpt": "VPS Essential €2.15/mo A lean, affordable VPS for dev environments, sandboxes, and lightweight sites, ready in seconds. - Xeon Gold CPU - 1 Threads/vCPU - 2GB RAM - 15 GB NVMe SSD - 1 Gbit/s port (up to 5 Gbit/s) - 1 TB Outgoing Transfer Limit /mo",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Webdock",
+    "plan_slug": "advanced",
+    "url": "https://webdock.io/pricing",
+    "excerpt": "VPS Advanced €4.3/mo Our best seller. High-performance Epyc power built for production sites and real traffic. - Epyc Milan or better CPU - 1 Threads/vCPU - 2GB RAM - 15 GB NVMe SSD - 1 Gbit/s port (up to 5 Gbit/s) - 1 TB Outgoing Transfer Limit /mo",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Webdock",
+    "plan_slug": "pro",
+    "url": "https://webdock.io/pricing",
+    "excerpt": "VPS Pro €19.6/mo Maximum headroom for business-critical workloads, with transactional email built in. - Epyc Milan or better CPU - 6 Threads/vCPU - 10 GB RAM - 40 GB NVMe SSD - 1 Gbit/s port (up to 5 Gbit/s) - 7 TB Outgoing Transfer Limit /mo",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Time4VPS",
+    "plan_slug": "linux-1",
+    "url": "https://www.time4vps.com/linux-vps/",
+    "excerpt": "Linux 1* 1 TB bandwidth 1 x 2.6GHz CPU 1 GB RAM 10 GB storage Optional backups 2,99 € / month 2,99 € / month when you renew",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Time4VPS",
+    "plan_slug": "linux-2",
+    "url": "https://www.time4vps.com/linux-vps/",
+    "excerpt": "Linux 2 4 TB bandwidth 1 x 2.6 GHz CPU 2 GB RAM 25 GB storage Optional backups Save 70% 2,40 € / month 7,99 € / month when you renew",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Time4VPS",
+    "plan_slug": "linux-4",
+    "url": "https://www.time4vps.com/linux-vps/",
+    "excerpt": "Linux 4 8 TB bandwidth 2 x 2.6 GHz CPU 4 GB RAM 50 GB storage Optional backups Save 70% 3,90 € / month 12,99 € / month when you renew",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Time4VPS",
+    "plan_slug": "linux-8",
+    "url": "https://www.time4vps.com/linux-vps/",
+    "excerpt": "Linux 8 16 TB bandwidth 3 x 2.6 GHz CPU 8 GB RAM 100 GB storage Optional backups Save 70% 6,00 € / month 19,99 € / month when you renew",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Time4VPS",
+    "plan_slug": "linux-16",
+    "url": "https://www.time4vps.com/linux-vps/",
+    "excerpt": "Linux 16 32 TB bandwidth 4 x 2.6 GHz CPU 16 GB RAM 200 GB storage Optional backups Save 70% 10,20 € / month 25,49 € / month when you renew",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Time4VPS",
+    "plan_slug": "linux-24",
+    "url": "https://www.time4vps.com/linux-vps/",
+    "excerpt": "Linux 24 48 TB bandwidth 6 x 2.6 GHz CPU 24 GB RAM 300 GB storage Optional backups Save 70% 18,60 € / month 46,49 € / month when you renew",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Time4VPS",
+    "plan_slug": "linux-32",
+    "url": "https://www.time4vps.com/linux-vps/",
+    "excerpt": "Linux 32 64 TB bandwidth 8 x 2.6 GHz CPU 32 GB RAM 400 GB storage Optional backups Save 70% 36,60 € / month 91,49 € / month when you renew",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Time4VPS",
+    "plan_slug": "linux-48",
+    "url": "https://www.time4vps.com/linux-vps/",
+    "excerpt": "Linux 48 96 TB bandwidth 12 x 2.6 GHz CPU 48 GB RAM 600 GB storage Optional backups Save 70% 71,40 € / month 178,49 € / month when you renew",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Time4VPS",
+    "plan_slug": "linux-64",
+    "url": "https://www.time4vps.com/linux-vps/",
+    "excerpt": "Linux 64 128 TB bandwidth 16 x 2.6 GHz CPU 64 GB RAM 800 GB storage Optional backups Save 70% 141,00 € / month 352,49 € / month when you renew",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Clouding.io",
+    "plan_slug": "clouding-1gb",
+    "url": "https://clouding.io/en/",
+    "excerpt": "0.004€ /hour (max. 3€ /month) 1 GB RAM 1/2 vCore ½ vCore 5 GB SSD NVMe",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Clouding.io",
+    "plan_slug": "clouding-2gb",
+    "url": "https://clouding.io/en/",
+    "excerpt": "0.011€ /hour (max. 8€ /month) 2 GB RAM 1 vCore 1 vCore 30 GB SSD NVMe",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Clouding.io",
+    "plan_slug": "clouding-4gb",
+    "url": "https://clouding.io/en/",
+    "excerpt": "0.022€ /hour (max. 16€ /month) 4 GB RAM 2 vCore 2 vCore 60 GB SSD NVMe",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Clouding.io",
+    "plan_slug": "clouding-192gb",
+    "url": "https://clouding.io/en/",
+    "excerpt": "0.506€ /hour (max. 370€ /month) 192 GB RAM 48 vCore 48 vCore 100 GB SSD NVMe",
+    "checked_date": "2026-11-01"
+  }
+]

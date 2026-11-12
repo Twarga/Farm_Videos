@@ -1,0 +1,979 @@
+{
+  "last_updated": "2026-11-08T00:01:19.910313+00:00",
+  "total_votes": 8793,
+  "dialects": {
+    "msa": {
+      "label": "MSA / الفصحى",
+      "votes": 5134
+    },
+    "gulf": {
+      "label": "Gulf / خليجي",
+      "votes": 1554
+    },
+    "egyptian": {
+      "label": "Egyptian / مصري",
+      "votes": 823
+    },
+    "levantine": {
+      "label": "Levantine / شامي",
+      "votes": 726
+    },
+    "maghrebi": {
+      "label": "Maghrebi / مغاربي",
+      "votes": 454
+    }
+  },
+  "models": [
+    {
+      "rank": 1,
+      "model_id": "coda_v2",
+      "name": "Coda-V2",
+      "model_url": "https://coda.eracoda.ai",
+      "gpu": "",
+      "elo": 1369.2,
+      "ci": 41.2,
+      "wins": 352,
+      "losses": 46,
+      "ties": 37,
+      "battles": 435,
+      "win_rate": 80.9,
+      "avg_latency": 2.9,
+      "open_weight": false,
+      "retired": false,
+      "rank_lo": 1,
+      "rank_hi": 1,
+      "dialects": {
+        "msa": {
+          "elo": 1486,
+          "battles": 164
+        },
+        "gulf": {
+          "elo": 1299,
+          "battles": 107
+        },
+        "egyptian": {
+          "elo": 1295,
+          "battles": 45
+        },
+        "levantine": {
+          "elo": 1427,
+          "battles": 80
+        },
+        "maghrebi": {
+          "elo": 1247,
+          "battles": 39
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "model_id": "aic_tts",
+      "name": "AIC TTS v1",
+      "model_url": "https://www.aic.gov.eg/",
+      "gpu": "",
+      "elo": 1165.1,
+      "ci": 27.4,
+      "wins": 314,
+      "losses": 128,
+      "ties": 112,
+      "battles": 554,
+      "win_rate": 56.7,
+      "avg_latency": 3.2,
+      "open_weight": false,
+      "retired": false,
+      "rank_lo": 2,
+      "rank_hi": 3,
+      "dialects": {
+        "msa": {
+          "elo": 1242,
+          "battles": 325
+        },
+        "gulf": {
+          "elo": 1073,
+          "battles": 102
+        },
+        "egyptian": {
+          "elo": 1033,
+          "battles": 43
+        },
+        "levantine": {
+          "elo": 1076,
+          "battles": 58
+        },
+        "maghrebi": {
+          "elo": 963,
+          "battles": 26
+        }
+      }
+    },
+    {
+      "rank": 3,
+      "model_id": "gemini_flash_tts",
+      "name": "Gemini 3.1 Flash TTS",
+      "model_url": "https://openrouter.ai/google/gemini-3.1-flash-tts-preview",
+      "gpu": "",
+      "elo": 1142.3,
+      "ci": 26.5,
+      "wins": 237,
+      "losses": 132,
+      "ties": 159,
+      "battles": 528,
+      "win_rate": 44.9,
+      "avg_latency": 9.3,
+      "open_weight": false,
+      "retired": false,
+      "rank_lo": 2,
+      "rank_hi": 4,
+      "dialects": {
+        "msa": {
+          "elo": 1093,
+          "battles": 241
+        },
+        "gulf": {
+          "elo": 1125,
+          "battles": 128
+        },
+        "egyptian": {
+          "elo": 1318,
+          "battles": 62
+        },
+        "levantine": {
+          "elo": 1070,
+          "battles": 54
+        },
+        "maghrebi": {
+          "elo": 1333,
+          "battles": 23
+        }
+      }
+    },
+    {
+      "rank": 4,
+      "model_id": "audar_tts_v1",
+      "name": "Audar-TTS-V1-Pro",
+      "model_url": "https://huggingface.co/audarai",
+      "gpu": "",
+      "elo": 1133.5,
+      "ci": 27.6,
+      "wins": 246,
+      "losses": 160,
+      "ties": 145,
+      "battles": 551,
+      "win_rate": 44.6,
+      "avg_latency": 5.1,
+      "open_weight": false,
+      "retired": false,
+      "rank_lo": 2,
+      "rank_hi": 4,
+      "dialects": {
+        "msa": {
+          "elo": 1038,
+          "battles": 241
+        },
+        "gulf": {
+          "elo": 1253,
+          "battles": 126
+        },
+        "egyptian": {
+          "elo": 1151,
+          "battles": 71
+        },
+        "levantine": {
+          "elo": 1099,
+          "battles": 59
+        },
+        "maghrebi": {
+          "elo": 1229,
+          "battles": 27
+        }
+      }
+    },
+    {
+      "rank": 5,
+      "model_id": "higgs_tts_3",
+      "name": "Higgs TTS 3",
+      "model_url": "https://huggingface.co/bosonai/higgs-tts-3-4b",
+      "gpu": "A10G",
+      "elo": 1071.4,
+      "ci": 22.8,
+      "wins": 155,
+      "losses": 167,
+      "ties": 253,
+      "battles": 575,
+      "win_rate": 27.0,
+      "avg_latency": 8.8,
+      "open_weight": true,
+      "retired": false,
+      "rank_lo": 5,
+      "rank_hi": 11,
+      "dialects": {
+        "msa": {
+          "elo": 1074,
+          "battles": 285
+        },
+        "gulf": {
+          "elo": 1009,
+          "battles": 134
+        },
+        "egyptian": {
+          "elo": 1144,
+          "battles": 51
+        },
+        "levantine": {
+          "elo": 1080,
+          "battles": 59
+        },
+        "maghrebi": {
+          "elo": 1108,
+          "battles": 37
+        }
+      }
+    },
+    {
+      "rank": 6,
+      "model_id": "grok_voice_tts",
+      "name": "Grok Voice TTS 1.0",
+      "model_url": "https://openrouter.ai/x-ai/grok-voice-tts-1.0",
+      "gpu": "",
+      "elo": 1063.7,
+      "ci": 25.0,
+      "wins": 176,
+      "losses": 196,
+      "ties": 211,
+      "battles": 583,
+      "win_rate": 30.2,
+      "avg_latency": 3.8,
+      "open_weight": false,
+      "retired": false,
+      "rank_lo": 5,
+      "rank_hi": 13,
+      "dialects": {
+        "msa": {
+          "elo": 1006,
+          "battles": 278
+        },
+        "gulf": {
+          "elo": 1066,
+          "battles": 138
+        },
+        "egyptian": {
+          "elo": 1194,
+          "battles": 60
+        },
+        "levantine": {
+          "elo": 1030,
+          "battles": 57
+        },
+        "maghrebi": {
+          "elo": 1113,
+          "battles": 25
+        }
+      }
+    },
+    {
+      "rank": 7,
+      "model_id": "silma_tts_v2",
+      "name": "SILMA TTS v2 MSA",
+      "model_url": "https://silma.ai/arabic-tts-models",
+      "gpu": "",
+      "elo": 1063.6,
+      "ci": 19.5,
+      "wins": 303,
+      "losses": 252,
+      "ties": 387,
+      "battles": 942,
+      "win_rate": 32.2,
+      "avg_latency": 3.1,
+      "open_weight": false,
+      "retired": false,
+      "rank_lo": 5,
+      "rank_hi": 12,
+      "dialects": {
+        "msa": {
+          "elo": 1072,
+          "battles": 593
+        },
+        "gulf": {
+          "elo": 1036,
+          "battles": 145
+        },
+        "egyptian": {
+          "elo": 1035,
+          "battles": 75
+        },
+        "levantine": {
+          "elo": 1027,
+          "battles": 82
+        },
+        "maghrebi": {
+          "elo": 1066,
+          "battles": 40
+        }
+      }
+    },
+    {
+      "rank": 8,
+      "model_id": "voxcpm2",
+      "name": "VoxCPM 2",
+      "model_url": "https://huggingface.co/openbmb/VoxCPM2",
+      "gpu": "A10G",
+      "elo": 1063.0,
+      "ci": 17.7,
+      "wins": 331,
+      "losses": 266,
+      "ties": 462,
+      "battles": 1059,
+      "win_rate": 31.3,
+      "avg_latency": 11.5,
+      "open_weight": true,
+      "retired": false,
+      "rank_lo": 5,
+      "rank_hi": 12,
+      "dialects": {
+        "msa": {
+          "elo": 1028,
+          "battles": 626
+        },
+        "gulf": {
+          "elo": 1090,
+          "battles": 220
+        },
+        "egyptian": {
+          "elo": 1132,
+          "battles": 84
+        },
+        "levantine": {
+          "elo": 1105,
+          "battles": 66
+        },
+        "maghrebi": {
+          "elo": 1125,
+          "battles": 56
+        }
+      }
+    },
+    {
+      "rank": 9,
+      "model_id": "fish_speech_s2",
+      "name": "Fish Speech S2 Pro",
+      "model_url": "https://huggingface.co/fishaudio/s2-pro",
+      "gpu": "A10G",
+      "elo": 1058.0,
+      "ci": 18.8,
+      "wins": 319,
+      "losses": 258,
+      "ties": 434,
+      "battles": 1011,
+      "win_rate": 31.6,
+      "avg_latency": 91.6,
+      "open_weight": true,
+      "retired": false,
+      "rank_lo": 5,
+      "rank_hi": 13,
+      "dialects": {
+        "msa": {
+          "elo": 1040,
+          "battles": 588
+        },
+        "gulf": {
+          "elo": 1053,
+          "battles": 161
+        },
+        "egyptian": {
+          "elo": 1053,
+          "battles": 120
+        },
+        "levantine": {
+          "elo": 1113,
+          "battles": 82
+        },
+        "maghrebi": {
+          "elo": 1092,
+          "battles": 56
+        }
+      }
+    },
+    {
+      "rank": 10,
+      "model_id": "supertonic_3",
+      "name": "Supertonic 3",
+      "model_url": "https://huggingface.co/Supertone/supertonic-3",
+      "gpu": "CPU",
+      "elo": 1051.9,
+      "ci": 18.9,
+      "wins": 227,
+      "losses": 242,
+      "ties": 381,
+      "battles": 850,
+      "win_rate": 26.7,
+      "avg_latency": 2.5,
+      "open_weight": true,
+      "retired": false,
+      "rank_lo": 6,
+      "rank_hi": 13,
+      "dialects": {
+        "msa": {
+          "elo": 1042,
+          "battles": 474
+        },
+        "gulf": {
+          "elo": 1066,
+          "battles": 163
+        },
+        "egyptian": {
+          "elo": 1004,
+          "battles": 79
+        },
+        "levantine": {
+          "elo": 1043,
+          "battles": 66
+        },
+        "maghrebi": {
+          "elo": 1037,
+          "battles": 55
+        }
+      }
+    },
+    {
+      "rank": 11,
+      "model_id": "omnivoice",
+      "name": "OmniVoice",
+      "model_url": "https://huggingface.co/k2-fsa/OmniVoice",
+      "gpu": "A10G",
+      "elo": 1051.2,
+      "ci": 18.7,
+      "wins": 318,
+      "losses": 297,
+      "ties": 421,
+      "battles": 1036,
+      "win_rate": 30.7,
+      "avg_latency": 3.3,
+      "open_weight": true,
+      "retired": false,
+      "rank_lo": 6,
+      "rank_hi": 13,
+      "dialects": {
+        "msa": {
+          "elo": 1048,
+          "battles": 623
+        },
+        "gulf": {
+          "elo": 1045,
+          "battles": 179
+        },
+        "egyptian": {
+          "elo": 1016,
+          "battles": 89
+        },
+        "levantine": {
+          "elo": 1024,
+          "battles": 85
+        },
+        "maghrebi": {
+          "elo": 1127,
+          "battles": 45
+        }
+      }
+    },
+    {
+      "rank": 12,
+      "model_id": "fasih_tts_v1",
+      "name": "Fasih TTS V1",
+      "model_url": "https://huggingface.co/NightPrince/Fasih-TTS-V1",
+      "gpu": "T4",
+      "elo": 1048.9,
+      "ci": 23.1,
+      "wins": 141,
+      "losses": 179,
+      "ties": 249,
+      "battles": 569,
+      "win_rate": 24.8,
+      "avg_latency": 7.5,
+      "open_weight": true,
+      "retired": false,
+      "rank_lo": 6,
+      "rank_hi": 13,
+      "dialects": {
+        "msa": {
+          "elo": 1086,
+          "battles": 256
+        },
+        "gulf": {
+          "elo": 1003,
+          "battles": 153
+        },
+        "egyptian": {
+          "elo": 1001,
+          "battles": 56
+        },
+        "levantine": {
+          "elo": 1015,
+          "battles": 59
+        },
+        "maghrebi": {
+          "elo": 1058,
+          "battles": 28
+        }
+      }
+    },
+    {
+      "rank": 13,
+      "model_id": "chatterbox_multilingual_v3",
+      "name": "Chatterbox Multilingual V3",
+      "model_url": "https://huggingface.co/ResembleAI/chatterbox",
+      "gpu": "T4",
+      "elo": 1044.8,
+      "ci": 22.6,
+      "wins": 131,
+      "losses": 185,
+      "ties": 267,
+      "battles": 583,
+      "win_rate": 22.5,
+      "avg_latency": 27.9,
+      "open_weight": true,
+      "retired": false,
+      "rank_lo": 7,
+      "rank_hi": 14,
+      "dialects": {
+        "msa": {
+          "elo": 1087,
+          "battles": 259
+        },
+        "gulf": {
+          "elo": 991,
+          "battles": 158
+        },
+        "egyptian": {
+          "elo": 1059,
+          "battles": 61
+        },
+        "levantine": {
+          "elo": 989,
+          "battles": 53
+        },
+        "maghrebi": {
+          "elo": 1009,
+          "battles": 35
+        }
+      }
+    },
+    {
+      "rank": 14,
+      "model_id": "xtts_v2",
+      "name": "XTTS v2",
+      "model_url": "https://huggingface.co/tts-hub/XTTS-v2",
+      "gpu": "T4",
+      "elo": 1018.4,
+      "ci": 17.8,
+      "wins": 273,
+      "losses": 329,
+      "ties": 478,
+      "battles": 1080,
+      "win_rate": 25.3,
+      "avg_latency": 8.3,
+      "open_weight": true,
+      "retired": false,
+      "rank_lo": 13,
+      "rank_hi": 15,
+      "dialects": {
+        "msa": {
+          "elo": 1021,
+          "battles": 670
+        },
+        "gulf": {
+          "elo": 1027,
+          "battles": 190
+        },
+        "egyptian": {
+          "elo": 965,
+          "battles": 74
+        },
+        "levantine": {
+          "elo": 982,
+          "battles": 88
+        },
+        "maghrebi": {
+          "elo": 967,
+          "battles": 51
+        }
+      }
+    },
+    {
+      "rank": 15,
+      "model_id": "silma_tts_v1_small",
+      "name": "SILMA TTS v1 Small",
+      "model_url": "https://huggingface.co/silma-ai/silma-tts",
+      "gpu": "T4",
+      "elo": 1011.1,
+      "ci": 18.6,
+      "wins": 268,
+      "losses": 336,
+      "ties": 456,
+      "battles": 1060,
+      "win_rate": 25.3,
+      "avg_latency": 6.3,
+      "open_weight": true,
+      "retired": false,
+      "rank_lo": 14,
+      "rank_hi": 15,
+      "dialects": {
+        "msa": {
+          "elo": 1030,
+          "battles": 640
+        },
+        "gulf": {
+          "elo": 974,
+          "battles": 174
+        },
+        "egyptian": {
+          "elo": 966,
+          "battles": 106
+        },
+        "levantine": {
+          "elo": 991,
+          "battles": 76
+        },
+        "maghrebi": {
+          "elo": 940,
+          "battles": 53
+        }
+      }
+    },
+    {
+      "rank": 16,
+      "model_id": "nabra_82m",
+      "name": "Nabra 82M",
+      "model_url": "https://huggingface.co/oddadmix/Nabra-82M-v0.1",
+      "gpu": "CPU",
+      "elo": 965.1,
+      "ci": 24.8,
+      "wins": 62,
+      "losses": 230,
+      "ties": 236,
+      "battles": 528,
+      "win_rate": 11.7,
+      "avg_latency": 10.6,
+      "open_weight": true,
+      "retired": false,
+      "rank_lo": 16,
+      "rank_hi": 16,
+      "dialects": {
+        "msa": {
+          "elo": 999,
+          "battles": 259
+        },
+        "gulf": {
+          "elo": 949,
+          "battles": 119
+        },
+        "egyptian": {
+          "elo": 893,
+          "battles": 51
+        },
+        "levantine": {
+          "elo": 929,
+          "battles": 59
+        },
+        "maghrebi": {
+          "elo": 823,
+          "battles": 27
+        }
+      }
+    },
+    {
+      "rank": 17,
+      "model_id": "voxtral_tts",
+      "name": "voxtral_tts",
+      "model_url": "",
+      "gpu": "",
+      "elo": 750.2,
+      "ci": 190.5,
+      "wins": 0,
+      "losses": 2,
+      "ties": 1,
+      "battles": 3,
+      "win_rate": 0.0,
+      "avg_latency": 308.5,
+      "open_weight": true,
+      "retired": false,
+      "rank_lo": null,
+      "rank_hi": null,
+      "dialects": {
+        "msa": {
+          "elo": 835,
+          "battles": 2
+        },
+        "egyptian": {
+          "elo": 1027,
+          "battles": 1
+        }
+      }
+    },
+    {
+      "rank": 18,
+      "model_id": "hamsa_tts",
+      "name": "Hamsa TTS",
+      "model_url": "https://tryhamsa.com",
+      "gpu": "",
+      "elo": 1111.0,
+      "ci": 21.0,
+      "wins": 350,
+      "losses": 152,
+      "ties": 279,
+      "battles": 781,
+      "win_rate": 44.8,
+      "avg_latency": 3.5,
+      "open_weight": false,
+      "retired": true,
+      "rank_lo": null,
+      "rank_hi": null
+    },
+    {
+      "rank": 19,
+      "model_id": "silma_tts_v1_large",
+      "name": "SILMA TTS v1 Large",
+      "model_url": "https://silma.ai/arabic-tts-models",
+      "gpu": "",
+      "elo": 1031.8,
+      "ci": 40.8,
+      "wins": 92,
+      "losses": 55,
+      "ties": 66,
+      "battles": 213,
+      "win_rate": 43.2,
+      "avg_latency": 6.1,
+      "open_weight": false,
+      "retired": true,
+      "rank_lo": null,
+      "rank_hi": null
+    },
+    {
+      "rank": 20,
+      "model_id": "habibi_tts",
+      "name": "Habibi TTS",
+      "model_url": "https://github.com/SWivid/Habibi-TTS",
+      "gpu": "T4",
+      "elo": 999.4,
+      "ci": 21.4,
+      "wins": 190,
+      "losses": 185,
+      "ties": 309,
+      "battles": 684,
+      "win_rate": 27.8,
+      "avg_latency": 36.1,
+      "open_weight": true,
+      "retired": true,
+      "rank_lo": null,
+      "rank_hi": null
+    },
+    {
+      "rank": 21,
+      "model_id": "arabic_f5_tts",
+      "name": "Arabic F5-TTS",
+      "model_url": "https://huggingface.co/IbrahimSalah/Arabic-F5-TTS-v2",
+      "gpu": "T4",
+      "elo": 965.9,
+      "ci": 20.3,
+      "wins": 166,
+      "losses": 223,
+      "ties": 324,
+      "battles": 713,
+      "win_rate": 23.3,
+      "avg_latency": 45.7,
+      "open_weight": true,
+      "retired": true,
+      "rank_lo": null,
+      "rank_hi": null
+    },
+    {
+      "rank": 22,
+      "model_id": "moss_tts",
+      "name": "MOSS-TTS",
+      "model_url": "https://huggingface.co/OpenMOSS-Team/MOSS-TTS",
+      "gpu": "A100-40GB",
+      "elo": 955.7,
+      "ci": 25.3,
+      "wins": 146,
+      "losses": 187,
+      "ties": 190,
+      "battles": 523,
+      "win_rate": 27.9,
+      "avg_latency": 42.4,
+      "open_weight": true,
+      "retired": true,
+      "rank_lo": null,
+      "rank_hi": null
+    },
+    {
+      "rank": 23,
+      "model_id": "chatterbox",
+      "name": "Multilingual Chatterbox",
+      "model_url": "https://huggingface.co/ResembleAI/chatterbox",
+      "gpu": "T4",
+      "elo": 944.9,
+      "ci": 24.7,
+      "wins": 110,
+      "losses": 149,
+      "ties": 204,
+      "battles": 463,
+      "win_rate": 23.8,
+      "avg_latency": 47.9,
+      "open_weight": true,
+      "retired": true,
+      "rank_lo": null,
+      "rank_hi": null
+    },
+    {
+      "rank": 24,
+      "model_id": "fish_speech",
+      "name": "Fish Speech S1-mini",
+      "model_url": "https://huggingface.co/fishaudio/s1-mini",
+      "gpu": "T4",
+      "elo": 933.8,
+      "ci": 23.9,
+      "wins": 109,
+      "losses": 178,
+      "ties": 219,
+      "battles": 506,
+      "win_rate": 21.5,
+      "avg_latency": 55.5,
+      "open_weight": true,
+      "retired": true,
+      "rank_lo": null,
+      "rank_hi": null
+    },
+    {
+      "rank": 25,
+      "model_id": "kani_tts",
+      "name": "KaniTTS Arabic",
+      "model_url": "https://huggingface.co/nineninesix/kani-tts-400m-ar",
+      "gpu": "T4",
+      "elo": 923.5,
+      "ci": 28.2,
+      "wins": 108,
+      "losses": 177,
+      "ties": 172,
+      "battles": 457,
+      "win_rate": 23.6,
+      "avg_latency": 58.2,
+      "open_weight": true,
+      "retired": true,
+      "rank_lo": null,
+      "rank_hi": null
+    },
+    {
+      "rank": 26,
+      "model_id": "moss_tts_nano",
+      "name": "MOSS-TTS Nano",
+      "model_url": "https://huggingface.co/OpenMOSS-Team/MOSS-TTS-Nano-100M",
+      "gpu": "T4",
+      "elo": 908.3,
+      "ci": 26.5,
+      "wins": 15,
+      "losses": 138,
+      "ties": 168,
+      "battles": 321,
+      "win_rate": 4.7,
+      "avg_latency": 33.2,
+      "open_weight": true,
+      "retired": true,
+      "rank_lo": null,
+      "rank_hi": null
+    },
+    {
+      "rank": 27,
+      "model_id": "spark_tts",
+      "name": "Arabic Spark TTS",
+      "model_url": "https://huggingface.co/IbrahimSalah/Arabic-TTS-Spark",
+      "gpu": "T4",
+      "elo": 875.9,
+      "ci": 47.8,
+      "wins": 46,
+      "losses": 66,
+      "ties": 58,
+      "battles": 170,
+      "win_rate": 27.1,
+      "avg_latency": 42.1,
+      "open_weight": true,
+      "retired": true,
+      "rank_lo": null,
+      "rank_hi": null
+    },
+    {
+      "rank": 28,
+      "model_id": "lahgtna_v2",
+      "name": "Lahgatna 2.0",
+      "model_url": "https://huggingface.co/oddadmix/lahgtna-chatterbox-v1",
+      "gpu": "T4",
+      "elo": 849.2,
+      "ci": 32.9,
+      "wins": 26,
+      "losses": 148,
+      "ties": 117,
+      "battles": 291,
+      "win_rate": 8.9,
+      "avg_latency": 59.2,
+      "open_weight": true,
+      "retired": true,
+      "rank_lo": null,
+      "rank_hi": null
+    },
+    {
+      "rank": 29,
+      "model_id": "oute_tts",
+      "name": "OuteTTS 1.0",
+      "model_url": "https://huggingface.co/OuteAI/Llama-OuteTTS-1.0-1B",
+      "gpu": "A10G",
+      "elo": 845.2,
+      "ci": 43.0,
+      "wins": 37,
+      "losses": 71,
+      "ties": 70,
+      "battles": 178,
+      "win_rate": 20.8,
+      "avg_latency": 69.5,
+      "open_weight": true,
+      "retired": true,
+      "rank_lo": null,
+      "rank_hi": null
+    },
+    {
+      "rank": 30,
+      "model_id": "lahgtna",
+      "name": "Lahgtna",
+      "model_url": "https://huggingface.co/oddadmix/lahgtna-chatterbox-v0",
+      "gpu": "T4",
+      "elo": 819.3,
+      "ci": 43.1,
+      "wins": 32,
+      "losses": 81,
+      "ties": 79,
+      "battles": 192,
+      "win_rate": 16.7,
+      "avg_latency": 55.2,
+      "open_weight": true,
+      "retired": true,
+      "rank_lo": null,
+      "rank_hi": null
+    },
+    {
+      "rank": 31,
+      "model_id": "speecht5_ar",
+      "name": "SpeechT5 Arabic",
+      "model_url": "https://huggingface.co/MBZUAI/speecht5_tts_clartts_ar",
+      "gpu": "T4",
+      "elo": 764.7,
+      "ci": 50.4,
+      "wins": 15,
+      "losses": 80,
+      "ties": 52,
+      "battles": 147,
+      "win_rate": 10.2,
+      "avg_latency": 20.0,
+      "open_weight": true,
+      "retired": true,
+      "rank_lo": null,
+      "rank_hi": null
+    }
+  ]
+}

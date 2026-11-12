@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-07",
+  "integrity": "ok",
+  "foreignKeyViolations": 0,
+  "editorialDrafts": 100,
+  "reviewedEditorial": 0,
+  "publishedOffers": 330,
+  "priceRows": 660,
+  "unchangedTables": [
+    "offers",
+    "providers",
+    "site_settings",
+    "publication_snapshots",
+    "publication_snapshot_offers"
+  ],
+  "audits": {
+    "admin.offer_editorial_saved": 100,
+    "admin.owner_bootstrapped_cli": 1,
+    "admin.price_terms_reviewed": 4,
+    "special_offers.publish_cli": 1
+  },
+  "unchangedOtherPriceRecords": 652,
+  "setupOnlyRevisions": [
+    "liquid-web-lw-1g",
+    "liquid-web-lw-2g",
+    "liquid-web-lw-4g",
+    "liquid-web-lw-6g"
+  ],
+  "frozenWorklistUnchanged": true,
+  "firstBatchUnchanged": true
+}

@@ -1,0 +1,548 @@
+[
+  {
+    "provider": "DigitalOcean",
+    "plan_slug": "basic-512mb",
+    "url": "https://www.digitalocean.com/pricing/droplets",
+    "excerpt": "| 512 MiB | 1 vCPU | 500 GiB | 10 GiB | $0.00595 | $4.00 |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "DigitalOcean",
+    "plan_slug": "basic-1gb",
+    "url": "https://www.digitalocean.com/pricing/droplets",
+    "excerpt": "| 1 GiB | 1 vCPU | 1,000 GiB | 25 GiB | $0.00893 | $6.00 |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "DigitalOcean",
+    "plan_slug": "basic-2gb",
+    "url": "https://www.digitalocean.com/pricing/droplets",
+    "excerpt": "| 2 GiB | 1 vCPU | 2,000 GiB | 50 GiB | $0.01786 | $12.00 |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "DigitalOcean",
+    "plan_slug": "basic-2gb-2vcpu",
+    "url": "https://www.digitalocean.com/pricing/droplets",
+    "excerpt": "| 2 GiB | 2 vCPUs | 3,000 GiB | 60 GiB | $0.02679 | $18.00 |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "DigitalOcean",
+    "plan_slug": "basic-4gb",
+    "url": "https://www.digitalocean.com/pricing/droplets",
+    "excerpt": "| 4 GiB | 2 vCPUs | 4,000 GiB | 80 GiB | $0.03571 | $24.00 |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "DigitalOcean",
+    "plan_slug": "basic-8gb",
+    "url": "https://www.digitalocean.com/pricing/droplets",
+    "excerpt": "| 8 GiB | 4 vCPUs | 5,000 GiB | 160 GiB | $0.07143 | $48.00 |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "DigitalOcean",
+    "plan_slug": "basic-16gb",
+    "url": "https://www.digitalocean.com/pricing/droplets",
+    "excerpt": "| 16 GiB | 8 vCPUs | 6,000 GiB | 320 GiB | $0.14286 | $96.00 |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "DigitalOcean",
+    "plan_slug": "cpu-4gb",
+    "url": "https://www.digitalocean.com/pricing/droplets",
+    "excerpt": "| 4 GiB | 2 vCPUs | 4,000 GiB | 1x | 25 GiB | $0.06250 | $42.00 |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "DigitalOcean",
+    "plan_slug": "cpu-8gb",
+    "url": "https://www.digitalocean.com/pricing/droplets",
+    "excerpt": "| 8 GiB | 4 vCPUs | 5,000 GiB | 1x | 50 GiB | $0.12500 | $84.00 |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "DigitalOcean",
+    "plan_slug": "cpu-16gb",
+    "url": "https://www.digitalocean.com/pricing/droplets",
+    "excerpt": "| 16 GiB | 8 vCPUs | 6,000 GiB | 1x | 100 GiB | $0.25000 | $168.00 |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "DigitalOcean",
+    "plan_slug": "cpu-32gb",
+    "url": "https://www.digitalocean.com/pricing/droplets",
+    "excerpt": "| 32 GiB | 16 vCPUs | 7,000 GiB | 1x | 200 GiB | $0.50000 | $336.00 |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "DigitalOcean",
+    "plan_slug": "cpu-64gb",
+    "url": "https://www.digitalocean.com/pricing/droplets",
+    "excerpt": "| 64 GiB | 32 vCPUs | 9,000 GiB | 1x | 400 GiB | $1.00000 | $672.00 |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "DigitalOcean",
+    "plan_slug": "cpu-96gb",
+    "url": "https://www.digitalocean.com/pricing/droplets",
+    "excerpt": "| 96 GiB | 48 vCPUs | 11,000 GiB | 1x | 600 GiB | $1.50000 | $1,008.00 |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "DigitalOcean",
+    "plan_slug": "gp-8gb",
+    "url": "https://www.digitalocean.com/pricing/droplets",
+    "excerpt": "| 8 GiB | 2 vCPUs | 4,000 GiB | 1x | 25 GiB | $0.09375 | $63.00 |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "DigitalOcean",
+    "plan_slug": "gp-16gb",
+    "url": "https://www.digitalocean.com/pricing/droplets",
+    "excerpt": "| 16 GiB | 4 vCPUs | 5,000 GiB | 1x | 50 GiB | $0.18750 | $126.00 |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "DigitalOcean",
+    "plan_slug": "gp-32gb",
+    "url": "https://www.digitalocean.com/pricing/droplets",
+    "excerpt": "| 32 GiB | 8 vCPUs | 6,000 GiB | 1x | 100 GiB | $0.37500 | $252.00 |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "DigitalOcean",
+    "plan_slug": "gp-64gb",
+    "url": "https://www.digitalocean.com/pricing/droplets",
+    "excerpt": "| 64 GiB | 16 vCPUs | 7,000 GiB | 1x | 200 GiB | $0.75000 | $504.00 |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "DigitalOcean",
+    "plan_slug": "gp-128gb",
+    "url": "https://www.digitalocean.com/pricing/droplets",
+    "excerpt": "| 128 GiB | 32 vCPUs | 8,000 GiB | 1x | 400 GiB | $1.50000 | $1,008.00 |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "DigitalOcean",
+    "plan_slug": "gp-160gb",
+    "url": "https://www.digitalocean.com/pricing/droplets",
+    "excerpt": "| 160 GiB | 40 vCPUs | 9,000 GiB | 1x | 500 GiB | $1.87500 | $1,260.00 |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "DigitalOcean",
+    "plan_slug": "mem-16gb",
+    "url": "https://www.digitalocean.com/pricing/droplets",
+    "excerpt": "| 16 GiB | 2 vCPUs | 4,000 GiB | 1x | 50 GiB | $0.12500 | $84.00 |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "DigitalOcean",
+    "plan_slug": "mem-32gb",
+    "url": "https://www.digitalocean.com/pricing/droplets",
+    "excerpt": "| 32 GiB | 4 vCPUs | 6,000 GiB | 1x | 100 GiB | $0.25000 | $168.00 |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "DigitalOcean",
+    "plan_slug": "mem-64gb",
+    "url": "https://www.digitalocean.com/pricing/droplets",
+    "excerpt": "| 64 GiB | 8 vCPUs | 7,000 GiB | 1x | 200 GiB | $0.50000 | $336.00 |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "DigitalOcean",
+    "plan_slug": "mem-128gb",
+    "url": "https://www.digitalocean.com/pricing/droplets",
+    "excerpt": "| 128 GiB | 16 vCPUs | 8,000 GiB | 1x | 400 GiB | $1.00000 | $672.00 |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "DigitalOcean",
+    "plan_slug": "mem-192gb",
+    "url": "https://www.digitalocean.com/pricing/droplets",
+    "excerpt": "| 192 GiB | 24 vCPUs | 9,000 GiB | 1x | 600 GiB | $1.50000 | $1,008.00 |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "DigitalOcean",
+    "plan_slug": "mem-256gb",
+    "url": "https://www.digitalocean.com/pricing/droplets",
+    "excerpt": "| 256 GiB | 32 vCPUs | 10,000 GiB | 1x | 800 GiB | $2.00000 | $1,344.00 |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "DigitalOcean",
+    "plan_slug": "sto-16gb",
+    "url": "https://www.digitalocean.com/pricing/droplets",
+    "excerpt": "| 16 GiB | 2 vCPUs | 4,000 GiB | 1x | 300 GiB | $0.19494 | $131.00 |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "DigitalOcean",
+    "plan_slug": "sto-32gb",
+    "url": "https://www.digitalocean.com/pricing/droplets",
+    "excerpt": "| 32 GiB | 4 vCPUs | 6,000 GiB | 1x | 600 GiB | $0.38988 | $262.00 |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "DigitalOcean",
+    "plan_slug": "sto-64gb",
+    "url": "https://www.digitalocean.com/pricing/droplets",
+    "excerpt": "| 64 GiB | 8 vCPUs | 7,000 GiB | 1x | 1,170 GiB | $0.77976 | $524.00 |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "DigitalOcean",
+    "plan_slug": "sto-128gb",
+    "url": "https://www.digitalocean.com/pricing/droplets",
+    "excerpt": "| 128 GiB | 16 vCPUs | 8,000 GiB | 1x | 2,340 GiB | $1.55952 | $1,048.00 |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "DigitalOcean",
+    "plan_slug": "sto-192gb",
+    "url": "https://www.digitalocean.com/pricing/droplets",
+    "excerpt": "| 192 GiB | 24 vCPUs | 9,000 GiB | 1x | 3,520 GiB | $2.33929 | $1,572.00 |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "DigitalOcean",
+    "plan_slug": "sto-256gb",
+    "url": "https://www.digitalocean.com/pricing/droplets",
+    "excerpt": "| 256 GiB | 32 vCPUs | 10,000 GiB | 1x | 4,690 GiB | $3.11905 | $2,096.00 |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "AWS Lightsail",
+    "plan_slug": "ls-gp-nano-v4",
+    "url": "https://aws.amazon.com/lightsail/pricing/",
+    "excerpt": "$5 USD/mo **0.5 GB** Memory **2** vCPUs*** **20 GB** SSD Disk **1 TB** Transfer*",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "AWS Lightsail",
+    "plan_slug": "ls-gp-micro-v4",
+    "url": "https://aws.amazon.com/lightsail/pricing/",
+    "excerpt": "$7 USD/mo **1 GB** Memory **2** vCPUs*** **40 GB** SSD Disk **2 TB** Transfer*",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "AWS Lightsail",
+    "plan_slug": "ls-gp-small-v4",
+    "url": "https://aws.amazon.com/lightsail/pricing/",
+    "excerpt": "$12 USD/mo **2 GB** Memory **2** vCPUs*** **60 GB** SSD Disk **3 TB** Transfer*",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "AWS Lightsail",
+    "plan_slug": "ls-gp-med-v4",
+    "url": "https://aws.amazon.com/lightsail/pricing/",
+    "excerpt": "$24 USD/mo **4 GB** Memory **2** vCPUs **80 GB** SSD Disk **4 TB** Transfer*",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "AWS Lightsail",
+    "plan_slug": "ls-gp-large-v4",
+    "url": "https://aws.amazon.com/lightsail/pricing/",
+    "excerpt": "$44 USD/mo **8 GB** Memory **2** vCPUs **160 GB** SSD Disk **5 TB** Transfer*",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "AWS Lightsail",
+    "plan_slug": "ls-gp-xl-v4",
+    "url": "https://aws.amazon.com/lightsail/pricing/",
+    "excerpt": "$84 USD/mo **16 GB** Memory **4** vCPUs **320 GB** SSD Disk **6 TB** Transfer*",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "AWS Lightsail",
+    "plan_slug": "ls-gp-2xl-v4",
+    "url": "https://aws.amazon.com/lightsail/pricing/",
+    "excerpt": "$164 USD/mo **32 GB** Memory **8** vCPUs **640 GB** SSD Disk **7 TB** Transfer*",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "AWS Lightsail",
+    "plan_slug": "ls-gp-4xl-v4",
+    "url": "https://aws.amazon.com/lightsail/pricing/",
+    "excerpt": "$384 USD/mo **64 GB** Memory **16** vCPUs **1280 GB** SSD Disk **8 TB** Transfer*",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "AWS Lightsail",
+    "plan_slug": "ls-gp-8xl-v4",
+    "url": "https://aws.amazon.com/lightsail/pricing/",
+    "excerpt": "$884 USD/mo **128 GB** Memory **32** vCPUs **1280 GB** SSD Disk **9 TB** Transfer*",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "AWS Lightsail",
+    "plan_slug": "ls-gp-12xl-v4",
+    "url": "https://aws.amazon.com/lightsail/pricing/",
+    "excerpt": "$1,324 USD/mo **192 GB** Memory **48** vCPUs **1280 GB** SSD Disk **10 TB** Transfer*",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "AWS Lightsail",
+    "plan_slug": "ls-gp-16xl-v4",
+    "url": "https://aws.amazon.com/lightsail/pricing/",
+    "excerpt": "$1,764 USD/mo **256 GB** Memory **64** vCPUs **1280 GB** SSD Disk **10 TB** Transfer*",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "AWS Lightsail",
+    "plan_slug": "ls-mo-16-v4",
+    "url": "https://aws.amazon.com/lightsail/pricing/",
+    "excerpt": "$74 USD/mo **16 GB** Memory **2** vCPUs **160 GB** SSD Disk **5 TB** Transfer*",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "AWS Lightsail",
+    "plan_slug": "ls-mo-32-v4",
+    "url": "https://aws.amazon.com/lightsail/pricing/",
+    "excerpt": "$144 USD/mo **32 GB** Memory **4** vCPUs **320 GB** SSD Disk **6 TB** Transfer*",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "AWS Lightsail",
+    "plan_slug": "ls-mo-64-v4",
+    "url": "https://aws.amazon.com/lightsail/pricing/",
+    "excerpt": "$294 USD/mo **64 GB** Memory **8** vCPUs **640 GB** SSD Disk **7 TB** Transfer*",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "AWS Lightsail",
+    "plan_slug": "ls-mo-128-v4",
+    "url": "https://aws.amazon.com/lightsail/pricing/",
+    "excerpt": "$584 USD/mo **128 GB** Memory **16** vCPUs **1280 GB** SSD Disk **8 TB** Transfer*",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "AWS Lightsail",
+    "plan_slug": "ls-mo-256-v4",
+    "url": "https://aws.amazon.com/lightsail/pricing/",
+    "excerpt": "$1,174 USD/mo **256 GB** Memory **32** vCPUs **1280 GB** SSD Disk **9 TB** Transfer*",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "AWS Lightsail",
+    "plan_slug": "ls-mo-384-v4",
+    "url": "https://aws.amazon.com/lightsail/pricing/",
+    "excerpt": "$1,764 USD/mo **384 GB** Memory **48** vCPUs **1280 GB** SSD Disk **10 TB** Transfer*",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "AWS Lightsail",
+    "plan_slug": "ls-mo-512-v4",
+    "url": "https://aws.amazon.com/lightsail/pricing/",
+    "excerpt": "$2,344 USD/mo **512 GB** Memory **64** vCPUs **1280 GB** SSD Disk **10 TB** Transfer*",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "AWS Lightsail",
+    "plan_slug": "ls-co-4-v4",
+    "url": "https://aws.amazon.com/lightsail/pricing/",
+    "excerpt": "$42 USD/mo **4 GB** Memory **2** vCPUs **160 GB** SSD Disk **5 TB** Transfer*",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "AWS Lightsail",
+    "plan_slug": "ls-co-8-v4",
+    "url": "https://aws.amazon.com/lightsail/pricing/",
+    "excerpt": "$84 USD/mo **8 GB** Memory **4** vCPUs **320 GB** SSD Disk **6 TB** Transfer*",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "AWS Lightsail",
+    "plan_slug": "ls-co-16-v4",
+    "url": "https://aws.amazon.com/lightsail/pricing/",
+    "excerpt": "$168 USD/mo **16 GB** Memory **8** vCPUs **640 GB** SSD Disk **7 TB** Transfer*",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "AWS Lightsail",
+    "plan_slug": "ls-co-32-v4",
+    "url": "https://aws.amazon.com/lightsail/pricing/",
+    "excerpt": "$336 USD/mo **32 GB** Memory **16** vCPUs **1280 GB** SSD Disk **8 TB** Transfer*",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "AWS Lightsail",
+    "plan_slug": "ls-co-72-v4",
+    "url": "https://aws.amazon.com/lightsail/pricing/",
+    "excerpt": "$844 USD/mo **72 GB** Memory **36** vCPUs **1280 GB** SSD Disk **9 TB** Transfer*",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "AWS Lightsail",
+    "plan_slug": "ls-co-96-v4",
+    "url": "https://aws.amazon.com/lightsail/pricing/",
+    "excerpt": "$1,126 USD/mo **96 GB** Memory **48** vCPUs **1280 GB** SSD Disk **10 TB** Transfer*",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "AWS Lightsail",
+    "plan_slug": "ls-co-144-v4",
+    "url": "https://aws.amazon.com/lightsail/pricing/",
+    "excerpt": "$1,688 USD/mo **144 GB** Memory **72** vCPUs **1280 GB** SSD Disk **10 TB** Transfer*",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "AWS EC2",
+    "plan_slug": "ec2-t3-micro-free",
+    "url": "https://aws.amazon.com/free/",
+    "excerpt": "When you create a new AWS Free Tier account, you get $100 in credits immediately. As you explore key services, you can earn up to $100 more. That's up to $200 over 6 months to build, break things, and experiment with no charges and no surprise bills on the Free plan.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Google Cloud",
+    "plan_slug": "e2-micro-always-free",
+    "url": "https://docs.cloud.google.com/free/docs/free-cloud-features",
+    "excerpt": "Compute Engine: 1 non-preemptible e2-micro VM instance per month in one of the following US regions: Oregon: us-west1. Iowa: us-central1. South Carolina: us-east1. 30 GB-months standard persistent disk. 1 GB of outbound data transfer from North America to all region destinations per month.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Google Cloud",
+    "plan_slug": "e2-micro",
+    "url": "https://cloud.google.com/products/compute/pricing/general-purpose",
+    "excerpt": "| e2-micro | 2 | 1 GiB | $0.008376428 / 1 hour |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Google Cloud",
+    "plan_slug": "e2-small",
+    "url": "https://cloud.google.com/products/compute/pricing/general-purpose",
+    "excerpt": "| e2-small | 2 | 2 GiB | $0.016752855 / 1 hour |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Google Cloud",
+    "plan_slug": "e2-medium",
+    "url": "https://cloud.google.com/products/compute/pricing/general-purpose",
+    "excerpt": "| e2-medium | 2 | 4 GiB | $0.03350571 / 1 hour |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Google Cloud",
+    "plan_slug": "e2-standard-2",
+    "url": "https://cloud.google.com/products/compute/pricing/general-purpose",
+    "excerpt": "| e2-standard-2 | 2 | 8 GiB | $0.06701142 / 1 hour |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Google Cloud",
+    "plan_slug": "e2-standard-4",
+    "url": "https://cloud.google.com/products/compute/pricing/general-purpose",
+    "excerpt": "| e2-standard-4 | 4 | 16 GiB | $0.13402284 / 1 hour |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Google Cloud",
+    "plan_slug": "e2-standard-8",
+    "url": "https://cloud.google.com/products/compute/pricing/general-purpose",
+    "excerpt": "| e2-standard-8 | 8 | 32 GiB | $0.26804568 / 1 hour |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Google Cloud",
+    "plan_slug": "e2-standard-16",
+    "url": "https://cloud.google.com/products/compute/pricing/general-purpose",
+    "excerpt": "| e2-standard-16 | 16 | 64 GiB | $0.53609136 / 1 hour |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Google Cloud",
+    "plan_slug": "e2-standard-32",
+    "url": "https://cloud.google.com/products/compute/pricing/general-purpose",
+    "excerpt": "| e2-standard-32 | 32 | 128 GiB | $1.07218272 / 1 hour |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Google Cloud",
+    "plan_slug": "f1-micro",
+    "url": "https://cloud.google.com/products/compute/pricing/general-purpose",
+    "excerpt": "| f1-micro | 0.2 | 0.60 GiB | $0.0076 / 1 hour |",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Microsoft Azure",
+    "plan_slug": "azure-b1s-free",
+    "url": "https://azure.microsoft.com/en-us/pricing/free-services/",
+    "excerpt": "These products are free up to the specified monthly amounts. Some are always free to all Azure customers, and some are free for 12 months to new customers only. Popular services free for 12 months: B1s Linux virtual machines (750 hours).",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Oracle Cloud",
+    "plan_slug": "vm-standard-a1-flex-always-free",
+    "url": "https://docs.oracle.com/en-us/iaas/Content/FreeTier/freetier_topic-Always_Free_Resources.htm",
+    "excerpt": "All tenancies get the first 1,500 OCPU hours and 9,000 GB hours per month for free for VM instances using the VM.Standard.A1.Flex shape, which has an Arm processor. For Always Free tenancies, this is equivalent to 2 OCPUs and 12 GB of memory.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Oracle Cloud",
+    "plan_slug": "vm-standard-e2-1-micro",
+    "url": "https://docs.oracle.com/en-us/iaas/Content/FreeTier/freetier_topic-Always_Free_Resources.htm",
+    "excerpt": "All tenancies get up to two Always Free VM instances using the VM.Standard.E2.1.Micro shape, which has an AMD processor.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Oracle Cloud",
+    "plan_slug": "a1-flex-1-6",
+    "url": "https://www.oracle.com/cloud/compute/arm/",
+    "excerpt": "Ampere A1 compute shapes are available in both bare metal with 160 cores and flexible VMs with up to 80 cores at a penny a core pricing, with cores billed at $0.01 per OCPU-hour and memory billed at $0.0015 per GB-hour in all regions.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Oracle Cloud",
+    "plan_slug": "a1-flex-4-24",
+    "url": "https://www.oracle.com/cloud/compute/arm/",
+    "excerpt": "Ampere A1 compute shapes are available in both bare metal with 160 cores and flexible VMs with up to 80 cores at a penny a core pricing, with cores billed at $0.01 per OCPU-hour and memory billed at $0.0015 per GB-hour in all regions.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Alibaba Cloud",
+    "plan_slug": "sas-2c-05g",
+    "url": "https://www.alibabacloud.com/en/product/swas",
+    "excerpt": "{\"title\":\"<b>SAS 2vCPU 0.5GiB</b>\",\"paramsArr\":[{\"params\":\"The system disk of 20 GiB and the maximum bandwidth of 200 Mbit/s\"},{\"params\":\"Default image: Alibaba Cloud Linux\"}],\"price\":\"<span>$<b>4</b>/month</span>\"}",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Alibaba Cloud",
+    "plan_slug": "sas-2c-1g",
+    "url": "https://www.alibabacloud.com/en/product/swas",
+    "excerpt": "{\"title\":\"<b>SAS 2vCPU 1GiB</b>\",\"paramsArr\":[{\"params\":\"The system disk of 30 GiB and the maximum bandwidth of 200 Mbit/s\"},{\"params\":\"Default image: Docker\"}],\"price\":\"<span>$<b>5</b>/month</span>\"}",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Alibaba Cloud",
+    "plan_slug": "sas-2c-2g",
+    "url": "https://www.alibabacloud.com/en/product/swas",
+    "excerpt": "{\"title\":\"<b>SAS 2vCPU 2GiB</b>\",\"paramsArr\":[{\"params\":\"The system disk of 40 GiB and the maximum bandwidth of 200 Mbit/s\"},{\"params\":\"Default image: Alibaba Cloud Linux\"}],\"price\":\"<span>$<b>8</b>/month</span>\"}",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Alibaba Cloud",
+    "plan_slug": "sas-2c-4g",
+    "url": "https://www.alibabacloud.com/en/product/swas",
+    "excerpt": "{\"title\":\"<b>SAS 2vCPU 4GiB</b>\",\"paramsArr\":[{\"params\":\"The system disk of 50 GiB and the maximum bandwidth of 200 Mbit/s\"},{\"params\":\"Default image: Cloudreve\"}],\"price\":\"<span>$<b>16</b>/month</span>\"}",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Alibaba Cloud",
+    "plan_slug": "sas-4c-8g",
+    "url": "https://www.alibabacloud.com/en/product/swas",
+    "excerpt": "{\"title\":\"<b>SAS 4vCPU 8GiB</b>\",\"paramsArr\":[{\"params\":\"The system disk of 70 GiB and the maximum bandwidth of 200 Mbit/s\"},{\"params\":\"Default image: Alibaba Cloud Linux\"}],\"price\":\"<span>$<b>32</b>/month</span>\"}",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Alibaba Cloud",
+    "plan_slug": "sas-4c-16g",
+    "url": "https://www.alibabacloud.com/en/product/swas",
+    "excerpt": "{\"title\":\"<b>SAS 4vCPU 16GiB</b>\",\"paramsArr\":[{\"params\":\"The system disk of 80 GiB and the maximum bandwidth of 200 Mbit/s\"},{\"params\":\"Default image: Alibaba Cloud Linux\"}],\"price\":\"<span>$<b>48</b>/month</span>\"}",
+    "checked_date": "2026-11-01"
+  }
+]

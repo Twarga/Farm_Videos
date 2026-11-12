@@ -1,0 +1,38 @@
+{
+  "measuredAt": "2026-10-10T14:32:52.608516+00:00",
+  "source": "/tmp/bestvpsforme-phase7-final-2h22bhi3/source.db",
+  "productionReadOnly": true,
+  "tablesUnchanged": {
+    "__drizzle_migrations": true,
+    "providers": true,
+    "offers": true,
+    "offer_prices": true,
+    "locations": true,
+    "offer_locations": true,
+    "provider_affiliate_programs": true,
+    "import_jobs": true,
+    "publication_snapshot_offers": true,
+    "publication_snapshots": true,
+    "verification_issues": true,
+    "admin_recovery_codes": true,
+    "admin_sessions": true,
+    "admin_users": true,
+    "audit_log": true,
+    "affiliate_conversions": true,
+    "affiliate_revenue": true,
+    "analytics_events": true,
+    "analytics_visitors": true,
+    "staged_import_rows": true,
+    "offer_editorial": true,
+    "fx_rates": true,
+    "site_settings": true
+  },
+  "counts": {
+    "publishedOffers": 330,
+    "reviewedEditorial": 62,
+    "heldEditorialDrafts": 38,
+    "priceRows": 660
+  },
+  "integrity": "ok",
+  "foreignKeyFailures": 0
+}

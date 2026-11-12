@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ricks-Clips-Style Shorts — LAN player</title>
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; min-height: 100svh; display: grid; place-items: center;
+    background: #0e0e12 radial-gradient(1200px 600px at 50% -10%, #1d1d2b 0%, transparent 70%);
+    font: 15px/1.4 system-ui, -apple-system, "Segoe UI", sans-serif; color: #e8e8ee;
+  }
+  main { width: min(430px, 100vw); padding: 16px; }
+  h1 { font-size: 17px; font-weight: 600; margin: 0 0 14px; }
+  .frame {
+    position: relative; border-radius: 18px; overflow: hidden;
+    aspect-ratio: 9 / 16; background: #000;
+    box-shadow: 0 24px 60px -18px #000c, 0 0 0 1px #ffffff14;
+  }
+  video { width: 100%; height: 100%; display: block; object-fit: contain; }
+  .big-play {
+    position: absolute; inset: 0; display: grid; place-items: center;
+    background: #0008; border: 0; cursor: pointer; transition: opacity .2s;
+  }
+  .big-play[hidden] { display: none; }
+  .big-play svg { width: 84px; height: 84px; filter: drop-shadow(0 6px 18px #000a); }
+  .list { margin-top: 14px; display: flex; flex-direction: column; gap: 6px; }
+  .list button {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 10px 14px; border-radius: 10px; border: 1px solid #ffffff1a;
+    background: #17171f; color: inherit; font: inherit; cursor: pointer; text-align: left;
+  }
+  .list button:hover { background: #20202c; }
+  .list button.active { border-color: #ff003388; background: #2a1620; }
+  .list .dur { color: #77778a; font-size: 12px; }
+  .hint { text-align: center; color: #77778a; font-size: 12px; margin-top: 12px; }
+</style>
+</head>
+<body>
+<main>
+  <h1 id="title">Ricks Clips style shorts</h1>
+  <div class="frame">
+    <video id="v" playsinline loop preload="metadata"></video>
+    <button class="big-play" id="play" aria-label="Play">
+      <svg viewBox="0 0 84 84"><circle cx="42" cy="42" r="42" fill="#ff0033"/><path d="M33 25l26 17-26 17z" fill="#fff"/></svg>
+    </button>
+  </div>
+  <div class="list" id="list"></div>
+  <p class="hint">Space / click to pause &middot; M to mute &middot; F for fullscreen &middot; ↑↓ change video</p>
+</main>
+<script>
+const VIDS = [
+  { file: "hanoi-rats.mp4",    title: "The Hanoi Rat-Tail Bounty" },
+  { file: "plague-doctor.mp4", title: "Why Medieval Doctors Wore Bird Masks" },
+  { file: "sword-law.mp4",     title: "The Town That Fined You for NOT Carrying a Sword" },
+  { file: "eyepatch.mp4",      title: "Why Pirates Actually Wore Eye Patches" },
+  { file: "ice-emperor.mp4",   title: "The Emperor Who Made Ice Illegal to Melt" },
+  { file: "loophole-city.mp4", title: "How One Loophole Bankrupted a Whole City" },
+];
+const v = document.getElementById('v'), play = document.getElementById('play'),
+      list = document.getElementById('list'), title = document.getElementById('title');
+let cur = 0;
+VIDS.forEach((vd, i) => {
+  const b = document.createElement('button');
+  b.innerHTML = `<span>${vd.title}</span>`;
+  b.onclick = () => select(i, true);
+  list.appendChild(b);
+  vd.el = b;
+});
+function select(i, autoplay) {
+  cur = i;
+  VIDS.forEach((vd, j) => vd.el.classList.toggle('active', j === i));
+  v.src = VIDS[i].file;
+  title.textContent = VIDS[i].title;
+  if (autoplay && play.hidden) v.play().catch(() => {});
+  if (!play.hidden) v.load();
+}
+const toggle = () => v.paused ? v.play() : v.pause();
+play.onclick = () => { play.hidden = true; v.controls = true; v.muted = false; v.play(); };
+v.onclick = toggle;
+addEventListener('keydown', e => {
+  if (play.hidden === false) return;
+  if (e.code === 'Space') { e.preventDefault(); toggle(); }
+  if (e.key === 'm') v.muted = !v.muted;
+  if (e.key === 'f') document.fullscreenElement ? document.exitFullscreen() : v.requestFullscreen();
+  if (e.key === 'ArrowDown') { e.preventDefault(); select((cur + 1) % VIDS.length, true); }
+  if (e.key === 'ArrowUp') { e.preventDefault(); select((cur - 1 + VIDS.length) % VIDS.length, true); }
+});
+select(0, false);
+</script>
+</body>
+</html>

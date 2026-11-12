@@ -1,0 +1,71 @@
+{
+  "buildDir": "/tmp/bestvpsforme-phase7-final-2h22bhi3/build",
+  "evidence": [
+    {
+      "theme": "light",
+      "width": 390,
+      "unknownStatus": 404,
+      "dependency": "offer_prices table unavailable then restored",
+      "recoveredBy": "retry()",
+      "violations": []
+    },
+    {
+      "theme": "light",
+      "width": 390,
+      "dependency": "publication_snapshots unavailable then restored; never reported as empty history",
+      "recoveredBy": "retry()",
+      "violations": []
+    },
+    {
+      "theme": "light",
+      "width": 1440,
+      "unknownStatus": 404,
+      "dependency": "offer_prices table unavailable then restored",
+      "recoveredBy": "retry()",
+      "violations": []
+    },
+    {
+      "theme": "light",
+      "width": 1440,
+      "dependency": "publication_snapshots unavailable then restored; never reported as empty history",
+      "recoveredBy": "retry()",
+      "violations": []
+    },
+    {
+      "theme": "dark",
+      "width": 390,
+      "unknownStatus": 404,
+      "dependency": "offer_prices table unavailable then restored",
+      "recoveredBy": "retry()",
+      "violations": []
+    },
+    {
+      "theme": "dark",
+      "width": 390,
+      "dependency": "publication_snapshots unavailable then restored; never reported as empty history",
+      "recoveredBy": "retry()",
+      "violations": []
+    },
+    {
+      "theme": "dark",
+      "width": 1440,
+      "unknownStatus": 404,
+      "dependency": "offer_prices table unavailable then restored",
+      "recoveredBy": "retry()",
+      "violations": []
+    },
+    {
+      "theme": "dark",
+      "width": 1440,
+      "dependency": "publication_snapshots unavailable then restored; never reported as empty history",
+      "recoveredBy": "retry()",
+      "violations": []
+    }
+  ],
+  "coordinatorReceipt": {
+    "capturedAt": "2026-10-10T14:13:49.367156+00:00",
+    "buildId": "kfsfRayDWDzMr7Vzz_twm",
+    "sourceArtifact": "/tmp/bestvpsforme-phase7-recovery-njrJ4h/recovery.json",
+    "browserTestExitStatus": "passed in final coordinator standard profile"
+  }
+}

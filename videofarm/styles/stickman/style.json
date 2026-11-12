@@ -1,0 +1,83 @@
+{
+  "name": "stickman",
+  "label": "Stickman",
+  "pitch": "Black-ink stick figure on cream paper with a vignette (ThatGuy / Productive Peter style): second-person self-improvement storytelling, numbered points, close-ups for emotion.",
+  "best_for": [
+    "self-improvement",
+    "psychology of behavior",
+    "social skills",
+    "habits",
+    "money mindset",
+    "relationships",
+    "motivation"
+  ],
+  "title_examples": [
+    "7 Habits That Secretly Make You Look Weak",
+    "Stop Doing This If You Want People To Respect You",
+    "Why You Can't Stay Disciplined (And The Fix)",
+    "The Psychology Of Quiet People"
+  ],
+  "voice": {
+    "id": "am_adam",
+    "speed": 0.95
+  },
+  "words_per_minute": 150,
+  "long": {
+    "target_minutes": 10,
+    "min_minutes": 8.5,
+    "chapters": [
+      7,
+      9
+    ],
+    "intro": true
+  },
+  "chapter_words": [
+    150,
+    230
+  ],
+  "intro_words": [
+    55,
+    95
+  ],
+  "sentence_words": [
+    1,
+    22
+  ],
+  "palette": {
+    "bg": "#F1EBDD",
+    "ink": "#121212",
+    "accent": "#E0322B",
+    "paper": "#F1EBDD"
+  },
+  "fonts": {
+    "label": "Anton-Regular.ttf",
+    "card": "Anton-Regular.ttf",
+    "caption": "Anton-Regular.ttf",
+    "title": "Anton-Regular.ttf"
+  },
+  "image": {
+    "prefix": "Classic stickman-animation YouTube style in exactly the same art style as the reference image: black ink line art on cream off-white paper, uniform thick black strokes, monochrome black-and-white, clean simple line-art background, soft dark vignette at the edges, no color.",
+    "character": "When the main character appears he is EXACTLY the stick figure from the reference image: a perfect circle head, two small black dot eyes, a simple one-line mouth and small eyebrow lines for emotion, thin stick limbs. {outfit}. Other people are stick figures in the same style.",
+    "composition": "16:9 landscape composition. One clear moment, big readable subject, simple line-art set (room, street, office) only when the scene needs it.",
+    "text_none": "Absolutely no text, letters, numbers, or words anywhere in the image.",
+    "text_some": "The only text allowed in the image is: {text} \u2014 spelled exactly like that in simple black hand lettering. No other text.",
+    "icon": ""
+  },
+  "frame": {
+    "label": false,
+    "vignette": 0.25,
+    "grain": 0.06
+  },
+  "transition": "titlecard",
+  "music": "lofi",
+  "captions": {
+    "long": false,
+    "short": true
+  },
+  "short_layout": {
+    "bg": "#0E0E0E",
+    "header_color": "#F1EBDD",
+    "caption_fill": "#FFFFFF",
+    "caption_stroke": "#000000"
+  }
+}

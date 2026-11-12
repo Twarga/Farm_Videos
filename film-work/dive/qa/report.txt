@@ -1,0 +1,23 @@
+=== QA REPORT: The Dive ===
+film: /home/tlab/film-work/demo/out/demo-16x9.mp4
+specs: 1920x1080 @ 30.0 fps, duration: 50.500000 s
+timestamp: 2026-11-03 01:47:41 UTC
+
+contact sheet: /home/tlab/film-work/dive/qa/contact-sheet.png (1 sheet)
+flash check: 0 luma jumps > 20%, worst second has 0 (limit 3/s) -> PASS
+smoothness check: 61 hard cuts detected (spikes > 5x local median) -> FAIL
+  cut @ 6.17s: diff=14.28, local_median=2.22, spike=6.4x
+  cut @ 6.20s: diff=18.05, local_median=2.06, spike=8.7x
+  cut @ 6.23s: diff=17.94, local_median=1.92, spike=9.4x
+  cut @ 6.27s: diff=18.78, local_median=1.86, spike=10.1x
+  cut @ 6.30s: diff=18.70, local_median=1.67, spike=11.2x
+  cut @ 6.33s: diff=17.75, local_median=1.34, spike=13.2x
+  cut @ 6.37s: diff=15.12, local_median=1.34, spike=11.3x
+  cut @ 6.40s: diff=12.84, local_median=1.34, spike=9.6x
+  cut @ 6.43s: diff=10.62, local_median=1.34, spike=7.9x
+  cut @ 6.47s: diff=8.73, local_median=1.34, spike=6.5x
+  ... and 51 more
+loudness: audio stream found (aac)
+  I: -14.1 LUFS
+  Peak: -1.0 dBFS
+

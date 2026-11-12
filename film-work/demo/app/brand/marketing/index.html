@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Marketing kit — bestvpsforme</title>
+<link rel="stylesheet" href="../mockups/assets/bvf.css">
+<style>
+  .kit { display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; padding: 40px 0 120px; }
+  .kit a { display: grid; gap: 12px; }
+  .kit img { width: 100%; border-radius: 16px; border: 1px solid var(--border); }
+  .kit strong { font: 700 16px/1.2 var(--font-sans); }
+  .kit span { font: 480 13.5px/1.4 var(--font-sans); color: var(--fg-muted); }
+  .tall { grid-row: span 2; }
+</style></head>
+<body data-no-badge>
+<header class="nav"><div class="container--wide nav__in"><img src="../logo/lockup-horizontal-light.svg" alt="bestvpsforme" style="height:30px"><span class="eyebrow" style="margin-left:auto">Marketing kit v1</span></div></header>
+<main class="container--wide">
+  <h1 class="d-lg" style="margin-top:56px">Marketing kit.</h1>
+  <p class="b-lg muted" style="margin-top:16px;max-width:60ch">HTML templates at exact pixel sizes. PNG exports live in <code>png/</code>. In the app, the OG templates become <code>opengraph-image.tsx</code> routes rendered with <code>ImageResponse</code>.</p>
+  <div class="kit">
+    <a href="og-home.html"><img src="png/og-home.png" alt=""><strong>OG · home</strong><span>1200 × 630 · default site share image</span></a>
+    <a href="social-story.html" class="tall"><img src="png/social-story.png" alt="" style="max-height:900px;width:auto"><strong>Story · 1080 × 1920</strong><span>Instagram / TikTok / Shorts end card</span></a>
+    <a href="og-offer.html"><img src="png/og-offer.png" alt=""><strong>OG · offer template</strong><span>1200 × 630 · one per plan, generated</span></a>
+    <a href="social-square.html"><img src="png/social-square.png" alt=""><strong>Square · 1080 × 1080</strong><span>"The ad says" series: one real example per post</span></a>
+  </div>
+</main>
+</body></html>

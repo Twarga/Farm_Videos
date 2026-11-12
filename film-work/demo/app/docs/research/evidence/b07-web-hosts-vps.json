@@ -1,0 +1,415 @@
+[
+  {
+    "provider": "KnownHost",
+    "plan_slug": "entry",
+    "url": "https://www.knownhost.com/unmanaged-vps",
+    "excerpt": "Entry VPS Server Starting At $5.00/mo 1 Core CPU Processor 1 GB Guaranteed RAM 25 GB NVMe Storage 2 TB Premium Bandwidth 2 Dedicated IP Addresses /64 IPv6. Extreme VPS Server Starting At $120.00/mo 16 Core 16 GB RAM 500 GB NVMe 10 TB Bandwidth.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "KnownHost",
+    "plan_slug": "entry-plus",
+    "url": "https://www.knownhost.com/unmanaged-vps",
+    "excerpt": "Entry VPS Server Starting At $5.00/mo 1 Core CPU Processor 1 GB Guaranteed RAM 25 GB NVMe Storage 2 TB Premium Bandwidth 2 Dedicated IP Addresses /64 IPv6. Extreme VPS Server Starting At $120.00/mo 16 Core 16 GB RAM 500 GB NVMe 10 TB Bandwidth.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "KnownHost",
+    "plan_slug": "basic",
+    "url": "https://www.knownhost.com/unmanaged-vps",
+    "excerpt": "Entry VPS Server Starting At $5.00/mo 1 Core CPU Processor 1 GB Guaranteed RAM 25 GB NVMe Storage 2 TB Premium Bandwidth 2 Dedicated IP Addresses /64 IPv6. Extreme VPS Server Starting At $120.00/mo 16 Core 16 GB RAM 500 GB NVMe 10 TB Bandwidth.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "KnownHost",
+    "plan_slug": "standard",
+    "url": "https://www.knownhost.com/unmanaged-vps",
+    "excerpt": "Entry VPS Server Starting At $5.00/mo 1 Core CPU Processor 1 GB Guaranteed RAM 25 GB NVMe Storage 2 TB Premium Bandwidth 2 Dedicated IP Addresses /64 IPv6. Extreme VPS Server Starting At $120.00/mo 16 Core 16 GB RAM 500 GB NVMe 10 TB Bandwidth.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "KnownHost",
+    "plan_slug": "professional",
+    "url": "https://www.knownhost.com/unmanaged-vps",
+    "excerpt": "Entry VPS Server Starting At $5.00/mo 1 Core CPU Processor 1 GB Guaranteed RAM 25 GB NVMe Storage 2 TB Premium Bandwidth 2 Dedicated IP Addresses /64 IPv6. Extreme VPS Server Starting At $120.00/mo 16 Core 16 GB RAM 500 GB NVMe 10 TB Bandwidth.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "KnownHost",
+    "plan_slug": "premium",
+    "url": "https://www.knownhost.com/unmanaged-vps",
+    "excerpt": "Entry VPS Server Starting At $5.00/mo 1 Core CPU Processor 1 GB Guaranteed RAM 25 GB NVMe Storage 2 TB Premium Bandwidth 2 Dedicated IP Addresses /64 IPv6. Extreme VPS Server Starting At $120.00/mo 16 Core 16 GB RAM 500 GB NVMe 10 TB Bandwidth.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "KnownHost",
+    "plan_slug": "extreme",
+    "url": "https://www.knownhost.com/unmanaged-vps",
+    "excerpt": "Entry VPS Server Starting At $5.00/mo 1 Core CPU Processor 1 GB Guaranteed RAM 25 GB NVMe Storage 2 TB Premium Bandwidth 2 Dedicated IP Addresses /64 IPv6. Extreme VPS Server Starting At $120.00/mo 16 Core 16 GB RAM 500 GB NVMe 10 TB Bandwidth.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "20i",
+    "plan_slug": "1-core",
+    "url": "https://www.20i.com/vps",
+    "excerpt": "1 Core \u00a39.99/mo 1 Cores 1 GB RAM 25 GB SSD 100 Mbps Unlimited Bandwidth ... 12 Cores \u00a3399.99/mo 12 Cores 64 GB RAM 800 GB SSD 1000 Mbps Unlimited Bandwidth. All our VPS hosting comes with one dedicated IP address. Prices exclusive of VAT.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "20i",
+    "plan_slug": "2-cores",
+    "url": "https://www.20i.com/vps",
+    "excerpt": "1 Core \u00a39.99/mo 1 Cores 1 GB RAM 25 GB SSD 100 Mbps Unlimited Bandwidth ... 12 Cores \u00a3399.99/mo 12 Cores 64 GB RAM 800 GB SSD 1000 Mbps Unlimited Bandwidth. All our VPS hosting comes with one dedicated IP address. Prices exclusive of VAT.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "20i",
+    "plan_slug": "4-cores",
+    "url": "https://www.20i.com/vps",
+    "excerpt": "1 Core \u00a39.99/mo 1 Cores 1 GB RAM 25 GB SSD 100 Mbps Unlimited Bandwidth ... 12 Cores \u00a3399.99/mo 12 Cores 64 GB RAM 800 GB SSD 1000 Mbps Unlimited Bandwidth. All our VPS hosting comes with one dedicated IP address. Prices exclusive of VAT.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "20i",
+    "plan_slug": "6-cores",
+    "url": "https://www.20i.com/vps",
+    "excerpt": "1 Core \u00a39.99/mo 1 Cores 1 GB RAM 25 GB SSD 100 Mbps Unlimited Bandwidth ... 12 Cores \u00a3399.99/mo 12 Cores 64 GB RAM 800 GB SSD 1000 Mbps Unlimited Bandwidth. All our VPS hosting comes with one dedicated IP address. Prices exclusive of VAT.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "20i",
+    "plan_slug": "8-cores",
+    "url": "https://www.20i.com/vps",
+    "excerpt": "1 Core \u00a39.99/mo 1 Cores 1 GB RAM 25 GB SSD 100 Mbps Unlimited Bandwidth ... 12 Cores \u00a3399.99/mo 12 Cores 64 GB RAM 800 GB SSD 1000 Mbps Unlimited Bandwidth. All our VPS hosting comes with one dedicated IP address. Prices exclusive of VAT.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "20i",
+    "plan_slug": "10-cores",
+    "url": "https://www.20i.com/vps",
+    "excerpt": "1 Core \u00a39.99/mo 1 Cores 1 GB RAM 25 GB SSD 100 Mbps Unlimited Bandwidth ... 12 Cores \u00a3399.99/mo 12 Cores 64 GB RAM 800 GB SSD 1000 Mbps Unlimited Bandwidth. All our VPS hosting comes with one dedicated IP address. Prices exclusive of VAT.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "20i",
+    "plan_slug": "12-cores",
+    "url": "https://www.20i.com/vps",
+    "excerpt": "1 Core \u00a39.99/mo 1 Cores 1 GB RAM 25 GB SSD 100 Mbps Unlimited Bandwidth ... 12 Cores \u00a3399.99/mo 12 Cores 64 GB RAM 800 GB SSD 1000 Mbps Unlimited Bandwidth. All our VPS hosting comes with one dedicated IP address. Prices exclusive of VAT.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "DreamHost",
+    "plan_slug": "dh-stack4",
+    "url": "https://www.dreamhost.com/hosting/vps/",
+    "excerpt": "Stack 4 First 3 months at $8.99/mo Auto-renews at $15.99/mo after 3 months. 2 vCPU AMD EPYC 4 GB RAM 75 GB NVMe SSD Unmetered Bandwidth ... Stack 32 First 3 months at $45.99/mo Auto-renews at $59.99/mo. 8 vCPU AMD EPYC 32 GB RAM 450 GB NVMe SSD.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "DreamHost",
+    "plan_slug": "dh-stack8",
+    "url": "https://www.dreamhost.com/hosting/vps/",
+    "excerpt": "Stack 4 First 3 months at $8.99/mo Auto-renews at $15.99/mo after 3 months. 2 vCPU AMD EPYC 4 GB RAM 75 GB NVMe SSD Unmetered Bandwidth ... Stack 32 First 3 months at $45.99/mo Auto-renews at $59.99/mo. 8 vCPU AMD EPYC 32 GB RAM 450 GB NVMe SSD.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "DreamHost",
+    "plan_slug": "dh-stack16",
+    "url": "https://www.dreamhost.com/hosting/vps/",
+    "excerpt": "Stack 4 First 3 months at $8.99/mo Auto-renews at $15.99/mo after 3 months. 2 vCPU AMD EPYC 4 GB RAM 75 GB NVMe SSD Unmetered Bandwidth ... Stack 32 First 3 months at $45.99/mo Auto-renews at $59.99/mo. 8 vCPU AMD EPYC 32 GB RAM 450 GB NVMe SSD.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "DreamHost",
+    "plan_slug": "dh-stack32",
+    "url": "https://www.dreamhost.com/hosting/vps/",
+    "excerpt": "Stack 4 First 3 months at $8.99/mo Auto-renews at $15.99/mo after 3 months. 2 vCPU AMD EPYC 4 GB RAM 75 GB NVMe SSD Unmetered Bandwidth ... Stack 32 First 3 months at $45.99/mo Auto-renews at $59.99/mo. 8 vCPU AMD EPYC 32 GB RAM 450 GB NVMe SSD.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "InMotion Hosting",
+    "plan_slug": "inmotion-4vcpu",
+    "url": "https://www.inmotionhosting.com/vps-hosting",
+    "excerpt": "VPS 4 vCPU $9.99/mo For 24 month term Renews at $16.99/mo 4 vCPU Cores 8GB RAM 160GB NVMe SSD 5TB Bandwidth 2 Dedicated IPs ... VPS 16 vCPU $39.99/mo For 24 month term Renews at $111.99/mo 16 vCPU 32GB RAM 460GB NVMe SSD Unlimited Bandwidth 10 Dedicated IPs.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "InMotion Hosting",
+    "plan_slug": "inmotion-8vcpu",
+    "url": "https://www.inmotionhosting.com/vps-hosting",
+    "excerpt": "VPS 4 vCPU $9.99/mo For 24 month term Renews at $16.99/mo 4 vCPU Cores 8GB RAM 160GB NVMe SSD 5TB Bandwidth 2 Dedicated IPs ... VPS 16 vCPU $39.99/mo For 24 month term Renews at $111.99/mo 16 vCPU 32GB RAM 460GB NVMe SSD Unlimited Bandwidth 10 Dedicated IPs.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "InMotion Hosting",
+    "plan_slug": "inmotion-12vcpu",
+    "url": "https://www.inmotionhosting.com/vps-hosting",
+    "excerpt": "VPS 4 vCPU $9.99/mo For 24 month term Renews at $16.99/mo 4 vCPU Cores 8GB RAM 160GB NVMe SSD 5TB Bandwidth 2 Dedicated IPs ... VPS 16 vCPU $39.99/mo For 24 month term Renews at $111.99/mo 16 vCPU 32GB RAM 460GB NVMe SSD Unlimited Bandwidth 10 Dedicated IPs.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "InMotion Hosting",
+    "plan_slug": "inmotion-16vcpu",
+    "url": "https://www.inmotionhosting.com/vps-hosting",
+    "excerpt": "VPS 4 vCPU $9.99/mo For 24 month term Renews at $16.99/mo 4 vCPU Cores 8GB RAM 160GB NVMe SSD 5TB Bandwidth 2 Dedicated IPs ... VPS 16 vCPU $39.99/mo For 24 month term Renews at $111.99/mo 16 vCPU 32GB RAM 460GB NVMe SSD Unlimited Bandwidth 10 Dedicated IPs.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Liquid Web",
+    "plan_slug": "lw-2g",
+    "url": "https://www.liquidweb.com/vps-hosting/",
+    "excerpt": "Compute: 1 vCPU 2 GB 60 GB 2 TB $11/mo $0.015/hr; 2 vCPU 4 GB 80 GB 3 TB $17/mo $0.023/hr; 2 vCPU 6 GB 120 GB 4 TB $22/mo $0.030/hr; 4 vCPU 8 GB 240 GB 5 TB $45/mo $0.062/hr; 8 vCPU 32 GB 640 GB 10 TB $179/mo $0.245/hr.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Liquid Web",
+    "plan_slug": "lw-4g",
+    "url": "https://www.liquidweb.com/vps-hosting/",
+    "excerpt": "Compute: 1 vCPU 2 GB 60 GB 2 TB $11/mo $0.015/hr; 2 vCPU 4 GB 80 GB 3 TB $17/mo $0.023/hr; 2 vCPU 6 GB 120 GB 4 TB $22/mo $0.030/hr; 4 vCPU 8 GB 240 GB 5 TB $45/mo $0.062/hr; 8 vCPU 32 GB 640 GB 10 TB $179/mo $0.245/hr.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Liquid Web",
+    "plan_slug": "lw-6g",
+    "url": "https://www.liquidweb.com/vps-hosting/",
+    "excerpt": "Compute: 1 vCPU 2 GB 60 GB 2 TB $11/mo $0.015/hr; 2 vCPU 4 GB 80 GB 3 TB $17/mo $0.023/hr; 2 vCPU 6 GB 120 GB 4 TB $22/mo $0.030/hr; 4 vCPU 8 GB 240 GB 5 TB $45/mo $0.062/hr; 8 vCPU 32 GB 640 GB 10 TB $179/mo $0.245/hr.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Liquid Web",
+    "plan_slug": "lw-8g",
+    "url": "https://www.liquidweb.com/vps-hosting/",
+    "excerpt": "Compute: 1 vCPU 2 GB 60 GB 2 TB $11/mo $0.015/hr; 2 vCPU 4 GB 80 GB 3 TB $17/mo $0.023/hr; 2 vCPU 6 GB 120 GB 4 TB $22/mo $0.030/hr; 4 vCPU 8 GB 240 GB 5 TB $45/mo $0.062/hr; 8 vCPU 32 GB 640 GB 10 TB $179/mo $0.245/hr.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Liquid Web",
+    "plan_slug": "lw-12g",
+    "url": "https://www.liquidweb.com/vps-hosting/",
+    "excerpt": "Compute: 1 vCPU 2 GB 60 GB 2 TB $11/mo $0.015/hr; 2 vCPU 4 GB 80 GB 3 TB $17/mo $0.023/hr; 2 vCPU 6 GB 120 GB 4 TB $22/mo $0.030/hr; 4 vCPU 8 GB 240 GB 5 TB $45/mo $0.062/hr; 8 vCPU 32 GB 640 GB 10 TB $179/mo $0.245/hr.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Liquid Web",
+    "plan_slug": "lw-16g",
+    "url": "https://www.liquidweb.com/vps-hosting/",
+    "excerpt": "Compute: 1 vCPU 2 GB 60 GB 2 TB $11/mo $0.015/hr; 2 vCPU 4 GB 80 GB 3 TB $17/mo $0.023/hr; 2 vCPU 6 GB 120 GB 4 TB $22/mo $0.030/hr; 4 vCPU 8 GB 240 GB 5 TB $45/mo $0.062/hr; 8 vCPU 32 GB 640 GB 10 TB $179/mo $0.245/hr.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Liquid Web",
+    "plan_slug": "lw-24g",
+    "url": "https://www.liquidweb.com/vps-hosting/",
+    "excerpt": "Compute: 1 vCPU 2 GB 60 GB 2 TB $11/mo $0.015/hr; 2 vCPU 4 GB 80 GB 3 TB $17/mo $0.023/hr; 2 vCPU 6 GB 120 GB 4 TB $22/mo $0.030/hr; 4 vCPU 8 GB 240 GB 5 TB $45/mo $0.062/hr; 8 vCPU 32 GB 640 GB 10 TB $179/mo $0.245/hr.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Liquid Web",
+    "plan_slug": "lw-32g",
+    "url": "https://www.liquidweb.com/vps-hosting/",
+    "excerpt": "Compute: 1 vCPU 2 GB 60 GB 2 TB $11/mo $0.015/hr; 2 vCPU 4 GB 80 GB 3 TB $17/mo $0.023/hr; 2 vCPU 6 GB 120 GB 4 TB $22/mo $0.030/hr; 4 vCPU 8 GB 240 GB 5 TB $45/mo $0.062/hr; 8 vCPU 32 GB 640 GB 10 TB $179/mo $0.245/hr.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "ScalaHosting",
+    "plan_slug": "scala-b1",
+    "url": "https://www.scalahosting.com/managed-cloud-hosting.html",
+    "excerpt": "Build #1 $22.46 /mo $54.95/mo when you renew 2 CPU Cores 4 GB RAM 50 GB NVMe SSD ... Build #4 $71.21 /mo $244.95/mo when you renew 12 CPU Cores 24 GB RAM 200 GB NVMe SSD. Unmetered Bandwidth, Dedicated IP Address.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "ScalaHosting",
+    "plan_slug": "scala-b2",
+    "url": "https://www.scalahosting.com/managed-cloud-hosting.html",
+    "excerpt": "Build #1 $22.46 /mo $54.95/mo when you renew 2 CPU Cores 4 GB RAM 50 GB NVMe SSD ... Build #4 $71.21 /mo $244.95/mo when you renew 12 CPU Cores 24 GB RAM 200 GB NVMe SSD. Unmetered Bandwidth, Dedicated IP Address.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "ScalaHosting",
+    "plan_slug": "scala-b3",
+    "url": "https://www.scalahosting.com/managed-cloud-hosting.html",
+    "excerpt": "Build #1 $22.46 /mo $54.95/mo when you renew 2 CPU Cores 4 GB RAM 50 GB NVMe SSD ... Build #4 $71.21 /mo $244.95/mo when you renew 12 CPU Cores 24 GB RAM 200 GB NVMe SSD. Unmetered Bandwidth, Dedicated IP Address.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "ScalaHosting",
+    "plan_slug": "scala-b4",
+    "url": "https://www.scalahosting.com/managed-cloud-hosting.html",
+    "excerpt": "Build #1 $22.46 /mo $54.95/mo when you renew 2 CPU Cores 4 GB RAM 50 GB NVMe SSD ... Build #4 $71.21 /mo $244.95/mo when you renew 12 CPU Cores 24 GB RAM 200 GB NVMe SSD. Unmetered Bandwidth, Dedicated IP Address.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "FastComet",
+    "plan_slug": "cloud-2",
+    "url": "https://www.fastcomet.com/vps-pricing",
+    "excerpt": "Cloud 2 $53.87/mo Regular price: $76.95 2 CPU Virtual Cores 4 GB ECC RAM 80 GB SSD Space 4 TB Bandwidth ... Cloud 5 32 GB 8 CPUs 640 GB 16 TB $241.95/mo ... Cloud 8 128 GB 24 CPUs 2560 GB 20 TB $719.95/mo.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "FastComet",
+    "plan_slug": "cloud-3",
+    "url": "https://www.fastcomet.com/vps-pricing",
+    "excerpt": "Cloud 2 $53.87/mo Regular price: $76.95 2 CPU Virtual Cores 4 GB ECC RAM 80 GB SSD Space 4 TB Bandwidth ... Cloud 5 32 GB 8 CPUs 640 GB 16 TB $241.95/mo ... Cloud 8 128 GB 24 CPUs 2560 GB 20 TB $719.95/mo.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "FastComet",
+    "plan_slug": "cloud-4",
+    "url": "https://www.fastcomet.com/vps-pricing",
+    "excerpt": "Cloud 2 $53.87/mo Regular price: $76.95 2 CPU Virtual Cores 4 GB ECC RAM 80 GB SSD Space 4 TB Bandwidth ... Cloud 5 32 GB 8 CPUs 640 GB 16 TB $241.95/mo ... Cloud 8 128 GB 24 CPUs 2560 GB 20 TB $719.95/mo.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "FastComet",
+    "plan_slug": "cloud-5",
+    "url": "https://www.fastcomet.com/vps-pricing",
+    "excerpt": "Cloud 2 $53.87/mo Regular price: $76.95 2 CPU Virtual Cores 4 GB ECC RAM 80 GB SSD Space 4 TB Bandwidth ... Cloud 5 32 GB 8 CPUs 640 GB 16 TB $241.95/mo ... Cloud 8 128 GB 24 CPUs 2560 GB 20 TB $719.95/mo.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "FastComet",
+    "plan_slug": "cloud-6",
+    "url": "https://www.fastcomet.com/vps-pricing",
+    "excerpt": "Cloud 2 $53.87/mo Regular price: $76.95 2 CPU Virtual Cores 4 GB ECC RAM 80 GB SSD Space 4 TB Bandwidth ... Cloud 5 32 GB 8 CPUs 640 GB 16 TB $241.95/mo ... Cloud 8 128 GB 24 CPUs 2560 GB 20 TB $719.95/mo.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "FastComet",
+    "plan_slug": "cloud-7",
+    "url": "https://www.fastcomet.com/vps-pricing",
+    "excerpt": "Cloud 2 $53.87/mo Regular price: $76.95 2 CPU Virtual Cores 4 GB ECC RAM 80 GB SSD Space 4 TB Bandwidth ... Cloud 5 32 GB 8 CPUs 640 GB 16 TB $241.95/mo ... Cloud 8 128 GB 24 CPUs 2560 GB 20 TB $719.95/mo.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "FastComet",
+    "plan_slug": "cloud-8",
+    "url": "https://www.fastcomet.com/vps-pricing",
+    "excerpt": "Cloud 2 $53.87/mo Regular price: $76.95 2 CPU Virtual Cores 4 GB ECC RAM 80 GB SSD Space 4 TB Bandwidth ... Cloud 5 32 GB 8 CPUs 640 GB 16 TB $241.95/mo ... Cloud 8 128 GB 24 CPUs 2560 GB 20 TB $719.95/mo.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Namecheap",
+    "plan_slug": "spark",
+    "url": "https://www.namecheap.com/hosting/vps/",
+    "excerpt": "Spark $3.88 /mo Billed yearly You pay $46.56 \u2014 renews at $58.56/year 1 CPU core 1 GB RAM 20 GB SSD 1000 GB bandwidth 1 IPv4 ... Hypernova $46.88 /mo Billed yearly You pay $562.56 \u2014 renews at $634.56/year 12 CPU cores 24 GB RAM 500 GB SSD 10000 GB bandwidth Up to 2 IPv4.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Namecheap",
+    "plan_slug": "pulsar",
+    "url": "https://www.namecheap.com/hosting/vps/",
+    "excerpt": "Spark $3.88 /mo Billed yearly You pay $46.56 \u2014 renews at $58.56/year 1 CPU core 1 GB RAM 20 GB SSD 1000 GB bandwidth 1 IPv4 ... Hypernova $46.88 /mo Billed yearly You pay $562.56 \u2014 renews at $634.56/year 12 CPU cores 24 GB RAM 500 GB SSD 10000 GB bandwidth Up to 2 IPv4.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Namecheap",
+    "plan_slug": "quasar",
+    "url": "https://www.namecheap.com/hosting/vps/",
+    "excerpt": "Spark $3.88 /mo Billed yearly You pay $46.56 \u2014 renews at $58.56/year 1 CPU core 1 GB RAM 20 GB SSD 1000 GB bandwidth 1 IPv4 ... Hypernova $46.88 /mo Billed yearly You pay $562.56 \u2014 renews at $634.56/year 12 CPU cores 24 GB RAM 500 GB SSD 10000 GB bandwidth Up to 2 IPv4.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Namecheap",
+    "plan_slug": "magnetar",
+    "url": "https://www.namecheap.com/hosting/vps/",
+    "excerpt": "Spark $3.88 /mo Billed yearly You pay $46.56 \u2014 renews at $58.56/year 1 CPU core 1 GB RAM 20 GB SSD 1000 GB bandwidth 1 IPv4 ... Hypernova $46.88 /mo Billed yearly You pay $562.56 \u2014 renews at $634.56/year 12 CPU cores 24 GB RAM 500 GB SSD 10000 GB bandwidth Up to 2 IPv4.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Namecheap",
+    "plan_slug": "hypernova",
+    "url": "https://www.namecheap.com/hosting/vps/",
+    "excerpt": "Spark $3.88 /mo Billed yearly You pay $46.56 \u2014 renews at $58.56/year 1 CPU core 1 GB RAM 20 GB SSD 1000 GB bandwidth 1 IPv4 ... Hypernova $46.88 /mo Billed yearly You pay $562.56 \u2014 renews at $634.56/year 12 CPU cores 24 GB RAM 500 GB SSD 10000 GB bandwidth Up to 2 IPv4.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Hostwinds",
+    "plan_slug": "ul-1",
+    "url": "https://www.hostwinds.com/vps/unmanaged-linux",
+    "excerpt": "1 CPU 1 GB RAM 30 GB Storage 1 TB Bandwidth $ 4.99/mo ... 2 CPU 4 GB RAM 75 GB Storage 2 TB Bandwidth $ 18.99/mo ... 16 CPU 96 GB RAM 750 GB Storage 9 TB Bandwidth $ 328.99/mo. Solid State Drives, 1 Gbps Ports, Multiple Locations.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Hostwinds",
+    "plan_slug": "ul-2",
+    "url": "https://www.hostwinds.com/vps/unmanaged-linux",
+    "excerpt": "1 CPU 1 GB RAM 30 GB Storage 1 TB Bandwidth $ 4.99/mo ... 2 CPU 4 GB RAM 75 GB Storage 2 TB Bandwidth $ 18.99/mo ... 16 CPU 96 GB RAM 750 GB Storage 9 TB Bandwidth $ 328.99/mo. Solid State Drives, 1 Gbps Ports, Multiple Locations.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Hostwinds",
+    "plan_slug": "ul-3",
+    "url": "https://www.hostwinds.com/vps/unmanaged-linux",
+    "excerpt": "1 CPU 1 GB RAM 30 GB Storage 1 TB Bandwidth $ 4.99/mo ... 2 CPU 4 GB RAM 75 GB Storage 2 TB Bandwidth $ 18.99/mo ... 16 CPU 96 GB RAM 750 GB Storage 9 TB Bandwidth $ 328.99/mo. Solid State Drives, 1 Gbps Ports, Multiple Locations.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Hostwinds",
+    "plan_slug": "ul-4",
+    "url": "https://www.hostwinds.com/vps/unmanaged-linux",
+    "excerpt": "1 CPU 1 GB RAM 30 GB Storage 1 TB Bandwidth $ 4.99/mo ... 2 CPU 4 GB RAM 75 GB Storage 2 TB Bandwidth $ 18.99/mo ... 16 CPU 96 GB RAM 750 GB Storage 9 TB Bandwidth $ 328.99/mo. Solid State Drives, 1 Gbps Ports, Multiple Locations.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Hostwinds",
+    "plan_slug": "ul-5",
+    "url": "https://www.hostwinds.com/vps/unmanaged-linux",
+    "excerpt": "1 CPU 1 GB RAM 30 GB Storage 1 TB Bandwidth $ 4.99/mo ... 2 CPU 4 GB RAM 75 GB Storage 2 TB Bandwidth $ 18.99/mo ... 16 CPU 96 GB RAM 750 GB Storage 9 TB Bandwidth $ 328.99/mo. Solid State Drives, 1 Gbps Ports, Multiple Locations.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Hostwinds",
+    "plan_slug": "ul-6",
+    "url": "https://www.hostwinds.com/vps/unmanaged-linux",
+    "excerpt": "1 CPU 1 GB RAM 30 GB Storage 1 TB Bandwidth $ 4.99/mo ... 2 CPU 4 GB RAM 75 GB Storage 2 TB Bandwidth $ 18.99/mo ... 16 CPU 96 GB RAM 750 GB Storage 9 TB Bandwidth $ 328.99/mo. Solid State Drives, 1 Gbps Ports, Multiple Locations.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Hostwinds",
+    "plan_slug": "ul-7",
+    "url": "https://www.hostwinds.com/vps/unmanaged-linux",
+    "excerpt": "1 CPU 1 GB RAM 30 GB Storage 1 TB Bandwidth $ 4.99/mo ... 2 CPU 4 GB RAM 75 GB Storage 2 TB Bandwidth $ 18.99/mo ... 16 CPU 96 GB RAM 750 GB Storage 9 TB Bandwidth $ 328.99/mo. Solid State Drives, 1 Gbps Ports, Multiple Locations.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Hostwinds",
+    "plan_slug": "ul-8",
+    "url": "https://www.hostwinds.com/vps/unmanaged-linux",
+    "excerpt": "1 CPU 1 GB RAM 30 GB Storage 1 TB Bandwidth $ 4.99/mo ... 2 CPU 4 GB RAM 75 GB Storage 2 TB Bandwidth $ 18.99/mo ... 16 CPU 96 GB RAM 750 GB Storage 9 TB Bandwidth $ 328.99/mo. Solid State Drives, 1 Gbps Ports, Multiple Locations.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Hostwinds",
+    "plan_slug": "ul-9",
+    "url": "https://www.hostwinds.com/vps/unmanaged-linux",
+    "excerpt": "1 CPU 1 GB RAM 30 GB Storage 1 TB Bandwidth $ 4.99/mo ... 2 CPU 4 GB RAM 75 GB Storage 2 TB Bandwidth $ 18.99/mo ... 16 CPU 96 GB RAM 750 GB Storage 9 TB Bandwidth $ 328.99/mo. Solid State Drives, 1 Gbps Ports, Multiple Locations.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Hostwinds",
+    "plan_slug": "ul-10",
+    "url": "https://www.hostwinds.com/vps/unmanaged-linux",
+    "excerpt": "1 CPU 1 GB RAM 30 GB Storage 1 TB Bandwidth $ 4.99/mo ... 2 CPU 4 GB RAM 75 GB Storage 2 TB Bandwidth $ 18.99/mo ... 16 CPU 96 GB RAM 750 GB Storage 9 TB Bandwidth $ 328.99/mo. Solid State Drives, 1 Gbps Ports, Multiple Locations.",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Cloudways",
+    "plan_slug": "cloudways-do-micro",
+    "url": "https://www.cloudways.com/en/pricing.php",
+    "excerpt": "DigitalOcean Micro: $11 USD per month You pay $0.0357 hourly 2GB RAM 1 vCPU 50GB Storage 2TB Transfer Bandwidth ... Medium: $88 USD per month You pay $0.1310 hourly 8GB RAM 4 vCPU 160GB Storage 5TB Bandwidth ... 8XL: $342 USD per month You pay $1.0848 hourly 128GB RAM 24 vCPU 2560GB Storage 11T",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Cloudways",
+    "plan_slug": "cloudways-do-medium",
+    "url": "https://www.cloudways.com/en/pricing.php",
+    "excerpt": "DigitalOcean Micro: $11 USD per month You pay $0.0357 hourly 2GB RAM 1 vCPU 50GB Storage 2TB Transfer Bandwidth ... Medium: $88 USD per month You pay $0.1310 hourly 8GB RAM 4 vCPU 160GB Storage 5TB Bandwidth ... 8XL: $342 USD per month You pay $1.0848 hourly 128GB RAM 24 vCPU 2560GB Storage 11T",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Cloudways",
+    "plan_slug": "cloudways-do-8xl",
+    "url": "https://www.cloudways.com/en/pricing.php",
+    "excerpt": "DigitalOcean Micro: $11 USD per month You pay $0.0357 hourly 2GB RAM 1 vCPU 50GB Storage 2TB Transfer Bandwidth ... Medium: $88 USD per month You pay $0.1310 hourly 8GB RAM 4 vCPU 160GB Storage 5TB Bandwidth ... 8XL: $342 USD per month You pay $1.0848 hourly 128GB RAM 24 vCPU 2560GB Storage 11T",
+    "checked_date": "2026-11-01"
+  }
+]

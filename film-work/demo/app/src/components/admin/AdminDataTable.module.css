@@ -1,0 +1,158 @@
+.scroll {
+  max-width: 100%;
+  overflow: auto;
+  border: 1px solid var(--hair);
+  border-radius: 14px;
+  background: var(--surface);
+  box-shadow: var(--admin-shadow);
+  scrollbar-gutter: stable;
+}
+
+.table {
+  width: 100%;
+  min-width: 620px;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 0.9375rem;
+}
+
+.table thead {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: var(--surface);
+}
+
+.table th {
+  height: 44px;
+  padding: 0 16px;
+  border-bottom: 1px solid var(--hair);
+  color: var(--text-faint);
+  font-family: var(--mono);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.table td {
+  height: 56px;
+  padding: 11px 16px;
+  border-bottom: 1px solid var(--hair);
+  color: var(--text);
+  font-size: 0.9375rem;
+  vertical-align: middle;
+  overflow-wrap: normal;
+}
+
+.table tr:last-child td { border-bottom: 0; }
+
+.table tbody tr { transition: background-color var(--dur-fast) var(--ease-out); }
+.table tbody tr:hover { background: color-mix(in srgb, var(--lantern) 5%, var(--surface)); }
+
+.table [data-align="right"] { font-variant-numeric: tabular-nums; text-align: right; }
+
+.badge {
+  display: inline-flex;
+  min-height: 24px;
+  align-items: center;
+  padding: 0 9px;
+  border-radius: 999px;
+  font-size: 11.5px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.badge[data-tone="good"] { background: var(--fit-bg); color: var(--fit); }
+.badge[data-tone="warn"] { background: var(--lantern-wash); color: var(--lantern); }
+.badge[data-tone="bad"] { background: var(--catch-bg); color: var(--catch); }
+
+.empty {
+  display: grid;
+  gap: 6px;
+  place-items: center;
+  padding: 44px 24px;
+  border: 1px dashed var(--border);
+  border-radius: 14px;
+  background: color-mix(in srgb, var(--surface) 70%, transparent);
+  text-align: center;
+}
+
+.empty strong { font-size: 0.9375rem; font-weight: 600; }
+.empty p { margin: 0; color: var(--text-muted); font-size: 0.875rem; }
+
+.nowrap { white-space: nowrap; }
+.identifier { font-family: var(--mono); font-size: 0.75rem; overflow-wrap: anywhere; }
+
+/* Phones: rows become labelled cards so dense records stay readable
+   without horizontal scrolling. The table/header stay in the a11y tree. */
+@media (max-width: 640px) {
+  .scroll {
+    overflow: visible;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+  }
+
+  .table {
+    display: block;
+    min-width: 0;
+    font-size: 0.875rem;
+  }
+
+  .table thead {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+
+  .table tbody { display: grid; gap: 10px; }
+
+  .table tbody tr {
+    display: grid;
+    padding: 4px 16px;
+    border: 1px solid var(--hair);
+    border-radius: 12px;
+    background: var(--surface);
+    box-shadow: var(--admin-shadow);
+  }
+
+  .table tbody tr:hover { background: var(--surface); }
+
+  .table td {
+    display: grid;
+    height: auto;
+    grid-template-columns: 108px minmax(0, 1fr);
+    gap: 12px;
+    align-items: baseline;
+    padding: 9px 0;
+    border-bottom: 1px solid var(--hair);
+    font-size: 0.875rem;
+    overflow-wrap: anywhere;
+    text-align: left;
+  }
+
+  .table td::before {
+    content: attr(data-label);
+    color: var(--text-faint);
+    font-family: var(--mono);
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+  }
+
+  .table td[data-align="right"] { text-align: left; }
+  .table td .badge { justify-self: start; }
+  .table tr td:last-child { border-bottom: 0; }
+  .table tr:last-child td { border-bottom: 1px solid var(--hair); }
+  .table tr:last-child td:last-child { border-bottom: 0; }
+  .table .identifier { font-size: 0.6875rem; }
+}

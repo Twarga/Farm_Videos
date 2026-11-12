@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Compare — bestvpsforme</title>
+<link rel="icon" href="../logo/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/bvf.css">
+<style>
+  .chead { display: flex; justify-content: space-between; align-items: flex-end; gap: 24px; flex-wrap: wrap; padding: 44px 0 28px; }
+  .chead p { margin-top: 14px; color: var(--fg-muted); }
+  .ctools { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+  .share { display: inline-flex; align-items: center; gap: 10px; height: 40px; padding: 0 6px 0 14px; border-radius: var(--r-full); background: var(--bg-muted); font: 500 13px/1 var(--font-mono); color: var(--fg-muted); }
+  .grid-c { --cols: 3; display: grid; grid-template-columns: 220px repeat(var(--cols), minmax(0, 1fr)); border: 1px solid var(--border); border-radius: var(--r-xl); overflow: clip; }
+  .grid-c > * { padding: 18px 20px; border-bottom: 1px solid var(--border); border-left: 1px solid var(--border); }
+  .grid-c > .lab { border-left: 0; font: 600 12px/1.3 var(--font-sans); letter-spacing: .06em; text-transform: uppercase; color: var(--fg-subtle); display: flex; align-items: center; background: var(--bg-subtle); }
+  .grid-c > .sec { grid-column: 1 / -1; border-left: 0; padding: 14px 20px; background: var(--bg); font: 700 14px/1 var(--font-sans); font-stretch: 108%; letter-spacing: 0; }
+  .colhead { position: sticky; top: var(--nav-h); z-index: 3; background: var(--surface); display: grid; gap: 14px; align-content: start; }
+  .colhead .id { display: flex; gap: 12px; align-items: center; }
+  .colhead strong { display: block; font: 700 17px/1.2 var(--font-sans); font-stretch: 108%; }
+  .colhead span.p { display: block; font: 480 13px/1.2 var(--font-sans); color: var(--fg-muted); margin-top: 3px; }
+  .colhead .row { --gap: 8px; }
+  .colhead .x { margin-left: auto; width: 32px; height: 32px; border-radius: 50%; border: 1px solid var(--border); background: none; display: grid; place-items: center; color: var(--fg-muted); }
+  .colhead .x svg { width: 14px; height: 14px; }
+  .colhead.win { background: color-mix(in srgb, var(--volt-400) 16%, var(--surface)); }
+  .corner { background: var(--bg-subtle) !important; display: flex; flex-direction: column; justify-content: flex-end; gap: 10px; }
+  .val { font: 560 15px/1.35 var(--font-mono); letter-spacing: -.02em; }
+  .val small { display: block; margin-top: 4px; font: 480 12.5px/1.35 var(--font-sans); color: var(--fg-muted); letter-spacing: 0; }
+  .val.big { font: 650 30px/1 var(--font-mono); letter-spacing: -.04em; }
+  .best { position: relative; }
+  .best .val { display: inline; background-image: linear-gradient(100deg, transparent .15em, var(--volt-400) .15em, var(--volt-400) calc(100% - .05em), transparent calc(100% - .05em)); background-size: 100% 70%; background-position: 0 60%; background-repeat: no-repeat; padding: 0 .12em; margin: 0 -.12em; color: var(--ink-950); }
+  .best::after { content: "Best"; position: absolute; top: 12px; right: 14px; font: 700 10.5px/1 var(--font-sans); letter-spacing: .08em; text-transform: uppercase; color: var(--accent-text); }
+  .sub { display: block; margin-top: 6px; font: 480 12.5px/1.35 var(--font-sans); color: var(--fg-muted); }
+  .worse .val { color: var(--catch-fg); }
+  .txt { font: 480 14.5px/1.45 var(--font-sans); }
+  .txt .dot { display: inline-block; margin-right: 6px; transform: translateY(-1px); }
+  .unk { color: var(--fg-subtle); font: 500 14px/1.3 var(--font-sans); }
+  .add { display: grid; place-items: center; align-content: center; gap: 10px; min-height: 180px; border: 1.5px dashed var(--border-strong) !important; border-radius: 16px; margin: 12px; color: var(--fg-muted); font: 560 14px/1.3 var(--font-sans); text-align: center; }
+  .add svg { width: 22px; height: 22px; }
+  .vtl { margin-top: 28px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+  .vtl > div { padding: 24px; border-radius: var(--r-xl); border: 1px solid var(--border); }
+  .vtl h3 { margin-top: 10px; font: 700 20px/1.2 var(--font-sans); font-stretch: 108%; letter-spacing: -.015em; }
+  .vtl p { margin-top: 8px; color: var(--fg-muted); font: 480 14.5px/1.5 var(--font-sans); }
+  .vtl .win { background: var(--volt-400); border-color: var(--ink-950); color: var(--ink-950); }
+  .vtl .win p, .vtl .win .eyebrow { color: var(--ink-800); }
+  @media (max-width: 900px) {
+    .scroller { overflow-x: auto; margin-inline: calc(var(--gutter) * -1); padding-inline: var(--gutter); scroll-snap-type: x mandatory; }
+    .grid-c { min-width: 820px; grid-template-columns: 132px repeat(var(--cols), 230px); }
+    .grid-c > .lab, .corner { position: sticky; left: 0; z-index: 2; }
+    .vtl { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+<a class="sr-only" href="#main">Skip to content</a>
+<header class="nav">
+  <div class="container--wide nav__in">
+    <a class="nav__logo" href="home.html" aria-label="bestvpsforme home"><img src="../logo/lockup-horizontal-light.svg" alt="bestvpsforme" data-logo></a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="catalog.html">Plans</a>
+      <a href="compare.html" aria-current="page">Compare</a>
+      <a href="provider.html">Providers</a>
+      <a href="guide.html">Guides</a>
+      <a href="methodology.html">How we check</a>
+    </nav>
+    <button class="nav__search" type="button" data-open-palette><i data-icon="search"></i>Search 314 plans, 41 providers…<span class="kbd">⌘K</span></button>
+    <div class="row nav__right" style="--gap:6px">
+      <a class="btn btn--line btn--sm nav__compare" href="compare.html"><i data-icon="compare"></i>Compare <span class="nav__count">3</span></a>
+      <button class="btn btn--ghost btn--icon" type="button" data-theme-toggle aria-label="Switch theme"><i data-icon="moon"></i></button>
+    </div>
+  </div>
+</header>
+
+<main id="main" class="container--wide">
+  <div class="chead">
+    <div><p class="eyebrow">Compare · 3 of 4</p><h1 class="d-lg" style="margin-top:14px">Three 4 GB plans, <span class="hl" data-animate>side by side.</span></h1><p>The best value in each row is highlighted. Unknowns stay unknown.</p></div>
+    <div class="ctools">
+      <div class="seg" role="group" aria-label="Rows"><button type="button" aria-pressed="false">All rows</button><button type="button" aria-pressed="true">Only differences</button></div>
+      <span class="share">bestvpsforme.com/compare?p=alphavps-c4g,hostinger-kvm-1,netcup-500-g12 <button class="btn btn--ink btn--sm" type="button"><i data-icon="link"></i>Copy link</button></span>
+    </div>
+  </div>
+
+  <div class="scroller">
+    <div class="grid-c" style="--cols:4">
+      <div class="corner lab"><span class="eyebrow">Sorted by</span><span style="font:650 14px/1 var(--font-sans);letter-spacing:0;text-transform:none;color:var(--fg)">3-yr real price ↑</span></div>
+      <div class="colhead win"><div class="id"><span class="pmark"><img src="../../public/logos/alphavps.png" alt=""></span><div><strong>C4G</strong><span class="p">AlphaVPS</span></div><button class="x" aria-label="Remove AlphaVPS C4G"><i data-icon="x"></i></button></div><div class="row"><a class="btn btn--volt btn--sm" href="#">Visit <i data-icon="out"></i></a><span class="cap subtle">Direct link</span></div></div>
+      <div class="colhead"><div class="id"><span class="pmark"><img src="../../public/logos/netcup.svg" alt=""></span><div><strong>VPS 500 G12</strong><span class="p">netcup</span></div><button class="x" aria-label="Remove netcup VPS 500 G12"><i data-icon="x"></i></button></div><div class="row"><a class="btn btn--line btn--sm" href="#">Visit <i data-icon="out"></i></a><span class="cap subtle">Direct link</span></div></div>
+      <div class="colhead"><div class="id"><span class="pmark"><img src="../../public/logos/hostinger.svg" alt=""></span><div><strong>KVM 1</strong><span class="p">Hostinger</span></div><button class="x" aria-label="Remove Hostinger KVM 1"><i data-icon="x"></i></button></div><div class="row"><a class="btn btn--line btn--sm" href="#" rel="sponsored nofollow">Visit <i data-icon="out"></i></a><span class="cap subtle">Affiliate link</span></div></div>
+      <div class="add" style="grid-row: span 1"><i data-icon="plus"></i>Add a plan<span class="cap subtle">Try: OVHcloud VPS-1</span></div>
+
+      <div class="sec">Price</div>
+      <div class="lab">3-yr real price</div><div class="best"><span class="val big">$4.35</span></div><div><span class="val big">$6.44</span></div><div class="worse"><span class="val big">$8.32</span></div><div></div>
+      <div class="lab">Due today</div><div class="best"><span class="val">$4.35</span></div><div><span class="val">$6.44<small>monthly, 12-month minimum</small></span></div><div class="worse"><span class="val">$155.76<small>24 months upfront</small></span></div><div></div>
+      <div class="lab">Renewal</div><div class="best"><span class="val">$4.35/mo</span><small class="sub">flat</small></div><div><span class="val">$6.44/mo<small>flat</small></span></div><div class="worse"><span class="val">$11.99/mo<small>+85% from month 25</small></span></div><div></div>
+      <div class="lab">3-year total</div><div class="best"><span class="val">$156.60</span></div><div><span class="val">$231.84</span></div><div><span class="val">$299.64</span></div><div></div>
+
+      <div class="sec">Hardware</div>
+      <div class="lab">vCPU</div><div><span class="val">2</span></div><div><span class="val">2<small>AMD EPYC G12</small></span></div><div class="worse"><span class="val">1</span></div><div></div>
+      <div class="lab">Disk</div><div><span class="val">40 GB<small>NVMe RAID-10</small></span></div><div class="best"><span class="val">128 GB</span></div><div><span class="val">50 GB<small>NVMe</small></span></div><div></div>
+      <div class="lab">Transfer</div><div><span class="val">5 TB</span></div><div class="best"><span class="val">Flat rate</span><small class="sub">throttled above 2 TB/day avg</small></div><div><span class="val">4 TB</span></div><div></div>
+      <div class="lab">Backups</div><div><span class="unk">Not published</span></div><div><span class="unk">Not published</span></div><div><span class="unk">Not published</span></div><div></div>
+
+      <div class="sec">Trust</div>
+      <div class="lab">Trustpilot</div><div><span class="val">4.7<small>128 reviews · small sample</small></span></div><div><span class="val">4.1<small>2,373 reviews</small></span></div><div class="best"><span class="val">4.7</span><small class="sub">66,058 reviews · most reviewed</small></div><div></div>
+      <div class="lab">The catch</div><div><p class="txt"><span class="dot dot--catch"></span>Small review base.</p></div><div><p class="txt"><span class="dot dot--catch"></span>12-month minimum. Traffic throttle above 2 TB/day.</p></div><div><p class="txt"><span class="dot dot--catch"></span>24 months upfront. Renews +85%.</p></div><div></div>
+    </div>
+  </div>
+
+  <div class="vtl">
+    <div class="win"><span class="eyebrow">Lowest 3-year cost</span><h3>AlphaVPS C4G</h3><p>$143.04 less than Hostinger over three years, with the same RAM and twice the vCPU.</p></div>
+    <div><span class="eyebrow">Most disk</span><h3>netcup VPS 500 G12</h3><p>128 GB NVMe, 2.5× the others. You commit for a year.</p></div>
+    <div><span class="eyebrow">Most reviewed</span><h3>Hostinger KVM 1</h3><p>66,058 Trustpilot reviews. You pay for that familiarity at renewal.</p></div>
+  </div>
+  <div style="height:120px"></div>
+</main>
+
+<script src="assets/bvf-data.js"></script>
+<script src="assets/bvf.js"></script>
+<script>
+  const swapLogo = () => document.querySelectorAll("[data-logo]").forEach((i) => i.src = `../logo/lockup-horizontal-${document.documentElement.dataset.theme === "dark" ? "dark" : "light"}.svg`);
+  swapLogo(); new MutationObserver(swapLogo).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
+</script>
+</body>
+</html>

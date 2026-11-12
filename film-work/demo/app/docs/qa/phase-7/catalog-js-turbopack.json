@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-09T11:09:16.223Z",
+  "budget": {
+    "exclusiveGzip9Bytes": 120000,
+    "kilobyteBytes": 1000,
+    "includesFramework": true
+  },
+  "accounting": "Unique URL decoded response bodies individually gzipped level 9; HTML includes inline/RSC subsets reported separately, never discounted from first-load JavaScript",
+  "routeSpecificDefinition": "Catalog script URLs not observed on a separate clean home navigation (diagnostic, not the budget denominator)",
+  "failures": [
+    "Catalog JavaScript 168732 bytes fails the <120 KB budget"
+  ],
+  "identity": {
+    "sourceBackup": "/tmp/bestvpsforme-phase7-final-2h22bhi3/source.db",
+    "databaseSha256": "35e8b986f3eec0301d8283baffee91575e7823c97e9f33a6c8dc05dfd7a7c9ce",
+    "publication": {
+      "id": "341cd929-08fa-4ba3-8f54-1df8a434f4b1",
+      "snapshot_version": 6,
+      "published_at": 1791370150823
+    },
+    "counts": {
+      "published": 330,
+      "drafts": 0,
+      "snapshotOffers": 330
+    },
+    "buildDirectory": "/tmp/bestvpsforme-phase7-final-2h22bhi3/build",
+    "buildId": "ceedf3SlpkOUfiPfCTm6_",
+    "commit": null,
+    "node": "v24.17.0",
+    "next": "16.3.8",
+    "react": "19.2.0"
+  },
+  "baseUrl": "http://127.0.0.1:39269",
+  "versions": {
+    "node": "v24.17.0",
+    "chromium": "153.0.8010.12",
+    "playwright": "1.63.0"
+  },
+  "homeScripts": [
+    {
+      "url": "http://127.0.0.1:39269/_next/static/chunks/1rj7ns8rte9vc.js",
+      "decodedBytes": 229156,
+      "gzip9Bytes": 71470
+    },
+    {
+      "url": "http://127.0.0.1:39269/_next/static/chunks/0h-uhh91ijkha.js",
+      "decodedBytes": 155680,
+      "gzip9Bytes": 42694
+    },
+    {
+      "url": "http://127.0.0.1:39269/_next/static/chunks/3-60l0ywrfi_3.js",
+      "decodedBytes": 40289,
+      "gzip9Bytes": 13742
+    },
+    {
+      "url": "http://127.0.0.1:39269/_next/static/chunks/11jq0c2_zavac.js",
+      "decodedBytes": 31917,
+      "gzip9Bytes": 8483
+    },
+    {
+      "url": "http://127.0.0.1:39269/_next/static/chunks/turbopack-0dnmfszwk-5ir.js",
+      "decodedBytes": 10946,
+      "gzip9Bytes": 4303
+    },
+    {
+      "url": "http://127.0.0.1:39269/_next/static/chunks/3fntmmi971322.js",
+      "decodedBytes": 14377,
+      "gzip9Bytes": 3653
+    },
+    {
+      "url": "http://127.0.0.1:39269/_next/static/chunks/3mc6dra1m0098.js",
+      "decodedBytes": 12653,
+      "gzip9Bytes": 3567
+    },
+    {
+      "url": "http://127.0.0.1:39269/_next/static/chunks/2j_vy2fc9y52e.js",
+      "decodedBytes": 4737,
+      "gzip9Bytes": 1669
+    },
+    {
+      "url": "http://127.0.0.1:39269/_next/static/chunks/06dr0nad9the_.js",
+      "decodedBytes": 3037,
+      "gzip9Bytes": 1371
+    }
+  ],
+  "firstLoad": {
+    "scripts": [
+      {
+        "url": "http://127.0.0.1:39269/_next/static/chunks/1rj7ns8rte9vc.js",
+        "decodedBytes": 229156,
+        "gzip9Bytes": 71470
+      },
+      {
+        "url": "http://127.0.0.1:39269/_next/static/chunks/0h-uhh91ijkha.js",
+        "decodedBytes": 155680,
+        "gzip9Bytes": 42694
+      },
+      {
+        "url": "http://127.0.0.1:39269/_next/static/chunks/303kj5vdr7myc.js",
+        "decodedBytes": 66452,
+        "gzip9Bytes": 19151
+      },
+      {
+        "url": "http://127.0.0.1:39269/_next/static/chunks/3-60l0ywrfi_3.js",
+        "decodedBytes": 40289,
+        "gzip9Bytes": 13742
+      },
+      {
+        "url": "http://127.0.0.1:39269/_next/static/chunks/11jq0c2_zavac.js",
+        "decodedBytes": 31917,
+        "gzip9Bytes": 8483
+      },
+      {
+        "url": "http://127.0.0.1:39269/_next/static/chunks/turbopack-0dnmfszwk-5ir.js",
+        "decodedBytes": 10946,
+        "gzip9Bytes": 4303
+      },
+      {
+        "url": "http://127.0.0.1:39269/_next/static/chunks/3fntmmi971322.js",
+        "decodedBytes": 14377,
+        "gzip9Bytes": 3653
+      },
+      {
+        "url": "http://127.0.0.1:39269/_next/static/chunks/3mc6dra1m0098.js",
+        "decodedBytes": 12653,
+        "gzip9Bytes": 3567
+      },
+      {
+        "url": "http://127.0.0.1:39269/_next/static/chunks/2j_vy2fc9y52e.js",
+        "decodedBytes": 4737,
+        "gzip9Bytes": 1669
+      }
+    ],
+    "uniqueUrls": 9,
+    "decodedBytes": 566207,
+    "gzip9Bytes": 168732,
+    "catalogOnlyScripts": [
+      {
+        "url": "http://127.0.0.1:39269/_next/static/chunks/303kj5vdr7myc.js",
+        "decodedBytes": 66452,
+        "gzip9Bytes": 19151
+      }
+    ],
+    "catalogOnlyGzip9Bytes": 19151
+  },
+  "html": {
+    "decodedBytes": 129807,
+    "gzip9Bytes": 21185,
+    "inlineScript": {
+      "decodedBytes": 310,
+      "gzip9Bytes": 236
+    },
+    "embeddedRscScript": {
+      "decodedBytes": 33853,
+      "gzip9Bytes": 9381
+    },
+    "overlap": "Inline and embedded RSC are subsets of HTML, not additional transfer totals"
+  },
+  "buildIdentity": {
+    "nextAssetUrls": [
+      "http://127.0.0.1:39269/_next/static/chunks/3mc6dra1m0098.js",
+      "http://127.0.0.1:39269/_next/static/chunks/11jq0c2_zavac.js",
+      "http://127.0.0.1:39269/_next/static/chunks/0h-uhh91ijkha.js",
+      "http://127.0.0.1:39269/_next/static/chunks/turbopack-0dnmfszwk-5ir.js",
+      "http://127.0.0.1:39269/_next/static/chunks/2j_vy2fc9y52e.js",
+      "http://127.0.0.1:39269/_next/static/chunks/3fntmmi971322.js",
+      "http://127.0.0.1:39269/_next/static/chunks/1rj7ns8rte9vc.js",
+      "http://127.0.0.1:39269/_next/static/chunks/3-60l0ywrfi_3.js",
+      "http://127.0.0.1:39269/_next/static/chunks/303kj5vdr7myc.js"
+    ],
+    "htmlSha256": "8d109b488afe1a385d64b2983441407c13d58d7f375000d3979048683cf222b9",
+    "correlation": "Pair content-hashed asset URLs with the performance report BUILD_ID/data identity; nonce-bearing HTML hashes intentionally vary by request"
+  },
+  "laterInteractions": {
+    "scripts": [
+      {
+        "url": "http://127.0.0.1:39269/_next/static/chunks/20cegm5esbnjp.js",
+        "decodedBytes": 7795,
+        "gzip9Bytes": 3005
+      }
+    ],
+    "uniqueUrls": 1,
+    "gzip9Bytes": 3005,
+    "journeys": [
+      "filters auto-apply/clear",
+      "keyboard sort",
+      "pagination",
+      "compare picks/removal",
+      "theme"
+    ]
+  },
+  "passed": false
+}

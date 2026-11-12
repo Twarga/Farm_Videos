@@ -1,0 +1,119 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Montserrat Black,100,&H00FFFFFF,&H00FFFFFF,&H00000000,&H90000000,0,0,0,0,100,100,0,0,1,6,4,5,40,40,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:00.18,Cap,,0,0,0,,{\an5\pos(540,1345)}He cut
+Dialogue: 0,0:00:00.18,0:00:00.50,Cap,,0,0,0,,{\an5\pos(540,1345)}the tail
+Dialogue: 0,0:00:00.50,0:00:01.40,Cap,,0,0,0,,{\an5\pos(540,1345)}off a rat,
+Dialogue: 0,0:00:01.40,0:00:01.52,Cap,,0,0,0,,{\an5\pos(540,1345)}and let
+Dialogue: 0,0:00:01.52,0:00:02.10,Cap,,0,0,0,,{\an5\pos(540,1345)}it go.
+Dialogue: 0,0:00:02.10,0:00:02.52,Cap,,0,0,0,,{\an5\pos(540,1345)}You see,
+Dialogue: 0,0:00:02.52,0:00:02.78,Cap,,0,0,0,,{\an5\pos(540,1345)}the city
+Dialogue: 0,0:00:02.78,0:00:03.22,Cap,,0,0,0,,{\an5\pos(540,1345)}was crawling
+Dialogue: 0,0:00:03.22,0:00:04.08,Cap,,0,0,0,,{\an5\pos(540,1345)}with rats,
+Dialogue: 0,0:00:04.08,0:00:04.30,Cap,,0,0,0,,{\an5\pos(540,1345)}and
+Dialogue: 0,0:00:04.30,0:00:04.74,Cap,,0,0,0,,{\an5\pos(540,1345)}the officials
+Dialogue: 0,0:00:04.74,0:00:05.40,Cap,,0,0,0,,{\an5\pos(540,1345)}were terrified
+Dialogue: 0,0:00:05.40,0:00:06.06,Cap,,0,0,0,,{\an5\pos(540,1345)}of plague.
+Dialogue: 0,0:00:06.06,0:00:06.42,Cap,,0,0,0,,{\an5\pos(540,1345)}So they made
+Dialogue: 0,0:00:06.42,0:00:07.23,Cap,,0,0,0,,{\an5\pos(540,1345)}a deal.
+Dialogue: 0,0:00:07.26,0:00:07.78,Cap,,0,0,0,,{\an5\pos(540,1345)}Bring us a rat
+Dialogue: 0,0:00:07.78,0:00:08.26,Cap,,0,0,0,,{\an5\pos(540,1345)}tail,
+Dialogue: 0,0:00:08.26,0:00:08.64,Cap,,0,0,0,,{\an5\pos(540,1345)}and we'll pay
+Dialogue: 0,0:00:08.64,0:00:09.58,Cap,,0,0,0,,{\an5\pos(540,1345)}you one cent.
+Dialogue: 0,0:00:09.58,0:00:10.00,Cap,,0,0,0,,{\an5\pos(540,1345)}The officials
+Dialogue: 0,0:00:10.00,0:00:11.00,Cap,,0,0,0,,{\an5\pos(540,1345)}are thrilled.
+Dialogue: 0,0:00:11.00,0:00:11.26,Cap,,0,0,0,,{\an5\pos(540,1345)}Money for
+Dialogue: 0,0:00:11.26,0:00:11.86,Cap,,0,0,0,,{\an5\pos(540,1345)}vermin?
+Dialogue: 0,0:00:11.86,0:00:12.52,Cap,,0,0,0,,{\an5\pos(540,1345)}Easiest job
+Dialogue: 0,0:00:12.52,0:00:13.22,Cap,,0,0,0,,{\an5\pos(540,1345)}in town.
+Dialogue: 0,0:00:13.22,0:00:13.82,Cap,,0,0,0,,{\an5\pos(540,1345)}And it works.
+Dialogue: 0,0:00:13.82,0:00:14.08,Cap,,0,0,0,,{\an5\pos(540,1345)}Hundreds
+Dialogue: 0,0:00:14.08,0:00:14.56,Cap,,0,0,0,,{\an5\pos(540,1345)}of tails
+Dialogue: 0,0:00:14.56,0:00:15.16,Cap,,0,0,0,,{\an5\pos(540,1345)}a day.
+Dialogue: 0,0:00:15.16,0:00:16.14,Cap,,0,0,0,,{\an5\pos(540,1345)}Then thousands.
+Dialogue: 0,0:00:16.14,0:00:16.42,Cap,,0,0,0,,{\an5\pos(540,1345)}The clerk
+Dialogue: 0,0:00:16.42,0:00:17.10,Cap,,0,0,0,,{\an5\pos(540,1345)}counting them
+Dialogue: 0,0:00:17.10,0:00:17.74,Cap,,0,0,0,,{\an5\pos(540,1345)}needs a bigger
+Dialogue: 0,0:00:17.74,0:00:18.36,Cap,,0,0,0,,{\an5\pos(540,1345)}desk.
+Dialogue: 0,0:00:18.36,0:00:18.78,Cap,,0,0,0,,{\an5\pos(540,1345)}One official
+Dialogue: 0,0:00:18.78,0:00:19.36,Cap,,0,0,0,,{\an5\pos(540,1345)}stands on
+Dialogue: 0,0:00:19.36,0:00:19.70,Cap,,0,0,0,,{\an5\pos(540,1345)}the steps
+Dialogue: 0,0:00:19.70,0:00:20.59,Cap,,0,0,0,,{\an5\pos(540,1345)}and goes,
+Dialogue: 0,0:00:20.68,0:00:21.00,Cap,,0,0,0,,{\an5\pos(540,1345)}at this
+Dialogue: 0,0:00:21.00,0:00:21.58,Cap,,0,0,0,,{\an5\pos(540,1345)}rate,
+Dialogue: 0,0:00:21.58,0:00:21.86,Cap,,0,0,0,,{\an5\pos(540,1345)}there won't
+Dialogue: 0,0:00:21.86,0:00:22.26,Cap,,0,0,0,,{\an5\pos(540,1345)}be a rat
+Dialogue: 0,0:00:22.26,0:00:23.30,Cap,,0,0,0,,{\an5\pos(540,1345)}left by summer.
+Dialogue: 0,0:00:23.30,0:00:23.64,Cap,,0,0,0,,{\an5\pos(540,1345)}But summer
+Dialogue: 0,0:00:23.64,0:00:24.39,Cap,,0,0,0,,{\an5\pos(540,1345)}comes,
+Dialogue: 0,0:00:24.40,0:00:24.86,Cap,,0,0,0,,{\an5\pos(540,1345)}and the city
+Dialogue: 0,0:00:24.86,0:00:25.52,Cap,,0,0,0,,{\an5\pos(540,1345)}has more rats
+Dialogue: 0,0:00:25.52,0:00:26.22,Cap,,0,0,0,,{\an5\pos(540,1345)}than ever.
+Dialogue: 0,0:00:26.22,0:00:26.42,Cap,,0,0,0,,{\an5\pos(540,1345)}Then,
+Dialogue: 0,0:00:26.42,0:00:26.96,Cap,,0,0,0,,{\an5\pos(540,1345)}people start
+Dialogue: 0,0:00:26.96,0:00:27.28,Cap,,0,0,0,,{\an5\pos(540,1345)}noticing
+Dialogue: 0,0:00:27.28,0:00:27.66,Cap,,0,0,0,,{\an5\pos(540,1345)}something
+Dialogue: 0,0:00:27.66,0:00:28.51,Cap,,0,0,0,,{\an5\pos(540,1345)}weird.
+Dialogue: 0,0:00:28.58,0:00:29.20,Cap,,0,0,0,,{\an5\pos(540,1345)}Rats running
+Dialogue: 0,0:00:29.20,0:00:29.42,Cap,,0,0,0,,{\an5\pos(540,1345)}down
+Dialogue: 0,0:00:29.42,0:00:29.84,Cap,,0,0,0,,{\an5\pos(540,1345)}the street,
+Dialogue: 0,0:00:29.84,0:00:30.98,Cap,,0,0,0,,{\an5\pos(540,1345)}with no tails.
+Dialogue: 0,0:00:30.98,0:00:31.30,Cap,,0,0,0,,{\an5\pos(540,1345)}Wait,
+Dialogue: 0,0:00:31.30,0:00:31.82,Cap,,0,0,0,,{\an5\pos(540,1345)}what?
+Dialogue: 0,0:00:31.82,0:00:32.04,Cap,,0,0,0,,{\an5\pos(540,1345)}Well,
+Dialogue: 0,0:00:32.04,0:00:32.52,Cap,,0,0,0,,{\an5\pos(540,1345)}a dead rat
+Dialogue: 0,0:00:32.52,0:00:33.06,Cap,,0,0,0,,{\an5\pos(540,1345)}pays you
+Dialogue: 0,0:00:33.06,0:00:33.64,Cap,,0,0,0,,{\an5\pos(540,1345)}once.
+Dialogue: 0,0:00:33.64,0:00:34.02,Cap,,0,0,0,,{\an5\pos(540,1345)}But a rat
+Dialogue: 0,0:00:34.02,0:00:34.70,Cap,,0,0,0,,{\an5\pos(540,1345)}with no tail
+Dialogue: 0,0:00:34.70,0:00:35.08,Cap,,0,0,0,,{\an5\pos(540,1345)}is still
+Dialogue: 0,0:00:35.08,0:00:35.62,Cap,,0,0,0,,{\an5\pos(540,1345)}alive.
+Dialogue: 0,0:00:35.62,0:00:35.86,Cap,,0,0,0,,{\an5\pos(540,1345)}It goes
+Dialogue: 0,0:00:35.86,0:00:36.34,Cap,,0,0,0,,{\an5\pos(540,1345)}back into
+Dialogue: 0,0:00:36.34,0:00:37.06,Cap,,0,0,0,,{\an5\pos(540,1345)}the sewer,
+Dialogue: 0,0:00:37.06,0:00:37.96,Cap,,0,0,0,,{\an5\pos(540,1345)}has babies,
+Dialogue: 0,0:00:37.96,0:00:38.72,Cap,,0,0,0,,{\an5\pos(540,1345)}and every baby
+Dialogue: 0,0:00:38.72,0:00:39.50,Cap,,0,0,0,,{\an5\pos(540,1345)}grows a brand
+Dialogue: 0,0:00:39.50,0:00:40.22,Cap,,0,0,0,,{\an5\pos(540,1345)}new one cent
+Dialogue: 0,0:00:40.22,0:00:40.80,Cap,,0,0,0,,{\an5\pos(540,1345)}tail.
+Dialogue: 0,0:00:40.80,0:00:41.20,Cap,,0,0,0,,{\an5\pos(540,1345)}So nobody
+Dialogue: 0,0:00:41.20,0:00:41.70,Cap,,0,0,0,,{\an5\pos(540,1345)}was killing
+Dialogue: 0,0:00:41.70,0:00:42.40,Cap,,0,0,0,,{\an5\pos(540,1345)}rats.
+Dialogue: 0,0:00:42.40,0:00:42.60,Cap,,0,0,0,,{\an5\pos(540,1345)}They were
+Dialogue: 0,0:00:42.60,0:00:43.42,Cap,,0,0,0,,{\an5\pos(540,1345)}farming them.
+Dialogue: 0,0:00:43.42,0:00:43.58,Cap,,0,0,0,,{\an5\pos(540,1345)}And when
+Dialogue: 0,0:00:43.58,0:00:44.28,Cap,,0,0,0,,{\an5\pos(540,1345)}inspectors
+Dialogue: 0,0:00:44.28,0:00:44.78,Cap,,0,0,0,,{\an5\pos(540,1345)}finally rode
+Dialogue: 0,0:00:44.78,0:00:45.32,Cap,,0,0,0,,{\an5\pos(540,1345)}out past
+Dialogue: 0,0:00:45.32,0:00:45.64,Cap,,0,0,0,,{\an5\pos(540,1345)}the edge
+Dialogue: 0,0:00:45.64,0:00:46.50,Cap,,0,0,0,,{\an5\pos(540,1345)}of the city,
+Dialogue: 0,0:00:46.50,0:00:46.96,Cap,,0,0,0,,{\an5\pos(540,1345)}they found
+Dialogue: 0,0:00:46.96,0:00:48.18,Cap,,0,0,0,,{\an5\pos(540,1345)}whole farms,
+Dialogue: 0,0:00:48.18,0:00:48.68,Cap,,0,0,0,,{\an5\pos(540,1345)}cage after
+Dialogue: 0,0:00:48.68,0:00:49.34,Cap,,0,0,0,,{\an5\pos(540,1345)}cage,
+Dialogue: 0,0:00:49.34,0:00:50.02,Cap,,0,0,0,,{\an5\pos(540,1345)}full of rats
+Dialogue: 0,0:00:50.02,0:00:50.54,Cap,,0,0,0,,{\an5\pos(540,1345)}bred for
+Dialogue: 0,0:00:50.54,0:00:51.30,Cap,,0,0,0,,{\an5\pos(540,1345)}their tails.
+Dialogue: 0,0:00:51.30,0:00:51.76,Cap,,0,0,0,,{\an5\pos(540,1345)}You see,
+Dialogue: 0,0:00:51.76,0:00:52.18,Cap,,0,0,0,,{\an5\pos(540,1345)}the officials
+Dialogue: 0,0:00:52.18,0:00:53.42,Cap,,0,0,0,,{\an5\pos(540,1345)}paid for tails,
+Dialogue: 0,0:00:53.42,0:00:54.75,Cap,,0,0,0,,{\an5\pos(540,1345)}not dead rats.
+Dialogue: 0,0:00:54.78,0:00:55.22,Cap,,0,0,0,,{\an5\pos(540,1345)}And people
+Dialogue: 0,0:00:55.22,0:00:55.68,Cap,,0,0,0,,{\an5\pos(540,1345)}gave them
+Dialogue: 0,0:00:55.68,0:00:56.40,Cap,,0,0,0,,{\an5\pos(540,1345)}exactly what
+Dialogue: 0,0:00:56.40,0:00:56.78,Cap,,0,0,0,,{\an5\pos(540,1345)}they paid
+Dialogue: 0,0:00:56.78,0:00:57.18,Cap,,0,0,0,,{\an5\pos(540,1345)}for.
+Dialogue: 0,0:00:57.18,0:00:57.48,Cap,,0,0,0,,{\an5\pos(540,1345)}The city
+Dialogue: 0,0:00:57.48,0:00:57.92,Cap,,0,0,0,,{\an5\pos(540,1345)}had hired
+Dialogue: 0,0:00:57.92,0:00:58.84,Cap,,0,0,0,,{\an5\pos(540,1345)}an entire town
+Dialogue: 0,0:00:58.84,0:00:59.92,Cap,,0,0,0,,{\an5\pos(540,1345)}of rat farmers.

@@ -1,0 +1,41 @@
+---
+title: First-day Linux VPS security: a calm beginner checklist
+description: The first security steps after creating a Linux VPS, from account access and updates to firewall rules, backups, and logs.
+slug: secure-a-new-linux-vps
+author: bestvpsforme
+publishedAt: 2026-08-31
+updatedAt: 2026-09-01
+topics: [trust-notes, workloads]
+reviewStatus: published
+---
+
+## Security starts before the application
+
+A new VPS is an internet-facing computer. Before installing an application, make a recovery plan and reduce the number of ways strangers can reach the machine. The exact commands depend on the distribution, but the order of decisions is portable.
+
+## A first-day checklist
+
+1. Create a non-root administrator and use a strong, unique key or password protected by a password manager.
+2. Install security updates and confirm how the distribution handles automatic updates.
+3. Enable a host firewall with only the ports the application actually needs.
+4. Disable or restrict unused services and review listening ports.
+5. Configure backups, then perform a restore test in a separate location.
+6. Set up logs and a basic alert for failed access or storage pressure.
+
+Do not copy a command from a random blog without understanding what it changes. A firewall that blocks your own recovery access is not a safer system.
+
+## Keep the checklist honest
+
+SSH hardening does not replace updates, backups, or application security. A backup that has never been restored is an assumption. Likewise, a monitoring dashboard that nobody reads is not an incident response plan.
+
+If you are not comfortable maintaining the operating system, shared hosting or a managed VPS may be the safer choice. Control is useful only when you can operate it reliably.
+
+## What to check next
+
+Compare the [current catalog](/catalog?workload=vpn) only after deciding what you can maintain. The [methodology](/methodology) explains why the catalog keeps price, location, and provider evidence visible instead of turning security into a score.
+
+## Sources, caveats, and disclosure
+
+Use the [OpenSSH security guidance](https://www.openssh.com/security.html) and the [CIS Controls](https://www.cisecurity.org/controls) as starting references. This is general education, not a security audit; confirm distribution-specific instructions and test changes on a disposable system first.
+
+Some links may earn commission. Commission never changes the ranking or the facts shown in this guide.

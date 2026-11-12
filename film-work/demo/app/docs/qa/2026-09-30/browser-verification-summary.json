@@ -1,0 +1,63 @@
+{
+  "date": "2026-09-30",
+  "next_version": "16.3.6",
+  "command": "npm run test:e2e",
+  "production_build_and_start": "Playwright webServer prepares /tmp fixture, runs npm run build, then npm start",
+  "tests_passed": 240,
+  "tests_failed": 0,
+  "elapsed_seconds": 74.8,
+  "functional_axe_theme_tests": 186,
+  "visual_comparisons": 54,
+  "snapshot_updates": true,
+  "max_diff_pixel_ratio": 0.01,
+  "projects": [
+    "desktop-light 1440x1000",
+    "desktop-dark 1440x1000",
+    "mobile 390x844"
+  ],
+  "database": "/tmp/bestvpsforme-e2e/catalog.db",
+  "log": "/tmp/bestvpsforme-e2e/full-coordinator-final.log",
+  "remote_ci_run": false,
+  "completion_goal": {
+    "next_version": "16.3.6",
+    "passed": 240,
+    "standard": 210,
+    "large_catalog": 24,
+    "synthetic_admin_actions": 6,
+    "functional_axe_theme": 186,
+    "visual_baselines": 54,
+    "unchanged_baselines": 51,
+    "updated_mobile_baselines": [
+      "catalog",
+      "offer",
+      "euro-offer"
+    ],
+    "source_readers": 0,
+    "npm_entries": 14,
+    "retired_checks_total": 77,
+    "real_database_modified": false,
+    "remote_ci_run": false
+  },
+  "earlier_gate": {
+    "date": "2026-09-30",
+    "next_version": "16.3.6",
+    "command": "npm run test:e2e",
+    "production_build_and_start": "Playwright webServer prepares /tmp fixture, runs npm run build, then npm start",
+    "tests_passed": 159,
+    "tests_failed": 0,
+    "elapsed_seconds": 50.0,
+    "functional_axe_theme_tests": 105,
+    "visual_comparisons": 54,
+    "snapshot_updates": false,
+    "max_diff_pixel_ratio": 0.01,
+    "projects": [
+      "desktop-light 1440x1000",
+      "desktop-dark 1440x1000",
+      "mobile 390x844"
+    ],
+    "database": "/tmp/bestvpsforme-e2e/catalog.db",
+    "log": "/tmp/bestvpsforme-e2e/patched-browser-verification.log",
+    "remote_ci_run": false
+  },
+  "updated_baseline_files": 3
+}

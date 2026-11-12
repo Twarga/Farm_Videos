@@ -1,0 +1,18 @@
+/* Compare page rules live in styles/shore-tokens.css (ported from the mockup).
+   Only the outbound deal container is left here, for the shared GetDealButton. */
+@layer components {
+  .deal { display: inline-flex; flex-direction: column; gap: 6px; align-items: flex-start; }
+
+  /* Pail controls that sit inside the compare head. The mockup only offers
+     per-column Remove; V1 adds one way back to the catalog and one way to
+     empty the pail without visiting every column. */
+  .cmp-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 18px; margin-top: 14px; }
+  .cmp-actions .linkish { display: inline-flex; align-items: center; min-height: 45px; }
+}
+
+/* The mockup's `.num` sets only the family and tabular figures, inheriting
+   size and leading from the cell. The legacy Highlighter `.num` utility of the
+   same name also resets size/leading/tracking through its font shorthand,
+   which tightens the Trustpilot row by 5px. Restate the mockup meaning inside
+   the compare table without outranking the mockup's own `.cmp .v` rule. */
+:where(.cmp) .num { line-height: inherit; letter-spacing: normal; }

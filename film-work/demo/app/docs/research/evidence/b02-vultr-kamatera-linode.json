@@ -1,0 +1,548 @@
+[
+  {
+    "provider": "Kamatera",
+    "plan_slug": "basic",
+    "url": "https://www.kamatera.com/pricing/",
+    "excerpt": "### Basic\n\n$4 /mo\n\n[Create server](/free-trial/)\n\n- 1 vCPU (2667 MHz)  \n  Type A \u2013 Availability\n- 1 GB RAM (Memory)\n- 20 GB NVMe SSD Storage\n- 5 TB Internet Traffic\n- Ubuntu Server 24.04 (LTS) 64-bit",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Kamatera",
+    "plan_slug": "standard",
+    "url": "https://www.kamatera.com/pricing/",
+    "excerpt": "### Standard\n\n$25 /mo\n\n[Create server](/free-trial/)\n\n- 2 vCPU  \n  Type B \u2013 General Purpose\n- 2 GB RAM (Memory)\n- 20 GB NVMe SSD Storage\n- 5 TB Internet Traffic\n- Ubuntu Server 24.04 (LTS) 64-bit",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Kamatera",
+    "plan_slug": "pro",
+    "url": "https://www.kamatera.com/pricing/",
+    "excerpt": "### Pro\n\n$39 /mo\n\n[Create server](/free-trial/)\n\n- 2 vCPU  \n  Type B \u2013 General Purpose\n- 4 GB RAM (Memory)\n- 20 GB NVMe SSD Storage\n- 5 TB Internet Traffic\n- Ubuntu Server 24.04 (LTS) 64-bit",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Akamai Linode",
+    "plan_slug": "g6-nanode-1",
+    "url": "https://api.linode.com/v4/linode/types",
+    "excerpt": "{\"id\": \"g6-nanode-1\", \"label\": \"Nanode 1GB\", \"price\": {\"hourly\": 0.0075, \"monthly\": 5}, \"memory\": 1024, \"disk\": 25600, \"transfer\": 1000, \"vcpus\": 1, \"class\": \"nanode\"}",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Akamai Linode",
+    "plan_slug": "g6-standard-1",
+    "url": "https://api.linode.com/v4/linode/types",
+    "excerpt": "{\"id\": \"g6-standard-1\", \"label\": \"Linode 2GB\", \"price\": {\"hourly\": 0.018, \"monthly\": 12}, \"memory\": 2048, \"disk\": 51200, \"transfer\": 2000, \"vcpus\": 1, \"class\": \"standard\"}",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Akamai Linode",
+    "plan_slug": "g6-standard-2",
+    "url": "https://api.linode.com/v4/linode/types",
+    "excerpt": "{\"id\": \"g6-standard-2\", \"label\": \"Linode 4GB\", \"price\": {\"hourly\": 0.036, \"monthly\": 24}, \"memory\": 4096, \"disk\": 81920, \"transfer\": 4000, \"vcpus\": 2, \"class\": \"standard\"}",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Akamai Linode",
+    "plan_slug": "g6-standard-4",
+    "url": "https://api.linode.com/v4/linode/types",
+    "excerpt": "{\"id\": \"g6-standard-4\", \"label\": \"Linode 8GB\", \"price\": {\"hourly\": 0.072, \"monthly\": 48}, \"memory\": 8192, \"disk\": 163840, \"transfer\": 5000, \"vcpus\": 4, \"class\": \"standard\"}",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Akamai Linode",
+    "plan_slug": "g6-standard-6",
+    "url": "https://api.linode.com/v4/linode/types",
+    "excerpt": "{\"id\": \"g6-standard-6\", \"label\": \"Linode 16GB\", \"price\": {\"hourly\": 0.144, \"monthly\": 96}, \"memory\": 16384, \"disk\": 327680, \"transfer\": 8000, \"vcpus\": 6, \"class\": \"standard\"}",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Akamai Linode",
+    "plan_slug": "g6-standard-8",
+    "url": "https://api.linode.com/v4/linode/types",
+    "excerpt": "{\"id\": \"g6-standard-8\", \"label\": \"Linode 32GB\", \"price\": {\"hourly\": 0.288, \"monthly\": 192}, \"memory\": 32768, \"disk\": 655360, \"transfer\": 16000, \"vcpus\": 8, \"class\": \"standard\"}",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Akamai Linode",
+    "plan_slug": "g6-standard-16",
+    "url": "https://api.linode.com/v4/linode/types",
+    "excerpt": "{\"id\": \"g6-standard-16\", \"label\": \"Linode 64GB\", \"price\": {\"hourly\": 0.576, \"monthly\": 384}, \"memory\": 65536, \"disk\": 1310720, \"transfer\": 20000, \"vcpus\": 16, \"class\": \"standard\"}",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Akamai Linode",
+    "plan_slug": "g6-standard-20",
+    "url": "https://api.linode.com/v4/linode/types",
+    "excerpt": "{\"id\": \"g6-standard-20\", \"label\": \"Linode 96GB\", \"price\": {\"hourly\": 0.864, \"monthly\": 576}, \"memory\": 98304, \"disk\": 1966080, \"transfer\": 20000, \"vcpus\": 20, \"class\": \"standard\"}",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Akamai Linode",
+    "plan_slug": "g6-standard-24",
+    "url": "https://api.linode.com/v4/linode/types",
+    "excerpt": "{\"id\": \"g6-standard-24\", \"label\": \"Linode 128GB\", \"price\": {\"hourly\": 1.152, \"monthly\": 768}, \"memory\": 131072, \"disk\": 2621440, \"transfer\": 20000, \"vcpus\": 24, \"class\": \"standard\"}",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Akamai Linode",
+    "plan_slug": "g6-standard-32",
+    "url": "https://api.linode.com/v4/linode/types",
+    "excerpt": "{\"id\": \"g6-standard-32\", \"label\": \"Linode 192GB\", \"price\": {\"hourly\": 1.728, \"monthly\": 1152}, \"memory\": 196608, \"disk\": 3932160, \"transfer\": 20000, \"vcpus\": 32, \"class\": \"standard\"}",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Akamai Linode",
+    "plan_slug": "g7-highmem-1",
+    "url": "https://api.linode.com/v4/linode/types",
+    "excerpt": "{\"id\": \"g7-highmem-1\", \"label\": \"Linode 24GB\", \"price\": {\"hourly\": 0.09, \"monthly\": 60}, \"memory\": 24576, \"disk\": 20480, \"transfer\": 5000, \"vcpus\": 2, \"class\": \"highmem\"}",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Akamai Linode",
+    "plan_slug": "g7-highmem-2",
+    "url": "https://api.linode.com/v4/linode/types",
+    "excerpt": "{\"id\": \"g7-highmem-2\", \"label\": \"Linode 48GB\", \"price\": {\"hourly\": 0.18, \"monthly\": 120}, \"memory\": 49152, \"disk\": 40960, \"transfer\": 6000, \"vcpus\": 2, \"class\": \"highmem\"}",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Akamai Linode",
+    "plan_slug": "g7-highmem-4",
+    "url": "https://api.linode.com/v4/linode/types",
+    "excerpt": "{\"id\": \"g7-highmem-4\", \"label\": \"Linode 90GB\", \"price\": {\"hourly\": 0.36, \"monthly\": 240}, \"memory\": 92160, \"disk\": 92160, \"transfer\": 7000, \"vcpus\": 4, \"class\": \"highmem\"}",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Akamai Linode",
+    "plan_slug": "g7-highmem-8",
+    "url": "https://api.linode.com/v4/linode/types",
+    "excerpt": "{\"id\": \"g7-highmem-8\", \"label\": \"Linode 150GB\", \"price\": {\"hourly\": 0.72, \"monthly\": 480}, \"memory\": 153600, \"disk\": 204800, \"transfer\": 8000, \"vcpus\": 8, \"class\": \"highmem\"}",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Akamai Linode",
+    "plan_slug": "g7-highmem-16",
+    "url": "https://api.linode.com/v4/linode/types",
+    "excerpt": "{\"id\": \"g7-highmem-16\", \"label\": \"Linode 300GB\", \"price\": {\"hourly\": 1.44, \"monthly\": 960}, \"memory\": 307200, \"disk\": 348160, \"transfer\": 9000, \"vcpus\": 16, \"class\": \"highmem\"}",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Akamai Linode",
+    "plan_slug": "g6-dedicated-2",
+    "url": "https://api.linode.com/v4/linode/types",
+    "excerpt": "{\"id\": \"g6-dedicated-2\", \"label\": \"Dedicated 4GB\", \"price\": {\"hourly\": 0.054, \"monthly\": 36}, \"memory\": 4096, \"disk\": 81920, \"transfer\": 4000, \"vcpus\": 2, \"class\": \"dedicated\"}",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Akamai Linode",
+    "plan_slug": "g6-dedicated-4",
+    "url": "https://api.linode.com/v4/linode/types",
+    "excerpt": "{\"id\": \"g6-dedicated-4\", \"label\": \"Dedicated 8GB\", \"price\": {\"hourly\": 0.108, \"monthly\": 72}, \"memory\": 8192, \"disk\": 163840, \"transfer\": 5000, \"vcpus\": 4, \"class\": \"dedicated\"}",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Akamai Linode",
+    "plan_slug": "g6-dedicated-8",
+    "url": "https://api.linode.com/v4/linode/types",
+    "excerpt": "{\"id\": \"g6-dedicated-8\", \"label\": \"Dedicated 16GB\", \"price\": {\"hourly\": 0.216, \"monthly\": 144}, \"memory\": 16384, \"disk\": 327680, \"transfer\": 6000, \"vcpus\": 8, \"class\": \"dedicated\"}",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Akamai Linode",
+    "plan_slug": "g6-dedicated-16",
+    "url": "https://api.linode.com/v4/linode/types",
+    "excerpt": "{\"id\": \"g6-dedicated-16\", \"label\": \"Dedicated 32GB\", \"price\": {\"hourly\": 0.432, \"monthly\": 288}, \"memory\": 32768, \"disk\": 655360, \"transfer\": 7000, \"vcpus\": 16, \"class\": \"dedicated\"}",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Akamai Linode",
+    "plan_slug": "g6-dedicated-32",
+    "url": "https://api.linode.com/v4/linode/types",
+    "excerpt": "{\"id\": \"g6-dedicated-32\", \"label\": \"Dedicated 64GB\", \"price\": {\"hourly\": 0.864, \"monthly\": 576}, \"memory\": 65536, \"disk\": 1310720, \"transfer\": 8000, \"vcpus\": 32, \"class\": \"dedicated\"}",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Akamai Linode",
+    "plan_slug": "g6-dedicated-48",
+    "url": "https://api.linode.com/v4/linode/types",
+    "excerpt": "{\"id\": \"g6-dedicated-48\", \"label\": \"Dedicated 96GB\", \"price\": {\"hourly\": 1.296, \"monthly\": 864}, \"memory\": 98304, \"disk\": 1966080, \"transfer\": 9000, \"vcpus\": 48, \"class\": \"dedicated\"}",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Akamai Linode",
+    "plan_slug": "g6-dedicated-50",
+    "url": "https://api.linode.com/v4/linode/types",
+    "excerpt": "{\"id\": \"g6-dedicated-50\", \"label\": \"Dedicated 128GB\", \"price\": {\"hourly\": 1.728, \"monthly\": 1152}, \"memory\": 131072, \"disk\": 2560000, \"transfer\": 10000, \"vcpus\": 50, \"class\": \"dedicated\"}",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Akamai Linode",
+    "plan_slug": "g6-dedicated-56",
+    "url": "https://api.linode.com/v4/linode/types",
+    "excerpt": "{\"id\": \"g6-dedicated-56\", \"label\": \"Dedicated 256GB\", \"price\": {\"hourly\": 3.456, \"monthly\": 2304}, \"memory\": 262144, \"disk\": 5120000, \"transfer\": 11000, \"vcpus\": 56, \"class\": \"dedicated\"}",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Akamai Linode",
+    "plan_slug": "g7-premium-2",
+    "url": "https://api.linode.com/v4/linode/types",
+    "excerpt": "{\"id\": \"g7-premium-2\", \"label\": \"Premium 4GB\", \"price\": {\"hourly\": 0.0645, \"monthly\": 43}, \"memory\": 4096, \"disk\": 81920, \"transfer\": 4000, \"vcpus\": 2, \"class\": \"premium\"}",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Akamai Linode",
+    "plan_slug": "g7-premium-4",
+    "url": "https://api.linode.com/v4/linode/types",
+    "excerpt": "{\"id\": \"g7-premium-4\", \"label\": \"Premium 8GB\", \"price\": {\"hourly\": 0.129, \"monthly\": 86}, \"memory\": 8192, \"disk\": 163840, \"transfer\": 5000, \"vcpus\": 4, \"class\": \"premium\"}",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Akamai Linode",
+    "plan_slug": "g7-premium-8",
+    "url": "https://api.linode.com/v4/linode/types",
+    "excerpt": "{\"id\": \"g7-premium-8\", \"label\": \"Premium 16GB\", \"price\": {\"hourly\": 0.2595, \"monthly\": 173}, \"memory\": 16384, \"disk\": 327680, \"transfer\": 6000, \"vcpus\": 8, \"class\": \"premium\"}",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Akamai Linode",
+    "plan_slug": "g7-premium-16",
+    "url": "https://api.linode.com/v4/linode/types",
+    "excerpt": "{\"id\": \"g7-premium-16\", \"label\": \"Premium 32GB\", \"price\": {\"hourly\": 0.519, \"monthly\": 346}, \"memory\": 32768, \"disk\": 655360, \"transfer\": 7000, \"vcpus\": 16, \"class\": \"premium\"}",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Akamai Linode",
+    "plan_slug": "g7-premium-32",
+    "url": "https://api.linode.com/v4/linode/types",
+    "excerpt": "{\"id\": \"g7-premium-32\", \"label\": \"Premium 64GB\", \"price\": {\"hourly\": 1.0365, \"monthly\": 691}, \"memory\": 65536, \"disk\": 1310720, \"transfer\": 8000, \"vcpus\": 32, \"class\": \"premium\"}",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Akamai Linode",
+    "plan_slug": "g7-premium-48",
+    "url": "https://api.linode.com/v4/linode/types",
+    "excerpt": "{\"id\": \"g7-premium-48\", \"label\": \"Premium 96GB\", \"price\": {\"hourly\": 1.5555, \"monthly\": 1037}, \"memory\": 98304, \"disk\": 1966080, \"transfer\": 9000, \"vcpus\": 48, \"class\": \"premium\"}",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Akamai Linode",
+    "plan_slug": "g7-premium-50",
+    "url": "https://api.linode.com/v4/linode/types",
+    "excerpt": "{\"id\": \"g7-premium-50\", \"label\": \"Premium 128GB\", \"price\": {\"hourly\": 2.073, \"monthly\": 1382}, \"memory\": 131072, \"disk\": 2560000, \"transfer\": 10000, \"vcpus\": 50, \"class\": \"premium\"}",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Akamai Linode",
+    "plan_slug": "g7-premium-56",
+    "url": "https://api.linode.com/v4/linode/types",
+    "excerpt": "{\"id\": \"g7-premium-56\", \"label\": \"Premium 256GB\", \"price\": {\"hourly\": 4.1475, \"monthly\": 2765}, \"memory\": 262144, \"disk\": 5120000, \"transfer\": 11000, \"vcpus\": 56, \"class\": \"premium\"}",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Vultr",
+    "plan_slug": "vc2-1c-0.5gb-v6",
+    "url": "https://www.vultr.com/pricing/",
+    "excerpt": "Plan vc2-1c-0.5gb-v6: 1 vCPU, 512MB RAM, 10GB SSD, 512GB BW, $2.5/mo ($0.003/hr). Official page: https://www.vultr.com/pricing/",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Vultr",
+    "plan_slug": "vc2-1c-0.5gb",
+    "url": "https://www.vultr.com/pricing/",
+    "excerpt": "Plan vc2-1c-0.5gb: 1 vCPU, 512MB RAM, 10GB SSD, 512GB BW, $3.5/mo ($0.005/hr). Official page: https://www.vultr.com/pricing/",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Vultr",
+    "plan_slug": "vc2-1c-1gb",
+    "url": "https://www.vultr.com/pricing/",
+    "excerpt": "Plan vc2-1c-1gb: 1 vCPU, 1024MB RAM, 25GB SSD, 1024GB BW, $5/mo ($0.007/hr). Official page: https://www.vultr.com/pricing/",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Vultr",
+    "plan_slug": "vc2-1c-2gb",
+    "url": "https://www.vultr.com/pricing/",
+    "excerpt": "Plan vc2-1c-2gb: 1 vCPU, 2048MB RAM, 55GB SSD, 2048GB BW, $10/mo ($0.014/hr). Official page: https://www.vultr.com/pricing/",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Vultr",
+    "plan_slug": "vc2-2c-2gb",
+    "url": "https://www.vultr.com/pricing/",
+    "excerpt": "Plan vc2-2c-2gb: 2 vCPU, 2048MB RAM, 65GB SSD, 3072GB BW, $15/mo ($0.021/hr). Official page: https://www.vultr.com/pricing/",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Vultr",
+    "plan_slug": "vc2-2c-4gb",
+    "url": "https://www.vultr.com/pricing/",
+    "excerpt": "Plan vc2-2c-4gb: 2 vCPU, 4096MB RAM, 80GB SSD, 3072GB BW, $20/mo ($0.027/hr). Official page: https://www.vultr.com/pricing/",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Vultr",
+    "plan_slug": "vc2-4c-8gb",
+    "url": "https://www.vultr.com/pricing/",
+    "excerpt": "Plan vc2-4c-8gb: 4 vCPU, 8192MB RAM, 160GB SSD, 4096GB BW, $40/mo ($0.055/hr). Official page: https://www.vultr.com/pricing/",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Vultr",
+    "plan_slug": "vc2-6c-16gb",
+    "url": "https://www.vultr.com/pricing/",
+    "excerpt": "Plan vc2-6c-16gb: 6 vCPU, 16384MB RAM, 320GB SSD, 5120GB BW, $80/mo ($0.11/hr). Official page: https://www.vultr.com/pricing/",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Vultr",
+    "plan_slug": "vc2-8c-32gb",
+    "url": "https://www.vultr.com/pricing/",
+    "excerpt": "Plan vc2-8c-32gb: 8 vCPU, 32768MB RAM, 640GB SSD, 6144GB BW, $160/mo ($0.219/hr). Official page: https://www.vultr.com/pricing/",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Vultr",
+    "plan_slug": "vc2-16c-64gb",
+    "url": "https://www.vultr.com/pricing/",
+    "excerpt": "Plan vc2-16c-64gb: 16 vCPU, 65536MB RAM, 1280GB SSD, 10240GB BW, $320/mo ($0.438/hr). Official page: https://www.vultr.com/pricing/",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Vultr",
+    "plan_slug": "vc2-24c-96gb",
+    "url": "https://www.vultr.com/pricing/",
+    "excerpt": "Plan vc2-24c-96gb: 24 vCPU, 98304MB RAM, 1600GB SSD, 15360GB BW, $640/mo ($0.877/hr). Official page: https://www.vultr.com/pricing/",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Vultr",
+    "plan_slug": "vhf-1c-1gb",
+    "url": "https://www.vultr.com/pricing/",
+    "excerpt": "Plan vhf-1c-1gb: 1 vCPU, 1024MB RAM, 32GB HIGHFREQUENCY, 1024GB BW, $6/mo ($0.008/hr). Official page: https://www.vultr.com/pricing/",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Vultr",
+    "plan_slug": "vhf-1c-2gb",
+    "url": "https://www.vultr.com/pricing/",
+    "excerpt": "Plan vhf-1c-2gb: 1 vCPU, 2048MB RAM, 64GB HIGHFREQUENCY, 2048GB BW, $12/mo ($0.016/hr). Official page: https://www.vultr.com/pricing/",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Vultr",
+    "plan_slug": "vhf-2c-2gb",
+    "url": "https://www.vultr.com/pricing/",
+    "excerpt": "Plan vhf-2c-2gb: 2 vCPU, 2048MB RAM, 80GB HIGHFREQUENCY, 3072GB BW, $18/mo ($0.025/hr). Official page: https://www.vultr.com/pricing/",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Vultr",
+    "plan_slug": "vhf-2c-4gb",
+    "url": "https://www.vultr.com/pricing/",
+    "excerpt": "Plan vhf-2c-4gb: 2 vCPU, 4096MB RAM, 128GB HIGHFREQUENCY, 3072GB BW, $24/mo ($0.033/hr). Official page: https://www.vultr.com/pricing/",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Vultr",
+    "plan_slug": "vhf-3c-8gb",
+    "url": "https://www.vultr.com/pricing/",
+    "excerpt": "Plan vhf-3c-8gb: 3 vCPU, 8192MB RAM, 256GB HIGHFREQUENCY, 4096GB BW, $48/mo ($0.066/hr). Official page: https://www.vultr.com/pricing/",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Vultr",
+    "plan_slug": "vhf-4c-16gb",
+    "url": "https://www.vultr.com/pricing/",
+    "excerpt": "Plan vhf-4c-16gb: 4 vCPU, 16384MB RAM, 384GB HIGHFREQUENCY, 5120GB BW, $96/mo ($0.132/hr). Official page: https://www.vultr.com/pricing/",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Vultr",
+    "plan_slug": "vhf-6c-24gb",
+    "url": "https://www.vultr.com/pricing/",
+    "excerpt": "Plan vhf-6c-24gb: 6 vCPU, 24576MB RAM, 448GB HIGHFREQUENCY, 6144GB BW, $144/mo ($0.197/hr). Official page: https://www.vultr.com/pricing/",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Vultr",
+    "plan_slug": "vhf-8c-32gb",
+    "url": "https://www.vultr.com/pricing/",
+    "excerpt": "Plan vhf-8c-32gb: 8 vCPU, 32768MB RAM, 512GB HIGHFREQUENCY, 7168GB BW, $192/mo ($0.263/hr). Official page: https://www.vultr.com/pricing/",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Vultr",
+    "plan_slug": "vhf-12c-48gb",
+    "url": "https://www.vultr.com/pricing/",
+    "excerpt": "Plan vhf-12c-48gb: 12 vCPU, 49152MB RAM, 768GB HIGHFREQUENCY, 8192GB BW, $256/mo ($0.351/hr). Official page: https://www.vultr.com/pricing/",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Vultr",
+    "plan_slug": "vhf-16c-58gb",
+    "url": "https://www.vultr.com/pricing/",
+    "excerpt": "Plan vhf-16c-58gb: 16 vCPU, 59392MB RAM, 1024GB HIGHFREQUENCY, 9216GB BW, $320/mo ($0.438/hr). Official page: https://www.vultr.com/pricing/",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Vultr",
+    "plan_slug": "vhp-1c-1gb-amd",
+    "url": "https://www.vultr.com/pricing/",
+    "excerpt": "Plan vhp-1c-1gb-amd: 1 vCPU, 1024MB RAM, 25GB AMDHIGHPERF, 2048GB BW, $6/mo ($0.008/hr). Official page: https://www.vultr.com/pricing/",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Vultr",
+    "plan_slug": "vhp-1c-2gb-amd",
+    "url": "https://www.vultr.com/pricing/",
+    "excerpt": "Plan vhp-1c-2gb-amd: 1 vCPU, 2048MB RAM, 50GB AMDHIGHPERF, 3072GB BW, $12/mo ($0.016/hr). Official page: https://www.vultr.com/pricing/",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Vultr",
+    "plan_slug": "vhp-2c-2gb-amd",
+    "url": "https://www.vultr.com/pricing/",
+    "excerpt": "Plan vhp-2c-2gb-amd: 2 vCPU, 2048MB RAM, 60GB AMDHIGHPERF, 4096GB BW, $18/mo ($0.025/hr). Official page: https://www.vultr.com/pricing/",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Vultr",
+    "plan_slug": "vhp-2c-4gb-amd",
+    "url": "https://www.vultr.com/pricing/",
+    "excerpt": "Plan vhp-2c-4gb-amd: 2 vCPU, 4096MB RAM, 100GB AMDHIGHPERF, 5120GB BW, $24/mo ($0.033/hr). Official page: https://www.vultr.com/pricing/",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Vultr",
+    "plan_slug": "vhp-4c-8gb-amd",
+    "url": "https://www.vultr.com/pricing/",
+    "excerpt": "Plan vhp-4c-8gb-amd: 4 vCPU, 8192MB RAM, 180GB AMDHIGHPERF, 6144GB BW, $48/mo ($0.066/hr). Official page: https://www.vultr.com/pricing/",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Vultr",
+    "plan_slug": "vhp-4c-12gb-amd",
+    "url": "https://www.vultr.com/pricing/",
+    "excerpt": "Plan vhp-4c-12gb-amd: 4 vCPU, 12288MB RAM, 260GB AMDHIGHPERF, 7168GB BW, $72/mo ($0.099/hr). Official page: https://www.vultr.com/pricing/",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Vultr",
+    "plan_slug": "vhp-8c-16gb-amd",
+    "url": "https://www.vultr.com/pricing/",
+    "excerpt": "Plan vhp-8c-16gb-amd: 8 vCPU, 16384MB RAM, 350GB AMDHIGHPERF, 8192GB BW, $96/mo ($0.132/hr). Official page: https://www.vultr.com/pricing/",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Vultr",
+    "plan_slug": "vhp-12c-24gb-amd",
+    "url": "https://www.vultr.com/pricing/",
+    "excerpt": "Plan vhp-12c-24gb-amd: 12 vCPU, 24576MB RAM, 500GB AMDHIGHPERF, 12288GB BW, $144/mo ($0.197/hr). Official page: https://www.vultr.com/pricing/",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Vultr",
+    "plan_slug": "vhp-1c-1gb-intel",
+    "url": "https://www.vultr.com/pricing/",
+    "excerpt": "Plan vhp-1c-1gb-intel: 1 vCPU, 1024MB RAM, 25GB INTELHIGHPERF, 2048GB BW, $6/mo ($0.008/hr). Official page: https://www.vultr.com/pricing/",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Vultr",
+    "plan_slug": "vhp-1c-2gb-intel",
+    "url": "https://www.vultr.com/pricing/",
+    "excerpt": "Plan vhp-1c-2gb-intel: 1 vCPU, 2048MB RAM, 50GB INTELHIGHPERF, 3072GB BW, $12/mo ($0.016/hr). Official page: https://www.vultr.com/pricing/",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Vultr",
+    "plan_slug": "vhp-2c-2gb-intel",
+    "url": "https://www.vultr.com/pricing/",
+    "excerpt": "Plan vhp-2c-2gb-intel: 2 vCPU, 2048MB RAM, 60GB INTELHIGHPERF, 4096GB BW, $18/mo ($0.025/hr). Official page: https://www.vultr.com/pricing/",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Vultr",
+    "plan_slug": "vhp-2c-4gb-intel",
+    "url": "https://www.vultr.com/pricing/",
+    "excerpt": "Plan vhp-2c-4gb-intel: 2 vCPU, 4096MB RAM, 100GB INTELHIGHPERF, 5120GB BW, $24/mo ($0.033/hr). Official page: https://www.vultr.com/pricing/",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Vultr",
+    "plan_slug": "vhp-4c-8gb-intel",
+    "url": "https://www.vultr.com/pricing/",
+    "excerpt": "Plan vhp-4c-8gb-intel: 4 vCPU, 8192MB RAM, 180GB INTELHIGHPERF, 6144GB BW, $48/mo ($0.066/hr). Official page: https://www.vultr.com/pricing/",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Vultr",
+    "plan_slug": "vhp-4c-12gb-intel",
+    "url": "https://www.vultr.com/pricing/",
+    "excerpt": "Plan vhp-4c-12gb-intel: 4 vCPU, 12288MB RAM, 260GB INTELHIGHPERF, 7168GB BW, $72/mo ($0.099/hr). Official page: https://www.vultr.com/pricing/",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Vultr",
+    "plan_slug": "vhp-8c-16gb-intel",
+    "url": "https://www.vultr.com/pricing/",
+    "excerpt": "Plan vhp-8c-16gb-intel: 8 vCPU, 16384MB RAM, 350GB INTELHIGHPERF, 8192GB BW, $96/mo ($0.132/hr). Official page: https://www.vultr.com/pricing/",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Vultr",
+    "plan_slug": "vhp-12c-24gb-intel",
+    "url": "https://www.vultr.com/pricing/",
+    "excerpt": "Plan vhp-12c-24gb-intel: 12 vCPU, 24576MB RAM, 500GB INTELHIGHPERF, 12288GB BW, $144/mo ($0.197/hr). Official page: https://www.vultr.com/pricing/",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Vultr",
+    "plan_slug": "voc-c-1c-2gb-25s-amd",
+    "url": "https://www.vultr.com/pricing/",
+    "excerpt": "Plan voc-c-1c-2gb-25s-amd: 1 vCPU, 2048MB RAM, 25GB DEDICATEDOPTIMIZED, 4096GB BW, $28/mo ($0.038/hr). Official page: https://www.vultr.com/pricing/",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Vultr",
+    "plan_slug": "voc-g-1c-4gb-30s-amd",
+    "url": "https://www.vultr.com/pricing/",
+    "excerpt": "Plan voc-g-1c-4gb-30s-amd: 1 vCPU, 4096MB RAM, 30GB DEDICATEDOPTIMIZED, 4096GB BW, $30/mo ($0.041/hr). Official page: https://www.vultr.com/pricing/",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Vultr",
+    "plan_slug": "voc-m-1c-8gb-50s-amd",
+    "url": "https://www.vultr.com/pricing/",
+    "excerpt": "Plan voc-m-1c-8gb-50s-amd: 1 vCPU, 8192MB RAM, 50GB DEDICATEDOPTIMIZED, 5120GB BW, $40/mo ($0.055/hr). Official page: https://www.vultr.com/pricing/",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Vultr",
+    "plan_slug": "voc-c-2c-4gb-50s-amd",
+    "url": "https://www.vultr.com/pricing/",
+    "excerpt": "Plan voc-c-2c-4gb-50s-amd: 2 vCPU, 4096MB RAM, 50GB DEDICATEDOPTIMIZED, 5120GB BW, $40/mo ($0.055/hr). Official page: https://www.vultr.com/pricing/",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Vultr",
+    "plan_slug": "voc-g-2c-8gb-50s-amd",
+    "url": "https://www.vultr.com/pricing/",
+    "excerpt": "Plan voc-g-2c-8gb-50s-amd: 2 vCPU, 8192MB RAM, 50GB DEDICATEDOPTIMIZED, 5120GB BW, $60/mo ($0.082/hr). Official page: https://www.vultr.com/pricing/",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Vultr",
+    "plan_slug": "voc-m-2c-16gb-100s-amd",
+    "url": "https://www.vultr.com/pricing/",
+    "excerpt": "Plan voc-m-2c-16gb-100s-amd: 2 vCPU, 16384MB RAM, 100GB DEDICATEDOPTIMIZED, 6144GB BW, $80/mo ($0.11/hr). Official page: https://www.vultr.com/pricing/",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Vultr",
+    "plan_slug": "voc-s-1c-8gb-150s-amd",
+    "url": "https://www.vultr.com/pricing/",
+    "excerpt": "Plan voc-s-1c-8gb-150s-amd: 1 vCPU, 8192MB RAM, 150GB DEDICATEDOPTIMIZED, 4096GB BW, $75/mo ($0.103/hr). Official page: https://www.vultr.com/pricing/",
+    "checked_date": "2026-11-01"
+  }
+]

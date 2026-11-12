@@ -1,0 +1,440 @@
+@import "tailwindcss";
+@import "../styles/tokens.css";
+/* Shore design system — P1-1/P1-2/P1-3 */
+@import "../styles/shore-tokens.css";
+@import "../styles/shore-components.css";
+@import "../styles/shore-shell.css";
+@import "../components/catalog-media.css";
+@import "../styles/system.css";
+@import "../styles/home.css";
+@import "../styles/special-offers.css";
+@import "../styles/catalog.css";
+@import "../styles/offer.css";
+@import "../styles/compare.css";
+@import "../styles/content.css";
+@import "../styles/admin.css";
+
+@theme inline {
+  /* Highlighter semantic tokens */
+  --color-bg: var(--bg);
+  --color-bg-subtle: var(--bg-subtle);
+  --color-bg-muted: var(--bg-muted);
+  --color-bg-inverse: var(--bg-inverse);
+  --color-paper: var(--paper);
+  --color-surface: var(--surface);
+  --color-surface-raised: var(--surface-raised);
+  --color-surface-sunken: var(--surface-sunken);
+  --color-fg: var(--fg);
+  --color-fg-muted: var(--fg-muted);
+  --color-fg-subtle: var(--fg-subtle);
+  --color-fg-inverse: var(--fg-inverse);
+  --color-border: var(--border);
+  --color-border-strong: var(--border-strong);
+  --color-border-ink: var(--border-ink);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-accent-soft: var(--accent-soft);
+  --color-on-accent: var(--on-accent);
+  --color-accent-text: var(--accent-text);
+  --color-catch: var(--catch);
+  --color-catch-fg: var(--catch-fg);
+  --color-catch-bg: var(--catch-bg);
+  --color-ok: var(--ok);
+  --color-ok-bg: var(--ok-bg);
+  /* Legacy names — retained until Phase 5 rebuilds the remaining surfaces */
+  --color-surface-2: var(--bg-muted);
+  --color-ink: var(--fg);
+  --color-muted: var(--fg-muted);
+  --color-line: var(--border);
+  --color-primary: var(--primary);
+  --color-primary-ink: var(--primary-ink);
+  --color-verified: var(--ok);
+  --color-unknown: var(--catch-fg);
+  --color-info: var(--fg-muted);
+  --font-sans: var(--font-sans);
+  --font-display: var(--font-sans);
+  --font-mono: var(--font-mono);
+  --font-serif: var(--font-sans);
+  --radius-card: var(--r-xl);
+}
+
+@layer base {
+
+  /* Legacy token aliases → Highlighter semantics (removed when Phase 5 rebuilds offer/compare/providers/guides).
+     --primary was crimson and is used as both fill and text color; mapping it
+     to --fg keeps every text use AA-safe — volt arrives via --accent in the
+     rebuilt components. */
+  :root {
+    --primary: var(--fg);
+    --primary-ink: var(--fg-inverse);
+    --surface-2: var(--bg-muted);
+    --ink: var(--fg);
+    --muted: var(--fg-muted);
+    --line: var(--border);
+    --verified: var(--ok);
+    --unknown: var(--catch-fg);
+    --info: var(--fg-muted);
+    --radius: var(--r-md);
+    --control-compact: 32px;
+    --control-touch: 44px;
+    --ease-out-quart: cubic-bezier(0.25, 1, 0.5, 1);
+    --ease-out-quint: cubic-bezier(0.22, 1, 0.36, 1);
+    --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  /* Tailwind preflight makes every svg display:block, which drops inline icons
+     (arrows, checks) onto their own line inside links and text. Restore inline
+     flow where an svg sits in a text context. */
+  a svg, button svg, p svg, span svg, li svg, td svg, th svg, dd svg, dt svg, h1 svg, h2 svg, h3 svg, label svg, strong svg, small svg {
+    display: inline-block;
+    vertical-align: -0.125em;
+  }
+
+  html {
+    background: var(--bg);
+    color: var(--ink);
+  }
+
+  body {
+    margin: 0;
+    min-height: 100dvh;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--font-sans);
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+    text-decoration-thickness: 1px;
+    text-underline-offset: .2em;
+  }
+
+  button,
+input,
+select {
+    font: inherit;
+  }
+
+  h1,
+h2,
+h3 {
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--primary);
+    outline-offset: 2px;
+  }
+
+  ::selection {
+    background: oklch(0.48 0.2 18 / 0.18);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+
+    *,
+  *::before,
+  *::after {
+      animation: none !important;
+      transition: none !important;
+    }
+  }
+
+  @media (hover: hover) and (pointer: fine) {
+
+    a[href^="/go/"]:hover {
+      transform: translateY(-1px);
+    }
+  }
+}
+
+@layer components {
+
+  .control-touch {
+    min-height: var(--control-touch);
+  }
+
+  
+  .ui-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    border-radius: var(--r-sm);
+    cursor: pointer;
+    transition: background-color 140ms ease, border-color 140ms ease, color 140ms ease, transform 140ms ease, opacity 140ms ease;
+  }
+
+  .ui-button--primary {
+    border: 1px solid var(--primary);
+    background: var(--primary);
+    color: var(--primary-ink);
+    font-weight: 600;
+  }
+
+  .ui-button--primary:hover {
+    filter: brightness(.95);
+  }
+
+  .ui-button--secondary {
+    border: 1px solid var(--line);
+    background: var(--bg);
+    color: var(--ink);
+  }
+
+  .ui-button--secondary:hover {
+    border-color: color-mix(in srgb, var(--ink) 38%, var(--line));
+    background: var(--surface);
+  }
+
+  .ui-button--quiet {
+    border: 0;
+    background: transparent;
+    color: var(--muted);
+  }
+
+  .ui-button--quiet:hover {
+    color: var(--ink);
+    background: var(--surface);
+  }
+
+  .ui-button--icon {
+    border: 1px solid var(--line);
+    background: var(--surface);
+    color: var(--muted);
+  }
+
+  .ui-button--icon:hover {
+    background: var(--bg);
+    color: var(--ink);
+  }
+
+  .ui-button:disabled, .ui-button[data-loading="true"] {
+    cursor: not-allowed;
+    opacity: .55;
+  }
+
+  .ui-button:focus-visible {
+    outline: 2px solid var(--primary);
+    outline-offset: 2px;
+  }
+
+  .ui-button:active:not(:disabled) {
+    transform: scale(.98);
+  }
+
+  @media (width < 768px) {
+
+    .ui-button--icon {
+      min-width: var(--control-touch);
+      min-height: var(--control-touch);
+    }
+  }
+
+  .flag-fallback {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border: 1px solid var(--line);
+    border-radius: var(--r-xs);
+    color: var(--muted);
+    font-size: var(--fs-sm);
+    line-height: 1;
+    white-space: nowrap;
+  }
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  .catalog-results {
+    min-width: 0;
+    container-name: catalog-results;
+    container-type: inline-size;
+  }
+
+  .spec-sub {
+    overflow: hidden;
+    max-width: 100%;
+    margin-top: 2px;
+    font-size: var(--fs-sm);
+    line-height: 1.3;
+    color: var(--muted);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  
+  
+
+  
+
+  .compare-notice {
+    position: fixed;
+    right: 16px;
+    /* Keep the full-bench feedback above the dock's operable actions. */
+    bottom: calc(96px + env(safe-area-inset-bottom));
+    z-index: 60;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    pointer-events: none;
+    max-width: min(420px, calc(100% - 32px));
+    padding: 12px 14px;
+    border-radius: var(--r-control);
+    background: var(--ink);
+    color: var(--bg);
+    box-shadow: 0 14px 40px color-mix(in srgb, var(--ink) 22%, transparent);
+    font-size: var(--fs-sm);
+    animation: notice-in 200ms var(--ease-out-quint) both;
+  }
+
+  .compare-notice button {
+    color: var(--primary);
+    font-weight: 600;
+    pointer-events: auto;
+  }
+
+  @keyframes compare-loading {
+
+    to {
+      background-position: -200% 0;
+    }
+  }
+
+  @media (width < 768px) {
+
+    .catalog-search {
+      order: -1;
+      width: 100%;
+    }
+  }
+
+  
+
+  
+
+  @keyframes drawer-backdrop-in {
+
+    from {
+      opacity: 0;
+    }
+  }
+
+  @keyframes drawer-panel-in {
+
+    from {
+      opacity: 0.8;
+      transform: translateX(-18px);
+    }
+  }
+
+  @keyframes dock-in {
+
+    from {
+      opacity: 0;
+      transform: translateY(8px);
+    }
+  }
+
+  @keyframes notice-in {
+
+    from {
+      opacity: 0;
+      transform: translateY(6px) scale(0.985);
+    }
+  }
+
+  @keyframes disclosure-in {
+
+    from {
+      opacity: 0;
+      transform: translateY(-4px);
+    }
+  }a[href^="/go/"] svg
+  {
+    transition: transform 160ms var(--ease-out-quart);
+  }a[href^="/go/"]:hover svg
+  {
+    transform: translate(2px, -2px);
+  }
+
+  
+
+  @media (prefers-reduced-motion: reduce) {.compare-notice,
+  .offer-disclosure[open] .offer-disclosure__body
+  {
+      animation: none;
+    }a[href^="/go/"] svg
+  {
+      transition: none;
+    }
+  }
+
+  .price-terms-fields {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 12px;
+    margin: 16px 0;
+  }
+
+  .price-terms-fields label {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .trust-source {
+    font-size: var(--fs-sm);
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    color: var(--muted);
+  }
+
+  .trust-compact {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 5px;
+  }
+
+  .trust-compact .trust-source {
+    font-size: var(--fs-sm);
+  }
+
+  
+  /* Legacy flag icon. Scoped to img so it cannot reset the Shore .fl filter group. */
+  img.fl {
+    display: inline-block;
+    width: 16px;
+    height: 12px;
+    flex-shrink: 0;
+    border-radius: var(--r-xs);
+    object-fit: cover;
+}
+
+/* Shared row icons: symbols carry viewBox; CSS supplies the paint. */
+.ic {
+    fill: currentColor;
+    flex: none;
+}
+
+  
+
+}

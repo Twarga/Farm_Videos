@@ -1,0 +1,196 @@
+[
+  {
+    "offerId": "fastcomet-cloud-1",
+    "catchNotes": null,
+    "catchSource": "https://www.fastcomet.com/vps-pricing; offer billing notes and structured termMonths=1, renewalMonthly=None, ipv4Status=included, snapshot checked 2026-08-31. Stored billing excerpt: USD. Official vps-pricing: intro then regular. Cloud 1 mentioned as from $46.16/mo on same page footnote. Fully managed + cPanel. Intro from $46.16/mo (page footnote); regular often listed $65.95. Specs from companion public tables (1 vCPU/2GB/50GB/2TB). Publication hold: Hardware comes from companion public tables and the stored regular price is hedged; confirm provider SKU and price before publication.",
+    "fitNotes": null,
+    "fitSource": "https://www.fastcomet.com/vps-pricing; offer specs row, snapshot checked 2026-08-31: 1 vCPU, 2 GB RAM, 50 GB SSD/NVMe. Workload tag is an editorial fit assessment, not a performance benchmark. Publication hold: Hardware comes from companion public tables and the stored regular price is hedged; confirm provider SKU and price before publication. No fit or workload tag asserted until hardware is confirmed.",
+    "niches": []
+  },
+  {
+    "offerId": "microsoft-azure-azure-b1s-free",
+    "catchNotes": "The free-account allowance lasts 12 months; OS disk, public IPv4 and bandwidth can still incur charges.",
+    "catchSource": "https://azure.microsoft.com/en-us/pricing/free-services/; offer billing notes and structured termMonths=12, renewalMonthly=None, ipv4Status=extra, snapshot checked 2026-08-31. Stored billing excerpt: 12-month free tier: 750 hours/month of B1s (Linux and Windows each advertised) on an Azure free account. Not always-free. OS disk, IPv4, and bandwidth can still bill. After 12 months, PAYG. Always-free Azure list does not include a VM. Publication hold: Dated account-specific allowance: verify the account creation rules and current provider eligibility before publication.",
+    "fitNotes": "A VPN has 1 vCPU and 1 GB RAM to work with.",
+    "fitSource": "https://azure.microsoft.com/en-us/pricing/free-services/; offer specs row, snapshot checked 2026-08-31: 1 vCPU, 1 GB RAM, disk capacity not published. Workload tag is an editorial fit assessment, not a performance benchmark. Publication hold: Dated account-specific allowance: verify the account creation rules and current provider eligibility before publication.",
+    "niches": [
+      "vpn"
+    ]
+  },
+  {
+    "offerId": "aws-ec2-ec2-t3-micro-free",
+    "catchNotes": "Older accounts have a 12-month VM allowance; newer accounts use a six-month credit plan, with EBS and IPv4 charges.",
+    "catchSource": "https://aws.amazon.com/free/; offer billing notes and structured termMonths=12, renewalMonthly=None, ipv4Status=extra, snapshot checked 2026-08-31. Stored billing excerpt: 12-month free tier for accounts created before 2025-07-15: 750 h/mo t2.micro or t3.micro. Accounts on/after 2025-07-15: Free plan is up to $200 credits for 6 months (not a forever VM). Not always-free. EBS + public IPv4 can bill. Eligibility fields: older account creation before 2025-07-15; newer account credit plan on or after 2025-07-15. The stored allowance is not a current-account promise. Publication hold: Dated account-specific allowance: verify the account creation rules and current provider eligibility before publication.",
+    "fitNotes": "A VPN has 2 vCPU and 1 GB RAM to work with.",
+    "fitSource": "https://aws.amazon.com/free/; offer specs row, snapshot checked 2026-08-31: 2 vCPU, 1 GB RAM, disk capacity not published. Workload tag is an editorial fit assessment, not a performance benchmark. Publication hold: Dated account-specific allowance: verify the account creation rules and current provider eligibility before publication.",
+    "niches": [
+      "vpn"
+    ]
+  },
+  {
+    "offerId": "racknerd-kvm-512",
+    "catchNotes": "The 512 MB plan requires yearly billing.",
+    "catchSource": "https://www.racknerd.com/kvm-vps; offer billing notes and structured termMonths=12, renewalMonthly=None, ipv4Status=included, snapshot checked 2026-08-31. Stored billing excerpt: USD. Standard KVM from racknerd.com/kvm-vps (monthly except 512MB yearly). RAID-10 SSD. 1 IPv4.",
+    "fitNotes": "A Linux test box has 1 vCPU and 0.5 GB RAM; it is below the 1 GB VPN floor.",
+    "fitSource": "https://www.racknerd.com/kvm-vps; offer specs row, snapshot checked 2026-08-31: 1 vCPU, 0.5 GB RAM, 30 GB RAID-10 SSD. Workload tag is an editorial fit assessment, not a performance benchmark.",
+    "niches": []
+  },
+  {
+    "offerId": "ramnode-lite-2gb",
+    "catchNotes": "Public IPv4 adds $2/month to the IPv6-only Lite rate.",
+    "catchSource": "https://ramnode.com/products/cloud-vps; offer billing notes and structured termMonths=1, renewalMonthly=None, ipv4Status=extra, snapshot checked 2026-08-31. Stored billing excerpt: Lite Cloud: IPv6; +$2/mo IPv4.",
+    "fitNotes": "A WordPress site has 1 vCPU and 2 GB RAM to work with.",
+    "fitSource": "https://ramnode.com/products/cloud-vps; offer specs row, snapshot checked 2026-08-31: 1 vCPU, 2 GB RAM, 20 GB NVMe. Workload tag is an editorial fit assessment, not a performance benchmark.",
+    "niches": [
+      "wordpress"
+    ]
+  },
+  {
+    "offerId": "racknerd-special-2gb",
+    "catchNotes": "The promotional rate requires yearly billing; the frozen snapshot has no verified renewal amount.",
+    "catchSource": "https://www.racknerd.com/specials/; offer billing notes and structured termMonths=12, renewalMonthly=None, ipv4Status=included, snapshot checked 2026-08-31. Stored billing excerpt: Promo yearly from racknerd.com/specials/ (current public specials 2026-08-31).",
+    "fitNotes": "A WordPress site has 2 vCPU and 2 GB RAM to work with.",
+    "fitSource": "https://www.racknerd.com/specials/; offer specs row, snapshot checked 2026-08-31: 2 vCPU, 2 GB RAM, 35 GB SSD. Workload tag is an editorial fit assessment, not a performance benchmark.",
+    "niches": [
+      "wordpress"
+    ]
+  },
+  {
+    "offerId": "time4vps-linux-1",
+    "catchNotes": "Backups and NVMe upgrades cost extra.",
+    "catchSource": "https://www.time4vps.com/linux-vps/; offer billing notes and structured termMonths=1, renewalMonthly=2.99, ipv4Status=included, snapshot checked 2026-08-31. Stored billing excerpt: EUR. Official linux-vps page: list / intro / renewal. Linux 1 has no discount. Lithuania. Optional backups/NVMe add-ons. List €2.99/mo; renews €2.99/mo. Publication hold: Current provider research found billing-term disagreement in this product line; verify this exact SKU term before publication.",
+    "fitNotes": "A VPN has 1 vCPU and 1 GB RAM to work with.",
+    "fitSource": "https://www.time4vps.com/linux-vps/; offer specs row, snapshot checked 2026-08-31: 1 vCPU, 1 GB RAM, 10 GB SSD. Workload tag is an editorial fit assessment, not a performance benchmark. Publication hold: Current provider research found billing-term disagreement in this product line; verify this exact SKU term before publication.",
+    "niches": [
+      "vpn"
+    ]
+  },
+  {
+    "offerId": "buyvm-slice-1024",
+    "catchNotes": null,
+    "catchSource": "https://buyvm.net/kvm-dedicated-server-slices/; offer billing notes and structured termMonths=1, renewalMonthly=None, ipv4Status=included, snapshot checked 2026-08-31. Stored billing excerpt: USD. Las Vegas, New York, Luxembourg. Unmetered bandwidth. DirectAdmin included. SLICE 512 billed yearly only.",
+    "fitNotes": "A VPN has 1 vCPU and 1 GB RAM to work with.",
+    "fitSource": "https://buyvm.net/kvm-dedicated-server-slices/; offer specs row, snapshot checked 2026-08-31: 1 vCPU, 1 GB RAM, 20 GB SSD. Workload tag is an editorial fit assessment, not a performance benchmark.",
+    "niches": [
+      "vpn"
+    ]
+  },
+  {
+    "offerId": "ramnode-std-0.5gb",
+    "catchNotes": null,
+    "catchSource": "https://ramnode.com/products/cloud-vps; offer billing notes and structured termMonths=1, renewalMonthly=None, ipv4Status=included, snapshot checked 2026-08-31. Stored billing excerpt: USD. Official Standard Cloud VPS table. Hourly. 1 IPv4 included on Standard. Lite Cloud is IPv6 +$2 for IPv4.",
+    "fitNotes": "A Linux test box has 1 vCPU and 0.5 GB RAM; it is below the 1 GB VPN floor.",
+    "fitSource": "https://ramnode.com/products/cloud-vps; offer specs row, snapshot checked 2026-08-31: 1 vCPU, 0.5 GB RAM, 20 GB SSD. Workload tag is an editorial fit assessment, not a performance benchmark.",
+    "niches": []
+  },
+  {
+    "offerId": "hostkey-hostkey-nano",
+    "catchNotes": null,
+    "catchSource": "https://hostkey.com/vps/; offer billing notes and structured termMonths=1, renewalMonthly=None, ipv4Status=included, snapshot checked 2026-08-31. Stored billing excerpt: EUR from official hostkey.com/vps/ library. 1 Gbit/s, 3 TB included. Skip GPU SKUs. Publication hold: Current provider research identified a tax-basis difference; verify the exact SKU price and tax basis before publication.",
+    "fitNotes": "A WordPress site has 2 vCPU and 2 GB RAM to work with.",
+    "fitSource": "https://hostkey.com/vps/; offer specs row, snapshot checked 2026-08-31: 2 vCPU, 2 GB RAM, 60 GB SSD. Workload tag is an editorial fit assessment, not a performance benchmark. Publication hold: Current provider research identified a tax-basis difference; verify the exact SKU price and tax basis before publication.",
+    "niches": [
+      "wordpress"
+    ]
+  },
+  {
+    "offerId": "alphavps-alpha-c4g",
+    "catchNotes": "The €3.39/month annual equivalent requires yearly billing; monthly billing costs €3.99.",
+    "catchSource": "https://alphavps.com/cheap-vps; offer billing notes and structured termMonths=1, renewalMonthly=None, ipv4Status=included, snapshot checked 2026-08-31. Stored billing excerpt: EUR from official alphavps.com/cheap-vps. Monthly €3.99; annual billed €3.39/mo (€40.7/yr), flat at renewal. Xeon Scalable KVM. 14-day money-back. Publication hold: Current provider research identified separate monthly and annual prices; verify this exact SKU term before publishing billing prose.",
+    "fitNotes": "A Docker stack has 2 vCPU and 4 GB RAM to work with.",
+    "fitSource": "https://alphavps.com/cheap-vps; offer specs row, snapshot checked 2026-08-31: 2 vCPU, 4 GB RAM, 40 GB NVMe RAID-10. Workload tag is an editorial fit assessment, not a performance benchmark. Publication hold: Current provider research identified separate monthly and annual prices; verify this exact SKU term before publishing billing prose.",
+    "niches": [
+      "docker"
+    ]
+  },
+  {
+    "offerId": "webdock-advanced",
+    "catchNotes": "Transfer beyond the included allowance costs €2.50/TB.",
+    "catchSource": "https://webdock.io/en/pricing; offer billing notes and structured termMonths=1, renewalMonthly=None, ipv4Status=included, snapshot checked 2026-08-31. Stored billing excerpt: EUR month-to-month. Featured bundles on pricing page. Custom VPS from €4.30 (CPU €1.60, RAM €0.60/GB, disk €0.10/GB). DK-DC1 Denmark. IPv4 included. Overage €2.50/TB.",
+    "fitNotes": "A WordPress site has 1 vCPU and 2 GB RAM to work with.",
+    "fitSource": "https://webdock.io/en/pricing; offer specs row, snapshot checked 2026-08-31: 1 vCPU, 2 GB RAM, 15 GB NVMe. Workload tag is an editorial fit assessment, not a performance benchmark.",
+    "niches": [
+      "wordpress"
+    ]
+  },
+  {
+    "offerId": "racknerd-special-4gb",
+    "catchNotes": "The promotional rate requires yearly billing; the frozen snapshot has no verified renewal amount.",
+    "catchSource": "https://www.racknerd.com/specials/; offer billing notes and structured termMonths=12, renewalMonthly=None, ipv4Status=included, snapshot checked 2026-08-31. Stored billing excerpt: Promo yearly from racknerd.com/specials/ (current public specials 2026-08-31).",
+    "fitNotes": "A Docker stack has 3 vCPU and 4 GB RAM to work with.",
+    "fitSource": "https://www.racknerd.com/specials/; offer specs row, snapshot checked 2026-08-31: 3 vCPU, 4 GB RAM, 60 GB SSD. Workload tag is an editorial fit assessment, not a performance benchmark.",
+    "niches": [
+      "docker"
+    ]
+  },
+  {
+    "offerId": "ramnode-std-1gb",
+    "catchNotes": null,
+    "catchSource": "https://ramnode.com/products/cloud-vps; offer billing notes and structured termMonths=1, renewalMonthly=None, ipv4Status=included, snapshot checked 2026-08-31. Stored billing excerpt: USD. Official Standard Cloud VPS table. Hourly. 1 IPv4 included on Standard. Lite Cloud is IPv6 +$2 for IPv4.",
+    "fitNotes": "A VPN has 1 vCPU and 1 GB RAM to work with.",
+    "fitSource": "https://ramnode.com/products/cloud-vps; offer specs row, snapshot checked 2026-08-31: 1 vCPU, 1 GB RAM, 40 GB SSD. Workload tag is an editorial fit assessment, not a performance benchmark.",
+    "niches": [
+      "vpn"
+    ]
+  },
+  {
+    "offerId": "time4vps-linux-4",
+    "catchNotes": "Backups and NVMe upgrades cost extra.",
+    "catchSource": "https://www.time4vps.com/linux-vps/; offer billing notes and structured termMonths=1, renewalMonthly=8.76, ipv4Status=included, snapshot checked 2026-08-31. Stored billing excerpt: EUR. Official linux-vps page: list / intro / renewal. Linux 1 has no discount. Lithuania. Optional backups/NVMe add-ons. List €12.99/mo; renews €8.76/mo. Publication hold: Current provider research found billing-term disagreement in this product line; verify this exact SKU term before publication.",
+    "fitNotes": "A Docker stack has 2 vCPU and 4 GB RAM to work with.",
+    "fitSource": "https://www.time4vps.com/linux-vps/; offer specs row, snapshot checked 2026-08-31: 2 vCPU, 4 GB RAM, 50 GB SSD. Workload tag is an editorial fit assessment, not a performance benchmark. Publication hold: Current provider research found billing-term disagreement in this product line; verify this exact SKU term before publication.",
+    "niches": [
+      "docker"
+    ]
+  },
+  {
+    "offerId": "alphavps-alpha-c6g",
+    "catchNotes": "The €4.24/month annual equivalent requires yearly billing; monthly billing costs €4.99.",
+    "catchSource": "https://alphavps.com/cheap-vps; offer billing notes and structured termMonths=1, renewalMonthly=None, ipv4Status=included, snapshot checked 2026-08-31. Stored billing excerpt: EUR from official alphavps.com/cheap-vps. Monthly €4.99; annual billed €4.24/mo (€50.9/yr), flat at renewal. Xeon Scalable KVM. 14-day money-back. Publication hold: Current provider research identified separate monthly and annual prices; verify this exact SKU term before publishing billing prose.",
+    "fitNotes": "A Docker stack has 3 vCPU and 6 GB RAM to work with.",
+    "fitSource": "https://alphavps.com/cheap-vps; offer specs row, snapshot checked 2026-08-31: 3 vCPU, 6 GB RAM, 55 GB NVMe RAID-10. Workload tag is an editorial fit assessment, not a performance benchmark. Publication hold: Current provider research identified separate monthly and annual prices; verify this exact SKU term before publishing billing prose.",
+    "niches": [
+      "docker"
+    ]
+  },
+  {
+    "offerId": "digitalocean-basic-1gb",
+    "catchNotes": null,
+    "catchSource": "https://www.digitalocean.com/pricing/droplets; offer billing notes and structured termMonths=1, renewalMonthly=None, ipv4Status=included, snapshot checked 2026-08-31. Stored billing excerpt: Per-second billing (min 60s/$0.01) since 2026-01-01; monthly cap 672h. Regular CPU option as shown on pricing page. IPv4 included on bundled plans. Skip: v5 a-la-carte, GPU Droplets.",
+    "fitNotes": "A VPN has 1 vCPU and 1 GB RAM to work with.",
+    "fitSource": "https://www.digitalocean.com/pricing/droplets; offer specs row, snapshot checked 2026-08-31: 1 vCPU, 1 GB RAM, 25 GB SSD. Workload tag is an editorial fit assessment, not a performance benchmark.",
+    "niches": [
+      "vpn"
+    ]
+  },
+  {
+    "offerId": "greencloudvps-gcvps-ssdkvm-1",
+    "catchNotes": "Asia-Pacific locations include 750 GB transfer, below the stored 1.5 TB allowance.",
+    "catchSource": "https://green.cloud/budget-kvm-vps.php; offer billing notes and structured termMonths=1, renewalMonthly=None, ipv4Status=included, snapshot checked 2026-08-31. Stored billing excerpt: USD. Official green.cloud/budget-kvm-vps.php. APAC bandwidth 750 GB. 10 Gbps port. Linux. Addons $3/GB RAM, $3/core, $3/10GB SSD.",
+    "fitNotes": "A VPN has 1 vCPU and 1 GB RAM to work with.",
+    "fitSource": "https://green.cloud/budget-kvm-vps.php; offer specs row, snapshot checked 2026-08-31: 1 vCPU, 1 GB RAM, 15 GB SSD. Workload tag is an editorial fit assessment, not a performance benchmark.",
+    "niches": [
+      "vpn"
+    ]
+  },
+  {
+    "offerId": "ionos-vps-l-plus",
+    "catchNotes": "The three-month introductory rate requires a one-year term, then changes to $21/month.",
+    "catchSource": "https://www.ionos.com/servers/vps; offer billing notes and structured termMonths=12, renewalMonthly=21, ipv4Status=included, snapshot checked 2026-08-31. Stored billing excerpt: USD. Intro 3 months with 1-year term, then regular monthly. Unlimited traffic. US/UK/DE/ES. IPv4 included. After intro: $21/mo. Publication hold: Known IONOS price drift requires reconciliation of this exact SKU with the provider page before publication.",
+    "fitNotes": "A Docker stack has 4 vCPU and 8 GB RAM to work with.",
+    "fitSource": "https://www.ionos.com/servers/vps; offer specs row, snapshot checked 2026-08-31: 4 vCPU, 8 GB RAM, 240 GB NVMe. Workload tag is an editorial fit assessment, not a performance benchmark. Publication hold: Known IONOS price drift requires reconciliation of this exact SKU with the provider page before publication.",
+    "niches": [
+      "docker"
+    ]
+  },
+  {
+    "offerId": "google-cloud-e2-micro",
+    "catchNotes": "Persistent disk costs extra beyond the VM rate.",
+    "catchSource": "https://cloud.google.com/products/compute/pricing/general-purpose; offer billing notes and structured termMonths=1, renewalMonthly=None, ipv4Status=extra, snapshot checked 2026-08-31. Stored billing excerpt: USD on-demand Default rate, Iowa (us-central1) as listed on official General Purpose VM pricing. Persistent disk extra. e2-micro Always Free in us-west1/us-central1/us-east1 until monthly hour cap. Cutoff: E2 shared-core + E2 standard 2–32 + f1-micro; not the full N4/C4 matrix.",
+    "fitNotes": "A VPN has 2 vCPU and 1 GB RAM to work with.",
+    "fitSource": "https://cloud.google.com/products/compute/pricing/general-purpose; offer specs row, snapshot checked 2026-08-31: 2 vCPU, 1 GB RAM, disk capacity not published. Workload tag is an editorial fit assessment, not a performance benchmark.",
+    "niches": [
+      "vpn"
+    ]
+  }
+]

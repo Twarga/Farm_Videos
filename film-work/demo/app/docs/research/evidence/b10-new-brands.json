@@ -1,0 +1,156 @@
+[
+  {
+    "provider": "Strato",
+    "plan_slug": "linux-vps-s",
+    "url": "https://www.strato.de/server/linux-vserver/",
+    "excerpt": "VPS S 1 vCores 60 GB NVMe Storage 2 GB RAM 2 €/Mon. Aktion für 3 Monate danach 4 €/Mon. In den Warenkorb",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Strato",
+    "plan_slug": "linux-vps-m",
+    "url": "https://www.strato.de/server/linux-vserver/",
+    "excerpt": "VPS M 2 vCores 120 GB NVMe Storage 4 GB RAM 3 €/Mon. Aktion für 3 Monate danach 10 €/Mon. In den Warenkorb",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Strato",
+    "plan_slug": "linux-vps-l",
+    "url": "https://www.strato.de/server/linux-vserver/",
+    "excerpt": "VPS L 4 vCores 240 GB NVMe Storage 8 GB RAM 5 €/Mon. Aktion für 3 Monate danach 20 €/Mon. In den Warenkorb",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Strato",
+    "plan_slug": "linux-vps-xl",
+    "url": "https://www.strato.de/server/linux-vserver/",
+    "excerpt": "VPS XL 8 vCores 480 GB NVMe Storage 16 GB RAM 8 €/Mon. Aktion für 3 Monate danach 39 €/Mon. In den Warenkorb",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Strato",
+    "plan_slug": "linux-vps-xxl",
+    "url": "https://www.strato.de/server/linux-vserver/",
+    "excerpt": "VPS XXL 12 vCores 720 GB NVMe Storage 24 GB RAM 10 €/Mon. Aktion für 3 Monate danach 56 €/Mon. In den Warenkorb",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Strato",
+    "plan_slug": "windows-vps-m",
+    "url": "https://www.strato.de/server/windows-vserver/",
+    "excerpt": "VPS M 2 vCores 120 GB NVMe Storage 4 GB RAM 13 €/Mon. Aktion für 3 Monate danach 20 €/Mon. In den Warenkorb",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Strato",
+    "plan_slug": "windows-vps-l",
+    "url": "https://www.strato.de/server/windows-vserver/",
+    "excerpt": "VPS L 4 vCores 240 GB NVMe Storage 8 GB RAM 25 €/Mon. Aktion für 3 Monate danach 40 €/Mon. In den Warenkorb",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Strato",
+    "plan_slug": "windows-vps-xl",
+    "url": "https://www.strato.de/server/windows-vserver/",
+    "excerpt": "VPS XL 8 vCores 480 GB NVMe Storage 16 GB RAM 48 €/Mon. Aktion für 3 Monate danach 79 €/Mon. In den Warenkorb",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Strato",
+    "plan_slug": "windows-vps-xxl",
+    "url": "https://www.strato.de/server/windows-vserver/",
+    "excerpt": "VPS XXL 12 vCores 720 GB NVMe Storage 24 GB RAM 70 €/Mon. Aktion für 3 Monate danach 116 €/Mon. In den Warenkorb",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Fasthosts",
+    "plan_slug": "vps-1",
+    "url": "https://www.fasthosts.co.uk/virtual-private-servers",
+    "excerpt": "VPS 1 1 vCPU 2GB RAM 60GB NVMe SAVE 60% £5 /month £2 /month for 3 months Configure Please call 0333 0142 706 Limited stock available",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Fasthosts",
+    "plan_slug": "vps-2",
+    "url": "https://www.fasthosts.co.uk/virtual-private-servers",
+    "excerpt": "VPS 2 2 vCPU 4GB RAM 120GB NVMe SAVE 67% £12 /month £4 /month for 3 months Configure Please call 0333 0142 706 Limited stock available",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Fasthosts",
+    "plan_slug": "vps-4",
+    "url": "https://www.fasthosts.co.uk/virtual-private-servers",
+    "excerpt": "VPS 4 4 vCPU 8GB RAM 240GB NVMe SAVE 68% £22 /month £7 /month for 3 months Configure Please call 0333 0142 706 Limited stock available",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Fasthosts",
+    "plan_slug": "vps-8",
+    "url": "https://www.fasthosts.co.uk/virtual-private-servers",
+    "excerpt": "VPS 8 8 vCPU 16GB RAM 480GB NVMe SAVE 68% £38 /month £12 /month for 3 months Configure Please call 0333 0142 706 Limited stock available",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Fasthosts",
+    "plan_slug": "vps-12",
+    "url": "https://www.fasthosts.co.uk/virtual-private-servers",
+    "excerpt": "VPS 12 12 vCPU 24GB RAM 720GB NVMe SAVE 71% £58 /month £17 /month for 3 months Configure Please call 0333 0142 706 Limited stock available",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Fasthosts",
+    "plan_slug": "vps-ram-2",
+    "url": "https://www.fasthosts.co.uk/virtual-private-servers",
+    "excerpt": "RAM VPS 2 2 vCPU 8GB RAM 120GB NVMe SAVE 29% £17 /month £12 /month for 3 months Configure Please call 0333 0142 706 Limited stock available",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Fasthosts",
+    "plan_slug": "vps-ram-4",
+    "url": "https://www.fasthosts.co.uk/virtual-private-servers",
+    "excerpt": "RAM VPS 4 4 vCPU 16GB RAM 240GB NVMe SAVE 42% £24 /month £14 /month for 3 months Configure Please call 0333 0142 706 Limited stock available",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Fasthosts",
+    "plan_slug": "vps-ram-8",
+    "url": "https://www.fasthosts.co.uk/virtual-private-servers",
+    "excerpt": "RAM VPS 8 8 vCPU 32GB RAM 480GB NVMe SAVE 47% £45 /month £24 /month for 3 months Configure Please call 0333 0142 706 Limited stock available",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "Fasthosts",
+    "plan_slug": "vps-ram-16",
+    "url": "https://www.fasthosts.co.uk/virtual-private-servers",
+    "excerpt": "RAM VPS 16 16 vCPU 64GB RAM 960GB NVMe SAVE 51% £97 /month £48 /month for 3 months Configure Please call 0333 0142 706 Limited stock available",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "UltaHost",
+    "plan_slug": "vps-basic",
+    "url": "https://ultahost.com/vps-hosting",
+    "excerpt": "VPS Basic Perfect affordable hosting for beginners. Save 40% $5.52 /mo Billed for 24 month term. Renews at $5.52/mo for 2 years. Cancel anytime. 1 CPU Core 1 GB RAM DDR5 30 GB NVMe SSD Managed Server 1 IPv4 Dedicated IP",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "UltaHost",
+    "plan_slug": "vps-business",
+    "url": "https://ultahost.com/vps-hosting",
+    "excerpt": "VPS Business Strong hosting built for medium businesses. Save 40% $9.78 /mo Billed for 24 month term. Renews at $9.78/mo for 2 years. Cancel anytime. 2 CPU Cores 2 GB RAM DDR5 50 GB NVMe SSD Managed Server 1 IPv4 Dedicated IP Unlimited Bandwidth",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "UltaHost",
+    "plan_slug": "vps-professional",
+    "url": "https://ultahost.com/vps-hosting",
+    "excerpt": "VPS Professional Advanced resources for expanding projects. Save 40% $15.87 /mo Billed for 24 month term. Renews at $15.87/mo for 2 years. Cancel anytime. 3 CPU Cores 4 GB RAM DDR5 75 GB NVMe SSD Managed Server 1 IPv4 Dedicated IP Unlimited Bandwidth",
+    "checked_date": "2026-11-01"
+  },
+  {
+    "provider": "UltaHost",
+    "plan_slug": "vps-enterprise",
+    "url": "https://ultahost.com/vps-hosting",
+    "excerpt": "VPS Enterprise The ultimate VPS tier with maximum resources before moving to VDS. Save 40% $20.69 /mo Billed for 24 month term. Renews at $20.69/mo for 2 years. Cancel anytime. 4 CPU Cores 6 GB RAM DDR5 100 GB NVMe SSD Managed Server 1 IPv4 Dedicated IP",
+    "checked_date": "2026-11-01"
+  }
+]

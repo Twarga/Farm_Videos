@@ -1,0 +1,23 @@
+{
+  "styles": {
+    "professor": {
+      "score": 8,
+      "why": "Chapter-by-chapter cartoon explanations make discipline traps and practical fixes accessible to a psychology-curious audience, though the encyclopedic tone is less personal than this self-improvement topic invites.",
+      "titles": [
+        "7 Discipline Traps And Their Fixes Explained",
+        "Common Discipline Mistakes And Simple Fixes Explained",
+        "Why Discipline Fails: 8 Common Causes Explained"
+      ]
+    },
+    "stickman": {
+      "score": 10,
+      "why": "Second-person storytelling, emotional close-ups, and numbered takeaways perfectly fit a self-improvement audience looking for relatable struggles and small, actionable fixes.",
+      "titles": [
+        "7 Small Fixes That Help You Stay Disciplined",
+        "Why You Keep Giving Up (And How To Break The Cycle)",
+        "Stop Relying On Motivation If You Want To Stay Disciplined"
+      ]
+    }
+  },
+  "best": "stickman"
+}

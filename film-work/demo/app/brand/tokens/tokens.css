@@ -1,0 +1,232 @@
+/*
+  bestvpsforme design tokens — "Highlighter" identity, v1 (2026-09-28)
+  Source of truth for the web app (import into src/styles/tokens.css), the
+  HTML mockups in brand/mockups, marketing templates, and the Remotion kit
+  (mirrored in tokens.json). Change values here first.
+
+  Layers:  primitives  → never used directly in components
+           semantic    → what components use (light default, dark twin)
+*/
+
+@font-face {
+  font-family: "Mona Sans";
+  src: url("../fonts/MonaSans.ttf") format("truetype");
+  font-weight: 200 900;
+  font-stretch: 75% 125%;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Geist Mono";
+  src: url("../fonts/GeistMono.ttf") format("truetype");
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+:root {
+  /* ── Primitives: Ink (cool neutral, hue ≈ 255) ───────────────────── */
+  --ink-950: #0e1116;
+  --ink-900: #161a21;
+  --ink-800: #20252e;
+  --ink-700: #2e3440;
+  --ink-600: #474f5c;
+  --ink-500: #636b78;
+  --ink-400: #8a919c;
+  --ink-300: #b4b9c1;
+  --ink-200: #d9dce1;
+  --ink-150: #e4e6ea;
+  --ink-100: #eceef1;
+  --ink-50: #f5f6f8;
+  --paper: #ffffff;
+
+  /* ── Primitives: Volt (the highlighter) ──────────────────────────── */
+  --volt-50: #f9ffe3;
+  --volt-100: #f0ffb8;
+  --volt-200: #e6ff85;
+  --volt-400: #d4ff3a; /* brand */
+  --volt-500: #c2f01f;
+  --volt-600: #a0cc10;
+  --volt-800: #4f6407; /* only volt tone allowed as text on paper (AA 6.65:1). volt-400 on paper is 1.16:1: never text, never a boundary on white */
+
+  /* ── Primitives: Vermilion (the catch) ───────────────────────────── */
+  --verm-50: #fff2ed;
+  --verm-100: #ffdfd2;
+  --verm-300: #ff9670;
+  --verm-500: #f4511e;
+  --verm-700: #b53a12; /* text on paper, AA 5.87:1 */
+
+  /* ── Primitives: Signal (verified) ───────────────────────────────── */
+  --signal-50: #e8f8f0;
+  --signal-400: #3ddc97;
+  --signal-700: #0b7a4c;
+
+  /* ── Semantic (light) ────────────────────────────────────────────── */
+  --bg: var(--paper);
+  --bg-subtle: var(--ink-50);
+  --bg-muted: var(--ink-100);
+  --bg-inverse: var(--ink-950);
+  --surface: var(--paper);
+  --surface-raised: var(--paper);
+  --surface-sunken: var(--ink-50);
+
+  --fg: var(--ink-950);
+  --fg-muted: var(--ink-600);
+  --fg-subtle: var(--ink-500);
+  --fg-inverse: var(--paper);
+
+  --border: var(--ink-150);
+  --border-strong: var(--ink-300);
+  --border-ink: var(--ink-950);
+
+  --accent: var(--volt-400);
+  --accent-hover: var(--volt-500);
+  --accent-soft: var(--volt-100);
+  --on-accent: var(--ink-950);
+  --accent-text: var(--volt-800);
+
+  --catch: var(--verm-500);
+  --catch-fg: var(--verm-700);
+  --catch-bg: var(--verm-50);
+
+  --ok: var(--signal-700);
+  --ok-bg: var(--signal-50);
+
+  --focus-ring: 0 0 0 2px var(--paper), 0 0 0 4px var(--ink-950), 0 0 0 7px var(--volt-400);
+
+  /* ── Type ────────────────────────────────────────────────────────── */
+  --font-sans: "Mona Sans", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  --wide: 100%;
+  --semi: 100%;
+  --normal: 100%; /* UI and body */
+
+  /*        size / line-height / tracking / weight / width */
+  --t-display-2xl: 720 clamp(30px, 3.8vw, 48px) / 1.12 var(--font-sans);
+  --t-display-xl: 720 clamp(30px, 3.4vw, 40px) / 1.15 var(--font-sans);
+  --t-display-lg: 700 clamp(28px, 3vw, 36px) / 1.18 var(--font-sans);
+  --t-display-md: 680 clamp(26px, 2.6vw, 32px) / 1.2 var(--font-sans);
+  --t-heading-lg: 700 32px / 1.1 var(--font-sans);
+  --t-heading-md: 680 24px / 1.2 var(--font-sans);
+  --t-heading-sm: 650 19px / 1.3 var(--font-sans);
+  --t-body-lg: 420 19px / 1.55 var(--font-sans);
+  --t-body: 420 16px / 1.55 var(--font-sans);
+  --t-body-sm: 440 14px / 1.5 var(--font-sans);
+  --t-caption: 480 14px / 1.5 var(--font-sans);
+  --t-micro: 600 14px / 1.4 var(--font-sans);
+  --t-num-2xl: 600 40px / 1.1 var(--font-mono);
+  --t-num-xl: 600 32px / 1.15 var(--font-mono);
+  --t-num-lg: 600 32px / 1 var(--font-mono);
+  --t-num-md: 600 22px / 1.05 var(--font-mono);
+  --t-num: 520 15px / 1.2 var(--font-mono);
+  --t-num-sm: 500 14px / 1.3 var(--font-mono);
+  --track-display: -0.025em;
+  --track-heading: -0.025em;
+  --track-body: -0.005em;
+  --track-mono: -0.02em;
+  --track-eyebrow: 0.01em;
+
+  /* ── Space (4 pt) ────────────────────────────────────────────────── */
+  --s-0: 0;
+  --s-1: 4px;
+  --s-1-5: 6px;
+  --s-2: 8px;
+  --s-3: 12px;
+  --s-4: 16px;
+  --s-5: 20px;
+  --s-6: 24px;
+  --s-8: 32px;
+  --s-10: 40px;
+  --s-12: 48px;
+  --s-16: 64px;
+  --s-20: 80px;
+  --s-24: 96px;
+  --s-32: 128px;
+  --s-40: 160px;
+
+  /* ── Layout ──────────────────────────────────────────────────────── */
+  --container: 1240px;
+  --container-wide: 1280px;
+  --container-prose: 720px;
+  --gutter: clamp(20px, 3.2vw, 40px);
+  --nav-h: 64px;
+
+  /* ── Shape ───────────────────────────────────────────────────────── */
+  --r-xs: 4px;
+  --r-sm: 6px;
+  --r-md: 10px;
+  --r-lg: 16px;
+  --r-xl: 16px;
+  --r-2xl: 20px;
+  --r-full: 999px;
+
+  /* ── Elevation ───────────────────────────────────────────────────── */
+  --sh-1: 0 1px 0 rgb(14 17 22 / 0.04), 0 1px 2px rgb(14 17 22 / 0.06);
+  --sh-2: 0 1px 0 rgb(14 17 22 / 0.04), 0 6px 16px -4px rgb(14 17 22 / 0.1);
+  --sh-3: 0 2px 4px rgb(14 17 22 / 0.04), 0 18px 44px -14px rgb(14 17 22 / 0.22);
+  --sh-pop: 0 28px 72px -18px rgb(14 17 22 / 0.34);
+  --sh-sticker: 0 0 0 1.5px var(--ink-950), 6px 6px 0 0 var(--ink-950); /* signature, max one per view */
+
+  /* ── Motion ──────────────────────────────────────────────────────── */
+  --d-instant: 90ms;
+  --d-fast: 140ms;
+  --d-base: 200ms;
+  --d-slow: 320ms;
+  --d-highlight: 520ms;
+  --d-reveal: 640ms;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --ease-in: cubic-bezier(0.5, 0, 0.75, 0);
+  --ease-spring: linear(0, 0.009, 0.035 2.1%, 0.141 4.4%, 0.723 12.9%, 0.938 16.7%, 1.017 19.9%, 1.043 23.3%, 1.032 28.4%, 0.997 39.6%, 0.998 53.3%, 1);
+
+  /* ── Z ───────────────────────────────────────────────────────────── */
+  --z-sticky: 20;
+  --z-tray: 40;
+  --z-overlay: 60;
+  --z-toast: 80;
+
+  color-scheme: light;
+}
+
+:root[data-theme="dark"] {
+  --bg: #0a0c10;
+  --bg-subtle: #101318;
+  --bg-muted: #171b22;
+  --bg-inverse: var(--paper);
+  --surface: #101318;
+  --surface-raised: #151920;
+  --surface-sunken: #0a0c10;
+
+  --fg: #f3f5f7;
+  --fg-muted: #a9b0bb;
+  --fg-subtle: #7f8792;
+  --fg-inverse: var(--ink-950);
+
+  --border: #232830;
+  --border-strong: #353c47;
+  --border-ink: #f3f5f7;
+
+  --accent-soft: rgb(212 255 58 / 0.14);
+  --accent-text: var(--volt-400);
+
+  --catch-fg: var(--verm-300);
+  --catch-bg: rgb(244 81 30 / 0.13);
+
+  --ok: var(--signal-400);
+  --ok-bg: rgb(61 220 151 / 0.12);
+
+  --focus-ring: 0 0 0 2px #0a0c10, 0 0 0 4px var(--volt-400);
+  --sh-1: 0 1px 0 rgb(255 255 255 / 0.03);
+  --sh-2: 0 1px 0 rgb(255 255 255 / 0.04), 0 8px 20px -6px rgb(0 0 0 / 0.5);
+  --sh-3: 0 1px 0 rgb(255 255 255 / 0.05), 0 22px 50px -14px rgb(0 0 0 / 0.7);
+  --sh-sticker: 0 0 0 1.5px var(--volt-400), 6px 6px 0 0 var(--volt-400);
+
+  color-scheme: dark;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --d-highlight: 0ms;
+    --d-reveal: 0ms;
+    --d-slow: 0ms;
+  }
+}

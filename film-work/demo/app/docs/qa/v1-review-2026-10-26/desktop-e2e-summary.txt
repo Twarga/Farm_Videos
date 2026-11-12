@@ -1,0 +1,33 @@
+[152/154] [desktop-light] › tests/e2e/voice.spec.ts:11:7 › /methodology: public copy follows the brand voice
+[153/154] [desktop-light] › tests/e2e/voice.spec.ts:11:7 › /about: public copy follows the brand voice
+[154/154] [desktop-light] › tests/e2e/voice.spec.ts:11:7 › /updates: public copy follows the brand voice
+  27 failed
+    [desktop-light] › tests/e2e/a11y-targets.spec.ts:3:5 › catalog filter controls keep full-size, unobscured targets 
+    [desktop-light] › tests/e2e/csp.spec.ts:45:5 › nonce policy preserves filter navigation, compare, theme and correction validation 
+    [desktop-light] › tests/e2e/phase7-accessibility.spec.ts:22:5 › keyboard browsing selects filters, sorts, paginates and removes comparison plans 
+    [desktop-light] › tests/e2e/phase7-performance.spec.ts:4:7 › offer comparison waits for saved picks before accepting another selection 
+    [desktop-light] › tests/e2e/public-routes.spec.ts:32:7 › home: visual baseline ─────────────────
+    [desktop-light] › tests/e2e/public-routes.spec.ts:32:7 › special-offers: visual baseline ───────
+    [desktop-light] › tests/e2e/public-routes.spec.ts:32:7 › catalog: visual baseline ──────────────
+    [desktop-light] › tests/e2e/public-routes.spec.ts:32:7 › offer: visual baseline ────────────────
+    [desktop-light] › tests/e2e/public-routes.spec.ts:32:7 › euro-offer: visual baseline ───────────
+    [desktop-light] › tests/e2e/public-routes.spec.ts:32:7 › compare: visual baseline ──────────────
+    [desktop-light] › tests/e2e/public-routes.spec.ts:32:7 › compare-filled: visual baseline ───────
+    [desktop-light] › tests/e2e/public-routes.spec.ts:32:7 › providers: visual baseline ────────────
+    [desktop-light] › tests/e2e/public-routes.spec.ts:32:7 › provider: visual baseline ─────────────
+    [desktop-light] › tests/e2e/public-routes.spec.ts:32:7 › guides: visual baseline ───────────────
+    [desktop-light] › tests/e2e/public-routes.spec.ts:32:7 › about: visual baseline ────────────────
+    [desktop-light] › tests/e2e/public-routes.spec.ts:32:7 › terms: visual baseline ────────────────
+    [desktop-light] › tests/e2e/public-routes.spec.ts:32:7 › privacy: visual baseline ──────────────
+    [desktop-light] › tests/e2e/public-routes.spec.ts:32:7 › corrections: visual baseline ──────────
+    [desktop-light] › tests/e2e/public-routes.spec.ts:32:7 › updates: visual baseline ──────────────
+    [desktop-light] › tests/e2e/public-routes.spec.ts:32:7 › author: visual baseline ───────────────
+    [desktop-light] › tests/e2e/public-routes.spec.ts:32:7 › methodology: visual baseline ──────────
+    [desktop-light] › tests/e2e/public-routes.spec.ts:32:7 › guide-article: visual baseline ────────
+    [desktop-light] › tests/e2e/public-routes.spec.ts:32:7 › not-found: visual baseline ────────────
+    [desktop-light] › tests/e2e/public-routes.spec.ts:67:5 › comparison supports two plans, a share URL and a fresh session 
+    [desktop-light] › tests/e2e/public-routes.spec.ts:187:5 › comparison URL drives the selected plans 
+    [desktop-light] › tests/e2e/ui-defects.spec.ts:3:5 › brand fonts actually load — Mona Sans and Geist Mono, not fallbacks 
+    [desktop-light] › tests/e2e/voice.spec.ts:11:7 › /catalog: public copy follows the brand voice ─
+  32 skipped
+  95 passed (2.7m)

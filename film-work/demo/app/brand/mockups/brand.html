@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Brand — bestvpsforme</title>
+<link rel="icon" href="../logo/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/bvf.css">
+<style>
+  .bhero { padding: 72px 0 56px; display: grid; grid-template-columns: 1.1fr .9fr; gap: 56px; align-items: center; }
+  .bhero p { margin-top: 24px; max-width: 48ch; color: var(--fg-muted); }
+  .bsec { padding: 72px 0; border-top: 1px solid var(--border); }
+  .bsec > .row { align-items: flex-end; margin-bottom: 32px; }
+  .tiles { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+  .tile { border-radius: var(--r-xl); border: 1px solid var(--border); min-height: 220px; display: grid; place-items: center; padding: 28px; position: relative; }
+  .tile small { position: absolute; left: 18px; bottom: 14px; font: 560 11.5px/1 var(--font-mono); color: var(--fg-subtle); }
+  .tile--ink { background: var(--ink-950); border-color: var(--ink-950); }
+  .tile--ink small { color: #7f8792; }
+  .tile--volt { background: var(--volt-400); border-color: var(--ink-950); }
+  .tile--wide { grid-column: span 2; }
+  .tile img { max-height: 110px; width: auto; }
+  .clear { position: relative; display: inline-block; padding: 40px; background-image: repeating-linear-gradient(45deg, var(--volt-100) 0 6px, transparent 6px 12px); outline: 1.5px dashed var(--volt-600); }
+  .clear img { height: 72px; background: var(--bg); }
+  .sw { display: grid; grid-template-columns: repeat(6, 1fr); gap: 12px; }
+  .swatch { border-radius: 18px; overflow: hidden; border: 1px solid var(--border); }
+  .swatch i { display: block; height: 120px; }
+  .swatch div { padding: 12px 14px; }
+  .swatch b { display: block; font: 700 14px/1.2 var(--font-sans); font-stretch: 108%; }
+  .swatch span { display: block; margin-top: 4px; font: 500 12px/1.4 var(--font-mono); color: var(--fg-muted); }
+  .spec-type { display: grid; gap: 28px; }
+  .spec-type > div { display: grid; grid-template-columns: 200px 1fr; gap: 32px; align-items: baseline; padding-bottom: 28px; border-bottom: 1px solid var(--border); }
+  .spec-type small { font: 500 12px/1.5 var(--font-mono); color: var(--fg-subtle); }
+  .dev { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+  .dev > div { padding: 28px; border-radius: var(--r-xl); border: 1px solid var(--border); display: grid; gap: 18px; align-content: start; min-height: 240px; }
+  .dev h3 { font: 700 18px/1.2 var(--font-sans); font-stretch: 108%; }
+  .dev p { color: var(--fg-muted); font: 460 14.5px/1.5 var(--font-sans); }
+  .dont { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+  .dont > div { border-radius: var(--r-lg); border: 1px solid var(--border); overflow: hidden; }
+  .dont .pv { height: 140px; display: grid; place-items: center; background: var(--bg-subtle); position: relative; }
+  .dont .pv::after { content: ""; position: absolute; inset: 12px; border: 2px solid var(--catch); border-radius: 12px; }
+  .dont p { padding: 12px 14px; font: 560 13.5px/1.4 var(--font-sans); display: flex; gap: 8px; }
+  .dont p::before { content: "✕"; color: var(--catch-fg); font-weight: 800; }
+  @media (max-width: 1000px) { .bhero { grid-template-columns: 1fr; } .tiles, .dont { grid-template-columns: 1fr 1fr; } .sw { grid-template-columns: repeat(3, 1fr); } .dev { grid-template-columns: 1fr; } .spec-type > div { grid-template-columns: 1fr; gap: 8px; } }
+</style>
+</head>
+<body>
+<header class="nav"><div class="container--wide nav__in"><a class="nav__logo" href="index.html"><img src="../logo/lockup-horizontal-light.svg" alt="bestvpsforme" data-logo></a><span class="eyebrow" style="margin-left:auto">Brand system v1 · 28 Sep 2026</span><button class="btn btn--ghost btn--icon" type="button" data-theme-toggle aria-label="Switch theme"><i data-icon="moon"></i></button></div></header>
+<main class="container--wide">
+  <section class="bhero">
+    <div>
+      <p class="eyebrow">Brand idea</p>
+      <h1 class="d-xl" style="margin-top:18px">We read the <span class="hl" data-animate>fine print.</span></h1>
+      <p class="b-lg">bestvpsforme is a highlighter pointed at the smallest text on a hosting page. The mark is a server rack with one unit pulled out: the one that fits you. Volt means "we checked this". Vermilion means "read this first".</p>
+    </div>
+    <div class="tile tile--ink" style="min-height:360px"><img src="../logo/mark-on-dark.svg" alt="" style="max-height:200px"><small>The Pick · primary mark</small></div>
+  </section>
+
+  <section class="bsec">
+    <div class="row row--between"><h2 class="d-md">Logo system</h2><span class="cap muted">Files in brand/logo/</span></div>
+    <div class="tiles">
+      <div class="tile tile--wide"><img src="../logo/lockup-horizontal-light.svg" alt=""><small>lockup-horizontal-light.svg</small></div>
+      <div class="tile tile--ink tile--wide"><img src="../logo/lockup-horizontal-dark.svg" alt=""><small>lockup-horizontal-dark.svg</small></div>
+      <div class="tile"><img src="../logo/mark.svg" alt=""><small>mark.svg</small></div>
+      <div class="tile tile--volt"><img src="../logo/mark-volt.svg" alt=""><small style="color:var(--ink-700)">mark-volt.svg</small></div>
+      <div class="tile"><img src="../logo/glyph-ink.svg" alt=""><small>glyph-ink.svg · mono</small></div>
+      <div class="tile tile--ink"><img src="../logo/lockup-stacked-dark.svg" alt="" style="max-height:150px"><small>lockup-stacked-dark.svg</small></div>
+    </div>
+    <div class="row row--wrap" style="margin-top:32px;gap:40px;align-items:center">
+      <div class="clear"><img src="../logo/lockup-horizontal-light.svg" alt=""></div>
+      <div class="stack" style="--stack:10px;max-width:46ch"><h3 class="h-sm">Clear space and size</h3><p class="b-sm muted">Clear space on every side = the height of the mark's middle unit × 2. Minimum lockup height 20 px on screen. Minimum mark 16 px (favicon is hand-tuned). Never recolour, rotate, outline or re-set the wordmark in live text.</p>
+      <div class="row" style="gap:18px;margin-top:10px"><img src="../logo/mark.svg" alt="" style="height:64px"><img src="../logo/mark.svg" alt="" style="height:32px"><img src="../logo/mark.svg" alt="" style="height:20px"><img src="../logo/mark.svg" alt="" style="height:16px"></div></div>
+    </div>
+  </section>
+
+  <section class="bsec">
+    <div class="row row--between"><h2 class="d-md">Colour</h2><span class="cap muted">Ink 70% · Paper 20% · Volt ≤ 8% · Vermilion ≤ 2%</span></div>
+    <div class="sw">
+      <div class="swatch"><i style="background:#0E1116"></i><div><b>Ink 950</b><span>#0E1116<br>Text, primary buttons</span></div></div>
+      <div class="swatch"><i style="background:#FFFFFF;box-shadow:inset 0 -1px 0 var(--border)"></i><div><b>Paper</b><span>#FFFFFF<br>Canvas. Never cream.</span></div></div>
+      <div class="swatch"><i style="background:#D4FF3A"></i><div><b>Volt 400</b><span>#D4FF3A<br>Highlight, picks, CTA fill. Never text on white.</span></div></div>
+      <div class="swatch"><i style="background:#F4511E"></i><div><b>Vermilion 500</b><span>#F4511E<br>The catch: dots, marks. Text uses 700.</span></div></div>
+      <div class="swatch"><i style="background:#474F5C"></i><div><b>Ink 600</b><span>#474F5C<br>Secondary text, 8.3:1</span></div></div>
+      <div class="swatch"><i style="background:#0A0C10"></i><div><b>Night</b><span>#0A0C10<br>Dark canvas</span></div></div>
+    </div>
+  </section>
+
+  <section class="bsec">
+    <div class="row row--between"><h2 class="d-md">Type</h2><span class="cap muted">Mona Sans (OFL) · Geist Mono (OFL)</span></div>
+    <div class="spec-type">
+      <div><small>Display · Mona Sans Wide 800<br>clamp 56–112 / 0.9 / −4.5%</small><span class="d-xl">Pick the server.</span></div>
+      <div><small>Heading · Mona Sans 112% 700<br>32 / 1.1 / −2.5%</small><span class="h-lg">The 3-year real price</span></div>
+      <div><small>Body · Mona Sans 100% 420<br>16–19 / 1.55</small><span class="b-lg">We read each provider's own pricing page and write the catch in one plain sentence.</span></div>
+      <div><small>Numbers · Geist Mono 600<br>tabular, slashed zero</small><span class="n-lg">$8.32/mo · $155.76 · 4 GB</span></div>
+      <div><small>Big numbers · Mona Sans Wide 760<br>tabular lining</small><span class="n-2xl">$10.42</span></div>
+    </div>
+  </section>
+
+  <section class="bsec">
+    <div class="row row--between"><h2 class="d-md">Signature devices</h2><span class="cap muted">Use one hero device per view</span></div>
+    <div class="dev">
+      <div><span class="h-md">The <span class="hl">highlight.</span></span><h3>Highlighter swipe</h3><p>Volt behind the words or number that matter. Animates left to right in 520 ms on first view. Max one per heading.</p></div>
+      <div><span class="b-lg">Renews at <span class="catch-mark">$11.99/mo</span></span><h3>Catch mark</h3><p>A wavy vermilion underline flags fine print inside running text. Always with words that explain it.</p></div>
+      <div><div class="row row--wrap"><span class="stamp"><i data-icon="check"></i>Checked 31 Aug 2026</span><span class="tag tag--catch"><span class="dot dot--catch"></span>24-month prepay</span></div><h3>Stamp and tags</h3><p>The stamp dates every fact. Tags label catches (vermilion), verified facts (signal) and picks (volt).</p></div>
+      <div><div class="sticker" style="padding:18px 20px;display:inline-block"><span class="n-lg">$8.32</span></div><h3>Sticker card</h3><p>1.5 px ink outline + 6 px hard offset shadow. Only for the single most important object on a page.</p></div>
+      <div><div class="rack" style="width:120px"><i></i><i class="pick"></i><i></i></div><h3>The rack</h3><p>The mark, deconstructed. Illustration, loading skeletons, empty states. The picked unit slides out on hover.</p></div>
+      <div><span class="row" style="gap:10px"><a class="btn btn--volt">Visit <i data-icon="out"></i></a><a class="btn btn--ink">Compare</a><a class="btn btn--line">Details</a></span><h3>Buttons</h3><p>Volt = the one commercial action. Ink = navigation-level primary. Line = everything else. Pills, 44 px touch.</p></div>
+    </div>
+  </section>
+
+  <section class="bsec">
+    <div class="row row--between"><h2 class="d-md">Don't</h2></div>
+    <div class="dont">
+      <div><div class="pv"><img src="../logo/lockup-horizontal-light.svg" alt="" style="height:30px;filter:hue-rotate(160deg)"></div><p>Recolour the highlight</p></div>
+      <div><div class="pv" style="background:linear-gradient(135deg,#7b61ff,#00d4ff)"><span class="h-md" style="color:#fff">Best VPS 2026</span></div><p>Gradients, glow, purple</p></div>
+      <div><div class="pv"><span style="color:var(--volt-400);font:700 22px var(--font-sans)">$4.35/mo</span></div><p>Volt text on white</p></div>
+      <div><div class="pv"><span class="tag tag--volt">#1 PICK</span></div><p>Rankings that sound paid</p></div>
+    </div>
+  </section>
+</main>
+<div style="height:80px"></div>
+<script src="assets/bvf-data.js"></script>
+<script src="assets/bvf.js"></script>
+<script>
+  const swapLogo = () => document.querySelectorAll("[data-logo]").forEach((i) => i.src = `../logo/lockup-horizontal-${document.documentElement.dataset.theme === "dark" ? "dark" : "light"}.svg`);
+  swapLogo(); new MutationObserver(swapLogo).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
+</script>
+</body>
+</html>

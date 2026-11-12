@@ -1,0 +1,199 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-07T16:08:15.198Z",
+  "budget": {
+    "exclusiveGzip9Bytes": 120000,
+    "kilobyteBytes": 1000,
+    "includesFramework": true
+  },
+  "accounting": "Unique URL decoded response bodies individually gzipped level 9; HTML includes inline/RSC subsets reported separately, never discounted from first-load JavaScript",
+  "routeSpecificDefinition": "Catalog script URLs not observed on a separate clean home navigation (diagnostic, not the budget denominator)",
+  "failures": [
+    "Catalog JavaScript 168608 bytes fails the <120 KB budget"
+  ],
+  "identity": {
+    "sourceBackup": "/tmp/bestvpsforme-phase7-8mkpmcnf/current-data.db",
+    "databaseSha256": "35e8b986f3eec0301d8283baffee91575e7823c97e9f33a6c8dc05dfd7a7c9ce",
+    "publication": {
+      "id": "341cd929-08fa-4ba3-8f54-1df8a434f4b1",
+      "snapshot_version": 6,
+      "published_at": 1791370150823
+    },
+    "counts": {
+      "published": 330,
+      "drafts": 0,
+      "snapshotOffers": 330
+    },
+    "buildDirectory": "/tmp/bestvpsforme-phase7-8mkpmcnf/baseline",
+    "buildId": "ypbG2QgvXBiO71Isr0id_",
+    "commit": null,
+    "node": "v24.17.0",
+    "next": "16.3.6",
+    "react": "19.2.0"
+  },
+  "baseUrl": "http://127.0.0.1:44465",
+  "versions": {
+    "node": "v24.17.0",
+    "chromium": "153.0.8010.12",
+    "playwright": "1.63.0"
+  },
+  "homeScripts": [
+    {
+      "url": "http://127.0.0.1:44465/_next/static/chunks/0bma92pht_c97.js",
+      "decodedBytes": 229156,
+      "gzip9Bytes": 71470
+    },
+    {
+      "url": "http://127.0.0.1:44465/_next/static/chunks/3jg84jwj6s1uj.js",
+      "decodedBytes": 155444,
+      "gzip9Bytes": 42603
+    },
+    {
+      "url": "http://127.0.0.1:44465/_next/static/chunks/3xiurbna0ggz6.js",
+      "decodedBytes": 40271,
+      "gzip9Bytes": 13735
+    },
+    {
+      "url": "http://127.0.0.1:44465/_next/static/chunks/11jq0c2_zavac.js",
+      "decodedBytes": 31917,
+      "gzip9Bytes": 8483
+    },
+    {
+      "url": "http://127.0.0.1:44465/_next/static/chunks/turbopack-0zrgfopj46wev.js",
+      "decodedBytes": 10946,
+      "gzip9Bytes": 4308
+    },
+    {
+      "url": "http://127.0.0.1:44465/_next/static/chunks/3fntmmi971322.js",
+      "decodedBytes": 14377,
+      "gzip9Bytes": 3653
+    },
+    {
+      "url": "http://127.0.0.1:44465/_next/static/chunks/3mc6dra1m0098.js",
+      "decodedBytes": 12653,
+      "gzip9Bytes": 3567
+    },
+    {
+      "url": "http://127.0.0.1:44465/_next/static/chunks/3ofrmodzwtw-0.js",
+      "decodedBytes": 4666,
+      "gzip9Bytes": 1639
+    },
+    {
+      "url": "http://127.0.0.1:44465/_next/static/chunks/06dr0nad9the_.js",
+      "decodedBytes": 3037,
+      "gzip9Bytes": 1371
+    }
+  ],
+  "firstLoad": {
+    "scripts": [
+      {
+        "url": "http://127.0.0.1:44465/_next/static/chunks/0bma92pht_c97.js",
+        "decodedBytes": 229156,
+        "gzip9Bytes": 71470
+      },
+      {
+        "url": "http://127.0.0.1:44465/_next/static/chunks/3jg84jwj6s1uj.js",
+        "decodedBytes": 155444,
+        "gzip9Bytes": 42603
+      },
+      {
+        "url": "http://127.0.0.1:44465/_next/static/chunks/1r9u_a-axbya8.js",
+        "decodedBytes": 66440,
+        "gzip9Bytes": 19150
+      },
+      {
+        "url": "http://127.0.0.1:44465/_next/static/chunks/3xiurbna0ggz6.js",
+        "decodedBytes": 40271,
+        "gzip9Bytes": 13735
+      },
+      {
+        "url": "http://127.0.0.1:44465/_next/static/chunks/11jq0c2_zavac.js",
+        "decodedBytes": 31917,
+        "gzip9Bytes": 8483
+      },
+      {
+        "url": "http://127.0.0.1:44465/_next/static/chunks/turbopack-0zrgfopj46wev.js",
+        "decodedBytes": 10946,
+        "gzip9Bytes": 4308
+      },
+      {
+        "url": "http://127.0.0.1:44465/_next/static/chunks/3fntmmi971322.js",
+        "decodedBytes": 14377,
+        "gzip9Bytes": 3653
+      },
+      {
+        "url": "http://127.0.0.1:44465/_next/static/chunks/3mc6dra1m0098.js",
+        "decodedBytes": 12653,
+        "gzip9Bytes": 3567
+      },
+      {
+        "url": "http://127.0.0.1:44465/_next/static/chunks/3ofrmodzwtw-0.js",
+        "decodedBytes": 4666,
+        "gzip9Bytes": 1639
+      }
+    ],
+    "uniqueUrls": 9,
+    "decodedBytes": 565870,
+    "gzip9Bytes": 168608,
+    "catalogOnlyScripts": [
+      {
+        "url": "http://127.0.0.1:44465/_next/static/chunks/1r9u_a-axbya8.js",
+        "decodedBytes": 66440,
+        "gzip9Bytes": 19150
+      }
+    ],
+    "catalogOnlyGzip9Bytes": 19150
+  },
+  "html": {
+    "decodedBytes": 128548,
+    "gzip9Bytes": 21056,
+    "inlineScript": {
+      "decodedBytes": 310,
+      "gzip9Bytes": 236
+    },
+    "embeddedRscScript": {
+      "decodedBytes": 33449,
+      "gzip9Bytes": 9342
+    },
+    "overlap": "Inline and embedded RSC are subsets of HTML, not additional transfer totals"
+  },
+  "buildIdentity": {
+    "nextAssetUrls": [
+      "http://127.0.0.1:44465/_next/static/chunks/3mc6dra1m0098.js",
+      "http://127.0.0.1:44465/_next/static/chunks/11jq0c2_zavac.js",
+      "http://127.0.0.1:44465/_next/static/chunks/3jg84jwj6s1uj.js",
+      "http://127.0.0.1:44465/_next/static/chunks/0bma92pht_c97.js",
+      "http://127.0.0.1:44465/_next/static/chunks/turbopack-0zrgfopj46wev.js",
+      "http://127.0.0.1:44465/_next/static/chunks/3ofrmodzwtw-0.js",
+      "http://127.0.0.1:44465/_next/static/chunks/3fntmmi971322.js",
+      "http://127.0.0.1:44465/_next/static/chunks/3xiurbna0ggz6.js",
+      "http://127.0.0.1:44465/_next/static/chunks/1r9u_a-axbya8.js"
+    ],
+    "htmlSha256": "f0f52e8d3b2807917f0fef612b0c2509b5b383a69c188157e110454f4177e859",
+    "correlation": "Pair content-hashed asset URLs with the performance report BUILD_ID/data identity; nonce-bearing HTML hashes intentionally vary by request"
+  },
+  "laterInteractions": {
+    "scripts": [
+      {
+        "url": "http://127.0.0.1:44465/_next/static/chunks/20cegm5esbnjp.js",
+        "decodedBytes": 7795,
+        "gzip9Bytes": 3005
+      },
+      {
+        "url": "http://127.0.0.1:44465/_next/static/chunks/24v1b3hu1yk_e.js",
+        "decodedBytes": 1679,
+        "gzip9Bytes": 881
+      }
+    ],
+    "uniqueUrls": 2,
+    "gzip9Bytes": 3886,
+    "journeys": [
+      "filters auto-apply/clear",
+      "keyboard sort",
+      "pagination",
+      "compare picks/removal",
+      "theme"
+    ]
+  },
+  "passed": false
+}

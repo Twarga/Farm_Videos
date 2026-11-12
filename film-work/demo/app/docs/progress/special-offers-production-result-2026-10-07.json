@@ -1,0 +1,42 @@
+{
+  "mode": "write",
+  "checksum": "267aecd8560dbef2da5e5193117eea7b6d7084dbac9112465853c288bb01eb4b",
+  "database": "/home/twarga/Documents/bestvpsforme/data/bestvpsforme.db",
+  "backupPath": "/home/twarga/Documents/bestvpsforme/data/backups/bestvpsforme-pre-special-offers-2026-10-07T10-49-10-545Z.db",
+  "publication": {
+    "importJobId": "3e886633-06a0-4f29-b9c7-548535464752",
+    "publishedRows": 8,
+    "providersUpserted": 2,
+    "offersUpserted": 8,
+    "pricesInserted": 8,
+    "locationsLinked": 8,
+    "snapshotId": "341cd929-08fa-4ba3-8f54-1df8a434f4b1",
+    "snapshotVersion": 6
+  },
+  "specialOffers": 13,
+  "publishedOffers": {
+    "n": 330
+  },
+  "preservedOriginalRows": [
+    {
+      "table": "offers",
+      "count": 323
+    },
+    {
+      "table": "offer_prices",
+      "count": 648
+    },
+    {
+      "table": "providers",
+      "count": 47
+    },
+    {
+      "table": "offer_editorial",
+      "count": 0
+    },
+    {
+      "table": "audit_log",
+      "count": 0
+    }
+  ]
+}

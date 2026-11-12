@@ -1,0 +1,270 @@
+{
+  "chapters": [
+    {
+      "name": "Impulse Buying",
+      "intro": false,
+      "outfit": "an orange hoodie and white sneakers",
+      "color": "#FF6B00",
+      "icon": "a shopping bag with a lightning bolt",
+      "sentences": [
+        "Impulse buying.",
+        "Impulse buying is making an unplanned purchase because the excitement of a deal takes over.",
+        "You walk into the store for toothpaste, already knowing exactly what you need.",
+        "You spot a candle under a red sale sign near the checkout.",
+        "You breathe in the candle's sugary vanilla smell.",
+        "You skip comparing prices because the offer ends tonight.",
+        "You picture the money saved instead of the money leaving your account.",
+        "You put the candle beside the toothpaste, proud of your expensive little bargain.",
+        "People say buying on sale means saving money.",
+        "But a discount still costs you money when you never planned to buy the item.",
+        "Over time, those little extras swallow money you needed for the rest of the month.",
+        "Your cupboards fill with things you never needed in the first place.",
+        "A bargain is still a bill."
+      ]
+    },
+    {
+      "name": "Credit Card Minimums",
+      "intro": false,
+      "outfit": "a red polo shirt and dark trousers",
+      "color": "#E53935",
+      "icon": "a credit card beside one tiny coin",
+      "sentences": [
+        "Credit card minimums.",
+        "Credit card minimums are small required payments that keep your account current without clearing most of what you owe.",
+        "You tap the smallest payment amount on your banking app.",
+        "You breathe easier when the green confirmation checkmark appears on your screen.",
+        "You close the app with most of the balance still sitting there.",
+        "You find another interest charge on your next statement, despite making no new purchases.",
+        "You barely notice the balance move after your next minimum payment.",
+        "You start treating that payment like rent for money you already spent.",
+        "People think paying the minimum means their debt is under control.",
+        "But staying current is not the same as paying it off quickly.",
+        "Over time, a slower payoff leaves you paying more interest on the same debt.",
+        "Without new charges, paying more than the minimum clears interest-bearing debt faster.",
+        "The minimum buys time, not freedom."
+      ]
+    },
+    {
+      "name": "Unused Subscriptions",
+      "intro": false,
+      "outfit": "purple pajamas and slippers",
+      "color": "#8E44AD",
+      "icon": "a dusty television with a price tag",
+      "sentences": [
+        "Unused subscriptions.",
+        "Unused subscriptions are paid plans you stopped using that automatically renew until you cancel.",
+        "You sign up for a streaming service to watch a show everyone keeps talking about.",
+        "You finish the last episode and never open the app again.",
+        "You delete it while clearing space for photos on your phone.",
+        "You still see its name on your bank statement every month.",
+        "You scroll past the charge because it looks too small to matter.",
+        "You forget another subscription until its annual renewal receipt lands in your inbox.",
+        "People think deleting the app ends the payments.",
+        "But removing an icon is not the same as canceling a subscription.",
+        "Over time, small charges stack into a substantial expense for services you never touch.",
+        "That leaves less money for things you actually need and use.",
+        "The app is gone, but the meter is still running."
+      ]
+    },
+    {
+      "name": "Late Payments",
+      "intro": false,
+      "outfit": "a rumpled white shirt and loose blue tie",
+      "color": "#00A8E8",
+      "icon": "a bill stamped OVERDUE",
+      "sentences": [
+        "Late payments.",
+        "Late payments mean paying a bill after its deadline, with many lenders and service providers adding a fee for the delay.",
+        "You see the bill notification while standing in the grocery line.",
+        "You swipe it away because your hands are full of bags.",
+        "You remember it when a fresh notice shows up with a late fee.",
+        "You pay more for the same phone service you already used.",
+        "You trust automatic payments to handle the next bill without another thought.",
+        "You miss another payment when the linked account runs short of money.",
+        "You set a reminder to check whether the payment actually went through.",
+        "People say automatic payments mean you never need to think about bills again.",
+        "But scheduling a payment is not the same as successfully paying a bill.",
+        "Over time, credit payments that stay overdue long enough can damage your credit history.",
+        "Forgetfulness has a checkout fee."
+      ]
+    },
+    {
+      "name": "Brand Loyalty",
+      "intro": false,
+      "outfit": "a black hoodie with an oversized gold logo",
+      "color": "#FFD600",
+      "icon": "a price tag wearing a crown",
+      "sentences": [
+        "Brand loyalty.",
+        "Brand loyalty is choosing the same name automatically because a familiar logo feels like proof of quality.",
+        "You grab the bright cereal box before reading the price tag.",
+        "You leave the plain store-brand bag sitting untouched on the shelf.",
+        "You trust the smiling mascot more than the ingredient list.",
+        "You buy the detergent your family used, drawn to its familiar blue bottle.",
+        "You walk past a cheaper bottle without comparing what is inside.",
+        "You do the same with headphones, letting the logo stand in for checking features.",
+        "People believe a familiar brand name guarantees a better product.",
+        "But a brand name alone does not prove better durability or performance.",
+        "Products with matching features still come with different price tags.",
+        "Over time, you keep paying extra without checking what the extra money actually buys.",
+        "Your budget shrinks while your shopping choices stay on autopilot.",
+        "The logo gets a tip."
+      ]
+    },
+    {
+      "name": "Buying Too Cheap",
+      "intro": false,
+      "outfit": "a faded blue T-shirt and patched jeans",
+      "color": "#2962FF",
+      "icon": "a shoe with a detached sole",
+      "sentences": [
+        "Buying too cheap.",
+        "Buying too cheap means choosing the lowest price while ignoring how often you will pay to replace it.",
+        "You grab the cheapest shoes because the price feels like a small personal victory.",
+        "You wear them until the soles peel away and rain seeps into your socks.",
+        "You buy another pair because replacing them still looks cheaper than buying something sturdier.",
+        "You pay again when the same weak stitching splits beside your little toe.",
+        "You stack fresh receipts beside shoes that barely survived a season of walking.",
+        "You count the purchase price instead of the days of wear your money actually bought.",
+        "People say the cheapest option always saves money.",
+        "But savings depend on how long it lasts, not just what it costs upfront.",
+        "Paying more does not guarantee better quality or longer life.",
+        "Over time, repeated replacements turn the low price into a much bigger yearly bill.",
+        "The discount comes with repeat billing."
+      ]
+    },
+    {
+      "name": "Skipping Maintenance",
+      "intro": false,
+      "outfit": "green mechanic overalls and work boots",
+      "color": "#00B85A",
+      "icon": "a bicycle wheel with a rusty chain",
+      "sentences": [
+        "Skipping maintenance.",
+        "Skipping maintenance means delaying routine care until a cheap fix becomes expensive damage.",
+        "You hear a steady drip behind the cupboard door every evening.",
+        "You tuck a bowl beneath the pipe instead of fixing the leak.",
+        "You empty it each morning like the plumbing has become a pet.",
+        "You ignore the damp smell creeping out whenever you open the door.",
+        "You feel the cabinet floor give beneath your thumb when you press it.",
+        "You finally call for help when the swollen door stops closing.",
+        "You get a repair bill that includes the wood beneath the leak.",
+        "People think maintenance is wasted money when something still works.",
+        "But working and slowly falling apart can happen at the same time.",
+        "Over time, neglected problems damage parts that were perfectly fine before.",
+        "The money you saved gets swallowed by a much bigger repair.",
+        "Neglect charges interest in rotten wood."
+      ]
+    },
+    {
+      "name": "Chasing Rewards",
+      "intro": false,
+      "outfit": "a hot-pink varsity jacket with star patches",
+      "color": "#F500A6",
+      "icon": "a rewards card with a gold star",
+      "sentences": [
+        "Chasing rewards.",
+        "Chasing rewards means buying things you would have skipped just to earn cashback, points, or other perks.",
+        "You spot a bonus offer above the laundry detergent in your shopping app.",
+        "You add a scented candle to push your cart past the spending threshold.",
+        "You unwrap a vanilla candle you never wanted from a box full of packing paper.",
+        "You admire the cashback notification like it arrived without a matching charge.",
+        "You watch interest charges swallow the reward when you leave your card balance unpaid.",
+        "You finally try redeeming your points and find restrictions blocking the thing you actually wanted.",
+        "People call rewards free money.",
+        "But cashback returns only a fraction of the extra money you spent.",
+        "Over time, chasing the next bonus makes unnecessary spending feel like smart shopping.",
+        "Your account gets smaller while your points balance looks impressive.",
+        "The trophy is a receipt."
+      ]
+    },
+    {
+      "name": "Ignoring Employer Match",
+      "intro": false,
+      "outfit": "a navy work uniform with a name badge",
+      "color": "#00BFA5",
+      "icon": "two coins joined by a plus sign",
+      "sentences": [
+        "Ignoring employer match.",
+        "Ignoring employer match means missing extra retirement money your employer offers when you contribute to its retirement plan.",
+        "You click past the retirement enrollment screen with sandwich crumbs on your keyboard.",
+        "You stare at the take-home amount on your first pay stub.",
+        "You decide that keeping your paycheck bigger matters more than collecting the match.",
+        "You eventually set your contribution below the amount needed to receive the full match.",
+        "You leave part of your employer's available contribution sitting unused.",
+        "You skip the vesting rules explaining what employer money you keep if you leave.",
+        "People say contributing just makes their paycheck smaller.",
+        "But when your employer matches contributions, it also puts extra money into your retirement account.",
+        "Over time, you keep leaving part of your available retirement money unclaimed.",
+        "Your retirement savings are smaller because you never collected all the available help.",
+        "You turned a benefit into a brochure."
+      ]
+    },
+    {
+      "name": "No Emergency Fund",
+      "intro": false,
+      "outfit": "a yellow raincoat and rubber boots",
+      "color": "#FFB300",
+      "icon": "an empty jar marked EMERGENCY",
+      "sentences": [
+        "No emergency fund.",
+        "No emergency fund means having no cash buffer between an unexpected expense and borrowing to cover it.",
+        "You turn the car key and hear a click instead of an engine.",
+        "You stare at the repair quote with payday still out of reach.",
+        "You open your banking app and find grocery money, not repair money.",
+        "You put the repair on a credit card because you need the car running.",
+        "You drive away with a working car and a new monthly payment.",
+        "You pay interest on a problem the mechanic has already fixed.",
+        "People say emergency savings are wasted money because they just sit there.",
+        "But sitting there is the job: cash waits so you do not have to borrow.",
+        "Over time, those payments eat the money you need for the next unexpected bill.",
+        "You start meeting each new problem with debt left over from the last one.",
+        "Your broken car should not come with a subscription."
+      ]
+    },
+    {
+      "name": "Waiting to Invest",
+      "intro": false,
+      "outfit": "a mint-green sweatshirt with a seedling emblem",
+      "color": "#7C4DFF",
+      "icon": "an hourglass beside a small sprout",
+      "sentences": [
+        "Waiting to invest.",
+        "Waiting to invest means putting off long-term investing until you feel rich, giving your money less time to grow.",
+        "You have your bills paid and emergency savings tucked safely away.",
+        "You keep next month's rent out of the market because investments can lose value.",
+        "You open an investing app and stare at the amount you could spare.",
+        "You decide that little number is not worth the effort.",
+        "You close the app and promise to start after your next raise.",
+        "You get the raise and find a new reason to wait.",
+        "People say investing only matters when you have serious money.",
+        "But smaller amounts can still benefit from years of potential growth.",
+        "Over time, reinvested returns can earn returns of their own.",
+        "Starting later leaves fewer years for that potential growth to build on itself.",
+        "Someday is an expensive starting date."
+      ]
+    },
+    {
+      "name": "Lifestyle Creep",
+      "intro": false,
+      "outfit": "a flashy turquoise tracksuit and gold-colored watch",
+      "color": "#FF3D57",
+      "icon": "a shopping cart with an upward arrow",
+      "sentences": [
+        "Lifestyle creep.",
+        "Lifestyle creep happens when your spending rises with your income, swallowing the extra money before you save it.",
+        "You celebrate your raise by signing a lease on a car that smells like fresh leather.",
+        "You move into a bigger apartment, where your old couch looks like sidewalk furniture.",
+        "You replace your usual coffee with a daily order that takes longer to say than to drink.",
+        "You add subscriptions because each monthly charge feels small next to your new paycheck.",
+        "You open your banking app and find the same thin balance wearing a more expensive outfit.",
+        "You consider cutting back, but the car lease makes getting out another expense.",
+        "People think a bigger paycheck automatically means more money saved.",
+        "But a raise only increases savings when some of that extra income stays unspent.",
+        "Over time, the new car smell disappears, but the higher payments keep arriving.",
+        "Your upgraded life becomes the minimum you expect to afford.",
+        "Your raise hired more bills."
+      ]
+    }
+  ]
+}

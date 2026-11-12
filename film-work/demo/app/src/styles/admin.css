@@ -1,0 +1,343 @@
+/*
+  Control room skin.
+
+  The admin was built on the retired Highlighter token names while the site
+  moved to the Shore system, so most of its colours, hairlines and type fell
+  back to browser defaults. This layer bridges those names onto the Shore
+  tokens and supplies the shared element styling every admin page needs.
+  Component-only layout stays in the CSS modules.
+*/
+
+[data-admin] {
+  /* Bridge: retired names -> Shore tokens. */
+  --ink: var(--text);
+  --muted: var(--text-muted);
+  --line: var(--hair);
+  --primary: var(--brand);
+  --primary-ink: var(--on-brand);
+  --fg: var(--text);
+  --fg-muted: var(--text-muted);
+  --bg-page: var(--bg);
+  --surface-2: var(--raised);
+  --verified: var(--fit);
+  --unknown: var(--lantern);
+  --border-strong: var(--border);
+  --catch-fg: var(--catch);
+  --radius: var(--r-card);
+  --control-compact: 38px;
+  --control-touch: 44px;
+  --font-plex-mono: var(--mono);
+  --ease-out-quart: var(--ease-out);
+  --ease-out-expo: var(--ease-out);
+  --ease-out-quint: var(--ease-out);
+  --fs-sm: 0.875rem;
+  --fs-md: 1rem;
+
+  /* Control-room scale. */
+  --admin-sidebar: 264px;
+  --admin-radius: 12px;
+  --admin-shadow: 0 1px 0 rgb(31 29 43 / 0.04), 0 24px 48px -36px rgb(31 29 43 / 0.45);
+  --r-pill: 999px;
+
+  min-height: 100dvh;
+  background: var(--bg-page);
+  color: var(--text);
+  font-family: var(--sans);
+  font-size: 1rem;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ── Typography ───────────────────────────────────────────────────── */
+
+[data-admin] :where(h1, h2, h3, h4) {
+  color: var(--text);
+  font-family: var(--sans);
+  text-wrap: balance;
+}
+
+[data-admin] :where(p, li, dd, dt) {
+  text-wrap: pretty;
+}
+
+[data-admin] :where(code, kbd, samp) {
+  padding: 2px 6px;
+  border-radius: var(--r-ctl);
+  background: var(--raised);
+  color: var(--text);
+  font-family: var(--mono);
+  font-size: 0.825em;
+}
+
+[data-admin] :where(hr) {
+  height: 1px;
+  margin: 24px 0;
+  border: 0;
+  background: var(--hair);
+}
+
+/* ── Links and controls ───────────────────────────────────────────── */
+
+[data-admin] :where(a) {
+  color: inherit;
+  text-decoration: none;
+  text-underline-offset: 0.2em;
+}
+
+[data-admin] :where(main) :where(a:not([class])) {
+  color: var(--brand);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-decoration-color: color-mix(in srgb, var(--brand) 40%, transparent);
+}
+
+[data-admin] :where(a:not([class])):hover {
+  color: var(--brand-hover);
+  text-decoration-color: currentColor;
+}
+
+[data-admin] :where(button) {
+  font: inherit;
+}
+
+[data-admin] :where(input, select, textarea) {
+  accent-color: var(--brand);
+}
+
+[data-admin] :where(input:not([type="checkbox"], [type="radio"], [type="range"]), select, textarea) {
+  min-height: 42px;
+  padding: 9px 12px;
+  border: 1px solid var(--border);
+  border-radius: var(--r-card);
+  background: var(--bg-page);
+  color: var(--text);
+  font: inherit;
+  font-size: 0.9375rem;
+  outline: 0;
+  transition: border-color var(--dur-fast) var(--ease-out), box-shadow var(--dur-fast) var(--ease-out), background-color var(--dur-fast) var(--ease-out);
+}
+
+[data-admin] :where(input:not([type="checkbox"], [type="radio"], [type="range"]), select, textarea):hover {
+  border-color: var(--text-faint);
+}
+
+[data-admin] :where(input:not([type="checkbox"], [type="radio"], [type="range"]), select, textarea):focus {
+  border-color: var(--focus);
+  background: var(--surface);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--focus) 16%, transparent);
+}
+
+[data-admin] :where(input[type="checkbox"], input[type="radio"]) {
+  width: 18px;
+  height: 18px;
+  flex: none;
+}
+
+[data-admin] :where(textarea) {
+  min-height: 96px;
+  resize: vertical;
+}
+
+[data-admin] :where(select) {
+  padding-right: 34px;
+  background-image: var(--chev);
+  background-position: right 11px center;
+  background-repeat: no-repeat;
+  background-size: 13px;
+  appearance: none;
+}
+
+[data-admin] :where(button, a, input, select, textarea, summary):focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+
+[data-admin] :where(button, a) {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* ── Disclosure rows used by the provider / settings forms ────────── */
+
+[data-admin] :where(details) {
+  border-bottom: 1px solid var(--hair);
+}
+
+[data-admin] :where(details) > :where(summary) {
+  display: flex;
+  min-height: 56px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 0 2px;
+  color: var(--text);
+  cursor: pointer;
+  font-weight: 550;
+  list-style: none;
+}
+
+[data-admin] :where(details) > :where(summary)::-webkit-details-marker {
+  display: none;
+}
+
+[data-admin] :where(details) > :where(summary)::after {
+  content: "";
+  width: 9px;
+  height: 9px;
+  flex: none;
+  border-right: 1.6px solid var(--text-faint);
+  border-bottom: 1.6px solid var(--text-faint);
+  transform: translateY(-2px) rotate(45deg);
+  transition: transform var(--dur-fast) var(--ease-out);
+}
+
+[data-admin] :where(details[open]) > :where(summary)::after {
+  transform: translateY(2px) rotate(-135deg);
+}
+
+[data-admin] :where(details) > :where(summary):hover {
+  color: var(--brand);
+}
+
+/* ── Selection, scrollbars ────────────────────────────────────────── */
+
+[data-admin] ::selection {
+  background: color-mix(in srgb, var(--lantern) 30%, transparent);
+}
+
+[data-admin] :where(*) {
+  scrollbar-width: thin;
+  scrollbar-color: var(--border) transparent;
+}
+
+[data-admin] :where(*::-webkit-scrollbar) {
+  width: 10px;
+  height: 10px;
+}
+
+[data-admin] :where(*::-webkit-scrollbar-thumb) {
+  border: 3px solid transparent;
+  border-radius: var(--r-pill);
+  background: var(--border);
+  background-clip: content-box;
+}
+
+/* ── Shared entrance motion ───────────────────────────────────────── */
+
+@keyframes admin-rise {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  [data-admin] main {
+    animation: admin-rise 0.32s var(--ease-out) both;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [data-admin] *,
+  [data-admin] *::before,
+  [data-admin] *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+/* ── Skip link ────────────────────────────────────────────────────── */
+
+[data-admin] .admin-skip {
+  position: fixed;
+  left: 16px;
+  top: -64px;
+  z-index: 200;
+  padding: 10px 16px;
+  border-radius: var(--r-card);
+  background: var(--text);
+  color: var(--bg-page);
+  font-weight: 600;
+  transition: top var(--dur-fast) var(--ease-out);
+}
+
+[data-admin] .admin-skip:focus {
+  top: 14px;
+  color: var(--bg-page);
+}
+
+/* ── Buttons shared with the legacy utility classes ───────────────── */
+
+[data-admin] .ui-button {
+  min-height: 40px;
+  padding: 0 14px;
+  border-radius: var(--r-card);
+  font-family: var(--sans);
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+[data-admin] .ui-button.control-touch { min-height: 44px; }
+
+[data-admin] .ui-button--primary {
+  border: 1px solid var(--brand);
+  background: var(--brand);
+  color: var(--on-brand);
+}
+
+[data-admin] .ui-button--primary:hover {
+  border-color: var(--brand-hover);
+  background: var(--brand-hover);
+  filter: none;
+}
+
+[data-admin] .ui-button--secondary {
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+}
+
+[data-admin] .ui-button--secondary:hover {
+  border-color: var(--text-faint);
+  background: var(--raised);
+}
+
+[data-admin] .ui-button--quiet { border: 0; background: transparent; color: var(--text-muted); }
+[data-admin] .ui-button--quiet:hover { background: var(--raised); color: var(--text); }
+
+[data-admin] .ui-button--icon {
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text-muted);
+}
+
+/* ── Theme switch in the sidebar ──────────────────────────────────── */
+
+.admin-theme-toggle {
+  display: grid;
+  width: 36px;
+  height: 36px;
+  flex: none;
+  place-items: center;
+  border: 1px solid var(--hair);
+  border-radius: var(--r-card);
+  background: var(--surface);
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: border-color var(--dur-fast) var(--ease-out), background-color var(--dur-fast) var(--ease-out), color var(--dur-fast) var(--ease-out);
+}
+
+.admin-theme-toggle:hover {
+  border-color: var(--border);
+  background: var(--raised);
+  color: var(--text);
+}
+
+.admin-theme-toggle__icon {
+  display: grid;
+  place-items: center;
+  transition: transform var(--dur-base) var(--ease-out);
+}
+
+.admin-theme-toggle:hover .admin-theme-toggle__icon { transform: rotate(-18deg); }
