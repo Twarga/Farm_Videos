@@ -488,3 +488,4 @@ NameError: name 'cf' is not defined. Did you mean: 'ci'?
 [vist#0:0/rawvideo @ 0x5b8545b4efc0] Error submitting packet to decoder: Invalid argument
 [every-money-habit-that-keeps-you-broke-explained] 14:31:38 long video: /home/tlab/videofarm/jobs/every-money-habit-that-keeps-you-broke-explained/out/long.mp4 (11.7 min)
 [every-money-habit-that-keeps-you-broke-explained] 14:43:13 short 1: Impulse Buying (51s)
+[every-money-habit-that-keeps-you-broke-explained] 14:54:17 short 2: Late Payments (55s)
