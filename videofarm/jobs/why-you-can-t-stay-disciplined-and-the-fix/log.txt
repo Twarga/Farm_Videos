@@ -276,3 +276,11 @@ farm.llm.LLMError: LLM failed after 4 attempts: request failed: timed out
 14:42:48 llm request (attempt 3, 2744 chars)
 14:42:48 llm request (attempt 3, 2634 chars)
 14:42:48 llm request (attempt 3, 2733 chars)
+14:46:48 llm request failed: timed out
+14:46:48 llm request failed: timed out
+14:46:48 llm request failed: timed out
+14:46:48 llm request failed: timed out
+14:47:03 llm request (attempt 4, 2692 chars)
+14:47:03 llm request (attempt 4, 2744 chars)
+14:47:03 llm request (attempt 4, 2634 chars)
+14:47:03 llm request (attempt 4, 2733 chars)
