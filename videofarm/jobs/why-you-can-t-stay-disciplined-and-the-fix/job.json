@@ -28,9 +28,9 @@
       "t": 1794501133.6462705
     },
     "images": {
-      "state": "waiting",
-      "detail": "0/257",
-      "t": 1794508160.1512914
+      "state": "done",
+      "detail": "",
+      "t": 1794518644.1850471
     },
     "voice": {
       "state": "done",
@@ -38,9 +38,9 @@
       "t": 1794501940.844228
     },
     "render": {
-      "state": "done",
-      "detail": "",
-      "t": 1794504209.6658878
+      "state": "running",
+      "detail": "0/9 chapters",
+      "t": 1794518644.2481596
     },
     "shorts": {
       "state": "done",
@@ -51,6 +51,11 @@
       "state": "done",
       "detail": "",
       "t": 1794505576.178899
+    },
+    "specs": {
+      "state": "done",
+      "detail": "",
+      "t": 1794518468.2415
     }
   }
 }
