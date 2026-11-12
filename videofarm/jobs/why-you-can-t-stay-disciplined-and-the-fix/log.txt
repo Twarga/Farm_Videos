@@ -167,3 +167,26 @@ farm.llm.LLMError: LLM failed after 4 attempts: request failed: timed out
 13:35:54 llm request failed: timed out
 13:36:09 llm request (attempt 4, 2634 chars)
 13:36:09 llm request (attempt 4, 2725 chars)
+13:40:09 llm request failed: timed out
+13:40:09 llm request failed: timed out
+13:40:29 Traceback (most recent call last):
+  File "/home/tlab/videofarm/farm/pipeline.py", line 12, in _stage
+    r = fn(*a)
+        ^^^^^^
+  File "/home/tlab/videofarm/farm/write.py", line 200, in shots
+    f.result()
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/usr/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tlab/videofarm/farm/write.py", line 183, in board
+    sh = llm.ask_json(S.prompt(st, "shots", name=ch["name"], outfit=ch.get("outfit") or "his usual clothes",
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/tlab/videofarm/farm/llm.py", line 92, in ask_json
+    raise LLMError(f"LLM failed after {config.LLM_RETRIES} attempts: {last_err}")
+farm.llm.LLMError: LLM failed after 4 attempts: request failed: timed out
+

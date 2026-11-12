@@ -1,0 +1,4 @@
+film: /home/tlab/film-work/out/shell-journey-1080.mp4 (129.000000 s)
+flash check: 0 luma jumps > 20%, worst second has 0 (limit 3) -> PASS
+loudness: I:         -14.1 LUFS
+determinism: 01ffc571fac27ddca64d447b7a0122a768ea9797fcbfd1b5d7293f52c0525174 vs c8533eea3967410438d0f6efd0cde912764fb1213f921548fb3a0b96065193e7 -> FAIL
