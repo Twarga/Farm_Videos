@@ -771,9 +771,10 @@ def stage(k, T0, n, cam_holder):
     def paper(name, loc, lines):
         b = Builder(name, outline=0.012)
         b.box((loc[0], loc[1], loc[2]), (1.5, 0.02, 1.0), mat("ppr", "#efe6d0", noise=0.03))
-        b.finish()
+        ob = b.finish()
         for i, t in enumerate(lines):
             text(t, (loc[0], loc[1] - 0.02, loc[2] + 0.28 - i * 0.26), 0.13, mat("ppink", "#3a2c1c", noise=0), rx=90)
+        return ob
 
     def chart(name, loc, pts, col="#ff5a4a"):
         b = Builder(name, outline=0.008)
