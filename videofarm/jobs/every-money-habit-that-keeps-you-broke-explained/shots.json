@@ -479,7 +479,8 @@
           }
         }
       ],
-      "icon_image": "a913d29b4ee958cf"
+      "icon_image": "a913d29b4ee958cf",
+      "icon_prop": "shopping_bag"
     },
     {
       "name": "Credit Card Minimums",
@@ -941,7 +942,8 @@
           }
         }
       ],
-      "icon_image": "c419c263963de3f6"
+      "icon_image": "c419c263963de3f6",
+      "icon_prop": "credit_card"
     },
     {
       "name": "Unused Subscriptions",
@@ -1400,7 +1402,8 @@
           }
         }
       ],
-      "icon_image": "dc074d6c37b5de5e"
+      "icon_image": "dc074d6c37b5de5e",
+      "icon_prop": "tv"
     },
     {
       "name": "Late Payments",
@@ -1867,7 +1870,8 @@
           }
         }
       ],
-      "icon_image": "19245b80e8e84054"
+      "icon_image": "19245b80e8e84054",
+      "icon_prop": "invoice"
     },
     {
       "name": "Brand Loyalty",
@@ -2363,7 +2367,8 @@
           }
         }
       ],
-      "icon_image": "1900a7de70451253"
+      "icon_image": "1900a7de70451253",
+      "icon_prop": "price_tag"
     },
     {
       "name": "Buying Too Cheap",
@@ -2379,7 +2384,37 @@
           "camera": "still",
           "line": "Buying too cheap.",
           "prompt": "Flat 2D cartoon illustration in exactly the same art style as the reference image: thick clean black outlines, flat vivid colors, very soft minimal shading, plain solid mustard-yellow (#F7C325) background with no gradient, no texture, no photorealism. When the main character appears he is EXACTLY the character from the reference image: bald round head, big round white eyes with small black pupils, small ears, pale peach skin, simple body. In this chapter he wears: a faded blue T-shirt and patched jeans. Other people are drawn in the same simple style with different hair and clothes. 16:9 landscape composition. Keep the top 14% of the frame completely empty plain yellow background because a title will be placed there. Big, simple, readable subject; at most a few props; the background stays plain yellow except for a simple floor or furniture when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Wide shot on plain mustard yellow: the bald, round-headed everyman, wearing a faded blue T-shirt and patched jeans, places a few coins on a counter and lifts flimsy shoes, smiling.",
-          "image": "9ff072ea71d93b96"
+          "image": "9ff072ea71d93b96",
+          "spec": {
+            "shot": "wide",
+            "people": [
+              {
+                "who": "hero",
+                "pose": "hold",
+                "mood": "happy",
+                "side": "left"
+              }
+            ],
+            "props": [
+              {
+                "name": "table",
+                "slot": "center",
+                "size": "l"
+              },
+              {
+                "name": "coins",
+                "slot": "right",
+                "size": "s"
+              },
+              {
+                "name": "shoes",
+                "slot": "hand",
+                "size": "m"
+              }
+            ],
+            "bubble": null,
+            "text": ""
+          }
         },
         {
           "kind": "image",
@@ -2388,7 +2423,37 @@
           "camera": "right",
           "line": "Buying too cheap means choosing the lowest price while ignoring how often you will pay to replace it.",
           "prompt": "Flat 2D cartoon illustration in exactly the same art style as the reference image: thick clean black outlines, flat vivid colors, very soft minimal shading, plain solid mustard-yellow (#F7C325) background with no gradient, no texture, no photorealism. When the main character appears he is EXACTLY the character from the reference image: bald round head, big round white eyes with small black pupils, small ears, pale peach skin, simple body. In this chapter he wears: a faded blue T-shirt and patched jeans. Other people are drawn in the same simple style with different hair and clothes. 16:9 landscape composition. Keep the top 14% of the frame completely empty plain yellow background because a title will be placed there. Big, simple, readable subject; at most a few props; the background stays plain yellow except for a simple floor or furniture when the scene needs it. The only text allowed in the image is: LOWEST PRICE — spelled exactly like that, in bold black capital letters. No other text. SCENE: Medium shot on plain mustard yellow: the everyman points to shoes tagged LOWEST PRICE with an eager grin, turning away from a calendar covered in repeated replacement-shoe drawings.",
-          "image": "c9e8599b5b482dc0"
+          "image": "c9e8599b5b482dc0",
+          "spec": {
+            "shot": "medium",
+            "people": [
+              {
+                "who": "hero",
+                "pose": "point",
+                "mood": "happy",
+                "side": "left"
+              }
+            ],
+            "props": [
+              {
+                "name": "shoes",
+                "slot": "center",
+                "size": "m"
+              },
+              {
+                "name": "price_tag",
+                "slot": "right",
+                "size": "s"
+              },
+              {
+                "name": "calendar",
+                "slot": "far_right",
+                "size": "l"
+              }
+            ],
+            "bubble": null,
+            "text": "LOWEST PRICE"
+          }
         },
         {
           "kind": "image",
@@ -2397,7 +2462,27 @@
           "camera": "push",
           "line": "You grab the cheapest shoes because the price feels like a small personal victory.",
           "prompt": "Flat 2D cartoon illustration in exactly the same art style as the reference image: thick clean black outlines, flat vivid colors, very soft minimal shading, plain solid mustard-yellow (#F7C325) background with no gradient, no texture, no photorealism. When the main character appears he is EXACTLY the character from the reference image: bald round head, big round white eyes with small black pupils, small ears, pale peach skin, simple body. In this chapter he wears: a faded blue T-shirt and patched jeans. Other people are drawn in the same simple style with different hair and clothes. 16:9 landscape composition. Keep the top 14% of the frame completely empty plain yellow background because a title will be placed there. Big, simple, readable subject; at most a few props; the background stays plain yellow except for a simple floor or furniture when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Close-up on plain mustard yellow: the everyman grins triumphantly, raising flimsy shoes like a trophy; their dangling price tag shows just one small coin symbol.",
-          "image": "3afb0a3c11f37436"
+          "image": "3afb0a3c11f37436",
+          "spec": {
+            "shot": "close",
+            "people": [
+              {
+                "who": "hero",
+                "pose": "up",
+                "mood": "smug",
+                "side": "center"
+              }
+            ],
+            "props": [
+              {
+                "name": "shoes",
+                "slot": "hand",
+                "size": "m"
+              }
+            ],
+            "bubble": null,
+            "text": ""
+          }
         },
         {
           "kind": "image",
@@ -2406,7 +2491,27 @@
           "camera": "left",
           "line": "You wear them until the soles peel away and rain seeps into your socks.",
           "prompt": "Flat 2D cartoon illustration in exactly the same art style as the reference image: thick clean black outlines, flat vivid colors, very soft minimal shading, plain solid mustard-yellow (#F7C325) background with no gradient, no texture, no photorealism. When the main character appears he is EXACTLY the character from the reference image: bald round head, big round white eyes with small black pupils, small ears, pale peach skin, simple body. In this chapter he wears: a faded blue T-shirt and patched jeans. Other people are drawn in the same simple style with different hair and clothes. 16:9 landscape composition. Keep the top 14% of the frame completely empty plain yellow background because a title will be placed there. Big, simple, readable subject; at most a few props; the background stays plain yellow except for a simple floor or furniture when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Low, wide shot on plain mustard yellow: the everyman grimaces mid-step as both soles flap loose; falling rain trickles through the gaps into his visibly soaked socks.",
-          "image": "8243a931ae6a5b09"
+          "image": "8243a931ae6a5b09",
+          "spec": {
+            "shot": "wide",
+            "people": [
+              {
+                "who": "hero",
+                "pose": "walk",
+                "mood": "worried",
+                "side": "left"
+              }
+            ],
+            "props": [
+              {
+                "name": "shoes",
+                "slot": "right",
+                "size": "m"
+              }
+            ],
+            "bubble": null,
+            "text": ""
+          }
         },
         {
           "kind": "image",
@@ -2415,7 +2520,37 @@
           "camera": "still",
           "line": "You buy another pair because replacing them still looks cheaper than buying something sturdier.",
           "prompt": "Flat 2D cartoon illustration in exactly the same art style as the reference image: thick clean black outlines, flat vivid colors, very soft minimal shading, plain solid mustard-yellow (#F7C325) background with no gradient, no texture, no photorealism. When the main character appears he is EXACTLY the character from the reference image: bald round head, big round white eyes with small black pupils, small ears, pale peach skin, simple body. In this chapter he wears: a faded blue T-shirt and patched jeans. Other people are drawn in the same simple style with different hair and clothes. 16:9 landscape composition. Keep the top 14% of the frame completely empty plain yellow background because a title will be placed there. Big, simple, readable subject; at most a few props; the background stays plain yellow except for a simple floor or furniture when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Medium shot on plain mustard yellow: the everyman offers a few coins for another flimsy pair, eyeing nearby sturdy boots with a many-coin price tag and a doubtful smile.",
-          "image": "eaf84d8d9d21612a"
+          "image": "eaf84d8d9d21612a",
+          "spec": {
+            "shot": "medium",
+            "people": [
+              {
+                "who": "hero",
+                "pose": "hold",
+                "mood": "worried",
+                "side": "left"
+              }
+            ],
+            "props": [
+              {
+                "name": "coins",
+                "slot": "hand",
+                "size": "s"
+              },
+              {
+                "name": "shoes",
+                "slot": "center",
+                "size": "s"
+              },
+              {
+                "name": "shoes",
+                "slot": "right",
+                "size": "l"
+              }
+            ],
+            "bubble": null,
+            "text": ""
+          }
         },
         {
           "kind": "image",
@@ -2424,7 +2559,27 @@
           "camera": "push",
           "line": "You pay again when the same weak stitching splits beside your little toe.",
           "prompt": "Flat 2D cartoon illustration in exactly the same art style as the reference image: thick clean black outlines, flat vivid colors, very soft minimal shading, plain solid mustard-yellow (#F7C325) background with no gradient, no texture, no photorealism. When the main character appears he is EXACTLY the character from the reference image: bald round head, big round white eyes with small black pupils, small ears, pale peach skin, simple body. In this chapter he wears: a faded blue T-shirt and patched jeans. Other people are drawn in the same simple style with different hair and clothes. 16:9 landscape composition. Keep the top 14% of the frame completely empty plain yellow background because a title will be placed there. Big, simple, readable subject; at most a few props; the background stays plain yellow except for a simple floor or furniture when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Close-up on plain mustard yellow: the everyman grimaces at his lifted foot, where split shoe stitching exposes his little toe, and extends another few coins in his free hand.",
-          "image": "86f68316970e6e3a"
+          "image": "86f68316970e6e3a",
+          "spec": {
+            "shot": "close",
+            "people": [
+              {
+                "who": "hero",
+                "pose": "up",
+                "mood": "worried",
+                "side": "left"
+              }
+            ],
+            "props": [
+              {
+                "name": "shoes",
+                "slot": "right",
+                "size": "m"
+              }
+            ],
+            "bubble": null,
+            "text": ""
+          }
         },
         {
           "kind": "image",
@@ -2433,7 +2588,37 @@
           "camera": "pull",
           "line": "You stack fresh receipts beside shoes that barely survived a season of walking.",
           "prompt": "Flat 2D cartoon illustration in exactly the same art style as the reference image: thick clean black outlines, flat vivid colors, very soft minimal shading, plain solid mustard-yellow (#F7C325) background with no gradient, no texture, no photorealism. When the main character appears he is EXACTLY the character from the reference image: bald round head, big round white eyes with small black pupils, small ears, pale peach skin, simple body. In this chapter he wears: a faded blue T-shirt and patched jeans. Other people are drawn in the same simple style with different hair and clothes. 16:9 landscape composition. Keep the top 14% of the frame completely empty plain yellow background because a title will be placed there. Big, simple, readable subject; at most a few props; the background stays plain yellow except for a simple floor or furniture when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Wide shot on plain mustard yellow: the everyman kneels, stacking fresh receipts beside a heap of worn-out shoes; one autumn leaf rests on a sole as he stares in disbelief.",
-          "image": "26c39446108e3303"
+          "image": "26c39446108e3303",
+          "spec": {
+            "shot": "wide",
+            "people": [
+              {
+                "who": "hero",
+                "pose": "sit",
+                "mood": "shocked",
+                "side": "left"
+              }
+            ],
+            "props": [
+              {
+                "name": "receipt",
+                "slot": "center",
+                "size": "m"
+              },
+              {
+                "name": "shoes",
+                "slot": "right",
+                "size": "m"
+              },
+              {
+                "name": "trash_pile",
+                "slot": "far_right",
+                "size": "l"
+              }
+            ],
+            "bubble": null,
+            "text": ""
+          }
         },
         {
           "kind": "image",
@@ -2442,7 +2627,37 @@
           "camera": "push",
           "line": "You count the purchase price instead of the days of wear your money actually bought.",
           "prompt": "Flat 2D cartoon illustration in exactly the same art style as the reference image: thick clean black outlines, flat vivid colors, very soft minimal shading, plain solid mustard-yellow (#F7C325) background with no gradient, no texture, no photorealism. When the main character appears he is EXACTLY the character from the reference image: bald round head, big round white eyes with small black pupils, small ears, pale peach skin, simple body. In this chapter he wears: a faded blue T-shirt and patched jeans. Other people are drawn in the same simple style with different hair and clothes. 16:9 landscape composition. Keep the top 14% of the frame completely empty plain yellow background because a title will be placed there. Big, simple, readable subject; at most a few props; the background stays plain yellow except for a simple floor or furniture when the scene needs it. The only text allowed in the image is: PURCHASE PRICE — spelled exactly like that, in bold black capital letters. No other text. SCENE: Medium shot on plain mustard yellow: the everyman frowns over a calculator and receipt labeled PURCHASE PRICE, turning away from a calendar showing only three shoe-marked days.",
-          "image": "5e62b96696e4efb1"
+          "image": "5e62b96696e4efb1",
+          "spec": {
+            "shot": "medium",
+            "people": [
+              {
+                "who": "hero",
+                "pose": "hold",
+                "mood": "worried",
+                "side": "left"
+              }
+            ],
+            "props": [
+              {
+                "name": "calculator",
+                "slot": "hand",
+                "size": "m"
+              },
+              {
+                "name": "receipt",
+                "slot": "center",
+                "size": "m"
+              },
+              {
+                "name": "calendar",
+                "slot": "right",
+                "size": "l"
+              }
+            ],
+            "bubble": null,
+            "text": "PURCHASE PRICE"
+          }
         },
         {
           "kind": "image",
@@ -2451,7 +2666,41 @@
           "camera": "left",
           "line": "People say the cheapest option always saves money.",
           "prompt": "Flat 2D cartoon illustration in exactly the same art style as the reference image: thick clean black outlines, flat vivid colors, very soft minimal shading, plain solid mustard-yellow (#F7C325) background with no gradient, no texture, no photorealism. When the main character appears he is EXACTLY the character from the reference image: bald round head, big round white eyes with small black pupils, small ears, pale peach skin, simple body. In this chapter he wears: a faded blue T-shirt and patched jeans. Other people are drawn in the same simple style with different hair and clothes. 16:9 landscape composition. Keep the top 14% of the frame completely empty plain yellow background because a title will be placed there. Big, simple, readable subject; at most a few props; the background stays plain yellow except for a simple floor or furniture when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Wide shot on plain mustard yellow: two smiling shoppers talk, pointing at flimsy shoes and a coin-filled piggy bank; the everyman nods along with a trusting grin.",
-          "image": "e3449cec72c2663c"
+          "image": "e3449cec72c2663c",
+          "spec": {
+            "shot": "wide",
+            "people": [
+              {
+                "who": "hero",
+                "pose": "stand",
+                "mood": "happy",
+                "side": "left"
+              },
+              {
+                "who": "other",
+                "pose": "point",
+                "mood": "happy",
+                "side": "center"
+              }
+            ],
+            "props": [
+              {
+                "name": "shoes",
+                "slot": "right",
+                "size": "m"
+              },
+              {
+                "name": "piggy_bank",
+                "slot": "far_right",
+                "size": "m"
+              }
+            ],
+            "bubble": {
+              "kind": "speech",
+              "prop": "piggy_bank"
+            },
+            "text": ""
+          }
         },
         {
           "kind": "image",
@@ -2460,7 +2709,37 @@
           "camera": "still",
           "line": "But savings depend on how long it lasts, not just what it costs upfront.",
           "prompt": "Flat 2D cartoon illustration in exactly the same art style as the reference image: thick clean black outlines, flat vivid colors, very soft minimal shading, plain solid mustard-yellow (#F7C325) background with no gradient, no texture, no photorealism. When the main character appears he is EXACTLY the character from the reference image: bald round head, big round white eyes with small black pupils, small ears, pale peach skin, simple body. In this chapter he wears: a faded blue T-shirt and patched jeans. Other people are drawn in the same simple style with different hair and clothes. 16:9 landscape composition. Keep the top 14% of the frame completely empty plain yellow background because a title will be placed there. Big, simple, readable subject; at most a few props; the background stays plain yellow except for a simple floor or furniture when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Medium shot on plain mustard yellow: the everyman studies a calendar showing cheap shoes breaking after three squares and sturdy shoes lasting across many squares, his expression suddenly thoughtful.",
-          "image": "0244c73c0bca2763"
+          "image": "0244c73c0bca2763",
+          "spec": {
+            "shot": "medium",
+            "people": [
+              {
+                "who": "hero",
+                "pose": "head",
+                "mood": "neutral",
+                "side": "left"
+              }
+            ],
+            "props": [
+              {
+                "name": "calendar",
+                "slot": "center",
+                "size": "l"
+              },
+              {
+                "name": "shoes",
+                "slot": "right",
+                "size": "s"
+              },
+              {
+                "name": "shoes",
+                "slot": "far_right",
+                "size": "l"
+              }
+            ],
+            "bubble": null,
+            "text": ""
+          }
         },
         {
           "kind": "image",
@@ -2469,7 +2748,27 @@
           "camera": "push",
           "line": "Paying more does not guarantee better quality or longer life.",
           "prompt": "Flat 2D cartoon illustration in exactly the same art style as the reference image: thick clean black outlines, flat vivid colors, very soft minimal shading, plain solid mustard-yellow (#F7C325) background with no gradient, no texture, no photorealism. When the main character appears he is EXACTLY the character from the reference image: bald round head, big round white eyes with small black pupils, small ears, pale peach skin, simple body. In this chapter he wears: a faded blue T-shirt and patched jeans. Other people are drawn in the same simple style with different hair and clothes. 16:9 landscape composition. Keep the top 14% of the frame completely empty plain yellow background because a title will be placed there. Big, simple, readable subject; at most a few props; the background stays plain yellow except for a simple floor or furniture when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Close-up on plain mustard yellow: the everyman holds a glossy shoe with its sole already dangling loose beside a large pile of coins, his eyes wide with disappointed disbelief.",
-          "image": "0c5ee4a982b0ba0c"
+          "image": "0c5ee4a982b0ba0c",
+          "spec": {
+            "shot": "close",
+            "people": [
+              {
+                "who": "hero",
+                "pose": "hold",
+                "mood": "shocked",
+                "side": "center"
+              }
+            ],
+            "props": [
+              {
+                "name": "shoes",
+                "slot": "hand",
+                "size": "m"
+              }
+            ],
+            "bubble": null,
+            "text": ""
+          }
         },
         {
           "kind": "image",
@@ -2478,7 +2777,37 @@
           "camera": "pull",
           "line": "Over time, repeated replacements turn the low price into a much bigger yearly bill.",
           "prompt": "Flat 2D cartoon illustration in exactly the same art style as the reference image: thick clean black outlines, flat vivid colors, very soft minimal shading, plain solid mustard-yellow (#F7C325) background with no gradient, no texture, no photorealism. When the main character appears he is EXACTLY the character from the reference image: bald round head, big round white eyes with small black pupils, small ears, pale peach skin, simple body. In this chapter he wears: a faded blue T-shirt and patched jeans. Other people are drawn in the same simple style with different hair and clothes. 16:9 landscape composition. Keep the top 14% of the frame completely empty plain yellow background because a title will be placed there. Big, simple, readable subject; at most a few props; the background stays plain yellow except for a simple floor or furniture when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Wide shot on plain mustard yellow: a row of replacement shoes and tiny receipts leads to a towering bill printed with twelve miniature calendar icons; the everyman recoils, gaping in alarm.",
-          "image": "dcb9e2604f2e4a31"
+          "image": "dcb9e2604f2e4a31",
+          "spec": {
+            "shot": "wide",
+            "people": [
+              {
+                "who": "hero",
+                "pose": "up",
+                "mood": "shocked",
+                "side": "left"
+              }
+            ],
+            "props": [
+              {
+                "name": "shoes",
+                "slot": "center",
+                "size": "m"
+              },
+              {
+                "name": "receipt",
+                "slot": "right",
+                "size": "s"
+              },
+              {
+                "name": "invoice",
+                "slot": "far_right",
+                "size": "l"
+              }
+            ],
+            "bubble": null,
+            "text": ""
+          }
         },
         {
           "kind": "image",
@@ -2487,10 +2816,41 @@
           "camera": "right",
           "line": "The discount comes with repeat billing.",
           "prompt": "Flat 2D cartoon illustration in exactly the same art style as the reference image: thick clean black outlines, flat vivid colors, very soft minimal shading, plain solid mustard-yellow (#F7C325) background with no gradient, no texture, no photorealism. When the main character appears he is EXACTLY the character from the reference image: bald round head, big round white eyes with small black pupils, small ears, pale peach skin, simple body. In this chapter he wears: a faded blue T-shirt and patched jeans. Other people are drawn in the same simple style with different hair and clothes. 16:9 landscape composition. Keep the top 14% of the frame completely empty plain yellow background because a title will be placed there. Big, simple, readable subject; at most a few props; the background stays plain yellow except for a simple floor or furniture when the scene needs it. The only text allowed in the image is: REPEAT BILLING — spelled exactly like that, in bold black capital letters. No other text. SCENE: Medium shot on plain mustard yellow: the everyman holds cheap shoes whose tiny price tag unrolls into an endless receipt labeled REPEAT BILLING, his shoulders slumped and face exhausted.",
-          "image": "d22473dc19e3ded8"
+          "image": "d22473dc19e3ded8",
+          "spec": {
+            "shot": "medium",
+            "people": [
+              {
+                "who": "hero",
+                "pose": "hold",
+                "mood": "sad",
+                "side": "left"
+              }
+            ],
+            "props": [
+              {
+                "name": "shoes",
+                "slot": "hand",
+                "size": "m"
+              },
+              {
+                "name": "price_tag",
+                "slot": "center",
+                "size": "s"
+              },
+              {
+                "name": "receipt",
+                "slot": "right",
+                "size": "l"
+              }
+            ],
+            "bubble": null,
+            "text": "REPEAT BILLING"
+          }
         }
       ],
-      "icon_image": "1c8f483400400b3a"
+      "icon_image": "1c8f483400400b3a",
+      "icon_prop": "shoes"
     },
     {
       "name": "Skipping Maintenance",
@@ -2975,7 +3335,8 @@
           }
         }
       ],
-      "icon_image": "df9cd99382c4714d"
+      "icon_image": "df9cd99382c4714d",
+      "icon_prop": "car"
     },
     {
       "name": "Chasing Rewards",
@@ -3443,7 +3804,8 @@
           }
         }
       ],
-      "icon_image": "d8a431d5493d75bb"
+      "icon_image": "d8a431d5493d75bb",
+      "icon_prop": "credit_card"
     },
     {
       "name": "Ignoring Employer Match",
@@ -3459,7 +3821,37 @@
           "camera": "still",
           "line": "Ignoring employer match.",
           "prompt": "Flat 2D cartoon illustration in exactly the same art style as the reference image: thick clean black outlines, flat vivid colors, very soft minimal shading, plain solid mustard-yellow (#F7C325) background with no gradient, no texture, no photorealism. When the main character appears he is EXACTLY the character from the reference image: bald round head, big round white eyes with small black pupils, small ears, pale peach skin, simple body. In this chapter he wears: a navy work uniform with a name badge. Other people are drawn in the same simple style with different hair and clothes. 16:9 landscape composition. Keep the top 14% of the frame completely empty plain yellow background because a title will be placed there. Big, simple, readable subject; at most a few props; the background stays plain yellow except for a simple floor or furniture when the scene needs it. The only text allowed in the image is: MATCH — spelled exactly like that, in bold black capital letters. No other text. SCENE: Wide shot against mustard yellow: the bald, round-headed worker in a navy uniform and name badge dismissively closes his enrollment laptop, ignoring an open envelope marked MATCH with employer-provided coins spilling out.",
-          "image": "c15fcdbde906f83e"
+          "image": "c15fcdbde906f83e",
+          "spec": {
+            "shot": "wide",
+            "people": [
+              {
+                "who": "hero",
+                "pose": "hold",
+                "mood": "neutral",
+                "side": "right"
+              }
+            ],
+            "props": [
+              {
+                "name": "laptop",
+                "slot": "hand",
+                "size": "m"
+              },
+              {
+                "name": "envelope",
+                "slot": "left",
+                "size": "m"
+              },
+              {
+                "name": "coins",
+                "slot": "far_left",
+                "size": "s"
+              }
+            ],
+            "bubble": null,
+            "text": "MATCH"
+          }
         },
         {
           "kind": "image",
@@ -3468,7 +3860,43 @@
           "camera": "push",
           "line": "Ignoring employer match means missing extra retirement money your employer offers when you contribute to its retirement plan.",
           "prompt": "Flat 2D cartoon illustration in exactly the same art style as the reference image: thick clean black outlines, flat vivid colors, very soft minimal shading, plain solid mustard-yellow (#F7C325) background with no gradient, no texture, no photorealism. When the main character appears he is EXACTLY the character from the reference image: bald round head, big round white eyes with small black pupils, small ears, pale peach skin, simple body. In this chapter he wears: a navy work uniform with a name badge. Other people are drawn in the same simple style with different hair and clothes. 16:9 landscape composition. Keep the top 14% of the frame completely empty plain yellow background because a title will be placed there. Big, simple, readable subject; at most a few props; the background stays plain yellow except for a simple floor or furniture when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Medium shot against mustard yellow: the bald, round-headed worker in a navy uniform and name badge drops a coin into a retirement piggy bank, ignoring an employer’s business-sleeved hand offering another, his expression indifferent.",
-          "image": "91b55da385f72b74"
+          "image": "91b55da385f72b74",
+          "spec": {
+            "shot": "medium",
+            "people": [
+              {
+                "who": "hero",
+                "pose": "hold",
+                "mood": "neutral",
+                "side": "left"
+              },
+              {
+                "who": "other",
+                "pose": "hold",
+                "mood": "neutral",
+                "side": "right"
+              }
+            ],
+            "props": [
+              {
+                "name": "piggy_bank",
+                "slot": "center",
+                "size": "m"
+              },
+              {
+                "name": "coin",
+                "slot": "hand",
+                "size": "s"
+              },
+              {
+                "name": "coin",
+                "slot": "center",
+                "size": "s"
+              }
+            ],
+            "bubble": null,
+            "text": ""
+          }
         },
         {
           "kind": "image",
@@ -3477,7 +3905,27 @@
           "camera": "push",
           "line": "You click past the retirement enrollment screen with sandwich crumbs on your keyboard.",
           "prompt": "Flat 2D cartoon illustration in exactly the same art style as the reference image: thick clean black outlines, flat vivid colors, very soft minimal shading, plain solid mustard-yellow (#F7C325) background with no gradient, no texture, no photorealism. When the main character appears he is EXACTLY the character from the reference image: bald round head, big round white eyes with small black pupils, small ears, pale peach skin, simple body. In this chapter he wears: a navy work uniform with a name badge. Other people are drawn in the same simple style with different hair and clothes. 16:9 landscape composition. Keep the top 14% of the frame completely empty plain yellow background because a title will be placed there. Big, simple, readable subject; at most a few props; the background stays plain yellow except for a simple floor or furniture when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Close-up against mustard yellow: the bald, round-headed worker in a navy uniform and name badge distractedly clicks the skip arrow on a laptop’s piggy-bank enrollment screen; sandwich crumbs cover his keyboard.",
-          "image": "91046bf516a2b0f3"
+          "image": "91046bf516a2b0f3",
+          "spec": {
+            "shot": "close",
+            "people": [
+              {
+                "who": "hero",
+                "pose": "point",
+                "mood": "neutral",
+                "side": "left"
+              }
+            ],
+            "props": [
+              {
+                "name": "laptop",
+                "slot": "right",
+                "size": "m"
+              }
+            ],
+            "bubble": null,
+            "text": ""
+          }
         },
         {
           "kind": "image",
@@ -3486,7 +3934,27 @@
           "camera": "push",
           "line": "You stare at the take-home amount on your first pay stub.",
           "prompt": "Flat 2D cartoon illustration in exactly the same art style as the reference image: thick clean black outlines, flat vivid colors, very soft minimal shading, plain solid mustard-yellow (#F7C325) background with no gradient, no texture, no photorealism. When the main character appears he is EXACTLY the character from the reference image: bald round head, big round white eyes with small black pupils, small ears, pale peach skin, simple body. In this chapter he wears: a navy work uniform with a name badge. Other people are drawn in the same simple style with different hair and clothes. 16:9 landscape composition. Keep the top 14% of the frame completely empty plain yellow background because a title will be placed there. Big, simple, readable subject; at most a few props; the background stays plain yellow except for a simple floor or furniture when the scene needs it. The only text allowed in the image is: TAKE HOME — spelled exactly like that, in bold black capital letters. No other text. SCENE: Tight face shot against mustard yellow: the bald, round-headed worker in a navy uniform and name badge holds his first pay stub near his nose, anxiously studying the coin-stack pictogram beneath TAKE HOME.",
-          "image": "dd09f5e99635e87a"
+          "image": "dd09f5e99635e87a",
+          "spec": {
+            "shot": "close",
+            "people": [
+              {
+                "who": "hero",
+                "pose": "hold",
+                "mood": "worried",
+                "side": "left"
+              }
+            ],
+            "props": [
+              {
+                "name": "invoice",
+                "slot": "hand",
+                "size": "m"
+              }
+            ],
+            "bubble": null,
+            "text": "TAKE HOME"
+          }
         },
         {
           "kind": "image",
@@ -3495,7 +3963,38 @@
           "camera": "left",
           "line": "You decide that keeping your paycheck bigger matters more than collecting the match.",
           "prompt": "Flat 2D cartoon illustration in exactly the same art style as the reference image: thick clean black outlines, flat vivid colors, very soft minimal shading, plain solid mustard-yellow (#F7C325) background with no gradient, no texture, no photorealism. When the main character appears he is EXACTLY the character from the reference image: bald round head, big round white eyes with small black pupils, small ears, pale peach skin, simple body. In this chapter he wears: a navy work uniform with a name badge. Other people are drawn in the same simple style with different hair and clothes. 16:9 landscape composition. Keep the top 14% of the frame completely empty plain yellow background because a title will be placed there. Big, simple, readable subject; at most a few props; the background stays plain yellow except for a simple floor or furniture when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Medium shot against mustard yellow: the bald, round-headed worker in a navy uniform and name badge hugs a bulging pay envelope while pushing away an employer’s offered coin stack, wearing a stubborn, satisfied smile.",
-          "image": "3310c349fb4152af"
+          "image": "3310c349fb4152af",
+          "spec": {
+            "shot": "medium",
+            "people": [
+              {
+                "who": "hero",
+                "pose": "hold",
+                "mood": "smug",
+                "side": "left"
+              },
+              {
+                "who": "other",
+                "pose": "hold",
+                "mood": "neutral",
+                "side": "right"
+              }
+            ],
+            "props": [
+              {
+                "name": "envelope",
+                "slot": "hand",
+                "size": "l"
+              },
+              {
+                "name": "coins",
+                "slot": "center",
+                "size": "m"
+              }
+            ],
+            "bubble": null,
+            "text": ""
+          }
         },
         {
           "kind": "image",
@@ -3504,7 +4003,32 @@
           "camera": "still",
           "line": "You eventually set your contribution below the amount needed to receive the full match.",
           "prompt": "Flat 2D cartoon illustration in exactly the same art style as the reference image: thick clean black outlines, flat vivid colors, very soft minimal shading, plain solid mustard-yellow (#F7C325) background with no gradient, no texture, no photorealism. When the main character appears he is EXACTLY the character from the reference image: bald round head, big round white eyes with small black pupils, small ears, pale peach skin, simple body. In this chapter he wears: a navy work uniform with a name badge. Other people are drawn in the same simple style with different hair and clothes. 16:9 landscape composition. Keep the top 14% of the frame completely empty plain yellow background because a title will be placed there. Big, simple, readable subject; at most a few props; the background stays plain yellow except for a simple floor or furniture when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Side view against mustard yellow: the bald, round-headed worker in a navy uniform and name badge sets a tablet’s contribution slider below a dashed threshold topped by a full coin-stack icon, looking cautiously pleased.",
-          "image": "2a333f99f0e0d721"
+          "image": "2a333f99f0e0d721",
+          "spec": {
+            "shot": "medium",
+            "people": [
+              {
+                "who": "hero",
+                "pose": "point",
+                "mood": "happy",
+                "side": "left"
+              }
+            ],
+            "props": [
+              {
+                "name": "phone",
+                "slot": "hand",
+                "size": "m"
+              },
+              {
+                "name": "coins",
+                "slot": "right",
+                "size": "m"
+              }
+            ],
+            "bubble": null,
+            "text": ""
+          }
         },
         {
           "kind": "image",
@@ -3513,7 +4037,38 @@
           "camera": "pull",
           "line": "You leave part of your employer's available contribution sitting unused.",
           "prompt": "Flat 2D cartoon illustration in exactly the same art style as the reference image: thick clean black outlines, flat vivid colors, very soft minimal shading, plain solid mustard-yellow (#F7C325) background with no gradient, no texture, no photorealism. When the main character appears he is EXACTLY the character from the reference image: bald round head, big round white eyes with small black pupils, small ears, pale peach skin, simple body. In this chapter he wears: a navy work uniform with a name badge. Other people are drawn in the same simple style with different hair and clothes. 16:9 landscape composition. Keep the top 14% of the frame completely empty plain yellow background because a title will be placed there. Big, simple, readable subject; at most a few props; the background stays plain yellow except for a simple floor or furniture when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Wide shot against mustard yellow: the bald, round-headed worker in a navy uniform and name badge walks away carrying a partly filled retirement jar, looking unconcerned; unused coins remain on an employer’s extended tray.",
-          "image": "f5cc5b9d0719ba27"
+          "image": "f5cc5b9d0719ba27",
+          "spec": {
+            "shot": "wide",
+            "people": [
+              {
+                "who": "hero",
+                "pose": "walk",
+                "mood": "neutral",
+                "side": "left"
+              },
+              {
+                "who": "other",
+                "pose": "hold",
+                "mood": "neutral",
+                "side": "right"
+              }
+            ],
+            "props": [
+              {
+                "name": "piggy_bank",
+                "slot": "hand",
+                "size": "m"
+              },
+              {
+                "name": "coins",
+                "slot": "center",
+                "size": "m"
+              }
+            ],
+            "bubble": null,
+            "text": ""
+          }
         },
         {
           "kind": "image",
@@ -3522,7 +4077,27 @@
           "camera": "push",
           "line": "You skip the vesting rules explaining what employer money you keep if you leave.",
           "prompt": "Flat 2D cartoon illustration in exactly the same art style as the reference image: thick clean black outlines, flat vivid colors, very soft minimal shading, plain solid mustard-yellow (#F7C325) background with no gradient, no texture, no photorealism. When the main character appears he is EXACTLY the character from the reference image: bald round head, big round white eyes with small black pupils, small ears, pale peach skin, simple body. In this chapter he wears: a navy work uniform with a name badge. Other people are drawn in the same simple style with different hair and clothes. 16:9 landscape composition. Keep the top 14% of the frame completely empty plain yellow background because a title will be placed there. Big, simple, readable subject; at most a few props; the background stays plain yellow except for a simple floor or furniture when the scene needs it. The only text allowed in the image is: VESTING — spelled exactly like that, in bold black capital letters. No other text. SCENE: Close-up against mustard yellow: the bald, round-headed worker in a navy uniform and name badge pushes away an unopened booklet marked VESTING, eyes bored; its cover shows calendar pages beside locked and unlocked coin icons.",
-          "image": "7a76881739b072d8"
+          "image": "7a76881739b072d8",
+          "spec": {
+            "shot": "close",
+            "people": [
+              {
+                "who": "hero",
+                "pose": "point",
+                "mood": "neutral",
+                "side": "left"
+              }
+            ],
+            "props": [
+              {
+                "name": "book",
+                "slot": "right",
+                "size": "m"
+              }
+            ],
+            "bubble": null,
+            "text": "VESTING"
+          }
         },
         {
           "kind": "image",
@@ -3531,7 +4106,30 @@
           "camera": "left",
           "line": "People say contributing just makes their paycheck smaller.",
           "prompt": "Flat 2D cartoon illustration in exactly the same art style as the reference image: thick clean black outlines, flat vivid colors, very soft minimal shading, plain solid mustard-yellow (#F7C325) background with no gradient, no texture, no photorealism. When the main character appears he is EXACTLY the character from the reference image: bald round head, big round white eyes with small black pupils, small ears, pale peach skin, simple body. In this chapter he wears: a navy work uniform with a name badge. Other people are drawn in the same simple style with different hair and clothes. 16:9 landscape composition. Keep the top 14% of the frame completely empty plain yellow background because a title will be placed there. Big, simple, readable subject; at most a few props; the background stays plain yellow except for a simple floor or furniture when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Medium group shot against mustard yellow: the bald, round-headed worker in a navy uniform and name badge joins two grumbling coworkers; their shared speech bubble shows a pay envelope shrinking as a coin leaves.",
-          "image": "c0fbb1eba99ed618"
+          "image": "c0fbb1eba99ed618",
+          "spec": {
+            "shot": "medium",
+            "people": [
+              {
+                "who": "hero",
+                "pose": "stand",
+                "mood": "angry",
+                "side": "left"
+              },
+              {
+                "who": "other",
+                "pose": "stand",
+                "mood": "angry",
+                "side": "right"
+              }
+            ],
+            "props": [],
+            "bubble": {
+              "kind": "speech",
+              "prop": "envelope"
+            },
+            "text": ""
+          }
         },
         {
           "kind": "image",
@@ -3540,7 +4138,43 @@
           "camera": "right",
           "line": "But when your employer matches contributions, it also puts extra money into your retirement account.",
           "prompt": "Flat 2D cartoon illustration in exactly the same art style as the reference image: thick clean black outlines, flat vivid colors, very soft minimal shading, plain solid mustard-yellow (#F7C325) background with no gradient, no texture, no photorealism. When the main character appears he is EXACTLY the character from the reference image: bald round head, big round white eyes with small black pupils, small ears, pale peach skin, simple body. In this chapter he wears: a navy work uniform with a name badge. Other people are drawn in the same simple style with different hair and clothes. 16:9 landscape composition. Keep the top 14% of the frame completely empty plain yellow background because a title will be placed there. Big, simple, readable subject; at most a few props; the background stays plain yellow except for a simple floor or furniture when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Medium shot against mustard yellow: the bald, round-headed worker in a navy uniform and name badge watches, surprised, as his hand and an employer’s business-sleeved hand each drop coins into the same transparent retirement jar.",
-          "image": "c0a9955bbf009b33"
+          "image": "c0a9955bbf009b33",
+          "spec": {
+            "shot": "medium",
+            "people": [
+              {
+                "who": "hero",
+                "pose": "hold",
+                "mood": "shocked",
+                "side": "left"
+              },
+              {
+                "who": "other",
+                "pose": "hold",
+                "mood": "neutral",
+                "side": "right"
+              }
+            ],
+            "props": [
+              {
+                "name": "piggy_bank",
+                "slot": "center",
+                "size": "l"
+              },
+              {
+                "name": "coin",
+                "slot": "hand",
+                "size": "s"
+              },
+              {
+                "name": "coin",
+                "slot": "center",
+                "size": "s"
+              }
+            ],
+            "bubble": null,
+            "text": ""
+          }
         },
         {
           "kind": "image",
@@ -3549,7 +4183,32 @@
           "camera": "pull",
           "line": "Over time, you keep leaving part of your available retirement money unclaimed.",
           "prompt": "Flat 2D cartoon illustration in exactly the same art style as the reference image: thick clean black outlines, flat vivid colors, very soft minimal shading, plain solid mustard-yellow (#F7C325) background with no gradient, no texture, no photorealism. When the main character appears he is EXACTLY the character from the reference image: bald round head, big round white eyes with small black pupils, small ears, pale peach skin, simple body. In this chapter he wears: a navy work uniform with a name badge. Other people are drawn in the same simple style with different hair and clothes. 16:9 landscape composition. Keep the top 14% of the frame completely empty plain yellow background because a title will be placed there. Big, simple, readable subject; at most a few props; the background stays plain yellow except for a simple floor or furniture when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Wide shot against mustard yellow: the bald, round-headed worker in a navy uniform and name badge walks past monthly trays of untouched coins, wearing a blank expression as calendar pages flutter behind him.",
-          "image": "8b65943f7a0e548a"
+          "image": "8b65943f7a0e548a",
+          "spec": {
+            "shot": "wide",
+            "people": [
+              {
+                "who": "hero",
+                "pose": "walk",
+                "mood": "neutral",
+                "side": "left"
+              }
+            ],
+            "props": [
+              {
+                "name": "coins",
+                "slot": "right",
+                "size": "l"
+              },
+              {
+                "name": "calendar",
+                "slot": "far_right",
+                "size": "m"
+              }
+            ],
+            "bubble": null,
+            "text": ""
+          }
         },
         {
           "kind": "image",
@@ -3558,7 +4217,30 @@
           "camera": "push",
           "line": "Your retirement savings are smaller because you never collected all the available help.",
           "prompt": "Flat 2D cartoon illustration in exactly the same art style as the reference image: thick clean black outlines, flat vivid colors, very soft minimal shading, plain solid mustard-yellow (#F7C325) background with no gradient, no texture, no photorealism. When the main character appears he is EXACTLY the character from the reference image: bald round head, big round white eyes with small black pupils, small ears, pale peach skin, simple body. In this chapter he wears: a navy work uniform with a name badge. Other people are drawn in the same simple style with different hair and clothes. 16:9 landscape composition. Keep the top 14% of the frame completely empty plain yellow background because a title will be placed there. Big, simple, readable subject; at most a few props; the background stays plain yellow except for a simple floor or furniture when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Tight shot against mustard yellow: the bald, round-headed worker in a navy uniform and name badge holds a partly filled retirement jar beside a ghost-outline version brimming with coins, eyebrows drooping with regret.",
-          "image": "11b9a2a611a552f0"
+          "image": "11b9a2a611a552f0",
+          "spec": {
+            "shot": "close",
+            "people": [
+              {
+                "who": "hero",
+                "pose": "hold",
+                "mood": "sad",
+                "side": "left"
+              }
+            ],
+            "props": [
+              {
+                "name": "piggy_bank",
+                "slot": "hand",
+                "size": "m"
+              }
+            ],
+            "bubble": {
+              "kind": "thought",
+              "prop": "piggy_bank"
+            },
+            "text": ""
+          }
         },
         {
           "kind": "image",
@@ -3567,10 +4249,36 @@
           "camera": "still",
           "line": "You turned a benefit into a brochure.",
           "prompt": "Flat 2D cartoon illustration in exactly the same art style as the reference image: thick clean black outlines, flat vivid colors, very soft minimal shading, plain solid mustard-yellow (#F7C325) background with no gradient, no texture, no photorealism. When the main character appears he is EXACTLY the character from the reference image: bald round head, big round white eyes with small black pupils, small ears, pale peach skin, simple body. In this chapter he wears: a navy work uniform with a name badge. Other people are drawn in the same simple style with different hair and clothes. 16:9 landscape composition. Keep the top 14% of the frame completely empty plain yellow background because a title will be placed there. Big, simple, readable subject; at most a few props; the background stays plain yellow except for a simple floor or furniture when the scene needs it. The only text allowed in the image is: BENEFITS — spelled exactly like that, in bold black capital letters. No other text. SCENE: Medium shot against mustard yellow: the bald, round-headed worker in a navy uniform and name badge tries stuffing a glossy brochure marked BENEFITS into his retirement piggy bank’s slot, wearing a sheepish smile.",
-          "image": "70d88aed5612fa31"
+          "image": "70d88aed5612fa31",
+          "spec": {
+            "shot": "medium",
+            "people": [
+              {
+                "who": "hero",
+                "pose": "hold",
+                "mood": "happy",
+                "side": "left"
+              }
+            ],
+            "props": [
+              {
+                "name": "document",
+                "slot": "hand",
+                "size": "m"
+              },
+              {
+                "name": "piggy_bank",
+                "slot": "right",
+                "size": "m"
+              }
+            ],
+            "bubble": null,
+            "text": "BENEFITS"
+          }
         }
       ],
-      "icon_image": "03028e4fcf0c5238"
+      "icon_image": "03028e4fcf0c5238",
+      "icon_prop": "coins"
     },
     {
       "name": "No Emergency Fund",
@@ -3586,7 +4294,37 @@
           "camera": "push",
           "line": "No emergency fund.",
           "prompt": "Flat 2D cartoon illustration in exactly the same art style as the reference image: thick clean black outlines, flat vivid colors, very soft minimal shading, plain solid mustard-yellow (#F7C325) background with no gradient, no texture, no photorealism. When the main character appears he is EXACTLY the character from the reference image: bald round head, big round white eyes with small black pupils, small ears, pale peach skin, simple body. In this chapter he wears: a yellow raincoat and rubber boots. Other people are drawn in the same simple style with different hair and clothes. 16:9 landscape composition. Keep the top 14% of the frame completely empty plain yellow background because a title will be placed there. Big, simple, readable subject; at most a few props; the background stays plain yellow except for a simple floor or furniture when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Wide shot on mustard yellow: the bald, round-headed everyman in a yellow raincoat and rubber boots stands beside his smoking car, holding an empty wallet open with a worried frown.",
-          "image": "80aedf442cde2ef3"
+          "image": "80aedf442cde2ef3",
+          "spec": {
+            "shot": "wide",
+            "people": [
+              {
+                "who": "hero",
+                "pose": "hold",
+                "mood": "worried",
+                "side": "left"
+              }
+            ],
+            "props": [
+              {
+                "name": "car",
+                "slot": "right",
+                "size": "l"
+              },
+              {
+                "name": "wallet",
+                "slot": "hand",
+                "size": "s"
+              },
+              {
+                "name": "fire",
+                "slot": "far_right",
+                "size": "s"
+              }
+            ],
+            "bubble": null,
+            "text": ""
+          }
         },
         {
           "kind": "image",
@@ -3595,7 +4333,37 @@
           "camera": "still",
           "line": "No emergency fund means having no cash buffer between an unexpected expense and borrowing to cover it.",
           "prompt": "Flat 2D cartoon illustration in exactly the same art style as the reference image: thick clean black outlines, flat vivid colors, very soft minimal shading, plain solid mustard-yellow (#F7C325) background with no gradient, no texture, no photorealism. When the main character appears he is EXACTLY the character from the reference image: bald round head, big round white eyes with small black pupils, small ears, pale peach skin, simple body. In this chapter he wears: a yellow raincoat and rubber boots. Other people are drawn in the same simple style with different hair and clothes. 16:9 landscape composition. Keep the top 14% of the frame completely empty plain yellow background because a title will be placed there. Big, simple, readable subject; at most a few props; the background stays plain yellow except for a simple floor or furniture when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Medium shot on mustard yellow: the bald everyman in yellow raincoat and boots places an empty glass cash jar between a wrench-marked bill and a credit card, looking cornered.",
-          "image": "8d20fa6b5be64463"
+          "image": "8d20fa6b5be64463",
+          "spec": {
+            "shot": "medium",
+            "people": [
+              {
+                "who": "hero",
+                "pose": "hold",
+                "mood": "worried",
+                "side": "left"
+              }
+            ],
+            "props": [
+              {
+                "name": "invoice",
+                "slot": "center",
+                "size": "m"
+              },
+              {
+                "name": "piggy_bank",
+                "slot": "right",
+                "size": "m"
+              },
+              {
+                "name": "credit_card",
+                "slot": "far_right",
+                "size": "m"
+              }
+            ],
+            "bubble": null,
+            "text": ""
+          }
         },
         {
           "kind": "image",
@@ -3604,7 +4372,27 @@
           "camera": "push",
           "line": "You turn the car key and hear a click instead of an engine.",
           "prompt": "Flat 2D cartoon illustration in exactly the same art style as the reference image: thick clean black outlines, flat vivid colors, very soft minimal shading, plain solid mustard-yellow (#F7C325) background with no gradient, no texture, no photorealism. When the main character appears he is EXACTLY the character from the reference image: bald round head, big round white eyes with small black pupils, small ears, pale peach skin, simple body. In this chapter he wears: a yellow raincoat and rubber boots. Other people are drawn in the same simple style with different hair and clothes. 16:9 landscape composition. Keep the top 14% of the frame completely empty plain yellow background because a title will be placed there. Big, simple, readable subject; at most a few props; the background stays plain yellow except for a simple floor or furniture when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Close-up against mustard yellow: the bald everyman in his yellow raincoat twists the ignition key; tiny jagged marks surround it while the dashboard stays dark, and his hopeful face falls.",
-          "image": "6f93e21f1a7ce49c"
+          "image": "6f93e21f1a7ce49c",
+          "spec": {
+            "shot": "close",
+            "people": [
+              {
+                "who": "hero",
+                "pose": "hold",
+                "mood": "sad",
+                "side": "center"
+              }
+            ],
+            "props": [
+              {
+                "name": "key",
+                "slot": "hand",
+                "size": "s"
+              }
+            ],
+            "bubble": null,
+            "text": ""
+          }
         },
         {
           "kind": "image",
@@ -3613,7 +4401,37 @@
           "camera": "pull",
           "line": "You stare at the repair quote with payday still out of reach.",
           "prompt": "Flat 2D cartoon illustration in exactly the same art style as the reference image: thick clean black outlines, flat vivid colors, very soft minimal shading, plain solid mustard-yellow (#F7C325) background with no gradient, no texture, no photorealism. When the main character appears he is EXACTLY the character from the reference image: bald round head, big round white eyes with small black pupils, small ears, pale peach skin, simple body. In this chapter he wears: a yellow raincoat and rubber boots. Other people are drawn in the same simple style with different hair and clothes. 16:9 landscape composition. Keep the top 14% of the frame completely empty plain yellow background because a title will be placed there. Big, simple, readable subject; at most a few props; the background stays plain yellow except for a simple floor or furniture when the scene needs it. The only text allowed in the image is: REPAIR $900 — spelled exactly like that, in bold black capital letters. No other text. SCENE: Medium shot on mustard yellow: the bald everyman in raincoat and boots studies a repair quote, grimacing; a calendar hangs beyond his reaching hand, with a banknote pictured on a later date.",
-          "image": "e5eb3e27f1a239fa"
+          "image": "e5eb3e27f1a239fa",
+          "spec": {
+            "shot": "medium",
+            "people": [
+              {
+                "who": "hero",
+                "pose": "hold",
+                "mood": "worried",
+                "side": "left"
+              }
+            ],
+            "props": [
+              {
+                "name": "invoice",
+                "slot": "hand",
+                "size": "m"
+              },
+              {
+                "name": "calendar",
+                "slot": "right",
+                "size": "m"
+              },
+              {
+                "name": "cash",
+                "slot": "far_right",
+                "size": "s"
+              }
+            ],
+            "bubble": null,
+            "text": "REPAIR $900"
+          }
         },
         {
           "kind": "image",
@@ -3622,7 +4440,27 @@
           "camera": "push",
           "line": "You open your banking app and find grocery money, not repair money.",
           "prompt": "Flat 2D cartoon illustration in exactly the same art style as the reference image: thick clean black outlines, flat vivid colors, very soft minimal shading, plain solid mustard-yellow (#F7C325) background with no gradient, no texture, no photorealism. When the main character appears he is EXACTLY the character from the reference image: bald round head, big round white eyes with small black pupils, small ears, pale peach skin, simple body. In this chapter he wears: a yellow raincoat and rubber boots. Other people are drawn in the same simple style with different hair and clothes. 16:9 landscape composition. Keep the top 14% of the frame completely empty plain yellow background because a title will be placed there. Big, simple, readable subject; at most a few props; the background stays plain yellow except for a simple floor or furniture when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Close-up on mustard yellow: the bald everyman in his yellow raincoat checks a banking phone screen showing a tiny coin stack beside a grocery-bag icon; he frowns at an empty wrench-shaped space.",
-          "image": "9409ab1ce75d7635"
+          "image": "9409ab1ce75d7635",
+          "spec": {
+            "shot": "close",
+            "people": [
+              {
+                "who": "hero",
+                "pose": "hold",
+                "mood": "worried",
+                "side": "center"
+              }
+            ],
+            "props": [
+              {
+                "name": "phone",
+                "slot": "hand",
+                "size": "m"
+              }
+            ],
+            "bubble": null,
+            "text": ""
+          }
         },
         {
           "kind": "image",
@@ -3631,7 +4469,38 @@
           "camera": "right",
           "line": "You put the repair on a credit card because you need the car running.",
           "prompt": "Flat 2D cartoon illustration in exactly the same art style as the reference image: thick clean black outlines, flat vivid colors, very soft minimal shading, plain solid mustard-yellow (#F7C325) background with no gradient, no texture, no photorealism. When the main character appears he is EXACTLY the character from the reference image: bald round head, big round white eyes with small black pupils, small ears, pale peach skin, simple body. In this chapter he wears: a yellow raincoat and rubber boots. Other people are drawn in the same simple style with different hair and clothes. 16:9 landscape composition. Keep the top 14% of the frame completely empty plain yellow background because a title will be placed there. Big, simple, readable subject; at most a few props; the background stays plain yellow except for a simple floor or furniture when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Medium shot on mustard yellow: the bald everyman in yellow raincoat and boots reluctantly hands a credit card to a mechanic, who holds a wrench beside the everyman's disabled car.",
-          "image": "f56cea2c68125718"
+          "image": "f56cea2c68125718",
+          "spec": {
+            "shot": "medium",
+            "people": [
+              {
+                "who": "hero",
+                "pose": "hold",
+                "mood": "worried",
+                "side": "left"
+              },
+              {
+                "who": "other",
+                "pose": "hold",
+                "mood": "neutral",
+                "side": "right"
+              }
+            ],
+            "props": [
+              {
+                "name": "credit_card",
+                "slot": "hand",
+                "size": "s"
+              },
+              {
+                "name": "car",
+                "slot": "center",
+                "size": "l"
+              }
+            ],
+            "bubble": null,
+            "text": ""
+          }
         },
         {
           "kind": "image",
@@ -3640,7 +4509,32 @@
           "camera": "left",
           "line": "You drive away with a working car and a new monthly payment.",
           "prompt": "Flat 2D cartoon illustration in exactly the same art style as the reference image: thick clean black outlines, flat vivid colors, very soft minimal shading, plain solid mustard-yellow (#F7C325) background with no gradient, no texture, no photorealism. When the main character appears he is EXACTLY the character from the reference image: bald round head, big round white eyes with small black pupils, small ears, pale peach skin, simple body. In this chapter he wears: a yellow raincoat and rubber boots. Other people are drawn in the same simple style with different hair and clothes. 16:9 landscape composition. Keep the top 14% of the frame completely empty plain yellow background because a title will be placed there. Big, simple, readable subject; at most a few props; the background stays plain yellow except for a simple floor or furniture when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Wide shot on mustard yellow: the bald everyman, in yellow raincoat and rubber boots, drives a smoothly rolling car with a relieved smile; a calendar chained to its bumper trails behind him.",
-          "image": "71df4a955585c918"
+          "image": "71df4a955585c918",
+          "spec": {
+            "shot": "wide",
+            "people": [
+              {
+                "who": "hero",
+                "pose": "sit",
+                "mood": "happy",
+                "side": "left"
+              }
+            ],
+            "props": [
+              {
+                "name": "car",
+                "slot": "right",
+                "size": "l"
+              },
+              {
+                "name": "calendar",
+                "slot": "far_right",
+                "size": "m"
+              }
+            ],
+            "bubble": null,
+            "text": ""
+          }
         },
         {
           "kind": "image",
@@ -3649,7 +4543,43 @@
           "camera": "push",
           "line": "You pay interest on a problem the mechanic has already fixed.",
           "prompt": "Flat 2D cartoon illustration in exactly the same art style as the reference image: thick clean black outlines, flat vivid colors, very soft minimal shading, plain solid mustard-yellow (#F7C325) background with no gradient, no texture, no photorealism. When the main character appears he is EXACTLY the character from the reference image: bald round head, big round white eyes with small black pupils, small ears, pale peach skin, simple body. In this chapter he wears: a yellow raincoat and rubber boots. Other people are drawn in the same simple style with different hair and clothes. 16:9 landscape composition. Keep the top 14% of the frame completely empty plain yellow background because a title will be placed there. Big, simple, readable subject; at most a few props; the background stays plain yellow except for a simple floor or furniture when the scene needs it. The only text allowed in the image is: INTEREST — spelled exactly like that, in bold black capital letters. No other text. SCENE: Medium shot on mustard yellow: the bald everyman in raincoat and boots feeds coins into a credit card's hungry mouth, looking annoyed, while a smiling mechanic pats the already repaired car behind him.",
-          "image": "7a57d1ee47bc49d9"
+          "image": "7a57d1ee47bc49d9",
+          "spec": {
+            "shot": "medium",
+            "people": [
+              {
+                "who": "hero",
+                "pose": "hold",
+                "mood": "angry",
+                "side": "left"
+              },
+              {
+                "who": "other",
+                "pose": "point",
+                "mood": "happy",
+                "side": "right"
+              }
+            ],
+            "props": [
+              {
+                "name": "coins",
+                "slot": "hand",
+                "size": "s"
+              },
+              {
+                "name": "credit_card",
+                "slot": "center",
+                "size": "m"
+              },
+              {
+                "name": "car",
+                "slot": "far_right",
+                "size": "l"
+              }
+            ],
+            "bubble": null,
+            "text": "INTEREST"
+          }
         },
         {
           "kind": "image",
@@ -3658,7 +4588,33 @@
           "camera": "still",
           "line": "People say emergency savings are wasted money because they just sit there.",
           "prompt": "Flat 2D cartoon illustration in exactly the same art style as the reference image: thick clean black outlines, flat vivid colors, very soft minimal shading, plain solid mustard-yellow (#F7C325) background with no gradient, no texture, no photorealism. When the main character appears he is EXACTLY the character from the reference image: bald round head, big round white eyes with small black pupils, small ears, pale peach skin, simple body. In this chapter he wears: a yellow raincoat and rubber boots. Other people are drawn in the same simple style with different hair and clothes. 16:9 landscape composition. Keep the top 14% of the frame completely empty plain yellow background because a title will be placed there. Big, simple, readable subject; at most a few props; the background stays plain yellow except for a simple floor or furniture when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Medium shot on mustard yellow: two sneering bystanders give thumbs-down gestures toward a glass jar of motionless banknotes; the bald everyman in yellow raincoat and boots stands beside it, looking doubtful.",
-          "image": "c4caba75e460c6ea"
+          "image": "c4caba75e460c6ea",
+          "spec": {
+            "shot": "medium",
+            "people": [
+              {
+                "who": "hero",
+                "pose": "shrug",
+                "mood": "worried",
+                "side": "left"
+              },
+              {
+                "who": "other",
+                "pose": "point",
+                "mood": "smug",
+                "side": "right"
+              }
+            ],
+            "props": [
+              {
+                "name": "piggy_bank",
+                "slot": "center",
+                "size": "m"
+              }
+            ],
+            "bubble": null,
+            "text": ""
+          }
         },
         {
           "kind": "image",
@@ -3667,7 +4623,32 @@
           "camera": "pull",
           "line": "But sitting there is the job: cash waits so you do not have to borrow.",
           "prompt": "Flat 2D cartoon illustration in exactly the same art style as the reference image: thick clean black outlines, flat vivid colors, very soft minimal shading, plain solid mustard-yellow (#F7C325) background with no gradient, no texture, no photorealism. When the main character appears he is EXACTLY the character from the reference image: bald round head, big round white eyes with small black pupils, small ears, pale peach skin, simple body. In this chapter he wears: a yellow raincoat and rubber boots. Other people are drawn in the same simple style with different hair and clothes. 16:9 landscape composition. Keep the top 14% of the frame completely empty plain yellow background because a title will be placed there. Big, simple, readable subject; at most a few props; the background stays plain yellow except for a simple floor or furniture when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Wide shot on mustard yellow: the bald everyman in yellow raincoat and boots smiles as a sturdy cash-filled jar stands between him and a looming credit card, keeping its grabbing hands away.",
-          "image": "e13360b2f1597e8a"
+          "image": "e13360b2f1597e8a",
+          "spec": {
+            "shot": "wide",
+            "people": [
+              {
+                "who": "hero",
+                "pose": "stand",
+                "mood": "happy",
+                "side": "left"
+              }
+            ],
+            "props": [
+              {
+                "name": "piggy_bank",
+                "slot": "center",
+                "size": "l"
+              },
+              {
+                "name": "credit_card",
+                "slot": "right",
+                "size": "l"
+              }
+            ],
+            "bubble": null,
+            "text": ""
+          }
         },
         {
           "kind": "image",
@@ -3676,7 +4657,27 @@
           "camera": "push",
           "line": "Over time, those payments eat the money you need for the next unexpected bill.",
           "prompt": "Flat 2D cartoon illustration in exactly the same art style as the reference image: thick clean black outlines, flat vivid colors, very soft minimal shading, plain solid mustard-yellow (#F7C325) background with no gradient, no texture, no photorealism. When the main character appears he is EXACTLY the character from the reference image: bald round head, big round white eyes with small black pupils, small ears, pale peach skin, simple body. In this chapter he wears: a yellow raincoat and rubber boots. Other people are drawn in the same simple style with different hair and clothes. 16:9 landscape composition. Keep the top 14% of the frame completely empty plain yellow background because a title will be placed there. Big, simple, readable subject; at most a few props; the background stays plain yellow except for a simple floor or furniture when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Close-up on mustard yellow: the bald everyman in his yellow raincoat watches a toothy credit card gobble his remaining coins; he clutches a new bill illustrated with a burst pipe, looking frightened.",
-          "image": "7c851910002cf59d"
+          "image": "7c851910002cf59d",
+          "spec": {
+            "shot": "close",
+            "people": [
+              {
+                "who": "hero",
+                "pose": "hold",
+                "mood": "worried",
+                "side": "center"
+              }
+            ],
+            "props": [
+              {
+                "name": "invoice",
+                "slot": "hand",
+                "size": "m"
+              }
+            ],
+            "bubble": null,
+            "text": ""
+          }
         },
         {
           "kind": "image",
@@ -3685,7 +4686,37 @@
           "camera": "right",
           "line": "You start meeting each new problem with debt left over from the last one.",
           "prompt": "Flat 2D cartoon illustration in exactly the same art style as the reference image: thick clean black outlines, flat vivid colors, very soft minimal shading, plain solid mustard-yellow (#F7C325) background with no gradient, no texture, no photorealism. When the main character appears he is EXACTLY the character from the reference image: bald round head, big round white eyes with small black pupils, small ears, pale peach skin, simple body. In this chapter he wears: a yellow raincoat and rubber boots. Other people are drawn in the same simple style with different hair and clothes. 16:9 landscape composition. Keep the top 14% of the frame completely empty plain yellow background because a title will be placed there. Big, simple, readable subject; at most a few props; the background stays plain yellow except for a simple floor or furniture when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Wide shot on mustard yellow: the bald everyman in yellow raincoat and boots confronts a leaking washing machine, offering another credit card while older credit cards drag behind him on a chain; he looks exhausted.",
-          "image": "52c1a8232e669dd0"
+          "image": "52c1a8232e669dd0",
+          "spec": {
+            "shot": "wide",
+            "people": [
+              {
+                "who": "hero",
+                "pose": "hold",
+                "mood": "sad",
+                "side": "left"
+              }
+            ],
+            "props": [
+              {
+                "name": "fridge",
+                "slot": "center",
+                "size": "l"
+              },
+              {
+                "name": "credit_card",
+                "slot": "hand",
+                "size": "s"
+              },
+              {
+                "name": "credit_card",
+                "slot": "right",
+                "size": "m"
+              }
+            ],
+            "bubble": null,
+            "text": ""
+          }
         },
         {
           "kind": "image",
@@ -3694,10 +4725,36 @@
           "camera": "push",
           "line": "Your broken car should not come with a subscription.",
           "prompt": "Flat 2D cartoon illustration in exactly the same art style as the reference image: thick clean black outlines, flat vivid colors, very soft minimal shading, plain solid mustard-yellow (#F7C325) background with no gradient, no texture, no photorealism. When the main character appears he is EXACTLY the character from the reference image: bald round head, big round white eyes with small black pupils, small ears, pale peach skin, simple body. In this chapter he wears: a yellow raincoat and rubber boots. Other people are drawn in the same simple style with different hair and clothes. 16:9 landscape composition. Keep the top 14% of the frame completely empty plain yellow background because a title will be placed there. Big, simple, readable subject; at most a few props; the background stays plain yellow except for a simple floor or furniture when the scene needs it. The only text allowed in the image is: CAR SUBSCRIPTION — spelled exactly like that, in bold black capital letters. No other text. SCENE: Medium shot on mustard yellow: the bald, round-headed everyman in yellow raincoat and rubber boots holds up a subscription tag dangling from his broken car, glaring at it in disbelief.",
-          "image": "0b1a644b95c77d67"
+          "image": "0b1a644b95c77d67",
+          "spec": {
+            "shot": "medium",
+            "people": [
+              {
+                "who": "hero",
+                "pose": "hold",
+                "mood": "angry",
+                "side": "left"
+              }
+            ],
+            "props": [
+              {
+                "name": "car",
+                "slot": "right",
+                "size": "l"
+              },
+              {
+                "name": "price_tag",
+                "slot": "hand",
+                "size": "m"
+              }
+            ],
+            "bubble": null,
+            "text": "CAR SUBSCRIPTION"
+          }
         }
       ],
-      "icon_image": "2f543ac48d9f89fe"
+      "icon_image": "2f543ac48d9f89fe",
+      "icon_prop": "bottle"
     },
     {
       "name": "Waiting to Invest",
@@ -3713,7 +4770,32 @@
           "camera": "push",
           "line": "Waiting to invest.",
           "prompt": "Flat 2D cartoon illustration in exactly the same art style as the reference image: thick clean black outlines, flat vivid colors, very soft minimal shading, plain solid mustard-yellow (#F7C325) background with no gradient, no texture, no photorealism. When the main character appears he is EXACTLY the character from the reference image: bald round head, big round white eyes with small black pupils, small ears, pale peach skin, simple body. In this chapter he wears: a mint-green sweatshirt with a seedling emblem. Other people are drawn in the same simple style with different hair and clothes. 16:9 landscape composition. Keep the top 14% of the frame completely empty plain yellow background because a title will be placed there. Big, simple, readable subject; at most a few props; the background stays plain yellow except for a simple floor or furniture when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Medium shot, plain mustard-yellow background: the bald, round-headed everyman in a mint-green seedling-emblem sweatshirt holds an investing phone, finger hovering above its screen, with a tiny coin stack beside him and an uncertain expression.",
-          "image": "9fb3e093277f3043"
+          "image": "9fb3e093277f3043",
+          "spec": {
+            "shot": "medium",
+            "people": [
+              {
+                "who": "hero",
+                "pose": "hold",
+                "mood": "worried",
+                "side": "center"
+              }
+            ],
+            "props": [
+              {
+                "name": "phone",
+                "slot": "hand",
+                "size": "m"
+              },
+              {
+                "name": "coins",
+                "slot": "right",
+                "size": "s"
+              }
+            ],
+            "bubble": null,
+            "text": ""
+          }
         },
         {
           "kind": "image",
@@ -3722,7 +4804,35 @@
           "camera": "pull",
           "line": "Waiting to invest means putting off long-term investing until you feel rich, giving your money less time to grow.",
           "prompt": "Flat 2D cartoon illustration in exactly the same art style as the reference image: thick clean black outlines, flat vivid colors, very soft minimal shading, plain solid mustard-yellow (#F7C325) background with no gradient, no texture, no photorealism. When the main character appears he is EXACTLY the character from the reference image: bald round head, big round white eyes with small black pupils, small ears, pale peach skin, simple body. In this chapter he wears: a mint-green sweatshirt with a seedling emblem. Other people are drawn in the same simple style with different hair and clothes. 16:9 landscape composition. Keep the top 14% of the frame completely empty plain yellow background because a title will be placed there. Big, simple, readable subject; at most a few props; the background stays plain yellow except for a simple floor or furniture when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Wide shot, plain mustard-yellow background: the bald, round-headed everyman in a mint-green seedling-emblem sweatshirt holds a coin-shaped seed beside a draining hourglass, gazing wistfully at a gigantic money sack inside his thought bubble.",
-          "image": "42d541c474e8956c"
+          "image": "42d541c474e8956c",
+          "spec": {
+            "shot": "wide",
+            "people": [
+              {
+                "who": "hero",
+                "pose": "hold",
+                "mood": "sad",
+                "side": "left"
+              }
+            ],
+            "props": [
+              {
+                "name": "coin",
+                "slot": "hand",
+                "size": "s"
+              },
+              {
+                "name": "clock",
+                "slot": "right",
+                "size": "m"
+              }
+            ],
+            "bubble": {
+              "kind": "thought",
+              "prop": "money_bag"
+            },
+            "text": ""
+          }
         },
         {
           "kind": "image",
@@ -3731,7 +4841,37 @@
           "camera": "still",
           "line": "You have your bills paid and emergency savings tucked safely away.",
           "prompt": "Flat 2D cartoon illustration in exactly the same art style as the reference image: thick clean black outlines, flat vivid colors, very soft minimal shading, plain solid mustard-yellow (#F7C325) background with no gradient, no texture, no photorealism. When the main character appears he is EXACTLY the character from the reference image: bald round head, big round white eyes with small black pupils, small ears, pale peach skin, simple body. In this chapter he wears: a mint-green sweatshirt with a seedling emblem. Other people are drawn in the same simple style with different hair and clothes. 16:9 landscape composition. Keep the top 14% of the frame completely empty plain yellow background because a title will be placed there. Big, simple, readable subject; at most a few props; the background stays plain yellow except for a simple floor or furniture when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Medium shot, plain mustard-yellow background: the bald, round-headed everyman in a mint-green seedling-emblem sweatshirt smiles contentedly beside bills covered in checkmarks, sliding a shield-marked savings jar into a small safe.",
-          "image": "b5a4d54aab40cca9"
+          "image": "b5a4d54aab40cca9",
+          "spec": {
+            "shot": "medium",
+            "people": [
+              {
+                "who": "hero",
+                "pose": "hold",
+                "mood": "happy",
+                "side": "left"
+              }
+            ],
+            "props": [
+              {
+                "name": "invoice",
+                "slot": "center",
+                "size": "m"
+              },
+              {
+                "name": "piggy_bank",
+                "slot": "hand",
+                "size": "s"
+              },
+              {
+                "name": "safe",
+                "slot": "right",
+                "size": "m"
+              }
+            ],
+            "bubble": null,
+            "text": ""
+          }
         },
         {
           "kind": "image",
@@ -3740,7 +4880,37 @@
           "camera": "left",
           "line": "You keep next month's rent out of the market because investments can lose value.",
           "prompt": "Flat 2D cartoon illustration in exactly the same art style as the reference image: thick clean black outlines, flat vivid colors, very soft minimal shading, plain solid mustard-yellow (#F7C325) background with no gradient, no texture, no photorealism. When the main character appears he is EXACTLY the character from the reference image: bald round head, big round white eyes with small black pupils, small ears, pale peach skin, simple body. In this chapter he wears: a mint-green sweatshirt with a seedling emblem. Other people are drawn in the same simple style with different hair and clothes. 16:9 landscape composition. Keep the top 14% of the frame completely empty plain yellow background because a title will be placed there. Big, simple, readable subject; at most a few props; the background stays plain yellow except for a simple floor or furniture when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Wide shot, plain mustard-yellow background: the bald, round-headed everyman in a mint-green seedling-emblem sweatshirt protectively holds a house-symbol rent envelope away from a phone showing a plunging investment graph, his expression cautious.",
-          "image": "ef4e6c59df595017"
+          "image": "ef4e6c59df595017",
+          "spec": {
+            "shot": "wide",
+            "people": [
+              {
+                "who": "hero",
+                "pose": "hold",
+                "mood": "worried",
+                "side": "left"
+              }
+            ],
+            "props": [
+              {
+                "name": "envelope",
+                "slot": "hand",
+                "size": "m"
+              },
+              {
+                "name": "phone",
+                "slot": "right",
+                "size": "m"
+              },
+              {
+                "name": "chart_down",
+                "slot": "far_right",
+                "size": "m"
+              }
+            ],
+            "bubble": null,
+            "text": ""
+          }
         },
         {
           "kind": "image",
@@ -3749,7 +4919,27 @@
           "camera": "push",
           "line": "You open an investing app and stare at the amount you could spare.",
           "prompt": "Flat 2D cartoon illustration in exactly the same art style as the reference image: thick clean black outlines, flat vivid colors, very soft minimal shading, plain solid mustard-yellow (#F7C325) background with no gradient, no texture, no photorealism. When the main character appears he is EXACTLY the character from the reference image: bald round head, big round white eyes with small black pupils, small ears, pale peach skin, simple body. In this chapter he wears: a mint-green sweatshirt with a seedling emblem. Other people are drawn in the same simple style with different hair and clothes. 16:9 landscape composition. Keep the top 14% of the frame completely empty plain yellow background because a title will be placed there. Big, simple, readable subject; at most a few props; the background stays plain yellow except for a simple floor or furniture when the scene needs it. The only text allowed in the image is: $20 — spelled exactly like that, in bold black capital letters. No other text. SCENE: Close-up, plain mustard-yellow background: the bald, round-headed everyman in a mint-green seedling-emblem sweatshirt studies his investing app's screen displaying $20, brow furrowed and mouth slightly open.",
-          "image": "7d6b4289699411af"
+          "image": "7d6b4289699411af",
+          "spec": {
+            "shot": "close",
+            "people": [
+              {
+                "who": "hero",
+                "pose": "hold",
+                "mood": "worried",
+                "side": "center"
+              }
+            ],
+            "props": [
+              {
+                "name": "phone",
+                "slot": "hand",
+                "size": "m"
+              }
+            ],
+            "bubble": null,
+            "text": "$20"
+          }
         },
         {
           "kind": "image",
@@ -3758,7 +4948,32 @@
           "camera": "still",
           "line": "You decide that little number is not worth the effort.",
           "prompt": "Flat 2D cartoon illustration in exactly the same art style as the reference image: thick clean black outlines, flat vivid colors, very soft minimal shading, plain solid mustard-yellow (#F7C325) background with no gradient, no texture, no photorealism. When the main character appears he is EXACTLY the character from the reference image: bald round head, big round white eyes with small black pupils, small ears, pale peach skin, simple body. In this chapter he wears: a mint-green sweatshirt with a seedling emblem. Other people are drawn in the same simple style with different hair and clothes. 16:9 landscape composition. Keep the top 14% of the frame completely empty plain yellow background because a title will be placed there. Big, simple, readable subject; at most a few props; the background stays plain yellow except for a simple floor or furniture when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Medium shot, plain mustard-yellow background: the bald, round-headed everyman in a mint-green seedling-emblem sweatshirt glances dismissively at a tiny coin stack beside his phone, waving it off with pursed lips and one raised eyebrow.",
-          "image": "ec017e9a0e3226cb"
+          "image": "ec017e9a0e3226cb",
+          "spec": {
+            "shot": "medium",
+            "people": [
+              {
+                "who": "hero",
+                "pose": "shrug",
+                "mood": "smug",
+                "side": "left"
+              }
+            ],
+            "props": [
+              {
+                "name": "phone",
+                "slot": "right",
+                "size": "m"
+              },
+              {
+                "name": "coins",
+                "slot": "far_right",
+                "size": "s"
+              }
+            ],
+            "bubble": null,
+            "text": ""
+          }
         },
         {
           "kind": "image",
@@ -3767,7 +4982,37 @@
           "camera": "right",
           "line": "You close the app and promise to start after your next raise.",
           "prompt": "Flat 2D cartoon illustration in exactly the same art style as the reference image: thick clean black outlines, flat vivid colors, very soft minimal shading, plain solid mustard-yellow (#F7C325) background with no gradient, no texture, no photorealism. When the main character appears he is EXACTLY the character from the reference image: bald round head, big round white eyes with small black pupils, small ears, pale peach skin, simple body. In this chapter he wears: a mint-green sweatshirt with a seedling emblem. Other people are drawn in the same simple style with different hair and clothes. 16:9 landscape composition. Keep the top 14% of the frame completely empty plain yellow background because a title will be placed there. Big, simple, readable subject; at most a few props; the background stays plain yellow except for a simple floor or furniture when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Wide shot, plain mustard-yellow background: the bald, round-headed everyman in a mint-green seedling-emblem sweatshirt holds a locked phone while pointing confidently at a future calendar square containing an upward pay arrow, wearing a relieved smile.",
-          "image": "54a1c3ba432eb074"
+          "image": "54a1c3ba432eb074",
+          "spec": {
+            "shot": "wide",
+            "people": [
+              {
+                "who": "hero",
+                "pose": "point",
+                "mood": "happy",
+                "side": "left"
+              }
+            ],
+            "props": [
+              {
+                "name": "phone",
+                "slot": "hand",
+                "size": "m"
+              },
+              {
+                "name": "calendar",
+                "slot": "right",
+                "size": "l"
+              },
+              {
+                "name": "lock",
+                "slot": "far_right",
+                "size": "s"
+              }
+            ],
+            "bubble": null,
+            "text": ""
+          }
         },
         {
           "kind": "image",
@@ -3776,7 +5021,40 @@
           "camera": "push",
           "line": "You get the raise and find a new reason to wait.",
           "prompt": "Flat 2D cartoon illustration in exactly the same art style as the reference image: thick clean black outlines, flat vivid colors, very soft minimal shading, plain solid mustard-yellow (#F7C325) background with no gradient, no texture, no photorealism. When the main character appears he is EXACTLY the character from the reference image: bald round head, big round white eyes with small black pupils, small ears, pale peach skin, simple body. In this chapter he wears: a mint-green sweatshirt with a seedling emblem. Other people are drawn in the same simple style with different hair and clothes. 16:9 landscape composition. Keep the top 14% of the frame completely empty plain yellow background because a title will be placed there. Big, simple, readable subject; at most a few props; the background stays plain yellow except for a simple floor or furniture when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Medium shot, plain mustard-yellow background: the bald, round-headed everyman in a mint-green seedling-emblem sweatshirt clutches a larger paycheck with an upward arrow, anxiously eyeing a sofa in a thought bubble while his phone lies facedown.",
-          "image": "c8eba21fa454acff"
+          "image": "c8eba21fa454acff",
+          "spec": {
+            "shot": "medium",
+            "people": [
+              {
+                "who": "hero",
+                "pose": "hold",
+                "mood": "worried",
+                "side": "left"
+              }
+            ],
+            "props": [
+              {
+                "name": "invoice",
+                "slot": "hand",
+                "size": "l"
+              },
+              {
+                "name": "phone",
+                "slot": "right",
+                "size": "s"
+              },
+              {
+                "name": "chart_up",
+                "slot": "far_right",
+                "size": "s"
+              }
+            ],
+            "bubble": {
+              "kind": "thought",
+              "prop": "couch"
+            },
+            "text": ""
+          }
         },
         {
           "kind": "image",
@@ -3785,7 +5063,38 @@
           "camera": "left",
           "line": "People say investing only matters when you have serious money.",
           "prompt": "Flat 2D cartoon illustration in exactly the same art style as the reference image: thick clean black outlines, flat vivid colors, very soft minimal shading, plain solid mustard-yellow (#F7C325) background with no gradient, no texture, no photorealism. When the main character appears he is EXACTLY the character from the reference image: bald round head, big round white eyes with small black pupils, small ears, pale peach skin, simple body. In this chapter he wears: a mint-green sweatshirt with a seedling emblem. Other people are drawn in the same simple style with different hair and clothes. 16:9 landscape composition. Keep the top 14% of the frame completely empty plain yellow background because a title will be placed there. Big, simple, readable subject; at most a few props; the background stays plain yellow except for a simple floor or furniture when the scene needs it. The only text allowed in the image is: SERIOUS MONEY — spelled exactly like that, in bold black capital letters. No other text. SCENE: Wide shot, plain mustard-yellow background: the bald, round-headed everyman in a mint-green seedling-emblem sweatshirt looks embarrassed holding one coin as two smug bystanders gesture toward a huge money sack labeled SERIOUS MONEY.",
-          "image": "4cb1e7f8a377e504"
+          "image": "4cb1e7f8a377e504",
+          "spec": {
+            "shot": "wide",
+            "people": [
+              {
+                "who": "hero",
+                "pose": "hold",
+                "mood": "sad",
+                "side": "left"
+              },
+              {
+                "who": "other",
+                "pose": "point",
+                "mood": "smug",
+                "side": "right"
+              }
+            ],
+            "props": [
+              {
+                "name": "coin",
+                "slot": "hand",
+                "size": "s"
+              },
+              {
+                "name": "money_bag",
+                "slot": "center",
+                "size": "l"
+              }
+            ],
+            "bubble": null,
+            "text": "SERIOUS MONEY"
+          }
         },
         {
           "kind": "image",
@@ -3794,7 +5103,37 @@
           "camera": "pull",
           "line": "But smaller amounts can still benefit from years of potential growth.",
           "prompt": "Flat 2D cartoon illustration in exactly the same art style as the reference image: thick clean black outlines, flat vivid colors, very soft minimal shading, plain solid mustard-yellow (#F7C325) background with no gradient, no texture, no photorealism. When the main character appears he is EXACTLY the character from the reference image: bald round head, big round white eyes with small black pupils, small ears, pale peach skin, simple body. In this chapter he wears: a mint-green sweatshirt with a seedling emblem. Other people are drawn in the same simple style with different hair and clothes. 16:9 landscape composition. Keep the top 14% of the frame completely empty plain yellow background because a title will be placed there. Big, simple, readable subject; at most a few props; the background stays plain yellow except for a simple floor or furniture when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Wide shot, plain mustard-yellow background: the bald, round-headed everyman in a mint-green seedling-emblem sweatshirt waters a tiny potted coin sprout beneath a translucent, towering future-tree silhouette, smiling with cautious hope.",
-          "image": "82988f20c01cb96c"
+          "image": "82988f20c01cb96c",
+          "spec": {
+            "shot": "wide",
+            "people": [
+              {
+                "who": "hero",
+                "pose": "hold",
+                "mood": "happy",
+                "side": "left"
+              }
+            ],
+            "props": [
+              {
+                "name": "bottle",
+                "slot": "hand",
+                "size": "s"
+              },
+              {
+                "name": "plant",
+                "slot": "right",
+                "size": "s"
+              },
+              {
+                "name": "plant",
+                "slot": "far_right",
+                "size": "l"
+              }
+            ],
+            "bubble": null,
+            "text": ""
+          }
         },
         {
           "kind": "image",
@@ -3803,7 +5142,37 @@
           "camera": "push",
           "line": "Over time, reinvested returns can earn returns of their own.",
           "prompt": "Flat 2D cartoon illustration in exactly the same art style as the reference image: thick clean black outlines, flat vivid colors, very soft minimal shading, plain solid mustard-yellow (#F7C325) background with no gradient, no texture, no photorealism. When the main character appears he is EXACTLY the character from the reference image: bald round head, big round white eyes with small black pupils, small ears, pale peach skin, simple body. In this chapter he wears: a mint-green sweatshirt with a seedling emblem. Other people are drawn in the same simple style with different hair and clothes. 16:9 landscape composition. Keep the top 14% of the frame completely empty plain yellow background because a title will be placed there. Big, simple, readable subject; at most a few props; the background stays plain yellow except for a simple floor or furniture when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Medium shot, plain mustard-yellow background: the bald, round-headed everyman in a mint-green seedling-emblem sweatshirt guides falling coins from a coin-bearing sapling back into its own pot, smiling delightedly at fresh coin-bearing branches.",
-          "image": "34b6d318b7a01cd3"
+          "image": "34b6d318b7a01cd3",
+          "spec": {
+            "shot": "medium",
+            "people": [
+              {
+                "who": "hero",
+                "pose": "hold",
+                "mood": "happy",
+                "side": "left"
+              }
+            ],
+            "props": [
+              {
+                "name": "coins",
+                "slot": "hand",
+                "size": "s"
+              },
+              {
+                "name": "plant",
+                "slot": "right",
+                "size": "m"
+              },
+              {
+                "name": "coins",
+                "slot": "far_right",
+                "size": "s"
+              }
+            ],
+            "bubble": null,
+            "text": ""
+          }
         },
         {
           "kind": "image",
@@ -3812,7 +5181,37 @@
           "camera": "pull",
           "line": "Starting later leaves fewer years for that potential growth to build on itself.",
           "prompt": "Flat 2D cartoon illustration in exactly the same art style as the reference image: thick clean black outlines, flat vivid colors, very soft minimal shading, plain solid mustard-yellow (#F7C325) background with no gradient, no texture, no photorealism. When the main character appears he is EXACTLY the character from the reference image: bald round head, big round white eyes with small black pupils, small ears, pale peach skin, simple body. In this chapter he wears: a mint-green sweatshirt with a seedling emblem. Other people are drawn in the same simple style with different hair and clothes. 16:9 landscape composition. Keep the top 14% of the frame completely empty plain yellow background because a title will be placed there. Big, simple, readable subject; at most a few props; the background stays plain yellow except for a simple floor or furniture when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Wide shot, plain mustard-yellow background: the bald, round-headed everyman in a mint-green seedling-emblem sweatshirt sets a tiny coin sprout under a nearly empty hourglass beside a tall branching coin-tree, shoulders slumped with regret.",
-          "image": "95fa7a88667329d2"
+          "image": "95fa7a88667329d2",
+          "spec": {
+            "shot": "wide",
+            "people": [
+              {
+                "who": "hero",
+                "pose": "hold",
+                "mood": "sad",
+                "side": "left"
+              }
+            ],
+            "props": [
+              {
+                "name": "plant",
+                "slot": "hand",
+                "size": "s"
+              },
+              {
+                "name": "clock",
+                "slot": "center",
+                "size": "m"
+              },
+              {
+                "name": "plant",
+                "slot": "right",
+                "size": "l"
+              }
+            ],
+            "bubble": null,
+            "text": ""
+          }
         },
         {
           "kind": "image",
@@ -3821,10 +5220,31 @@
           "camera": "push",
           "line": "Someday is an expensive starting date.",
           "prompt": "Flat 2D cartoon illustration in exactly the same art style as the reference image: thick clean black outlines, flat vivid colors, very soft minimal shading, plain solid mustard-yellow (#F7C325) background with no gradient, no texture, no photorealism. When the main character appears he is EXACTLY the character from the reference image: bald round head, big round white eyes with small black pupils, small ears, pale peach skin, simple body. In this chapter he wears: a mint-green sweatshirt with a seedling emblem. Other people are drawn in the same simple style with different hair and clothes. 16:9 landscape composition. Keep the top 14% of the frame completely empty plain yellow background because a title will be placed there. Big, simple, readable subject; at most a few props; the background stays plain yellow except for a simple floor or furniture when the scene needs it. The only text allowed in the image is: SOMEDAY — spelled exactly like that, in bold black capital letters. No other text. SCENE: Close-up, plain mustard-yellow background: the bald, round-headed everyman in a mint-green seedling-emblem sweatshirt grimaces while holding a calendar page labeled SOMEDAY with an enormous coin-covered price tag attached; his other hand displays an empty wallet.",
-          "image": "57030a335d004501"
+          "image": "57030a335d004501",
+          "spec": {
+            "shot": "close",
+            "people": [
+              {
+                "who": "hero",
+                "pose": "hold",
+                "mood": "worried",
+                "side": "center"
+              }
+            ],
+            "props": [
+              {
+                "name": "calendar",
+                "slot": "hand",
+                "size": "l"
+              }
+            ],
+            "bubble": null,
+            "text": "SOMEDAY"
+          }
         }
       ],
-      "icon_image": "97ccde58dbf81441"
+      "icon_image": "97ccde58dbf81441",
+      "icon_prop": "clock"
     },
     {
       "name": "Lifestyle Creep",
@@ -3840,7 +5260,37 @@
           "camera": "push",
           "line": "Lifestyle creep.",
           "prompt": "Flat 2D cartoon illustration in exactly the same art style as the reference image: thick clean black outlines, flat vivid colors, very soft minimal shading, plain solid mustard-yellow (#F7C325) background with no gradient, no texture, no photorealism. When the main character appears he is EXACTLY the character from the reference image: bald round head, big round white eyes with small black pupils, small ears, pale peach skin, simple body. In this chapter he wears: a flashy turquoise tracksuit and gold-colored watch. Other people are drawn in the same simple style with different hair and clothes. 16:9 landscape composition. Keep the top 14% of the frame completely empty plain yellow background because a title will be placed there. Big, simple, readable subject; at most a few props; the background stays plain yellow except for a simple floor or furniture when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Wide shot on plain mustard yellow: the bald, round-headed everyman in a flashy turquoise tracksuit and gold-colored watch admires his shiny car, holding an extravagant coffee above a nearly empty wallet, smiling nervously.",
-          "image": "91f34859e45cdbe4"
+          "image": "91f34859e45cdbe4",
+          "spec": {
+            "shot": "wide",
+            "people": [
+              {
+                "who": "hero",
+                "pose": "hold",
+                "mood": "worried",
+                "side": "left"
+              }
+            ],
+            "props": [
+              {
+                "name": "car",
+                "slot": "right",
+                "size": "l"
+              },
+              {
+                "name": "cup",
+                "slot": "hand",
+                "size": "s"
+              },
+              {
+                "name": "wallet",
+                "slot": "center",
+                "size": "s"
+              }
+            ],
+            "bubble": null,
+            "text": ""
+          }
         },
         {
           "kind": "image",
@@ -3849,7 +5299,37 @@
           "camera": "pull",
           "line": "Lifestyle creep happens when your spending rises with your income, swallowing the extra money before you save it.",
           "prompt": "Flat 2D cartoon illustration in exactly the same art style as the reference image: thick clean black outlines, flat vivid colors, very soft minimal shading, plain solid mustard-yellow (#F7C325) background with no gradient, no texture, no photorealism. When the main character appears he is EXACTLY the character from the reference image: bald round head, big round white eyes with small black pupils, small ears, pale peach skin, simple body. In this chapter he wears: a flashy turquoise tracksuit and gold-colored watch. Other people are drawn in the same simple style with different hair and clothes. 16:9 landscape composition. Keep the top 14% of the frame completely empty plain yellow background because a title will be placed there. Big, simple, readable subject; at most a few props; the background stays plain yellow except for a simple floor or furniture when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Medium shot on plain mustard yellow: the bald everyman in his flashy turquoise tracksuit and gold-colored watch tips a towering cash stack into a toothy bill envelope beside an empty piggy bank, looking startled.",
-          "image": "2692dc9f1b0f650f"
+          "image": "2692dc9f1b0f650f",
+          "spec": {
+            "shot": "medium",
+            "people": [
+              {
+                "who": "hero",
+                "pose": "hold",
+                "mood": "shocked",
+                "side": "left"
+              }
+            ],
+            "props": [
+              {
+                "name": "cash",
+                "slot": "hand",
+                "size": "l"
+              },
+              {
+                "name": "envelope",
+                "slot": "center",
+                "size": "m"
+              },
+              {
+                "name": "piggy_bank",
+                "slot": "right",
+                "size": "m"
+              }
+            ],
+            "bubble": null,
+            "text": ""
+          }
         },
         {
           "kind": "image",
@@ -3858,7 +5338,37 @@
           "camera": "push",
           "line": "You celebrate your raise by signing a lease on a car that smells like fresh leather.",
           "prompt": "Flat 2D cartoon illustration in exactly the same art style as the reference image: thick clean black outlines, flat vivid colors, very soft minimal shading, plain solid mustard-yellow (#F7C325) background with no gradient, no texture, no photorealism. When the main character appears he is EXACTLY the character from the reference image: bald round head, big round white eyes with small black pupils, small ears, pale peach skin, simple body. In this chapter he wears: a flashy turquoise tracksuit and gold-colored watch. Other people are drawn in the same simple style with different hair and clothes. 16:9 landscape composition. Keep the top 14% of the frame completely empty plain yellow background because a title will be placed there. Big, simple, readable subject; at most a few props; the background stays plain yellow except for a simple floor or furniture when the scene needs it. The only text allowed in the image is: LEASE — spelled exactly like that, in bold black capital letters. No other text. SCENE: Medium shot on plain mustard yellow: the bald everyman in his flashy turquoise tracksuit and gold-colored watch signs a lease with a pen beside an open luxury car; leather-scent wisps curl from its seats as he beams.",
-          "image": "3c0f46c85caaf872"
+          "image": "3c0f46c85caaf872",
+          "spec": {
+            "shot": "medium",
+            "people": [
+              {
+                "who": "hero",
+                "pose": "hold",
+                "mood": "happy",
+                "side": "left"
+              }
+            ],
+            "props": [
+              {
+                "name": "document",
+                "slot": "center",
+                "size": "m"
+              },
+              {
+                "name": "pencil",
+                "slot": "hand",
+                "size": "s"
+              },
+              {
+                "name": "car",
+                "slot": "right",
+                "size": "l"
+              }
+            ],
+            "bubble": null,
+            "text": "LEASE"
+          }
         },
         {
           "kind": "image",
@@ -3867,7 +5377,32 @@
           "camera": "pull",
           "line": "You move into a bigger apartment, where your old couch looks like sidewalk furniture.",
           "prompt": "Flat 2D cartoon illustration in exactly the same art style as the reference image: thick clean black outlines, flat vivid colors, very soft minimal shading, plain solid mustard-yellow (#F7C325) background with no gradient, no texture, no photorealism. When the main character appears he is EXACTLY the character from the reference image: bald round head, big round white eyes with small black pupils, small ears, pale peach skin, simple body. In this chapter he wears: a flashy turquoise tracksuit and gold-colored watch. Other people are drawn in the same simple style with different hair and clothes. 16:9 landscape composition. Keep the top 14% of the frame completely empty plain yellow background because a title will be placed there. Big, simple, readable subject; at most a few props; the background stays plain yellow except for a simple floor or furniture when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Wide shot on plain mustard yellow: the bald everyman in his flashy turquoise tracksuit and gold-colored watch stands inside an enormous apartment outline, staring with an embarrassed grimace at his tiny, battered couch.",
-          "image": "e4f4e496b2e2b2f3"
+          "image": "e4f4e496b2e2b2f3",
+          "spec": {
+            "shot": "wide",
+            "people": [
+              {
+                "who": "hero",
+                "pose": "stand",
+                "mood": "worried",
+                "side": "left"
+              }
+            ],
+            "props": [
+              {
+                "name": "house",
+                "slot": "center",
+                "size": "l"
+              },
+              {
+                "name": "couch",
+                "slot": "right",
+                "size": "s"
+              }
+            ],
+            "bubble": null,
+            "text": ""
+          }
         },
         {
           "kind": "image",
@@ -3876,7 +5411,37 @@
           "camera": "right",
           "line": "You replace your usual coffee with a daily order that takes longer to say than to drink.",
           "prompt": "Flat 2D cartoon illustration in exactly the same art style as the reference image: thick clean black outlines, flat vivid colors, very soft minimal shading, plain solid mustard-yellow (#F7C325) background with no gradient, no texture, no photorealism. When the main character appears he is EXACTLY the character from the reference image: bald round head, big round white eyes with small black pupils, small ears, pale peach skin, simple body. In this chapter he wears: a flashy turquoise tracksuit and gold-colored watch. Other people are drawn in the same simple style with different hair and clothes. 16:9 landscape composition. Keep the top 14% of the frame completely empty plain yellow background because a title will be placed there. Big, simple, readable subject; at most a few props; the background stays plain yellow except for a simple floor or furniture when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Medium shot on plain mustard yellow: the bald everyman in his flashy turquoise tracksuit and gold-colored watch proudly sips a tiny elaborate coffee; a discarded plain mug sits beside a receipt longer than his body.",
-          "image": "c4094df9672bbab0"
+          "image": "c4094df9672bbab0",
+          "spec": {
+            "shot": "medium",
+            "people": [
+              {
+                "who": "hero",
+                "pose": "hold",
+                "mood": "smug",
+                "side": "left"
+              }
+            ],
+            "props": [
+              {
+                "name": "cup",
+                "slot": "hand",
+                "size": "s"
+              },
+              {
+                "name": "mug",
+                "slot": "center",
+                "size": "s"
+              },
+              {
+                "name": "receipt",
+                "slot": "right",
+                "size": "l"
+              }
+            ],
+            "bubble": null,
+            "text": ""
+          }
         },
         {
           "kind": "image",
@@ -3885,7 +5450,32 @@
           "camera": "still",
           "line": "You add subscriptions because each monthly charge feels small next to your new paycheck.",
           "prompt": "Flat 2D cartoon illustration in exactly the same art style as the reference image: thick clean black outlines, flat vivid colors, very soft minimal shading, plain solid mustard-yellow (#F7C325) background with no gradient, no texture, no photorealism. When the main character appears he is EXACTLY the character from the reference image: bald round head, big round white eyes with small black pupils, small ears, pale peach skin, simple body. In this chapter he wears: a flashy turquoise tracksuit and gold-colored watch. Other people are drawn in the same simple style with different hair and clothes. 16:9 landscape composition. Keep the top 14% of the frame completely empty plain yellow background because a title will be placed there. Big, simple, readable subject; at most a few props; the background stays plain yellow except for a simple floor or furniture when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Medium shot on plain mustard yellow: the bald everyman in his flashy turquoise tracksuit and gold-colored watch taps tiny subscription buttons on his phone beside an enormous paycheck, smiling carelessly at their small size.",
-          "image": "462d021460e13459"
+          "image": "462d021460e13459",
+          "spec": {
+            "shot": "medium",
+            "people": [
+              {
+                "who": "hero",
+                "pose": "point",
+                "mood": "happy",
+                "side": "left"
+              }
+            ],
+            "props": [
+              {
+                "name": "phone",
+                "slot": "hand",
+                "size": "s"
+              },
+              {
+                "name": "invoice",
+                "slot": "right",
+                "size": "l"
+              }
+            ],
+            "bubble": null,
+            "text": ""
+          }
         },
         {
           "kind": "image",
@@ -3894,7 +5484,27 @@
           "camera": "push",
           "line": "You open your banking app and find the same thin balance wearing a more expensive outfit.",
           "prompt": "Flat 2D cartoon illustration in exactly the same art style as the reference image: thick clean black outlines, flat vivid colors, very soft minimal shading, plain solid mustard-yellow (#F7C325) background with no gradient, no texture, no photorealism. When the main character appears he is EXACTLY the character from the reference image: bald round head, big round white eyes with small black pupils, small ears, pale peach skin, simple body. In this chapter he wears: a flashy turquoise tracksuit and gold-colored watch. Other people are drawn in the same simple style with different hair and clothes. 16:9 landscape composition. Keep the top 14% of the frame completely empty plain yellow background because a title will be placed there. Big, simple, readable subject; at most a few props; the background stays plain yellow except for a simple floor or furniture when the scene needs it. The only text allowed in the image is: BALANCE — spelled exactly like that, in bold black capital letters. No other text. SCENE: Close-up on plain mustard yellow: the bald everyman in his flashy turquoise tracksuit and gold-colored watch holds his phone toward us, eyebrows drooping; the banking screen shows one tiny coin wearing a jeweled jacket.",
-          "image": "1909c508a998ab22"
+          "image": "1909c508a998ab22",
+          "spec": {
+            "shot": "close",
+            "people": [
+              {
+                "who": "hero",
+                "pose": "hold",
+                "mood": "sad",
+                "side": "center"
+              }
+            ],
+            "props": [
+              {
+                "name": "phone",
+                "slot": "hand",
+                "size": "m"
+              }
+            ],
+            "bubble": null,
+            "text": "BALANCE"
+          }
         },
         {
           "kind": "image",
@@ -3903,7 +5513,32 @@
           "camera": "left",
           "line": "You consider cutting back, but the car lease makes getting out another expense.",
           "prompt": "Flat 2D cartoon illustration in exactly the same art style as the reference image: thick clean black outlines, flat vivid colors, very soft minimal shading, plain solid mustard-yellow (#F7C325) background with no gradient, no texture, no photorealism. When the main character appears he is EXACTLY the character from the reference image: bald round head, big round white eyes with small black pupils, small ears, pale peach skin, simple body. In this chapter he wears: a flashy turquoise tracksuit and gold-colored watch. Other people are drawn in the same simple style with different hair and clothes. 16:9 landscape composition. Keep the top 14% of the frame completely empty plain yellow background because a title will be placed there. Big, simple, readable subject; at most a few props; the background stays plain yellow except for a simple floor or furniture when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Wide shot on plain mustard yellow: the bald everyman in his flashy turquoise tracksuit and gold-colored watch grimaces while pulling a chain linking his ankle to his leased car; a coin-slot padlock keeps it locked.",
-          "image": "bc58328f7d7216e5"
+          "image": "bc58328f7d7216e5",
+          "spec": {
+            "shot": "wide",
+            "people": [
+              {
+                "who": "hero",
+                "pose": "hold",
+                "mood": "worried",
+                "side": "left"
+              }
+            ],
+            "props": [
+              {
+                "name": "car",
+                "slot": "right",
+                "size": "l"
+              },
+              {
+                "name": "lock",
+                "slot": "center",
+                "size": "m"
+              }
+            ],
+            "bubble": null,
+            "text": ""
+          }
         },
         {
           "kind": "image",
@@ -3912,7 +5547,30 @@
           "camera": "push",
           "line": "People think a bigger paycheck automatically means more money saved.",
           "prompt": "Flat 2D cartoon illustration in exactly the same art style as the reference image: thick clean black outlines, flat vivid colors, very soft minimal shading, plain solid mustard-yellow (#F7C325) background with no gradient, no texture, no photorealism. When the main character appears he is EXACTLY the character from the reference image: bald round head, big round white eyes with small black pupils, small ears, pale peach skin, simple body. In this chapter he wears: a flashy turquoise tracksuit and gold-colored watch. Other people are drawn in the same simple style with different hair and clothes. 16:9 landscape composition. Keep the top 14% of the frame completely empty plain yellow background because a title will be placed there. Big, simple, readable subject; at most a few props; the background stays plain yellow except for a simple floor or furniture when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Medium shot on plain mustard yellow: the bald everyman in his flashy turquoise tracksuit and gold-colored watch grins confidently at an oversized paycheck, imagining an overflowing piggy bank inside a thought bubble.",
-          "image": "4941bebb1963cb83"
+          "image": "4941bebb1963cb83",
+          "spec": {
+            "shot": "medium",
+            "people": [
+              {
+                "who": "hero",
+                "pose": "stand",
+                "mood": "smug",
+                "side": "left"
+              }
+            ],
+            "props": [
+              {
+                "name": "invoice",
+                "slot": "right",
+                "size": "l"
+              }
+            ],
+            "bubble": {
+              "kind": "thought",
+              "prop": "piggy_bank"
+            },
+            "text": ""
+          }
         },
         {
           "kind": "image",
@@ -3921,7 +5579,27 @@
           "camera": "still",
           "line": "But a raise only increases savings when some of that extra income stays unspent.",
           "prompt": "Flat 2D cartoon illustration in exactly the same art style as the reference image: thick clean black outlines, flat vivid colors, very soft minimal shading, plain solid mustard-yellow (#F7C325) background with no gradient, no texture, no photorealism. When the main character appears he is EXACTLY the character from the reference image: bald round head, big round white eyes with small black pupils, small ears, pale peach skin, simple body. In this chapter he wears: a flashy turquoise tracksuit and gold-colored watch. Other people are drawn in the same simple style with different hair and clothes. 16:9 landscape composition. Keep the top 14% of the frame completely empty plain yellow background because a title will be placed there. Big, simple, readable subject; at most a few props; the background stays plain yellow except for a simple floor or furniture when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Close shot on plain mustard yellow: the bald everyman in his flashy turquoise tracksuit and gold-colored watch thoughtfully divides extra banknotes, feeding some into a piggy bank while leaving the rest beside bill envelopes.",
-          "image": "e295e90ac71d7f01"
+          "image": "e295e90ac71d7f01",
+          "spec": {
+            "shot": "close",
+            "people": [
+              {
+                "who": "hero",
+                "pose": "hold",
+                "mood": "neutral",
+                "side": "left"
+              }
+            ],
+            "props": [
+              {
+                "name": "piggy_bank",
+                "slot": "right",
+                "size": "m"
+              }
+            ],
+            "bubble": null,
+            "text": ""
+          }
         },
         {
           "kind": "image",
@@ -3930,7 +5608,32 @@
           "camera": "right",
           "line": "Over time, the new car smell disappears, but the higher payments keep arriving.",
           "prompt": "Flat 2D cartoon illustration in exactly the same art style as the reference image: thick clean black outlines, flat vivid colors, very soft minimal shading, plain solid mustard-yellow (#F7C325) background with no gradient, no texture, no photorealism. When the main character appears he is EXACTLY the character from the reference image: bald round head, big round white eyes with small black pupils, small ears, pale peach skin, simple body. In this chapter he wears: a flashy turquoise tracksuit and gold-colored watch. Other people are drawn in the same simple style with different hair and clothes. 16:9 landscape composition. Keep the top 14% of the frame completely empty plain yellow background because a title will be placed there. Big, simple, readable subject; at most a few props; the background stays plain yellow except for a simple floor or furniture when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Medium shot on plain mustard yellow: the bald everyman in his flashy turquoise tracksuit and gold-colored watch sniffs his car's worn leather with a disappointed frown as a continuing stream of payment envelopes lands in his lap.",
-          "image": "825803d041ac83d4"
+          "image": "825803d041ac83d4",
+          "spec": {
+            "shot": "medium",
+            "people": [
+              {
+                "who": "hero",
+                "pose": "sit",
+                "mood": "sad",
+                "side": "left"
+              }
+            ],
+            "props": [
+              {
+                "name": "car",
+                "slot": "right",
+                "size": "l"
+              },
+              {
+                "name": "envelope",
+                "slot": "hand",
+                "size": "m"
+              }
+            ],
+            "bubble": null,
+            "text": ""
+          }
         },
         {
           "kind": "image",
@@ -3939,7 +5642,37 @@
           "camera": "still",
           "line": "Your upgraded life becomes the minimum you expect to afford.",
           "prompt": "Flat 2D cartoon illustration in exactly the same art style as the reference image: thick clean black outlines, flat vivid colors, very soft minimal shading, plain solid mustard-yellow (#F7C325) background with no gradient, no texture, no photorealism. When the main character appears he is EXACTLY the character from the reference image: bald round head, big round white eyes with small black pupils, small ears, pale peach skin, simple body. In this chapter he wears: a flashy turquoise tracksuit and gold-colored watch. Other people are drawn in the same simple style with different hair and clothes. 16:9 landscape composition. Keep the top 14% of the frame completely empty plain yellow background because a title will be placed there. Big, simple, readable subject; at most a few props; the background stays plain yellow except for a simple floor or furniture when the scene needs it. The only text allowed in the image is: BASELINE — spelled exactly like that, in bold black capital letters. No other text. SCENE: Wide shot on plain mustard yellow: the bald everyman in his flashy turquoise tracksuit and gold-colored watch stands on a raised platform labeled BASELINE beside his luxury car and fancy coffee, arms folded with an entitled scowl.",
-          "image": "56045cc9cfc930eb"
+          "image": "56045cc9cfc930eb",
+          "spec": {
+            "shot": "wide",
+            "people": [
+              {
+                "who": "hero",
+                "pose": "cross",
+                "mood": "angry",
+                "side": "center"
+              }
+            ],
+            "props": [
+              {
+                "name": "stairs",
+                "slot": "left",
+                "size": "m"
+              },
+              {
+                "name": "car",
+                "slot": "right",
+                "size": "l"
+              },
+              {
+                "name": "cup",
+                "slot": "far_right",
+                "size": "s"
+              }
+            ],
+            "bubble": null,
+            "text": "BASELINE"
+          }
         },
         {
           "kind": "image",
@@ -3948,10 +5681,47 @@
           "camera": "pull",
           "line": "Your raise hired more bills.",
           "prompt": "Flat 2D cartoon illustration in exactly the same art style as the reference image: thick clean black outlines, flat vivid colors, very soft minimal shading, plain solid mustard-yellow (#F7C325) background with no gradient, no texture, no photorealism. When the main character appears he is EXACTLY the character from the reference image: bald round head, big round white eyes with small black pupils, small ears, pale peach skin, simple body. In this chapter he wears: a flashy turquoise tracksuit and gold-colored watch. Other people are drawn in the same simple style with different hair and clothes. 16:9 landscape composition. Keep the top 14% of the frame completely empty plain yellow background because a title will be placed there. Big, simple, readable subject; at most a few props; the background stays plain yellow except for a simple floor or furniture when the scene needs it. Absolutely no text, letters, numbers, or words anywhere in the image. SCENE: Medium shot on plain mustard yellow: the bald everyman in his flashy turquoise tracksuit and gold-colored watch clutches his bigger paycheck, greeting a line of bill-envelope employees carrying briefcases with a handshake and an uneasy smile.",
-          "image": "cba5c843aa74856b"
+          "image": "cba5c843aa74856b",
+          "spec": {
+            "shot": "medium",
+            "people": [
+              {
+                "who": "hero",
+                "pose": "hold",
+                "mood": "worried",
+                "side": "left"
+              },
+              {
+                "who": "other",
+                "pose": "hold",
+                "mood": "neutral",
+                "side": "right"
+              }
+            ],
+            "props": [
+              {
+                "name": "invoice",
+                "slot": "hand",
+                "size": "l"
+              },
+              {
+                "name": "envelope",
+                "slot": "hand",
+                "size": "m"
+              },
+              {
+                "name": "handshake_contract",
+                "slot": "center",
+                "size": "m"
+              }
+            ],
+            "bubble": null,
+            "text": ""
+          }
         }
       ],
-      "icon_image": "8c9067e5016da344"
+      "icon_image": "8c9067e5016da344",
+      "icon_prop": "shopping_cart"
     }
   ]
 }

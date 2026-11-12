@@ -26,7 +26,7 @@ for _m in ("props_money", "props_home", "props_tech", "props_life"):
 POSES = ["stand", "point", "up", "shrug", "head", "hold", "sit", "walk", "cross", "facepalm"]
 MOODS = list(art.EXPR)
 SLOTS = {"far_left": 230, "left": 560, "center": 960, "right": 1360, "far_right": 1690}
-SIZES = {"s": 300, "m": 440, "l": 620}
+SIZES = {"s": 340, "m": 500, "l": 700}
 WALL = {"window", "clock", "mirror", "calendar", "bell", "lightbulb", "thought_bubble", "speech_bubble", "trophy",
         "medal", "megaphone", "bookshelf", "door", "chart_up", "chart_down", "bar_chart", "pie_chart", "safe",
         "alarm_clock", "tv", "shield"}
@@ -124,6 +124,8 @@ def render(style, spec, outfit="", palette=None):
         x = min(max(x, s / 2 + 30), W - s / 2 - 30)
         name = p["name"]
         cy = wall_y if name in WALL and name not in ("tv", "safe", "bookshelf", "door") else floor - s * .5
+        if prof and shot != "close" and not (name in WALL and name not in ("tv", "safe", "bookshelf", "door")):
+            cv.ellipse(x, floor + 16, s * .36, 14, fill=shade(bg, .8), w=0)
         PROPS[name](cv, x, cy, s, style)
         if anchor is None:
             anchor = (x, cy - s * .5)
@@ -147,6 +149,8 @@ def render(style, spec, outfit="", palette=None):
         if prof:
             col = hero_col if pe.get("who", "hero") == "hero" else rgb(OTHERS[i % len(OTHERS)])
             hair = None if pe.get("who", "hero") == "hero" else rgb(["#4a3424", "#1d1a1a", "#b0752f", "#7a2d2d"][i % 4])
+            if shot != "close":
+                cv.ellipse(x, floor + 14, ph * .26, 15, fill=shade(bg, .8), w=0)
             person(cv, x, floor, ph, pose, mood, top=col, flip=flip, hair=hair)
         else:
             stick(cv, x, floor, ph, pose, mood, flip=flip, w=13 if shot != "close" else 22)
