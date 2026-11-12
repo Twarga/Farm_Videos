@@ -486,3 +486,4 @@ NameError: name 'cf' is not defined. Did you mean: 'ci'?
 [every-money-habit-that-keeps-you-broke-explained] 13:48:40 image 170/170 cba5c843aa74856b drawn
 [rawvideo @ 0x5b8545b4f140] Invalid buffer size, packet size 876544 < expected frame_size 6220800
 [vist#0:0/rawvideo @ 0x5b8545b4efc0] Error submitting packet to decoder: Invalid argument
+[every-money-habit-that-keeps-you-broke-explained] 14:31:38 long video: /home/tlab/videofarm/jobs/every-money-habit-that-keeps-you-broke-explained/out/long.mp4 (11.7 min)

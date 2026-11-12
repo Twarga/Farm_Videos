@@ -449,3 +449,4 @@ NameError: name 'cf' is not defined
 13:48:40 image 168/170 825803d041ac83d4 drawn
 13:48:40 image 169/170 56045cc9cfc930eb drawn
 13:48:40 image 170/170 cba5c843aa74856b drawn
+14:31:38 long video: /home/tlab/videofarm/jobs/every-money-habit-that-keeps-you-broke-explained/out/long.mp4 (11.7 min)
