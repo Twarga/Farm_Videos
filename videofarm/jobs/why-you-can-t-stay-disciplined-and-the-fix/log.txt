@@ -761,3 +761,4 @@ farm.llm.LLMError: LLM failed after 4 attempts: request failed: timed out
 16:46:11 image 256/257 04ff6c8bfd53669b drawn
 16:46:11 image 257/257 4240910e233425c1 drawn
 17:23:29 long video: /home/tlab/videofarm/jobs/why-you-can-t-stay-disciplined-and-the-fix/out/long.mp4 (10.1 min)
+17:31:47 short 1: 1. Stop Waiting To Feel Ready (57s)
