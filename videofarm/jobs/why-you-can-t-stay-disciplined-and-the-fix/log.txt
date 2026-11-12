@@ -795,3 +795,4 @@ farm.llm.LLMError: LLM failed after 4 attempts: request failed: timed out
 20:58:17 llm ok (attempt 1)
 20:58:17 specs '8. Practice Returning, Not Restarting': 31
 21:24:04 257 plates drawn
+22:12:49 long video: /home/tlab/videofarm/jobs/why-you-can-t-stay-disciplined-and-the-fix/out/long.mp4 (10.1 min)
