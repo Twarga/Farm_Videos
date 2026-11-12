@@ -201,17 +201,17 @@ def deco(inner):
 
 def banner_html():
     W, H = 2560, 1440
-    gy = 905
+    gy = 925
     ground = (f'<path d="M -30 {gy} C 400 {gy - 8}, 900 {gy + 8}, 1400 {gy - 2} S 2200 {gy + 7}, 2600 {gy - 3}" '
               f'fill="none" stroke="{INK}" stroke-width="9" stroke-linecap="round"/>')
     extras = "".join([
-        deco(coin(262, 250, 46)), deco(sparkle(420, 190, 26)),
-        deco(bill(2290, 262, 230, 98, 13)), deco(sparkle(2110, 330, 22)),
-        deco(sparkle(1380, 190, 30)),
-        deco(bill(560, 1210, 220, 94, -11)), deco(coin(2160, 1190, 42)),
-        deco(sparkle(1010, 1160, 24)), deco(sparkle(1900, 1250, 28)),
+        deco(coin(262, 250, 46)), deco(sparkle(430, 180, 26)),
+        deco(bill(2298, 262, 230, 98, 13)), deco(sparkle(2130, 180, 26)),
+        deco(sparkle(1280, 170, 30)),
+        deco(bill(520, 1220, 220, 94, -11)), deco(coin(2040, 1200, 42)),
+        deco(sparkle(860, 1190, 24)), deco(sparkle(1700, 1190, 24)),
     ])
-    left = deco(bill(352, 806, 262, 112, 8) + bill(318, 846, 270, 116, -8) + coin(496, 848, 54))
+    left = deco(bill(352, 826, 262, 112, 8) + bill(318, 866, 270, 116, -8) + coin(496, 868, 54))
     right = deco(stack(2250, gy, 5) + coin(2398, gy - 68, 68))
     return f"""<!doctype html><html><head><meta charset="utf-8"><style>
 @font-face{{font-family:'Baloo 2';src:url('Baloo2.ttf');font-weight:400 800}}
@@ -225,21 +225,25 @@ html,body{{margin:0;background:#e0ddd5}} svg{{display:block}}
 <g style="{SHADOW}"><g filter="url(#wob)">{ground}</g></g>
 {left}
 {right}
-<g style="{SHADOW}"><use href="#robot" transform="translate(715 {gy})"/></g>
+<g style="{SHADOW}"><use href="#robot" transform="translate(775 {gy})"/></g>
 <g id="hl" filter="url(#wob)"></g>
-<text id="word" x="960" y="678" font-family="Baloo 2" font-weight="800" font-size="190" fill="{INK}"
+<text id="word" x="990" y="680" font-family="Baloo 2" font-weight="800" font-size="190" fill="{INK}"
       style="filter:drop-shadow(4px 6px 0 rgba(38,33,28,.17))">flat money</text>
-<text x="964" y="766" font-family="Patrick Hand" font-size="76" fill="#5c5246">money, explained in about 45 seconds</text>
-{subscribe_pill(964, 820)}
+<text id="tag" x="994" y="760" font-family="Patrick Hand" font-size="76" fill="#5c5246">money, explained in about 45 seconds</text>
+{subscribe_pill(990, 802)}
 </svg>
 <script>
 Promise.all([document.fonts.load('800 190px "Baloo 2"'), document.fonts.load('76px "Patrick Hand"')]).then(()=>{{
+  const BW=940;
   const t=document.getElementById('word');
   t.setAttribute('font-size',190);
-  const fs=190*1060/t.getComputedTextLength();
+  const fs=190*BW/t.getComputedTextLength();
   t.setAttribute('font-size',fs);
+  const g=document.getElementById('tag');
+  g.setAttribute('font-size',76);
+  g.setAttribute('font-size',76*BW/g.getComputedTextLength());
   const x0=t.getStartPositionOfChar(5).x, len=t.getSubStringLength(5,5);
-  const y=678-fs*0.16, th=fs*0.27;
+  const y=680-fs*0.16, th=fs*0.27;
   const p=document.createElementNS('http://www.w3.org/2000/svg','path');
   p.setAttribute('d',`M ${{x0-10}} ${{y+4}} C ${{x0+len*0.3}} ${{y-7}}, ${{x0+len*0.7}} ${{y+8}}, ${{x0+len+12}} ${{y-3}}`);
   p.setAttribute('stroke','#f4a62a'); p.setAttribute('stroke-opacity','.92');
